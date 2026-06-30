@@ -1,0 +1,69 @@
+---
+// src/components/content-conversion/ContentAudienceSection.astro
+---
+<section class="py-20 bg-white border-y border-brand-border/40">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6">Who Needs Content Conversion?</h2>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {[
+        {
+          title: "Creators and Coaches",
+          situation: "Have notes, videos, frameworks, or PDFs.",
+          need: "Need to become a structured course.",
+          outcome: "Ready-to-sell online course."
+        },
+        {
+          title: "Consultants",
+          situation: "Have workshops, client frameworks, reports, or presentations.",
+          need: "Need to turn into repeatable learning assets.",
+          outcome: "Scalable digital products."
+        },
+        {
+          title: "Educators",
+          situation: "Have teaching materials.",
+          need: "Need to convert into online lessons, activities, quizzes, and resources.",
+          outcome: "Engaging online curriculum."
+        },
+        {
+          title: "Training Companies",
+          situation: "Have manuals, slide decks, and instructor-led training.",
+          need: "Need to modernize into digital learning formats.",
+          outcome: "Flexible e-learning programs."
+        },
+        {
+          title: "Online Academies",
+          situation: "Have multiple courses in development.",
+          need: "Need consistent lesson formats, resources, and content structures.",
+          outcome: "Standardized course library."
+        },
+        {
+          title: "Businesses and Internal Training",
+          situation: "Have SOPs, onboarding files, policies, and internal documents.",
+          need: "Need converted into LMS-ready training content.",
+          outcome: "Effective employee training."
+        }
+      ].map((card) => (
+        <div class="bg-brand-softBg/50 border border-brand-border/60 rounded-xl p-6 hover:shadow-md transition-shadow group">
+          <h3 class="text-xl font-bold text-brand-navy mb-4 group-hover:text-brand-primary transition-colors">{card.title}</h3>
+          <ul class="space-y-3">
+             <li class="flex items-start text-sm">
+                <svg class="w-5 h-5 text-brand-textMuted mr-2 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                <span class="text-brand-textMain"><strong class="text-brand-navy font-semibold block">Current:</strong> {card.situation}</span>
+            </li>
+            <li class="flex items-start text-sm">
+                <svg class="w-5 h-5 text-brand-textMuted mr-2 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                <span class="text-brand-textMain"><strong class="text-brand-navy font-semibold block">Need:</strong> {card.need}</span>
+            </li>
+            <li class="flex items-start text-sm">
+                <svg class="w-5 h-5 text-brand-accent mr-2 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <span class="text-brand-textMain"><strong class="text-brand-navy font-semibold block">Outcome:</strong> {card.outcome}</span>
+            </li>
+          </ul>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

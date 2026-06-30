@@ -1,0 +1,157 @@
+---
+// src/components/course-creation/CoursePackages.astro
+const packages = [
+  {
+    slug: "course-clarity-blueprint", title: "Course Clarity Blueprint",
+    price: "Starting from $500",
+    bestFor: "Creators and coaches with an idea but no clear structure.",
+    timeline: "1 week",
+    includes: [
+      "Audience and course goal review",
+      "Course promise",
+      "Module map",
+      "Lesson outline",
+      "Learner journey",
+      "Launch readiness notes"
+    ]
+  },
+  {
+    slug: "content-conversion-kit", title: "Curriculum Design Build",
+    price: "Starting from $1,200",
+    bestFor: "Educators, consultants, and training teams that need a full course structure before building in Kajabi or an LMS.",
+    timeline: "2-4 weeks",
+    includes: [
+      "Curriculum map",
+      "Learning outcomes",
+      "Module and lesson structure",
+      "Activity planning",
+      "Assessment ideas",
+      "Resource list",
+      "Completion pathway"
+    ],
+    highlight: true
+  },
+  {
+    slug: "content-conversion-kit", title: "Course Content Production",
+    price: "Starting from $2,500",
+    bestFor: "Clients who need lesson scripts, worksheets, quizzes, summaries, resources, and platform-ready learning assets.",
+    timeline: "4-6 weeks",
+    includes: [
+      "Course blueprint",
+      "Lesson scripts/talking points",
+      "Worksheets",
+      "Quizzes",
+      "Downloadable resources",
+      "Student onboarding content",
+      "Kajabi/LMS-ready structure"
+    ]
+  },
+  {
+    slug: "course-platform-build", title: "Course + Platform Launch Build",
+    price: "Custom quote, usually starting from $4,000",
+    bestFor: "Clients who want course creation plus Kajabi/LMS build, funnel assets, onboarding, and launch support.",
+    timeline: "2-3 months",
+    includes: [
+      "Course design",
+      "Learning assets",
+      "Kajabi/LMS structure",
+      "Landing page copy support",
+      "Email/onboarding support",
+      "Launch checklist",
+      "QA support"
+    ]
+  }
+];
+---
+<section class="py-24 bg-brand-softBg relative">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6">
+        Ways We Can Help Create Your Course
+      </h2>
+      <p class="text-lg text-brand-textMuted leading-relaxed">
+        We offer flexible engagement types depending on where you are in your course creation journey.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+      {packages.map((pkg) => (
+        <div class={`bg-white rounded-2xl flex flex-col h-full border transition-all duration-300 hover:-translate-y-2 hover:shadow-xl ${pkg.highlight ? 'border-brand-primary shadow-lg ring-1 ring-brand-primary/20 relative' : 'border-brand-border shadow-sm'}`}>
+
+          {pkg.highlight && (
+            <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <span class="bg-brand-primary text-white text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full">Most Popular</span>
+            </div>
+          )}
+
+          <div class="p-8 border-b border-brand-border/60">
+            <h3 class="text-xl font-bold text-brand-navy mb-2">{pkg.title}</h3>
+            <div class="text-2xl font-extrabold text-brand-primary mb-4">{pkg.price}</div>
+            <p class="text-sm text-brand-textMuted mb-2 min-h-[60px]">
+              <span class="font-semibold text-brand-navy block mb-1">Best for:</span> {pkg.bestFor}
+            </p>
+            <p class="text-sm text-brand-textMuted mb-2">
+              <span class="font-semibold text-brand-navy block mb-1">Timeline:</span> {pkg.timeline}
+            </p>
+          </div>
+
+          <div class="p-8 flex-grow">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-textMuted mb-4 block">Includes</span>
+            <ul class="space-y-3 mb-8">
+              {pkg.includes.map((item) => (
+                <li class="flex items-start">
+                  <svg class="w-5 h-5 text-brand-accent mr-3 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                  <span class="text-sm text-brand-textMain leading-snug">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="p-8 pt-0 mt-auto flex flex-col space-y-3">
+             <a href={`/book-free-audit/?package=${pkg.slug}&source=package-card`} data-package-slug={pkg.slug} data-package-price={pkg.price} class={`tawk-package-btn block w-full text-center py-3 px-4 rounded-md font-bold transition-all ${pkg.highlight ? 'bg-brand-primary text-white hover:bg-brand-navy shadow-lg' : 'bg-brand-navy text-white hover:bg-opacity-90 shadow-md'} focus-ring`}>Start This Package</a>
+             <p class="text-xs text-brand-textMuted text-center leading-tight">Talk to our team first so we can confirm the right package, scope, timeline, and payment next step.</p>
+             <a href={`/book-free-audit/?package=${pkg.slug}&source=package-card`} class="block w-full text-center py-3 px-4 bg-white text-brand-navy font-semibold rounded-md border border-brand-border hover:bg-brand-softBg transition-colors shadow-sm">
+                Submit Project Details
+             </a>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Case Studies Integration -->
+    <div class="mb-12">
+      <h3 class="text-xl font-bold text-center text-brand-navy mb-6">See Real Results:</h3>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/case-studies/sqa-aligned-vocational-training/" class="inline-flex items-center px-4 py-2 bg-white border border-brand-border/60 rounded-full text-sm font-medium text-brand-textMain hover:border-brand-accent hover:text-brand-accent transition-colors shadow-sm">
+          SQA-Aligned Vocational Training
+          <svg class="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="max-w-4xl mx-auto text-center mt-12 bg-white p-6 rounded-xl border border-brand-border/60 text-sm text-brand-textMuted shadow-sm">
+      <p>
+        <span class="font-semibold text-brand-navy">Pricing disclaimer:</span> Starting prices are not fixed final quotes. Final scope depends on content volume, platform, course length, page count, review rounds, automations, integrations, and launch support.
+      </p>
+    </div>
+  </div>
+
+<script>
+  import { openStartPackageChat } from '../../utils/tawkSales';
+  document.addEventListener('DOMContentLoaded', () => {
+    const btns = document.querySelectorAll('.tawk-package-btn');
+    btns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = e.currentTarget;
+        openStartPackageChat({
+          packageSlug: target.dataset.packageSlug || '',
+          packagePrice: target.dataset.packagePrice || '',
+          pageUrl: window.location.href,
+          pageTitle: document.title,
+        });
+      });
+    });
+  });
+</script>
+</section>

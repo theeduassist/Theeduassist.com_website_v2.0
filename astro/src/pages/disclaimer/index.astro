@@ -1,0 +1,41 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { webPageSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const title = "Disclaimer";
+const description = "Read TheEduAssist's general website disclaimer for Kajabi, LMS, course design, and eLearning support content.";
+const canonicalPath = "/disclaimer/";
+
+const jsonLd = [
+  webPageSchema(title, description, canonicalPath),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: title, urlPath: canonicalPath }
+  ])
+];
+---
+<Layout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-3xl mx-auto px-4 py-24 prose prose-slate">
+    <h1>Disclaimer</h1>
+    <p>Last updated: {new Date().toLocaleDateString()}</p>
+
+    <h2>1. General Information</h2>
+    <p>TheEduAssist provides course design, Kajabi setup, LMS implementation, and eLearning support services. The content on this website is for general informational purposes only.</p>
+
+    <h2>2. No Guarantees</h2>
+    <p>While we strive to provide excellent technical and design support, TheEduAssist does not guarantee specific business, sales, learner engagement, platform performance, ranking, or revenue outcomes.</p>
+
+    <h2>3. Third-Party Platforms</h2>
+    <p>TheEduAssist is an independent service provider and is not an official partner of Kajabi, Moodle, LearnWorlds, Docebo, or any other Learning Management System unless explicitly stated and verified on this website.</p>
+
+    <h2>4. Professional Advice</h2>
+    <p>The information on this website does not constitute legal, financial, or formal business advice. Clients should conduct their own due diligence before making significant platform or business decisions.</p>
+
+    <p class="italic mt-8 text-sm text-slate-500">Legal review recommended before launch.</p>
+  </div>
+</Layout>

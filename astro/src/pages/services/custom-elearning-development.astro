@@ -1,0 +1,69 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import CourseCreationHero from "../../components/course-creation/CourseCreationHero.astro";
+import CourseProblemSection from "../../components/course-creation/CourseProblemSection.astro";
+import CourseAudienceSection from "../../components/course-creation/CourseAudienceSection.astro";
+import CourseLifecycle from "../../components/course-creation/CourseLifecycle.astro";
+import CourseWhatWeCreate from "../../components/course-creation/CourseWhatWeCreate.astro";
+import CurriculumDesignSection from "../../components/course-creation/CurriculumDesignSection.astro";
+import ContentConversionSection from "../../components/course-creation/ContentConversionSection.astro";
+import LearnerExperienceSection from "../../components/course-creation/LearnerExperienceSection.astro";
+import CourseDeliverables from "../../components/course-creation/CourseDeliverables.astro";
+import CoursePackages from "../../components/course-creation/CoursePackages.astro";
+import CourseComparison from "../../components/course-creation/CourseComparison.astro";
+import CourseFAQ from "../../components/course-creation/CourseFAQ.astro";
+import CourseFinalCTA from "../../components/course-creation/CourseFinalCTA.astro";
+import CaseStudyProof from "../../components/case-studies/CaseStudyProof.astro";
+
+import { professionalServiceSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const jsonLd = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Services", urlPath: "/services/" },
+    { name: "Course Creation & Curriculum Design", urlPath: "/services/custom-elearning-development/" }
+  ])
+];
+---
+<Layout
+  title="Course Creation & Curriculum Design Services | TheEduAssist"
+  description="TheEduAssist helps creators, coaches, educators, consultants, academies, training companies, and businesses turn raw ideas, PDFs, slides, videos, workshops, and expertise into structured online courses, curriculum maps, lesson plans, worksheets, quizzes, and platform-ready learning systems."
+  canonicalPath="/services/custom-elearning-development/"
+  jsonLd={jsonLd}
+>
+
+  <CourseCreationHero />
+  <CourseProblemSection />
+  <CourseAudienceSection />
+  <CourseLifecycle />
+  <CourseWhatWeCreate />
+  <CurriculumDesignSection />
+  <ContentConversionSection />
+  <LearnerExperienceSection />
+  <CourseDeliverables />
+  <CoursePackages />
+  <CourseComparison />
+  <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
+  <CourseFAQ />
+  <CourseFinalCTA />
+
+  <script>
+    import { openStartServiceChat } from "../../utils/tawkSales";
+    document.addEventListener("DOMContentLoaded", () => {
+      const btns = document.querySelectorAll(".tawk-service-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          const target = e.currentTarget as HTMLButtonElement;
+          openStartServiceChat({
+            serviceSlug: target.dataset.serviceSlug || "",
+            pageUrl: window.location.href,
+            pageTitle: document.title,
+          });
+        });
+      });
+    });
+  </script>
+
+</Layout>

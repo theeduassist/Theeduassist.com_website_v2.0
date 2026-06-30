@@ -1,0 +1,100 @@
+---
+import { aiAssistants } from '../../data/aiAssistants';
+import AIAssistantButton from './AIAssistantButton.astro';
+
+// We'll duplicate the list for continuous scrolling effect
+const scrollItems = [...aiAssistants, ...aiAssistants];
+---
+
+<div class="border-t border-brand-border/20 bg-brand-navy/30 py-8 relative overflow-hidden group">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 text-center">
+        <h3 class="text-white font-bold text-lg mb-2">Explore this page with your preferred AI assistant</h3>
+        <p class="text-sm text-slate-400 max-w-2xl mx-auto">Open your chosen AI assistant with a page-summary prompt where supported, or paste the copied prompt to understand this page faster.</p>
+    </div>
+
+    <!-- Scrolling Track container -->
+    <div class="relative w-full overflow-hidden" aria-hidden="true">
+        <!-- Fade edges -->
+        <div class="absolute left-0 top-0 bottom-0 w-8 md:w-24 bg-gradient-to-r from-brand-primary to-transparent z-10 pointer-events-none"></div>
+        <div class="absolute right-0 top-0 bottom-0 w-8 md:w-24 bg-gradient-to-l from-brand-primary to-transparent z-10 pointer-events-none"></div>
+
+        <!-- The scrolling content -->
+        <div class="flex items-center space-x-4 w-max animate-scroll hover:animation-pause px-4">
+            {scrollItems.map((assistant) => (
+                <AIAssistantButton
+                    assistant={assistant}
+                    variant="badge"
+                    class="footer-ai-btn flex-shrink-0"
+                />
+            ))}
+        </div>
+    </div>
+
+    <!-- Screen reader accessible list (hidden visually) -->
+    <div class="sr-only">
+        <ul>
+             {aiAssistants.map((assistant) => (
+                <li>
+                    <button class="footer-ai-btn" data-ai-id={assistant.id} data-ai-url={assistant.baseUrl} data-ai-name={assistant.name}>
+                        Open {assistant.name}
+                    </button>
+                </li>
+            ))}
+        </ul>
+    </div>
+</div>
+
+<script>
+    import { copyAndOpenAI } from './AIAssistClient';
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const btns = document.querySelectorAll('.footer-ai-btn');
+
+        btns.forEach(btn => {
+            btn.addEventListener('click', async (e) => {
+                const target = e.currentTarget as HTMLButtonElement;
+                const url = target.dataset.aiUrl || '';
+                const name = target.dataset.aiName || '';
+
+                // Footer defaults to summarize
+                await copyAndOpenAI('summarize_page', url, name);
+            });
+        });
+    });
+</script>
+
+<style>
+    @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+
+    .animate-scroll {
+        animation: scroll 30s linear infinite;
+    }
+
+    .hover\:animation-pause:hover {
+        animation-play-state: paused;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .animate-scroll {
+            animation: none;
+            /* If no animation, we use overflow-x-auto to allow manual scroll */
+            overflow-x: auto;
+            transform: none !important;
+            padding-bottom: 0.5rem;
+        }
+        .animate-scroll::-webkit-scrollbar {
+            height: 4px;
+        }
+        .animate-scroll::-webkit-scrollbar-thumb {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+        }
+        /* Hide fading edges when scrolling manually */
+        .from-brand-primary {
+             display: none;
+        }
+    }
+</style>

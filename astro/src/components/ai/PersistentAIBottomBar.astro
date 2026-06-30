@@ -1,0 +1,271 @@
+---
+import { aiAssistants } from '../../data/aiAssistants';
+
+// Get the 3 primary tools for mobile first view
+const primaryAIs = ['chatgpt', 'gemini', 'perplexity'];
+const primaryAssistants = aiAssistants.filter(ai => primaryAIs.includes(ai.id));
+const secondaryAssistants = aiAssistants.filter(ai => !primaryAIs.includes(ai.id));
+---
+
+<!-- Minimized Pill State (Mobile Default) -->
+<button type="button" id="ai-minimized-pill" class="fixed bottom-4 left-4 z-[40] bg-white border border-slate-200 shadow-lg px-4 py-2.5 rounded-full text-sm font-bold text-slate-700 hover:text-brand-primary flex items-center gap-2 focus-ring transition-all duration-300 md:hidden group" aria-expanded="false" aria-controls="ai-bottom-bar">
+    <div class="relative">
+        <svg class="w-4 h-4 text-brand-primary group-hover:scale-110 transition-transform motion-reduce:transition-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+        <span class="absolute top-0 right-0 w-1.5 h-1.5 bg-brand-accent rounded-full animate-pulse motion-reduce:animate-none"></span>
+    </div>
+    Ask AI about this page
+</button>
+
+<!-- Main Bar -->
+<div id="ai-bottom-bar" class="fixed bottom-0 left-0 right-0 z-[40] bg-white/95 backdrop-blur-md border-t border-slate-200 shadow-[0_-8px_30px_rgba(0,0,0,0.08)] transform transition-all duration-500 translate-y-full md:translate-y-0 opacity-0 md:opacity-100 flex flex-col md:rounded-t-2xl max-w-7xl mx-auto" aria-label="AI Assistant Toolbar">
+
+    <div class="w-full px-4 py-3 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+
+        <!-- Left Side: Identity -->
+        <div class="hidden md:flex items-center gap-3 flex-shrink-0">
+            <div class="p-2 bg-brand-softBg rounded-lg">
+                 <div class="relative">
+                    <svg class="w-5 h-5 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    <span id="ai-attention-dot" class="absolute -top-1 -right-1 w-2 h-2 bg-brand-accent rounded-full animate-pulse motion-reduce:animate-none hidden"></span>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-sm font-bold text-slate-800">AI Assist</h3>
+                <p class="text-xs text-slate-500">Summarize, compare, or ask AI</p>
+            </div>
+        </div>
+
+        <!-- Mobile Header (Visible only when expanded on mobile) -->
+        <div class="w-full flex md:hidden items-center justify-between">
+            <div class="flex items-center gap-2">
+                <svg class="w-5 h-5 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                <span class="font-bold text-sm text-slate-800">AI Assist</span>
+            </div>
+             <button type="button" id="ai-bar-close-mobile" class="p-2 text-slate-400 hover:text-slate-600 focus-ring rounded-full bg-slate-100" aria-label="Minimize AI Assist">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+        </div>
+
+        <!-- Center: Input Simulation -->
+        <div class="flex-1 w-full max-w-2xl relative group">
+             <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-brand-primary">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            </div>
+            <select id="ai-prompt-select" class="block w-full pl-10 pr-10 py-2.5 border border-slate-200 rounded-full bg-slate-50 text-sm text-slate-700 appearance-none focus:ring-2 focus:ring-brand-primary/20 focus:border-brand-primary transition-all group-hover:border-slate-300 cursor-pointer shadow-inner">
+                <option value="help_me_choose">Ask AI about this page, compare packages, or help me choose a service...</option>
+                <option value="summarize_page">Summarize this page</option>
+                <option value="compare_platforms">Compare platforms</option>
+                <option value="explain_pricing">Explain pricing</option>
+                <option value="create_action_plan">Turn this into an action plan</option>
+            </select>
+            <div class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none text-slate-400">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </div>
+        </div>
+
+        <!-- Right Side: Action Buttons -->
+        <div class="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-2 md:pb-0 scrollbar-hide">
+
+            <button type="button" id="ai-copy-prompt-btn" class="flex-shrink-0 bg-slate-100 hover:bg-slate-200 text-slate-700 px-4 py-2 rounded-full text-sm font-bold transition-all focus-ring border border-slate-200 shadow-sm flex items-center gap-2 hover:-translate-y-0.5 motion-reduce:hover:translate-y-0 relative overflow-hidden group">
+                <span class="absolute inset-0 w-full h-full bg-white/20 group-hover:animate-[shine_1.5s_ease-in-out] motion-reduce:hidden"></span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                <span>Copy Prompt</span>
+            </button>
+
+            <div class="hidden md:block w-px h-6 bg-slate-200 mx-1 flex-shrink-0"></div>
+
+            <!-- AI Tool Buttons -->
+            <div class="flex items-center gap-1.5" id="ai-tools-container">
+                {aiAssistants.map(ai => (
+                    <button type="button" class={`ai-bottom-btn flex-shrink-0 flex items-center justify-center px-3 py-1.5 bg-white rounded-full hover:bg-slate-50 hover:shadow-md text-slate-600 hover:text-brand-primary transition-all focus-ring border border-slate-200 hover:border-slate-300 hover:-translate-y-0.5 motion-reduce:hover:translate-y-0 ${!primaryAIs.includes(ai.id) ? 'hidden md:flex extra-ai-tool' : ''}`} title={`Open ${ai.name}`} data-ai-name={ai.name} data-ai-url={ai.baseUrl}>
+                        <span class="sr-only">Open {ai.name}</span>
+                        <span class="text-xs font-bold">{ai.shortLabel}</span>
+                    </button>
+                ))}
+            </div>
+
+            <!-- Mobile More Button -->
+            <button type="button" id="ai-mobile-more-btn" class="md:hidden flex-shrink-0 px-3 py-1.5 text-xs font-medium text-slate-500 bg-slate-100 rounded-full hover:bg-slate-200 focus-ring">
+                More
+            </button>
+
+            <!-- Desktop Minimize -->
+            <div class="hidden md:block w-px h-6 bg-slate-200 mx-1 flex-shrink-0"></div>
+            <button type="button" id="ai-bar-minimize-desktop" class="hidden md:flex flex-shrink-0 p-2 text-slate-400 hover:text-slate-600 bg-white hover:bg-slate-50 border border-slate-100 rounded-full focus-ring transition-colors shadow-sm" aria-label="Minimize AI Assist" title="Minimize">
+                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Disclaimer Strip -->
+    <div class="bg-slate-50 px-4 py-2 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-2 text-center sm:text-left">
+        <p class="text-[10px] text-slate-500">AI can help you understand the page. For confirmed scope, timeline, and pricing, talk to TheEduAssist sales team.</p>
+        <button type="button" class="text-xs font-bold text-brand-primary hover:text-brand-navy flex items-center gap-1 focus-ring" onclick="if(window.Tawk_API){window.Tawk_API.setAttributes({lead_intent: 'ai_assist_to_sales', source_cta: 'ai-bottom-bar-talk-to-sales', page_url: window.location.href, page_title: document.title}); window.Tawk_API.toggle();}">
+            Talk to Sales
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </button>
+    </div>
+</div>
+
+<!-- Desktop Minimized Tab -->
+<button type="button" id="ai-desktop-minimized-tab" class="hidden md:flex fixed bottom-0 right-8 z-[40] bg-white border border-slate-200 border-b-0 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] px-4 py-2 rounded-t-xl text-sm font-bold text-slate-600 hover:text-brand-primary items-center gap-2 focus-ring transition-all duration-300 translate-y-full group" aria-expanded="false" aria-controls="ai-bottom-bar">
+    <div class="relative">
+        <svg class="w-4 h-4 text-brand-primary group-hover:animate-pulse motion-reduce:animate-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+    </div>
+    AI Assist
+    <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path></svg>
+</button>
+
+<style>
+    .scrollbar-hide::-webkit-scrollbar { display: none; }
+    .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+    @keyframes shine {
+        100% { left: 125%; }
+    }
+    .group:hover .group-hover\:animate-\[shine_1\.5s_ease-in-out\] {
+        left: -125%;
+        transform: skewX(-20deg);
+        animation: shine 1.5s ease-in-out infinite;
+    }
+</style>
+
+<script>
+    import { copyAndOpenAI, generateFullPrompt } from './AIAssistClient';
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const bar = document.getElementById('ai-bottom-bar');
+        const mobilePill = document.getElementById('ai-minimized-pill');
+        const desktopTab = document.getElementById('ai-desktop-minimized-tab');
+        const closeMobile = document.getElementById('ai-bar-close-mobile');
+        const minimizeDesktop = document.getElementById('ai-bar-minimize-desktop');
+        const copyBtn = document.getElementById('ai-copy-prompt-btn');
+        const promptSelect = document.getElementById('ai-prompt-select') as HTMLSelectElement;
+        const moreBtn = document.getElementById('ai-mobile-more-btn');
+        const extraTools = document.querySelectorAll('.extra-ai-tool');
+        const attentionDot = document.getElementById('ai-attention-dot');
+
+        let isExpanded = false;
+        const isDesktop = window.innerWidth >= 768;
+
+        // Entry Animation (Slide up after load)
+        setTimeout(() => {
+            if (!localStorage.getItem('aiBarHasSeen')) {
+                // First visit: open slightly then close to hint it's there
+                attentionDot?.classList.remove('hidden');
+                setTimeout(() => attentionDot?.classList.add('hidden'), 5000);
+                localStorage.setItem('aiBarHasSeen', 'true');
+            }
+
+            // Restore user state
+            const savedState = localStorage.getItem('aiBarState');
+            if (savedState === 'expanded') {
+                expandBar();
+            } else {
+                minimizeBar();
+            }
+        }, 800); // Wait for other elements to settle
+
+        function expandBar() {
+            isExpanded = true;
+            if (bar) {
+                bar.classList.remove('translate-y-full', 'opacity-0');
+                bar.classList.add('translate-y-0', 'opacity-100');
+            }
+            mobilePill?.classList.add('translate-y-[150%]', 'opacity-0');
+            desktopTab?.classList.add('translate-y-full');
+            mobilePill?.setAttribute('aria-expanded', 'true');
+            desktopTab?.setAttribute('aria-expanded', 'true');
+            localStorage.setItem('aiBarState', 'expanded');
+        }
+
+        function minimizeBar() {
+            isExpanded = false;
+            if (bar) {
+                bar.classList.add('translate-y-full', 'opacity-0');
+                bar.classList.remove('translate-y-0', 'opacity-100');
+            }
+            if (window.innerWidth >= 768) {
+                desktopTab?.classList.remove('translate-y-full');
+            } else {
+                mobilePill?.classList.remove('translate-y-[150%]', 'opacity-0');
+            }
+            mobilePill?.setAttribute('aria-expanded', 'false');
+            desktopTab?.setAttribute('aria-expanded', 'false');
+            localStorage.setItem('aiBarState', 'minimized');
+        }
+
+        // Toggles
+        mobilePill?.addEventListener('click', expandBar);
+        desktopTab?.addEventListener('click', expandBar);
+        closeMobile?.addEventListener('click', minimizeBar);
+        minimizeDesktop?.addEventListener('click', minimizeBar);
+
+        // Handle Escape Key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && isExpanded) minimizeBar();
+        });
+
+        // Mobile More Button
+        moreBtn?.addEventListener('click', () => {
+            extraTools.forEach(tool => {
+                tool.classList.toggle('hidden');
+                tool.classList.toggle('flex');
+            });
+            moreBtn.textContent = extraTools[0].classList.contains('hidden') ? 'More' : 'Less';
+        });
+
+        // Copy plain text prompt
+        copyBtn?.addEventListener('click', async () => {
+            const actionId = promptSelect?.value || 'help_me_choose';
+            const prompt = generateFullPrompt(actionId);
+            try {
+                await navigator.clipboard.writeText(prompt);
+
+                // Show global toast
+                const toastEvent = new CustomEvent('show-ai-toast', {
+                    detail: { title: "Prompt Copied", message: "Paste it into any AI assistant if the input box is empty." }
+                });
+                window.dispatchEvent(toastEvent);
+
+                // Inline feedback
+                const originalContent = copyBtn.innerHTML;
+                copyBtn.innerHTML = '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg><span>Copied!</span>';
+                copyBtn.classList.add('text-brand-accent', 'border-brand-accent');
+
+                setTimeout(() => {
+                    copyBtn.innerHTML = originalContent;
+                    copyBtn.classList.remove('text-brand-accent', 'border-brand-accent');
+                }, 2000);
+
+            } catch (err) {
+                console.error("Failed to copy", err);
+            }
+        });
+
+        // LLM buttons
+        const aiBtns = document.querySelectorAll('.ai-bottom-btn');
+        aiBtns.forEach(btn => {
+            btn.addEventListener('click', async (e) => {
+                const target = e.currentTarget as HTMLButtonElement;
+                const url = target.dataset.aiUrl || '';
+                const name = target.dataset.aiName || '';
+                const actionId = promptSelect?.value || 'help_me_choose';
+
+                await copyAndOpenAI(actionId, url, name);
+            });
+        });
+
+        // Handle resize layout shifts
+        window.addEventListener('resize', () => {
+            if (!isExpanded) {
+                 if (window.innerWidth >= 768) {
+                    desktopTab?.classList.remove('translate-y-full');
+                    mobilePill?.classList.add('translate-y-[150%]', 'opacity-0');
+                 } else {
+                    desktopTab?.classList.add('translate-y-full');
+                    mobilePill?.classList.remove('translate-y-[150%]', 'opacity-0');
+                 }
+            }
+        });
+    });
+</script>

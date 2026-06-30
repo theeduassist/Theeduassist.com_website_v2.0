@@ -1,0 +1,97 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+import LMSMigrationHero from "../../components/lms/LMSMigrationHero.astro";
+import LMSProblemSection from "../../components/lms/LMSProblemSection.astro";
+import LMSAudienceSection from "../../components/lms/LMSAudienceSection.astro";
+import LMSSourcesSection from "../../components/lms/LMSSourcesSection.astro";
+import LMSMigrationLifecycle from "../../components/lms/LMSMigrationLifecycle.astro";
+import LMSSetupCapabilities from "../../components/lms/LMSSetupCapabilities.astro";
+import LMSPlatformAgnostic from "../../components/lms/LMSPlatformAgnostic.astro";
+import LMSContentStandards from "../../components/lms/LMSContentStandards.astro";
+import LMSLearnerExperience from "../../components/lms/LMSLearnerExperience.astro";
+import LMSComparison from "../../components/lms/LMSComparison.astro";
+import LMSEngagementTypes from "../../components/lms/LMSEngagementTypes.astro";
+import LMSFAQ from "../../components/lms/LMSFAQ.astro";
+import LMSFinalCTA from "../../components/lms/LMSFinalCTA.astro";
+import CaseStudyProof from "../../components/case-studies/CaseStudyProof.astro";
+
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "LMS Implementation & Migration Services",
+    "description": "Safe strategies for moving course content, learners, and media. We support Moodle-style LMS, WordPress LMS, LearnDash, Thinkific, Teachable, TalentLMS, Canvas, Custom LMS, Membership Hubs, Internal Training Portals, and more.",
+    "provider": {
+      "@type": "Organization",
+      "name": "TheEduAssist"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://theeduassist.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://theeduassist.com/services/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "LMS Implementation & Migration Services",
+        "item": "https://theeduassist.com/services/lms-implementation-migration/"
+      }
+    ]
+  }
+];
+
+// SEO
+const title = "LMS Implementation & Migration Services | TheEduAssist";
+const description = "TheEduAssist helps creators, educators, training companies, academies, and businesses migrate, organize, and rebuild learning content from WordPress, Google Drive, PDFs, old LMS platforms, and scattered files into clean LMS and e-learning systems.";
+---
+
+<Layout jsonLd={jsonLd} title={title} description={description}>
+  <main>
+    <LMSMigrationHero />
+    <LMSProblemSection />
+    <LMSAudienceSection />
+    <LMSSourcesSection />
+    <LMSMigrationLifecycle />
+    <LMSSetupCapabilities />
+    <LMSPlatformAgnostic />
+    <LMSContentStandards />
+    <LMSLearnerExperience />
+    <LMSComparison />
+    <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
+    <LMSEngagementTypes />
+    <LMSFAQ />
+    <LMSFinalCTA />
+  </main>
+  <script>
+    import { openStartServiceChat } from "../../utils/tawkSales";
+    document.addEventListener("DOMContentLoaded", () => {
+      const btns = document.querySelectorAll(".tawk-service-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          const target = e.currentTarget as HTMLButtonElement;
+          openStartServiceChat({
+            serviceSlug: target.dataset.serviceSlug || "",
+            pageUrl: window.location.href,
+            pageTitle: document.title,
+          });
+        });
+      });
+    });
+  </script>
+
+</Layout>

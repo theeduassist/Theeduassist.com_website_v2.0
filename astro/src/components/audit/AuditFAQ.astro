@@ -1,0 +1,37 @@
+---
+import FAQAccordion from '../ui/FAQAccordion.astro';
+
+const faqs = [
+  {
+    question: "Is the audit really free?",
+    answer: "Yes. The audit request helps us understand your project and recommend the right next step. Full implementation work is quoted separately."
+  },
+  {
+    question: "Do I need to have course content ready?",
+    answer: "No. You can submit an idea, rough notes, existing content, Kajabi setup, LMS, or scattered files."
+  },
+  {
+    question: "Can you review my Kajabi setup?",
+    answer: "Yes. Kajabi is one of our strongest specialties."
+  },
+  {
+    question: "Can you review LMS or WordPress content?",
+    answer: "Yes. We can review LMS content, WordPress course pages, Google Drive folders, PDFs, videos, and other training materials."
+  },
+  {
+    question: "Will you give pricing?",
+    answer: "We can recommend a package or custom quote after reviewing your audit details. Pricing depends on scope, content volume, platform, timeline, and launch needs."
+  },
+  {
+    question: "Do you guarantee sales?",
+    answer: "No. We help improve structure, learning experience, platform setup, funnels, and launch readiness, but sales depend on offer, audience, traffic, pricing, trust, and other factors."
+  }
+];
+---
+
+<section class="py-24 bg-slate-50 border-t border-slate-200">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-10 text-center text-slate-900">Free Audit FAQ</h2>
+    <FAQAccordion items={faqs} />
+  </div>
+</section>

@@ -1,0 +1,27 @@
+---
+const points = [
+    "We understand both learning design and platform setup.",
+    "We structure content so learners know exactly what to do next.",
+    "We build systems that support selling, teaching, onboarding, and delivery.",
+    "We can work with Kajabi, LMS platforms, content files, templates, and launch workflows.",
+    "We support creators, coaches, consultants, educators, and training businesses."
+];
+---
+<section class="py-24 bg-brand-softBg">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-brand-border text-center">
+            <h2 class="text-3xl font-bold text-brand-navy mb-8">Why Teams Choose TheEduAssist</h2>
+
+            <ul class="space-y-4 text-left max-w-2xl mx-auto">
+                {points.map((point) => (
+                    <li class="flex items-start space-x-4 p-4 rounded-xl hover:bg-brand-softBg transition-colors">
+                        <div class="mt-1 flex-shrink-0 w-6 h-6 rounded-full bg-brand-softGreen text-brand-accent flex items-center justify-center">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                        </div>
+                        <span class="text-lg font-medium text-brand-textMain">{point}</span>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    </div>
+</section>

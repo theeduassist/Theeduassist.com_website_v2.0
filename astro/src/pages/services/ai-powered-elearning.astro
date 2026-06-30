@@ -1,0 +1,93 @@
+---
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "AI-Powered E-Learning Support",
+    "description": "TheEduAssist uses AI-assisted, human-reviewed workflows to help creators, educators, academies, and training teams turn raw ideas, PDFs, videos, slides, and notes into course plans, lesson scripts, worksheets, quizzes, summaries, launch content, and platform-ready learning assets.",
+    "provider": {
+      "@type": "Organization",
+      "name": "TheEduAssist"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://theeduassist.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://theeduassist.com/services/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI-Powered E-Learning Support",
+        "item": "https://theeduassist.com/services/ai-powered-elearning/"
+      }
+    ]
+  }
+];
+
+import Layout from "../../layouts/Layout.astro";
+import AIElearningHero from "../../components/ai-elearning/AIElearningHero.astro";
+import WhyNotDIYAI from "../../components/ai-elearning/WhyNotDIYAI.astro";
+import AIServiceBuckets from "../../components/ai-elearning/AIServiceBuckets.astro";
+import AICaseExample from "../../components/ai-elearning/AICaseExample.astro";
+import AIPricingPackages from "../../components/ai-elearning/AIPricingPackages.astro";
+import AIPackageChooser from "../../components/ai-elearning/AIPackageChooser.astro";
+import AIWorkflow from "../../components/ai-elearning/AIWorkflow.astro";
+import ResponsibleAISection from "../../components/ai-elearning/ResponsibleAISection.astro";
+import AIAudienceSection from "../../components/ai-elearning/AIAudienceSection.astro";
+import AIDeliverablesGrid from "../../components/ai-elearning/AIDeliverablesGrid.astro";
+import AIComparison from "../../components/ai-elearning/AIComparison.astro";
+import AIFAQ from "../../components/ai-elearning/AIFAQ.astro";
+import AIFinalCTA from "../../components/ai-elearning/AIFinalCTA.astro";
+---
+
+<Layout jsonLd={jsonLd}
+  title="AI-Powered E-Learning Support | Course Planning, Content Conversion & Launch Assets"
+  description="TheEduAssist uses AI-assisted, human-reviewed workflows to help creators, educators, academies, and training teams turn raw ideas, PDFs, videos, slides, and notes into course plans, lesson scripts, worksheets, quizzes, summaries, launch content, and platform-ready learning assets."
+>
+
+  <AIElearningHero />
+  <WhyNotDIYAI />
+  <AIServiceBuckets />
+  <AICaseExample />
+  <AIPricingPackages />
+  <AIPackageChooser />
+  <AIWorkflow />
+  <ResponsibleAISection />
+  <AIAudienceSection />
+  <AIDeliverablesGrid />
+  <AIComparison />
+  <AIFAQ />
+  <AIFinalCTA />
+
+  <script>
+    import { openStartServiceChat } from "../../utils/tawkSales";
+    document.addEventListener("DOMContentLoaded", () => {
+      const btns = document.querySelectorAll(".tawk-service-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          const target = e.currentTarget as HTMLButtonElement;
+          openStartServiceChat({
+            serviceSlug: target.dataset.serviceSlug || "",
+            pageUrl: window.location.href,
+            pageTitle: document.title,
+          });
+        });
+      });
+    });
+  </script>
+
+</Layout>

@@ -1,0 +1,32 @@
+---
+import Layout from './Layout.astro';
+import ReadingProgressBar from '../components/blog/ReadingProgressBar.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  ogImage?: string;
+  twitterCardType?: string;
+  type?: string;
+  jsonLd?: any[];
+}
+
+const { title, description, canonicalPath, ogImage, twitterCardType, type = "article", jsonLd = [] } = Astro.props;
+---
+<Layout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  ogImage={ogImage}
+  twitterCardType={twitterCardType}
+  type={type}
+  jsonLd={jsonLd}
+>
+  <ReadingProgressBar />
+
+  <main class="bg-white min-h-screen pb-24">
+    <slot />
+  </main>
+
+</Layout>

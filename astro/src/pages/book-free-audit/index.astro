@@ -1,0 +1,171 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import AuditHero from "../../components/audit/AuditHero.astro";
+import AuditReviewScope from "../../components/audit/AuditReviewScope.astro";
+import CalendlyCTA from "../../components/audit/CalendlyCTA.astro";
+import AuditNextSteps from "../../components/audit/AuditNextSteps.astro";
+import AuditFAQ from "../../components/audit/AuditFAQ.astro";
+import { webPageSchema, faqPageSchema, breadcrumbSchema } from '../../lib/seo/schema';
+import { packages } from "../../data/packages";
+
+// Required FAQ array for the Schema
+const auditFaqs = [
+  {
+    question: "Is the audit really free?",
+    answer: "Yes. The audit request helps us understand your project and recommend the right next step. Full implementation work is quoted separately."
+  },
+  {
+    question: "Do I need to have course content ready?",
+    answer: "No. You can submit an idea, rough notes, existing content, Kajabi setup, LMS, or scattered files."
+  },
+  {
+    question: "Can you review my Kajabi setup?",
+    answer: "Yes. Kajabi is one of our strongest specialties."
+  },
+  {
+    question: "Can you review LMS or WordPress content?",
+    answer: "Yes. We can review LMS content, WordPress course pages, Google Drive folders, PDFs, videos, and other training materials."
+  },
+  {
+    question: "Will you give pricing?",
+    answer: "We can recommend a package or custom quote after reviewing your audit details. Pricing depends on scope, content volume, platform, timeline, and launch needs."
+  },
+  {
+    question: "Do you guarantee sales?",
+    answer: "No. We help improve structure, learning experience, platform setup, funnels, and launch readiness, but sales depend on offer, audience, traffic, pricing, trust, and other factors."
+  }
+];
+
+const jsonLd = [
+  webPageSchema(
+    "Get a 24–48 Hour Course/LMS Review | TheEduAssist",
+    "Submit your course, Kajabi, LMS, content conversion, AI e-learning, funnel, or support request and TheEduAssist will reply within 24–48 hours with the best service path, estimated scope, and next step.",
+    "/book-free-audit/"
+  ),
+  faqPageSchema(auditFaqs),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Get 24–48 Hour Review", urlPath: "/book-free-audit/" }
+  ])
+];
+
+const trustChips = [
+  "Free Audit",
+  "Course Review",
+  "Kajabi Review",
+  "LMS Review",
+  "Content Review",
+  "Funnel Review",
+  "Launch Review"
+];
+---
+<Layout
+  title="Get a 24–48 Hour Course/LMS Review | TheEduAssist"
+  description="Submit your course, Kajabi, LMS, content conversion, AI e-learning, funnel, or support request and TheEduAssist will reply within 24–48 hours with the best service path, estimated scope, and next step."
+  canonicalPath="/book-free-audit/"
+  jsonLd={jsonLd}
+>
+
+  <AuditHero
+    title="Get a 24–48 Hour Course/LMS Review"
+    subtitle="Tell us what you are building, improving, migrating, converting, or launching. TheEduAssist will review your request and recommend the right service path, estimated scope, and next step within 24–48 hours."
+    primaryCtaLabel="Start Request Form"
+    primaryCtaLink="#audit-form-section"
+    secondaryCtaLabel="Email Instead"
+    secondaryCtaLink="mailto:Info@theeduassist.com?subject=TheEduAssist%20Project%20Inquiry&body=Hi%20TheEduAssist%2C%0A%0AI%20would%20like%20to%20discuss%20a%20course%2C%20Kajabi%2C%20LMS%2C%20content%20conversion%2C%20or%20e-learning%20project.%0A%0AMy%20project%20details%3A%0A"
+    trustChips={trustChips}
+  />
+
+  <AuditReviewScope />
+
+
+  <section id="audit-form-section" class="py-24 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-4">
+      <div class="bg-white p-4 md:p-10 rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+
+        <div id="package-selected-card" class="hidden mb-10 bg-[#F8FAFC] border border-[#27496D]/20 rounded-xl p-6 text-center shadow-sm">
+          <h2 class="text-xl font-bold text-[#27496D] mb-2" id="context-title">You selected: <span id="pkg-name" class="text-[#77BA55]"></span></h2>
+          <div id="pkg-price-container" class="text-lg font-semibold text-slate-700 mb-4">Starting price: <span id="pkg-price"></span></div>
+          <p id="pkg-next-container" class="text-slate-600 mb-6 max-w-2xl mx-auto font-medium">Next step: <span id="pkg-next"></span></p>
+          <p class="text-brand-navy font-semibold text-lg mb-6">Submit your details below and our team will review the scope before confirming the final quote and payment next step.</p>
+          <div class="text-xs text-slate-500 max-w-3xl mx-auto border-t border-slate-200 pt-4">
+            Starting investments are not fixed final quotes. Final scope depends on content volume, platform, course length, page count, review rounds, automations, integrations, and launch support.
+          </div>
+        </div>
+
+        <div id="package-general-message" class="mb-10 text-center">
+          <h2 class="text-3xl font-bold mb-4 text-slate-900">Tell Us About Your Project</h2>
+          <p class="text-slate-600 max-w-2xl mx-auto text-lg">Tell us what you are building, improving, migrating, converting, or launching. We’ll recommend the best service path within 24–48 hours.</p>
+        </div>
+
+        <div class="w-full mx-auto relative rounded-lg border border-slate-100" style="overflow-x: hidden;">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSceDHOuoN8pGLzkG80JDiQFFtZRr9mxQTHkVRZnWqe3pnesDA/viewform?embedded=true"
+            width="100%"
+            height="4800"
+            class="border-0 bg-white"
+            title="TheEduAssist 24–48 Hour Course Review Form"
+            loading="lazy"
+          >Loading…</iframe>
+        </div>
+
+        <div class="mt-8 text-center border-t border-slate-100 pt-6">
+          <p class="text-slate-600 mb-4">Having trouble viewing the form?</p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSceDHOuoN8pGLzkG80JDiQFFtZRr9mxQTHkVRZnWqe3pnesDA/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center bg-white text-blue-600 border border-blue-200 hover:bg-blue-50 px-6 py-3 rounded-md font-semibold transition-colors focus-ring"
+          >
+            Open Review Form in New Tab
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script define:vars={{ packages }}>
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const packageSlug = urlParams.get('package');
+      const serviceSlug = urlParams.get('service');
+
+      const selectedCard = document.getElementById('package-selected-card');
+      const generalMessage = document.getElementById('package-general-message');
+      const contextTitle = document.getElementById('context-title');
+      const pkgNameSpan = document.getElementById('pkg-name');
+      const pkgPriceContainer = document.getElementById('pkg-price-container');
+      const pkgNextContainer = document.getElementById('pkg-next-container');
+
+      if (packageSlug && packages) {
+        const pkg = packages.find(p => p.slug === packageSlug);
+        if (pkg) {
+          contextTitle.firstChild.textContent = "You're starting with: ";
+          pkgNameSpan.textContent = pkg.name;
+          document.getElementById('pkg-price').textContent = pkg.startingPrice;
+          document.getElementById('pkg-next').textContent = pkg.nextStep;
+
+          selectedCard.classList.remove('hidden');
+          generalMessage.classList.add('hidden');
+        }
+      } else if (serviceSlug) {
+        const readableService = serviceSlug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+        contextTitle.firstChild.textContent = "You're asking about: ";
+        pkgNameSpan.textContent = readableService;
+        pkgPriceContainer.classList.add('hidden');
+        pkgNextContainer.classList.add('hidden');
+
+        selectedCard.classList.remove('hidden');
+        generalMessage.classList.add('hidden');
+      }
+    });
+  </script>
+
+
+  <CalendlyCTA />
+
+  <AuditNextSteps />
+
+  <AuditFAQ />
+
+</Layout>

@@ -1,0 +1,174 @@
+---
+// src/components/ai-elearning/AIPricingPackages.astro
+import Card from '../ui/Card.astro';
+import SectionHeader from '../ui/SectionHeader.astro';
+import Button from '../ui/Button.astro';
+
+const packages = [
+  {
+    title: "AI Course Clarity Sprint",
+    price: "Starting from $350",
+    bestFor: "Creators, coaches, consultants, or educators with a course idea but no clear structure.",
+    timeline: "1 week",
+    features: [
+      "Course direction review",
+      "Target learner profile",
+      "Course promise",
+      "Module map",
+      "Lesson outline",
+      "Learner journey",
+      "Launch checklist"
+    ],
+    highlight: false
+  },
+  {
+    title: "AI Content Conversion Kit",
+    price: "Starting from $900",
+    bestFor: "Clients with PDFs, slides, videos, notes, manuals, or training files that need to become online course assets.",
+    timeline: "2-4 weeks",
+    features: [
+      "Content audit",
+      "Module and lesson mapping",
+      "Lesson summaries",
+      "Script/talking-point drafts",
+      "Worksheet ideas",
+      "Quiz/check-in questions",
+      "Resource list",
+      "Platform-ready content structure"
+    ],
+    highlightLabel: "Most practical starting point",
+    highlight: true
+  },
+  {
+    title: "AI Course Production Sprint",
+    price: "Starting from $1,800",
+    bestFor: "Clients ready to turn raw content into a complete course production plan and learning asset set.",
+    timeline: "3-5 weeks",
+    features: [
+      "Course strategy",
+      "Curriculum structure",
+      "Lesson sequence",
+      "Video script support",
+      "Worksheets and quizzes",
+      "Student support content",
+      "Course completion path",
+      "Kajabi/LMS-ready structure"
+    ],
+    highlight: false
+  },
+  {
+    title: "AI + Kajabi/LMS Launch Build",
+    price: "Custom quote, usually starting from $3,500",
+    bestFor: "Serious creators, academies, training companies, and organizations that need AI-assisted course production plus platform and launch support.",
+    timeline: "4-8 weeks",
+    features: [
+      "AI-assisted content production",
+      "Human learning-design review",
+      "Kajabi/LMS structure",
+      "Landing page copy drafts",
+      "Email/onboarding drafts",
+      "Funnel and launch asset planning",
+      "QA checklist",
+      "Launch support"
+    ],
+    highlightLabel: "Best for full launch",
+    highlight: true
+  },
+  {
+    title: "Monthly AI Course Support",
+    price: "Starting from $600/month",
+    bestFor: "Existing course businesses, academies, and training teams that need ongoing content updates and course support.",
+    timeline: "Ongoing",
+    features: [
+      "New lesson planning",
+      "Content repurposing",
+      "Summaries",
+      "Worksheets",
+      "Quiz ideas",
+      "Email drafts",
+      "Student support content",
+      "Course update support"
+    ],
+    highlight: false
+  }
+];
+---
+
+<section id="ai-packages" class="py-24 bg-brand-softBg relative">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <SectionHeader
+      title="AI-Powered E-Learning Support Packages"
+      description="Transparent starting prices help you understand the likely investment before booking. Final pricing depends on content volume, course length, review rounds, platform setup, assets, and launch requirements."
+    />
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 items-start mb-16">
+      {packages.map((pkg, index) => (
+        <div class={`relative bg-white rounded-2xl p-8 shadow-md border flex flex-col h-full ${pkg.highlight ? 'border-brand-accent/30 shadow-xl transform md:-translate-y-2 ring-1 ring-brand-accent' : 'border-brand-border/60 hover:shadow-lg transition-shadow'}`}>
+
+          {pkg.highlightLabel && (
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-accent text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-sm whitespace-nowrap">
+              {pkg.highlightLabel}
+            </div>
+          )}
+
+          <div class="mb-6">
+            <h3 class="text-xl font-bold text-brand-navy mb-2">{pkg.title}</h3>
+            <div class="text-2xl font-extrabold text-slate-800">{pkg.price}</div>
+          </div>
+
+          <div class="mb-2">
+            <p class="text-sm font-semibold text-brand-textMain mb-1 uppercase tracking-wider">Best for:</p>
+            <p class="text-sm text-brand-textMuted min-h-[60px]">{pkg.bestFor}</p>
+          </div>
+
+          <div class="mb-6 pb-6 border-b border-brand-border/60">
+             <p class="text-sm text-brand-textMuted"><span class="font-semibold text-brand-navy">Timeline:</span> {pkg.timeline}</p>
+          </div>
+
+          <div class="mb-8 flex-grow">
+            <p class="text-sm font-semibold text-brand-textMain mb-4 uppercase tracking-wider">Includes:</p>
+            <ul class="space-y-3">
+              {pkg.features.map(feature => (
+                <li class="flex items-start text-sm text-slate-700">
+                  <svg class="w-5 h-5 text-brand-accent mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                  <span>{feature}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="mt-auto flex flex-col space-y-3">
+             <a href={`/book-free-audit/?package=${pkg.slug}&source=package-card`} data-package-slug={pkg.slug} data-package-price={pkg.price} class={`tawk-package-btn block w-full py-3 px-4 text-center font-bold rounded-md transition-all ${pkg.highlight ? 'bg-[#77BA55] text-white hover:bg-[#65A344] shadow-lg' : 'bg-[#27496D] text-white hover:bg-opacity-90 shadow-md'} focus-ring`}>Start This Package</a>
+             <p class="text-xs text-slate-500 text-center leading-tight">Talk to our team first so we can confirm the right package, scope, timeline, and payment next step.</p>
+             <a href={`/book-free-audit/?package=${pkg.slug}&source=package-card`} class="block w-full text-center py-3 px-4 bg-white text-slate-700 font-semibold rounded-md border border-slate-300 hover:bg-slate-50 transition-colors shadow-sm">
+                Submit Project Details
+             </a>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-16 text-center max-w-3xl mx-auto text-sm text-brand-textMuted bg-white p-6 rounded-lg border border-brand-border/40 shadow-sm">
+        <strong class="text-brand-navy">Pricing disclaimer:</strong> Starting prices are not fixed final quotes. Final scope depends on content volume, platform, course length, page count, review rounds, automations, integrations, and launch support.
+    </div>
+  </div>
+
+<script>
+  import { openStartPackageChat } from '../../utils/tawkSales';
+  document.addEventListener('DOMContentLoaded', () => {
+    const btns = document.querySelectorAll('.tawk-package-btn');
+    btns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = e.currentTarget;
+        openStartPackageChat({
+          packageSlug: target.dataset.packageSlug || '',
+          packagePrice: target.dataset.packagePrice || '',
+          pageUrl: window.location.href,
+          pageTitle: document.title,
+        });
+      });
+    });
+  });
+</script>
+</section>

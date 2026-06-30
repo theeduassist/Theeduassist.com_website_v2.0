@@ -1,0 +1,48 @@
+---
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://theeduassist.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Careers",
+        "item": "https://theeduassist.com/careers/"
+      }
+    ]
+  }
+];
+
+import Layout from "../../layouts/Layout.astro";
+import HomeHero from "../../components/sections/HomeHero.astro";
+---
+<Layout jsonLd={jsonLd} title="Careers" description="Join TheEduAssist team. We are always looking for talented learning professionals.">
+
+  <HomeHero
+    title="Careers at TheEduAssist"
+    subtitle="Join a team of dedicated learning professionals, instructional designers, and technical experts."
+    primaryCtaLabel="View Services"
+    primaryCtaLink="/services/"
+  />
+
+  <section class="py-24 bg-white text-center px-4">
+    <div class="max-w-3xl mx-auto bg-slate-50 p-10 rounded-lg border border-slate-200">
+      <h2 class="text-2xl font-bold mb-4 text-slate-900">Current Openings</h2>
+      <p class="text-lg text-slate-600 leading-relaxed mb-6">
+        There are currently no active roles open at this time. We are always interested in connecting with talented instructional designers, Kajabi experts, and LMS specialists.
+      </p>
+      <p class="text-slate-600">
+        Feel free to send your resume and portfolio to <a href="mailto:Info@theeduassist.com?subject=TheEduAssist%20Project%20Inquiry&body=Hi%20TheEduAssist%2C%0A%0AI%20would%20like%20to%20discuss%20a%20course%2C%20Kajabi%2C%20LMS%2C%20content%20conversion%2C%20or%20e-learning%20project.%0A%0AMy%20project%20details%3A%0A" class="text-blue-600 font-bold hover:underline" aria-label="Email TheEduAssist">info@theeduassist.com</a> and we will keep it on file for future opportunities.
+      </p>
+    </div>
+  </section>
+
+</Layout>

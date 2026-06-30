@@ -1,0 +1,45 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { webPageSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const title = "Editorial Policy";
+const description = "Learn how TheEduAssist reviews content, verifies claims, handles AI-assisted drafting, and avoids fake testimonials, metrics, and spammy publishing practices.";
+const canonicalPath = "/editorial-policy/";
+
+const jsonLd = [
+  webPageSchema(title, description, canonicalPath),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: title, urlPath: canonicalPath }
+  ])
+];
+---
+<Layout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-3xl mx-auto px-4 py-24 prose prose-slate">
+    <h1>Editorial Policy</h1>
+    <p>Last updated: {new Date().toLocaleDateString()}</p>
+
+    <h2>1. Human Review</h2>
+    <p>All content published by TheEduAssist undergoes mandatory human review. We do not mass-publish unreviewed AI-generated content.</p>
+
+    <h2>2. Claim Verification</h2>
+    <p>We verify claims related to platform capabilities, LMS integrations, and eLearning methodologies. We strive to provide accurate, practical guidance rather than exaggerated promises.</p>
+
+    <h2>3. Authenticity</h2>
+    <p>TheEduAssist strictly prohibits the use of fake testimonials, fabricated client logos, fake metrics, or fake awards. All case studies represent actual client engagements, though sensitive details may be omitted for confidentiality.</p>
+
+    <h2>4. Corrections</h2>
+    <p>If we discover an error in our content regarding a platform update, technical specification, or eLearning best practice, we will promptly update the content to reflect the accurate information.</p>
+
+    <h2>5. AI-Assisted Drafting</h2>
+    <p>We may use AI tools to assist with content outlines, structuring, and initial drafting. However, the final content, recommendations, and strategic advice are always reviewed and refined by human experts before publishing.</p>
+
+    <h2>6. No Spam Content</h2>
+    <p>We focus on quality over quantity. We do not engage in spammy keyword stuffing, doorway pages, or publishing thin content designed solely for search engines.</p>
+  </div>
+</Layout>

@@ -1,0 +1,30 @@
+---
+const reviewItems = [
+  "Course idea",
+  "Existing content",
+  "Kajabi website or course setup",
+  "LMS or course platform",
+  "PDFs, slides, videos, manuals, SOPs",
+  "Funnels and email automation",
+  "Student onboarding",
+  "Launch readiness",
+  "Ongoing support needs"
+];
+---
+
+<section class="py-16 bg-white">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-8 text-center text-slate-900">What We Can Review in Your Free Audit</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {reviewItems.map(item => (
+        <div class="bg-slate-50 border border-slate-200 rounded-lg p-6 flex items-start shadow-sm">
+          <svg class="h-6 w-6 text-blue-600 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          <span class="text-slate-800 font-medium">{item}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

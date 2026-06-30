@@ -1,0 +1,54 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import AboutHero from "../../components/about/AboutHero.astro";
+import CompanyPositioning from "../../components/about/CompanyPositioning.astro";
+import OurStory from "../../components/about/OurStory.astro";
+import BeliefsSection from "../../components/about/BeliefsSection.astro";
+import WhoWeHelp from "../../components/about/WhoWeHelp.astro";
+import WhatWeDo from "../../components/about/WhatWeDo.astro";
+import ProcessSection from "../../components/about/ProcessSection.astro";
+import WhyChooseAbout from "../../components/about/WhyChooseAbout.astro";
+import TrustTransparency from "../../components/about/TrustTransparency.astro";
+import TeamCapabilities from "../../components/about/TeamCapabilities.astro";
+import AboutContactCTA from "../../components/about/AboutContactCTA.astro";
+import AboutFAQ from "../../components/about/AboutFAQ.astro";
+import AboutFinalCTA from "../../components/about/AboutFinalCTA.astro";
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TheEduAssist",
+  "url": "https://theeduassist.com",
+  "logo": "https://theeduassist.com/brand/theeduassist-logo.svg",
+  "email": "Info@theeduassist.com",
+  "description": "TheEduAssist is an e-learning design and course-building agency helping creators, coaches, educators, consultants, training companies, online academies, and businesses turn knowledge into structured, launch-ready online learning systems.",
+  "sameAs": [
+    "https://www.facebook.com/people/Theeduassist/61576126813447/",
+    "https://www.instagram.com/theeduassist",
+    "https://www.linkedin.com/company/theeduassist"
+  ]
+};
+
+---
+<Layout
+  title="About TheEduAssist | E-Learning Design Agency for Courses, Kajabi & LMS Builds"
+  description="Learn about TheEduAssist, a multi-platform e-learning design agency helping creators, educators, coaches, consultants, academies, training companies, and businesses build structured online courses, Kajabi systems, LMS experiences, funnels, automations, and launch-ready learning content."
+  canonicalPath="/about/"
+  jsonLd={[schema]}
+>
+
+  <AboutHero />
+  <CompanyPositioning />
+  <OurStory />
+  <BeliefsSection />
+  <WhoWeHelp />
+  <WhatWeDo />
+  <ProcessSection />
+  <WhyChooseAbout />
+  <TrustTransparency />
+  <TeamCapabilities />
+  <AboutContactCTA />
+  <AboutFAQ />
+  <AboutFinalCTA />
+
+</Layout>

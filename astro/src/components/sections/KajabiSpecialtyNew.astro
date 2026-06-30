@@ -1,0 +1,119 @@
+---
+const nodes = [
+    { label: "Website", icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>` },
+    { label: "Course Products", icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>` },
+    { label: "Landing Pages", icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path>` },
+    { label: "Offers & Checkout", icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>` },
+    { label: "Email Campaigns", icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>` },
+    { label: "Automations", icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>` },
+    { label: "Community", icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>` },
+    { label: "Analytics", icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>` },
+    { label: "Launch Support", icon: `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>` }
+];
+---
+<section class="py-24 bg-brand-softBg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="inline-block px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-bold tracking-wider uppercase mb-4 border border-blue-200">Platform Expertise</span>
+            <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6">Kajabi Is One of Our Strongest Specialties</h2>
+            <p class="text-lg text-brand-textMuted mb-4">We build Kajabi websites, course products, landing pages, offers, funnels, email sequences, templates, migrations, and student onboarding systems for creators and training businesses.</p>
+            <p class="text-sm text-slate-500 italic">While we build custom systems across many LMS platforms, Kajabi is a core specialty.</p>
+        </div>
+
+        <div class="relative max-w-5xl mx-auto mt-20">
+            <!-- Central Node -->
+            <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-20 w-40 h-40 bg-white rounded-full shadow-xl border-4 border-blue-500 flex flex-col items-center justify-center animate-pulse-slow">
+                <span class="text-blue-600 font-black text-xl tracking-tight mb-1">KAJABI</span>
+                <span class="text-brand-navy font-bold text-sm">Build</span>
+            </div>
+
+            <!-- Surrounding Nodes (Grid Layout for responsiveness, simulating a map) -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-x-8 gap-y-16 relative z-10 md:py-12">
+                <!-- Top Row -->
+                <div class="flex flex-col items-center justify-center text-center group">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-500 mb-3 group-hover:scale-110 group-hover:border-blue-400 group-hover:shadow-md transition-all duration-300">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={nodes[0].icon}></svg>
+                    </div>
+                    <span class="font-bold text-brand-navy text-sm">{nodes[0].label}</span>
+                </div>
+                <div class="flex flex-col items-center justify-center text-center group md:-mt-8">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-500 mb-3 group-hover:scale-110 group-hover:border-blue-400 group-hover:shadow-md transition-all duration-300">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={nodes[1].icon}></svg>
+                    </div>
+                    <span class="font-bold text-brand-navy text-sm">{nodes[1].label}</span>
+                </div>
+                <div class="flex flex-col items-center justify-center text-center group">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-500 mb-3 group-hover:scale-110 group-hover:border-blue-400 group-hover:shadow-md transition-all duration-300">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={nodes[2].icon}></svg>
+                    </div>
+                    <span class="font-bold text-brand-navy text-sm">{nodes[2].label}</span>
+                </div>
+
+                <!-- Middle Row (Sides) -->
+                <div class="flex flex-col items-center justify-center text-center group md:-ml-8 lg:-ml-12">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-500 mb-3 group-hover:scale-110 group-hover:border-blue-400 group-hover:shadow-md transition-all duration-300">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={nodes[3].icon}></svg>
+                    </div>
+                    <span class="font-bold text-brand-navy text-sm">{nodes[3].label}</span>
+                </div>
+                <!-- Empty center space for the absolute Kajabi node -->
+                <div class="hidden md:block"></div>
+                <div class="flex flex-col items-center justify-center text-center group md:-mr-8 lg:-mr-12">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-500 mb-3 group-hover:scale-110 group-hover:border-blue-400 group-hover:shadow-md transition-all duration-300">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={nodes[4].icon}></svg>
+                    </div>
+                    <span class="font-bold text-brand-navy text-sm">{nodes[4].label}</span>
+                </div>
+
+                <!-- Bottom Row -->
+                <div class="flex flex-col items-center justify-center text-center group">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-500 mb-3 group-hover:scale-110 group-hover:border-blue-400 group-hover:shadow-md transition-all duration-300">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={nodes[5].icon}></svg>
+                    </div>
+                    <span class="font-bold text-brand-navy text-sm">{nodes[5].label}</span>
+                </div>
+                <div class="flex flex-col items-center justify-center text-center group md:mt-8">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-500 mb-3 group-hover:scale-110 group-hover:border-blue-400 group-hover:shadow-md transition-all duration-300">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={nodes[6].icon}></svg>
+                    </div>
+                    <span class="font-bold text-brand-navy text-sm">{nodes[6].label}</span>
+                </div>
+                <div class="flex flex-col items-center justify-center text-center group">
+                    <div class="w-16 h-16 bg-white rounded-2xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-500 mb-3 group-hover:scale-110 group-hover:border-blue-400 group-hover:shadow-md transition-all duration-300">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={nodes[7].icon}></svg>
+                    </div>
+                    <span class="font-bold text-brand-navy text-sm">{nodes[7].label}</span>
+                </div>
+
+                <!-- 9th node appended to bottom center in mobile, hidden desktop. Handled via flex -->
+                <div class="col-span-2 md:col-span-3 flex justify-center mt-4 md:hidden">
+                     <div class="flex flex-col items-center justify-center text-center group">
+                        <div class="w-16 h-16 bg-white rounded-2xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-500 mb-3 group-hover:scale-110 group-hover:border-blue-400 group-hover:shadow-md transition-all duration-300">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={nodes[8].icon}></svg>
+                        </div>
+                        <span class="font-bold text-brand-navy text-sm">{nodes[8].label}</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Absolute positioned 9th node for Desktop to break the grid slightly -->
+            <div class="hidden md:flex absolute -right-12 bottom-12 flex-col items-center justify-center text-center group z-10">
+                <div class="w-16 h-16 bg-white rounded-2xl shadow-sm border border-slate-200 flex items-center justify-center text-blue-500 mb-3 group-hover:scale-110 group-hover:border-blue-400 group-hover:shadow-md transition-all duration-300">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" set:html={nodes[8].icon}></svg>
+                </div>
+                <span class="font-bold text-brand-navy text-sm">{nodes[8].label}</span>
+            </div>
+
+            <!-- Connecting SVG Lines overlay (Desktop only for simpler implementation) -->
+            <svg class="absolute inset-0 w-full h-full z-0 hidden md:block text-blue-200 opacity-50" preserveAspectRatio="none">
+                 <!-- Lines radiating from center. Approximated. In a real app, calculate exactly or use absolute positioning for lines. -->
+                 <circle cx="50%" cy="50%" r="220" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4" class="animate-[spin_60s_linear_infinite]" />
+                 <circle cx="50%" cy="50%" r="140" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4" class="animate-[spin_40s_linear_infinite_reverse]" />
+            </svg>
+        </div>
+
+        <div class="text-center mt-16">
+            <p class="text-xs text-slate-400 uppercase tracking-wide">* Kajabi is a third-party platform. Platform support does not imply official partnership unless stated.</p>
+        </div>
+    </div>
+</section>

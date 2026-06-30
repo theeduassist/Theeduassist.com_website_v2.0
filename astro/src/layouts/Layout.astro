@@ -1,0 +1,89 @@
+---
+interface Props {
+	title?: string;
+	description?: string;
+    canonicalPath?: string;
+    ogTitle?: string;
+    ogDescription?: string;
+    ogImage?: string;
+    twitterCardType?: string;
+    noindex?: boolean;
+    type?: string;
+    jsonLd?: any[];
+}
+
+const {
+    title,
+    description,
+    canonicalPath,
+    ogTitle,
+    ogDescription,
+    ogImage,
+    twitterCardType,
+    noindex = false,
+    type = 'website',
+    jsonLd = []
+} = Astro.props;
+import { getSiteSettings } from '../sanity/queries';
+import { buildCanonicalUrl, formatTitle, formatDescription } from '../lib/seo';
+import '../styles/global.css';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import TawkChat from '../components/integrations/TawkChat.astro';
+import PersistentAIBottomBar from '../components/ai/PersistentAIBottomBar.astro';
+import RightSalesWidget from '../components/sales/RightSalesWidget.astro';
+
+const siteSettings = await getSiteSettings();
+const site = siteSettings || { title: 'TheEduAssist', name: 'TheEduAssist' };
+
+const formattedTitle = formatTitle(title);
+const formattedDescription = formatDescription(description);
+const canonicalUrl = canonicalPath ? buildCanonicalUrl(canonicalPath) : buildCanonicalUrl(Astro.url.pathname);
+const finalOgTitle = ogTitle || formattedTitle;
+const finalOgDescription = ogDescription || formattedDescription;
+
+const siteUrl = import.meta.env.PUBLIC_SITE_URL || '';
+const isMainDomain = siteUrl === 'https://theeduassist.com' || siteUrl === 'https://www.theeduassist.com';
+const shouldNoIndex = noindex || !isMainDomain;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={formattedDescription} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{formattedTitle}</title>
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:title" content={finalOgTitle} />
+        <meta property="og:description" content={finalOgDescription} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:type" content={type} />
+        <meta property="og:site_name" content={site.name} />
+        {ogImage && <meta property="og:image" content={ogImage} />}
+
+        <meta name="twitter:card" content={twitterCardType || (ogImage ? 'summary_large_image' : 'summary')} />
+        <meta name="twitter:title" content={finalOgTitle} />
+        <meta name="twitter:description" content={finalOgDescription} />
+        {ogImage && <meta name="twitter:image" content={ogImage} />}
+
+        {shouldNoIndex && <meta name="robots" content="noindex, nofollow" />}
+        {!shouldNoIndex && <meta name="robots" content="index, follow" />}
+
+        {jsonLd && jsonLd.length > 0 && jsonLd.map((schema) => (
+            <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+        ))}
+	</head>
+		<body class="bg-slate-50 text-slate-900 font-sans antialiased min-h-screen flex flex-col">
+        <Header />
+        <main class="flex-grow">
+		    <slot />
+        </main>
+        <Footer />
+        <RightSalesWidget />
+        <TawkChat />
+        <PersistentAIBottomBar />
+	</body>
+</html>

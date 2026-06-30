@@ -1,0 +1,33 @@
+---
+import FAQAccordion from '../ui/FAQAccordion.astro';
+
+const faqs = [
+  {
+    question: "What should I include in my message?",
+    answer: "Please include a brief description of your project, the platform you use or are considering, and what your main goal or challenge is."
+  },
+  {
+    question: "Can I request a Kajabi audit?",
+    answer: "Yes, you can request a Kajabi audit using our Free Audit form. Kajabi is one of our strongest specialties."
+  },
+  {
+    question: "Can I ask about LMS migration?",
+    answer: "Yes. We handle LMS migrations and can review your current platform to suggest the best path forward."
+  },
+  {
+    question: "Can I send existing course files?",
+    answer: "Please don't upload large files directly in the contact form. You can mention that you have existing files (PDFs, videos, Google Drive links) and we will coordinate how to securely share them during our review."
+  },
+  {
+    question: "How fast do you respond?",
+    answer: "We usually review inquiries as soon as possible. Exact response time may depend on workload."
+  }
+];
+---
+
+<section class="py-24 bg-slate-50 border-t border-slate-200">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-10 text-center text-slate-900">Frequently Asked Questions</h2>
+    <FAQAccordion items={faqs} />
+  </div>
+</section>

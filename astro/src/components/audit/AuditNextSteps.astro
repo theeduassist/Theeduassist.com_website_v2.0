@@ -1,0 +1,28 @@
+---
+const steps = [
+  "We review your project details.",
+  "We identify the best service path.",
+  "We check whether your project needs course creation, Kajabi setup, LMS migration, content conversion, AI support, funnels, or ongoing support.",
+  "We send next-step recommendations.",
+  "If needed, we schedule a call to discuss scope, timeline, and pricing."
+];
+---
+
+<section class="py-16 bg-white">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-10 text-center text-slate-900">What Happens After You Submit?</h2>
+
+    <div class="space-y-6 max-w-3xl mx-auto">
+      {steps.map((step, index) => (
+        <div class="flex items-start">
+          <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold mr-4">
+            {index + 1}
+          </div>
+          <div class="pt-2">
+            <p class="text-slate-700 text-lg">{step}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

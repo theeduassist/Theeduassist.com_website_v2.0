@@ -1,0 +1,52 @@
+---
+// src/components/content-conversion/ContentComparison.astro
+---
+<section class="py-20 bg-brand-softBg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6">Why Work With TheEduAssist Instead of Just Uploading Files?</h2>
+      <p class="text-lg text-brand-textMuted">
+        We combine content organization, learning design, AI-assisted workflow, human review, and platform readiness.
+      </p>
+    </div>
+
+    <div class="max-w-5xl mx-auto bg-white rounded-2xl border border-brand-border/60 shadow-md overflow-x-auto">
+      <table class="w-full text-left border-collapse min-w-[800px]">
+        <thead>
+          <tr class="bg-brand-softBg/50 border-b border-brand-border/60">
+            <th class="p-6 font-semibold text-brand-textMuted w-1/4">Capability</th>
+            <th class="p-6 font-bold text-brand-navy text-center w-1/4">File Upload Only</th>
+            <th class="p-6 font-bold text-brand-navy text-center w-1/4">Generic Editing</th>
+            <th class="p-6 font-bold text-brand-primary text-center w-1/4 bg-brand-softGreen/10 border-l border-brand-border/40">TheEduAssist</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-brand-border/40">
+          {[
+            { label: "Content audit", c1: false, c2: "Basic", c3: true },
+            { label: "Topic grouping", c1: false, c2: "Basic", c3: true },
+            { label: "Lesson structure", c1: false, c2: false, c3: true },
+            { label: "Learner journey", c1: false, c2: false, c3: true },
+            { label: "Worksheets/quizzes", c1: false, c2: false, c3: true },
+            { label: "Platform-ready organization", c1: false, c2: false, c3: true },
+            { label: "Human review", c1: false, c2: true, c3: true },
+            { label: "AI-assisted speed", c1: false, c2: "Sometimes", c3: true },
+            { label: "Launch readiness", c1: false, c2: false, c3: true }
+          ].map((row) => (
+            <tr class="hover:bg-brand-softBg/30 transition-colors">
+              <td class="p-4 pl-6 font-medium text-brand-navy">{row.label}</td>
+              <td class="p-4 text-center">
+                {row.c1 === true ? <svg class="w-5 h-5 mx-auto text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> : (row.c1 === false ? <svg class="w-5 h-5 mx-auto text-brand-border" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg> : <span class="text-brand-textMuted text-sm font-medium">{row.c1}</span>)}
+              </td>
+              <td class="p-4 text-center">
+                {row.c2 === true ? <svg class="w-5 h-5 mx-auto text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> : (row.c2 === false ? <svg class="w-5 h-5 mx-auto text-brand-border" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg> : <span class="text-brand-textMuted text-sm font-medium">{row.c2}</span>)}
+              </td>
+              <td class="p-4 text-center bg-brand-softGreen/5 border-l border-brand-border/40">
+                {row.c3 === true ? <svg class="w-5 h-5 mx-auto text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg> : (row.c3 === false ? <svg class="w-5 h-5 mx-auto text-brand-border" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg> : <span class="text-brand-textMuted text-sm font-medium">{row.c3}</span>)}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

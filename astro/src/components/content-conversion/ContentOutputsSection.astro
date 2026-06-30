@@ -1,0 +1,40 @@
+---
+// src/components/content-conversion/ContentOutputsSection.astro
+---
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6">What Your Content Can Become</h2>
+      <p class="text-lg text-brand-textMuted">
+        We transform raw files into structured, engaging learning assets ready for your learners.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-3 lg:grid-cols-5 gap-4">
+      {[
+        "Online course lessons",
+        "Module summaries",
+        "Lesson descriptions",
+        "Video scripts or talking points",
+        "Slide outlines",
+        "Downloadable worksheets",
+        "Quizzes and knowledge checks",
+        "Reflection prompts",
+        "Assignments",
+        "Resource libraries",
+        "Student onboarding content",
+        "Student FAQ",
+        "Course completion checklist",
+        "Kajabi product structure",
+        "LMS-ready course structure"
+      ].map((item) => (
+        <div class="bg-brand-softGreen/20 border border-brand-accent/30 px-4 py-6 rounded-xl text-center shadow-sm hover:shadow-md transition-all flex flex-col items-center justify-center min-h-[120px] group">
+          <div class="w-10 h-10 rounded-full bg-white flex items-center justify-center mb-3 shadow-sm text-brand-accent group-hover:scale-110 transition-transform">
+             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+          </div>
+          <span class="text-sm font-bold text-brand-navy leading-tight">{item}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,40 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { webPageSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const title = "Accessibility Statement";
+const description = "TheEduAssist is committed to improving website accessibility and welcomes feedback about accessibility issues.";
+const canonicalPath = "/accessibility-statement/";
+
+const jsonLd = [
+  webPageSchema(title, description, canonicalPath),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: title, urlPath: canonicalPath }
+  ])
+];
+---
+<Layout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-3xl mx-auto px-4 py-24 prose prose-slate">
+    <h1>Accessibility Statement</h1>
+    <p>Last updated: {new Date().toLocaleDateString()}</p>
+
+    <h2>Our Commitment</h2>
+    <p>TheEduAssist is committed to providing an accessible website experience for all users, regardless of ability. We continually strive to improve the user experience for everyone and apply relevant accessibility standards.</p>
+
+    <h2>Feedback</h2>
+    <p>We welcome your feedback on the accessibility of our website. If you encounter accessibility barriers on TheEduAssist, please contact us:</p>
+    <ul>
+      <li>Email: <a href="mailto:Info@theeduassist.com?subject=TheEduAssist%20Project%20Inquiry&body=Hi%20TheEduAssist%2C%0A%0AI%20would%20like%20to%20discuss%20a%20course%2C%20Kajabi%2C%20LMS%2C%20content%20conversion%2C%20or%20e-learning%20project.%0A%0AMy%20project%20details%3A%0A" aria-label="Email TheEduAssist">info@theeduassist.com</a></li>
+    </ul>
+    <p>We aim to respond to accessibility feedback promptly.</p>
+
+    <h2>Limitations and Certifications</h2>
+    <p>While we strive for accessibility, we make no formal claims of certification regarding specific accessibility standards (such as full WCAG compliance). If you find an issue, please let us know so we can address it.</p>
+  </div>
+</Layout>

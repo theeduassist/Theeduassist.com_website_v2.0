@@ -1,0 +1,103 @@
+---
+const steps = [
+    {
+        num: "01",
+        title: "Discover",
+        desc: "We understand your audience, offer, content, and platform needs."
+    },
+    {
+        num: "02",
+        title: "Structure",
+        desc: "We organize your knowledge into modules, lessons, outcomes, and learner journeys."
+    },
+    {
+        num: "03",
+        title: "Build",
+        desc: "We create the course pages, Kajabi/LMS setup, content assets, funnels, and automations."
+    },
+    {
+        num: "04",
+        title: "Launch",
+        desc: "We prepare the system for students, leads, checkout, onboarding, and delivery."
+    },
+    {
+        num: "05",
+        title: "Improve",
+        desc: "We support updates, optimization, reporting, and better learner experience."
+    }
+];
+---
+<section class="py-24 bg-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-4">From Raw Knowledge to a Complete Learning System</h2>
+            <p class="text-lg text-brand-textMuted">Our proven agency framework ensures your expertise is correctly structured, beautifully built, and successfully launched.</p>
+        </div>
+
+        <div class="relative">
+            <!-- Connecting Line (Desktop) -->
+            <div class="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-brand-softBg -translate-y-1/2 z-0">
+                <div class="h-full bg-brand-accent w-full origin-left scale-x-0 transition-transform duration-1000 ease-out z-0 relative" id="timeline-line">
+                    <div class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 rounded-full bg-brand-accent shadow-[0_0_10px_rgba(119,186,85,0.8)]"></div>
+                </div>
+            </div>
+
+            <!-- Connecting Line (Mobile) -->
+            <div class="block md:hidden absolute left-6 top-0 w-1 h-full bg-brand-softBg z-0"></div>
+
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4 relative z-10">
+                {steps.map((step, index) => (
+                    <div class={`relative flex md:flex-col ${index % 2 === 0 ? 'md:justify-start' : 'md:justify-end md:mt-24'} timeline-item opacity-0 translate-y-8 transition-all duration-700 ease-out group`}>
+
+                        <!-- Timeline Node -->
+                        <div class="flex-shrink-0 w-12 h-12 md:w-16 md:h-16 bg-white border-4 border-brand-softBg group-hover:border-brand-accent/30 rounded-full flex items-center justify-center font-bold text-brand-textMuted group-hover:text-brand-accent text-lg md:text-xl shadow-sm z-10 relative bg-clip-padding transition-colors duration-300 md:mx-auto md:mb-6 md:-mt-8 md:group-odd:-mb-8 md:group-odd:mt-6">
+                            {step.num}
+                        </div>
+
+                        <!-- Content Card -->
+                        <div class="ml-6 md:ml-0 bg-white p-6 rounded-2xl border border-brand-border shadow-sm hover:shadow-card transition-shadow duration-300 relative">
+                             <!-- Arrow pointer -->
+                             <div class="absolute top-6 -left-3 md:hidden w-3 h-3 bg-white border-l border-b border-brand-border rotate-45"></div>
+                             <div class={`hidden md:block absolute w-3 h-3 bg-white border-brand-border rotate-45 left-1/2 -translate-x-1/2 ${index % 2 === 0 ? 'bottom-[-6px] border-b border-r' : 'top-[-6px] border-t border-l'}`}></div>
+
+                            <h3 class="text-xl font-bold text-brand-navy mb-2">{step.title}</h3>
+                            <p class="text-sm text-brand-textMuted leading-relaxed">{step.desc}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    // Intersection Observer for Timeline Animation
+    if (typeof window !== 'undefined') {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const items = entry.target.querySelectorAll('.timeline-item');
+                    const line = entry.target.querySelector('#timeline-line');
+
+                    if (line) {
+                        (line as HTMLElement).style.transform = 'scaleX(1)';
+                    }
+
+                    items.forEach((item, index) => {
+                        setTimeout(() => {
+                            item.classList.remove('opacity-0', 'translate-y-8');
+                            item.classList.add('opacity-100', 'translate-y-0');
+                        }, index * 200);
+                    });
+
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        const section = document.querySelector('section:has(#timeline-line)');
+        if (section) {
+            observer.observe(section);
+        }
+    }
+</script>

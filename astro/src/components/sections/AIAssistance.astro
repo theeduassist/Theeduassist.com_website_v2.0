@@ -1,0 +1,104 @@
+---
+const features = [
+    "Course outline generation",
+    "Lesson script planning",
+    "Quiz and worksheet support",
+    "Training summaries",
+    "Content repurposing",
+    "Student support content",
+    "Launch workflow planning"
+];
+---
+<section class="py-24 bg-brand-navy text-white relative overflow-hidden">
+    <!-- Decorative background elements -->
+    <div class="absolute top-0 right-0 w-96 h-96 bg-brand-accent/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-brand-primary/50 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+            <!-- Content Side -->
+            <div>
+                <div class="inline-block px-3 py-1 bg-brand-accent/20 text-brand-accent rounded-full text-xs font-bold tracking-wider uppercase mb-6 border border-brand-accent/30">
+                    Smart Workflows
+                </div>
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">AI Assistance for Faster Course Planning and Smarter Learning Content</h2>
+                <p class="text-lg text-slate-300 mb-8 leading-relaxed">Use AI-assisted workflows to turn raw ideas, PDFs, videos, notes, and outlines into cleaner course structures, lesson plans, scripts, summaries, quizzes, workbooks, and launch-ready learning assets.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+                    {features.map((feature) => (
+                        <div class="flex items-start space-x-3">
+                            <div class="mt-1 bg-brand-accent/20 rounded-full p-0.5">
+                                <svg class="w-4 h-4 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
+                            </div>
+                            <span class="text-slate-200 font-medium text-sm">{feature}</span>
+                        </div>
+                    ))}
+                </div>
+
+                <a href="/services/ai-assistance/" class="inline-flex items-center space-x-2 text-white bg-brand-primary border border-brand-accent/30 hover:bg-brand-accent hover:text-brand-navy hover:border-brand-accent/30 px-6 py-3 rounded-md font-bold transition-colors focus-ring shadow-sm">
+                    <span>Explore AI Services</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+            </div>
+
+            <!-- Visual Side -->
+            <div class="relative">
+                <div class="bg-brand-primary p-6 md:p-8 rounded-2xl border border-slate-700/50 shadow-2xl relative">
+                    <!-- Workflow Visual -->
+                    <h3 class="text-lg font-bold text-white mb-6 text-center border-b border-slate-700/50 pb-4">AI-Assisted Learning Workflow</h3>
+
+                    <div class="flex flex-col space-y-4">
+                        <!-- Step 1 -->
+                        <div class="flex items-center space-x-4">
+                            <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center border border-slate-600 flex-shrink-0 text-slate-400">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                            </div>
+                            <div class="flex-grow bg-slate-800/50 p-3 rounded-lg border border-slate-700/50">
+                                <span class="text-sm font-medium text-white block">Raw Knowledge</span>
+                                <span class="text-xs text-slate-400">PDFs, notes, videos, ideas</span>
+                            </div>
+                        </div>
+
+                        <!-- Connector -->
+                        <div class="w-0.5 h-6 bg-gradient-to-b from-slate-600 to-brand-accent/50 ml-5 relative">
+                            <div class="absolute -left-1.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 rounded-full bg-brand-navy border-2 border-brand-accent/30 animate-pulse"></div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="flex items-center space-x-4">
+                            <div class="w-10 h-10 rounded-full bg-brand-accent/20 flex items-center justify-center border border-brand-accent/30 flex-shrink-0 text-brand-accent shadow-[0_0_15px_rgba(119,186,85,0.3)]">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                            </div>
+                            <div class="flex-grow bg-brand-primary p-3 rounded-lg border border-brand-accent/30 shadow-inner">
+                                <span class="text-sm font-bold text-white block">AI Planning</span>
+                                <span class="text-xs text-brand-accent">Structuring and organizing</span>
+                            </div>
+                        </div>
+
+                        <!-- Connector -->
+                        <div class="w-0.5 h-6 bg-gradient-to-b from-brand-accent/50 to-slate-600 ml-5 relative">
+                            <div class="absolute -left-1.5 top-1/2 -translate-y-1/2 w-3 h-3 rounded-full bg-brand-accent animate-ping opacity-75"></div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="flex items-center space-x-4">
+                            <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center border border-slate-600 flex-shrink-0 text-white">
+                                <svg class="w-5 h-5 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+                            </div>
+                            <div class="flex-grow bg-slate-800/50 p-3 rounded-lg border border-slate-700/50 flex flex-wrap gap-2">
+                                <span class="text-xs bg-slate-700 px-2 py-1 rounded text-slate-300">Course Outline</span>
+                                <span class="text-xs bg-slate-700 px-2 py-1 rounded text-slate-300">Lesson Scripts</span>
+                                <span class="text-xs bg-slate-700 px-2 py-1 rounded text-slate-300">Learner Resources</span>
+                                <span class="text-xs bg-brand-accent/20 text-brand-accent border border-brand-accent/30 px-2 py-1 rounded">Launch Support</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Disclaimer -->
+                    <p class="text-[10px] text-slate-400 mt-6 text-center italic">AI is used to assist human experts, not replace them. All content is reviewed and refined by instructional designers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

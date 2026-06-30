@@ -1,0 +1,49 @@
+---
+import FAQAccordion from '../ui/FAQAccordion.astro';
+
+const faqs = [
+  {
+    question: "Do you only work with Kajabi?",
+    answer: "No. Kajabi is one of our strongest specialties, but TheEduAssist also supports LMS migration, course content structure, curriculum design, content conversion, funnels, automation, and other e-learning systems."
+  },
+  {
+    question: "Can you build a course from just an idea?",
+    answer: "Yes. We can help turn your idea into a structured course outline, modules, lessons, learner outcomes, resources, and launch plan."
+  },
+  {
+    question: "Can you convert my existing PDFs, slides, or videos into an online course?",
+    answer: "Yes. We can organize existing materials into lessons, modules, workbooks, quizzes, and downloadable resources."
+  },
+  {
+    question: "Can you migrate my existing content from WordPress, Google Drive, or an old LMS?",
+    answer: "Yes. We help organize and move scattered learning materials into cleaner online course systems."
+  },
+  {
+    question: "Do you help with funnels and email automation?",
+    answer: "Yes. We can support lead capture, offer pages, email follow-up, checkout, onboarding, and course access flows."
+  },
+  {
+    question: "Do you provide ongoing support after launch?",
+    answer: "Yes. We can help update course pages, improve learner experience, fix automations, support launches, and maintain learning systems."
+  },
+  {
+    question: "Can AI help build my course?",
+    answer: "AI can help speed up planning, outlining, script drafting, quiz ideas, summaries, and content repurposing. TheEduAssist uses AI-assisted workflows, but keeps strategy and learning experience human-led."
+  },
+  {
+    question: "What is the best first step?",
+    answer: "Get a 24-48 hour review so we can review your content, course idea, platform, or current setup and recommend the right service path."
+  }
+];
+---
+
+<section class="py-20 md:py-32 bg-white">
+  <div class="max-w-4xl mx-auto px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-primary mb-4">Services FAQ</h2>
+      <p class="text-lg text-brand-textMuted">Common questions about working with TheEduAssist.</p>
+    </div>
+
+    <FAQAccordion items={faqs} />
+  </div>
+</section>

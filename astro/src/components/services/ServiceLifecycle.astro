@@ -1,0 +1,62 @@
+---
+const lifecycleSteps = [
+  {
+    title: "Discover",
+    description: "We understand your audience, offer, content, and platform needs."
+  },
+  {
+    title: "Structure",
+    description: "We organize your knowledge into outcomes, modules, lessons, resources, and learner journeys."
+  },
+  {
+    title: "Create",
+    description: "We convert raw materials into course content, scripts, worksheets, assessments, and learning assets."
+  },
+  {
+    title: "Build",
+    description: "We set up Kajabi, LMS pages, course products, landing pages, funnels, automations, and student access."
+  },
+  {
+    title: "Launch",
+    description: "We prepare your course system for leads, checkout, onboarding, delivery, and support."
+  },
+  {
+    title: "Improve",
+    description: "We update, optimize, maintain, and improve the learning experience after launch."
+  }
+];
+---
+
+<section class="py-20 md:py-32 bg-brand-softBg">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16 md:mb-24">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-primary mb-4">A Complete Build System, Not Random One-Off Tasks</h2>
+      <p class="text-lg text-brand-textMuted">We handle the entire journey, from messy ideas to a polished, launch-ready platform.</p>
+    </div>
+
+    <div class="relative">
+      <!-- Desktop Connecting Line -->
+      <div class="hidden md:block absolute top-1/2 left-0 right-0 h-0.5 bg-brand-border -translate-y-1/2 z-0"></div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8 relative z-10">
+        {lifecycleSteps.map((step, index) => (
+          <div class="relative flex flex-col items-center text-center group">
+            <!-- Mobile Connecting Line -->
+            {index < lifecycleSteps.length - 1 && (
+              <div class="md:hidden absolute top-14 bottom-0 left-1/2 w-0.5 bg-brand-border -translate-x-1/2 z-0 h-[calc(100%+2rem)]"></div>
+            )}
+
+            <div class="w-16 h-16 rounded-full bg-white border-2 border-brand-border flex items-center justify-center text-xl font-bold text-brand-primary shadow-sm mb-6 transition-all duration-300 group-hover:border-brand-accent/30 group-hover:text-brand-accent group-hover:scale-110 relative z-10">
+              {index + 1}
+            </div>
+
+            <div class="bg-white p-6 rounded-xl border border-brand-border shadow-sm group-hover:shadow-md transition-shadow h-full w-full">
+              <h3 class="text-lg font-bold text-brand-textMain mb-2">{step.title}</h3>
+              <p class="text-sm text-brand-textMuted leading-relaxed">{step.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

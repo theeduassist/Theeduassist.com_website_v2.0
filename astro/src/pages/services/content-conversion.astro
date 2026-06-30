@@ -1,0 +1,71 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ContentConversionHero from "../../components/content-conversion/ContentConversionHero.astro";
+import ContentProblemSection from "../../components/content-conversion/ContentProblemSection.astro";
+import ContentAudienceSection from "../../components/content-conversion/ContentAudienceSection.astro";
+import ContentInputsSection from "../../components/content-conversion/ContentInputsSection.astro";
+import ContentOutputsSection from "../../components/content-conversion/ContentOutputsSection.astro";
+import ContentConversionLifecycle from "../../components/content-conversion/ContentConversionLifecycle.astro";
+import FormatConversionSection from "../../components/content-conversion/FormatConversionSection.astro";
+import AIConversionSupport from "../../components/content-conversion/AIConversionSupport.astro";
+import PlatformReadyContent from "../../components/content-conversion/PlatformReadyContent.astro";
+import ContentQualitySection from "../../components/content-conversion/ContentQualitySection.astro";
+import ContentPackages from "../../components/content-conversion/ContentPackages.astro";
+import ContentComparison from "../../components/content-conversion/ContentComparison.astro";
+import ContentFAQ from "../../components/content-conversion/ContentFAQ.astro";
+import ContentFinalCTA from "../../components/content-conversion/ContentFinalCTA.astro";
+import CaseStudyProof from "../../components/case-studies/CaseStudyProof.astro";
+
+import { professionalServiceSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const jsonLd = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Services", urlPath: "/services/" },
+    { name: "Content Conversion Services", urlPath: "/services/content-conversion/" }
+  ])
+];
+---
+<Layout
+  title="Content Conversion Services | Turn PDFs, Slides & Videos Into Online Courses"
+  description="TheEduAssist helps creators, educators, training companies, academies, and businesses convert PDFs, slides, videos, manuals, SOPs, notes, and training files into online course lessons, worksheets, quizzes, scripts, summaries, and platform-ready learning assets."
+  canonicalPath="/services/content-conversion/"
+  jsonLd={jsonLd}
+>
+
+  <ContentConversionHero />
+  <ContentProblemSection />
+  <ContentAudienceSection />
+  <ContentInputsSection />
+  <ContentOutputsSection />
+  <ContentConversionLifecycle />
+  <FormatConversionSection />
+  <AIConversionSupport />
+  <PlatformReadyContent />
+  <ContentQualitySection />
+  <ContentPackages />
+  <ContentComparison />
+  <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
+  <ContentFAQ />
+  <ContentFinalCTA />
+
+  <script>
+    import { openStartServiceChat } from "../../utils/tawkSales";
+    document.addEventListener("DOMContentLoaded", () => {
+      const btns = document.querySelectorAll(".tawk-service-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          const target = e.currentTarget as HTMLButtonElement;
+          openStartServiceChat({
+            serviceSlug: target.dataset.serviceSlug || "",
+            pageUrl: window.location.href,
+            pageTitle: document.title,
+          });
+        });
+      });
+    });
+  </script>
+
+</Layout>

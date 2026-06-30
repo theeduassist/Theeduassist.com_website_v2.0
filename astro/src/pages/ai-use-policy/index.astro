@@ -1,0 +1,42 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { webPageSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const title = "AI Use Policy";
+const description = "Learn how TheEduAssist uses AI responsibly to support content planning and eLearning workflows while keeping human review and quality control in place.";
+const canonicalPath = "/ai-use-policy/";
+
+const jsonLd = [
+  webPageSchema(title, description, canonicalPath),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: title, urlPath: canonicalPath }
+  ])
+];
+---
+<Layout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={jsonLd}
+>
+  <div class="max-w-3xl mx-auto px-4 py-24 prose prose-slate">
+    <h1>AI Use Policy</h1>
+    <p>Last updated: {new Date().toLocaleDateString()}</p>
+
+    <h2>1. Supportive AI Use</h2>
+    <p>TheEduAssist uses Artificial Intelligence (AI) to support our workflows, including drafting, research organization, generating content outlines, and structuring learning materials. AI is treated as an assistant, not a replacement for human expertise.</p>
+
+    <h2>2. Mandatory Human Review</h2>
+    <p>Human review is required before any AI-assisted content or recommendation is published, delivered to a client, or implemented in a course platform.</p>
+
+    <h2>3. Prohibited AI Uses</h2>
+    <p>AI is strictly not used to invent client claims, performance metrics, testimonials, ratings, or guarantees. All such information on our website reflects actual data and human feedback.</p>
+
+    <h2>4. Client Data Privacy</h2>
+    <p>Sensitive client material, proprietary training content, and confidential business information must be handled carefully. We do not feed sensitive, non-public client data into public AI models without explicit permission and anonymization.</p>
+
+    <h2>5. Project-Specific Recommendations</h2>
+    <p>While AI may suggest general eLearning strategies or LMS configurations, final technical and strategic recommendations depend entirely on our expert project review and the client's specific context.</p>
+  </div>
+</Layout>

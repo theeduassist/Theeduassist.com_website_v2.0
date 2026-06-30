@@ -1,0 +1,38 @@
+import {defineField, defineType} from 'sanity'
+
+export default defineType({
+  name: 'faqItem',
+  title: 'FAQ Item',
+  type: 'object',
+  fields: [
+    defineField({
+      name: 'question',
+      title: 'Question',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'answer',
+      title: 'Answer',
+      type: 'text',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      name: 'showOnPage',
+      title: 'Show on Page',
+      type: 'boolean',
+      initialValue: true,
+    }),
+    defineField({
+      name: 'includeInSchema',
+      title: 'Include in Schema',
+      type: 'boolean',
+      initialValue: true,
+    }),
+    defineField({
+      name: 'sortOrder',
+      title: 'Sort Order',
+      type: 'number',
+    }),
+  ],
+})

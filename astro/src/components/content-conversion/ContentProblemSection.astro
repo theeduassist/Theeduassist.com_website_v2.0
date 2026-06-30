@@ -1,0 +1,41 @@
+---
+// src/components/content-conversion/ContentProblemSection.astro
+---
+<section class="py-20 bg-brand-softBg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6">
+        Content Is Not Automatically a Course
+      </h2>
+      <p class="text-lg text-brand-textMuted leading-relaxed">
+        Many creators and organizations already have useful content, but it is not ready for learners. PDFs may be too long, videos may be unstructured, slide decks may need explanation, and folders may be difficult to follow. A strong online course needs content to be organized into lessons, resources, activities, assessments, and a clear learner journey.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      {[
+        "My PDFs are too long for online learning",
+        "My slides need to become lessons",
+        "My videos need structure and summaries",
+        "My files are scattered across folders",
+        "My learners do not know what to do next",
+        "My content is not ready for Kajabi or LMS upload"
+      ].map((challenge) => (
+        <div class="bg-white p-6 rounded-xl border border-brand-border/60 shadow-sm flex items-start space-x-4">
+          <div class="bg-red-50 p-2 rounded-lg shrink-0">
+            <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+          </div>
+          <p class="text-brand-textMain font-medium leading-snug">{challenge}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-16 bg-white border border-brand-border rounded-2xl p-8 max-w-4xl mx-auto text-center shadow-md relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-2 h-full bg-brand-accent"></div>
+        <p class="text-xl md:text-2xl font-bold text-brand-navy leading-relaxed">
+            TheEduAssist converts existing content into structured learning assets so your course is easier to build, deliver, and improve.
+        </p>
+    </div>
+
+  </div>
+</section>

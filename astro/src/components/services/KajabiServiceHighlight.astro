@@ -1,0 +1,30 @@
+---
+import Button from '../ui/Button.astro';
+---
+
+<section class="py-16 md:py-24 bg-brand-primary text-white relative overflow-hidden">
+  <!-- Subtle background pattern -->
+  <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 32px 32px;"></div>
+
+  <div class="max-w-5xl mx-auto px-6 lg:px-8 relative z-10 text-center">
+
+    <div class="inline-flex items-center justify-center px-4 py-1.5 mb-6 text-sm font-bold tracking-widest text-brand-accent uppercase border border-brand-accent/30 bg-brand-accent/10 rounded-full">
+      Specialty Focus
+    </div>
+
+    <h2 class="text-3xl md:text-5xl font-bold mb-6 text-white">Need Kajabi Help? Start Here.</h2>
+
+    <p class="text-lg md:text-xl text-brand-softBlue mb-10 max-w-3xl mx-auto leading-relaxed">
+      Kajabi is one of our strongest specialties. We help with Kajabi websites, landing pages, course products, offers, checkout, email campaigns, automations, templates, migrations, and launch support.
+    </p>
+
+    <Button href="/kajabi-services/" variant="white" size="lg" className="shadow-xl">
+      View Kajabi Services
+    </Button>
+
+    <p class="mt-8 text-xs text-brand-softBlue/60">
+      *Kajabi is a third-party platform. Platform support does not imply official partnership unless stated.
+    </p>
+
+  </div>
+</section>

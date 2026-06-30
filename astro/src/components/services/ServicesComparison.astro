@@ -1,0 +1,68 @@
+---
+const features = [
+  "Course strategy",
+  "Curriculum structure",
+  "Learner journey",
+  "Kajabi setup",
+  "LMS migration",
+  "Content conversion",
+  "Funnels and automation",
+  "Launch support",
+  "Ongoing improvement"
+];
+
+const checkIcon = `<svg class="w-5 h-5 text-brand-accent mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>`;
+const dashIcon = `<svg class="w-5 h-5 text-brand-border mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd" /></svg>`;
+
+// Matrix: [Web Designer, Kajabi Freelancer, TheEduAssist]
+const matrix = [
+  [dashIcon, checkIcon, checkIcon], // Course strategy
+  [dashIcon, dashIcon, checkIcon], // Curriculum structure
+  [dashIcon, dashIcon, checkIcon], // Learner journey
+  [dashIcon, checkIcon, checkIcon], // Kajabi setup
+  [checkIcon, dashIcon, checkIcon], // LMS migration
+  [dashIcon, dashIcon, checkIcon], // Content conversion
+  [checkIcon, checkIcon, checkIcon], // Funnels and automation
+  [dashIcon, checkIcon, checkIcon], // Launch support
+  [checkIcon, checkIcon, checkIcon]  // Ongoing improvement
+];
+---
+
+<section class="py-20 md:py-32 bg-brand-softBg">
+  <div class="max-w-5xl mx-auto px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-primary mb-4">What Makes TheEduAssist Different?</h2>
+      <p class="text-lg text-brand-textMuted max-w-2xl mx-auto">We combine learning design, platform build, content structure, and launch systems into one holistic service.</p>
+    </div>
+
+    <div class="brand-card overflow-hidden">
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse min-w-[600px]">
+          <thead>
+            <tr>
+              <th class="p-6 border-b border-brand-border bg-white w-1/4"></th>
+              <th class="p-6 border-b border-brand-border bg-brand-softBg text-center text-sm font-semibold text-brand-textMuted w-1/4">Typical Web Designer</th>
+              <th class="p-6 border-b border-brand-border bg-brand-softBg text-center text-sm font-semibold text-brand-textMuted w-1/4">Kajabi-Only Freelancer</th>
+              <th class="p-6 border-b border-brand-primary bg-brand-primary text-center text-sm font-bold text-white w-1/4 rounded-tr-lg relative">
+                <div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-brand-accent text-brand-primary text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-sm whitespace-nowrap">
+                  Comprehensive
+                </div>
+                TheEduAssist
+              </th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-brand-border bg-white">
+            {features.map((feature, rowIndex) => (
+              <tr class="hover:bg-brand-softBlue/20 transition-colors">
+                <td class="p-4 md:p-6 text-sm font-medium text-brand-textMain">{feature}</td>
+                <td class="p-4 md:p-6 bg-brand-softBg/30"><Fragment set:html={matrix[rowIndex][0]} /></td>
+                <td class="p-4 md:p-6 bg-brand-softBg/30"><Fragment set:html={matrix[rowIndex][1]} /></td>
+                <td class="p-4 md:p-6 bg-brand-softGreen/30 border-l border-r border-brand-accent/30"><Fragment set:html={matrix[rowIndex][2]} /></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
