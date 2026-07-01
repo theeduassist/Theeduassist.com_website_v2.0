@@ -19,7 +19,8 @@ export default defineMigration({
       : apiClient
 
     console.log('Fetching posts from WordPress...')
-    const response = await fetch('https://theeduassist.com/wp-json/wp/v2/posts?_embed&per_page=5&page=1')
+    // Fetching 10 posts as per latest request
+    const response = await fetch('https://theeduassist.com/wp-json/wp/v2/posts?_embed&per_page=10&page=1')
     if (!response.ok) throw new Error(`Failed to fetch posts: ${response.statusText}`)
     const posts = (await response.json()) as any[]
     console.log(`Found ${posts.length} posts.`)
@@ -74,15 +75,34 @@ export default defineMigration({
         parseHtml: (html) => new JSDOM(html).window.document
       })
 
+      // Extract categories and tags
+      const terms = post._embedded?.['wp:term'] || []
+      const categories = terms
+        .flat()
+        .filter((term: any) => term.taxonomy === 'category')
+        .map((term: any) => term.name)
+      const tags = terms
+        .flat()
+        .filter((term: any) => term.taxonomy === 'post_tag')
+        .map((term: any) => term.name)
+
+      const authorName = post._embedded?.['author']?.[0]?.name
+
       const doc = {
         _type: 'post',
         _id: `eduassist-post-${post.id}`,
+        externalId: post.id,
         title: post.title.rendered,
         slug: {
           _type: 'slug',
           current: post.slug
         },
         publishedAt: post.date,
+        modifiedAt: post.modified,
+        sticky: post.sticky,
+        authorName: authorName,
+        categories: categories,
+        tags: tags,
         excerpt: post.excerpt.rendered.replace(/<[^>]*>?/gm, '').trim(),
         mainImage: mainImageReference,
         body: blocks,

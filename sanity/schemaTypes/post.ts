@@ -14,7 +14,9 @@ export default defineType({
     {name: 'title', title: 'Title', type: 'string', group: 'content'},
     {name: 'slug', title: 'Slug', type: 'slug', group: 'content', options: {source: 'title', maxLength: 96}},
     {name: 'publishedAt', title: 'Published at', type: 'datetime', group: 'meta'},
+    {name: 'modifiedAt', title: 'Modified at', type: 'datetime', group: 'meta'},
     {name: 'author', title: 'Author', type: 'reference', to: [{type: 'author'}], group: 'meta'},
+    {name: 'authorName', title: 'Author Name (WP)', type: 'string', group: 'meta', readOnly: true},
     {name: 'mainImage', title: 'Main image', type: 'image', options: {hotspot: true}, group: 'content'},
     {name: 'excerpt', title: 'Excerpt', type: 'text', rows: 3, group: 'content'},
     {
@@ -89,6 +91,24 @@ export default defineType({
     },
     {name: 'seo', title: 'SEO', type: 'seoMetaFields', group: 'seo'},
     {name: 'cta', title: 'CTA', type: 'cta', group: 'meta'},
+    {name: 'sticky', title: 'Sticky', type: 'boolean', group: 'meta', initialValue: false},
+    {
+      name: 'categories',
+      title: 'Categories',
+      type: 'array',
+      of: [{type: 'string'}],
+      options: {layout: 'tags'},
+      group: 'meta'
+    },
+    {
+      name: 'tags',
+      title: 'Tags',
+      type: 'array',
+      of: [{type: 'string'}],
+      options: {layout: 'tags'},
+      group: 'meta'
+    },
+    {name: 'externalId', title: 'WordPress ID', type: 'number', group: 'meta', readOnly: true},
     {
       name: 'stats',
       title: 'Post Statistics',
