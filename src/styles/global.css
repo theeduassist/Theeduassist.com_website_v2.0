@@ -1,4 +1,8 @@
-@import "tailwindcss";
+@import "tailwindcss" source(none);
+
+@source "../components";
+@source "../layouts";
+@source "../pages";
 
 :root {
   --color-brand-blue: #27496D;
