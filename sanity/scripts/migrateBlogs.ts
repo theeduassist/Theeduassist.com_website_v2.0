@@ -304,8 +304,8 @@ async function resolveAuthor(wpAuthorName: string): Promise<string | null> {
 
 // Main Migration Runner
 async function runMigration() {
-  const wpApiUrl = 'https://theeduassist.com/wp-json/wp/v2/posts?_embed&per_page=5';
-  console.log(`Fetching latest 5 posts from: ${wpApiUrl}`);
+  const wpApiUrl = 'https://theeduassist.com/wp-json/wp/v2/posts?_embed&per_page=10';
+  console.log(`Fetching latest 10 posts from: ${wpApiUrl}`);
 
   try {
     const response = await fetch(wpApiUrl);
@@ -324,6 +324,7 @@ async function runMigration() {
       const wpTitle = cheerio.load(wpPost.title.rendered).text().trim();
       const wpSlug = wpPost.slug;
       const wpDate = wpPost.date_gmt ? `${wpPost.date_gmt}Z` : wpPost.date; // Use GMT date with Z format
+      const wpModified = wpPost.modified_gmt ? `${wpPost.modified_gmt}Z` : wpPost.modified;
       const wpExcerpt = cheerio.load(wpPost.excerpt.rendered).text().trim(); // Strip HTML tags for plain excerpt
       
       // Get author details
@@ -366,6 +367,17 @@ async function runMigration() {
       const wordCount = plainTextBody.split(/\s+/).filter(Boolean).length;
       const readingTime = Math.max(1, Math.round(wordCount / 200)); // Standard 200 words per minute
 
+      // Extract Categories and Tags
+      const terms = wpPost._embedded?.['wp:term'] || [];
+      const categories = terms
+        .flat()
+        .filter((term: any) => term.taxonomy === 'category')
+        .map((term: any) => term.name);
+      const tags = terms
+        .flat()
+        .filter((term: any) => term.taxonomy === 'post_tag')
+        .map((term: any) => term.name);
+
       // Construct Sanity document
       const postId = `imported-wp-${wpPost.id}`;
       const postDoc: any = {
@@ -376,8 +388,14 @@ async function runMigration() {
           current: wpSlug,
         },
         publishedAt: wpDate,
+        modifiedAt: wpModified,
         excerpt: wpExcerpt,
         body: bodyBlocks,
+        sticky: wpPost.sticky || false,
+        categories: categories,
+        tags: tags,
+        externalId: wpPost.id,
+        authorName: authorName,
         stats: {
           _type: 'object',
           wordCount,
