@@ -22,9 +22,15 @@ console.log('=== WordPress to Sanity Migration Script ===');
 console.log(`Project ID: ${PROJECT_ID}`);
 console.log(`Dataset: ${DATASET}`);
 console.log(`Mode: ${isDryRun ? 'DRY-RUN (No data will be written)' : 'LIVE-IMPORT'}`);
+
 if (!WRITE_TOKEN && !isDryRun) {
-  console.error('Error: SANITY_WRITE_TOKEN is required for live import. Please configure it in .env or run with --dry-run.');
+  console.error('❌ Error: SANITY_WRITE_TOKEN is missing!');
+  console.log('Please ensure you have a .env file in your sanity folder with:');
+  console.log('SANITY_WRITE_TOKEN=your_token_here');
+  console.log('\nYou can generate a token at: https://www.sanity.io/manage');
   process.exit(1);
+} else if (WRITE_TOKEN) {
+  console.log(`Token loaded: ${WRITE_TOKEN.substring(0, 5)}...${WRITE_TOKEN.substring(WRITE_TOKEN.length - 5)}`);
 }
 
 // Initialize Sanity Client

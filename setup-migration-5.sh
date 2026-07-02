@@ -2,7 +2,7 @@
 
 # setup-migration-5.sh
 # This script sets up a Sanity migration to import posts from WordPress.
-# Adjusted to import 10 posts and include more fields from the WordPress API.
+# Optimized for high-fidelity import of 10 posts.
 
 set -e
 
@@ -25,11 +25,11 @@ import { htmlToBlocks } from '@sanity/block-tools'
 import { Schema } from '@sanity/schema'
 import { createClient } from '@sanity/client'
 
-// Placeholder variables for credentials
+// Placeholder variables for credentials (if using custom client)
 const projectId = 'PASTE_YOUR_PROJECT_ID_HERE'
 const token = 'PASTE_YOUR_WRITE_TOKEN_HERE'
 
-export default defineMigration({
+const migration = defineMigration({
   title: 'Import EduAssist Posts from WordPress',
   async *migrate(nodes, context) {
     const { client: migrationClient } = context
@@ -40,7 +40,6 @@ export default defineMigration({
       : (migrationClient as any)
 
     console.log('Fetching posts from WordPress...')
-    // Fetching 10 posts as per latest request
     const response = await fetch('https://theeduassist.com/wp-json/wp/v2/posts?_embed&per_page=10&page=1')
     if (!response.ok) throw new Error(`Failed to fetch posts: ${response.statusText}`)
     const posts = (await response.json()) as any[]
@@ -136,10 +135,17 @@ export default defineMigration({
     }
   }
 })
+
+export default migration
 EOF
 
-echo "Migration setup complete! You can now edit sanity/migrations/import-eduassist/index.ts to add your credentials."
-echo "To run the migration:"
-echo "1. (Optional) Edit credentials in sanity/migrations/import-eduassist/index.ts"
-echo "2. Run a dry run: cd sanity && npx sanity migration run import-eduassist"
-echo "3. Run the live migration: cd sanity && npx sanity migration run import-eduassist --dry-run false"
+echo "Migration setup complete!"
+echo "-------------------------------------------------------"
+echo "HOW TO RUN THE MIGRATION:"
+echo "-------------------------------------------------------"
+echo "1. Navigate to the sanity folder: cd sanity"
+echo "2. Log in to Sanity: npx sanity login"
+echo "3. Run a dry run: npx sanity migration run import-eduassist"
+echo "4. Run live: npx sanity migration run import-eduassist --no-dry-run"
+echo "-------------------------------------------------------"
+echo "If you use scripts/migrateBlogs.ts, ensure you have SANITY_WRITE_TOKEN in sanity/.env"

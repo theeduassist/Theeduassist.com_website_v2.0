@@ -8,7 +8,7 @@ import { createClient } from '@sanity/client'
 const projectId = 'PASTE_YOUR_PROJECT_ID_HERE'
 const token = 'PASTE_YOUR_WRITE_TOKEN_HERE'
 
-export default defineMigration({
+const migration = defineMigration({
   title: 'Import EduAssist Posts from WordPress',
   async *migrate(nodes, context) {
     const { client: migrationClient } = context
@@ -115,3 +115,5 @@ export default defineMigration({
     }
   }
 })
+
+export default migration
