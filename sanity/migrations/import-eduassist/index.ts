@@ -12,12 +12,12 @@ const token = process.env.SANITY_WRITE_TOKEN || 'PASTE_YOUR_WRITE_TOKEN_HERE'
 export default defineMigration({
   title: 'Import EduAssist Posts from WordPress',
   async *migrate(nodes, context) {
-    const { apiClient } = context
+    const { client: migrationClient } = context
 
     // Use custom client if credentials are provided, otherwise use the migration context client
     const client = (projectId !== 'PASTE_YOUR_PROJECT_ID_HERE' && token !== 'PASTE_YOUR_WRITE_TOKEN_HERE')
       ? createClient({ projectId, token, dataset: 'production', useCdn: false, apiVersion: '2023-05-03' })
-      : apiClient
+      : (migrationClient as any)
 
     console.log('Fetching posts from WordPress...')
     // Fetching 10 posts as per latest request
