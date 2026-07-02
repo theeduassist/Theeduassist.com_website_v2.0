@@ -3,10 +3,11 @@ import { JSDOM } from 'jsdom'
 import { htmlToBlocks } from '@sanity/block-tools'
 import { Schema } from '@sanity/schema'
 import { createClient } from '@sanity/client'
+import { env } from 'process'
 
 // Placeholder variables for credentials
-const projectId = 'PASTE_YOUR_PROJECT_ID_HERE'
-const token = 'PASTE_YOUR_WRITE_TOKEN_HERE'
+const projectId = process.env.SANITY_PROJECT_ID || 'PASTE_YOUR_PROJECT_ID_HERE'
+const token = process.env.SANITY_WRITE_TOKEN || 'PASTE_YOUR_WRITE_TOKEN_HERE'
 
 export default defineMigration({
   title: 'Import EduAssist Posts from WordPress',
