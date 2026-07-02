@@ -2,7 +2,7 @@ export const site = {
   url: 'https://theeduassist.com',
   name: 'TheEduAssist',
   title: 'TheEduAssist | Custom eLearning, Kajabi, and LMS Solutions',
-  description: 'TheEduAssist helps coaches, businesses, training teams, and educational organizations turn content into engaging online learning experiences.',
+  description: 'TheEduAssist is an eLearning design and course-building agency that helps creators, coaches, consultants, educators, training companies, and businesses build structured, launch-ready online courses, Kajabi systems, LMS experiences, and digital learning content.',
 };
 
 export function buildCanonicalUrl(path: string): string {

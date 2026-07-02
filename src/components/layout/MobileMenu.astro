@@ -7,10 +7,7 @@ const mainLinks = [
     { label: 'Blog', href: '/blog/' },
 ];
 
-const aboutLinks = [
-    { label: 'About TheEduAssist', href: '/about/' },
-    { label: 'Contact', href: '/contact/' },
-];
+const aboutLinks = [];
 
 const serviceLinks = [
     { label: 'All Services', href: '/services/' },
@@ -77,23 +74,10 @@ const serviceLinks = [
         </a>
       ))}
 
-      <!-- About Expandable -->
-      <div class="mobile-services-group border-y border-brand-border/30 my-1 py-1">
-        <button id="mobile-about-btn" class="w-full flex justify-between items-center px-3 py-2 rounded-md text-base font-medium text-brand-textMain hover:text-brand-accent hover:bg-brand-accent/10 focus-ring" aria-expanded="false">
-          About
-          <svg id="mobile-about-icon" class="w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-        </button>
-        <div id="mobile-about-list" class="hidden pl-4 pr-2 py-1 space-y-1 bg-brand-softBg/50 rounded-b-md">
-          {aboutLinks.map((link) => (
-            <a href={link.href} class="block px-3 py-2 rounded-md text-sm font-medium text-brand-textMuted hover:text-brand-primary hover:bg-brand-accent/10 focus-ring mobile-link">
-              {link.label}
-            </a>
-          ))}
-        </div>
-      </div>
+
 
       <a href="/book-free-audit/" class="block px-3 py-2 mt-2 rounded-md text-base font-bold text-white bg-brand-accent hover:bg-brand-primary focus-ring mobile-link text-center">
-        Get 24–48 Hour Review
+        Book Free Audit
       </a>
     </div>
   </div>

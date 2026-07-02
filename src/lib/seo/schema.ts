@@ -9,7 +9,7 @@ export function organizationSchema() {
     "logo": `${site.url}/brand/theeduassist-logo.svg`,
     "email": "Info@theeduassist.com",
     "sameAs": [
-      "https://www.facebook.com/people/Theeduassist/61576126813447/",
+      "https://www.facebook.com/people/TheEduAssist/61576126813447/",
       "https://www.instagram.com/theeduassist",
       "https://www.linkedin.com/company/theeduassist"
     ],
