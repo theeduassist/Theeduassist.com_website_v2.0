@@ -310,20 +310,41 @@ async function resolveAuthor(wpAuthorName: string): Promise<string | null> {
 
 // Main Migration Runner
 async function runMigration() {
-  const wpApiUrl = 'https://theeduassist.com/wp-json/wp/v2/posts?_embed&per_page=10';
-  console.log(`Fetching latest 10 posts from: ${wpApiUrl}`);
+  console.log(`Fetching all posts from WordPress API...`);
+
+  let allPosts: any[] = [];
+  let page = 1;
+  let hasMore = true;
 
   try {
-    const response = await fetch(wpApiUrl);
-    if (!response.ok) {
-      throw new Error(`Failed to fetch posts: ${response.statusText}`);
+    while (hasMore) {
+      const wpApiUrl = `https://theeduassist.com/wp-json/wp/v2/posts?_embed&per_page=100&page=${page}`;
+      console.log(`Fetching page ${page}...`);
+      const response = await fetch(wpApiUrl);
+
+      if (!response.ok) {
+        if (response.status === 400) {
+          hasMore = false;
+          break;
+        }
+        throw new Error(`Failed to fetch posts: ${response.statusText}`);
+      }
+
+      const posts = (await response.json()) as any[];
+      allPosts = [...allPosts, ...posts];
+      console.log(`Retrieved ${posts.length} posts. Total: ${allPosts.length}`);
+
+      if (posts.length < 100) {
+        hasMore = false;
+      } else {
+        page++;
+      }
     }
 
-    const posts = (await response.json()) as any[];
-    console.log(`Successfully fetched ${posts.length} posts from WordPress API.`);
+    console.log(`Successfully fetched ${allPosts.length} posts in total.`);
 
-    for (let i = 0; i < posts.length; i++) {
-      const wpPost = posts[i];
+    for (let i = 0; i < allPosts.length; i++) {
+      const wpPost = allPosts[i];
       console.log('\n----------------------------------------');
       console.log(`Processing post [${i + 1}/${posts.length}]: "${wpPost.title.rendered}"`);
 
@@ -446,7 +467,7 @@ async function runMigration() {
 
     console.log('\n========================================');
     console.log(`Migration completed successfully!`);
-    console.log(`Processed ${posts.length} posts.`);
+    console.log(`Processed ${allPosts.length} posts.`);
   } catch (error: any) {
     console.error('\nMigration failed with error:', error.message);
     process.exit(1);

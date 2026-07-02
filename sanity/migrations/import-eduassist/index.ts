@@ -19,11 +19,33 @@ const migration = defineMigration({
       : (migrationClient as any)
 
     console.log('Fetching posts from WordPress...')
-    // Fetching 10 posts as per latest request
-    const response = await fetch('https://theeduassist.com/wp-json/wp/v2/posts?_embed&per_page=10&page=1')
-    if (!response.ok) throw new Error(`Failed to fetch posts: ${response.statusText}`)
-    const posts = (await response.json()) as any[]
-    console.log(`Found ${posts.length} posts.`)
+
+    let allPosts: any[] = []
+    let page = 1
+    let hasMore = true
+
+    while (hasMore) {
+      console.log(`Fetching page ${page}...`)
+      const response = await fetch(`https://theeduassist.com/wp-json/wp/v2/posts?_embed&per_page=100&page=${page}`)
+      if (!response.ok) {
+        if (response.status === 400) {
+          hasMore = false
+          break
+        }
+        throw new Error(`Failed to fetch posts: ${response.statusText}`)
+      }
+      const posts = (await response.json()) as any[]
+      allPosts = [...allPosts, ...posts]
+      console.log(`Retrieved ${posts.length} posts. Total: ${allPosts.length}`)
+
+      if (posts.length < 100) {
+        hasMore = false
+      } else {
+        page++
+      }
+    }
+
+    console.log(`Migration starting for ${allPosts.length} posts.`)
 
     // Prepare schema for block-tools
     const schema = Schema.compile({
@@ -44,7 +66,7 @@ const migration = defineMigration({
     })
     const blockContentType = schema.get('post').fields.find((f: any) => f.name === 'body').type
 
-    for (const post of posts) {
+    for (const post of allPosts) {
       console.log(`Processing post: ${post.title.rendered} (ID: ${post.id})`)
 
       let mainImageReference = null
