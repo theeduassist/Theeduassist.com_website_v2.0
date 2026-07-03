@@ -2,14 +2,11 @@
 export const navigation = {
   header: [
     { label: 'Home', href: '/' },
-    { label: 'Kajabi Services', href: '/kajabi-services/' },
-    { label: 'Blog', href: '/blog/' },
-    { label: 'Case Studies', href: '/case-studies/' },
     { label: 'Services', href: '/services/' },
+    { label: 'Kajabi Services', href: '/kajabi-services/' },
+    { label: 'Case Studies', href: '/case-studies/' },
     { label: 'Pricing', href: '/pricing/' },
-    { label: 'Pricing', href: '/pricing/' },
-    { label: 'Get 24–48 Hour Review', href: '/book-free-audit/' },
-    { label: 'About Us', href: '/about/' },
+    { label: 'Blog', href: '/blog/' },
   ],
   footerCompanyLinks: [
     { label: 'Home', href: '/' },
