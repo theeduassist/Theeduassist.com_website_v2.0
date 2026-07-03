@@ -52,7 +52,15 @@ Ensure everything looks correct at `http://localhost:4321`.
 
 ---
 
-## D. What not to do
+## D. Key Deployment Guidelines
+
+* **Production hosting is Vercel.**
+* **Vercel GitHub integration handles preview and production deployments.**
+* **GitHub Actions are for validation only.**
+* **Do not add Firebase deployment workflows.**
+* **Do not add Vercel CLI deployment workflows unless the Vercel GitHub integration is intentionally disconnected.**
+
+## E. What not to do
 
 * **Do not switch nameservers in this step.**
 * **Do not change email records.**
