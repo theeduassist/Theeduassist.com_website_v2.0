@@ -1,0 +1,65 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const title = "Brand Assets | TheEduAssist";
+const description = "Official logos, brand colors, and usage guidelines for TheEduAssist.";
+const canonicalPath = "/brand-assets/";
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath}>
+  <div class="container mx-auto px-4 py-24 max-w-5xl min-h-[60vh]">
+    <div class="text-center mb-16">
+      <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-6">Brand Assets</h1>
+      <p class="text-xl text-slate-600 max-w-2xl mx-auto">
+        Official logos, colors, and guidelines for representing TheEduAssist.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+      <div class="bg-slate-50 p-10 rounded-2xl border border-slate-200 text-center flex flex-col items-center justify-center">
+        <h2 class="text-xl font-bold text-slate-800 mb-8 w-full text-left">Primary Logo</h2>
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100 w-full mb-6">
+          <img src="/brand/theeduassist-logo.svg" alt="TheEduAssist Logo" class="h-16 w-auto mx-auto" />
+        </div>
+        <p class="text-sm text-slate-500 w-full text-left">Please use this logo on light backgrounds with sufficient clear space around it.</p>
+      </div>
+
+      <div class="bg-slate-50 p-10 rounded-2xl border border-slate-200">
+        <h2 class="text-xl font-bold text-slate-800 mb-8">Brand Colors</h2>
+        <div class="space-y-6">
+          <div class="flex items-center gap-4">
+            <div class="w-16 h-16 rounded-lg shadow-sm" style="background-color: #77BA55;"></div>
+            <div>
+              <div class="font-bold text-slate-800">Primary Green</div>
+              <div class="text-sm font-mono text-slate-500">HEX: #77BA55</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="w-16 h-16 rounded-lg shadow-sm" style="background-color: #27496D;"></div>
+            <div>
+              <div class="font-bold text-slate-800">Navy Blue</div>
+              <div class="text-sm font-mono text-slate-500">HEX: #27496D</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="w-16 h-16 rounded-lg shadow-sm border border-slate-200" style="background-color: #FFFFFF;"></div>
+            <div>
+              <div class="font-bold text-slate-800">White</div>
+              <div class="text-sm font-mono text-slate-500">HEX: #FFFFFF</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-slate-50 p-10 rounded-2xl border border-slate-200 flex flex-col md:flex-row items-center justify-between gap-8">
+      <div>
+        <h2 class="text-xl font-bold text-slate-800 mb-2">Need different formats or variations?</h2>
+        <p class="text-slate-600">Contact our team for high-resolution files, EPS vectors, or specific usage approvals.</p>
+      </div>
+      <a href="mailto:Info@theeduassist.com" class="shrink-0 px-8 py-4 bg-[var(--color-primary)] text-white font-bold rounded-lg hover:bg-opacity-90 transition-all">
+        Contact Media Team
+      </a>
+    </div>
+  </div>
+</Layout>

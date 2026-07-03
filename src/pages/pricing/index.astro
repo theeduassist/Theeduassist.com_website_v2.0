@@ -1,0 +1,125 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import StartingPoint from "../../components/sections/StartingPoint.astro";
+import ServicesFinalCTA from "../../components/services/ServicesFinalCTA.astro";
+
+const title = "Pricing & Investment | TheEduAssist";
+const description = "Transparent starting investments and budget guides for course creation, Kajabi setup, and LMS migration with TheEduAssist.";
+const canonicalPath = "/pricing/";
+
+const packages = [
+  {
+    title: "Course Creation & Curriculum Design",
+    price: "Starting at $2,500",
+    desc: "Turn your expertise into a structured, engaging course outline and lesson plan.",
+    features: [
+      "Target Audience Analysis",
+      "Course Outline & Modules",
+      "Instructional Design",
+      "Lesson Plans & Worksheets"
+    ],
+    slug: "custom-elearning-development"
+  },
+  {
+    title: "Kajabi Website & Course Setup",
+    price: "Starting at $3,500",
+    desc: "Complete Kajabi platform setup, branding, and course upload ready for launch.",
+    features: [
+      "Custom Homepage & Landing Pages",
+      "Course Product Setup",
+      "Checkout Pages & Offers",
+      "Basic Email Automation"
+    ],
+    slug: "kajabi-services"
+  },
+  {
+    title: "LMS Implementation & Migration",
+    price: "Starting at $4,000",
+    desc: "Move your content to a new LMS or set up a corporate training portal.",
+    features: [
+      "Platform Selection Support",
+      "Content Migration & QA",
+      "User Roles & Permissions",
+      "SSO & Integration Setup"
+    ],
+    slug: "lms-implementation-migration"
+  }
+];
+
+const faqs = [
+  { question: "Are these fixed prices?", answer: "No. They are starting investments and budget guides. Final pricing depends on content volume, course length, platform, pages, automations, integrations, review rounds, and timeline." },
+  { question: "What happens when I click Start This Package?", answer: "The sales chat opens so our team can understand your project, confirm the right package, and guide you to the review, payment, or invoice next step." },
+  { question: "Do I need to pay before talking to the team?", answer: "No. We recommend confirming the scope first so the project path is clear before payment." },
+  { question: "What if I am not sure which package fits?", answer: "Use Talk to Sales or Start This Package and explain your situation. Our team will help you choose the right starting point." }
+];
+
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath}>
+  <div class="bg-slate-50 py-20 pb-12 border-b border-slate-200">
+    <div class="container mx-auto px-4 max-w-4xl text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-6">Investment & Pricing</h1>
+      <p class="text-xl text-slate-600">
+        Transparent starting investments for our most popular e-learning design and platform setup services.
+      </p>
+    </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-20 max-w-7xl">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+      {packages.map(pkg => (
+        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 flex flex-col hover:shadow-md transition-shadow relative">
+          <h2 class="text-2xl font-bold text-slate-800 mb-2">{pkg.title}</h2>
+          <div class="text-xl font-bold text-[var(--color-primary)] mb-4">{pkg.price}</div>
+          <p class="text-slate-600 mb-8 flex-grow">{pkg.desc}</p>
+
+          <ul class="space-y-3 mb-8">
+            {pkg.features.map(feat => (
+              <li class="flex items-start text-sm text-slate-700">
+                <svg class="w-5 h-5 text-[var(--color-accent)] mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                {feat}
+              </li>
+            ))}
+          </ul>
+
+          <button data-service-slug={pkg.slug} class="tawk-service-btn w-full px-6 py-3 bg-[var(--color-primary)] text-white font-bold rounded-lg hover:bg-[var(--color-navy)] transition-colors mt-auto">
+            Start This Package
+          </button>
+        </div>
+      ))}
+    </div>
+
+    <div class="max-w-3xl mx-auto bg-slate-50 rounded-2xl p-8 md:p-12 border border-slate-200 mb-20">
+      <h2 class="text-2xl font-bold text-slate-800 mb-8 text-center">Frequently Asked Questions</h2>
+      <div class="space-y-6">
+        {faqs.map(faq => (
+          <div>
+            <h3 class="font-bold text-slate-800 mb-2">{faq.question}</h3>
+            <p class="text-slate-600">{faq.answer}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <StartingPoint />
+  <ServicesFinalCTA />
+
+  <script>
+    import { openStartServiceChat } from "../../utils/tawkSales";
+    document.addEventListener("DOMContentLoaded", () => {
+      const btns = document.querySelectorAll(".tawk-service-btn");
+      btns.forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+          const target = e.currentTarget as HTMLButtonElement;
+          openStartServiceChat({
+            serviceSlug: target.dataset.serviceSlug || "",
+            pageUrl: window.location.href,
+            pageTitle: document.title,
+          });
+        });
+      });
+    });
+  </script>
+</Layout>

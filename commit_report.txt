@@ -1,0 +1,36 @@
+Branch name: jules-15787953227949438901-04741665
+Commit hash: a5d3b1b76094de703b28808924caf02fd2ccf5b0
+
+Files changed:
+ .astro/types.d.ts
+ .env.example
+ .gitignore
+ public/robots.txt (deleted)
+ src/components/layout/Header.astro
+ src/components/layout/MobileMenu.astro
+ src/components/sections/CustomerLifecycle.astro
+ src/data/navigation.ts
+ src/pages/brand-assets/index.astro
+ src/pages/news/index.astro
+ src/pages/press-releases/index.astro
+ src/pages/pricing/index.astro
+ src/pages/robots.txt.ts
+
+Confirmation that Services points to /services/: YES
+Confirmation that Pricing points to /pricing/: YES
+Confirmation that Footer Sitemap points to /sitemap/: YES
+Confirmation that robots.txt references /sitemap.xml: YES
+
+Confirmation that these local routes render:
+/pricing/ : YES
+/news/ : YES
+/press-releases/ : YES
+/brand-assets/ : YES
+/robots.txt : YES
+/sitemap.xml : YES
+/sitemap/ : YES
+
+Build result: Success
+validate:env result: Success
+validate:redirects result: Success
+check:sanity:blog result: Success
