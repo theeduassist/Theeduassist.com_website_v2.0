@@ -1,125 +1,378 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import StartingPoint from "../../components/sections/StartingPoint.astro";
-import ServicesFinalCTA from "../../components/services/ServicesFinalCTA.astro";
 
-const title = "Pricing & Investment | TheEduAssist";
-const description = "Transparent starting investments and budget guides for course creation, Kajabi setup, and LMS migration with TheEduAssist.";
+const title = "Pricing | Course Creation, Kajabi Setup & LMS Services | TheEduAssist";
+const description = "Explore TheEduAssist pricing for course creation, Kajabi setup, LMS migration, content conversion, AI-powered e-learning support, and ongoing course support.";
 const canonicalPath = "/pricing/";
 
-const packages = [
-  {
-    title: "Course Creation & Curriculum Design",
-    price: "Starting at $2,500",
-    desc: "Turn your expertise into a structured, engaging course outline and lesson plan.",
-    features: [
-      "Target Audience Analysis",
-      "Course Outline & Modules",
-      "Instructional Design",
-      "Lesson Plans & Worksheets"
-    ],
-    slug: "custom-elearning-development"
-  },
-  {
-    title: "Kajabi Website & Course Setup",
-    price: "Starting at $3,500",
-    desc: "Complete Kajabi platform setup, branding, and course upload ready for launch.",
-    features: [
-      "Custom Homepage & Landing Pages",
-      "Course Product Setup",
-      "Checkout Pages & Offers",
-      "Basic Email Automation"
-    ],
-    slug: "kajabi-services"
-  },
-  {
-    title: "LMS Implementation & Migration",
-    price: "Starting at $4,000",
-    desc: "Move your content to a new LMS or set up a corporate training portal.",
-    features: [
-      "Platform Selection Support",
-      "Content Migration & QA",
-      "User Roles & Permissions",
-      "SSO & Integration Setup"
-    ],
-    slug: "lms-implementation-migration"
-  }
-];
-
 const faqs = [
-  { question: "Are these fixed prices?", answer: "No. They are starting investments and budget guides. Final pricing depends on content volume, course length, platform, pages, automations, integrations, review rounds, and timeline." },
-  { question: "What happens when I click Start This Package?", answer: "The sales chat opens so our team can understand your project, confirm the right package, and guide you to the review, payment, or invoice next step." },
-  { question: "Do I need to pay before talking to the team?", answer: "No. We recommend confirming the scope first so the project path is clear before payment." },
-  { question: "What if I am not sure which package fits?", answer: "Use Talk to Sales or Start This Package and explain your situation. Our team will help you choose the right starting point." }
+  { question: "Are these fixed prices?", answer: "These prices are starting points. Final pricing depends on content volume, course length, platform, pages, automations, integrations, review rounds, and timeline. Scope is confirmed after review." },
+  { question: "Can TheEduAssist work with existing course material?", answer: "Yes. We can convert raw content, PDFs, slides, and recordings into structured e-learning content." },
+  { question: "Do you only work with Kajabi?", answer: "No. While we are Kajabi experts, we also work with various LMS platforms, Skool, Thinkific, LearnWorlds, and custom setups." },
+  { question: "Can you migrate content from another LMS?", answer: "Yes. We handle content mapping, structure planning, and full LMS migrations." },
+  { question: "Can you help with AI-supported course development?", answer: "Yes, we leverage AI tools to assist with course structure, content conversion, and interactive elements." },
+  { question: "Do you offer monthly support?", answer: "Yes. We offer ongoing support for updates, optimization, and platform maintenance." },
+  { question: "What happens after I request a 24–48 Hour Review?", answer: "We review your needs, content, and goals, then provide a recommended scope, package, and timeline within 24-48 hours." }
 ];
 
 ---
 
 <Layout title={title} description={description} canonicalPath={canonicalPath}>
-  <div class="bg-slate-50 py-20 pb-12 border-b border-slate-200">
-    <div class="container mx-auto px-4 max-w-4xl text-center">
-      <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-6">Investment & Pricing</h1>
-      <p class="text-xl text-slate-600">
-        Transparent starting investments for our most popular e-learning design and platform setup services.
+
+  <!-- Section 1: Hero -->
+  <div class="bg-brand-softBg py-20 pb-12 border-b border-brand-border/30 text-center">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h1 class="text-4xl md:text-5xl font-bold text-brand-navy mb-6">Investment & Pricing</h1>
+      <p class="text-xl text-slate-700 mb-8 max-w-3xl mx-auto">
+        Transparent starting prices for course creation, Kajabi setup, LMS migration, content conversion, and ongoing e-learning support.<br/><br/>
+        Choose a focused starter package, a complete course/platform build, or a custom LMS implementation based on where your learning business is today.
       </p>
+
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
+        <a href="/book-free-audit/" class="bg-brand-accent text-white px-8 py-4 rounded-md font-bold hover:bg-brand-primary transition-colors text-lg shadow-sm w-full sm:w-auto text-center">
+          Get 24–48 Hour Review →
+        </a>
+        <a href="/contact/" class="bg-white text-brand-navy border border-brand-navy px-8 py-4 rounded-md font-bold hover:bg-brand-softBg transition-colors text-lg shadow-sm w-full sm:w-auto text-center">
+          Talk to TheEduAssist →
+        </a>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-4 text-sm text-slate-600 font-medium">
+        <span class="flex items-center"><svg class="w-4 h-4 text-brand-accent mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> No fake one-size-fits-all pricing</span>
+        <span class="flex items-center"><svg class="w-4 h-4 text-brand-accent mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Clear scope before work starts</span>
+        <span class="flex items-center"><svg class="w-4 h-4 text-brand-accent mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Built for creators, coaches, consultants, academies, and training teams</span>
+      </div>
     </div>
   </div>
 
-  <div class="container mx-auto px-4 py-20 max-w-7xl">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
-      {packages.map(pkg => (
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 flex flex-col hover:shadow-md transition-shadow relative">
-          <h2 class="text-2xl font-bold text-slate-800 mb-2">{pkg.title}</h2>
-          <div class="text-xl font-bold text-[var(--color-primary)] mb-4">{pkg.price}</div>
-          <p class="text-slate-600 mb-8 flex-grow">{pkg.desc}</p>
+  <!-- Section 2: Pricing Explanation -->
+  <div class="container mx-auto px-4 py-12 max-w-4xl text-center">
+    <p class="text-lg text-slate-600 bg-white p-6 rounded-xl border border-brand-border/50 shadow-sm">
+      <strong class="text-brand-navy">Note:</strong> Every project is scoped based on content readiness, number of lessons/modules, platform complexity, learner experience needs, integrations, automation, and launch timeline. The prices below are starting points so you can understand the likely investment before requesting a review.
+    </p>
+  </div>
 
-          <ul class="space-y-3 mb-8">
-            {pkg.features.map(feat => (
-              <li class="flex items-start text-sm text-slate-700">
-                <svg class="w-5 h-5 text-[var(--color-accent)] mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                {feat}
-              </li>
-            ))}
-          </ul>
+  <div class="container mx-auto px-4 py-12 max-w-7xl">
 
-          <button data-service-slug={pkg.slug} class="tawk-service-btn w-full px-6 py-3 bg-[var(--color-primary)] text-white font-bold rounded-lg hover:bg-[var(--color-navy)] transition-colors mt-auto">
-            Start This Package
-          </button>
+    <!-- Section 3: Starter / Audit Packages -->
+    <div class="mb-20">
+      <h2 class="text-3xl font-bold text-brand-navy mb-8 text-center">Starter & Audit Packages</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <!-- Pkg 1 -->
+        <div class="bg-white rounded-2xl shadow-sm border border-brand-border/50 p-8 flex flex-col relative overflow-hidden group hover:shadow-md transition-all">
+          <div class="absolute top-0 right-0 bg-brand-softBg text-brand-navy text-xs font-bold px-3 py-1 rounded-bl-lg">Starter</div>
+          <h3 class="text-2xl font-bold text-brand-navy mb-2">Course Clarity Blueprint</h3>
+          <div class="text-xl font-bold text-brand-primary mb-4">From $500</div>
+          <p class="text-slate-600 mb-6 text-sm"><strong class="text-brand-navy">Best for:</strong> Creators, coaches, consultants, or teams who have expertise but need a clear course structure before building.</p>
+
+          <div class="mb-6 flex-grow">
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-3">Includes</h4>
+            <ul class="space-y-2 mb-6">
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Course idea and audience review</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Learning outcome refinement</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Module and lesson structure</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Course flow recommendations</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Content gap notes & Launch-readiness suggestions</li>
+            </ul>
+
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-3">Deliverables</h4>
+            <ul class="space-y-2">
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-primary mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Course outline & Module map</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-primary mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Lesson flow & Priority improvement notes</li>
+            </ul>
+          </div>
+
+          <a href="/book-free-audit/" class="block w-full py-3 bg-brand-softBg text-brand-navy font-bold rounded-lg hover:bg-brand-accent hover:text-white transition-colors mt-auto text-center border border-brand-border/50 hover:border-brand-accent">
+            Start with a Review →
+          </a>
         </div>
-      ))}
+
+        <!-- Pkg 2 -->
+        <div class="bg-white rounded-2xl shadow-sm border border-brand-border/50 p-8 flex flex-col relative overflow-hidden group hover:shadow-md transition-all">
+          <div class="absolute top-0 right-0 bg-brand-softBg text-brand-navy text-xs font-bold px-3 py-1 rounded-bl-lg">Starter</div>
+          <h3 class="text-2xl font-bold text-brand-navy mb-2">LMS Migration Map</h3>
+          <div class="text-xl font-bold text-brand-primary mb-4">From $700</div>
+          <p class="text-slate-600 mb-6 text-sm"><strong class="text-brand-navy">Best for:</strong> Training teams, academies, or businesses planning to move content from one LMS or platform to another.</p>
+
+          <div class="mb-6 flex-grow">
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-3">Includes</h4>
+            <ul class="space-y-2 mb-6">
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Existing platform review</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Course/content inventory</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Migration risk notes</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Recommended migration structure</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Platform-fit recommendations & Launch checklist</li>
+            </ul>
+
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-3">Deliverables</h4>
+            <ul class="space-y-2">
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-primary mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Migration plan & Content mapping sheet</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-primary mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>Platform recommendations & Priority action list</li>
+            </ul>
+          </div>
+
+          <a href="/book-free-audit/" class="block w-full py-3 bg-brand-softBg text-brand-navy font-bold rounded-lg hover:bg-brand-accent hover:text-white transition-colors mt-auto text-center border border-brand-border/50 hover:border-brand-accent">
+            Plan My Migration →
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="max-w-3xl mx-auto bg-slate-50 rounded-2xl p-8 md:p-12 border border-slate-200 mb-20">
-      <h2 class="text-2xl font-bold text-slate-800 mb-8 text-center">Frequently Asked Questions</h2>
+    <!-- Section 4: Core Build Packages -->
+    <div class="mb-20">
+      <h2 class="text-3xl font-bold text-brand-navy mb-8 text-center">Core Services & Builds</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Pkg 3 -->
+        <div class="bg-white rounded-2xl shadow-sm border border-brand-border/50 p-8 flex flex-col relative overflow-hidden group hover:shadow-md transition-all">
+          <h3 class="text-2xl font-bold text-brand-navy mb-2">Content Conversion Kit</h3>
+          <div class="text-xl font-bold text-brand-primary mb-4">From $900</div>
+          <p class="text-slate-600 mb-6 text-sm"><strong class="text-brand-navy">Best for:</strong> Clients who already have PDFs, slides, recordings, scripts, or raw training material and want it turned into structured e-learning content.</p>
+          <div class="mb-6 flex-grow">
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Includes</h4>
+            <ul class="space-y-2 mb-4">
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Content review, cleanup, and restructuring</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Slide/PDF/course material conversion</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Upload-ready content preparation</li>
+            </ul>
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Deliverables</h4>
+            <p class="text-sm text-slate-700 pl-6">Converted course content, organized lesson structure, platform-ready assets where applicable.</p>
+          </div>
+          <a href="/book-free-audit/" class="block w-full py-3 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-navy transition-colors mt-auto text-center">Convert My Content →</a>
+        </div>
+
+        <!-- Pkg 4 -->
+        <div class="bg-white rounded-2xl shadow-sm border border-brand-border/50 p-8 flex flex-col relative overflow-hidden group hover:shadow-md transition-all">
+          <div class="absolute top-0 right-0 bg-brand-accent text-white text-xs font-bold px-3 py-1 rounded-bl-lg">Kajabi</div>
+          <h3 class="text-2xl font-bold text-brand-navy mb-2">Kajabi Setup Sprint</h3>
+          <div class="text-xl font-bold text-brand-primary mb-4">From $1,500</div>
+          <p class="text-slate-600 mb-6 text-sm"><strong class="text-brand-navy">Best for:</strong> Creators, coaches, consultants, and online educators who want a focused Kajabi course, website, or funnel setup.</p>
+          <div class="mb-6 flex-grow">
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Includes</h4>
+            <ul class="space-y-2 mb-4">
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Kajabi product/course setup</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Basic website/landing page & checkout setup</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Email/funnel basics & mobile polish</li>
+            </ul>
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Deliverables</h4>
+            <p class="text-sm text-slate-700 pl-6">Kajabi course/product structure, launch page, core checkout path, QA notes.</p>
+          </div>
+          <a href="/book-free-audit/" class="block w-full py-3 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-navy transition-colors mt-auto text-center">Build My Kajabi Setup →</a>
+        </div>
+
+        <!-- Pkg 5 -->
+        <div class="bg-white rounded-2xl shadow-sm border border-brand-primary/30 p-8 flex flex-col relative overflow-hidden group hover:shadow-md transition-all shadow-brand-primary/10">
+          <div class="absolute top-0 right-0 bg-brand-primary text-white text-xs font-bold px-3 py-1 rounded-bl-lg">Popular</div>
+          <h3 class="text-2xl font-bold text-brand-navy mb-2">Course Creation & Curriculum Design</h3>
+          <div class="text-xl font-bold text-brand-primary mb-4">Starting at $2,500</div>
+          <p class="text-slate-600 mb-6 text-sm"><strong class="text-brand-navy">Best for:</strong> Experts and teams who need full course structure, curriculum design, instructional flow, and learner-ready course planning.</p>
+          <div class="mb-6 flex-grow">
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Includes</h4>
+            <ul class="space-y-2 mb-4">
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Course strategy & curriculum structure</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Module/lesson design & learning outcomes</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Activity, assessment & learner experience planning</li>
+            </ul>
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Deliverables</h4>
+            <p class="text-sm text-slate-700 pl-6">Full curriculum map, module/lesson framework, build-ready course structure.</p>
+          </div>
+          <a href="/book-free-audit/" class="block w-full py-3 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-navy transition-colors mt-auto text-center">Design My Course →</a>
+        </div>
+
+        <!-- Pkg 6 -->
+        <div class="bg-white rounded-2xl shadow-sm border border-brand-primary/30 p-8 flex flex-col relative overflow-hidden group hover:shadow-md transition-all shadow-brand-primary/10">
+          <div class="absolute top-0 right-0 bg-brand-primary text-white text-xs font-bold px-3 py-1 rounded-bl-lg">Popular Kajabi</div>
+          <h3 class="text-2xl font-bold text-brand-navy mb-2">Kajabi Website & Course Setup</h3>
+          <div class="text-xl font-bold text-brand-primary mb-4">Starting at $3,500</div>
+          <p class="text-slate-600 mb-6 text-sm"><strong class="text-brand-navy">Best for:</strong> Clients who need Kajabi course setup plus a polished website, sales flow, and launch-ready platform structure.</p>
+          <div class="mb-6 flex-grow">
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Includes</h4>
+            <ul class="space-y-2 mb-4">
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Kajabi website & course/product setup</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Sales page, checkout & basic automation</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Mobile responsive polish & launch QA</li>
+            </ul>
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Deliverables</h4>
+            <p class="text-sm text-slate-700 pl-6">Kajabi website/course build, offer flow, funnel path, launch checklist.</p>
+          </div>
+          <a href="/book-free-audit/" class="block w-full py-3 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-navy transition-colors mt-auto text-center">Launch on Kajabi →</a>
+        </div>
+
+        <!-- Pkg 7 -->
+        <div class="bg-white rounded-2xl shadow-sm border border-brand-border/50 p-8 flex flex-col relative overflow-hidden group hover:shadow-md transition-all">
+          <h3 class="text-2xl font-bold text-brand-navy mb-2">Course + Platform Build</h3>
+          <div class="text-xl font-bold text-brand-primary mb-4">From $4,000</div>
+          <p class="text-slate-600 mb-6 text-sm"><strong class="text-brand-navy">Best for:</strong> Clients who need both the learning content structure and the platform build handled together.</p>
+          <div class="mb-6 flex-grow">
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Includes</h4>
+            <ul class="space-y-2 mb-4">
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Course structure and curriculum support</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Platform setup & learner journey design</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>QA and launch preparation</li>
+            </ul>
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Deliverables</h4>
+            <p class="text-sm text-slate-700 pl-6">Structured course, configured platform, launch-ready setup.</p>
+          </div>
+          <a href="/book-free-audit/" class="block w-full py-3 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-navy transition-colors mt-auto text-center">Build My Course Platform →</a>
+        </div>
+
+        <!-- Pkg 8 -->
+        <div class="bg-white rounded-2xl shadow-sm border border-brand-border/50 p-8 flex flex-col relative overflow-hidden group hover:shadow-md transition-all">
+          <div class="absolute top-0 right-0 bg-brand-navy text-white text-xs font-bold px-3 py-1 rounded-bl-lg">LMS</div>
+          <h3 class="text-2xl font-bold text-brand-navy mb-2">LMS Implementation & Migration</h3>
+          <div class="text-xl font-bold text-brand-primary mb-4">Starting at $4,000</div>
+          <p class="text-slate-600 mb-6 text-sm"><strong class="text-brand-navy">Best for:</strong> Businesses, academies, training companies, and teams that need LMS setup, migration, or implementation support.</p>
+          <div class="mb-6 flex-grow">
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Includes</h4>
+            <ul class="space-y-2 mb-4">
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>LMS structure planning & configuration</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Course/content migration & learner pathway setup</li>
+              <li class="flex items-start text-sm text-slate-700"><svg class="w-4 h-4 text-brand-accent mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Role/access planning & migration QA</li>
+            </ul>
+            <h4 class="font-bold text-slate-800 text-sm uppercase tracking-wider mb-2">Deliverables</h4>
+            <p class="text-sm text-slate-700 pl-6">LMS implementation plan, configured learning structure, migrated content.</p>
+          </div>
+          <a href="/book-free-audit/" class="block w-full py-3 bg-brand-primary text-white font-bold rounded-lg hover:bg-brand-navy transition-colors mt-auto text-center">Plan My LMS Build →</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Section 5: Ongoing Support -->
+    <div class="mb-20 max-w-4xl mx-auto">
+      <div class="bg-gradient-to-br from-brand-navy to-slate-900 rounded-2xl shadow-lg p-8 md:p-10 flex flex-col md:flex-row gap-8 items-center relative overflow-hidden">
+        <div class="absolute top-0 right-0 bg-brand-accent text-white text-xs font-bold px-3 py-1 rounded-bl-lg z-10">Monthly</div>
+        <div class="flex-1 text-white z-10">
+          <h3 class="text-3xl font-bold mb-2">Ongoing Course Support</h3>
+          <div class="text-2xl font-bold text-brand-accent mb-4">From $600/month</div>
+          <p class="text-slate-300 mb-6 text-sm">
+            <strong class="text-white">Best for:</strong> Clients who already have a course, Kajabi site, LMS, or training platform and need monthly updates, support, optimization, or maintenance.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-2">Includes</h4>
+              <ul class="space-y-1 text-sm text-slate-300">
+                <li>• Course & platform updates</li>
+                <li>• Content edits</li>
+                <li>• Basic funnel/page updates</li>
+                <li>• Monthly support queue & QA</li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-2">Deliverables</h4>
+              <ul class="space-y-1 text-sm text-slate-300">
+                <li>• Monthly support</li>
+                <li>• Update tracking</li>
+                <li>• Improvement recommendations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-64 z-10">
+           <a href="/contact/" class="block w-full py-4 bg-white text-brand-navy font-bold rounded-lg hover:bg-brand-softBg transition-colors text-center shadow">Discuss Monthly Support →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 6: Custom / Enterprise Scope -->
+    <div class="mb-20">
+      <div class="bg-brand-softBg rounded-2xl border border-brand-border/50 p-8 md:p-12 text-center max-w-4xl mx-auto">
+        <div class="inline-block bg-white text-brand-navy px-3 py-1 rounded-full text-xs font-bold mb-4 shadow-sm border border-brand-border/30">Custom</div>
+        <h3 class="text-2xl md:text-3xl font-bold text-brand-navy mb-4">Need a custom course, academy, or LMS build?</h3>
+        <p class="text-slate-600 mb-8 max-w-2xl mx-auto">
+          Some projects need custom scoping because they involve multiple courses, teams, integrations, migrations, assessments, certificates, advanced automations, or organization-wide training systems.
+        </p>
+        <a href="/book-free-audit/" class="inline-block py-3 px-8 bg-brand-navy text-white font-bold rounded-lg hover:bg-brand-primary transition-colors text-center">Request a Custom Scope →</a>
+      </div>
+    </div>
+
+    <!-- Two Column: Factors & Comparison -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20 max-w-6xl mx-auto">
+
+      <!-- Section 7: What Affects Pricing -->
+      <div class="bg-white rounded-2xl p-8 border border-brand-border/50 shadow-sm">
+        <h3 class="text-2xl font-bold text-brand-navy mb-6">What Affects Pricing?</h3>
+        <ul class="space-y-3">
+          <li class="flex items-start text-slate-700"><svg class="w-5 h-5 text-slate-400 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Number of modules and lessons</li>
+          <li class="flex items-start text-slate-700"><svg class="w-5 h-5 text-slate-400 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Amount and quality of existing content</li>
+          <li class="flex items-start text-slate-700"><svg class="w-5 h-5 text-slate-400 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Platform choice (Kajabi, LMS, multi-platform)</li>
+          <li class="flex items-start text-slate-700"><svg class="w-5 h-5 text-slate-400 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Content conversion needs</li>
+          <li class="flex items-start text-slate-700"><svg class="w-5 h-5 text-slate-400 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Assessment, quiz, and certificate requirements</li>
+          <li class="flex items-start text-slate-700"><svg class="w-5 h-5 text-slate-400 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Funnel and automation complexity</li>
+          <li class="flex items-start text-slate-700"><svg class="w-5 h-5 text-slate-400 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Migration complexity</li>
+          <li class="flex items-start text-slate-700"><svg class="w-5 h-5 text-slate-400 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Timeline and launch urgency</li>
+          <li class="flex items-start text-slate-700"><svg class="w-5 h-5 text-slate-400 mt-0.5 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>Ongoing support needs</li>
+        </ul>
+      </div>
+
+      <!-- Section 8: Comparison / Quick Guide -->
+      <div class="bg-white rounded-2xl p-8 border border-brand-border/50 shadow-sm">
+        <h3 class="text-2xl font-bold text-brand-navy mb-6">Quick Selection Guide</h3>
+        <div class="space-y-4">
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
+            <span class="block text-sm text-slate-500 mb-1">If you need clarity before building</span>
+            <strong class="text-brand-primary block">→ Course Clarity Blueprint</strong>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
+            <span class="block text-sm text-slate-500 mb-1">If you have raw content</span>
+            <strong class="text-brand-primary block">→ Content Conversion Kit</strong>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
+            <span class="block text-sm text-slate-500 mb-1">If you are using Kajabi</span>
+            <strong class="text-brand-primary block">→ Kajabi Setup Sprint or Kajabi Website & Course Setup</strong>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
+            <span class="block text-sm text-slate-500 mb-1">If you need course strategy</span>
+            <strong class="text-brand-primary block">→ Course Creation & Curriculum Design</strong>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
+            <span class="block text-sm text-slate-500 mb-1">If you need platform + course together</span>
+            <strong class="text-brand-primary block">→ Course + Platform Build</strong>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
+            <span class="block text-sm text-slate-500 mb-1">If you are moving platforms</span>
+            <strong class="text-brand-primary block">→ LMS Migration Map or LMS Implementation & Migration</strong>
+          </div>
+          <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
+            <span class="block text-sm text-slate-500 mb-1">If you need help every month</span>
+            <strong class="text-brand-primary block">→ Ongoing Course Support</strong>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Section 9: FAQ -->
+    <div class="max-w-3xl mx-auto bg-white rounded-2xl p-8 md:p-12 border border-brand-border/50 shadow-sm mb-20">
+      <h2 class="text-2xl font-bold text-brand-navy mb-8 text-center">Frequently Asked Questions</h2>
       <div class="space-y-6">
         {faqs.map(faq => (
-          <div>
+          <div class="border-b border-slate-100 pb-4 last:border-0 last:pb-0">
             <h3 class="font-bold text-slate-800 mb-2">{faq.question}</h3>
             <p class="text-slate-600">{faq.answer}</p>
           </div>
         ))}
       </div>
     </div>
+
   </div>
 
-  <StartingPoint />
-  <ServicesFinalCTA />
+  <!-- Section 10: Final CTA -->
+  <div class="bg-brand-navy py-16 text-center text-white">
+    <div class="container mx-auto px-4 max-w-3xl">
+      <h2 class="text-3xl font-bold mb-4">Not sure which package fits?</h2>
+      <p class="text-lg text-slate-300 mb-8">
+        Send your course, platform, or LMS details and TheEduAssist will review your needs within 24–48 hours.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <a href="/book-free-audit/" class="bg-brand-accent text-white px-8 py-3 rounded-md font-bold hover:bg-white hover:text-brand-navy transition-colors shadow-sm w-full sm:w-auto">
+          Get 24–48 Hour Review →
+        </a>
+        <a href="/contact/" class="bg-transparent text-white border border-white/30 px-8 py-3 rounded-md font-bold hover:bg-white/10 transition-colors w-full sm:w-auto">
+          Contact TheEduAssist →
+        </a>
+      </div>
+    </div>
+  </div>
 
-  <script>
-    import { openStartServiceChat } from "../../utils/tawkSales";
-    document.addEventListener("DOMContentLoaded", () => {
-      const btns = document.querySelectorAll(".tawk-service-btn");
-      btns.forEach(btn => {
-        btn.addEventListener("click", (e) => {
-          e.preventDefault();
-          const target = e.currentTarget as HTMLButtonElement;
-          openStartServiceChat({
-            serviceSlug: target.dataset.serviceSlug || "",
-            pageUrl: window.location.href,
-            pageTitle: document.title,
-          });
-        });
-      });
-    });
-  </script>
 </Layout>
