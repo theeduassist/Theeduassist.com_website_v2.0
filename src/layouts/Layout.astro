@@ -52,6 +52,17 @@ const shouldNoIndex = noindex || !isMainDomain;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content={formattedDescription} />
+		<meta name="google-site-verification" content="8bSmU6Y72pExQFv2ecIfZt5Rs8KO6U6ADLJJXI37_0Y" />
+
+		<!-- Google tag (gtag.js) -->
+		<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-39NHQ9YM9P"></script>
+		<script is:inline>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-39NHQ9YM9P');
+		</script>
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
