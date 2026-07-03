@@ -3,7 +3,7 @@ export const GET = async () => {
         `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://theeduassist.com/sitemap.xml</loc>
+    <loc>https://www.theeduassist.com/sitemap.xml</loc>
   </sitemap>
 </sitemapindex>`,
         {
