@@ -167,6 +167,87 @@ export const redirects: RedirectRule[] = [
     sourceGroup: "oldKajabi",
     targetExists: true
   },
+  {
+    from: "/book-a-call/",
+    to: "/book-free-audit/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy redirect",
+    sourceGroup: "oldPage",
+    targetExists: true
+  },
+  {
+    from: "/free-audit/",
+    to: "/book-free-audit/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy redirect",
+    sourceGroup: "oldPage",
+    targetExists: true
+  },
+  {
+    from: "/scenario-based-learning/",
+    to: "/services/custom-elearning-development/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy redirect",
+    sourceGroup: "oldPage",
+    targetExists: true
+  },
+  {
+    from: "/uncategorized/skills-based-learning-or-traditional-training/",
+    to: "/blog/skills-based-learning-or-traditional-training/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy redirect",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
+    from: "/uncategorized/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/",
+    to: "/services/custom-elearning-development/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy redirect",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
+    from: "/uncategorized/digital-marketing-curriculum-on-skool-how-to-build-high-value/",
+    to: "/platforms/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy redirect",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
+    from: "/uncategorized/",
+    to: "/blog/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy redirect",
+    sourceGroup: "oldCategory",
+    targetExists: true
+  },
+  {
+    from: "/blogs/",
+    to: "/blog/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy redirect",
+    sourceGroup: "oldPage",
+    targetExists: true
+  },
+  {
+    from: "/blog-posts/",
+    to: "/blog/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy redirect",
+    sourceGroup: "oldPage",
+    targetExists: true
+  },
 
   // WordPress JUNK
   { from: "/?wpr_templates=user-single-online-course-v1-post", to: "", status: "doNotRedirect", statusCode: 301, reason: "WP Template", sourceGroup: "oldTemplate", targetExists: false },

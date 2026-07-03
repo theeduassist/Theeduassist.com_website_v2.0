@@ -49,4 +49,27 @@ if (redirectsMatch) {
     }
 }
 
+try {
+    const vercelJsonPath = path.join(process.cwd(), 'vercel.json');
+    if (fs.existsSync(vercelJsonPath)) {
+        const vercelJson = JSON.parse(fs.readFileSync(vercelJsonPath, 'utf8'));
+        if (vercelJson.redirects) {
+            const forbiddenSources = ['/*', '/pricing/', '/services/', '/blog/', '/sitemap.xml', '/sitemap/'];
+            for (const r of vercelJson.redirects) {
+                if (forbiddenSources.includes(r.source)) {
+                    console.error(`Error: Forbidden redirect source found in vercel.json: ${r.source}`);
+                    process.exit(1);
+                }
+                if (r.source === r.destination) {
+                    console.error(`Error: Redirect loop found in vercel.json for: ${r.source}`);
+                    process.exit(1);
+                }
+            }
+        }
+    }
+} catch (e) {
+    console.error("Error parsing vercel.json for redirect validation", e);
+    process.exit(1);
+}
+
 console.log("Redirects validated successfully.");

@@ -120,6 +120,36 @@ export async function getAllPublicRoutes(): Promise<PublicRoute[]> {
     priority: '0.5'
   });
 
+  routes.push({
+    path: '/news/',
+    title: 'News | TheEduAssist',
+    pageType: 'general',
+    indexable: true,
+    includeInSitemap: true,
+    includeInHumanSitemap: true,
+    priority: '0.7'
+  });
+
+  routes.push({
+    path: '/press-releases/',
+    title: 'Press Releases | TheEduAssist',
+    pageType: 'general',
+    indexable: true,
+    includeInSitemap: true,
+    includeInHumanSitemap: true,
+    priority: '0.7'
+  });
+
+  routes.push({
+    path: '/brand-assets/',
+    title: 'Brand Assets | TheEduAssist',
+    pageType: 'general',
+    indexable: true,
+    includeInSitemap: true,
+    includeInHumanSitemap: true,
+    priority: '0.7'
+  });
+
   // Legal Pages
   const legalPages = ['/privacy-policy/', '/terms-and-conditions/', '/accessibility-statement/', '/cookie-policy/', '/disclaimer/', '/editorial-policy/', '/ai-use-policy/'];
   legalPages.forEach(path => {

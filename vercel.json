@@ -2,5 +2,112 @@
   "installCommand": "npm install --legacy-peer-deps",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "framework": "astro"
+  "framework": "astro",
+  "redirects": [
+    {
+      "source": "/about-us/?",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us/?",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies-1/?",
+      "destination": "/case-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/book-a-call/?",
+      "destination": "/book-free-audit/",
+      "permanent": true
+    },
+    {
+      "source": "/free-audit/?",
+      "destination": "/book-free-audit/",
+      "permanent": true
+    },
+    {
+      "source": "/career/?",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/scenario-based-learning/?",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/skills-based-learning-or-traditional-training/?",
+      "destination": "/blog/skills-based-learning-or-traditional-training/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/?",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/digital-marketing-curriculum-on-skool-how-to-build-high-value/?",
+      "destination": "/platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/:slug",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/?",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/?",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-posts/?",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies-2/?",
+      "destination": "/case-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies-3/?",
+      "destination": "/case-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/custom-elearning-content-development/?",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/lms-integration-migration-services/?",
+      "destination": "/services/lms-implementation-migration/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-powered-elearning/?",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/terms-conditions/?",
+      "destination": "/terms-and-conditions/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy-2/?",
+      "destination": "/privacy-policy/",
+      "permanent": true
+    }
+  ]
 }
