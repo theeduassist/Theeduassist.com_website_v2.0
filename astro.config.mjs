@@ -5,7 +5,7 @@ import react from '@astrojs/react';
 import vercel from '@astrojs/vercel';
 
 export default defineConfig({
-  site: 'https://theeduassist.com',
+  site: 'https://www.theeduassist.com',
   adapter: vercel(),
   vite: {
     plugins: [tailwindcss()]

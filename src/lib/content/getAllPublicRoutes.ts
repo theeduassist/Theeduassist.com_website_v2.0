@@ -134,6 +134,19 @@ export async function getAllPublicRoutes(): Promise<PublicRoute[]> {
     });
   });
 
+  const placeholderPages = ['/news/', '/press-releases/', '/brand-assets/'];
+  placeholderPages.forEach(path => {
+    routes.push({
+      path,
+      title: `${path.replace(/\//g, '').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase())} | TheEduAssist`,
+      pageType: 'general',
+      indexable: true,
+      includeInSitemap: true,
+      includeInHumanSitemap: true,
+      priority: '0.3'
+    });
+  });
+
   // Services dynamically
   const services = await getAllServices();
   services.forEach(service => {

@@ -11,7 +11,7 @@ export const GET = async () => {
         const path = route.path.startsWith('/') ? route.path : `/${route.path}`;
         // Add trailing slash if needed
         const urlWithSlash = path.endsWith('/') ? path : `${path}/`;
-        const url = `https://theeduassist.com${urlWithSlash === '/' ? '' : urlWithSlash}`;
+        const url = `https://www.theeduassist.com${urlWithSlash === '/' ? '' : urlWithSlash}`;
 
         return `
     <url>

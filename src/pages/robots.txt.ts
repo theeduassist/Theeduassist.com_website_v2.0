@@ -4,7 +4,7 @@ const robotsTxt = `
 User-agent: *
 Allow: /
 
-Sitemap: https://theeduassist.com/sitemap.xml
+Sitemap: https://www.theeduassist.com/sitemap.xml
 `.trim();
 
 export const GET: APIRoute = () => {
