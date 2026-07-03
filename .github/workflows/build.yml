@@ -26,5 +26,11 @@ jobs:
       - name: Build Project
         run: npm run build
 
+      - name: Validate Environment Safety
+        run: npm run validate:env
+
       - name: Validate Redirects
         run: npm run validate:redirects
+
+      - name: Check Sanity Blog Public
+        run: npm run check:sanity:blog
