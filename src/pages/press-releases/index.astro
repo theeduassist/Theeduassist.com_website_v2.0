@@ -1,0 +1,25 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const title = "Press Releases | TheEduAssist";
+const description = "Official press releases and media updates from TheEduAssist.";
+const canonicalPath = "/press-releases/";
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath}>
+  <div class="container mx-auto px-4 py-24 text-center max-w-3xl min-h-[60vh] flex flex-col justify-center">
+    <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-6">Press Releases</h1>
+    <p class="text-xl text-slate-600 mb-8">
+      Official announcements and media updates will be published here.
+    </p>
+    <div class="bg-slate-50 p-8 rounded-xl border border-slate-200 text-left max-w-xl mx-auto mb-8">
+      <h2 class="font-bold text-slate-800 mb-2">Media Contact</h2>
+      <p class="text-slate-600">For press inquiries, please contact us at:</p>
+      <a href="mailto:Info@theeduassist.com" class="text-[var(--color-primary)] font-semibold hover:underline">Info@theeduassist.com</a>
+    </div>
+    <div class="flex justify-center gap-4">
+      <a href="/brand-assets/" class="px-6 py-3 bg-[var(--color-accent)] text-white font-bold rounded-lg hover:bg-opacity-90 transition-all">Brand Assets</a>
+      <a href="/contact/" class="px-6 py-3 bg-white text-slate-700 border border-slate-300 font-bold rounded-lg hover:bg-slate-50 transition-all">Contact Us</a>
+    </div>
+  </div>
+</Layout>

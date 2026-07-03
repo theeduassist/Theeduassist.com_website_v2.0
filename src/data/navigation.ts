@@ -6,6 +6,8 @@ export const navigation = {
     { label: 'Blog', href: '/blog/' },
     { label: 'Case Studies', href: '/case-studies/' },
     { label: 'Services', href: '/services/' },
+    { label: 'Pricing', href: '/pricing/' },
+    { label: 'Pricing', href: '/pricing/' },
     { label: 'Get 24–48 Hour Review', href: '/book-free-audit/' },
     { label: 'About Us', href: '/about/' },
   ],
