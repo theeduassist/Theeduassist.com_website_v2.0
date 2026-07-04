@@ -1,22 +1,108 @@
 import { latestBlogPostsQuery } from '../../sanity/queries';
 import { fetchFromSanity } from '../../sanity/client';
 
-export function isPublicBlogPost(post: any): boolean {
-  if (!post) return false;
-  const slug = post.slug?.current || post.slug;
-  const isDraft = post._id?.startsWith('drafts.');
-  const noIndex = post.seo?.noindex;
-  const isTest = slug.toLowerCase().includes('test') || post.title?.toLowerCase().includes('test');
-  const migrationStatus = post.migrationStatus;
 
-  // Require approved/published status if present, avoid tests/drafts/noindex
-  return !!(
-    slug &&
-    !isDraft &&
-    !isTest &&
-    noIndex !== true &&
-    (!migrationStatus || ['approved', 'published'].includes(migrationStatus.toLowerCase()))
-  );
+export function getPlainTextFromPortableText(body: any[]): string {
+  if (!body || !Array.isArray(body)) return '';
+
+  return body
+    .filter(block => block._type === 'block' && block.children)
+    .map(block => block.children.map((child: any) => child.text).join(''))
+    .join(' ');
+}
+
+export function hasUsefulBody(post: any): boolean {
+  if (!post) return false;
+
+  if (post.content && typeof post.content === 'string') {
+     const plain = post.content.replace(/<[^>]+>/g, '').trim();
+     if (plain.toLowerCase().includes('content coming soon') && plain.length < 50) return false;
+     return plain.length >= 300;
+  }
+
+  if (post.body && Array.isArray(post.body)) {
+     const plain = getPlainTextFromPortableText(post.body).trim();
+     if (plain.toLowerCase().includes('content coming soon') && plain.length < 50) return false;
+     return plain.length >= 300;
+  }
+
+  return false;
+}
+
+export function isPlaceholderPost(post: any): boolean {
+  if (!post) return true;
+  const title = (post.title || '').toLowerCase();
+  if (title.includes('content coming soon')) return true;
+
+  if (post.content && typeof post.content === 'string') {
+     const plain = post.content.replace(/<[^>]+>/g, '').trim().toLowerCase();
+     if (plain === 'content coming soon' || plain === 'very good now') return true;
+  }
+
+  if (post.body && Array.isArray(post.body)) {
+     const plain = getPlainTextFromPortableText(post.body).trim().toLowerCase();
+     if (plain === 'content coming soon' || plain === 'very good now') return true;
+  }
+
+  return false;
+}
+
+export function isDraftPost(post: any): boolean {
+  return post?._id?.startsWith('drafts.') || false;
+}
+
+export function isNoindexPost(post: any): boolean {
+  return post?.seo?.noindex === true;
+}
+
+export function hasValidSlug(post: any): boolean {
+  const slug = post?.slug?.current || post?.slug;
+  if (!slug || typeof slug !== 'string') return false;
+  const cleanSlug = slug.toLowerCase();
+
+  return !cleanSlug.includes('test') &&
+         !cleanSlug.includes('do-not-publish') &&
+         !cleanSlug.includes('review-pending') &&
+         !cleanSlug.includes('content-coming-soon');
+}
+
+
+export function getBlogPostPublicFilterReason(post: any): string | null {
+  if (!post) return 'Post is null or undefined';
+
+  if (isDraftPost(post)) return 'Draft document';
+  if (isNoindexPost(post)) return 'noindex true';
+  if (isPlaceholderPost(post)) return 'placeholder content';
+  if (!hasValidSlug(post)) return 'test slug or title';
+
+  const title = (post.title || '').toLowerCase();
+  if (!title ||
+      title.includes('test') ||
+      title.includes('testing') ||
+      title.includes('do not publish') ||
+      title.includes('review pending') ||
+      title.includes('content coming soon')) {
+      return 'test title';
+  }
+
+  if (post.hidden === true) return 'hidden true';
+  if (post.reviewPending === true) return 'reviewPending true';
+  if (!post.publishedAt) return 'missing publishedAt';
+
+  const status = post.status;
+  if (status && ['draft', 'review', 'pending', 'archived'].includes(status.toLowerCase())) return 'blocked status';
+
+  const migrationStatus = post.migrationStatus;
+  if (migrationStatus && ['draft', 'review', 'pending', 'archived'].includes(migrationStatus.toLowerCase())) return 'blocked migrationStatus';
+
+  // Final check for body content
+  if (!hasUsefulBody(post)) return 'body too short';
+
+  return null;
+}
+
+export function isPublicBlogPost(post: any): boolean {
+  return getBlogPostPublicFilterReason(post) === null;
 }
 
 export type NormalizedBlogPost = {
@@ -92,7 +178,7 @@ export async function getAllBlogPosts(): Promise<NormalizedBlogPost[]> {
           relatedFaqs: post.relatedFaqs,
           relatedServices: post.relatedServices,
           relatedPlatforms: post.relatedPlatforms,
-          relatedPosts: Array.isArray(post.relatedPosts) ? post.relatedPosts.filter(isPublicBlogPost).map((rp: any) => ({
+          relatedPosts: Array.isArray(post.relatedPosts) ? post.relatedPosts.filter(isPublicBlogPost).filter((rp: any) => rp.slug?.current !== cleanSlug && rp.slug !== cleanSlug).map((rp: any) => ({
             ...rp,
             slug: (rp.slug?.current || rp.slug || '').replace(/^https?:\/\/[^\/]+\/blog\//, '').replace(/\/$/, '')
           })) : post.relatedPosts,
@@ -101,7 +187,15 @@ export async function getAllBlogPosts(): Promise<NormalizedBlogPost[]> {
        });
 
        // Deduplicate by slug
-       const unique = formattedSanity.filter((v, i, a) => a.findIndex(t => (t.slug === v.slug)) === i);
+       const unique = formattedSanity.filter((v, i, a) => a.findIndex(t => (t.slug === v.slug)) === i).filter(isPublicBlogPost);
+
+       // Sort by newest publishedAt first, fallback to updatedAt
+       unique.sort((a, b) => {
+         const dateA = new Date(a.publishedAt || a.updatedAt || 0).getTime();
+         const dateB = new Date(b.publishedAt || b.updatedAt || 0).getTime();
+         return dateB - dateA;
+       });
+
        return unique;
     }
   } catch (error) {

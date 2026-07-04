@@ -5,18 +5,40 @@ export default defineType({
   title: 'Post',
   type: 'document',
   groups: [
+    {name: 'status', title: 'Status'},
+
     {name: 'content', title: 'Content', default: true},
     {name: 'meta', title: 'Meta'},
     {name: 'stats', title: 'Stats'},
     {name: 'seo', title: 'SEO'},
   ],
   fields: [
-    {name: 'title', title: 'Title', type: 'string', group: 'content'},
-    {name: 'slug', title: 'Slug', type: 'slug', group: 'content', options: {source: 'title', maxLength: 96}},
-    {name: 'publishedAt', title: 'Published at', type: 'datetime', group: 'meta'},
+    {
+      name: 'status',
+      title: 'Post Status',
+      type: 'string',
+      group: 'status',
+      description: 'Draft, Review Pending, and Test posts will NOT appear publicly.',
+      options: {
+        list: [
+          {title: 'Draft', value: 'draft'},
+          {title: 'Review Pending', value: 'reviewPending'},
+          {title: 'Approved', value: 'approved'},
+          {title: 'Published', value: 'published'},
+          {title: 'Archived', value: 'archived'}
+        ],
+        layout: 'radio'
+      },
+      initialValue: 'draft',
+      validation: Rule => Rule.required()
+    },
+
+    {name: 'title', title: 'Title', type: 'string', group: 'content', validation: Rule => Rule.required().error('Title is required for published posts.')},
+    {name: 'slug', title: 'Slug', type: 'slug', group: 'content', options: {source: 'title', maxLength: 96}, validation: Rule => Rule.required().error('Slug is required.')},
+    {name: 'publishedAt', title: 'Published at', type: 'datetime', group: 'meta', validation: Rule => Rule.required().warning('Published At is required for a post to appear publicly.')},
     {name: 'author', title: 'Author', type: 'reference', to: [{type: 'author'}], group: 'meta'},
     {name: 'mainImage', title: 'Main image', type: 'image', options: {hotspot: true}, group: 'content'},
-    {name: 'excerpt', title: 'Excerpt', type: 'text', rows: 3, group: 'content'},
+    {name: 'excerpt', title: 'Excerpt', type: 'text', rows: 3, group: 'content', validation: Rule => Rule.required().error('Excerpt is required for blog cards and SEO.')},
     {
       name: 'body',
       title: 'Body',

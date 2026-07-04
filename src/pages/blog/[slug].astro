@@ -18,11 +18,8 @@ export async function getStaticPaths() {
   const posts = await getAllBlogPosts();
 
   // Filter out posts that do not have valid body or content
-  const validPosts = posts.filter(post => {
-    const hasBody = post.body && Array.isArray(post.body) && post.body.length > 0;
-    const hasContent = post.content && typeof post.content === 'string' && post.content.trim().length > 0;
-    return hasBody || hasContent;
-  });
+  // posts is already strictly filtered by getAllBlogPosts()
+  const validPosts = posts;
 
   return validPosts.map(post => {
     return {
@@ -179,7 +176,7 @@ const tocEnabled = headings.length > 0;
             {post.body ? (
               <PortableTextRenderer value={post.body} />
             ) : (
-              <div set:html={post.content || "<p>Content coming soon.</p>"} />
+              <div set:html={post.content || ""} />
             )}
 
             <div class="mt-12 pt-8 border-t border-slate-100">

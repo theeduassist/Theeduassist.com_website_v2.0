@@ -12,7 +12,15 @@ try {
   console.log("Error fetching blog posts for LatestArticles");
 }
 
-const displayPosts = posts;
+interface Props {
+  currentSlug?: string;
+}
+const { currentSlug } = Astro.props;
+
+// Filter out current slug if passed and limit to 3
+const displayPosts = posts
+  .filter(post => !currentSlug || (post.slug?.current || post.slug) !== currentSlug)
+  .slice(0, 3);
 ---
 
 
