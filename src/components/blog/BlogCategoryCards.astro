@@ -4,7 +4,7 @@ import { getUniqueBlogCategoriesAndTags } from '../../lib/content/getAllBlogPost
 let categories = [];
 try {
   const data = await getUniqueBlogCategoriesAndTags();
-  categories = data.categories;
+  categories = data?.categories || [];
 } catch (e) {
   console.log("Error fetching categories for cards");
 }

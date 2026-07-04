@@ -110,6 +110,10 @@ export async function getAllBlogPosts(): Promise<NormalizedBlogPost[]> {
 export async function getUniqueBlogCategoriesAndTags() {
   const posts = await getAllBlogPosts();
 
+  if (!posts || !Array.isArray(posts)) {
+    return { categories: [], tags: [] };
+  }
+
   const categories = new Map<string, { title: string, slug: string, description?: string }>();
   const tags = new Set<string>();
 

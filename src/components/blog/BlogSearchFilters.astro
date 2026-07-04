@@ -5,8 +5,8 @@ let tags = [];
 let categories = [];
 try {
   const data = await getUniqueBlogCategoriesAndTags();
-  tags = data.tags;
-  categories = data.categories;
+  tags = data?.tags || [];
+  categories = data?.categories || [];
 } catch (e) {
   console.log("Error fetching tags for filters");
 }
