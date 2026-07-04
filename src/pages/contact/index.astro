@@ -3,7 +3,12 @@ import Layout from "../../layouts/Layout.astro";
 import ContactHero from "../../components/contact/ContactHero.astro";
 import ContactOptions from "../../components/contact/ContactOptions.astro";
 import ContactFAQ from "../../components/contact/ContactFAQ.astro";
+import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
 import { webPageSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const aiAnswers = [
+  { q: "How can someone contact TheEduAssist?", a: "The best way to contact TheEduAssist is to book a free 24-48 hour audit through the site, use the live sales chat, or email Info@theeduassist.com directly." }
+];
 
 const jsonLd = [
   webPageSchema(
@@ -81,6 +86,8 @@ const trustChips = [
       </div>
     </div>
   </section>
+
+  <AIAnswerBlock questions={aiAnswers} />
 
   <ContactFAQ />
 

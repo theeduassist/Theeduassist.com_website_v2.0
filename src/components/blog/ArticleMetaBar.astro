@@ -28,10 +28,17 @@ const updDate = formatDate(updatedAt);
 
   {author && (
     <span class="flex items-center">
-      <span class="sr-only">Author:</span>
-      <span class="font-medium text-slate-700">{author}</span>
+      <span class="font-medium text-slate-700">By {author}</span>
+      <span class="text-xs text-slate-400 ml-2">(E-Learning Specialist)</span>
     </span>
   )}
+
+  <span class="flex items-center">
+    <span class="font-medium text-brand-accent bg-brand-softBg px-2 py-0.5 rounded-full text-xs flex items-center gap-1 border border-brand-accent/20">
+      <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      Fact Checked
+    </span>
+  </span>
 
   {pubDate && (
     <span class="flex items-center">

@@ -14,8 +14,15 @@ import CourseComparison from "../../components/course-creation/CourseComparison.
 import CourseFAQ from "../../components/course-creation/CourseFAQ.astro";
 import CourseFinalCTA from "../../components/course-creation/CourseFinalCTA.astro";
 import CaseStudyProof from "../../components/case-studies/CaseStudyProof.astro";
+import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
 
 import { professionalServiceSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const aiAnswers = [
+  { q: "Can TheEduAssist create courses from PDFs and slides?", a: "Yes. TheEduAssist specializes in converting raw materials like PDFs, slide decks, manuals, and notes into structured online courses." },
+  { q: "Can TheEduAssist design curriculum and lesson flow?", a: "Yes. The agency helps map out logical learning journeys, ensuring learners know exactly what to do next to achieve their goals." },
+  { q: "Can TheEduAssist create learner-friendly activities?", a: "Yes. They can design quizzes, reflection prompts, worksheets, and practical tasks that align with the course objectives." }
+];
 
 const jsonLd = [
   professionalServiceSchema(),
@@ -45,6 +52,7 @@ const jsonLd = [
   <CoursePackages />
   <CourseComparison />
   <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
+  <AIAnswerBlock questions={aiAnswers} />
   <CourseFAQ />
   <CourseFinalCTA />
 

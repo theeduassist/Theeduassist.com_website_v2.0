@@ -1,0 +1,41 @@
+---
+const faqs = [
+  { question: "What does TheEduAssist do?", answer: "We turn raw ideas, PDFs, slides, videos, and coaching content into professional online courses, LMS programs, and Kajabi setups." },
+  { question: "Who does TheEduAssist help?", answer: "We help creators, coaches, consultants, educators, training companies, online academies, and businesses." },
+  { question: "Can TheEduAssist build a full online course from raw content?", answer: "Yes, we specialize in converting existing content into structured, platform-ready learning experiences." },
+  { question: "Does TheEduAssist work with Kajabi?", answer: "Yes, Kajabi setup is one of our specialties. We build courses, landing pages, and automations." },
+  { question: "Can TheEduAssist help with LMS migration?", answer: "Yes, we can migrate your content safely from WordPress, old LMS platforms, or Google Drive to a modern LMS." },
+  { question: "Can TheEduAssist convert PDFs, slides, videos, and manuals into online learning?", answer: "Absolutely. We map and structure all raw materials into interactive lessons." },
+  { question: "Can TheEduAssist help with course funnels and automation?", answer: "Yes, we build opt-in pages, sales funnels, and email sequences to support your launch." },
+  { question: "How can someone contact TheEduAssist?", answer: "You can book a 24-48 hour free audit on our site, talk to sales via chat, or email Info@theeduassist.com." }
+];
+---
+<section class="py-24 bg-brand-softBg relative overflow-hidden">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy">Frequently Asked Questions</h2>
+    </div>
+
+    <div class="space-y-4">
+      {faqs.map((faq) => (
+        <details class="group bg-white border border-brand-border rounded-xl shadow-sm overflow-hidden transition-all duration-300 open:shadow-md open:border-brand-accent/30" name="home-faq">
+          <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand-navy hover:text-brand-primary transition-colors focus-ring">
+            <span class="text-lg pr-4">{faq.question}</span>
+            <span class="transition-transform duration-300 group-open:rotate-180 bg-brand-softBg text-brand-textMuted p-2 rounded-full group-hover:text-brand-accent">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </span>
+          </summary>
+          <div class="px-6 pb-6 pt-2 text-brand-textMuted text-base leading-relaxed border-t border-brand-border/30 bg-brand-softBg/30">
+            <p>{faq.answer}</p>
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+</style>

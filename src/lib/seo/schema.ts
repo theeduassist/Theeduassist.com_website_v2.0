@@ -57,15 +57,21 @@ export function serviceSchema(name: string, description: string, urlPath: string
 }
 
 export function faqPageSchema(faqs: { question: string; answer: string }[]) {
+  if (!faqs || faqs.length === 0) return null;
+
+  const validFaqs = faqs.filter(faq => faq.question && faq.answer);
+  if (validFaqs.length === 0) return null;
+
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "mainEntity": faqs.map(faq => ({
+    "mainEntity": validFaqs.map(faq => ({
       "@type": "Question",
       "name": faq.question,
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": faq.answer
+        // Simple strip of unsafe HTML, allowing basic text to pass.
+        "text": typeof faq.answer === 'string' ? faq.answer.replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '').replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '') : 'Answer available on site.'
       }
     }))
   };

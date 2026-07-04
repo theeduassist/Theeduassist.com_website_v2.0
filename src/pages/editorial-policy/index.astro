@@ -2,44 +2,42 @@
 import Layout from "../../layouts/Layout.astro";
 import { webPageSchema, breadcrumbSchema } from '../../lib/seo/schema';
 
-const title = "Editorial Policy";
-const description = "Learn how TheEduAssist reviews content, verifies claims, handles AI-assisted drafting, and avoids fake testimonials, metrics, and spammy publishing practices.";
-const canonicalPath = "/editorial-policy/";
-
 const jsonLd = [
-  webPageSchema(title, description, canonicalPath),
+  webPageSchema(
+    "Editorial Policy | TheEduAssist",
+    "Read TheEduAssist's editorial policy on publishing e-learning, course creation, and platform guides.",
+    "/editorial-policy/"
+  ),
   breadcrumbSchema([
     { name: "Home", urlPath: "/" },
-    { name: title, urlPath: canonicalPath }
+    { name: "Editorial Policy", urlPath: "/editorial-policy/" }
   ])
 ];
 ---
+
 <Layout
-  title={title}
-  description={description}
-  canonicalPath={canonicalPath}
+  title="Editorial Policy | TheEduAssist"
+  description="Read TheEduAssist's editorial policy on publishing e-learning, course creation, and platform guides."
+  canonicalPath="/editorial-policy/"
   jsonLd={jsonLd}
 >
-  <div class="max-w-3xl mx-auto px-4 py-24 prose prose-slate">
-    <h1>Editorial Policy</h1>
-    <p>Last updated: {new Date().toLocaleDateString()}</p>
+  <main class="container mx-auto px-4 py-24 max-w-4xl min-h-screen">
+    <h1 class="text-4xl font-bold text-brand-navy mb-8">Editorial Policy</h1>
 
-    <h2>1. Human Review</h2>
-    <p>All content published by TheEduAssist undergoes mandatory human review. We do not mass-publish unreviewed AI-generated content.</p>
+    <div class="prose prose-lg prose-slate prose-a:text-brand-primary">
+      <p>At TheEduAssist, our content is written to help creators, educators, coaches, consultants, and training teams build better online courses, Kajabi platforms, and LMS systems.</p>
 
-    <h2>2. Claim Verification</h2>
-    <p>We verify claims related to platform capabilities, LMS integrations, and eLearning methodologies. We strive to provide accurate, practical guidance rather than exaggerated promises.</p>
+      <h2>Content Creation and Accuracy</h2>
+      <p>All content is drafted, reviewed, and published with a focus on accuracy, usefulness, and e-learning best practices. Content may be reviewed by instructional design and platform specialists to ensure technical claims are accurate.</p>
 
-    <h2>3. Authenticity</h2>
-    <p>TheEduAssist strictly prohibits the use of fake testimonials, fabricated client logos, fake metrics, or fake awards. All case studies represent actual client engagements, though sensitive details may be omitted for confidentiality.</p>
+      <h2>Updates to Service and Content</h2>
+      <p>Service pages and guides are updated periodically when software offerings (like Kajabi or LMS features) or our agency offerings change. We aim to keep all guides as up-to-date as possible.</p>
 
-    <h2>4. Corrections</h2>
-    <p>If we discover an error in our content regarding a platform update, technical specification, or eLearning best practice, we will promptly update the content to reflect the accurate information.</p>
+      <h2>No Unqualified Advice</h2>
+      <p>We provide advice on e-learning, course creation, Kajabi, LMS implementation, and instructional design. We do not provide medical, legal, or financial advice.</p>
 
-    <h2>5. AI-Assisted Drafting</h2>
-    <p>We may use AI tools to assist with content outlines, structuring, and initial drafting. However, the final content, recommendations, and strategic advice are always reviewed and refined by human experts before publishing.</p>
-
-    <h2>6. No Spam Content</h2>
-    <p>We focus on quality over quantity. We do not engage in spammy keyword stuffing, doorway pages, or publishing thin content designed solely for search engines.</p>
-  </div>
+      <h2>Contact Us</h2>
+      <p>If you spot an error, have a correction, or have questions about our content, please contact us at <a href="mailto:Info@theeduassist.com">Info@theeduassist.com</a>.</p>
+    </div>
+  </main>
 </Layout>

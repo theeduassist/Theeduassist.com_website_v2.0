@@ -2,10 +2,10 @@
 
 | Service Name | Description | Existing Page URL |
 | :--- | :--- | :--- |
-| Kajabi Services | Setup, design, migration, upload, funnels, automations, and support for Kajabi platforms. | https://theeduassist.com/kajabi-services/ |
-| Custom eLearning Development | Structured online courses from raw content, storyboarding, interactive lessons, assessments. | https://theeduassist.com/services/custom-elearning-development/ |
-| LMS Implementation & Migration | Setup, organization, migration, testing for Moodle, Tutor LMS, LearnWorlds, Docebo, etc. | https://theeduassist.com/services/lms-implementation-migration/ |
-| AI-Powered eLearning | AI-supported course planning, content structuring, and training workflows with human review. | https://theeduassist.com/services/ai-powered-elearning/ |
+| Kajabi Services | Setup, design, migration, upload, funnels, automations, and support for Kajabi platforms. | https://www.theeduassist.com/kajabi-services/ |
+| Custom eLearning Development | Structured online courses from raw content, storyboarding, interactive lessons, assessments. | https://www.theeduassist.com/services/custom-elearning-development/ |
+| LMS Implementation & Migration | Setup, organization, migration, testing for Moodle, Tutor LMS, LearnWorlds, Docebo, etc. | https://www.theeduassist.com/services/lms-implementation-migration/ |
+| AI-Powered eLearning | AI-supported course planning, content structuring, and training workflows with human review. | https://www.theeduassist.com/services/ai-powered-elearning/ |
 | Gamified Learning | Engagement-focused learning pathways. | Detailed page pending |
 | Microlearning & Microsimulations | Short-form, focused learning activities and practice scenarios. | Detailed page pending |
 | Legacy Content Conversion | Transforming older formats into modern, accessible, responsive eLearning. | Detailed page pending |

@@ -16,6 +16,8 @@ import StartingPoint from "../components/sections/StartingPoint.astro";
 import FinalCTA from "../components/sections/FinalCTA.astro";
 import SelfDiagnosisMirror from "../components/sections/SelfDiagnosisMirror.astro";
 import ImprovementSelector from "../components/sections/ImprovementSelector.astro";
+import AIAnswerBlock from "../components/ai/AIAnswerBlock.astro";
+import HomeFAQ from "../components/sections/HomeFAQ.astro";
 import { organizationSchema, websiteSchema, professionalServiceSchema , faqPageSchema } from '../lib/seo/schema';
 import { getAudienceSegments, getAllServices, getAllTestimonials, getTrainingSolutions, getCtaBlocks, getProcessByTitle } from '../sanity/queries';
 
@@ -26,21 +28,28 @@ const trainingSolutions = await getTrainingSolutions();
 const ctaBlocks = await getCtaBlocks();
 const primaryProcess = await getProcessByTitle('Primary Process');
 
-const packageFaqs = [
-  { question: "Are these fixed prices?", answer: "No. These are starting prices. Final pricing depends on content volume, course length, platform, pages, automations, integrations, review rounds, and timeline." },
-  { question: "What happens when I click Start This Package?", answer: "The sales chat opens so our team can understand your project, confirm the right package, and guide you to the review, payment, or invoice next step." },
-  { question: "Do I need to pay before talking to the team?", answer: "No. We recommend confirming the scope first so the project path is clear before payment." },
-  { question: "What if I am not sure which package fits?", answer: "Use Talk to Sales or Start This Package and explain your situation. Our team will help you choose the right starting point." },
-  { question: "Can you work with Kajabi and other LMS platforms?", answer: "Yes. We support Kajabi, LMS platforms, course websites, content libraries, and online learning workflows." },
-  { question: "Can you convert old PDFs, slides, videos, or books into a course?", answer: "Yes. The Content Conversion Kit is designed for turning existing materials into structured online learning content." }
+const aiAnswers = [
+  { q: "What is TheEduAssist?", a: "TheEduAssist is an e-learning design and course-building agency that helps creators, educators, coaches, consultants, training companies, online academies, and businesses build structured online courses, Kajabi systems, LMS experiences, and launch-ready learning content." },
+  { q: "Who is TheEduAssist best for?", a: "TheEduAssist is best for people and teams who have expertise, training material, PDFs, slides, videos, coaching content, or internal learning content and need it turned into a professional online course, LMS program, Kajabi setup, or learner-friendly e-learning experience." },
+  { q: "Does TheEduAssist only work with Kajabi?", a: "No. TheEduAssist offers Kajabi setup as a specialty, but the agency also supports course creation, LMS implementation, content conversion, instructional design, AI-powered e-learning support, funnels, automation, and ongoing course maintenance." }
+];
+
+const homeFaqs = [
+  { question: "What does TheEduAssist do?", answer: "We turn raw ideas, PDFs, slides, videos, and coaching content into professional online courses, LMS programs, and Kajabi setups." },
+  { question: "Who does TheEduAssist help?", answer: "We help creators, coaches, consultants, educators, training companies, online academies, and businesses." },
+  { question: "Can TheEduAssist build a full online course from raw content?", answer: "Yes, we specialize in converting existing content into structured, platform-ready learning experiences." },
+  { question: "Does TheEduAssist work with Kajabi?", answer: "Yes, Kajabi setup is one of our specialties. We build courses, landing pages, and automations." },
+  { question: "Can TheEduAssist help with LMS migration?", answer: "Yes, we can migrate your content safely from WordPress, old LMS platforms, or Google Drive to a modern LMS." },
+  { question: "Can TheEduAssist convert PDFs, slides, videos, and manuals into online learning?", answer: "Absolutely. We map and structure all raw materials into interactive lessons." },
+  { question: "Can TheEduAssist help with course funnels and automation?", answer: "Yes, we build opt-in pages, sales funnels, and email sequences to support your launch." },
+  { question: "How can someone contact TheEduAssist?", answer: "You can book a 24-48 hour free audit on our site, talk to sales via chat, or email Info@theeduassist.com." }
 ];
 
 const jsonLd = [
   organizationSchema(),
   websiteSchema(),
-  professionalServiceSchema()
-  ,
-  faqPageSchema(packageFaqs)
+  professionalServiceSchema(),
+  faqPageSchema(homeFaqs)
 ];
 ---
 <Layout
@@ -86,6 +95,10 @@ const jsonLd = [
   <ImprovementSelector />
 
   <StartingPoint />
+
+  <AIAnswerBlock questions={aiAnswers} />
+
+  <HomeFAQ />
 
   <FinalCTA ctaBlocks={ctaBlocks} />
 
