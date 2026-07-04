@@ -62,6 +62,7 @@ async function generateSitemap() {
 
   let blogUrls = [];
   let excludedCount = 0;
+  let blogUrlsForLlms = [];
 
   try {
     const projectId = process.env.PUBLIC_SANITY_PROJECT_ID || 'jg4gi6mn';
@@ -74,7 +75,17 @@ async function generateSitemap() {
       const query = encodeURIComponent(`*[
         _type == "post" &&
         !(_id in path("drafts.**")) &&
-        defined(slug.current)
+        defined(slug.current) &&
+        defined(title) &&
+        defined(publishedAt) &&
+        seo.noindex != true &&
+        hidden != true &&
+        reviewPending != true &&
+        !(title match "*Test*") &&
+        !(title match "*test*") &&
+        !(slug.current match "*test*") &&
+        (!defined(status) || status in ["approved", "published"]) &&
+        (!defined(migrationStatus) || migrationStatus in ["approved", "published"])
       ]{
         title,
         "slug": slug.current,
@@ -125,6 +136,7 @@ async function generateSitemap() {
 
           const fullUrl = `https://www.theeduassist.com/blog/${cleanSlug}/`;
           blogUrls.push(generateUrlXml(fullUrl, post._updatedAt || post.publishedAt, '0.7', 'monthly'));
+          blogUrlsForLlms.push(fullUrl);
         });
 
         console.log(`Successfully fetched ${posts.length} posts from Sanity.`);
@@ -174,6 +186,49 @@ ${uniqueXmlBlocks.join('\n')}
 </urlset>`;
 
   fs.writeFileSync(path.join(process.cwd(), 'public', 'sitemap.xml'), xmlContent);
+
+
+  // Combine all clean routes for llms.txt
+  const llmsUrls = [
+    'https://www.theeduassist.com/',
+    'https://www.theeduassist.com/services/',
+    'https://www.theeduassist.com/kajabi-services/',
+    'https://www.theeduassist.com/platforms/',
+    'https://www.theeduassist.com/pricing/',
+    'https://www.theeduassist.com/case-studies/',
+    'https://www.theeduassist.com/blog/',
+    'https://www.theeduassist.com/about/',
+    'https://www.theeduassist.com/contact/',
+    'https://www.theeduassist.com/book-free-audit/'
+  ];
+
+  blogUrlsForLlms.forEach(url => llmsUrls.push(url));
+
+  const staticLlmsIntro = `# TheEduAssist
+
+> E-learning design and course-building agency for creators, educators, coaches, consultants, training businesses, online academies, and companies.
+
+## What TheEduAssist Does
+TheEduAssist helps clients turn expertise, training content, workshops, PDFs, slides, videos, and rough course ideas into structured, launch-ready online learning systems.
+
+## Core Services
+- Course creation and curriculum design
+- Kajabi website and course setup
+- LMS implementation and migration
+- Instructional design and learner experience
+- AI-powered e-learning support
+- Content conversion
+- Funnels and automation
+- Ongoing course support and maintenance
+
+## Public Pages & Articles
+`;
+
+  const llmsContent = staticLlmsIntro + llmsUrls.map(u => `- ${u}`).join('\n') + '\n';
+  fs.writeFileSync(path.join(process.cwd(), 'public', 'llms.txt'), llmsContent);
+  fs.writeFileSync(path.join(process.cwd(), 'public', 'llms-full.txt'), llmsContent);
+
+
 
   console.log(`Sitemap generated with ${coreUrlXml.length} core URLs and ${blogUrls.length} blog URLs (${excludedCount} blog posts excluded).`);
 }

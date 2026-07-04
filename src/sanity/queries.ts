@@ -66,7 +66,7 @@ export async function getAuthorBySlug(slug: string) {
 
 // Posts
 export async function getAllPosts() {
-  return await fetchFromSanity(`*[_type == "post" && defined(slug.current) && !(_id in path("drafts.**"))] | order(publishedAt desc, _createdAt desc)`)
+  return await fetchFromSanity(`*[_type == "post" && defined(slug.current) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc)`)
 }
 
 export async function getPostBySlug(slug: string) {
@@ -74,7 +74,14 @@ export async function getPostBySlug(slug: string) {
 }
 
 // Get latest blog posts
-export const latestBlogPostsQuery = `*[_type == "post" && defined(slug.current) && !(_id in path("drafts.**"))] | order(publishedAt desc, _createdAt desc) {
+export const latestBlogPostsQuery = `*[_type == "post" && defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc) {
+  _id,
+  _createdAt,
+  _updatedAt,
+  hidden,
+  reviewPending,
+  status,
+  migrationStatus,
   title,
   slug,
   excerpt,
@@ -116,12 +123,22 @@ export const latestBlogPostsQuery = `*[_type == "post" && defined(slug.current) 
     slug,
     "logo": logo.asset->url
   },
-  relatedPosts[]->[defined(slug.current) && defined(publishedAt) && !(_id in path("drafts.**")) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] {
+  relatedPosts[]->[defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] {
+    _id,
     title,
     slug,
     excerpt,
     "image": featuredImage.asset->url,
-    category
+    category,
+    publishedAt,
+    status,
+    migrationStatus,
+    hidden,
+    reviewPending,
+    seo,
+    tags,
+    body,
+    content
   },
   seo
 }`;

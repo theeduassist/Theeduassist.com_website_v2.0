@@ -11,8 +11,24 @@ interface Props {
 
 const { currentSlug, category, allPosts = [], currentTags = [] } = Astro.props;
 
+// Define topic clusters
+const topicClusters: Record<string, string[]> = {
+  'Kajabi': ['kajabi', 'kajabi setup', 'kajabi website', 'kajabi course upload', 'kajabi drip', 'kajabi funnel', 'kajabi seo', 'kajabi landing page', 'course launch'],
+  'Corporate Training': ['corporate training', 'gamification', 'compliance training', 'employee training', 'scenario based learning', 'l&d', 'instructional design', 'workplace learning'],
+  'LMS': ['lms', 'lms migration', 'lms implementation', 'learning management system', 'scorm', 'learner reporting', 'online academy'],
+  'Course Creation': ['course creation', 'curriculum design', 'content conversion', 'online course', 'learning design', 'course outline', 'lesson structure'],
+  'AI E-learning': ['ai elearning', 'ai course creation', 'ai learning support', 'training automation', 'ai content conversion']
+};
+
+// Ensure allPosts is strictly public already, but filter by current slug
 const related = allPosts
   .filter(p => p.slug !== currentSlug)
+  .filter(p => {
+    // Loop prevention rule
+    if (currentSlug === 'kajabi-website-speed-optimization-strong-tips-by-the-eduassist' && p.slug === 'gamification-corporate-training') return false;
+    if (currentSlug === 'gamification-corporate-training' && p.slug === 'kajabi-website-speed-optimization-strong-tips-by-the-eduassist') return false;
+    return true;
+  })
   .map(p => {
     let score = 0;
 
@@ -26,6 +42,22 @@ const related = allPosts
       const matchingTags = p.tags.filter((t: string) => currentTags.includes(t));
       score += matchingTags.length * 2;
     }
+
+    // Cluster matching
+    if (p.tags && p.tags.length > 0) {
+      for (const [clusterName, clusterTags] of Object.entries(topicClusters)) {
+        const hasCurrentCluster = currentTags.some(t => clusterTags.includes(t.toLowerCase()));
+        const hasPostCluster = p.tags.some((t: string) => clusterTags.includes(t.toLowerCase()));
+        if (hasCurrentCluster && hasPostCluster) {
+           score += 1.5;
+           break;
+        }
+      }
+    }
+
+    // Newer post fallback
+    const dateScore = p.publishedAt ? new Date(p.publishedAt).getTime() / (1000 * 60 * 60 * 24 * 365) : 0;
+    score += (dateScore * 0.001); // Minor weight for newer posts
 
     return { post: p, score };
   })

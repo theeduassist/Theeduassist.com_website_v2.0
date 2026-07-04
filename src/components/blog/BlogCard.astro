@@ -16,8 +16,6 @@ interface Props {
 
 const { title, slug, excerpt, category, readTimeMinutes, publishedAt, image, imageAlt, tags = [] } = Astro.props;
 
-// If it doesn't have a publish date, we don't want to show "Review Pending" publicly per instructions
-// We just don't show a date if missing, or use a default.
 const pubDate = publishedAt ? new Date(publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : null;
 
 // Safe excerpt fallback if missing
