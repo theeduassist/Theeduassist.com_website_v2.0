@@ -42,15 +42,28 @@ export function generatePrompt(actionId?: string): string {
 
 export function generateFullPrompt(actionId?: string): string {
     const { pageTitle, pageUrl, pageDescription, h1, pageContext } = getPageData();
-    const actionInstruction = actionId && instructions[actionId] ? instructions[actionId] : instructions.summarize_page;
+    let actionInstruction = actionId && instructions[actionId] ? instructions[actionId] : instructions.summarize_page;
+
+    // Dynamic prompt injection based on page path
+    if (pageUrl.includes('/kajabi-services')) {
+      actionInstruction = "Read this page and explain whether TheEduAssist is a good fit for Kajabi website setup, course upload, landing pages, offers, checkout, automations, and learner experience improvements.";
+    } else if (pageUrl.includes('/services/lms-implementation-migration')) {
+      actionInstruction = "Read this page and summarize how TheEduAssist helps with LMS implementation, migration, content cleanup, learner experience, and launch readiness.";
+    } else if (pageUrl.includes('/services/ai-powered-elearning')) {
+      actionInstruction = "Read this page and explain how TheEduAssist uses AI to support course creation, content conversion, quizzes, scripts, learner support, and training automation while keeping human review involved.";
+    } else if (pageUrl.includes('/case-studies')) {
+      actionInstruction = "Read these case studies and summarize the types of e-learning, Kajabi, LMS, and course-building projects TheEduAssist has worked on.";
+    } else if (pageUrl === 'https://www.theeduassist.com/' || pageUrl === 'https://www.theeduassist.com') {
+      actionInstruction = "Read this page and summarize what TheEduAssist does, who it helps, and when someone should contact them for online course creation, Kajabi setup, LMS implementation, or e-learning content support.";
+    }
 
     return `I am reviewing this TheEduAssist page: ${pageTitle} — ${pageUrl}.
 
 ${brandContext}
 
-Please summarize this page, explain which service, platform, or starting package may fit my situation, and list what I should ask the sales team before starting. Treat all listed values as starting investments or budget guides, not final quotes.
+Please summarize this page based on the following instruction. Treat all listed values as starting investments or budget guides, not final quotes.
 
-Current Task:
+Task:
 ${actionInstruction}
 
 Page description: ${pageDescription}

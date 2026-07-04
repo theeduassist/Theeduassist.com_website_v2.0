@@ -1,5 +1,5 @@
 export const site = {
-  url: 'https://theeduassist.com',
+  url: 'https://www.theeduassist.com',
   name: 'TheEduAssist',
   title: 'TheEduAssist | Custom eLearning, Kajabi, and LMS Solutions',
   description: 'TheEduAssist helps coaches, businesses, training teams, and educational organizations turn content into engaging online learning experiences.',
@@ -32,5 +32,5 @@ export function formatTitle(title?: string): string {
 }
 
 export function formatDescription(description?: string): string {
-  return description || site.description;
+  return description || "TheEduAssist is an e-learning design and course-building agency helping creators, coaches, consultants, educators, training companies, online academies, and businesses build structured online courses, Kajabi systems, LMS experiences, and launch-ready e-learning content.";
 }

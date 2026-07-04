@@ -81,9 +81,13 @@ export function getBlogPostPublicFilterReason(post: any): string | null {
       title.includes('testing') ||
       title.includes('do not publish') ||
       title.includes('review pending') ||
-      title.includes('content coming soon')) {
+      title.includes('content coming soon') ||
+      title.includes('course buliding in the future and the current now')) {
       return 'test title';
   }
+
+  if (post.slug && post.slug.current && post.slug.current.includes('__trashed')) return 'trashed slug';
+  if (post.slug && typeof post.slug === 'string' && post.slug.includes('__trashed')) return 'trashed slug';
 
   if (post.hidden === true) return 'hidden true';
   if (post.reviewPending === true) return 'reviewPending true';

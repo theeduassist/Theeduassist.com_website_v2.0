@@ -5,6 +5,7 @@ import AuditReviewScope from "../../components/audit/AuditReviewScope.astro";
 import CalendlyCTA from "../../components/audit/CalendlyCTA.astro";
 import AuditNextSteps from "../../components/audit/AuditNextSteps.astro";
 import AuditFAQ from "../../components/audit/AuditFAQ.astro";
+import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
 import { webPageSchema, faqPageSchema, breadcrumbSchema } from '../../lib/seo/schema';
 import { packages } from "../../data/packages";
 
@@ -34,6 +35,12 @@ const auditFaqs = [
     question: "Do you guarantee sales?",
     answer: "No. We help improve structure, learning experience, platform setup, funnels, and launch readiness, but sales depend on offer, audience, traffic, pricing, trust, and other factors."
   }
+];
+
+const aiAnswers = [
+  { q: "Is the audit really free?", a: "Yes. The initial audit request helps TheEduAssist understand your project scope and recommend the best service path." },
+  { q: "What should I prepare before booking an audit?", a: "You can submit rough ideas, course goals, existing content (PDFs, videos, slides), Kajabi login status, LMS details, or scattered files. You do not need to have everything perfectly organized beforehand." },
+  { q: "Will I get pricing during the audit?", a: "Yes, once the team reviews your project details, they will recommend a package or provide a custom starting quote based on content volume, platform, and timeline." }
 ];
 
 const jsonLd = [
@@ -165,6 +172,8 @@ const trustChips = [
   <CalendlyCTA />
 
   <AuditNextSteps />
+
+  <AIAnswerBlock questions={aiAnswers} />
 
   <AuditFAQ />
 

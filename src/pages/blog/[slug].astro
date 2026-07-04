@@ -47,7 +47,7 @@ const articleSchema = {
   "@type": "BlogPosting",
   "headline": post.seoTitle || post.title,
   "description": post.seoDescription || post.excerpt || getFallbackDescription(post.content, post.body),
-  "author": post.author ? { "@type": "Organization", "name": post.author } : undefined,
+  "author": { "@type": "Person", "name": post.author || "TheEduAssist Team" },
   "datePublished": post.publishedAt || undefined,
   "dateModified": post.updatedAt || post.publishedAt || undefined,
   "image": (() => {
@@ -120,6 +120,14 @@ const tocEnabled = headings.length > 0;
           </p>
         )}
       </header>
+
+      <div class="bg-brand-softBg p-6 rounded-xl border border-brand-accent/20 mb-10 max-w-3xl mx-auto text-left shadow-sm">
+        <h2 class="text-lg font-bold text-brand-navy mb-2 flex items-center gap-2">
+            <svg class="w-5 h-5 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            Quick Summary
+        </h2>
+        <p class="text-brand-textMain leading-relaxed">{post.excerpt || post.seoDescription || "In this guide, TheEduAssist covers e-learning best practices, platform setup, and strategies to improve your online course delivery."}</p>
+      </div>
 
       {post.heroImage && (
         <div class="mb-12 rounded-2xl overflow-hidden shadow-md max-w-4xl mx-auto aspect-w-16 aspect-h-9 bg-slate-100">

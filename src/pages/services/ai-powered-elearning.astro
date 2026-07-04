@@ -19,23 +19,39 @@ const jsonLd = [
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://theeduassist.com/"
+        "item": "https://www.theeduassist.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Services",
-        "item": "https://theeduassist.com/services/"
+        "item": "https://www.theeduassist.com/services/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "AI-Powered E-Learning Support",
-        "item": "https://theeduassist.com/services/ai-powered-elearning/"
+        "item": "https://www.theeduassist.com/services/ai-powered-elearning/"
       }
     ]
   }
 ];
+
+import { faqPageSchema } from '../../lib/seo/schema';
+
+const aiElearningFaqs = [
+  { question: "Can I just use ChatGPT myself?", answer: "Yes, and many clients do. But AI tools usually produce drafts and ideas. TheEduAssist helps turn those ideas into structured, reviewed, platform-ready learning assets and course systems." },
+  { question: "Does AI build the full course automatically?", answer: "No. We use AI-assisted workflows to speed up planning, drafting, summarizing, and content conversion, but the final course structure and learning experience are human-reviewed." },
+  { question: "What kind of content can I bring?", answer: "You can bring PDFs, slides, videos, notes, scripts, manuals, SOPs, outlines, Google Drive folders, old course content, webinar recordings, and rough course ideas." },
+  { question: "What do I get from the AI Course Clarity Sprint?", answer: "You get course direction, target learner profile, course promise, module map, lesson outline, learner journey, and launch checklist." },
+  { question: "What do I get from the AI Content Conversion Kit?", answer: "You get content audit, lesson mapping, summaries, script/talking-point drafts, worksheet ideas, quiz/check-in questions, resource list, and platform-ready structure." },
+  { question: "Can you prepare content for Kajabi or an LMS?", answer: "Yes. We can prepare content structure, lesson assets, resource lists, and launch materials for Kajabi, LMS platforms, or other course systems." },
+  { question: "Is the pricing fixed?", answer: "The prices shown are starting prices. Final pricing depends on content volume, format, course length, review rounds, platform needs, assets, and launch requirements." },
+  { question: "Do you store or train AI on my content?", answer: "We do not use client content to train our own AI models. We can discuss privacy needs during the audit and choose a workflow that fits your content sensitivity." },
+  { question: "What is the best first step?", answer: "Get a 24-48 hour review so we can review your content, goals, platform, and recommend the right package." }
+];
+
+jsonLd.push(faqPageSchema(aiElearningFaqs));
 
 import Layout from "../../layouts/Layout.astro";
 import AIElearningHero from "../../components/ai-elearning/AIElearningHero.astro";
@@ -51,6 +67,14 @@ import AIDeliverablesGrid from "../../components/ai-elearning/AIDeliverablesGrid
 import AIComparison from "../../components/ai-elearning/AIComparison.astro";
 import AIFAQ from "../../components/ai-elearning/AIFAQ.astro";
 import AIFinalCTA from "../../components/ai-elearning/AIFinalCTA.astro";
+import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
+
+const aiAnswers = [
+  { q: "How does TheEduAssist use AI in e-learning?", a: "TheEduAssist uses AI tools to assist with structuring content, drafting scripts, and generating quiz questions, but always relies on human instructional designers to review, refine, and ensure the content is accurate and engaging." },
+  { q: "Can AI help convert raw content into course outlines?", a: "Yes. We use AI to help process large amounts of raw text (like PDFs or transcripts) and propose initial modular structures, saving time before the human review phase." },
+  { q: "Does human review remain part of the process?", a: "Absolutely. Human review is mandatory in our workflow to ensure the course doesn't feel generic, tone is correct, and learning objectives are actually met." }
+];
+
 ---
 
 <Layout jsonLd={jsonLd}
@@ -69,6 +93,7 @@ import AIFinalCTA from "../../components/ai-elearning/AIFinalCTA.astro";
   <AIAudienceSection />
   <AIDeliverablesGrid />
   <AIComparison />
+  <AIAnswerBlock questions={aiAnswers} />
   <AIFAQ />
   <AIFinalCTA />
 

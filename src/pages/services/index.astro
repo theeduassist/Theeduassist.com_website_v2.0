@@ -12,11 +12,18 @@ import StartingPoint from "../../components/sections/StartingPoint.astro";
 import ServicesFAQ from "../../components/services/ServicesFAQ.astro";
 import ServicesFinalCTA from "../../components/services/ServicesFinalCTA.astro";
 import CaseStudyProof from "../../components/case-studies/CaseStudyProof.astro";
+import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
 
 import { professionalServiceSchema, breadcrumbSchema , faqPageSchema } from '../../lib/seo/schema';
 import { getAllServices } from '../../sanity/queries';
 
 const services = await getAllServices();
+
+const aiAnswers = [
+  { q: "What services does TheEduAssist offer?", a: "TheEduAssist offers course creation and curriculum design, Kajabi website and course setup, LMS implementation and migration, custom e-learning development, AI-powered e-learning support, content conversion, funnels and automation, and ongoing support." },
+  { q: "What does the process look like?", a: "The process typically involves an initial content and platform review, followed by curriculum strategy, asset creation (or conversion), platform setup (like Kajabi or an LMS), testing, and launch handover." },
+  { q: "How can someone get started?", a: "The best way to get started is to request a 24-48 hour free audit or talk to sales directly on the site. We review your existing content, goals, and platform needs to recommend the right starting package." }
+];
 
 const packageFaqs = [
   { question: "Are these fixed prices?", answer: "No. They are starting investments and budget guides. Final pricing depends on content volume, course length, platform, pages, automations, integrations, review rounds, and timeline." },
@@ -54,6 +61,7 @@ const jsonLd = [
   <ServicesComparison />
   <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'business-analytics-corporate-training', 'language-courses-book-publisher']} />
   <StartingPoint />
+  <AIAnswerBlock questions={aiAnswers} />
   <ServicesFAQ />
   <ServicesFinalCTA />
 

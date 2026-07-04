@@ -15,7 +15,14 @@ import LMSEngagementTypes from "../../components/lms/LMSEngagementTypes.astro";
 import LMSFAQ from "../../components/lms/LMSFAQ.astro";
 import LMSFinalCTA from "../../components/lms/LMSFinalCTA.astro";
 import CaseStudyProof from "../../components/case-studies/CaseStudyProof.astro";
+import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
+import { faqPageSchema } from '../../lib/seo/schema';
 
+const aiAnswers = [
+  { q: "What is LMS implementation?", a: "LMS implementation is the process of setting up a Learning Management System, organizing content structures, configuring settings, and ensuring it functions correctly for administrators and learners." },
+  { q: "Can TheEduAssist migrate content from one LMS to another?", a: "Yes. TheEduAssist safely moves courses, media, and learning content between platforms, ensuring the new structure is clean and user-friendly." },
+  { q: "Can TheEduAssist organize messy training content?", a: "Yes. They specialize in taking scattered files, PDFs, Google Drive folders, and old courses and rebuilding them into a structured curriculum." }
+];
 
 const jsonLd = [
   {
@@ -36,23 +43,36 @@ const jsonLd = [
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://theeduassist.com/"
+        "item": "https://www.theeduassist.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Services",
-        "item": "https://theeduassist.com/services/"
+        "item": "https://www.theeduassist.com/services/"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "LMS Implementation & Migration Services",
-        "item": "https://theeduassist.com/services/lms-implementation-migration/"
+        "item": "https://www.theeduassist.com/services/lms-implementation-migration/"
       }
     ]
   }
 ];
+
+const lmsFaqs = [
+  { question: "Is LMS migration just uploading files?", answer: "No. A good LMS migration includes content audit, structure mapping, content cleanup, course rebuild, platform setup, testing, and learner experience improvement." },
+  { question: "Can you migrate content from WordPress?", answer: "Yes. We can help organize WordPress-based course content and rebuild it into a cleaner LMS or e-learning platform structure." },
+  { question: "Can you migrate content from Google Drive?", answer: "Yes. We can help organize Google Drive folders, documents, PDFs, videos, and resources into modules, lessons, and learner-friendly assets." },
+  { question: "Can you migrate from an old LMS?", answer: "Yes. We can help review your old LMS content, map the structure, clean materials, and rebuild the course flow in a new platform where possible." },
+  { question: "Can you work with PDFs, slides, and videos?", answer: "Yes. We can convert or organize PDFs, slide decks, videos, scripts, and documents into structured lessons, downloads, quizzes, and learning resources." },
+  { question: "Do you support SCORM or xAPI?", answer: "We can help assess whether your LMS needs native content, SCORM-style packages, xAPI-ready tracking, or another structure. Implementation depends on the platform and content format." },
+  { question: "Can you improve an existing LMS without migration?", answer: "Yes. We can help clean up course structure, improve learner flow, update content, reorganize resources, and make the LMS easier to use." },
+  { question: "What should I prepare before booking an LMS audit?", answer: "Prepare access to your current platform if available, content folders, course outlines, file samples, learner goals, platform preferences, and any launch or migration deadline." }
+];
+
+jsonLd.push(faqPageSchema(lmsFaqs));
 
 // SEO
 const title = "LMS Implementation & Migration Services | TheEduAssist";
@@ -73,6 +93,7 @@ const description = "TheEduAssist helps creators, educators, training companies,
     <LMSComparison />
     <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
     <LMSEngagementTypes />
+    <AIAnswerBlock questions={aiAnswers} />
     <LMSFAQ />
     <LMSFinalCTA />
   </main>
