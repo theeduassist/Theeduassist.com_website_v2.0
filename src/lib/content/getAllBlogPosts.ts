@@ -6,12 +6,16 @@ export function isPublicBlogPost(post: any): boolean {
   const slug = post.slug?.current || post.slug;
   const isDraft = post._id?.startsWith('drafts.');
   const noIndex = post.seo?.noindex;
+  const isTest = slug.toLowerCase().includes('test') || post.title?.toLowerCase().includes('test');
+  const migrationStatus = post.migrationStatus;
 
-  // Allow posts that are not drafts and not marked as noindex
+  // Require approved/published status if present, avoid tests/drafts/noindex
   return !!(
     slug &&
     !isDraft &&
-    noIndex !== true
+    !isTest &&
+    noIndex !== true &&
+    (!migrationStatus || ['approved', 'published'].includes(migrationStatus.toLowerCase()))
   );
 }
 

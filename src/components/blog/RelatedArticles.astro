@@ -5,34 +5,42 @@ import type { NormalizedBlogPost } from '../../lib/content/getAllBlogPosts';
 interface Props {
   currentSlug: string;
   category: string;
-
   allPosts: NormalizedBlogPost[];
+  currentTags?: string[];
 }
 
-const { currentSlug, category, allPosts = [] } = Astro.props;
+const { currentSlug, category, allPosts = [], currentTags = [] } = Astro.props;
 
-// Logic to find related:
-// 1. Same category
-// 2. Overlapping tags
-// Exclude current
 const related = allPosts
-  .filter(p => p.slug !== currentSlug )
+  .filter(p => p.slug !== currentSlug)
   .map(p => {
     let score = 0;
-    if (p.category === category) score += 2;
-    const matchingTags = [];
-    score += matchingTags.length;
+
+    // Exact category match (only if category isn't just 'General')
+    if (category && category !== 'General' && p.category === category) {
+      score += 3;
+    }
+
+    // Tag matching
+    if (currentTags.length > 0 && p.tags && p.tags.length > 0) {
+      const matchingTags = p.tags.filter((t: string) => currentTags.includes(t));
+      score += matchingTags.length * 2;
+    }
+
     return { post: p, score };
   })
-  .filter(item => item.score > 0)
+  .filter(item => item.score > 0) // Strictly require score > 0 so 'General' fallback posts aren't shown if no actual relation
   .sort((a, b) => b.score - a.score)
   .slice(0, 3)
   .map(item => item.post);
 ---
 {related.length > 0 && (
-  <section class="mt-16 pt-12 border-t border-slate-200">
-    <h2 class="text-2xl font-bold text-slate-800 mb-8">Related Resources</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <section class="mt-20 pt-16 border-t border-slate-200">
+    <div class="mb-10 text-center md:text-left">
+      <h2 class="text-3xl font-bold text-slate-800">Related Resources</h2>
+      <p class="text-slate-600 mt-2">More insights and guides tailored to this topic.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {related.map(post => (
         <BlogCard
           title={post.title}

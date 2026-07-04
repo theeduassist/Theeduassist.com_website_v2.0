@@ -27,7 +27,7 @@ async function run() {
     console.log(`Token used: No`);
 
     try {
-        const query = `*[_type == "post" && defined(slug.current) && defined(publishedAt) && !(_id in path("drafts.**")) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"]) && (!defined(seo.noindex) || seo.noindex != true)] | order(publishedAt desc)[0...5] {
+        const query = `*[_type == "post" && defined(slug.current) && defined(publishedAt) && !(_id in path("drafts.**")) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"]) && (!defined(seo.noindex) || seo.noindex != true) && !(title match "Test") && !(slug.current match "test")] | order(publishedAt desc)[0...5] {
             title,
             slug,
             publishedAt,
