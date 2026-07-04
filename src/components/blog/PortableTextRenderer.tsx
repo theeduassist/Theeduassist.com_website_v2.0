@@ -2,12 +2,12 @@ import React from 'react';
 import { PortableText } from '@portabletext/react';
 import type { PortableTextComponents } from '@portabletext/react';
 import { createImageUrlBuilder } from '@sanity/image-url';
-import { client } from '../../sanity/client';
+import { sanityClient } from '../../lib/sanity/client';
 
-const builder = createImageUrlBuilder(client);
+const builder = createImageUrlBuilder(sanityClient);
 
 function urlFor(source: any) {
-  return builder.image(source);
+  return builder.image(source).auto('format').fit('max');
 }
 
 interface Props {
@@ -26,7 +26,7 @@ const components: PortableTextComponents = {
             <img
               src={urlFor(value).url()}
               alt={value.alt || ' '}
-              className="w-full h-auto rounded-lg shadow-sm"
+              className="w-full h-auto rounded-2xl shadow-sm"
               loading="lazy"
             />
             {value.caption && (
@@ -48,7 +48,7 @@ const components: PortableTextComponents = {
             <img
               src={urlFor(value).url()}
               alt={value.alt || ' '}
-              className="w-full h-auto rounded-lg shadow-sm"
+              className="w-full h-auto rounded-2xl shadow-sm"
               loading="lazy"
             />
             {value.caption && (
@@ -60,22 +60,26 @@ const components: PortableTextComponents = {
         return null;
       }
     },
+    youtubeEmbed: () => null,
+    table: () => null,
+    object: () => null,
+    markdownBlock: () => null,
   },
   block: {
     h2: ({ children, value }: any) => {
       const text = value.children.map((child: any) => child.text).join('');
       const id = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-      return <h2 id={id} className="text-3xl font-bold text-slate-800 mt-10 mb-4">{children}</h2>;
+      return <h2 id={id} className="text-3xl font-bold text-slate-800 mt-10 mb-4 scroll-mt-24">{children}</h2>;
     },
     h3: ({ children, value }: any) => {
       const text = value.children.map((child: any) => child.text).join('');
       const id = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-      return <h3 id={id} className="text-2xl font-bold text-slate-800 mt-8 mb-4">{children}</h3>;
+      return <h3 id={id} className="text-2xl font-bold text-slate-800 mt-8 mb-4 scroll-mt-24">{children}</h3>;
     },
     h4: ({ children, value }: any) => {
       const text = value.children.map((child: any) => child.text).join('');
       const id = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-      return <h4 id={id} className="text-xl font-bold text-slate-800 mt-6 mb-3">{children}</h4>;
+      return <h4 id={id} className="text-xl font-bold text-slate-800 mt-6 mb-3 scroll-mt-24">{children}</h4>;
     },
     normal: ({ children }) => <p className="mb-6 leading-relaxed">{children}</p>,
     blockquote: ({ children }) => (
@@ -97,7 +101,7 @@ const components: PortableTextComponents = {
       const target = (value?.href || '').startsWith('http') ? '_blank' : undefined;
       const rel = target === '_blank' ? 'noopener noreferrer' : undefined;
       return (
-        <a href={value?.href} target={target} rel={rel} className="text-[var(--color-primary)] hover:text-[var(--color-accent)] underline decoration-2 decoration-[var(--color-primary)]/30 hover:decoration-[var(--color-accent)] transition-colors">
+        <a href={value?.href} target={target} rel={rel} className="text-[var(--color-brand-primary)] hover:text-[var(--color-accent)] underline decoration-2 decoration-[var(--color-brand-primary)]/30 hover:decoration-[var(--color-accent)] transition-colors">
           {children}
         </a>
       );
@@ -109,7 +113,7 @@ const components: PortableTextComponents = {
 
 export default function PortableTextRenderer({ value }: Props) {
   return (
-    <div className="portable-text-content prose prose-lg prose-slate max-w-none">
+    <div className="portable-text-content prose prose-lg prose-slate max-w-none prose-headings:scroll-mt-24 prose-a:text-[var(--color-brand-primary)] prose-img:rounded-2xl prose-img:shadow-sm">
       <PortableText value={value} components={components} />
     </div>
   );

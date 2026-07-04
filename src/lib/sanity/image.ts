@@ -1,11 +1,11 @@
-import imageUrlBuilder from '@sanity/image-url';
+import { createImageUrlBuilder } from '@sanity/image-url';
 import { sanityClient } from './client';
 
-const builder = imageUrlBuilder(sanityClient);
+const builder = createImageUrlBuilder(sanityClient);
 
 export function urlForImage(source) {
   if (!source) {
     return null;
   }
-  return builder.image(source);
+  return builder.image(source).auto('format').fit('max');
 }

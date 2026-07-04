@@ -75,8 +75,8 @@ const displays = sanityServices.length > 0
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       {displays.map((service) => (
-        <a href={service.link} class="group block brand-card p-6 h-full hover-lift focus-ring">
-          <div class="w-12 h-12 bg-brand-softBlue rounded-lg flex items-center justify-center text-brand-primary mb-6 transition-colors group-hover:bg-brand-primary group-hover:text-white">
+        <a href={service.link} class="group flex flex-col brand-card p-6 h-full hover-lift focus-ring overflow-hidden">
+          <div class="w-12 h-12 bg-brand-softBlue rounded-lg flex flex-shrink-0 items-center justify-center text-brand-primary mb-6 transition-colors group-hover:bg-brand-primary group-hover:text-white group-hover:shadow-sm">
             <Fragment set:html={service.icon} />
           </div>
 

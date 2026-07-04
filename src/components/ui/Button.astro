@@ -1,27 +1,45 @@
 ---
-interface Props {
-  href: string;
-  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'white';
+import { cn } from '../../lib/utils/cn';
+import { cva, type VariantProps } from 'class-variance-authority';
+
+const buttonVariants = cva(
+  "inline-flex items-center justify-center font-medium rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-brand-primary focus:ring-offset-2",
+  {
+    variants: {
+      variant: {
+        primary: "bg-[var(--color-brand-primary)] text-white hover:bg-[var(--color-brand-navy)]",
+        secondary: "bg-[var(--color-brand-accent)] text-[var(--color-brand-navy)] hover:bg-white hover:text-[var(--color-brand-primary)]",
+        outline: "bg-white text-[var(--color-brand-primary)] border border-[var(--color-brand-primary)] hover:bg-[var(--color-brand-softBg)]",
+        ghost: "bg-transparent text-[var(--color-brand-primary)] hover:bg-[var(--color-brand-softBlue)]",
+        white: "bg-white text-[var(--color-brand-primary)] hover:bg-[var(--color-brand-softBg)] shadow-sm"
+      },
+      size: {
+        sm: "px-4 py-2 text-sm",
+        md: "px-6 py-3 text-base",
+        lg: "px-8 py-4 text-lg font-bold shadow-lg"
+      }
+    },
+    defaultVariants: {
+      variant: "primary",
+      size: "md"
+    }
+  }
+);
+
+interface Props extends VariantProps<typeof buttonVariants> {
+  href?: string;
   className?: string;
-  size?: 'sm' | 'md' | 'lg';
+  type?: "button" | "submit" | "reset";
 }
 
-const { href, variant = 'primary', size = 'md', className = '' } = Astro.props;
-
-const baseStyles = "inline-flex items-center justify-center font-medium rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-brand-primary focus:ring-offset-2";
-const sizes = {
-  sm: "px-4 py-2 text-sm",
-  md: "px-6 py-3 text-base",
-  lg: "px-8 py-4 text-lg font-bold shadow-lg"
-};
-const variants = {
-  primary: "bg-brand-primary text-white hover:bg-brand-navy",
-  secondary: "bg-brand-accent text-brand-navy hover:bg-white hover:text-brand-primary",
-  outline: "bg-white text-brand-primary border border-brand-primary hover:bg-brand-softBg",
-  ghost: "bg-transparent text-brand-primary hover:bg-brand-softBlue",
-  white: "bg-white text-brand-primary hover:bg-brand-softBg shadow-sm"
-};
+const { href, variant, size, className, type = "button" } = Astro.props;
 ---
-<a href={href} class={`${baseStyles} ${sizes[size]} ${variants[variant]} ${className}`}>
-  <slot />
-</a>
+{href ? (
+  <a href={href} class={cn(buttonVariants({ variant, size }), className)}>
+    <slot />
+  </a>
+) : (
+  <button type={type} class={cn(buttonVariants({ variant, size }), className)}>
+    <slot />
+  </button>
+)}
