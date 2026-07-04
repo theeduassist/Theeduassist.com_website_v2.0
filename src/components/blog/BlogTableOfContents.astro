@@ -12,8 +12,8 @@ interface Props {
 const { headings = [] } = Astro.props;
 ---
 {headings.length > 0 && (
-  <nav class="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-10 hidden md:block" aria-label="Table of contents">
-    <h3 class="font-semibold text-slate-800 mb-4 uppercase tracking-wider text-sm">Table of Contents</h3>
+  <nav class="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-10 hidden md:block shadow-sm" aria-label="Table of contents">
+    <h3 class="font-semibold text-slate-800 mb-4 uppercase tracking-wider text-sm">In this article</h3>
     <ul class="space-y-2 text-sm">
       {headings.map(heading => (
         <li class={`pl-${(heading.depth - 2) * 4}`}>
