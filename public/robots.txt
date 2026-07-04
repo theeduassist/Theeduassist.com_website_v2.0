@@ -1,4 +1,42 @@
 User-agent: *
 Allow: /
 
+# Keep private/admin/system areas out of crawl if they exist
+Disallow: /admin/
+Disallow: /api/
+Disallow: /studio/
+Disallow: /preview/
+Disallow: /drafts/
+Disallow: /_actions/
+Disallow: /_server-islands/
+
+# Avoid indexing internal query/filter URLs
+Disallow: /*?preview=
+Disallow: /*?draft=
+Disallow: /*?token=
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
 Sitemap: https://www.theeduassist.com/sitemap.xml

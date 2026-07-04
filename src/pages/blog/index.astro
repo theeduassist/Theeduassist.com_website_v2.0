@@ -4,6 +4,7 @@ import Layout from '../../layouts/Layout.astro';
 import BlogHero from '../../components/blog/BlogHero.astro';
 import BlogSearchFilters from '../../components/blog/BlogSearchFilters.astro';
 import BlogCategoryCards from '../../components/blog/BlogCategoryCards.astro';
+import { getBlogUrl } from '../../utils/blog';
 import FeaturedResourceGrid from '../../components/blog/FeaturedResourceGrid.astro';
 import BlogMigrationFlow from '../../components/blog/BlogMigrationFlow.astro';
 import TopicClusterMap from '../../components/blog/TopicClusterMap.astro';
@@ -23,8 +24,8 @@ try {
 const featuredPost = posts.length > 0 ? posts[0] : null;
 
 // SEO details
-const title = "E-Learning Blog | TheEduAssist";
-const description = "Read practical guides on course creation, LMS migration, Kajabi setup, AI-powered e-learning, content conversion, learner experience, and corporate learning systems.";
+const title = "Blog | Course Creation, Kajabi, LMS & E-Learning Insights | TheEduAssist";
+const description = "Read TheEduAssist articles on course creation, Kajabi setup, LMS implementation, instructional design, AI-powered e-learning, content conversion, and online course launches.";
 const canonicalPath = "/blog/";
 const ogTitle = title;
 const ogDescription = description;
@@ -35,11 +36,11 @@ const schema = {
   "@type": "Blog",
   "name": title,
   "description": description,
-  "url": `https://theeduassist.com${canonicalPath}`,
+  "url": `https://www.theeduassist.com${canonicalPath}`,
   "publisher": {
     "@type": "Organization",
     "name": "TheEduAssist",
-    "url": "https://theeduassist.com"
+    "url": "https://www.theeduassist.com/"
   }
 };
 ---
@@ -85,7 +86,7 @@ const schema = {
                   </span>
 
                   <h3 class="text-2xl md:text-3xl font-bold text-slate-800 mb-4 group-hover:text-[var(--color-primary)] transition-colors">
-                    <a href={`/blog/${featuredPost.slug}`}>
+                    <a href={getBlogUrl(featuredPost) || "#"}>
                       <span class="absolute inset-0" aria-hidden="true"></span>
                       {featuredPost.title}
                     </a>
