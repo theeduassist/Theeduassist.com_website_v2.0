@@ -13,13 +13,10 @@ export async function fetchFromSanity(query: string, params: Record<string, any>
   try {
     return await client.fetch(query, params)
   } catch (error: any) {
-    if ((error?.message?.includes('Dataset not found') || error?.message?.includes('Project not found')) && projectId === 'demo') {
-      console.warn('Gracefully skipping Sanity fetch due to missing environment variables.')
-      if (query.trim().endsWith('[0]')) {
-        return null
-      }
-      return []
+    console.warn('Gracefully skipping Sanity fetch due to missing environment variables or connection error.');
+    if (query.trim().endsWith('[0]')) {
+      return null
     }
-    throw error
+    return []
   }
 }
