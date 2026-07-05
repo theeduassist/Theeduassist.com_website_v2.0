@@ -12,27 +12,65 @@ interface Props {
 const { headings = [] } = Astro.props;
 ---
 {headings.length > 0 && (
-  <nav class="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-10 hidden md:block shadow-sm" aria-label="Table of contents">
-    <h3 class="font-semibold text-slate-800 mb-4 uppercase tracking-wider text-sm">In this article</h3>
-    <ul class="space-y-2 text-sm">
-      {headings.map(heading => (
-        <li class={`pl-${(heading.depth - 2) * 4}`}>
-          <a href={`#${heading.slug}`} class="text-slate-600 hover:text-[var(--color-primary)] transition-colors inline-block w-full" data-toc-link>
-            {heading.text}
-          </a>
-        </li>
-      ))}
-    </ul>
+  <nav class="bg-white border border-slate-200 rounded-xl shadow-sm mb-10 overflow-hidden lg:sticky lg:top-24 max-h-[calc(100vh-8rem)] overflow-y-auto" aria-label="Table of contents">
+    <details class="group lg:open md:hidden">
+        <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-4 text-slate-800 bg-slate-50 border-b border-slate-100 hover:bg-slate-100 transition-colors focus-ring focus-visible:ring-2 focus-visible:ring-brand-primary">
+            <span class="text-sm uppercase tracking-wider">In this article</span>
+            <span class="transition-transform duration-300 group-open:rotate-180 text-slate-400">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </span>
+        </summary>
+        <div class="p-4 bg-white">
+            <ul class="space-y-2.5 text-sm">
+              {headings.map(heading => (
+                <li class={`pl-${(heading.depth - 2) * 4}`}>
+                  <a href={`#${heading.slug}`} class={`block text-slate-600 hover:text-brand-primary transition-colors focus-ring rounded-sm ${heading.depth === 2 ? 'font-semibold text-slate-800' : 'text-slate-600 before:content-["-"] before:mr-1.5 before:text-slate-300'}`} data-toc-link>
+                    {heading.text}
+                  </a>
+                </li>
+              ))}
+            </ul>
+        </div>
+    </details>
+
+    <div class="hidden md:block p-6 bg-slate-50/50">
+        <h3 class="font-bold text-slate-800 mb-4 uppercase tracking-wider text-xs border-b border-slate-200 pb-3">On this page</h3>
+        <ul class="space-y-2.5 text-sm">
+          {headings.map(heading => (
+            <li class={`pl-${(heading.depth - 2) * 4}`}>
+              <a href={`#${heading.slug}`} class={`block text-slate-600 hover:text-brand-primary transition-colors focus-ring rounded-sm py-0.5 ${heading.depth === 2 ? 'font-semibold text-slate-800' : 'text-slate-600 before:content-["└"] before:mr-1.5 before:text-slate-300'}`} data-toc-link>
+                {heading.text}
+              </a>
+            </li>
+          ))}
+        </ul>
+    </div>
   </nav>
 )}
+
+<style is:global>
+  /* Ensure anchors aren't hidden under sticky header */
+  .prose h2, .prose h3, .prose h4 {
+    scroll-margin-top: 6rem;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+</style>
 
 <script>
   function setupToc() {
     const tocLinks = document.querySelectorAll('[data-toc-link]');
     if (!tocLinks.length) return;
 
+    // Optional: Add active state logic using IntersectionObserver later
+
     tocLinks.forEach(link => {
-      link.addEventListener('click', () => {
+      link.addEventListener('click', (e) => {
+        // Only override default behavior if smooth scroll isn't native (mostly it is now)
+        // But we keep tracking
         if (window.dataLayer && typeof window.trackEvent === 'function') {
            window.trackEvent('article_toc_click', {
              target_id: link.getAttribute('href')
