@@ -1,0 +1,1428 @@
+TheEduAssist Blog Audit Report
+=================================
+
+Post: Your guide to Kajabi emails that people love to read (/blog/your-guide-to-kajabi-emails-that-people-love-to-read/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: Kajabi Major Updates 2026: AI Cofounder, Expert Agents, Amplify & More (/blog/kajabi-major-updates-2026-ai-cofounder-expert-agents-amplify-and-more/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: Test Post – Do Not Publish (/blog/test-post/)
+- Missing aiSummary
+- Missing category
+- Missing author
+- Missing main image alt text
+- Thin content (58 words)
+
+Post: How to Maximize Course Success Using the Kajabi Platform 2026 (/blog/__trashed/)
+- Missing aiSummary
+- Excerpt too long (4246 chars)
+- Missing category
+
+Post: How to Reduce LTI Rates Using AI-Customized Safety Training (/blog/ai-customized-safety-training/)
+- Missing aiSummary
+- Excerpt too long (6920 chars)
+- Missing category
+
+Post: Why Human Error Causes Truck Accidents and How to Prevent Them (/blog/why-human-error-is-the-leading-cause-of-truck-accidents-and-how-to-prevent-it/)
+- Missing aiSummary
+- Excerpt too long (5291 chars)
+- Missing category
+
+Post: What is Technical Proficiency? (/blog/what-is-technical-proficiency/)
+- Missing aiSummary
+- Excerpt too long (7205 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Instructional Design Made Simple with Synthesia Videos and InDesign Workbooks (/blog/instructional-design-made-simple-with-synthesia-videos-and-indesign-workbooks/)
+- Missing aiSummary
+- Excerpt too long (4874 chars)
+- Missing category
+
+Post: Time Management and life Skills students can Master 2026 (/blog/time-management-and-productivity-skills-students-can-master-2025/)
+- Missing aiSummary
+- Excerpt too long (3720 chars)
+- Missing category
+
+Post: Complete Guide to SaaS Curriculum Development and Training Best Practices (/blog/complete-guide-to-saas-curriculum-development-and-training-best-practices/)
+- Missing aiSummary
+- Excerpt too long (4797 chars)
+- Missing category
+
+Post: Continuing Education Creation: How to Develop Effective Programs for Professionals 2026 (/blog/continuing-education-creation-how-to-develop-effective-programs-for-professionals-2026/)
+- Missing aiSummary
+- Excerpt too long (5847 chars)
+- Missing category
+
+Post: Instructional Design in Action: Practical Solutions for Learner Problems (/blog/instructional-design-in-action-practical-solutions-for-learner-problems/)
+- Missing aiSummary
+- Excerpt too long (6532 chars)
+- Missing category
+
+Post: Thinkific Course Creation and LMS Management: How to Create Online Courses 2026 (/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/)
+- Missing aiSummary
+- Excerpt too long (6566 chars)
+- Missing category
+
+Post: AI Insights Powering Skills-Based Learning and Professional Growth in 2026 (/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/)
+- Missing aiSummary
+- Excerpt too long (6159 chars)
+- Missing category
+
+Post: Udemy Made Simple: How the Platform Works for Learners and Instructors (/blog/udemy-made-simple-how-the-platform-works-for-learners-and-instructors/)
+- Missing aiSummary
+- Excerpt too long (5586 chars)
+- Missing category
+
+Post: Strategic Digital Product Architecture for Wealth Systems: A Simple Guide (/blog/strategic-digital-product-architecture-for-wealth-systems-a-simple-guide/)
+- Missing aiSummary
+- Excerpt too long (5738 chars)
+- Missing category
+
+Post: A Practical 2026 Guide in Using Skool for Real Estate Lending Sales Training (/blog/a-practical-2026-guide-in-using-skool-for-real-estate-lending-sales-training/)
+- Missing aiSummary
+- Excerpt too long (5018 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Why Learners Skip Pop-Ups and How Better Design Changes That (/blog/why-learners-skip-pop-ups-and-how-better-design-changes-that/)
+- Missing aiSummary
+- Excerpt too long (5954 chars)
+- Missing category
+
+Post: MOOCs and IT Education: A Practical Guide for Learners in 2026 (/blog/moocs-and-it-education-a-practical-guide-for-learners-in-2026/)
+- Missing aiSummary
+- Excerpt too long (6214 chars)
+- Missing category
+
+Post: How to Apply SETA Standards in Digital and Blended Learning Environments (/blog/how-to-apply-seta-standards-in-digital-and-blended-learning-environments/)
+- Missing aiSummary
+- Excerpt too long (6923 chars)
+- Missing category
+
+Post: Education Is The Key Of Success, its future 2026 (/blog/education-is-the-key-of-success-its-future-2026/)
+- Missing aiSummary
+- Excerpt too long (6278 chars)
+- Missing category
+
+Post: Gamification 2026: How to Boost Engagement, Learning, and Productivity (/blog/gamification-2026-how-to-boost-engagement-learning-and-productivity/)
+- Missing aiSummary
+- Excerpt too long (6495 chars)
+- Missing category
+
+Post: Smart Learning Strategies to Remember More & Perform Better (/blog/learning-strategies/)
+- Missing aiSummary
+- Excerpt too long (6741 chars)
+- Missing category
+
+Post: Teachability: How to Improve Learning and Retention in Education (/blog/teachability/)
+- Missing aiSummary
+- Excerpt too long (7105 chars)
+- Missing category
+
+Post: How to Promote Your Online Course by Using Teachability Principles 2026 (/blog/how-to-promote-your-online-course-by-using-teachability-principles-2026/)
+- Missing aiSummary
+- Excerpt too long (6185 chars)
+- Missing category
+
+Post: AI-Driven Online Learning: From Content Creation to Skill Mastery (/blog/ai-driven-online-learning-from-content-creation-to-skill-mastery/)
+- Missing aiSummary
+- Excerpt too long (6390 chars)
+- Missing category
+
+Post: eLearning 2026: How Technology is Reshaping Education (/blog/elearning-2026-how-technology-is-reshaping-education/)
+- Missing aiSummary
+- Excerpt too long (6691 chars)
+- Missing category
+
+Post: Go High Level for Education Businesses: What Actually Works (/blog/go-high-level-for-education-businesses-what-actually-works/)
+- Missing aiSummary
+- Excerpt too long (6145 chars)
+- Missing category
+
+Post: Personal Learning Environment: How to Learn in a Changing World 2026 (/blog/personal-learning-environment/)
+- Missing aiSummary
+- Excerpt too long (6207 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Education Data Privacy Laws: FERPA’s Role in a Data-Driven World (/blog/what-is-ferpa/)
+- Missing aiSummary
+- Excerpt too long (4261 chars)
+- Missing category
+
+Post: Instructional Design Services for Custom eLearning Development & Better Learning Outcomes (/blog/instructional-design-services-for-custom-elearning-development-better-learning-outcomes/)
+- Missing aiSummary
+- Excerpt too long (7079 chars)
+- Missing category
+
+Post: A Practical Guide to Planning and Development Training for modern workforces (/blog/a-practical-guide-to-planning-and-development-training-for-modern-workforces/)
+- Missing aiSummary
+- Excerpt too long (7337 chars)
+- Missing category
+
+Post: What Are Terminal Learning Objectives? A Practical Guide for Training 2026 (/blog/what-are-terminal-learning-objectives-a-practical-guide-for-training-2026/)
+- Missing aiSummary
+- Excerpt too long (6576 chars)
+- Missing category
+
+Post: Kajabi Course Design Explained: How to Create Online course in 2026 (/blog/kajabi-course-design-explained-how-to-create-online-course-in-2026/)
+- Missing aiSummary
+- Excerpt too long (6390 chars)
+- Missing category
+
+Post: What Is a Curriculum Development Centre? A Complete Explanation (/blog/what-is-a-curriculum-development-centre-a-complete-explanation/)
+- Missing aiSummary
+- Excerpt too long (7432 chars)
+- Missing category
+
+Post: Why Learning Is the Strongest Skill You Can Build (/blog/why-learning-is-the-strongest-skill-you-can-build/)
+- Missing aiSummary
+- Excerpt too long (6675 chars)
+- Missing category
+
+Post: Why Kajabi Works Better Than Multiple Tools for Coaching Businesses (/blog/why-kajabi-works-better-than-multiple-tools-for-coaching-businesses/)
+- Missing aiSummary
+- Missing category
+
+Post: The Essential Guide to AI-Generated Course Quality 2026 (/blog/the-essential-guide-to-ai-generated-course-quality-2026/)
+- Missing aiSummary
+- Excerpt too long (5960 chars)
+- Missing category
+- Potentially duplicated paragraphs detected
+
+Post: Choosing the Right Authoring Tool: Affordable Alternatives to Articulate Storyline (/blog/choosing-the-right-authoring-tool-affordable-alternatives-to-articulate-storyline/)
+- Missing aiSummary
+- Excerpt too long (6515 chars)
+- Missing category
+
+Post: How to Overcome LMS Course Editing Restrictions Without Rebuilding Everything (/blog/how-to-overcome-lms-course-editing-restrictions-without-rebuilding-everything/)
+- Missing aiSummary
+- Excerpt too long (4866 chars)
+- Missing category
+
+Post: Training Coordination Made Easy: Proven Strategies for Hybrid Teams (/blog/training-coordination-made-easy-proven-strategies-for-hybrid-teams/)
+- Missing aiSummary
+- Excerpt too long (6355 chars)
+- Missing category
+
+Post: Beyond Gamification: How to Make Interactive Learning Truly Effective (/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/)
+- Missing aiSummary
+- Excerpt too long (6632 chars)
+- Missing category
+
+Post: Quest 3 for Sim Racing: Can It Be Made Reliable? (/blog/quest-3-for-sim-racing-can-it-be-made-reliable/)
+- Missing aiSummary
+- Excerpt too long (6220 chars)
+- Missing category
+
+Post: Instructional Design Checklist: Make Your Online Courses More Engaging (/blog/instructional-design-checklist-make-your-online-courses-more-engaging/)
+- Missing aiSummary
+- Excerpt too long (6833 chars)
+- Missing category
+
+Post: AI + Microlearning: The Ultimate Formula for Corporate training 2026 (/blog/ai-microlearning-the-ultimate-formula-for-corporate-training-2026/)
+- Missing aiSummary
+- Excerpt too long (7072 chars)
+- Missing category
+
+Post: The Tool Trap: When Technology Overshadows Learning Strategy (/blog/the-tool-trap-when-technology-overshadows-learning-strategy/)
+- Missing aiSummary
+- Excerpt too long (6602 chars)
+- Missing category
+
+Post: SCORM Construction Courses for LMS: Compliance Made Simple 2026 (/blog/scorm-construction-courses-for-lms-compliance-made-simple-2026/)
+- Missing aiSummary
+- Excerpt too long (6962 chars)
+- Missing category
+
+Post: Practical AI Learning in 2026: How to Build Real-World Skills That Matter (/blog/practical-ai-learning-in-2026-how-to-build-real-world-skills-that-matter/)
+- Missing aiSummary
+- Excerpt too long (6604 chars)
+- Missing category
+
+Post: When E-Learning Feels Unrealistic: A Practical Fix for Modern Workplaces 2026 (/blog/when-e-learning-feels-unrealistic-a-practical-fix-for-modern-workplaces-2026/)
+- Missing aiSummary
+- Excerpt too long (6923 chars)
+- Missing category
+
+Post: Why Early Grades Struggle with E-Learning: The K2 Perspective (/blog/why-early-grades-struggle-with-e-learning-the-k2-perspective/)
+- Missing aiSummary
+- Excerpt too long (6974 chars)
+- Missing category
+
+Post: Small Team Free LMS: Smart cost saving or Risky shortcut? (/blog/small-team-free-lms-smart-cost-saving-or-risky-shortcut/)
+- Missing aiSummary
+- Excerpt too long (6497 chars)
+- Missing category
+
+Post: How to Break Into Corporate L&D in 2026: A Complete Guide for Teachers (/blog/how-to-break-into-corporate-ld-in-2026-a-complete-guide-for-teachers/)
+- Missing aiSummary
+- Excerpt too long (5985 chars)
+- Missing category
+
+Post: Why Modern EdTech Still Fails to Create Real Skill Transfer (/blog/why-modern-edtech-still-fails-to-create-real-skill-transfer/)
+- Missing aiSummary
+- Excerpt too long (6674 chars)
+- Missing category
+
+Post: Free Moodle Installation: The Realities of Self-Hosting Your LMS (/blog/free-moodle-installation-the-realities-of-self-hosting-your-lms/)
+- Missing aiSummary
+- Excerpt too long (6505 chars)
+- Missing category
+
+Post: How to Choose a SCORM Course Builder That Works with Any LMS 2026 (/blog/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/)
+- Missing aiSummary
+- Excerpt too long (6739 chars)
+- Missing category
+
+Post: The Ultimate Guide to AI-Powered Course Visuals for Educators (/blog/the-ultimate-guide-to-ai-powered-course-visuals-for-educators/)
+- Missing aiSummary
+- Excerpt too long (6520 chars)
+- Missing category
+
+Post: Leadership Training Program Design: In 2026 (New Generation): (/blog/leadership-training-program-design-in-2026-new-generation/)
+- Missing aiSummary
+- Excerpt too long (6550 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Webinar to Online Course: A Complete Guide (/blog/webinar-to-online-course-a-complete-guide-for-florida-sales-accelerator-programs-in-the-us/)
+- Missing aiSummary
+- Excerpt too long (6874 chars)
+- Missing category
+
+Post: How to Create Executive Assistant eLearning ? (/blog/how-to-create-executive-assistant-elearning/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Scale a Coaching Business Online in 2026: Latest eLearning Trends and Strategies in North Dakota (/blog/2026-coaching-reality-check-scaling-online-without-the-hype-latest-trends-strategies-in-north-dakota/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Design Interactive Learning Content for Corporate Training Programs (/blog/how-to-design-interactive-learning-content-for-corporate-training-programs/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: High-Impact Sales Training Slides in: Visual Storytelling for Better Engagement (/blog/high-impact-sales-training-slides-in-visual-storytelling-for-better-engagement/)
+- Missing aiSummary
+- Missing category
+
+Post: Hire an Expert to Create an Entrepreneurship Training Program from Scratch: (/blog/hire-an-expert-to-create-an-entrepreneurship-training-program-from-scratch/)
+- Missing aiSummary
+- Excerpt too long (6130 chars)
+- Missing category
+
+Post: E-learning Slide Design for Busy Course Creators: When to DIY vs Hire a Professional (/blog/busy-course-creators-diy-vs-pro-slide-design-compare-costs-time-outsourcing-tips/)
+- Missing aiSummary
+- Missing category
+
+Post: Miami eLearning Services: LearnWorlds Course Design Made Easy (/blog/miami-elearning-services-learnworlds-course-design-made-easy/)
+- Missing aiSummary
+- Missing category
+
+Post: Designing Phlebotomy Course in 2026: Quick Guide for an AI-Ready Era (/blog/phlebotomy-curriculum-design-guide-to-building-an-ai-future-ready-training-program-for-2026/)
+- Missing aiSummary
+- Missing category
+
+Post: Busy E-Learning Teams in New York: How AI Video Creation Can Speed Up Their Training Module Production (/blog/busy-e-learning-teams-in-new-york-how-ai-video-creation-can-speed-up-their-training-module-production/)
+- Missing aiSummary
+- Excerpt too long (644 chars)
+- Missing category
+
+Post: GHL Made Easy: Ultimate Guide or EdTech & Coaching Businesses in New Jersey (/blog/ghl-development-and-setup-a-complete-guide-for-edtech-and-coaching-businesses-in-new-jersey/)
+- Missing aiSummary
+- Missing category
+
+Post: Build a Health and Wealth Online Course with US-focused Content Expert (/blog/build-a-health-and-wealth-online-course-with-us-focused-content-expert/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: Professional Kajabi Designers in Perth for Scalable eLearning (/blog/professional-kajabi-designers-in-perth-for-scalable-elearning/)
+- Missing aiSummary
+- Missing category
+
+Post: Guide to Turn Pre-Recorded Voiceovers into Interactive eLearning Content and Video: Roadmap for EdTech Startups in New York (/blog/creating-interactive-elearning-videos-with-pre-recorded-voiceovers-a-guide-for-edtech-startups-in-new-york/)
+- Missing aiSummary
+- Missing category
+
+Post: Create Profitable Leadership Courses on Kajabi: 2026 Guide for Miami (/blog/leadership-course-creation-on-kajabi-for-coaching-businesses-in-miami/)
+- Missing aiSummary
+- Excerpt too long (6927 chars)
+- Missing category
+
+Post: Ultimate Guide to AI Content Automation for Melbourne Course Creators (/blog/ultimate-guide-to-ai-content-automation-for-melbourne-course-creators/)
+- Missing aiSummary
+- Excerpt too long (337 chars)
+- Missing category
+
+Post: How to Design Microlearning Courses via LearnWorlds: Ultimate Guide for eLearning Businesses in Chicago (/blog/ultimate-learnworlds-lms-guide-how-elearning-businesses-in-chicago-can-design-microlearning-courses/)
+- Missing aiSummary
+- Excerpt too long (6075 chars)
+- Missing category
+
+Post: How to Design a Life & Health Insurance Course: (/blog/how-to-design-a-life-health-insurance-course/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: Ultimate Guide to Curriculum Design for Supply Chain Courses (/blog/ultimate-guide-to-curriculum-design-for-supply-chain-courses/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: Make Profit With Real Estate Courses: Ultimate Design Guide for Realtors in New York (/blog/instructional-design-strategies-for-course-creation-for-real-estate-investors-in-new-york/)
+- Missing aiSummary
+- Missing category
+
+Post: Build Profitable Kajabi Courses in Canberra with Instructional Design(Part 1) (/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-designpart-1/)
+- Missing aiSummary
+- Excerpt too long (7618 chars)
+- Missing category
+
+Post: Kajabi Course Creation Guide for EdTech Startups in Miami (Why Hiring Kajabi Expert Matters?) (/blog/kajabi-course-creation-guide-for-edtech-startups-in-miami-why-hiring-a-kajabi-expert-matters/)
+- Missing aiSummary
+- Missing category
+
+Post: Build Profitable Kajabi Courses in Canberra with Instructional Design(Part 2) (/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-designpart-2/)
+- Missing aiSummary
+- Missing category
+
+Post: Sales Training Workbook vs Presentation Deck: Which Drives Better Results? (/blog/sales-training-workbook-vs-presentation-deck-which-drives-better-results/)
+- Missing aiSummary
+- Missing category
+
+Post: Launching Kajabi Online Course in Florida: Best Guide for Video Editing and e-Learning Course Creation (/blog/how-to-launch-a-kajabi-online-course-in-florida-best-practices-for-video-editing-and-e-learning-course-creation/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Build Engaging eLearning Courses in Sydney (/blog/how-to-build-engaging-elearning-courses-in-sydney/)
+- Missing aiSummary
+- Missing category
+
+Post: Ultimate Guide for Queensland Course Creators: eLearning Screencast Video Creation (/blog/ultimate-guide-for-queensland-course-creators-elearning-screencast-video-creation/)
+- Missing aiSummary
+- Missing category
+
+Post: LearnDash Optimization for Schools & Teachers (/blog/learndash-optimization-for-schools-teachers/)
+- Missing aiSummary
+- Excerpt too long (5930 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Create Workbooks for Your Masterclass: Ultimate Guide for California Creators (/blog/how-to-design-elearning-workbooks-for-masterclasses-ultimate-2026-curriculum-guide-for-california-course-creators/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Create Coaching Content Systems for Influencer Brands of Dallas,US (/blog/how-to-create-coaching-content-systems-for-influencer-brands-of-dallasus/)
+- Missing aiSummary
+- Missing category
+
+Post: Ultimate TalentLMS Onboarding Framework for eLearning Creators in Ohio (/blog/ultimate-talentlms-onboarding-framework-for-elearning-creators-in-ohio/)
+- Missing aiSummary
+- Missing category
+
+Post: Hiring Selling Specialist: Build Sales Funnel (/blog/hiring-selling-specialist-build-sales-funnel/)
+- Missing aiSummary
+- Excerpt too long (6203 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Creating Self-Help Online Courses in Ohio: The Ultimate Guide (/blog/creating-self-help-online-courses-in-ohio-the-ultimate-guide/)
+- Missing aiSummary
+- Missing category
+
+Post: Clear Roadmap to Launch 6-Week Online Course on New LMS in Texas (/blog/how-to-launch-a-6-week-online-course-on-a-new-lms-step-by-step-setup-guide-for-texas-creators/)
+- Missing aiSummary
+- Missing category
+
+Post: Convert Raw Videos Into Profitable Online Courses in California (/blog/how-to-turn-raw-videos-into-an-online-course-content-stepwise-guide-for-california-creators/)
+- Missing aiSummary
+- Missing category
+
+Post: Canva Video Tutorials for Digital Products: A Complete Guide (/blog/canva-video-tutorials-for-digital-products-a-complete-guide/)
+- Missing aiSummary
+- Missing category
+
+Post: Educational HTML & CSS Video Tutorials: A Complete Guide for Coaches: (/blog/educational-html-css-video-tutorials-a-complete-guide-for-coaches/)
+- Missing aiSummary
+- Missing category
+- Potentially duplicated paragraphs detected
+
+Post: Affiliate Marketing Strategy for Agencies in Orlando: Full Guide (/blog/affiliate-marketing-strategy-for-agencies-in-orlando-full-guide/)
+- Missing aiSummary
+- Missing category
+
+Post: “How to Produce 20–40 Minute Coaching Videos from Long Scripts” (/blog/how-to-produce-20-40-minute-coaching-videos-from-long-scripts/)
+- Missing aiSummary
+- Excerpt too long (7417 chars)
+- Missing category
+
+Post: Ultimate Guide to Developing an eLearning Curriculum in Victoria (/blog/ultimate-guide-to-developing-an-elearning-curriculum-in-victoria/)
+- Missing aiSummary
+- Missing category
+
+Post: Hybrid Yoga Teacher Training System for Better Learning Outcomes (/blog/hybrid-yoga-teacher-training-system-for-better-learning-outcomes/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: How to Create Course Pop-Ups in Chicago & Perth (Best Practices) (/blog/how-to-create-course-pop-ups-in-chicago-perth-best-practices/)
+- Missing aiSummary
+- Missing category
+
+Post: Why Static Slides Fail – And How to Create Truly Interactive Content (/blog/why-static-slides-fail-and-how-to-create-truly-interactive-content/)
+- Missing aiSummary
+- Excerpt too long (7342 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Ultimate Guide to Udemy Video Editing with Canva & Doodly (/blog/ultimate-guide-to-udemy-video-editing-with-canva-doodly/)
+- Missing aiSummary
+- Missing category
+
+Post: AI Automation Course Creation Guide for New York EdTech Startups (/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/)
+- Missing aiSummary
+- Missing category
+
+Post: Philosophy to Practice: Interactive Leadership Mastery with AI & Technology (/blog/philosophy-to-practice-interactive-leadership-mastery-with-ai-technology/)
+- Missing aiSummary
+- Missing category
+
+Post: Ultimate Excel Course Video Guide in Sydney, LA with TheEduAssist (/blog/ultimate-excel-course-video-guide-in-sydney-la-with-theeduassist/)
+- Missing aiSummary
+- Excerpt too long (7226 chars)
+- Missing category
+
+Post: Learning Experience Designer For ELearning (/blog/learning-experience-designer-for-elearning/)
+- Missing aiSummary
+- Excerpt too long (7175 chars)
+- Missing category
+- Missing main image alt text
+- Potentially duplicated paragraphs detected
+
+Post: Ultimate Guide to Promoting Ohio eLearning Business via YouTube (/blog/how-to-create-a-youtube-channel-for-promoting-elearning-business-in-ohio-complete-2026-guide/)
+- Missing aiSummary
+- Missing category
+
+Post: Professional Video Workshops for Kajabi, Skool & Funnels in Australia (/blog/professional-video-workshops-for-kajabi-skool-funnels-in-australia/)
+- Missing aiSummary
+- Missing category
+
+Post: Ultimate Opigno LMS Course Development Tips for Businesses in Adelaide (/blog/ultimate-opigno-lms-course-development-tips-for-businesses-in-adelaide/)
+- Missing aiSummary
+- Excerpt too long (7535 chars)
+- Missing category
+- Potentially duplicated paragraphs detected
+
+Post: Skool Community Growth: 2026 Blueprint for High Engagement (/blog/skool-community-growth-2026-blueprint-for-high-engagement/)
+- Missing aiSummary
+- Missing category
+
+Post: 2026 Teachable Guide: How to Build & Sell Online Courses as a California Creator (/blog/2026-teachable-guide-how-to-build-sell-online-courses-as-a-california-creator/)
+- Missing aiSummary
+- Missing category
+
+Post: AI Product Training Video Blueprint for Businesses in New York (/blog/ai-product-training-video-blueprint-for-businesses-in-new-york/)
+- Missing aiSummary
+- Missing category
+
+Post: Mastering Sales Objection Handling: Proven Techniques with AI Video Training (/blog/mastering-sales-objection-handling-proven-techniques-with-ai-video-training/)
+- Missing aiSummary
+- Excerpt too long (6571 chars)
+- Missing category
+- Missing main image alt text
+
+Post: How to Turn a Video Creation Course Into a Handbook: Instructional Design Guide for 2026 (/blog/how-to-turn-a-video-creation-course-into-a-handbook-instructional-design-guide-for-2026/)
+- Missing aiSummary
+- Missing category
+
+Post: Digital Marketing Curriculum on Skool: How to Build High Value (/blog/digital-marketing-curriculum-on-skool-how-to-build-high-value/)
+- Missing aiSummary
+- Missing category
+
+Post: Craft Training Modules for Ohio’s eLearning Academies: 2026 Focused Complete Guide (/blog/training-modules-design-for-elearning-in-ohio-2026/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: n8n Automation Course Creation Opportunity for Creators in Florida (/blog/guide-for-creating-an-n8n-automation-online-course-2026-in-florida/)
+- Missing aiSummary
+- Missing category
+
+Post: AI HR Training Programs with 360Learning: A Practical Guide (/blog/ai-hr-training-programs-with-360learning-a-practical-guide/)
+- Missing aiSummary
+- Missing category
+
+Post: Learn to Become a Training Coordinator in Texas: Quick Guide for Course Creators (/blog/how-to-become-a-training-coordinator-in-2026-content-and-lms-management-guide-for-course-creators-in-texas/)
+- Missing aiSummary
+- Missing category
+
+Post: The Ultimate Canva Tutorial Video Formula for Product Customization: TheEduAssist (/blog/the-ultimate-canva-tutorial-video-formula-for-product-customization-theeduassist/)
+- Missing aiSummary
+- Missing category
+
+Post: Instructional Design for Leadership Training Programs in New York (/blog/instructional-design-for-leadership-training-programs-in-new-york/)
+- Missing aiSummary
+- Missing category
+
+Post: 360 to Skool Migration: Easy Guide for Course Transfer in 2026 (/blog/360-to-skool-migration-easy-guide-for-course-transfer-in-2026/)
+- Missing aiSummary
+- Missing category
+
+Post: Create AI eLearning Courses That Sell: 2026 Ultimate Guide for New Creators in New York (/blog/how-to-create-an-ai-elearning-course-that-sells-2026-ultimate-guide-for-new-creators-in-new-york/)
+- Missing aiSummary
+- Missing category
+
+Post: How to create High-Converting Digital marketing workshops on Skool (2026 Guide) (/blog/how-to-create-high-converting-digital-marketing-workshops-on-skool-2026-guide/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Design Cybersecurity Awareness Training for Employees 2026 (/blog/how-to-design-cybersecurity-awareness-training-for-employees-2026/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Build a High-Engaging Online Community in Mighty Networks (2026)? (/blog/how-to-build-a-high-engaging-online-community-in-mighty-networks-2026/)
+- Missing aiSummary
+- Missing category
+
+Post: Generate Self-Help eLearning Course That Sells in 2026: Ultimate Guide for Victoria Coaches (/blog/how-to-create-a-self-help-elearning-course-that-sells-in-2026-ultimate-guide-for-victoria-coaching-businesses/)
+- Missing aiSummary
+- Missing category
+
+Post: How to build a transformational curriculum that actually works ( step-by-step) (/blog/how-to-build-a-transformational-curriculum-that-actually-works-step-by-step/)
+- Missing aiSummary
+- Excerpt too long (444 chars)
+- Missing category
+
+Post: Which Is Better for Effective Learning: Slides or Screen Recordings? (/blog/which-is-better-for-effective-learning-slides-or-screen-recordings/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: How to Build Learning Modules in HiBob LMS in Australia? (/blog/how-to-build-learning-modules-in-hibob-lms-in-australia/)
+- Missing aiSummary
+- Missing category
+
+Post: The Ultimate, Ohio Focused Blueprint for Building a Debate Training Program (/blog/design-debate-training-program-in-ohio-2026/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Create Self-Guided Learning Experiences in Google Classroom (/blog/how-to-create-self-guided-learning-experiences-in-google-classroom/)
+- Missing aiSummary
+- Excerpt too long (395 chars)
+- Missing category
+
+Post: AI-Driven E‑Learning Video Production for the Food Industry: Ultimate Guide (/blog/ai-driven-elearning-video-production-for-the-food-industry-ultimate-guide/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Build a Real Estate Virtual Strategy with Instructional Design? (/blog/how-to-build-a-real-estate-virtual-strategy-with-instructional-design/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: The Ultimate Blueprint for Creating Interactive eLearning Course in Florida (/blog/guide-for-interactive-elearning-course-2026-florida-creators/)
+- Missing aiSummary
+- Missing category
+
+Post: Proven Instructional Design Secrets to Create Courses That Actually Convert (/blog/proven-instructional-design-secrets-to-create-courses-that-actually-convert/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Create Engaging Video Seminars on Spotlightr (step-by-step Guide) (/blog/how-to-create-engaging-video-seminars-on-spotlightr-step-by-step-guide/)
+- Missing aiSummary
+- Excerpt too long (372 chars)
+- Missing category
+
+Post: The Ultimate Guide to Launching a 6-Week Online Course on New LMS in Tasmania (/blog/launch-6-week-online-course-on-new-lms-in-tasmania/)
+- Missing aiSummary
+- Missing category
+
+Post: The Ultimate 6-Step Kajabi Blueprint for Building a Leadership Training Program in Florida (/blog/create-leadership-training-program-in-florida-kajabi-2026/)
+- Missing aiSummary
+- Missing category
+
+Post: Powerful Executive Assistant Training Review: That Actually Improves Results (/blog/powerful-executive-assistant-training-review-that-actually-improves-results/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: 6 Critical Reasons Leadership Training Fails:How to Fix Them Fast? (/blog/6-critical-reasons-leadership-training-failshow-to-fix-them-fast/)
+- Missing aiSummary
+- Excerpt too long (7385 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Ultimate Guide to Creating an AI-powered Roulette & Blackjack Course (/blog/ultimate-guide-to-creating-an-ai-powered-roulette-blackjack-course/)
+- Missing aiSummary
+- Excerpt too long (383 chars)
+- Missing category
+
+Post: How to Turn PDFs into High-Converting Courses That Actually Sell (/blog/how-to-turn-pdfs-into-high-converting-courses-that-actually-sell/)
+- Missing aiSummary
+- Excerpt too long (6769 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Stop Ineffective Training: How to Build Uplifting eLearning Modules? (/blog/stop-ineffective-training-how-to-build-uplifting-elearning-modules/)
+- Missing aiSummary
+- Excerpt too long (7985 chars)
+- Missing category
+
+Post: How to Transform Passive Lessons into Interactive LearnDash Courses (/blog/how-to-transform-passive-lessons-into-interactive-learndash-courses/)
+- Missing aiSummary
+- Excerpt too long (406 chars)
+- Missing category
+
+Post: 2026 Ultimate Guide to Designing an ‘AI for Everyone’ Course (/blog/design-an-ai-for-everyone-course/)
+- Missing aiSummary
+- Excerpt too long (4593 chars)
+- Missing category
+
+Post: Thrilled eLearning Videos for Students & Teachers who Actually Love (/blog/thrilled-elearning-videos-for-students-teachers-who-actually-love/)
+- Missing aiSummary
+- Excerpt too long (7240 chars)
+- Missing category
+- Potentially duplicated paragraphs detected
+
+Post: How to Sell Online Courses That Actually Convert (/blog/how-to-sell-online-courses-that-actually-convert/)
+- Missing aiSummary
+- Excerpt too long (330 chars)
+- Missing category
+
+Post: Thrilling Thinkific Courses that Learners of US Actually Complete (/blog/thrilling-thinkific-courses-that-learners-of-us-actually-complete/)
+- Missing aiSummary
+- Excerpt too long (5498 chars)
+- Missing category
+
+Post: 2026 Guide to Creating Professional Online Course Websites in Victoria (/blog/create-an-online-course-website-in-victoria-2026/)
+- Missing aiSummary
+- Excerpt too long (4736 chars)
+- Missing category
+
+Post: How to Win at Digital Product Creation in 2026 (/blog/how-to-win-at-digital-product-creation-in-2026/)
+- Missing aiSummary
+- Excerpt too long (407 chars)
+- Missing category
+
+Post: Ultimate Thrilling Canva Development and Design Support: that Sell (/blog/ultimate-thrilling-canva-development-and-design-support-that-sell/)
+- Missing aiSummary
+- Excerpt too long (7574 chars)
+- Missing category
+
+Post: Build a thrilling Leadership Training System That Actually delighted (/blog/build-a-thrilling-leadership-training-system-that-actually-delighted/)
+- Missing aiSummary
+- Excerpt too long (7597 chars)
+- Missing category
+
+Post: The Ultimate 2026 Blueprint for Cybersecurity Course Development with SCORM (/blog/build-a-cybersecurity-course-in-2026-scorm-and-instructional-design-guide/)
+- Missing aiSummary
+- Excerpt too long (5494 chars)
+- Missing category
+
+Post: Want Strong Case Management Training?Use This Design for US,Australia (/blog/want-strong-case-management-traininguse-this-design-for-usaustralia/)
+- Missing aiSummary
+- Excerpt too long (4689 chars)
+- Missing category
+
+Post: The Ultimate Guide to Building a Spiritual Awakening Online Course (/blog/the-ultimate-guide-to-building-a-spiritual-awakening-online-course/)
+- Missing aiSummary
+- Excerpt too long (306 chars)
+- Missing category
+
+Post: Development Research and Strong Curriculum Creation for a thrilling Coaching Program: (/blog/development-research-and-strong-curriculum-creation-for-a-thrilling-coaching-program/)
+- Missing aiSummary
+- Excerpt too long (8270 chars)
+- Missing category
+
+Post: The Complete 2026 Guide to Designing an Interactive Bible eLearning Course (/blog/how-to-create-an-interactive-bible-elearning-course-instructional-design-guide-for-2026/)
+- Missing aiSummary
+- Excerpt too long (5317 chars)
+- Missing category
+
+Post: From PPT to Profitable Leadership Course:that Actually put impact (/blog/from-ppt-to-profitable-leadership-coursethat-actually-put-impact/)
+- Missing aiSummary
+- Excerpt too long (7558 chars)
+- Missing category
+
+Post: How to build Cybersecurity Curriculum Design Course:that actually encourage (/blog/how-to-build-cybersecurity-curriculum-design-coursethat-actually-encourage/)
+- Missing aiSummary
+- Excerpt too long (7676 chars)
+- Missing category
+
+Post: How to Create Engaging Educational Content for Online Platforms (/blog/how-to-create-engaging-educational-content-for-online-platform-2026/)
+- Missing aiSummary
+- Excerpt too long (362 chars)
+- Missing category
+
+Post: Want to Airbnb Skills? Start with this thrilling Course Framework (/blog/want-to-airbnb-skills-start-with-this-thrilling-course-framework/)
+- Missing aiSummary
+- Excerpt too long (7895 chars)
+- Missing category
+
+Post: Systeme.io Funnel: 7 Proven Steps to Launch a Stunning Funnel (/blog/systeme-io-funnel-7-proven-steps-to-launch-a-stunning-funnel/)
+- Missing aiSummary
+- Excerpt too long (308 chars)
+- Missing category
+
+Post: How to Build a High-Performance Real Estate Video Content Engine for Social Media Growth? (/blog/how-to-build-a-high-performance-real-estate-video-content-engine-for-social-media-growth/)
+- Missing aiSummary
+- Excerpt too long (7190 chars)
+- Missing category
+
+Post: The Ultimate 2026 Guide for Audio, Video, and Workbook Based Lifestyle eLearning Courses (/blog/creating-an-audio-video-and-workbook-based-lifestyle-elearning-course/)
+- Missing aiSummary
+- Excerpt too long (4356 chars)
+- Missing category
+
+Post: 10 Strong Reasons It’s Time to Rethink How We Use the Learning Management System? (/blog/10-strong-reasons-its-time-to-rethink-how-we-use-the-learning-management-system/)
+- Missing aiSummary
+- Excerpt too long (7018 chars)
+- Missing category
+
+Post: The New Era of Learning & Development You Can Try Today (/blog/the-new-era-of-learning-development-you-can-try-today/)
+- Missing aiSummary
+- Excerpt too long (5999 chars)
+- Missing category
+
+Post: How to Create Professional Training Guides with Microsoft 365 (/blog/how-to-create-professional-training-guides-with-microsoft-365/)
+- Missing aiSummary
+- Excerpt too long (336 chars)
+- Missing category
+
+Post: The Ultimate 2026 Guide for Building Google Classroom Training Programs in Miami (/blog/create-google-classroom-training-in-2026-in-miami/)
+- Missing aiSummary
+- Excerpt too long (5029 chars)
+- Missing category
+
+Post: Sturdy E-learning Design Mistakes That Prevents Retention Rate of the Learner (/blog/sturdy-e-learning-design-mistakes-that-prevents-retention-rate-of-the-learner/)
+- Missing aiSummary
+- Excerpt too long (7322 chars)
+- Missing category
+
+Post: How to Design an Agentic AI Curriculum Design  in 7 Simple Steps (/blog/how-to-design-an-agentic-ai-curriculum-in-7-simple-steps/)
+- Missing aiSummary
+- Missing category
+
+Post: The Complete 2026 Roadmap for Women’s Health eLearning Funnels Using GHL (/blog/building-womens-health-elearning-funnel-in-2026-stepwise-using-ghl/)
+- Missing aiSummary
+- Excerpt too long (5297 chars)
+- Missing category
+
+Post: Build Ultimate Thrilling Corporate Training That Actually Works: with TheEduAssist (/blog/build-ultimate-thrilling-corporate-training-that-actually-works-with-theeduassist/)
+- Missing aiSummary
+- Excerpt too long (7332 chars)
+- Missing category
+
+Post: Create Wellbeing Product Content for Brands in New York (/blog/create-wellbeing-product-content-for-brands-in-new-york-step-in-2026/)
+- Missing aiSummary
+- Excerpt too long (5805 chars)
+- Missing category
+
+Post: 7 Thrilling Proven Ways to Measure Training ROI: TheEduAssist (/blog/7-thrilling-proven-ways-to-measure-training-roi-theeduassist/)
+- Missing aiSummary
+- Excerpt too long (7959 chars)
+- Missing category
+
+Post: The Most Effective 15 Hour Financial Literacy Program: Complete Blueprint (/blog/how-to-build-a-15-hour-financial-literacy-program/)
+- Missing aiSummary
+- Excerpt too long (5810 chars)
+- Missing category
+
+Post: 10 Strong Competitor Analysis Tools To Benchmark Your eLearning (/blog/10-strong-competitor-analysis-tools-to-benchmark-your-elearning/)
+- Missing aiSummary
+- Excerpt too long (6637 chars)
+- Missing category
+
+Post: How to Build a Massive High-Ticket Funnel in 20 Days (/blog/how-to-build-a-massive-high-ticket-funnel-in-20-days/)
+- Missing aiSummary
+- Missing category
+
+Post: From Completion Rates to Strong Behavior:What eLearning Success Really Means? (/blog/from-completion-rates-to-strong-behaviorwhat-elearning-success-really-means/)
+- Missing aiSummary
+- Excerpt too long (7397 chars)
+- Missing category
+
+Post: The Complete Guide to Creating Engaging IT Classes for Ohio Teenagers (/blog/create-updated-it-classes-for-teenagers-2026-guide-for-ohio-creators/)
+- Missing aiSummary
+- Excerpt too long (5560 chars)
+- Missing category
+- Contains private admin/sanity URLs
+
+Post: Instructional Design: How to Launch Scalable, Thrilling Video Training Program (/blog/instructional-design-how-to-launch-scalable-thrilling-video-training-program/)
+- Missing aiSummary
+- Excerpt too long (8312 chars)
+- Missing category
+- Missing main image alt text
+
+Post: “How to Create a Thinkific Course: 7 Proven Steps” (/blog/how-to-create-a-thinkific-course-7-proven-steps/)
+- Missing aiSummary
+- Excerpt too long (7036 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Profitable and Thrilling STAAD Course with Instructional Design (/blog/profitable-and-thrilling-staad-course-with-instructional-design/)
+- Missing aiSummary
+- Excerpt too long (5191 chars)
+- Missing category
+
+Post: 5 Strong Massive Benefits of Microlearning for Employee Training (/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/)
+- Missing aiSummary
+- Excerpt too long (7153 chars)
+- Missing category
+
+Post: Strong Best Microlearning Platforms for Thrilling Professionals in the US (/blog/strong-best-microlearning-platforms-for-thrilling-professionals-in-the-us/)
+- Missing aiSummary
+- Excerpt too long (7009 chars)
+- Missing category
+- Missing main image alt text
+
+Post: In-House vs Outsourcing eLearning Development: Which Is Really Better? (/blog/in-house-vs-outsourcing-elearning-development-which-is-really-better/)
+- Missing aiSummary
+- Missing category
+
+Post: Complete eLearning Pricing and Course Creation Guide for Moodle (/blog/complete-elearning-pricing-and-course-creation-guide-for-moodle/)
+- Missing aiSummary
+- Excerpt too long (2946 chars)
+- Missing category
+
+Post: 2026 Best Non-Technical SCORM Course Creation Tools: Easy No-Code Guide (/blog/2026-best-non-technical-scorm-course-creation-tools-easy-guide/)
+- Missing aiSummary
+- Excerpt too long (3897 chars)
+- Missing category
+
+Post: How to Use Teachable?(Step-by-Step Guide for Beginners) (/blog/how-to-use-teachablestep-by-step-guide-for-beginners/)
+- Missing aiSummary
+- Excerpt too long (7078 chars)
+- Missing category
+- Missing main image alt text
+
+Post: LMS Migration Checklist: Simple Steps for a Smooth Switch (/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/)
+- Missing aiSummary
+- Excerpt too long (6279 chars)
+- Missing category
+
+Post: Udemy vs Teachable: The Ultimate Guide for Course Creators in 2026 (/blog/udemy-vs-teachable-guide-for-course-creators/)
+- Missing aiSummary
+- Excerpt too long (3233 chars)
+- Missing category
+
+Post: Is a Skool Community Actually Worth Creating in 2026? (/blog/is-a-skool-community-actually-worth-creating-in-2026/)
+- Missing aiSummary
+- Excerpt too long (3522 chars)
+- Missing category
+
+Post: Kajabi vs Teachable: Which One is better for Your Business? (/blog/kajabi-vs-teachable-which-one-is-better-for-your-business/)
+- Missing aiSummary
+- Excerpt too long (6752 chars)
+- Missing category
+
+Post: How to Use AI Tools for Course Design Without Losing Quality: 2026 Guide (/blog/how-to-use-ai-tools-for-course-design-without-losing-quality-in-2026/)
+- Missing aiSummary
+- Excerpt too long (4381 chars)
+- Missing category
+
+Post: 9 Best Online Learning Platforms (Tried and Tested 2026) (/blog/9-best-online-learning-platforms-tried-and-tested-2026/)
+- Missing aiSummary
+- Excerpt too long (7057 chars)
+- Missing category
+
+Post: Easy LMS Migration: Best Practices for Moving Data Safely (/blog/easy-lms-migration-best-practices-for-moving-data-safely/)
+- Missing aiSummary
+- Excerpt too long (6072 chars)
+- Missing category
+
+Post: Is Podia worth the Money? Discover its strong features (/blog/is-podia-worth-the-money-discover-its-strong-features/)
+- Missing aiSummary
+- Excerpt too long (7283 chars)
+- Missing category
+
+Post: The Ultimate LMS Migration Timeline for a Smooth Platform Transition (/blog/the-ultimate-lms-migration-timeline-for-a-smooth-platform-transition/)
+- Missing aiSummary
+- Excerpt too long (5926 chars)
+- Missing category
+
+Post: Is Synthesia Worth It In 2026: ROI, Costs & Genuine Verdict (/blog/is-synthesia-worth-it-in-2026/)
+- Missing aiSummary
+- Excerpt too long (6719 chars)
+- Missing category
+
+Post: Moodle: eLearning With The Best Online Learning Management System (/blog/moodle-elearning-with-the-best-online-learning-management-system/)
+- Missing aiSummary
+- Missing category
+
+Post: LMS Migration Cost Guide for Enterprises: Budget Planning Made Simple (/blog/lms-migration-cost-guide-for-enterprises-budget-planning-made-simple/)
+- Missing aiSummary
+- Excerpt too long (6038 chars)
+- Missing category
+
+Post: Can Synthesia Replace Your Video Production Team in 2026? Ultimate Guide (/blog/can-synthesia-replace-your-video-production-team-in-2026/)
+- Missing aiSummary
+- Excerpt too long (7411 chars)
+- Missing category
+
+Post: LifterLMS: Is It Still the Best WordPress LMS ? (/blog/lifterlms-is-it-still-the-best-wordpress-lms/)
+- Missing aiSummary
+- Excerpt too long (7295 chars)
+- Missing category
+
+Post: Skool Community vs Facebook Groups for Course Creators: The Best Choice in 2026 (/blog/skool-community-vs-facebook-for-course-creators-the-best-choice/)
+- Missing aiSummary
+- Excerpt too long (6603 chars)
+- Missing category
+
+Post: Zero Downtime LMS Migration: The Ultimate Guide to No-Disruption Transition (/blog/zero-downtime-lms-migration-the-ultimate-guide-to-no-disruption-transition/)
+- Missing aiSummary
+- Excerpt too long (5694 chars)
+- Missing category
+
+Post: LMS Integration: The Most Important Systems to Connect to Your LMS (/blog/lms-integration-the-most-important-systems-to-connect-to-your-lms/)
+- Missing aiSummary
+- Excerpt too long (6018 chars)
+- Missing category
+
+Post: Is Adobe Captivate Worth the Cost? Full Pricing & Alternatives Breakdown (/blog/is-adobe-captivate-worth-the-cost/)
+- Missing aiSummary
+- Excerpt too long (6421 chars)
+- Missing category
+
+Post: Discover Kajabi: The Most Popular Platform of eLearning world (/blog/discover-kajabi-the-most-popular-platform-of-elearning-world/)
+- Missing aiSummary
+- Missing category
+
+Post: 7 Powerful Kajabi Course Creation Services That Skyrocket Sales (/blog/7-powerful-kajabi-course-creation-services/)
+- Missing aiSummary
+- Excerpt too long (7472 chars)
+- Missing category
+
+Post: Kajabi: How to Set Up a Strong Online Course? (/blog/kajabi-online-course-setup/)
+- Missing aiSummary
+- Missing category
+
+Post: Master Kajabi Course Design With These Simple Steps (/blog/kajabi-course-design/)
+- Missing aiSummary
+- Excerpt too long (6672 chars)
+- Missing category
+
+Post: Kajabi Membership Sites: What Are the Best Practices? (/blog/kajabi-membership-sites-development/)
+- Missing aiSummary
+- Missing category
+
+Post: Quick Tips for Setting Up Kajabi Coaching Program (/blog/kajabi-coaching-program-setup/)
+- Missing aiSummary
+- Excerpt too long (6458 chars)
+- Missing category
+
+Post: How to Create Digital Products with Kajabi? (/blog/kajabi-digital-product-creation/)
+- Missing aiSummary
+- Missing category
+
+Post: What Are the Best Practices for Kajabi Drip Course Setup? (/blog/kajabi-drip-course-setup/)
+- Missing aiSummary
+- Excerpt too long (4239 chars)
+- Missing category
+
+Post: 7 Common Mistakes In Kajabi Course Uploading To Avoid (/blog/kajabi-course-upload-services/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Create a Portal in Kajabi Training Platform (/blog/how-to-create-a-kajabi-training-platform/)
+- Missing aiSummary
+- Excerpt too long (5877 chars)
+- Missing category
+
+Post: Best Free and Paid Kajabi Course Templates & Themes for 2026 (/blog/kajabi-course-templates/)
+- Missing aiSummary
+- Excerpt too long (6044 chars)
+- Missing category
+
+Post: Best Kajabi Website and Funnel Setup Services for 2026 Growth (/blog/kajabi-website-funnel-services/)
+- Missing aiSummary
+- Excerpt too long (7091 chars)
+- Missing category
+
+Post: A Step-by-Step Guide to Finding the Best Kajabi Design Services (/blog/kajabi-website-design-services/)
+- Missing aiSummary
+- Excerpt too long (5463 chars)
+- Missing category
+
+Post: The Future Of Sales With Kajabi Funnels: Leveraging Kajabi For Growth (/blog/kajabi-sales-funnel-setup/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Optimize Your Kajabi Landing Page for Conversions? (/blog/kajabi-landing-page-design/)
+- Missing aiSummary
+- Excerpt too long (6773 chars)
+- Missing category
+
+Post: How to Maximize Your Sales with the Kajabi Funnel Builder (/blog/kajabi-funnel-builder/)
+- Missing aiSummary
+- Excerpt too long (6206 chars)
+- Missing category
+
+Post: How to Build a Kajabi Webinar Funnel (Step-by-Step Guide for 2026) (/blog/kajabi-webinar-funnel/)
+- Missing aiSummary
+- Missing category
+
+Post: Is Teachable the best platform for offering online courses? (/blog/is-teachable-the-best-platform-for-offering-online-courses/)
+- Missing aiSummary
+- Missing category
+
+Post: Microlearning: The Ultimate Guide of TheEduAssist (/blog/microlearning-the-ultimate-guide-of-theeduassist/)
+- Missing aiSummary
+- Excerpt too long (6783 chars)
+- Missing category
+
+Post: Kajabi Sales Funnel Setup: 5 Proven Ways to Grow Enrollments (/blog/kajabi-sales-funnel-setup-5-proven-ways-to-grow-enrollments/)
+- Missing aiSummary
+- Excerpt too long (6015 chars)
+- Missing category
+
+Post: How Can Corporate Training Actually Improve Employee Engagement? (/blog/how-can-corporate-training-actually-improve-employee-engagement/)
+- Missing aiSummary
+- Excerpt too long (6065 chars)
+- Missing category
+
+Post: Kajabi Email Marketing Funnels For Better Course Sales (/blog/kajabi-email-marketing-funnels/)
+- Missing aiSummary
+- Excerpt too long (4778 chars)
+- Missing category
+
+Post: How to Optimize Your Kajabi Checkout Page: 7 Strategies That Boost Sales Fast (/blog/kajabi-checkout-page-optimization/)
+- Missing aiSummary
+- Excerpt too long (6568 chars)
+- Missing category
+
+Post: Why You Should Switch to Kajabi: The Ultimate Website Migration Guide (/blog/why-you-should-switch-to-kajabi-the-ultimate-website-migration-guide/)
+- Missing aiSummary
+- Excerpt too long (5564 chars)
+- Missing category
+
+Post: Employee Development Programs for Better ROI & Growth (/blog/employee-development-programs/)
+- Missing aiSummary
+- Excerpt too long (6277 chars)
+- Missing category
+
+Post: Best Kajabi Website Templates for Online Businesses in 2026 (/blog/best-kajabi-website-templates/)
+- Missing aiSummary
+- Excerpt too long (7562 chars)
+- Missing category
+
+Post: Kajabi Lead Generation Funnels That Convert Better (/blog/kajabi-lead-generation-funnels/)
+- Missing aiSummary
+- Excerpt too long (6134 chars)
+- Missing category
+
+Post: How to Build a LifterLMS Employee Training Portal (/blog/how-to-build-a-lifterlms-employee-training-portal/)
+- Missing aiSummary
+- Excerpt too long (6399 chars)
+- Missing category
+
+Post: How to Run Kajabi Email Campaigns Successfully (/blog/how-to-run-kajabi-email-campaigns-successfully/)
+- Missing aiSummary
+- Excerpt too long (307 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Kajabi Automation Workflows: How to Scale Smarter and Sell More Courses in 2026 (/blog/kajabi-automation-workflows/)
+- Missing aiSummary
+- Excerpt too long (304 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Kajabi vs ClickFunnels: The Best Platform for Creators in 2026 (/blog/kajabi-vs-clickfunnels/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: How to find the best Kajabi marketing pros? (/blog/kajabi-marketing-services/)
+- Missing aiSummary
+- Missing category
+
+Post: Best ways to link your CRM to Kajabi right now (/blog/kajabi-crm-integration/)
+- Missing aiSummary
+- Excerpt too long (5829 chars)
+- Missing category
+
+Post: Increase Online Course Traffic with the Best Kajabi SEO Services (/blog/increase-online-course-traffic-with-the-best-kajabi-seo-services/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: Corporate Training Simulations For Better Employee Training (/blog/corporate-training-simulations/)
+- Missing aiSummary
+- Excerpt too long (6540 chars)
+- Missing category
+
+Post: Is Podia Good for Beginners Starting an Online Business: Assessing Ease of Use for New Users (/blog/is-podia-good-for-beginners/)
+- Missing aiSummary
+- Excerpt too long (7158 chars)
+- Missing category
+
+Post: Make More Money While you sleep with Kajabi Email Automation (/blog/make-more-money-while-you-sleep-with-kajabi-email-automation/)
+- Missing aiSummary
+- Excerpt too long (6493 chars)
+- Missing category
+
+Post: AI vs. Traditional Instructional Design: Which Delivers Better Learning Outcomes? (/blog/blog-ai-vs-traditional-instructional-design/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: Podia vs Teachable: Which Platform Should You Choose in 2026? (/blog/podia-vs-teachable/)
+- Missing aiSummary
+- Excerpt too long (5133 chars)
+- Missing category
+
+Post: Which LMS plugin is better: LearnDash or LifterLMS? (/blog/which-lms-plugin-is-better-learndash-or-lifterlms/)
+- Missing aiSummary
+- Missing category
+
+Post: The easy guide to finding your first Kajabi affiliates (/blog/kajabi-affiliate-marketing-setup/)
+- Missing aiSummary
+- Excerpt too long (6023 chars)
+- Missing category
+
+Post: How to Choose the Right LMS for Your Organisation in 2026: (/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/)
+- Missing aiSummary
+- Excerpt too long (337 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Best Learning Management System (LMS) for 2026 (/blog/best-learning-management-system-lms-for-2026/)
+- Missing aiSummary
+- Excerpt too long (7471 chars)
+- Missing category
+- Contains private admin/sanity URLs
+
+Post: Is Absorb LMS right for small business?The strong EduAssist Guide (/blog/is-absorb-lms-right-for-small-businessthe-strong-eduassist-guide/)
+- Missing aiSummary
+- Excerpt too long (7020 chars)
+- Missing category
+
+Post: How to Build a Future-Proof AI Upskilling Strategy In 2026 (/blog/ai-upskilling-strategy/)
+- Missing aiSummary
+- Excerpt too long (6002 chars)
+- Missing category
+
+Post: How to Use Kajabi Gamification in 2026: Boost Learner Motivation and Community Engagement Fast (/blog/how-to-use-kajabi-gamification-in-2026/)
+- Missing aiSummary
+- Excerpt too long (6535 chars)
+- Missing category
+
+Post: How to Create Online Courses with LifterLMS (/blog/how-to-create-online-courses-with-lifterlms/)
+- Missing aiSummary
+- Excerpt too long (6065 chars)
+- Missing category
+
+Post: Can AR and VR Really Improve Learning Outcomes? (/blog/can-ar-and-vr-really-improve-learning-outcomes/)
+- Missing aiSummary
+- Missing category
+
+Post: AI-Powered Learning: A Smarter Way to Train and Upskill Employees (/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/)
+- Missing aiSummary
+- Excerpt too long (306 chars)
+- Missing category
+- Missing main image alt text
+
+Post: Instructional Designer vs Developer: The Best Choice for Your Course (/blog/instructional-designer-vs-developer/)
+- Missing aiSummary
+- Excerpt too long (6035 chars)
+- Missing category
+
+Post: The Simple Way to Automate Your Sales With Kajabi Pipelines (/blog/kajabi-pipeline-setup/)
+- Missing aiSummary
+- Missing category
+
+Post: Kajabi Email Strategy: How to Use Broadcasts and Sequences Effectively (/blog/kajabi-email-strategy-how-to-use-broadcasts-and-sequences-effectively/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: How to launch your Kajabi course without the Stress (/blog/kajabi-launch-strategy/)
+- Missing aiSummary
+- Excerpt too long (6303 chars)
+- Missing category
+
+Post: Kajabi Templates Explained: Types, Benefits, Uses, and How to Choose the Right One (/blog/kajabi-templates/)
+- Missing aiSummary
+- Excerpt too long (6417 chars)
+- Missing category
+
+Post: Kajabi Sales Automation: Why Your Sales Funnel Is Broken and How to Fix It? (/blog/kajabi-sales-automation-why-your-sales-funnel-is-broken-and-how-to-fix-it/)
+- Missing aiSummary
+- Excerpt too long (6110 chars)
+- Missing category
+
+Post: Is It Worth Hiring an In-House Instructional Designer for Your Company? (/blog/is-it-worth-hiring-an-in-house-instructional-designer/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Build a Corporate eLearning Program on a Budget: A Complete 2026 Guide (/blog/how-to-build-a-corporate-elearning-program-on-a-budget-a-complete-2026-guide/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: How to Convert Legacy Training Content to Modern eLearning (/blog/how-to-convert-legacy-training-content-to-modern-elearning/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: Kajabi CRM: How to Manage Leads and Students in One Place (/blog/kajabi-crm-how-to-manage-leads-and-students-in-one-place/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: xAPI vs SCORM: Everything You Need to Know Before Choosing an LMS in 2026 (/blog/xapi-vs-scorm-best-lms-in-2026/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: How to Create a SCORM Course Without Coding (/blog/how-to-create-a-scorm-course-without-coding/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: Kajabi Blogging Strategy: A Complete Guide for Course Creators (/blog/kajabi-blogging-strategy/)
+- Missing aiSummary
+- Excerpt too long (6100 chars)
+- Missing category
+
+Post: Kajabi AI Features in 2026: What’s New and How They Improve Course Creation (/blog/kajabi-ai-features-in-2026/)
+- Missing aiSummary
+- Missing category
+
+Post: Model Context Protocol (MCP) for LMS: Everything You Need to Know (/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: xAPI Learning Record Store (LRS): Everything You Need to Know in 2026 (/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: How to Master LMS VR Integration: A Proven Roadmap (/blog/lms-vr-integration/)
+- Missing aiSummary
+- Excerpt too long (5816 chars)
+- Missing category
+
+Post: The Ultimate Guide to AR and VR in Online Learning in 2026 (/blog/the-ultimate-guide-to-ar-and-vr-in-online-learning-in-2026/)
+- Missing aiSummary
+- Excerpt too long (6422 chars)
+- Missing category
+
+Post: Corporate Training ROI Calculator: How to Measure Learning Effectiveness (/blog/corporate-training-roi-calculator-measuring-learning-effectiveness/)
+- Missing aiSummary
+- Missing category
+
+Post: LearnDash vs Kajabi: Which Platform Should You Choose? (/blog/learndash-vs-kajabi/)
+- Missing aiSummary
+- Missing category
+
+Post: ADA and WCAG Compliance for eLearning: A Simple Self-Audit Checklist (/blog/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/)
+- Missing aiSummary
+- Missing category
+
+Post: VR Training Costs: The Complete Guide for L&D Teams (/blog/vr-training-costs/)
+- Missing aiSummary
+- Excerpt too long (5794 chars)
+- Missing category
+
+Post: 7 Powerful Reasons Why Microlearning Is the Future of Employee Training (/blog/7-powerful-reasons-why-microlearning-is-the-future-of-employee-training/)
+- Missing aiSummary
+- Excerpt too long (6117 chars)
+- Missing category
+
+Post: How to Master Kajabi Keyword Research for Higher Rankings (/blog/kajabi-keyword-research/)
+- Missing aiSummary
+- Excerpt too long (6009 chars)
+- Missing category
+
+Post: Choosing Between an LXP and LMS: Everything You Need to Know (/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Migrate to a New LMS: A Complete Checklist for 2026 (/blog/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: How to Migrate Teachable to LearnDash: A Step-by-Step Guide (/blog/migrate-teachable-to-learndash/)
+- Missing aiSummary
+- Excerpt too long (6346 chars)
+- Missing category
+
+Post: How to Grow Organic Traffic on Kajabi? (/blog/kajabi-organic-traffic-growth/)
+- Missing aiSummary
+- Missing category
+
+Post: Kajabi Membership Site: 7 Steps to Launch a Successful Membership (/blog/kajabi-membership-site-7-steps-to-launch-a-successful-membership/)
+- Missing aiSummary
+- Missing category
+
+Post: Off-the-Shelf eLearning: Is It Right for Your Company? (/blog/off-the-shelf-elearning-is-it-right-for-your-company/)
+- Missing aiSummary
+- Excerpt too long (7932 chars)
+- Missing category
+
+Post: Kajabi Analytics: The Complete Guide to Tracking Course Performance in 2026 (/blog/kajabi-analytics-the-complete-guide-to-tracking-course-performance-in-2026/)
+- Missing aiSummary
+- Missing category
+
+Post: How to Use LearnDash SCORM for Enterprise Tracking (/blog/learndash-scorm-for-enterprise-tracking/)
+- Missing aiSummary
+- Excerpt too long (5701 chars)
+- Missing category
+
+Post: AI in eLearning: The Complete Guide to Smarter Digital Learning (/blog/ai-in-elearning-the-complete-guide-to-smarter-digital-learning/)
+- Missing aiSummary
+- Excerpt too long (6440 chars)
+- Missing category
+
+Post: LMS Integration: How to Connect HRIS, CRM, Slack & Teams (/blog/lms-integration-guide-hris-crm-collaboration-tools/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: LMS User Adoption: 15 Proven Ways to Increase Employee Engagement (/blog/lms-user-adoption-15-proven-ways-to-increase-employee-engagement/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+Post: Proven Kajabi Conversion Optimization Best Practices (/blog/kajabi-conversion-optimization/)
+- Missing aiSummary
+- Excerpt too long (6551 chars)
+- Missing category
+
+Post: LMS vs LXP: A Complete Comparison for L&D Professionals (/blog/lms-vs-lxp-a-complete-comparison-for-ld-professionals/)
+- Missing aiSummary
+- Missing category
+
+Post: Best Teachable Alternatives: Compare the Top LMS Platforms (2026) (/blog/teachable-alternatives/)
+- Missing aiSummary
+- Excerpt too long (6483 chars)
+- Missing category
+
+Post: Skills-Based Learning or Traditional Training? Which Works Better? (/blog/skills-based-learning-or-traditional-training/)
+- Missing aiSummary
+- Missing category
+- Missing main image alt text
+
+
+Summary of Issues across Published Posts:
+- Missing AI Summary: 294
+- Missing Main Image Alt: 46
+- Missing Category: 294
+- Missing Author: 1
+- Contains Private URLs: 2
+- Duplicate H1s in Body: 0
+- Thin Content (<300 words): 1
