@@ -1,0 +1,77 @@
+---
+interface Props {
+  regionData: any;
+  countries: any[];
+}
+
+const { regionData, countries } = Astro.props;
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+  <div class="mb-12 border-b pb-8">
+    <h1 class="text-4xl md:text-5xl font-bold text-brand-navy mb-6">{regionData.name} E-Learning Services</h1>
+    <p class="text-xl text-slate-600 leading-relaxed max-w-4xl">{regionData.intro}</p>
+  </div>
+
+  <!-- Quick Answer -->
+  {regionData.quickAnswer && (
+    <div class="bg-brand-softBg border border-brand-accent/20 rounded-xl p-8 mb-16 shadow-sm">
+      <h2 class="text-2xl font-bold text-brand-navy mb-4">Quick Answer</h2>
+      <p class="text-slate-700">{regionData.quickAnswer}</p>
+    </div>
+  )}
+
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16">
+    <div class="lg:col-span-2">
+        <h2 class="text-2xl font-bold text-brand-navy mb-6">Regional E-Learning Trends</h2>
+        <div class="prose max-w-none text-slate-700">
+            <p class="mb-4"><strong>Common Training Needs:</strong> {regionData.commonNeeds}</p>
+            <p class="mb-4"><strong>Popular Platforms:</strong> {regionData.platforms.join(', ')}</p>
+            <p><strong>Top Services:</strong> {regionData.popularServices.join(', ')}</p>
+        </div>
+    </div>
+    <div class="bg-slate-50 p-8 rounded-xl border border-slate-100">
+        <h3 class="text-xl font-bold text-brand-navy mb-4">Start Your Project</h3>
+        <p class="text-slate-600 mb-6 text-sm">Get expert advice tailored to your region's needs.</p>
+        <a href={regionData.ctaPrimary?.link || "/book-free-audit/"} class="block w-full text-center bg-brand-accent text-white font-bold py-3 px-4 rounded hover:bg-brand-primary transition-colors">
+          {regionData.ctaPrimary?.text || "Get 24-48 Hour Review"}
+        </a>
+    </div>
+  </div>
+
+  <div class="mb-16">
+    <h2 class="text-2xl font-bold text-brand-navy mb-8">Countries in {regionData.name}</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {countries.map(c => (
+          <a href={`/locations/${c.slug}/`} class="p-4 bg-white border border-slate-200 rounded hover:border-brand-accent text-center font-medium text-slate-700 hover:text-brand-primary transition-colors">
+            {c.name}
+          </a>
+        ))}
+    </div>
+  </div>
+
+  <div class="mb-16">
+    <h2 class="text-3xl font-bold text-brand-navy mb-8">Related Services</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <a href="/services/" class="block text-brand-primary hover:text-brand-accent font-medium bg-white p-4 rounded border border-slate-200 shadow-sm">Custom E-Learning</a>
+      <a href="/services/lms-implementation-migration/" class="block text-brand-primary hover:text-brand-accent font-medium bg-white p-4 rounded border border-slate-200 shadow-sm">LMS Implementation</a>
+      <a href="/kajabi-services/" class="block text-brand-primary hover:text-brand-accent font-medium bg-white p-4 rounded border border-slate-200 shadow-sm">Kajabi Setup</a>
+    </div>
+  </div>
+
+  <!-- FAQs -->
+  {regionData.faqQuestions && regionData.faqQuestions.length > 0 && (
+    <div class="mb-20">
+      <h2 class="text-3xl font-bold text-brand-navy mb-8 border-b pb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        {regionData.faqQuestions.map(faq => (
+          <div class="bg-white border border-slate-200 p-6 rounded-lg shadow-sm">
+            <h3 class="text-xl font-bold text-brand-primary mb-3">{faq.q}</h3>
+            <p class="text-slate-700 leading-relaxed">{faq.a}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+
+</div>
