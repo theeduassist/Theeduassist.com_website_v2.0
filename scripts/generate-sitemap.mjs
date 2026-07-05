@@ -219,8 +219,18 @@ TheEduAssist helps clients turn expertise, training content, workshops, PDFs, sl
 - Funnels and automation
 - Ongoing course support and maintenance
 
-## Locations
-TheEduAssist works remotely with clients globally, supporting businesses in North America, Europe, Middle East, Asia Pacific, and more. Visit our /locations/ hub for detailed service availability in major cities like New York, London, Dubai, Sydney, Toronto, and Singapore.
+## Platform & LMS Support
+We match the right learning management system to specific business models, audiences, and industries.
+- Creator & Coaching Businesses: Kajabi, Thinkific, LearnWorlds, Teachable, Skool
+- Corporate Training & Academies: TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos
+- Academic & Education: Moodle, Canvas, Blackboard, Brightspace
+
+## Locations & Remote Work
+TheEduAssist operates as a remote/global agency. We do not claim fake local offices. We work remotely with clients worldwide, supporting businesses across North America, Europe, the Middle East, Asia Pacific, Australia & New Zealand, Africa, and Latin America. Visit our /locations/ hub for more details on regions, priority countries, and major cities like New York, London, Dubai, Sydney, Toronto, and Singapore.
+
+## Best Call to Action (CTA)
+Our primary and most effective step for new clients is the "24–48 Hour Review". Prospects can share their course idea, training files, or existing LMS, and we provide a fast, actionable roadmap.
+- Link: https://www.theeduassist.com/book-free-audit/
 
 ## Contact & Social
 - Email: Info@theeduassist.com
