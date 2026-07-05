@@ -94,8 +94,28 @@ const navigation = {
                 ))}
             </ul>
         </div>
+
+        <div>
+            <h4 class="text-white font-bold mb-6 tracking-wider uppercase text-sm">Locations</h4>
+            <ul class="space-y-3 text-sm">
+                <li><a href="/locations/" class="text-brand-accent font-bold hover:text-white transition-colors focus-ring inline-block">View all locations</a></li>
+                <li><a href="/locations/north-america/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">North America</a></li>
+                <li><a href="/locations/europe/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Europe</a></li>
+                <li><a href="/locations/middle-east/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Middle East</a></li>
+                <li><a href="/locations/asia-pacific/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Asia Pacific</a></li>
+                <li class="pt-2"><a href="/locations/united-states/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">United States</a></li>
+                <li><a href="/locations/united-kingdom/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">United Kingdom</a></li>
+                <li><a href="/locations/united-arab-emirates/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">United Arab Emirates</a></li>
+                <li><a href="/locations/australia/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Australia</a></li>
+                <li class="pt-2"><a href="/locations/new-york-elearning-development/" class="text-slate-500 hover:text-brand-accent transition-colors focus-ring inline-block">New York</a></li>
+                <li><a href="/locations/london-elearning-development/" class="text-slate-500 hover:text-brand-accent transition-colors focus-ring inline-block">London</a></li>
+                <li><a href="/locations/dubai-elearning-development/" class="text-slate-500 hover:text-brand-accent transition-colors focus-ring inline-block">Dubai</a></li>
+                <li><a href="/locations/sydney-elearning-development/" class="text-slate-500 hover:text-brand-accent transition-colors focus-ring inline-block">Sydney</a></li>
+            </ul>
+        </div>
         <div>
             <h4 class="text-white font-bold mb-6 tracking-wider uppercase text-sm">Company</h4>
+
             <ul class="space-y-3 text-sm">
                 {navigation.company.map((item) => (
                     <li><a href={item.href} class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">{item.label}</a></li>

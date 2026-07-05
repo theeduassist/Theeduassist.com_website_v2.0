@@ -6,6 +6,7 @@ export const navigation = {
     { label: 'Kajabi Services', href: '/kajabi-services/' },
     { label: 'Case Studies', href: '/case-studies/' },
     { label: 'Pricing', href: '/pricing/' },
+    { label: 'Locations', href: '/locations/' },
     { label: 'Blog', href: '/blog/' },
     { label: 'About', href: '/about/' },
   ],

@@ -150,42 +150,8 @@ async function generateSitemap() {
     console.warn("Warning: Exception occurred while fetching Sanity blog posts for sitemap. Falling back to core URLs only.", err);
   }
 
-  // Format core urls
-  const coreUrlXml = coreUrls.map(url => {
-    let priority = '0.7';
-    let changefreq = 'monthly';
 
-    if (url === 'https://www.theeduassist.com/') {
-      priority = '1.0';
-      changefreq = 'weekly';
-    } else if (url.includes('/services/') || url.includes('/kajabi-services/') || url.includes('/pricing/') || url.includes('/book-free-audit/')) {
-      priority = '0.9';
-    } else if (url.includes('/platforms/') || url.includes('/case-studies/') || url.endsWith('/blog/')) {
-      priority = '0.8';
-      changefreq = 'weekly'; // blog index updates frequently
-    } else if (url.includes('/about/') || url.includes('/contact/')) {
-      priority = '0.6';
-    } else if (url.includes('-policy') || url.includes('terms-')) {
-      priority = '0.3';
-      changefreq = 'yearly';
-    } else if (url.includes('/news/') || url.includes('/press-releases/') || url.includes('/brand-assets/')) {
-      priority = '0.4';
-    }
 
-    return generateUrlXml(url, '', priority, changefreq);
-  });
-
-  // Combine, deduplicate, write
-  const allXmlBlocks = [...coreUrlXml, ...blogUrls];
-  // naive deduplication by url string content inside <loc>
-  const uniqueXmlBlocks = Array.from(new Set(allXmlBlocks));
-
-  const xmlContent = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${uniqueXmlBlocks.join('\n')}
-</urlset>`;
-
-  fs.writeFileSync(path.join(process.cwd(), 'public', 'sitemap.xml'), xmlContent);
 
 
   // Combine all clean routes for llms.txt
@@ -207,6 +173,35 @@ ${uniqueXmlBlocks.join('\n')}
 
   blogUrlsForLlms.forEach(url => llmsUrls.push(url));
 
+  // Add tier 1 and indexable tier 2 locations to sitemap
+  try {
+    const locationsData = JSON.parse(fs.readFileSync('src/data/locations.json', 'utf8'));
+
+    locationsData.regions.forEach(r => {
+      const fullUrl = `https://www.theeduassist.com/locations/${r.slug}/`;
+      coreUrls.push(fullUrl);
+      llmsUrls.push(fullUrl);
+    });
+
+    locationsData.countries.forEach(c => {
+      const fullUrl = `https://www.theeduassist.com/locations/${c.slug}/`;
+      coreUrls.push(fullUrl);
+      llmsUrls.push(fullUrl);
+    });
+
+    locationsData.cities.forEach(c => {
+      if (c.indexStatus === 'index') {
+        const fullUrl = `https://www.theeduassist.com/locations/${c.slug}/`;
+        coreUrls.push(fullUrl);
+        llmsUrls.push(fullUrl);
+      }
+    });
+
+  } catch(e) {
+    console.error("Error reading locations.json for sitemap generation", e);
+  }
+
+
   const staticLlmsIntro = `# TheEduAssist
 
 > E-learning design and course-building agency for creators, educators, coaches, consultants, training businesses, online academies, and companies.
@@ -224,6 +219,9 @@ TheEduAssist helps clients turn expertise, training content, workshops, PDFs, sl
 - Funnels and automation
 - Ongoing course support and maintenance
 
+## Locations
+TheEduAssist works remotely with clients globally, supporting businesses in North America, Europe, Middle East, Asia Pacific, and more. Visit our /locations/ hub for detailed service availability in major cities like New York, London, Dubai, Sydney, Toronto, and Singapore.
+
 ## Contact & Social
 - Email: Info@theeduassist.com
 - Facebook: https://www.facebook.com/people/Theeduassist/61576126813447/
@@ -238,6 +236,45 @@ TheEduAssist helps clients turn expertise, training content, workshops, PDFs, sl
   fs.writeFileSync(path.join(process.cwd(), 'public', 'llms-full.txt'), llmsContent);
 
 
+
+
+  // Format core urls NOW
+  const coreUrlXml = coreUrls.map(url => {
+    let priority = '0.7';
+    let changefreq = 'monthly';
+
+    if (url === 'https://www.theeduassist.com/') {
+      priority = '1.0';
+      changefreq = 'weekly';
+    } else if (url.includes('/services/') || url.includes('/kajabi-services/') || url.includes('/pricing/') || url.includes('/book-free-audit/')) {
+      priority = '0.9';
+    } else if (url.includes('/platforms/') || url.includes('/case-studies/') || url.endsWith('/blog/')) {
+      priority = '0.8';
+      changefreq = 'weekly';
+    } else if (url.includes('/about/') || url.includes('/contact/')) {
+      priority = '0.6';
+    } else if (url.includes('-policy') || url.includes('terms-')) {
+      priority = '0.3';
+      changefreq = 'yearly';
+    } else if (url.includes('/news/') || url.includes('/press-releases/') || url.includes('/brand-assets/')) {
+      priority = '0.4';
+    } else if (url.includes('/locations/')) {
+      priority = '0.6';
+    }
+
+    return generateUrlXml(url, '', priority, changefreq);
+  });
+
+  // Combine, deduplicate, write
+  const allXmlBlocks = [...coreUrlXml, ...blogUrls];
+  const uniqueXmlBlocks = Array.from(new Set(allXmlBlocks));
+
+  const xmlContent = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${uniqueXmlBlocks.join('\n')}
+</urlset>`;
+
+  fs.writeFileSync(path.join(process.cwd(), 'public', 'sitemap.xml'), xmlContent);
 
   console.log(`Sitemap generated with ${coreUrlXml.length} core URLs and ${blogUrls.length} blog URLs (${excludedCount} blog posts excluded).`);
 }
