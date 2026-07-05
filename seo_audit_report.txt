@@ -6,9 +6,9 @@ PASS: No important public pages are blocked in robots.txt.
 PASS: Private routes are blocked in robots.txt.
 
 --- INDEX/NOINDEX LOGIC ---
-Total Indexable Cities: 50
-Total Noindex Cities: 450
-WARNING: The following cities are marked 'index' but lack sufficient content (e.g., < 10 FAQs): New York, London, Dubai, Sydney, Toronto, Singapore, Riyadh, Los Angeles, Chicago, Melbourne, San Francisco, Miami, Atlanta, Dallas, Houston, Boston, Seattle, Vancouver, Montreal, Brisbane, Perth, Auckland, Doha, Abu Dhabi, Jeddah, Karachi, Lahore, Islamabad, Mumbai, Bengaluru, New Delhi, Berlin, Munich, Frankfurt, Paris, Lyon, Amsterdam, Rotterdam, Dublin, Johannesburg, Cape Town, Kuala Lumpur, Bangkok, Tokyo, Seoul, Hong Kong, Manila, Jakarta, Mexico City, São Paulo
+Total Indexable Cities: 29
+Total Noindex Cities: 473
+WARNING: The following cities are marked 'index' but lack sufficient content (e.g., < 10 FAQs): New York, London, Dubai, Sydney, Toronto, Singapore, Riyadh, Los Angeles, Chicago, Melbourne, San Francisco, Vancouver, Doha, Abu Dhabi, Jeddah, Karachi, Lahore, Islamabad, Mumbai, Bengaluru, Berlin, Paris, Amsterdam, Dublin, Johannesburg, Cape Town, Kuala Lumpur, Manchester, Zurich
 
 --- SITEMAP LOGIC ---
 PASS: Sitemap logic appears to exclude noindex.

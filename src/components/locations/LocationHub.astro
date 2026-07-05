@@ -1,0 +1,115 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  regions: any[];
+  countries: any[];
+  cities: any[];
+}
+
+const { regions, countries, cities } = Astro.props;
+const topCities = cities.filter(c => c.priorityTier === 1);
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+  <div class="text-center mb-16">
+    <h1 class="text-4xl md:text-5xl font-bold text-brand-navy mb-6">Global E-Learning Development Services</h1>
+    <p class="text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
+      TheEduAssist partners with clients worldwide to design, structure, and build online learning systems. Select your region below to learn more about our remote services in your area.
+    </p>
+  </div>
+
+  <div class="bg-brand-softBg border border-brand-accent/20 rounded-xl p-8 mb-16 shadow-sm">
+    <h2 class="text-2xl font-bold text-brand-navy mb-4">Quick Answer</h2>
+    <p class="text-slate-700">TheEduAssist is a global remote e-learning agency. We work with clients around the world to build online courses, Kajabi sites, and corporate LMS programs. We don't have local physical offices in every city; instead, we collaborate smoothly across time zones.</p>
+  </div>
+
+  <div class="mb-20">
+    <h2 class="text-3xl font-bold text-brand-navy mb-8 text-center border-b pb-4">Explore by Region</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {regions.map((region) => (
+        <a href={`/locations/${region.slug}/`} class="block group bg-white rounded-xl p-8 border border-slate-200 hover:border-brand-accent shadow-sm hover:shadow-md transition-all">
+          <h3 class="text-2xl font-bold text-brand-primary group-hover:text-brand-accent mb-4 transition-colors">{region.name}</h3>
+          <p class="text-slate-600 leading-relaxed mb-6">{region.intro}</p>
+          <span class="text-brand-accent font-medium inline-flex items-center group-hover:translate-x-1 transition-transform">
+            View Region
+            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+          </span>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <div class="mb-20">
+    <h2 class="text-3xl font-bold text-brand-navy mb-8 text-center border-b pb-4">Priority Countries</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      {countries.map((country) => (
+        <a href={`/locations/${country.slug}/`} class="text-center p-4 bg-slate-50 hover:bg-brand-softBg rounded-lg border border-slate-100 hover:border-brand-accent/30 transition-all font-medium text-slate-700 hover:text-brand-primary">
+          {country.name}
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <div class="mb-20">
+    <h2 class="text-3xl font-bold text-brand-navy mb-8 text-center border-b pb-4">Top Cities</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      {topCities.map((city) => (
+        <a href={`/locations/${city.slug}/`} class="text-center p-4 bg-slate-50 hover:bg-brand-softBg rounded-lg border border-slate-100 hover:border-brand-accent/30 transition-all text-sm font-medium text-slate-700 hover:text-brand-primary">
+          {city.cityName}
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- Service Summary -->
+  <div class="mb-20">
+    <h2 class="text-3xl font-bold text-brand-navy mb-8 text-center border-b pb-4">Our Services</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <a href="/services/" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-brand-accent transition-all text-center">
+        <h3 class="font-bold text-brand-primary mb-2">Course Creation</h3>
+      </a>
+      <a href="/kajabi-services/" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-brand-accent transition-all text-center">
+        <h3 class="font-bold text-brand-primary mb-2">Kajabi Setup</h3>
+      </a>
+      <a href="/services/lms-implementation-migration/" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-brand-accent transition-all text-center">
+        <h3 class="font-bold text-brand-primary mb-2">LMS Migration</h3>
+      </a>
+      <a href="/services/ai-powered-elearning/" class="block bg-white p-6 rounded-lg border border-slate-200 hover:border-brand-accent transition-all text-center">
+        <h3 class="font-bold text-brand-primary mb-2">AI E-Learning</h3>
+      </a>
+    </div>
+  </div>
+
+  <div class="mb-20">
+    <h2 class="text-3xl font-bold text-brand-navy mb-8 text-center border-b pb-4">Supported Platforms</h2>
+    <p class="text-center text-slate-600 mb-8 max-w-3xl mx-auto">We support a wide range of platforms across different use cases, including Kajabi, Thinkific, LearnWorlds, Docebo, TalentLMS, Moodle, Canvas, and Articulate 360.</p>
+  </div>
+
+  <div class="mb-20">
+    <h2 class="text-3xl font-bold text-brand-navy mb-8 text-center border-b pb-4">Frequently Asked Questions</h2>
+    <div class="space-y-4 max-w-4xl mx-auto">
+      <div class="bg-white border border-slate-200 p-6 rounded-lg">
+        <h3 class="font-bold text-brand-primary mb-2">Do you have local offices in these cities?</h3>
+        <p class="text-slate-600">No, TheEduAssist is a fully remote agency. We successfully partner with clients globally using asynchronous communication, strategic meetings, and robust project management.</p>
+      </div>
+      <div class="bg-white border border-slate-200 p-6 rounded-lg">
+        <h3 class="font-bold text-brand-primary mb-2">How do time zones work for remote collaboration?</h3>
+        <p class="text-slate-600">We align our project check-ins and communication to overlap with your suitable time zones, ensuring smooth progress whether you are in North America, Europe, the Middle East, or Asia Pacific.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-brand-navy rounded-2xl p-10 text-center shadow-lg relative overflow-hidden my-20">
+    <div class="relative z-10">
+      <h2 class="text-3xl font-bold text-white mb-4">Start Your Project Today</h2>
+      <p class="text-slate-300 mb-8 max-w-2xl mx-auto text-lg">
+        No matter where you are located, we can help you build your online course, Kajabi system, or LMS.
+      </p>
+      <a href="/book-free-audit/" class="inline-block bg-brand-accent hover:bg-white hover:text-brand-navy text-white font-bold py-3 px-8 rounded-lg transition-colors text-lg shadow-md">
+        Get a 24–48 Hour Review
+      </a>
+    </div>
+  </div>
+
+</div>

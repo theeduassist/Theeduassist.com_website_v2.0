@@ -2,23 +2,28 @@
 export const prerender = true;
 
 import Layout from '../../layouts/Layout.astro';
-import data from '../../data/locations.json';
+import { regions, countries } from '../../data/regionsAndCountries';
+import { cities } from '../../data/cities';
+
+import RegionTemplate from '../../components/locations/RegionTemplate.astro';
+import CountryTemplate from '../../components/locations/CountryTemplate.astro';
+import CityTemplate from '../../components/locations/CityTemplate.astro';
 
 export async function getStaticPaths() {
   const paths = [];
 
   // Regions
-  data.regions.forEach((region) => {
+  regions.forEach((region) => {
     paths.push({ params: { slug: region.slug }, props: { type: 'region', data: region } });
   });
 
   // Countries
-  data.countries.forEach((country) => {
+  countries.forEach((country) => {
     paths.push({ params: { slug: country.slug }, props: { type: 'country', data: country } });
   });
 
   // Cities
-  data.cities.forEach((city) => {
+  cities.forEach((city) => {
     paths.push({ params: { slug: city.slug }, props: { type: 'city', data: city } });
   });
 
@@ -26,12 +31,9 @@ export async function getStaticPaths() {
 }
 
 const { type, data: itemData } = Astro.props;
-const { cities, countries } = data;
 
-// Rendering logic based on type...
 let title = '';
 let description = '';
-let content = '';
 let schemas = [];
 
 if (type === 'region') {
@@ -51,77 +53,9 @@ if (type === 'region') {
       "name": c.name
     }))
   });
-
-  content = `
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <div class="mb-12 border-b pb-8">
-        <h1 class="text-4xl md:text-5xl font-bold text-brand-navy mb-6">${itemData.name} E-Learning Services</h1>
-        <p class="text-xl text-slate-600 leading-relaxed max-w-4xl">${itemData.intro}</p>
-      </div>
-
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16">
-        <div class="lg:col-span-2">
-            <h2 class="text-2xl font-bold text-brand-navy mb-6">Regional E-Learning Trends</h2>
-            <div class="prose max-w-none text-slate-700">
-                <p class="mb-4"><strong>Common Training Needs:</strong> ${itemData.commonNeeds}</p>
-                <p class="mb-4"><strong>Popular Platforms:</strong> ${itemData.platforms.join(', ')}</p>
-                <p><strong>Top Services:</strong> ${itemData.popularServices.join(', ')}</p>
-            </div>
-        </div>
-        <div class="bg-slate-50 p-8 rounded-xl border border-slate-100">
-            <h3 class="text-xl font-bold text-brand-navy mb-4">Start Your Project</h3>
-            <p class="text-slate-600 mb-6 text-sm">Get expert advice tailored to your region's needs.</p>
-            <a href="/book-free-audit/" class="block w-full text-center bg-brand-accent text-white font-bold py-3 px-4 rounded hover:bg-brand-primary transition-colors">Get 24-48 Hour Review</a>
-        </div>
-      </div>
-
-      <div class="mb-16">
-        <h2 class="text-2xl font-bold text-brand-navy mb-8">Countries in ${itemData.name}</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            ${regionCountries.map(c => `<a href="/locations/${c.slug}/" class="p-4 bg-white border border-slate-200 rounded hover:border-brand-accent text-center font-medium text-slate-700 hover:text-brand-primary transition-colors">${c.name}</a>`).join('')}
-        </div>
-      </div>
-    </div>
-  `;
 } else if (type === 'country') {
   title = `E-Learning Development Services in ${itemData.name} | TheEduAssist`;
   description = `TheEduAssist helps ${itemData.name} businesses, coaches, and universities build online courses and LMS training systems.`;
-
-
-  const countryCities = cities.filter(c => c.country === itemData.name || (itemData.slug === 'united-states' && c.cityName === 'New York') || (itemData.slug === 'united-kingdom' && c.cityName === 'London') || (itemData.slug === 'united-arab-emirates' && c.cityName === 'Dubai') || (itemData.slug === 'australia' && c.cityName === 'Sydney') );
-
-  content = `
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <div class="mb-12 border-b pb-8">
-        <h1 class="text-4xl md:text-5xl font-bold text-brand-navy mb-6">E-Learning Services in ${itemData.name}</h1>
-        <p class="text-xl text-slate-600 leading-relaxed max-w-4xl">${itemData.intro}</p>
-      </div>
-
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-        <div>
-            <h2 class="text-2xl font-bold text-brand-navy mb-6">Market Overview</h2>
-            <ul class="space-y-4 text-slate-700">
-                <li><strong class="text-brand-primary">Key Buyers:</strong> ${itemData.buyers.join(', ')}</li>
-                <li><strong class="text-brand-primary">Top Industries:</strong> ${itemData.industries.join(', ')}</li>
-                <li><strong class="text-brand-primary">Preferred Platforms:</strong> ${itemData.platforms.join(', ')}</li>
-            </ul>
-        </div>
-        <div class="bg-brand-softBg p-8 rounded-xl">
-            <h3 class="text-2xl font-bold text-brand-navy mb-4">Need Help with a Project?</h3>
-            <p class="text-slate-700 mb-6">We provide remote e-learning consulting and development for clients across ${itemData.name}.</p>
-            <a href="/book-free-audit/" class="inline-block bg-brand-accent text-white font-bold py-3 px-8 rounded hover:bg-brand-primary transition-colors">Get 24-48 Hour Review</a>
-        </div>
-      </div>
-
-      <div class="mb-16">
-        <h2 class="text-2xl font-bold text-brand-navy mb-8">Cities in ${itemData.name}</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            ${countryCities.map(c => `<a href="/locations/${c.slug}/" class="p-4 bg-white border border-slate-200 rounded hover:border-brand-accent text-center font-medium text-slate-700 hover:text-brand-primary transition-colors">${c.cityName}</a>`).join('')}
-        </div>
-      </div>
-    </div>
-  `;
-
 } else if (type === 'city') {
   title = itemData.metaTitle;
   description = itemData.metaDescription;
@@ -143,221 +77,38 @@ if (type === 'region') {
 
   schemas.push({
       "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "E-Learning Development",
-      "provider": {
-          "@type": "Organization",
-          "name": "TheEduAssist",
-          "url": "https://www.theeduassist.com/"
-      },
-      "areaServed": {
-          "@type": "City",
-          "name": itemData.cityName,
-          "containedInPlace": {
-              "@type": "Country",
-              "name": itemData.country
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+          {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.theeduassist.com/"
+          },
+          {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Locations",
+              "item": "https://www.theeduassist.com/locations/"
+          },
+          {
+              "@type": "ListItem",
+              "position": 3,
+              "name": itemData.cityName,
+              "item": `https://www.theeduassist.com/locations/${itemData.slug}/`
           }
-      },
-      "description": itemData.metaDescription
+      ]
   });
-
-  content = `
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-
-      <!-- Hero -->
-      <div class="text-center max-w-4xl mx-auto mb-16">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-brand-navy mb-6">${itemData.h1}</h1>
-        <p class="text-xl text-slate-600 leading-relaxed mb-8">${itemData.shortHero}</p>
-        <div class="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="/book-free-audit/" class="bg-brand-accent text-white font-bold py-3 px-8 rounded hover:bg-brand-primary transition-colors shadow-md">Get a 24–48 Hour Review</a>
-            <a href="/services/" class="bg-white text-brand-navy border border-slate-300 font-bold py-3 px-8 rounded hover:border-brand-primary hover:text-brand-primary transition-colors">Explore Services</a>
-        </div>
-      </div>
-
-      <!-- Quick Answer -->
-      <div class="bg-blue-50 border-l-4 border-brand-accent p-6 rounded-r-lg mb-16 max-w-4xl mx-auto">
-        <p class="text-lg font-medium text-slate-800">${itemData.quickAnswer}</p>
-      </div>
-
-      <!-- What We Build -->
-      <div class="mb-16">
-        <h2 class="text-3xl font-bold text-brand-navy mb-8">What TheEduAssist Helps ${itemData.cityName} Clients Build</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center"><span class="text-brand-accent mr-3 font-bold text-xl">✓</span> Online courses</div>
-            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center"><span class="text-brand-accent mr-3 font-bold text-xl">✓</span> Kajabi websites and course products</div>
-            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center"><span class="text-brand-accent mr-3 font-bold text-xl">✓</span> LMS programs</div>
-            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center"><span class="text-brand-accent mr-3 font-bold text-xl">✓</span> Corporate training portals</div>
-            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center"><span class="text-brand-accent mr-3 font-bold text-xl">✓</span> Internal academies</div>
-            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center"><span class="text-brand-accent mr-3 font-bold text-xl">✓</span> Employee onboarding programs</div>
-            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center"><span class="text-brand-accent mr-3 font-bold text-xl">✓</span> Compliance training</div>
-            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center"><span class="text-brand-accent mr-3 font-bold text-xl">✓</span> Customer education programs</div>
-            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex items-center"><span class="text-brand-accent mr-3 font-bold text-xl">✓</span> AI-supported learning assets</div>
-        </div>
-      </div>
-
-      <!-- Popular Services -->
-      <div class="mb-16">
-        <h2 class="text-3xl font-bold text-brand-navy mb-8">Popular Services for ${itemData.cityName} Clients</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-slate-50 p-8 rounded-xl border border-slate-100 hover:border-brand-accent transition-colors">
-                <h3 class="text-xl font-bold text-brand-primary mb-3"><a href="/services/custom-elearning-development/">Course Creation and Curriculum Design</a></h3>
-                <p class="text-slate-600 mb-4">If you already have content but need a course structure, start with our course creation and curriculum design service.</p>
-            </div>
-            <div class="bg-slate-50 p-8 rounded-xl border border-slate-100 hover:border-brand-accent transition-colors">
-                <h3 class="text-xl font-bold text-brand-primary mb-3"><a href="/kajabi-services/">Kajabi Website and Course Setup</a></h3>
-                <p class="text-slate-600 mb-4">If you want to sell a coaching program from ${itemData.cityName}, our Kajabi services can help you structure the course, website, offers, checkout, and emails.</p>
-            </div>
-            <div class="bg-slate-50 p-8 rounded-xl border border-slate-100 hover:border-brand-accent transition-colors">
-                <h3 class="text-xl font-bold text-brand-primary mb-3"><a href="/services/lms-implementation-migration/">LMS Implementation and Migration</a></h3>
-                <p class="text-slate-600 mb-4">If your ${itemData.cityName} team has training files scattered across PDFs, videos, and Google Drive, start with our LMS implementation and migration service.</p>
-            </div>
-            <div class="bg-slate-50 p-8 rounded-xl border border-slate-100 hover:border-brand-accent transition-colors">
-                <h3 class="text-xl font-bold text-brand-primary mb-3"><a href="/services/ai-powered-elearning/">AI-Powered E-Learning Support</a></h3>
-                <p class="text-slate-600 mb-4">Accelerate your content production with structured AI-assisted workflows tailored to your specific audience.</p>
-            </div>
-        </div>
-      </div>
-
-      <!-- Platforms -->
-      <div class="mb-16 max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold text-brand-navy mb-6">Most Relevant LMS and Course Platforms for ${itemData.cityName}</h2>
-        <p class="text-lg text-slate-600 mb-8">${itemData.commonlyUsedLMSPlatforms || `We support a wide range of platforms suitable for clients in ${itemData.cityName}.`} If you are comparing platforms, visit our <a href="/platforms/" class="text-brand-accent hover:underline font-medium">Platforms & LMS page</a> before choosing.</p>
-
-        <div class="space-y-6">
-            <div class="border-b pb-6">
-                <h3 class="text-xl font-bold text-brand-primary mb-2">Creator and Coaching Businesses</h3>
-                <p class="text-slate-700">${itemData.creatorCoursePlatforms?.join(', ') || 'Kajabi, Thinkific, LearnWorlds, Teachable, Skool'}</p>
-            </div>
-            <div class="border-b pb-6">
-                <h3 class="text-xl font-bold text-brand-primary mb-2">Corporate Training & Internal Academies</h3>
-                <p class="text-slate-700">${itemData.corporateLMSPlatforms?.join(', ') || 'TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos'}</p>
-            </div>
-            <div class="border-b pb-6">
-                <h3 class="text-xl font-bold text-brand-primary mb-2">Academic & Education Institutions</h3>
-                <p class="text-slate-700">${itemData.academicLMSPlatforms?.join(', ') || 'Moodle, Canvas, Blackboard, Brightspace'}</p>
-            </div>
-            <div>
-                <h3 class="text-xl font-bold text-brand-primary mb-2">Authoring & Interactive Content</h3>
-                <p class="text-slate-700">${itemData.authoringTools?.join(', ') || 'Articulate 360, Rise, Storyline, iSpring Suite'}</p>
-            </div>
-        </div>
-      </div>
-
-      <!-- Local Needs -->
-      <div class="mb-16 bg-brand-navy text-white rounded-2xl p-8 md:p-12 shadow-xl">
-        <h2 class="text-3xl font-bold mb-6">Local Training Needs in ${itemData.cityName}</h2>
-        <p class="text-lg text-slate-300 leading-relaxed mb-8">${itemData.commonTrainingNeeds || `Organizations in ${itemData.cityName} require robust, scalable e-learning systems.`}</p>
-
-        <h3 class="text-xl font-bold mb-4">Who We Help in ${itemData.cityName}</h3>
-        <ul class="grid grid-cols-2 md:grid-cols-3 gap-y-3 gap-x-6 text-slate-300">
-            <li>✓ Coaches & Consultants</li>
-            <li>✓ Creators & Educators</li>
-            <li>✓ Training Companies</li>
-            <li>✓ Corporate L&D Teams</li>
-            <li>✓ SaaS Companies</li>
-            <li>✓ Healthcare Educators</li>
-        </ul>
-      </div>
-
-      <!-- Lifecycle -->
-      <div class="mb-20">
-        <h2 class="text-3xl font-bold text-brand-navy mb-10 text-center">The Complete Learning Lifecycle for ${itemData.cityName} Clients</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="bg-white p-6 rounded-lg border border-slate-200 relative overflow-hidden group hover:border-brand-accent transition-colors">
-                <div class="absolute -right-4 -top-4 text-brand-accent text-8xl font-black opacity-[0.03] group-hover:opacity-[0.06] transition-opacity">1</div>
-                <h3 class="text-xl font-bold text-brand-primary mb-2 relative z-10">Discover</h3>
-                <p class="text-slate-600 relative z-10">Understand the audience, offer, business goal, training need, platform, and content.</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg border border-slate-200 relative overflow-hidden group hover:border-brand-accent transition-colors">
-                <div class="absolute -right-4 -top-4 text-brand-accent text-8xl font-black opacity-[0.03] group-hover:opacity-[0.06] transition-opacity">2</div>
-                <h3 class="text-xl font-bold text-brand-primary mb-2 relative z-10">Structure</h3>
-                <p class="text-slate-600 relative z-10">Organize raw expertise, PDFs, slides, videos, or existing content into modules and lessons.</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg border border-slate-200 relative overflow-hidden group hover:border-brand-accent transition-colors">
-                <div class="absolute -right-4 -top-4 text-brand-accent text-8xl font-black opacity-[0.03] group-hover:opacity-[0.06] transition-opacity">3</div>
-                <h3 class="text-xl font-bold text-brand-primary mb-2 relative z-10">Create</h3>
-                <p class="text-slate-600 relative z-10">Develop lesson plans, scripts, summaries, worksheets, quizzes, and learner support content.</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg border border-slate-200 relative overflow-hidden group hover:border-brand-accent transition-colors">
-                <div class="absolute -right-4 -top-4 text-brand-accent text-8xl font-black opacity-[0.03] group-hover:opacity-[0.06] transition-opacity">4</div>
-                <h3 class="text-xl font-bold text-brand-primary mb-2 relative z-10">Build</h3>
-                <p class="text-slate-600 relative z-10">Set up Kajabi, LMS pages, course products, landing pages, offers, and checkout.</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg border border-slate-200 relative overflow-hidden group hover:border-brand-accent transition-colors">
-                <div class="absolute -right-4 -top-4 text-brand-accent text-8xl font-black opacity-[0.03] group-hover:opacity-[0.06] transition-opacity">5</div>
-                <h3 class="text-xl font-bold text-brand-primary mb-2 relative z-10">Launch</h3>
-                <p class="text-slate-600 relative z-10">Prepare the course, academy, or training system for leads, students, and employees.</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg border border-slate-200 relative overflow-hidden group hover:border-brand-accent transition-colors">
-                <div class="absolute -right-4 -top-4 text-brand-accent text-8xl font-black opacity-[0.03] group-hover:opacity-[0.06] transition-opacity">6</div>
-                <h3 class="text-xl font-bold text-brand-primary mb-2 relative z-10">Improve</h3>
-                <p class="text-slate-600 relative z-10">Review learner experience, completion flow, content clarity, and ongoing support needs.</p>
-            </div>
-        </div>
-      </div>
-
-
-      <!-- FAQs -->
-      ${itemData.faqQuestions && itemData.faqQuestions.length > 0 ? `
-      <div class="mb-20 max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold text-brand-navy mb-8 text-center">Frequently Asked Questions</h2>
-        <div class="space-y-4">
-            ${itemData.faqQuestions.map((faq) => `
-            <div class="bg-white border border-slate-200 rounded-lg p-6">
-                <h3 class="text-lg font-bold text-brand-primary mb-3">${faq.q}</h3>
-                <p class="text-slate-700">${faq.a}</p>
-            </div>
-            `).join('')}
-        </div>
-      </div>
-      ` : ''}
-
-      <!-- Related Resources -->
-      <div class="mb-16">
-        <h2 class="text-3xl font-bold text-brand-navy mb-8">Related Resources</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                <h3 class="text-xl font-bold text-brand-primary mb-4">Related Work & Case Studies</h3>
-                <ul class="space-y-3">
-                    <li><a href="/case-studies/business-analytics-corporate-training/" class="text-brand-accent hover:underline font-medium">Corporate LMS Training Conversion</a></li>
-                    <li><a href="/case-studies/language-courses-book-publisher/" class="text-brand-accent hover:underline font-medium">Publisher Content to eLearning Conversion</a></li>
-                    <li><a href="/case-studies/sqa-aligned-vocational-training/" class="text-brand-accent hover:underline font-medium">Vocational Training eLearning Design</a></li>
-                </ul>
-            </div>
-            <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                <h3 class="text-xl font-bold text-brand-primary mb-4">Latest Insights</h3>
-                <ul class="space-y-3">
-                    <li><a href="/blog/best-learning-management-system-lms-for-2026/" class="text-brand-accent hover:underline font-medium">Choosing the Right LMS Platform</a></li>
-                    <li><a href="/blog/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/" class="text-brand-accent hover:underline font-medium">LMS Migration Checklist</a></li>
-                    <li><a href="/blog/ai-in-elearning-the-complete-guide-to-smarter-digital-learning/" class="text-brand-accent hover:underline font-medium">AI in E-Learning Guide</a></li>
-                </ul>
-            </div>
-        </div>
-      </div>
-
-
-      <!-- CTA -->
-      <div class="bg-brand-softBg border border-brand-accent/20 rounded-2xl p-10 text-center shadow-md">
-        <h2 class="text-3xl font-bold text-brand-navy mb-4">Ready to start your project in ${itemData.cityName}?</h2>
-        <p class="text-lg text-slate-700 mb-8 max-w-2xl mx-auto">
-            Tell us what you are building, improving, migrating, converting, or launching. TheEduAssist will review your course, Kajabi setup, LMS, content, funnel, or training workflow and recommend the right next step.
-        </p>
-        <a href="/book-free-audit/" class="inline-block bg-brand-accent text-white font-bold py-3 px-10 rounded-lg hover:bg-brand-primary transition-colors text-lg shadow-sm">
-            Get a 24–48 Hour Review
-        </a>
-        <div class="mt-6 space-x-4 text-sm font-medium">
-            <a href="/services/" class="text-slate-600 hover:text-brand-accent">Explore Services</a>
-            <span class="text-slate-300">|</span>
-            <a href="/platforms/" class="text-slate-600 hover:text-brand-accent">Compare Platforms</a>
-            <span class="text-slate-300">|</span>
-            <a href="/case-studies/" class="text-slate-600 hover:text-brand-accent">View Case Studies</a>
-        </div>
-      </div>
-
-    </div>
-  `;
 }
 ---
 <Layout title={title} description={description} noindex={type === 'city' && itemData.indexStatus === 'noindex'} jsonLd={schemas}>
-  <Fragment set:html={content} />
+  {type === 'region' && (
+      <RegionTemplate regionData={itemData} countries={countries.filter(c => c.region === itemData.slug)} />
+  )}
+  {type === 'country' && (
+      <CountryTemplate countryData={itemData} cities={cities.filter(c => c.country === itemData.name || (itemData.slug === 'united-states' && c.cityName === 'New York') || (itemData.slug === 'united-kingdom' && c.cityName === 'London') || (itemData.slug === 'united-arab-emirates' && c.cityName === 'Dubai') || (itemData.slug === 'australia' && c.cityName === 'Sydney') )} />
+  )}
+  {type === 'city' && (
+      <CityTemplate cityData={itemData} />
+  )}
 </Layout>

@@ -1,0 +1,164 @@
+---
+interface Props {
+  cityData: any;
+}
+
+const { cityData } = Astro.props;
+---
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+  <!-- Hero Section -->
+  <div class="mb-16 text-center max-w-4xl mx-auto">
+    <h1 class="text-4xl md:text-5xl font-bold text-brand-navy mb-6">{cityData.h1 || `E-Learning Development Services in ${cityData.cityName}`}</h1>
+    <p class="text-xl text-slate-600 leading-relaxed">{cityData.heroIntro || cityData.shortHero}</p>
+  </div>
+
+  <!-- Quick Answer -->
+  {cityData.quickAnswer && (
+    <div class="bg-brand-softBg border border-brand-accent/20 rounded-xl p-8 mb-16 shadow-sm max-w-4xl mx-auto">
+      <h2 class="text-2xl font-bold text-brand-navy mb-4">Quick Answer</h2>
+      <p class="text-slate-700 font-medium">{cityData.quickAnswer}</p>
+    </div>
+  )}
+
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
+    <!-- Local Training Needs -->
+    <div>
+      <h2 class="text-3xl font-bold text-brand-navy mb-6">Local Training Needs in {cityData.cityName}</h2>
+      <div class="prose max-w-none text-slate-700">
+        <p class="leading-relaxed">{cityData.localTrainingNeeds || cityData.commonTrainingNeeds}</p>
+      </div>
+    </div>
+
+    <!-- Who We Help -->
+    <div class="bg-slate-50 p-8 rounded-xl border border-slate-100">
+      <h2 class="text-2xl font-bold text-brand-navy mb-6">Who We Help in {cityData.cityName}</h2>
+      <div class="flex flex-wrap gap-2">
+        {(cityData.whoWeHelp || cityData.buyerTypes || []).map(buyer => (
+          <span class="bg-white text-brand-primary border border-slate-200 px-3 py-1 rounded-full text-sm font-medium">{buyer}</span>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- What We Help Build -->
+  {cityData.whatWeHelpBuild && cityData.whatWeHelpBuild.length > 0 && (
+    <div class="mb-20">
+      <h2 class="text-3xl font-bold text-brand-navy mb-8 text-center">What We Help {cityData.cityName} Clients Build</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+        {cityData.whatWeHelpBuild.map(item => (
+          <div class="flex items-start p-4 bg-white border border-slate-200 rounded-lg shadow-sm">
+            <svg class="w-6 h-6 text-brand-accent mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+            <span class="text-slate-700 font-medium">{item}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- LMS Guidance Section -->
+  {cityData.lmsGuidance && (
+    <div class="bg-brand-navy text-white rounded-2xl p-10 mb-20 shadow-lg relative overflow-hidden">
+      <div class="relative z-10 max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">LMS & Platform Guidance for {cityData.cityName}</h2>
+        <p class="text-lg text-slate-300 leading-relaxed">{cityData.lmsGuidance}</p>
+      </div>
+    </div>
+  )}
+
+  <!-- Popular Services -->
+  {cityData.popularServices && cityData.popularServices.length > 0 && (
+    <div class="mb-20">
+      <h2 class="text-3xl font-bold text-brand-navy mb-8 text-center border-b pb-4">Popular Services for {cityData.cityName} Clients</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {cityData.popularServices.map(service => (
+          <a href={service.link || "/services/"} class="block bg-white p-6 rounded-xl border border-slate-200 hover:border-brand-accent shadow-sm transition-all group">
+            <h3 class="text-xl font-bold text-brand-primary group-hover:text-brand-accent mb-3">{service.name || service}</h3>
+            {service.description && <p class="text-slate-600 text-sm leading-relaxed">{service.description}</p>}
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- Complete Learning Lifecycle -->
+  {cityData.learningLifecycle && cityData.learningLifecycle.length > 0 && (
+    <div class="mb-20 bg-slate-50 p-10 rounded-2xl border border-slate-100">
+      <h2 class="text-3xl font-bold text-brand-navy mb-10 text-center">Our Complete Learning Lifecycle</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {cityData.learningLifecycle.map((step, index) => (
+          <div class="relative">
+            <div class="text-5xl font-extrabold text-brand-accent/20 absolute -top-4 -left-2 z-0">{index + 1}</div>
+            <div class="relative z-10 pl-6">
+              <h3 class="text-xl font-bold text-brand-primary mb-2">{step.stage}</h3>
+              <p class="text-slate-600">{step.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- Related Resources (Contextual internal links) -->
+  <div class="mb-20">
+    <h2 class="text-3xl font-bold text-brand-navy mb-8">Related Resources</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <h3 class="text-xl font-bold text-brand-primary mb-4">Related Work & Case Studies</h3>
+            <ul class="space-y-3">
+                <li><a href="/case-studies/" class="text-brand-accent hover:underline font-medium">Corporate LMS Training Conversion</a></li>
+                <li><a href="/case-studies/" class="text-brand-accent hover:underline font-medium">Publisher Content to eLearning Conversion</a></li>
+                <li><a href="/case-studies/" class="text-brand-accent hover:underline font-medium">Vocational Training eLearning Design</a></li>
+            </ul>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <h3 class="text-xl font-bold text-brand-primary mb-4">Latest Insights</h3>
+            <ul class="space-y-3">
+                <li><a href="/blog/" class="text-brand-accent hover:underline font-medium">Choosing the Right LMS Platform</a></li>
+                <li><a href="/blog/" class="text-brand-accent hover:underline font-medium">LMS Migration Checklist</a></li>
+                <li><a href="/blog/" class="text-brand-accent hover:underline font-medium">AI in E-Learning Guide</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+
+  <!-- FAQs -->
+  {cityData.faqQuestions && cityData.faqQuestions.length > 0 && (
+    <div class="mb-20">
+      <h2 class="text-3xl font-bold text-brand-navy mb-8 border-b pb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4 max-w-4xl mx-auto">
+        {cityData.faqQuestions.map(faq => (
+          <div class="bg-white border border-slate-200 p-6 rounded-lg shadow-sm">
+            <h3 class="text-lg font-bold text-brand-primary mb-3">{faq.q}</h3>
+            <p class="text-slate-700 leading-relaxed">{faq.a}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <!-- CTA Section -->
+  <div class="bg-brand-softBg border border-brand-accent/20 rounded-2xl p-10 text-center shadow-md">
+    <h2 class="text-3xl font-bold text-brand-navy mb-4">Ready to start your project in {cityData.cityName}?</h2>
+    <p class="text-lg text-slate-700 mb-8 max-w-2xl mx-auto">
+        Tell us what you are building, improving, migrating, converting, or launching. TheEduAssist will review your course, Kajabi setup, LMS, content, funnel, or training workflow and recommend the right next step.
+    </p>
+    <a href={cityData.ctaPrimary?.link || "/book-free-audit/"} class="inline-block bg-brand-accent text-white font-bold py-3 px-10 rounded-lg hover:bg-brand-primary transition-colors text-lg shadow-sm">
+        {cityData.ctaPrimary?.text || "Get a 24–48 Hour Review"}
+    </a>
+
+    <div class="mt-6 flex flex-wrap justify-center gap-4 text-sm font-medium">
+      {(cityData.ctaSecondary || [
+            { text: "Explore Services", link: "/services/" },
+            { text: "Compare Platforms", link: "/platforms/" },
+            { text: "View Case Studies", link: "/case-studies/" }
+      ]).map((cta, index, arr) => (
+        <Fragment>
+          <a href={cta.link} class="text-slate-600 hover:text-brand-accent">{cta.text}</a>
+          {index < arr.length - 1 && <span class="text-slate-300">|</span>}
+        </Fragment>
+      ))}
+    </div>
+  </div>
+
+</div>
