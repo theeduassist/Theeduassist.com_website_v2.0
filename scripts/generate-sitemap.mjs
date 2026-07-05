@@ -199,7 +199,10 @@ ${uniqueXmlBlocks.join('\n')}
     'https://www.theeduassist.com/blog/',
     'https://www.theeduassist.com/about/',
     'https://www.theeduassist.com/contact/',
-    'https://www.theeduassist.com/book-free-audit/'
+    'https://www.theeduassist.com/book-free-audit/',
+    'https://www.theeduassist.com/newsroom/',
+    'https://www.theeduassist.com/media-kit/',
+    'https://www.theeduassist.com/press-releases/'
   ];
 
   blogUrlsForLlms.forEach(url => llmsUrls.push(url));
@@ -220,6 +223,12 @@ TheEduAssist helps clients turn expertise, training content, workshops, PDFs, sl
 - Content conversion
 - Funnels and automation
 - Ongoing course support and maintenance
+
+## Contact & Social
+- Email: Info@theeduassist.com
+- Facebook: https://www.facebook.com/people/Theeduassist/61576126813447/
+- Instagram: https://www.instagram.com/theeduassist
+- LinkedIn: https://www.linkedin.com/company/theeduassist
 
 ## Public Pages & Articles
 `;

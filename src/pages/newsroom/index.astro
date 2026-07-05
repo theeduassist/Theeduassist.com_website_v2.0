@@ -1,0 +1,63 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { collectionPageSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const jsonLd = [
+  collectionPageSchema(
+    "Newsroom | TheEduAssist",
+    "Company updates, e-learning insights, service announcements, and press releases from TheEduAssist.",
+    "/newsroom/"
+  ),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Newsroom", urlPath: "/newsroom/" }
+  ])
+];
+---
+
+<Layout
+  title="Newsroom | TheEduAssist"
+  description="Company updates, e-learning insights, service announcements, and press releases from TheEduAssist."
+  canonicalPath="/newsroom/"
+  jsonLd={jsonLd}
+>
+  <main class="bg-slate-50 min-h-screen">
+    <header class="bg-[#27496D] text-white py-20 px-4 text-center">
+      <div class="max-w-3xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Newsroom</h1>
+        <p class="text-lg md:text-xl text-slate-300">
+          Company updates, service announcements, e-learning insights, and press releases related to online course creation and Kajabi systems.
+        </p>
+      </div>
+    </header>
+
+    <section class="py-20 px-4 max-w-5xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-12">
+        <div class="space-y-6">
+          <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3">Latest Announcements</h2>
+
+          <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-all flex flex-col group">
+             <span class="text-sm font-semibold text-[#77BA55] mb-2">Service Expansion</span>
+             <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-[#27496D] transition-colors">
+               <a href="/press-releases/theeduassist-expands-elearning-design-services/" class="after:absolute after:inset-0 relative">TheEduAssist Expands Its E-Learning Design Services</a>
+             </h3>
+             <p class="text-slate-600 mb-4 text-sm leading-relaxed">TheEduAssist officially announces expanded support for Moodle and LearnDash LMS migrations, answering a growing need for corporate trainers moving away from restrictive platforms.</p>
+             <span class="text-sm font-medium text-[#27496D] mt-auto flex items-center">Read Release &rarr;</span>
+          </div>
+        </div>
+
+        <div class="space-y-6">
+          <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3">Media Resources</h2>
+
+          <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col items-start h-full">
+            <h3 class="text-xl font-bold text-slate-800 mb-3">Media Kit</h3>
+            <p class="text-slate-600 mb-6 text-sm leading-relaxed">Access official boilerplates, company facts, and contact information for journalists and partners.</p>
+            <a href="/media-kit/" class="mt-auto inline-flex items-center justify-center px-4 py-2 border border-[#27496D] text-[#27496D] font-medium rounded-md hover:bg-[#EFF6FF] transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-[#27496D]">
+              View Media Kit
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
