@@ -1,0 +1,8 @@
+=== INTERNAL LINK AUDIT REPORT ===
+
+
+--- LINK RISK FINDINGS ---
+PASS: No private, admin, or preview URLs found in city data.
+PASS: No obvious malformed inline links found in city data.
+
+NOTE: Because this audit inspects raw data and not rendered templates, missing standard CTA/service links may reside in the Astro layout components safely. Ensure `src/pages/locations/[slug].astro` implements the standard links.
