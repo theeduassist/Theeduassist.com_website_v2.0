@@ -125,6 +125,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in New York?",
+        "a": "Yes. TheEduAssist can help New York-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, helping East Coast startups and enterprises in New York. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -183,6 +187,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Kajabi, Thinkific, Teachable, LearnDash, Docebo, TalentLMS, Absorb LMS, and Articulate for consultants, startups, creators, sales training, customer education, and corporate onboarding.",
@@ -383,6 +393,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in London?",
+        "a": "Yes. TheEduAssist can help London-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, supporting UK-based professionals in London. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -441,6 +455,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Kajabi, LearnWorlds, Moodle, Canvas, Docebo, Absorb LMS, TalentLMS, and Articulate for professional services, compliance training, coaching, education, and corporate L&D.",
@@ -641,6 +661,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Dubai?",
+        "a": "Yes. TheEduAssist can help Dubai-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, partnering with businesses in the UAE in Dubai. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -699,6 +723,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Kajabi, LearnWorlds, TalentLMS, Docebo, Moodle, Articulate, and iSpring for coaches, consultants, hospitality training, healthcare training, real estate training, corporate teams, and GCC training needs.",
@@ -899,6 +929,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Sydney?",
+        "a": "Yes. TheEduAssist can help Sydney-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, working with Australian educators in Sydney. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -957,6 +991,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
@@ -1157,6 +1197,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Toronto?",
+        "a": "Yes. TheEduAssist can help Toronto-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, serving Canadian creators and companies in Toronto. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -1215,6 +1259,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Thinkific, Kajabi, LearnWorlds, Moodle, TalentLMS, LearnDash, and Articulate for creators, education businesses, training companies, and multicultural learning teams.",
@@ -1415,6 +1465,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Singapore?",
+        "a": "Yes. TheEduAssist can help Singapore-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, empowering APAC's tech and finance hubs in Singapore. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -1473,6 +1527,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention LearnWorlds, Moodle, Canvas, Docebo, Absorb LMS, Articulate, and iSpring for corporate training, fintech, compliance, education, and regional training teams.",
@@ -1673,6 +1733,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Riyadh?",
+        "a": "Yes. TheEduAssist can help Riyadh-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, building for Saudi Arabia's growing academies in Riyadh. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -1731,6 +1795,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Moodle, Blackboard, Docebo, TalentLMS, LearnWorlds, Absorb LMS, Articulate, and iSpring for corporate academies, education institutions, compliance training, bilingual learning needs, and regional training.",
@@ -2189,6 +2259,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Chicago?",
+        "a": "Yes. TheEduAssist can help Chicago-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, helping Midwest enterprises modernize in Chicago. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -2247,6 +2321,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Kajabi, LearnWorlds, Thinkific, Moodle, TalentLMS, Docebo, and Articulate as suitable options for local corporate teams, coaches, educators, and training companies.",
@@ -2705,6 +2785,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in San Francisco?",
+        "a": "Yes. TheEduAssist can help San Francisco-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, empowering Silicon Valley tech teams in San Francisco. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -2763,6 +2847,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Kajabi, LearnWorlds, Thinkific, Moodle, TalentLMS, Docebo, and Articulate as suitable options for local corporate teams, coaches, educators, and training companies.",
@@ -4391,6 +4481,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Doha?",
+        "a": "Yes. TheEduAssist can help Doha-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, supporting Qatar's academic and corporate sectors in Doha. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -4449,6 +4543,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Moodle, Blackboard, Docebo, TalentLMS, LearnWorlds, Absorb LMS, Articulate, and iSpring for corporate academies, education institutions, compliance training, bilingual learning needs, and regional training.",
@@ -4649,6 +4749,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Abu Dhabi?",
+        "a": "Yes. TheEduAssist can help Abu Dhabi-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, equipping UAE enterprise teams in Abu Dhabi. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -4707,6 +4811,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Moodle, Blackboard, Docebo, TalentLMS, LearnWorlds, Absorb LMS, Articulate, and iSpring for corporate academies, education institutions, compliance training, bilingual learning needs, and regional training.",
@@ -6572,6 +6682,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Berlin?",
+        "a": "Yes. TheEduAssist can help Berlin-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, equipping Germany's startup ecosystem in Berlin. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -6630,6 +6744,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Kajabi, LearnWorlds, Thinkific, Moodle, TalentLMS, Docebo, and Articulate as suitable options for local corporate teams, coaches, educators, and training companies.",
@@ -7064,6 +7184,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Paris?",
+        "a": "Yes. TheEduAssist can help Paris-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, serving French luxury and tech sectors in Paris. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -7122,6 +7246,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Kajabi, LearnWorlds, Thinkific, Moodle, TalentLMS, Docebo, and Articulate as suitable options for local corporate teams, coaches, educators, and training companies.",
@@ -7439,6 +7569,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Amsterdam?",
+        "a": "Yes. TheEduAssist can help Amsterdam-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, working with Dutch digital businesses in Amsterdam. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -7497,6 +7631,12 @@ export const cities = [
         "name": "Ongoing support and maintenance",
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
+      }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
       }
     ],
     "lmsGuidance": "Mention Kajabi, LearnWorlds, Thinkific, Moodle, TalentLMS, Docebo, and Articulate as suitable options for local corporate teams, coaches, educators, and training companies.",
@@ -21173,6 +21313,12 @@ export const cities = [
         "description": "Providing continuous updates and technical support for your learning platforms.",
         "link": "/services/"
       }
+,
+      {
+        "name": "Corporate AI ethics training",
+        "description": "Turn responsible AI policies into structured online training modules for global teams.",
+        "link": "/services/ai-ethics-corporate-training/"
+      }
     ],
     "lmsGuidance": "Mention Kajabi, LearnWorlds, Thinkific, Moodle, TalentLMS, Docebo, and Articulate as suitable options for local corporate teams, coaches, educators, and training companies.",
     "localTrainingNeeds": "Zurich features a dynamic learning landscape. High-security banking compliance and precision medical training. We collaborate remotely with Zurich clients to build customized, effective training programs.",
@@ -21275,6 +21421,10 @@ export const cities = [
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
         "a": "Yes, where relevant, we design and develop SCORM and xAPI-compliant eLearning modules using authoring tools like Articulate 360, ensuring they track progress perfectly within your chosen LMS."
+      },
+      {
+        "q": "Can TheEduAssist build AI ethics training for companies in Zurich?",
+        "a": "Yes. TheEduAssist can help Zurich-based companies and global teams turn AI policies, responsible AI guidance, and employee AI usage rules into structured online training. We can prepare LMS-ready modules, role-based scenarios, quizzes, and rollout materials for enterprise learning platforms."
       }
     ],
     "ctaPrimary": {
