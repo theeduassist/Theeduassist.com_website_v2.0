@@ -10,24 +10,23 @@ import ArticleShareButtons from '../../components/blog/ArticleShareButtons.astro
 import BlogFAQs from '../../components/blog/BlogFAQs.astro';
 import RelatedCaseStudies from '../../components/blog/RelatedCaseStudies.astro';
 
-import { getBlogPostSlugs, getBlogPostSummaries } from '../../lib/content/getAllBlogPosts';
+import { getBlogPostSlugs } from '../../lib/content/getAllBlogPosts';
 import { extractHeadings } from '../../utils/extractHeadings';
 import { getFallbackDescription } from '../../utils/blog';
 import { getPostBySlug } from '../../sanity/queries';
 
 export async function getStaticPaths() {
   const slugs = await getBlogPostSlugs();
-  const allPosts = await getBlogPostSummaries();
 
   return slugs.map(slug => {
     return {
       params: { slug },
-      props: { slug, allPosts }
+      props: { slug }
     };
   });
 }
 
-const { slug, allPosts } = Astro.props;
+const { slug } = Astro.props;
 
 // Fetch the full post details including the body
 const post = await getPostBySlug(slug);
@@ -288,12 +287,14 @@ const tocEnabled = headings.length > 0;
           </div>
         </div>
 
-        <RelatedArticles
-          currentSlug={post.slug}
-          category={post.category}
-          allPosts={allPosts}
-          currentTags={post.tags}
-        />
+        {post.relatedPosts && post.relatedPosts.length > 0 && (
+          <RelatedArticles
+            currentSlug={post.slug}
+            category={post.category}
+            allPosts={post.relatedPosts}
+            currentTags={post.tags}
+          />
+        )}
       </div>
     </div>
   </article>
