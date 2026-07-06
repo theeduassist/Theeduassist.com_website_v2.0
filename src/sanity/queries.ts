@@ -66,7 +66,32 @@ export async function getAuthorBySlug(slug: string) {
 
 // Posts
 export async function getAllPosts() {
-  return await fetchFromSanity(`*[_type == "post" && defined(slug.current) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc)`)
+  return await fetchFromSanity(`*[_type == "post" && defined(slug.current) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc) {
+  _id,
+  title,
+  slug,
+  excerpt,
+  aiSummary,
+  category,
+  categories[]->{
+    title,
+    slug
+  },
+  tags,
+  "author": author->name,
+  publishedAt,
+  updatedAt,
+  stats,
+  mainImage {
+    asset->{ url },
+    alt
+  },
+  status,
+  migrationStatus,
+  hidden,
+  reviewPending,
+  seo
+}`)
 }
 
 
@@ -79,7 +104,7 @@ export async function getPostBySlug(slug: string) {
       asset->{ url },
       alt
     },
-    relatedPosts[]->[defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] {
+    relatedPosts[]->[defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])][0...6] {
       _id,
       title,
       slug,
@@ -98,20 +123,14 @@ export async function getPostBySlug(slug: string) {
 // Get latest blog posts
 export const latestBlogPostsQuery = `*[_type == "post" && defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc) {
   _id,
-  _createdAt,
-  _updatedAt,
-  hidden,
-  reviewPending,
-  status,
-  migrationStatus,
   title,
   slug,
   excerpt,
+  aiSummary,
   category,
   categories[]->{
     title,
-    slug,
-    description
+    slug
   },
   tags,
   "author": author->name,
@@ -119,47 +138,13 @@ export const latestBlogPostsQuery = `*[_type == "post" && defined(slug.current) 
   updatedAt,
   stats,
   mainImage {
-    asset->{
-      url
-    },
+    asset->{ url },
     alt
   },
-  body,
-  endCta,
-  content,
-  blogFaqs,
-  relatedFaqs[]->{
-    question,
-    answer,
-    showOnSite,
-    orderRank
-  },
-  relatedServices[]->{
-    title,
-    slug,
-    description,
-    "image": image.asset->url
-  },
-  relatedPlatforms[]->{
-    name,
-    slug,
-    "logo": logo.asset->url
-  },
-  relatedPosts[]->[defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] {
-    _id,
-    title,
-    slug,
-    excerpt,
-    "image": featuredImage.asset->url,
-    category,
-    publishedAt,
-    status,
-    migrationStatus,
-    hidden,
-    reviewPending,
-    seo,
-    tags
-  },
+  status,
+  migrationStatus,
+  hidden,
+  reviewPending,
   seo
 }`;
 
