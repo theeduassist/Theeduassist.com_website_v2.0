@@ -1,0 +1,55 @@
+---
+const questions = [
+  {
+    q: "What can I learn from TheEduAssist blog?",
+    a: "Our articles provide practical guidance on designing learning experiences, setting up Kajabi and other LMS platforms, and growing your online course business. We share real-world strategies for coaches, consultants, and corporate trainers.",
+  },
+  {
+    q: "Which LMS guide should I start with?",
+    a: "If you are new to course platforms, start with our Kajabi setup guides or our LMS comparison articles. They help you understand platform differences so you can choose the right tool for your specific training needs.",
+  },
+  {
+    q: "How do I choose between Kajabi, Thinkific, LearnWorlds, Teachable, and LearnDash?",
+    a: "The best platform depends on your goals. Kajabi is great for all-in-one marketing, LearnDash is ideal for WordPress, and LearnWorlds offers advanced interactive features. Read our platform guides to see which aligns with your launch strategy.",
+  },
+  {
+    q: "Can old PDFs, slides, and videos become an online course?",
+    a: "Absolutely. Our content conversion articles explain how to transform static materials like PDFs and slide decks into engaging, structured online courses that provide a great learner experience.",
+  },
+  {
+    q: "What is LMS migration?",
+    a: "LMS migration is the process of moving your courses, student data, and training content from one platform to another. Our guides cover how to plan a secure migration without losing progress or confusing your learners.",
+  },
+  {
+    q: "How can AI help with course creation?",
+    a: "AI can accelerate content outlining, generate quiz questions, and help script videos. We explore how to use AI responsibly to speed up production without sacrificing your unique voice and expertise.",
+  },
+  {
+    q: "Can TheEduAssist review my course or LMS setup?",
+    a: "Yes. If you need expert feedback on your current platform, learning path, or launch plan, you can request a 24–48 Hour Review. We'll analyze your setup and suggest the next best steps.",
+    link: "/book-free-audit/"
+  }
+];
+---
+
+<div class="my-20">
+  <div class="text-center mb-10">
+    <h2 class="text-3xl font-bold text-slate-800">Quick Blog Questions</h2>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    {questions.map((item) => (
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+        <h3 class="font-bold text-lg text-slate-800 mb-3">{item.q}</h3>
+        <p class="text-slate-600 text-sm leading-relaxed">
+          {item.a}
+          {item.link && (
+            <span class="block mt-2">
+              <a href={item.link} class="text-[var(--color-primary)] font-medium hover:underline">Learn more &rarr;</a>
+            </span>
+          )}
+        </p>
+      </div>
+    ))}
+  </div>
+</div>
