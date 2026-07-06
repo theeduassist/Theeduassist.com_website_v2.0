@@ -69,8 +69,30 @@ export async function getAllPosts() {
   return await fetchFromSanity(`*[_type == "post" && defined(slug.current) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc)`)
 }
 
+
 export async function getPostBySlug(slug: string) {
-  return await fetchFromSanity(`*[_type == "post" && slug.current == $slug && !(_id in path("drafts.**"))][0]`, { slug })
+  return await fetchFromSanity(`*[_type == "post" && slug.current == $slug && !(_id in path("drafts.**"))][0] {
+    ...,
+    "author": author->name,
+    categories[]->{ title, slug, description },
+    mainImage {
+      asset->{ url },
+      alt
+    },
+    relatedPosts[]->[defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] {
+      _id,
+      title,
+      slug,
+      excerpt,
+      "image": featuredImage.asset->url,
+      category,
+      publishedAt,
+      tags
+    },
+    relatedServices[]->{ title, slug, description, "image": image.asset->url },
+    relatedPlatforms[]->{ name, slug, "logo": logo.asset->url },
+    relatedFaqs[]->{ question, answer, showOnSite, orderRank }
+  }`, { slug })
 }
 
 // Get latest blog posts
@@ -136,9 +158,7 @@ export const latestBlogPostsQuery = `*[_type == "post" && defined(slug.current) 
     hidden,
     reviewPending,
     seo,
-    tags,
-    body,
-    content
+    tags
   },
   seo
 }`;
@@ -172,3 +192,36 @@ export async function getProcessByTitle(title: string) {
 export async function getAudienceSegments() {
   return await fetchFromSanity(`*[_type == "audienceSegment" && showOnSite == true] | order(orderRank asc)`)
 }
+
+
+export const blogPostSummariesQuery = `*[_type == "post" && defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc) {
+  _id,
+  title,
+  slug,
+  excerpt,
+  aiSummary,
+  category,
+  categories[]->{
+    title,
+    slug
+  },
+  tags,
+  "author": author->name,
+  publishedAt,
+  updatedAt,
+  stats,
+  mainImage {
+    asset->{ url },
+    alt
+  },
+  status,
+  migrationStatus,
+  hidden,
+  reviewPending,
+  seo
+}`;
+
+
+export const blogPostSlugsQuery = `*[_type == "post" && defined(slug.current) && !(_id in path("drafts.**"))] {
+  "slug": slug.current
+}`;

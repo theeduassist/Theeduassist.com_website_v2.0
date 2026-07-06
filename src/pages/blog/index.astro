@@ -10,12 +10,12 @@ import QuickBlogQuestions from '../../components/blog/QuickBlogQuestions.astro';
 import IndexBlogFAQs from '../../components/blog/IndexBlogFAQs.astro';
 import BlogCTA from '../../components/blog/BlogCTA.astro';
 
-import { getAllBlogPosts } from '../../lib/content/getAllBlogPosts';
+import { getBlogPostSummaries } from '../../lib/content/getAllBlogPosts';
 import { faqs as indexFaqs } from '../../components/blog/IndexBlogFAQs.astro';
 
 let posts = [];
 try {
-  posts = await getAllBlogPosts();
+  posts = await getBlogPostSummaries();
 } catch (e) {
   console.log("Error fetching blog posts for index");
 }

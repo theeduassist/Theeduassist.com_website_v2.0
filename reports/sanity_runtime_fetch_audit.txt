@@ -1,0 +1,29 @@
+src/components/blog/BlogFAQs.astro:86: <PortableTextRenderer value={faq.answer} client:load />
+src/components/forms/TurnstileWidget.astro:2: const siteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
+src/layouts/Layout.astro:45: const siteUrl = import.meta.env.PUBLIC_SITE_URL || '';
+src/lib/content/getAllBlogPosts.ts:151: // Filter here as well just to be perfectly safe, though the GROQ query handles most of it.
+src/lib/firebaseClient.ts:2: // Values will be populated from import.meta.env by Astro
+src/lib/firebaseClient.ts:6: apiKey: import.meta.env.PUBLIC_FIREBASE_API_KEY,
+src/lib/firebaseClient.ts:7: authDomain: import.meta.env.PUBLIC_FIREBASE_AUTH_DOMAIN,
+src/lib/firebaseClient.ts:8: projectId: import.meta.env.PUBLIC_FIREBASE_PROJECT_ID,
+src/lib/firebaseClient.ts:9: storageBucket: import.meta.env.PUBLIC_FIREBASE_STORAGE_BUCKET,
+src/lib/firebaseClient.ts:10: messagingSenderId: import.meta.env.PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+src/lib/firebaseClient.ts:11: appId: import.meta.env.PUBLIC_FIREBASE_APP_ID,
+src/lib/sanity/client.ts:1: import { createClient } from '@sanity/client';
+src/lib/sanity/client.ts:3: export const projectId = import.meta.env.PUBLIC_SANITY_PROJECT_ID || 'jg4gi6mn';
+src/lib/sanity/client.ts:4: export const dataset = import.meta.env.PUBLIC_SANITY_DATASET || 'production';
+src/lib/sanity/client.ts:5: export const apiVersion = import.meta.env.PUBLIC_SANITY_API_VERSION || '2026-06-19';
+src/lib/sanity/client.ts:7: export const sanityClient = createClient({
+src/lib/sanity/client.ts:16: return await sanityClient.fetch(query, params);
+src/lib/turnstile.ts:34: const result = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+src/pages/[slug].astro:38: <PortableTextRenderer value={body} client:load />
+src/sanity/client.ts:1: import { createClient } from '@sanity/client'
+src/sanity/client.ts:4: export const client = createClient({
+src/sanity/client.ts:14: return await client.fetch(query, params)
+src/sanity/env.ts:1: export const projectId = import.meta.env.PUBLIC_SANITY_PROJECT_ID || 'jg4gi6mn'
+src/sanity/env.ts:2: export const dataset = import.meta.env.PUBLIC_SANITY_DATASET || 'production'
+src/sanity/env.ts:3: export const apiVersion = import.meta.env.PUBLIC_SANITY_API_VERSION || '2024-03-12'
+src/sanity/env.ts:7: export const useCdn = import.meta.env.PUBLIC_SANITY_USE_CDN
+src/sanity/env.ts:8: ? import.meta.env.PUBLIC_SANITY_USE_CDN === 'true'
+src/sanity/env.ts:9: : import.meta.env.MODE === 'production'
+src/sanity/env.ts:11: if (!import.meta.env.PUBLIC_SANITY_PROJECT_ID && projectId === 'demo') {

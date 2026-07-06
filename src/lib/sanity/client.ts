@@ -4,6 +4,8 @@ export const projectId = import.meta.env.PUBLIC_SANITY_PROJECT_ID || 'jg4gi6mn';
 export const dataset = import.meta.env.PUBLIC_SANITY_DATASET || 'production';
 export const apiVersion = import.meta.env.PUBLIC_SANITY_API_VERSION || '2026-06-19';
 
+// THIS CLIENT MUST ONLY BE USED SERVER-SIDE / BUILD TIME
+// DO NOT import this into browser-hydrated React/Vue components to prevent exposing tokens or doing client-side fetching.
 export const sanityClient = createClient({
   projectId,
   dataset,

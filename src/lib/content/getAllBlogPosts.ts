@@ -1,4 +1,4 @@
-import { latestBlogPostsQuery } from '../../sanity/queries';
+import { latestBlogPostsQuery, blogPostSlugsQuery, blogPostSummariesQuery } from '../../sanity/queries';
 import { fetchFromSanity } from '../../sanity/client';
 
 
@@ -144,7 +144,69 @@ export type NormalizedBlogPost = {
   endCta?: any;
 };
 
-export async function getAllBlogPosts(): Promise<NormalizedBlogPost[]> {
+
+export async function getBlogPostSlugs(): Promise<string[]> {
+  try {
+    const slugs = await fetchFromSanity(blogPostSlugsQuery);
+    if (slugs && Array.isArray(slugs)) {
+      return slugs.map((s: any) => s.slug).filter(Boolean).map(s => s.replace(/^https?:\/\/[^\/]+\/blog\//, '').replace(/\/$/, ''));
+    }
+  } catch (e) {
+    console.error("Failed to fetch blog slugs", e);
+  }
+  return [];
+}
+
+export async function getBlogPostSummaries(): Promise<NormalizedBlogPost[]> {
+  try {
+    const sanityPosts = await fetchFromSanity(blogPostSummariesQuery);
+    if (sanityPosts && Array.isArray(sanityPosts)) {
+       const formattedSanity: NormalizedBlogPost[] = sanityPosts.filter(isPublicBlogPost).map((post: any) => {
+          const rawSlug = post.slug.current || post.slug;
+          const cleanSlug = rawSlug.replace(/^https?:\/\/[^\/]+\/blog\//, '').replace(/\/$/, '');
+
+          return {
+            id: post._id,
+            title: post.title,
+            slug: cleanSlug,
+            category: post.category || (post.categories?.[0]?.title) || 'General',
+            categories: post.categories,
+            excerpt: post.excerpt,
+            readingTime: post.stats?.readingTime || post.readingTime,
+            stats: post.stats,
+            publishedAt: post.publishedAt,
+            updatedAt: post.updatedAt,
+            seoTitle: post.seo?.metaTitle || post.title,
+            seoDescription: post.seo?.metaDescription || post.excerpt,
+            noIndex: post.seo?.noindex || false,
+            canonicalUrl: post.seo?.canonicalPath,
+            seo: post.seo,
+            source: 'sanity',
+            mainImage: post.mainImage,
+            heroImage: post.mainImage?.asset?.url,
+            heroImageAlt: post.mainImage?.alt || post.title,
+            author: post.author,
+            tags: post.tags || [],
+            migrationStatus: post.migrationStatus,
+         };
+       });
+
+       const unique = formattedSanity.filter((v, i, a) => a.findIndex(t => (t.slug === v.slug)) === i);
+       unique.sort((a, b) => {
+         const dateA = new Date(a.publishedAt || a.updatedAt || 0).getTime();
+         const dateB = new Date(b.publishedAt || b.updatedAt || 0).getTime();
+         return dateB - dateA;
+       });
+
+       return unique;
+    }
+  } catch (error) {
+    console.log("Sanity summaries fetch failed.", error);
+  }
+  return [];
+}
+
+export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost[]> {
   try {
     const sanityPosts = await fetchFromSanity(latestBlogPostsQuery);
     if (sanityPosts && Array.isArray(sanityPosts)) {
@@ -210,7 +272,7 @@ export async function getAllBlogPosts(): Promise<NormalizedBlogPost[]> {
 }
 
 export async function getUniqueBlogCategoriesAndTags() {
-  const posts = await getAllBlogPosts();
+  const posts = await getFullBlogPostsForAuditOnly();
 
   const categories = new Map<string, { title: string, slug: string, description?: string }>();
   const tags = new Set<string>();

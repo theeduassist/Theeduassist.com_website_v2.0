@@ -2,12 +2,12 @@
 import BlogCard from "./BlogCard.astro";
 
 
-import { getAllBlogPosts } from '../../lib/content/getAllBlogPosts';
+import { getBlogPostSummaries } from '../../lib/content/getAllBlogPosts';
 
 
 let posts = [];
 try {
-  posts = await getAllBlogPosts();
+  posts = await getBlogPostSummaries();
 } catch (e) {
   console.log("Error fetching blog posts for LatestArticles");
 }
