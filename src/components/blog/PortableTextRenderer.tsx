@@ -16,6 +16,20 @@ interface Props {
 
 const components: PortableTextComponents = {
   types: {
+    customCta: ({ value }: any) => (
+      <div className="my-12 bg-slate-50 border border-slate-200 rounded-2xl p-8 lg:p-10 text-center shadow-sm relative overflow-hidden">
+        <h3 className="text-2xl font-bold text-slate-800 mb-4">{value.title}</h3>
+        <p className="text-slate-600 mb-8 max-w-2xl mx-auto">{value.body}</p>
+        <div className="flex flex-wrap justify-center gap-4">
+           <a href={value.primaryUrl} className="inline-flex items-center justify-center px-6 py-3 bg-[var(--color-accent)] text-white font-bold rounded-lg hover:bg-opacity-90 transition-transform hover:-translate-y-0.5 shadow-sm">
+             {value.primaryText}
+           </a>
+           <a href={value.secondaryUrl} className="inline-flex items-center justify-center px-6 py-3 bg-white text-[var(--color-primary)] font-bold rounded-lg border border-[var(--color-primary)] shadow-sm hover:bg-slate-50 transition-colors">
+             {value.secondaryText}
+           </a>
+        </div>
+      </div>
+    ),
     imageWithAlt: ({ value }: any) => {
       if (!value?.asset) {
         return null;
@@ -61,7 +75,28 @@ const components: PortableTextComponents = {
       }
     },
     youtubeEmbed: () => null,
-    table: () => null,
+    table: ({ value }: any) => {
+      if (!value || !value.rows) return null;
+      return (
+        <div className="my-10 overflow-x-auto rounded-xl border border-slate-200 shadow-sm bg-white">
+          <table className="w-full text-left border-collapse min-w-[600px]">
+            {value.rows.map((row: any, rIndex: number) => {
+              const isHeader = rIndex === 0;
+              const CellTag = isHeader ? 'th' : 'td';
+              return (
+                <tr key={row._key || rIndex} className={isHeader ? "bg-slate-50 border-b border-slate-200" : "border-b border-slate-100 last:border-0 hover:bg-slate-50/50 transition-colors"}>
+                  {row.cells.map((cell: any, cIndex: number) => (
+                    <CellTag key={cIndex} className={`p-4 ${isHeader ? "font-bold text-slate-800 text-sm uppercase tracking-wider" : "text-slate-600 align-top"}`}>
+                      {cell}
+                    </CellTag>
+                  ))}
+                </tr>
+              );
+            })}
+          </table>
+        </div>
+      );
+    },
     object: () => null,
     markdownBlock: () => null,
   },
@@ -112,6 +147,42 @@ const components: PortableTextComponents = {
 };
 
 export default function PortableTextRenderer({ value }: Props) {
+  // Inject CTAs at 30% and 80% mark of the content blocks
+  if (Array.isArray(value) && value.length > 5) {
+      const firstCtaIndex = Math.floor(value.length * 0.35);
+      const secondCtaIndex = Math.floor(value.length * 0.85);
+
+      const newBlocks = [];
+      value.forEach((block, index) => {
+         newBlocks.push(block);
+         if (index === firstCtaIndex) {
+            newBlocks.push({
+               _type: 'customCta',
+               _key: 'cta-1',
+               title: "Need help turning this into a working course or platform?",
+               body: "TheEduAssist can review your content, Kajabi setup, LMS plan, or training workflow and suggest the clearest next step.",
+               primaryText: "Get 24–48 Hour Review",
+               primaryUrl: "/book-free-audit/",
+               secondaryText: "Explore Services",
+               secondaryUrl: "/services/"
+            });
+         }
+         if (index === secondCtaIndex) {
+            newBlocks.push({
+               _type: 'customCta',
+               _key: 'cta-2',
+               title: "Build a cleaner learning experience with TheEduAssist",
+               body: "From course structure and LMS migration to AI-powered e-learning content, we help you build learning systems that are easier to launch and easier for learners to follow.",
+               primaryText: "Book Free Audit",
+               primaryUrl: "/book-free-audit/",
+               secondaryText: "View Case Studies",
+               secondaryUrl: "/case-studies/"
+            });
+         }
+      });
+      value = newBlocks;
+  }
+
   return (
     <div className="portable-text-content prose prose-lg prose-slate max-w-none prose-headings:scroll-mt-24 prose-a:text-[var(--color-brand-primary)] prose-img:rounded-2xl prose-img:shadow-sm">
       <PortableText value={value} components={components} />

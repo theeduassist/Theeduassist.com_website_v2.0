@@ -3,15 +3,9 @@ export const prerender = true;
 import Layout from '../../layouts/Layout.astro';
 import BlogHero from '../../components/blog/BlogHero.astro';
 import BlogSearchFilters from '../../components/blog/BlogSearchFilters.astro';
-import BlogCategoryCards from '../../components/blog/BlogCategoryCards.astro';
-import { getBlogUrl } from '../../utils/blog';
-import FeaturedResourceGrid from '../../components/blog/FeaturedResourceGrid.astro';
-import BlogMigrationFlow from '../../components/blog/BlogMigrationFlow.astro';
-import TopicClusterMap from '../../components/blog/TopicClusterMap.astro';
+import FeaturedGuide from '../../components/blog/FeaturedGuide.astro';
+import BlogCard from '../../components/blog/BlogCard.astro';
 import BlogCTA from '../../components/blog/BlogCTA.astro';
-
-import LatestArticles from '../../components/blog/LatestArticles.astro';
-
 import { getAllBlogPosts } from '../../lib/content/getAllBlogPosts';
 
 let posts = [];
@@ -22,18 +16,18 @@ try {
 }
 
 const featuredPost = posts.length > 0 ? posts[0] : null;
+const displayPosts = posts.length > 1 ? posts.slice(1, 10) : [];
+const hasMore = posts.length > 10;
 
 // SEO details
 const title = "Blog | Course Creation, Kajabi, LMS & E-Learning Insights | TheEduAssist";
 const description = "Read TheEduAssist articles on course creation, Kajabi setup, LMS implementation, instructional design, AI-powered e-learning, content conversion, and online course launches.";
 const canonicalPath = "/blog/";
-const ogTitle = title;
-const ogDescription = description;
 
-// Basic WebPage schema for the hub
+// CollectionPage schema
 const schema = {
   "@context": "https://schema.org",
-  "@type": "Blog",
+  "@type": "CollectionPage",
   "name": title,
   "description": description,
   "url": `https://www.theeduassist.com${canonicalPath}`,
@@ -49,98 +43,164 @@ const schema = {
   title={title}
   description={description}
   canonicalPath={canonicalPath}
-  ogTitle={ogTitle}
-  ogDescription={ogDescription}
+  type="website"
   jsonLd={[schema]}
 >
   <BlogHero />
 
-  <main class="container mx-auto px-4 py-12 max-w-6xl">
+  <main class="container mx-auto px-4 py-16 max-w-6xl">
     {posts.length === 0 ? (
-      <div class="text-center py-20 bg-slate-50 rounded-lg border border-slate-200 border-dashed">
-        <p class="text-xl text-slate-600">New articles coming soon.</p>
+      <div class="text-center py-20 bg-slate-50 rounded-xl border border-slate-200 border-dashed max-w-2xl mx-auto">
+        <h2 class="text-2xl font-bold text-slate-800 mb-2">New guides coming soon</h2>
+        <p class="text-slate-600">We're currently writing fresh e-learning insights. Check back soon.</p>
       </div>
     ) : (
       <>
-        {featuredPost && (
-          <div class="mb-16">
-            <h2 class="text-2xl font-bold text-slate-800 mb-6">Featured Article</h2>
-            <article class="bg-white rounded-xl shadow-md border border-slate-200 overflow-hidden group flex flex-col md:flex-row hover:shadow-lg transition-all duration-300">
-               {featuredPost.heroImage || featuredPost.featuredImage?.asset?.url ? (
-                  <div class="md:w-1/2 overflow-hidden aspect-video md:aspect-auto">
-                    <img
-                      src={featuredPost.heroImage || featuredPost.featuredImage?.asset?.url}
-                      alt={featuredPost.heroImageAlt || featuredPost.title}
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                ) : (
-                  <div class="md:w-1/2 overflow-hidden aspect-video md:aspect-auto bg-slate-100 flex items-center justify-center">
-                    <span class="text-slate-400">No Image</span>
-                  </div>
-                )}
+        {featuredPost && <FeaturedGuide post={featuredPost} />}
 
-                <div class="p-8 md:w-1/2 flex flex-col justify-center">
-                  <span class="text-xs font-semibold uppercase tracking-wider text-[var(--color-primary)] mb-3 inline-block">
-                    {featuredPost.category}
-                  </span>
+        <BlogSearchFilters />
 
-                  <h3 class="text-2xl md:text-3xl font-bold text-slate-800 mb-4 group-hover:text-[var(--color-primary)] transition-colors">
-                    <a href={getBlogUrl(featuredPost) || "#"}>
-                      <span class="absolute inset-0" aria-hidden="true"></span>
-                      {featuredPost.title}
-                    </a>
-                  </h3>
-
-                  <p class="text-slate-600 mb-6 line-clamp-3">
-                    {featuredPost.excerpt}
-                  </p>
-
-                  <div class="mt-auto flex items-center justify-between text-sm text-slate-500 pt-4 border-t border-slate-100">
-                    <div class="flex gap-4">
-                      {featuredPost.publishedAt ? (
-                        <time datetime={featuredPost.publishedAt}>{new Date(featuredPost.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</time>
-                      ) : null}
-                      {featuredPost.readingTime ? (
-                         <span>{featuredPost.readingTime} min read</span>
-                      ) : null}
-                    </div>
-
-                    <span class="font-medium text-[var(--color-primary)] flex items-center group-hover:text-[var(--color-accent)] transition-colors relative z-10">
-                      Read Article
-                      <svg class="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                      </svg>
-                    </span>
-                  </div>
-                </div>
-            </article>
-          </div>
-        )}
-
-        <div class="mb-12">
-            <BlogSearchFilters />
+        {/* Start Here Section */}
+        <div class="mb-16 bg-slate-50 border border-slate-200 rounded-2xl p-8 lg:p-10 shadow-sm">
+           <h2 class="text-2xl font-bold text-slate-800 mb-6">Start Here</h2>
+           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <a href="/blog/course-creation/" class="bg-white p-5 rounded-xl border border-slate-200 hover:border-[var(--color-primary)] hover:shadow-md transition-all group block">
+                 <h3 class="font-bold text-slate-800 mb-2 group-hover:text-[var(--color-primary)] transition-colors">Build a Course From Existing Content</h3>
+                 <p class="text-sm text-slate-500">Transform raw materials into structured learning.</p>
+              </a>
+              <a href="/blog/lms-migration/" class="bg-white p-5 rounded-xl border border-slate-200 hover:border-[var(--color-primary)] hover:shadow-md transition-all group block">
+                 <h3 class="font-bold text-slate-800 mb-2 group-hover:text-[var(--color-primary)] transition-colors">Choose the Right LMS or Kajabi Setup</h3>
+                 <p class="text-sm text-slate-500">Compare platforms and plan your migration.</p>
+              </a>
+              <a href="/blog/instructional-design/" class="bg-white p-5 rounded-xl border border-slate-200 hover:border-[var(--color-primary)] hover:shadow-md transition-all group block">
+                 <h3 class="font-bold text-slate-800 mb-2 group-hover:text-[var(--color-primary)] transition-colors">Improve Learner Experience</h3>
+                 <p class="text-sm text-slate-500">Increase completion rates and engagement.</p>
+              </a>
+              <a href="/blog/ai-elearning/" class="bg-white p-5 rounded-xl border border-slate-200 hover:border-[var(--color-primary)] hover:shadow-md transition-all group block">
+                 <h3 class="font-bold text-slate-800 mb-2 group-hover:text-[var(--color-primary)] transition-colors">Use AI to Speed Up Course Creation</h3>
+                 <p class="text-sm text-slate-500">Workflows for efficient content generation.</p>
+              </a>
+           </div>
         </div>
 
-        <BlogCategoryCards />
+        {/* Latest Articles Grid */}
+        <div class="mb-16">
+          <div class="flex justify-between items-end mb-8 border-b border-slate-200 pb-4" id="latest-articles-heading">
+            <h2 class="text-3xl font-bold text-slate-800">Latest Articles</h2>
+          </div>
 
-        <LatestArticles />
+          <div id="blog-empty-state" style="display: none;" class="text-center py-16 bg-slate-50 rounded-xl border border-slate-200">
+            <h3 class="text-xl font-bold text-slate-800 mb-2">No guides found for this topic yet.</h3>
+            <p class="text-slate-600 mb-6">Try adjusting your search or filter.</p>
+            <button onclick="document.querySelector('[data-filter=all]').click(); document.getElementById('blog-search-input').value = '';" class="px-6 py-2 bg-[var(--color-primary)] text-white rounded-md hover:bg-opacity-90 transition-colors font-medium">
+               View All Articles
+            </button>
+          </div>
 
-        <div class="mt-20">
-            <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 md:p-12 text-center shadow-sm relative overflow-hidden max-w-4xl mx-auto">
-              <h2 class="text-3xl font-bold text-slate-800 mb-4">Not sure what your course or platform needs next?</h2>
-              <p class="text-slate-600 mb-8 text-lg max-w-2xl mx-auto">
-                Start with a 24–48 Hour Review so TheEduAssist can help identify the right learning experience, platform, content, and launch improvements.
-              </p>
-              <div class="flex justify-center">
-                <a href="/book-free-audit/" class="inline-flex items-center justify-center px-8 py-4 bg-[var(--color-accent)] text-white font-bold rounded-lg hover:bg-opacity-90 transition-transform hover:-translate-y-0.5 focus:ring-2 focus:ring-offset-2 focus:ring-[var(--color-accent)] focus:outline-none">
-                  Get 24–48 Hour Review &rarr;
-                </a>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {displayPosts.map(post => (
+              <div class="blog-card-container" data-title={post.title} data-excerpt={post.excerpt} data-category={post.category} data-tags={(post.tags || []).join(',')}>
+                <BlogCard
+                  title={post.title}
+                  slug={post.slug?.current || post.slug}
+                  excerpt={post.excerpt}
+                  category={post.category || 'Guide'}
+                  readTimeMinutes={post.readingTime}
+                  publishedAt={post.publishedAt}
+                  image={post.heroImage || post.mainImage?.asset?.url}
+                  imageAlt={post.heroImageAlt || post.mainImage?.alt}
+                  tags={post.tags}
+                />
+              </div>
+            ))}
+          </div>
+
+          {hasMore && (
+            <div class="mt-12 text-center" id="pagination-controls">
+              <a href="/blog/2/" class="inline-flex items-center justify-center px-8 py-3 bg-white text-slate-700 font-medium rounded-lg border border-slate-300 shadow-sm hover:bg-slate-50 hover:text-[var(--color-primary)] transition-all">
+                Load More Articles &rarr;
+              </a>
+            </div>
+          )}
+        </div>
+
+        {/* Bento Grid: Explore by Learning Goal */}
+        <div class="mb-20">
+           <h2 class="text-3xl font-bold text-slate-800 mb-8">Explore by Learning Goal</h2>
+           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <a href="/services/course-creation/" class="group block p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-white hover:border-[var(--color-primary)] hover:shadow-md transition-all">
+                 <div class="w-12 h-12 bg-white rounded-xl shadow-sm border border-slate-100 flex items-center justify-center mb-4 text-[var(--color-primary)] group-hover:scale-110 transition-transform">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                 </div>
+                 <h3 class="font-bold text-slate-800 mb-2 group-hover:text-[var(--color-primary)] transition-colors">Course Creation & Curriculum</h3>
+                 <p class="text-sm text-slate-600">Structure outlines and design effective learning modules.</p>
+              </a>
+
+              <a href="/services/kajabi-setup/" class="group block p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-white hover:border-[var(--color-primary)] hover:shadow-md transition-all">
+                 <div class="w-12 h-12 bg-white rounded-xl shadow-sm border border-slate-100 flex items-center justify-center mb-4 text-[var(--color-primary)] group-hover:scale-110 transition-transform">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                 </div>
+                 <h3 class="font-bold text-slate-800 mb-2 group-hover:text-[var(--color-primary)] transition-colors">Kajabi Setup & Growth</h3>
+                 <p class="text-sm text-slate-600">Build products, pipelines, and seamless user experiences.</p>
+              </a>
+
+              <a href="/services/lms-migration/" class="group block p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-white hover:border-[var(--color-primary)] hover:shadow-md transition-all">
+                 <div class="w-12 h-12 bg-white rounded-xl shadow-sm border border-slate-100 flex items-center justify-center mb-4 text-[var(--color-primary)] group-hover:scale-110 transition-transform">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+                 </div>
+                 <h3 class="font-bold text-slate-800 mb-2 group-hover:text-[var(--color-primary)] transition-colors">LMS Implementation & Migration</h3>
+                 <p class="text-sm text-slate-600">Move your content safely without losing learner progress.</p>
+              </a>
+
+              <a href="/services/ai-elearning/" class="group block p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-white hover:border-[var(--color-primary)] hover:shadow-md transition-all">
+                 <div class="w-12 h-12 bg-white rounded-xl shadow-sm border border-slate-100 flex items-center justify-center mb-4 text-[var(--color-primary)] group-hover:scale-110 transition-transform">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                 </div>
+                 <h3 class="font-bold text-slate-800 mb-2 group-hover:text-[var(--color-primary)] transition-colors">AI-Powered E-Learning</h3>
+                 <p class="text-sm text-slate-600">Implement AI tools for personalized learning and rapid authoring.</p>
+              </a>
+
+              <a href="/services/corporate-training/" class="group block p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-white hover:border-[var(--color-primary)] hover:shadow-md transition-all">
+                 <div class="w-12 h-12 bg-white rounded-xl shadow-sm border border-slate-100 flex items-center justify-center mb-4 text-[var(--color-primary)] group-hover:scale-110 transition-transform">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                 </div>
+                 <h3 class="font-bold text-slate-800 mb-2 group-hover:text-[var(--color-primary)] transition-colors">Corporate Training & Upskilling</h3>
+                 <p class="text-sm text-slate-600">Deploy scalable internal academies for employees and partners.</p>
+              </a>
+
+              <a href="/services/instructional-design/" class="group block p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-white hover:border-[var(--color-primary)] hover:shadow-md transition-all">
+                 <div class="w-12 h-12 bg-white rounded-xl shadow-sm border border-slate-100 flex items-center justify-center mb-4 text-[var(--color-primary)] group-hover:scale-110 transition-transform">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                 </div>
+                 <h3 class="font-bold text-slate-800 mb-2 group-hover:text-[var(--color-primary)] transition-colors">Instructional Design</h3>
+                 <p class="text-sm text-slate-600">Apply learning science to improve completion rates.</p>
+              </a>
+           </div>
+        </div>
+
+        {/* Sales CTA Section */}
+        <div class="mb-20">
+            <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl p-10 lg:p-16 text-center shadow-xl relative overflow-hidden max-w-5xl mx-auto">
+              <div class="absolute top-0 right-0 w-64 h-64 bg-[var(--color-accent)] opacity-20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+              <div class="absolute bottom-0 left-0 w-64 h-64 bg-[var(--color-primary)] opacity-20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+
+              <div class="relative z-10">
+                <h2 class="text-3xl lg:text-4xl font-bold text-white mb-6">Not sure what your course, LMS, or Kajabi setup needs?</h2>
+                <p class="text-slate-300 mb-10 text-lg max-w-2xl mx-auto">
+                  Send us your current content, platform, or training goal. TheEduAssist will review it and suggest the clearest next step within 24–48 hours.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4">
+                  <a href="/book-free-audit/" class="inline-flex items-center justify-center px-8 py-4 bg-[var(--color-accent)] text-white font-bold rounded-lg hover:bg-opacity-90 transition-transform hover:-translate-y-0.5 focus:ring-2 focus:ring-offset-2 focus:ring-[var(--color-accent)] shadow-lg">
+                    Get 24–48 Hour Review
+                  </a>
+                  <a href="/services/" class="inline-flex items-center justify-center px-8 py-4 bg-white/10 text-white font-bold rounded-lg border border-white/20 hover:bg-white/20 transition-colors shadow-sm">
+                    View Services
+                  </a>
+                </div>
               </div>
             </div>
         </div>
       </>
     )}
   </main>
-
 </Layout>

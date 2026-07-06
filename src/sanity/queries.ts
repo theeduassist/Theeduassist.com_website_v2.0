@@ -66,7 +66,7 @@ export async function getAuthorBySlug(slug: string) {
 
 // Posts
 export async function getAllPosts() {
-  return await fetchFromSanity(`*[_type == "post" && defined(slug.current) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc)`)
+  return await fetchFromSanity(`*[_type == "post" && defined(slug.current) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || !(status in ["draft", "review", "pending", "archived", "Draft", "Review", "Pending", "Archived"])) && (!defined(migrationStatus) || !(migrationStatus in ["draft", "review", "pending", "archived", "Draft", "Review", "Pending", "Archived"]))] | order(publishedAt desc, _createdAt desc)`)
 }
 
 export async function getPostBySlug(slug: string) {
@@ -74,7 +74,7 @@ export async function getPostBySlug(slug: string) {
 }
 
 // Get latest blog posts
-export const latestBlogPostsQuery = `*[_type == "post" && defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc) {
+export const latestBlogPostsQuery = `*[_type == "post" && defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || !(status in ["draft", "review", "pending", "archived", "Draft", "Review", "Pending", "Archived"])) && (!defined(migrationStatus) || !(migrationStatus in ["draft", "review", "pending", "archived", "Draft", "Review", "Pending", "Archived"]))] | order(publishedAt desc, _createdAt desc) {
   _id,
   _createdAt,
   _updatedAt,
@@ -123,7 +123,7 @@ export const latestBlogPostsQuery = `*[_type == "post" && defined(slug.current) 
     slug,
     "logo": logo.asset->url
   },
-  relatedPosts[]->[defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] {
+  relatedPosts[]->[defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || !(status in ["draft", "review", "pending", "archived", "Draft", "Review", "Pending", "Archived"])) && (!defined(migrationStatus) || !(migrationStatus in ["draft", "review", "pending", "archived", "Draft", "Review", "Pending", "Archived"]))] {
     _id,
     title,
     slug,

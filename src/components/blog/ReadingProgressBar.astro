@@ -1,69 +1,49 @@
 ---
 ---
-<div id="reading-progress-container" class="fixed top-0 left-0 w-full h-1 z-50 bg-transparent pointer-events-none transition-opacity duration-300 opacity-0" aria-hidden="true">
-  <div id="reading-progress-bar" class="h-full bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-accent)] w-0"></div>
+<div id="reading-progress-container" class="fixed top-0 left-0 w-full h-1 bg-transparent z-50 pointer-events-none">
+  <div id="reading-progress-bar" class="h-full bg-[var(--color-primary)] w-0 transition-all duration-150 ease-out shadow-[0_0_10px_var(--color-primary)]"></div>
 </div>
 
 <script>
-  function setupReadingProgress() {
+  function updateProgress() {
+    const article = document.querySelector('article');
     const progressBar = document.getElementById('reading-progress-bar');
-    const progressContainer = document.getElementById('reading-progress-container');
+    if (!article || !progressBar) return;
 
-    if (!progressBar || !progressContainer) return;
-
-    // Respect prefers-reduced-motion
-    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-    if (mediaQuery.matches) {
-        progressContainer.style.display = 'none';
-        return;
+    // Check for reduced motion preference
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+       progressBar.style.transition = 'none';
     }
 
-    const updateProgress = () => {
-      const scrollY = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const computeProgress = () => {
+      const rect = article.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
 
-      if (docHeight > 0) {
-        const progress = Math.min((scrollY / docHeight) * 100, 100);
-        progressBar.style.width = `${progress}%`;
+      // Calculate how much of the article has been scrolled past
+      // rect.top is 0 when article is at top of screen
+      // rect.height is total height of article
 
-        // Only show progress bar when user has scrolled down a bit
-        if (scrollY > 100) {
-            progressContainer.classList.remove('opacity-0');
-            progressContainer.classList.add('opacity-100');
-        } else {
-            progressContainer.classList.add('opacity-0');
-            progressContainer.classList.remove('opacity-100');
-        }
+      // Start progress when top of article hits middle of screen, end when bottom hits bottom
+      const scrolled = window.scrollY;
+      const start = article.offsetTop;
+      const height = article.offsetHeight - viewportHeight;
 
-        // Fire GTM events based on progress milestones
-        if (window.dataLayer && typeof window.trackEvent === 'function') {
-           const milestones = [25, 50, 75, 100];
-           if (!window.readingMilestones) {
-               window.readingMilestones = new Set();
-           }
-
-           milestones.forEach(milestone => {
-               if (progress >= milestone && !window.readingMilestones.has(milestone)) {
-                   window.readingMilestones.add(milestone);
-                   window.trackEvent(`blog_read_progress_${milestone}`, {
-                       page_path: window.location.pathname,
-                       page_title: document.title
-                   });
-               }
-           });
-        }
-
+      if (height <= 0) {
+        progressBar.style.width = '100%';
+        return;
       }
+
+      let progress = ((scrolled - start) / height) * 100;
+      progress = Math.max(0, Math.min(100, progress));
+
+      progressBar.style.width = `${progress}%`;
     };
 
-    window.addEventListener('scroll', updateProgress, { passive: true });
-    // Initial call in case page loads partway down
-    updateProgress();
+    window.addEventListener('scroll', computeProgress, { passive: true });
+    window.addEventListener('resize', computeProgress, { passive: true });
+    computeProgress();
   }
 
-  // Run on initial load
-  setupReadingProgress();
-
-  // Run on Astro page transitions if applicable
-  document.addEventListener('astro:page-load', setupReadingProgress);
+  updateProgress();
+  document.addEventListener('astro:page-load', updateProgress);
 </script>
