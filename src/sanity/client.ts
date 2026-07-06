@@ -1,11 +1,13 @@
 import { createClient } from '@sanity/client'
 import { projectId, dataset, apiVersion } from './env'
 
+// THIS CLIENT MUST ONLY BE USED SERVER-SIDE / BUILD TIME
+// DO NOT import this into browser-hydrated React/Vue components to prevent exposing tokens or doing client-side fetching.
 export const client = createClient({
   projectId,
   dataset,
   apiVersion,
-  useCdn: true, // Use CDN for public reads, no token needed
+  useCdn: false, // Ensure fresh build data and prevent reliance on runtime fetching
 })
 
 // Wrapper to gracefully fallback when env vars are missing

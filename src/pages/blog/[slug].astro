@@ -10,30 +10,35 @@ import ArticleShareButtons from '../../components/blog/ArticleShareButtons.astro
 import BlogFAQs from '../../components/blog/BlogFAQs.astro';
 import RelatedCaseStudies from '../../components/blog/RelatedCaseStudies.astro';
 
-import { getAllBlogPosts } from '../../lib/content/getAllBlogPosts';
+import { getBlogPostSlugs, getBlogPostSummaries } from '../../lib/content/getAllBlogPosts';
 import { extractHeadings } from '../../utils/extractHeadings';
 import { getFallbackDescription } from '../../utils/blog';
+import { getPostBySlug } from '../../sanity/queries';
 
 export async function getStaticPaths() {
-  const posts = await getAllBlogPosts();
+  const slugs = await getBlogPostSlugs();
+  const allPosts = await getBlogPostSummaries();
 
-  // Filter out posts that do not have valid body or content
-  // posts is already strictly filtered by getAllBlogPosts()
-  const validPosts = posts;
-
-  return validPosts.map(post => {
+  return slugs.map(slug => {
     return {
-      params: { slug: post.slug },
-      props: { post, allPosts: validPosts }
+      params: { slug },
+      props: { slug, allPosts }
     };
   });
 }
 
-const { post, allPosts } = Astro.props;
+const { slug, allPosts } = Astro.props;
+
+// Fetch the full post details including the body
+const post = await getPostBySlug(slug);
 
 if (!post) {
-  throw new Error("Post not found");
+  return Astro.redirect('/404');
 }
+
+// Ensure the variables the component uses are properly extracted
+const body = post.body;
+const content = post.content;
 
 const schemaFaqs = [
   ...(post.relatedFaqs || [])

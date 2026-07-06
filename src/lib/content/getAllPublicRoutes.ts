@@ -1,4 +1,4 @@
-import { getAllBlogPosts, isPublicBlogPost } from './getAllBlogPosts';
+import { getBlogPostSummaries, isPublicBlogPost } from './getAllBlogPosts';
 import { getAllCaseStudies } from './getAllCaseStudies';
 import { getAllServices } from './getAllServices';
 
@@ -169,7 +169,7 @@ export async function getAllPublicRoutes(): Promise<PublicRoute[]> {
   });
 
   // Blog Posts dynamically
-  const blogPosts = await getAllBlogPosts();
+  const blogPosts = await getBlogPostSummaries();
   blogPosts.filter(isPublicBlogPost).forEach(post => {
     routes.push({
       path: `/blog/${post.slug}/`,

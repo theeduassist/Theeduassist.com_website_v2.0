@@ -83,7 +83,7 @@ if (allFaqs.length === 0) {
               <p>{faq.answer}</p>
             ) : (
               <div class="faq-portable-text">
-                <PortableTextRenderer value={faq.answer} client:load />
+                <PortableTextRenderer value={faq.answer} />
               </div>
             )}
           </div>

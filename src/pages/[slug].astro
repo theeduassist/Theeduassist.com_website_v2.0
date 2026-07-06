@@ -35,7 +35,7 @@ const { title, body, seo } = page;
 
     <div class="prose prose-lg prose-slate prose-a:text-[var(--color-primary)] hover:prose-a:text-[var(--color-accent)] max-w-none mx-auto">
       {body ? (
-        <PortableTextRenderer value={body} client:load />
+        <PortableTextRenderer value={body} />
       ) : (
         <p>Content coming soon.</p>
       )}
