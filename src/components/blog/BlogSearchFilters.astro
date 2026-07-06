@@ -1,20 +1,17 @@
 ---
-import { getUniqueBlogCategoriesAndTags } from '../../lib/content/getAllBlogPosts';
-
-let tags = [];
-let categories = [];
-try {
-  const data = await getUniqueBlogCategoriesAndTags();
-  tags = data.tags;
-  categories = data.categories;
-} catch (e) {
-  console.log("Error fetching tags for filters");
-}
-
-// Ensure tags have fallback values if empty, but we can combine category slugs and tags to give users something to click if tags are empty
-const filterChips = [...new Set([...tags, ...categories.map(c => c.slug)])].slice(0, 15);
+const filterChips = [
+  { label: 'All', value: 'all' },
+  { label: 'LMS', value: 'lms' },
+  { label: 'Kajabi', value: 'kajabi' },
+  { label: 'Course Creation', value: 'course creation' },
+  { label: 'AI E-Learning', value: 'ai' },
+  { label: 'Corporate Training', value: 'corporate' },
+  { label: 'Instructional Design', value: 'instructional' },
+  { label: 'Content Conversion', value: 'conversion' },
+  { label: 'Platform Guides', value: 'platform' },
+  { label: 'Funnels & Automation', value: 'funnel' },
+];
 ---
-{filterChips.length > 0 && (
 <div class="mb-12 bg-white p-6 rounded-lg shadow-sm border border-slate-200">
   <div class="flex flex-col md:flex-row gap-4 items-center mb-6">
     <div class="relative w-full md:w-1/2">
@@ -43,22 +40,13 @@ const filterChips = [...new Set([...tags, ...categories.map(c => c.slug)])].slic
     <div>
       <h3 class="text-sm font-medium text-slate-700 mb-2">Filter by Topic:</h3>
       <div class="flex flex-wrap gap-2" id="tag-filters">
-        <button
-            class="filter-chip px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-full text-sm text-slate-600 hover:bg-slate-100 hover:text-slate-900 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-[var(--color-primary)] aria-pressed:bg-[var(--color-primary)] aria-pressed:text-white aria-pressed:border-[var(--color-primary)]"
-            data-filter-type="all"
-            data-filter-value="all"
-            aria-pressed="false"
-          >
-            All
-          </button>
-        {filterChips.map(tag => (
+        {filterChips.map((chip, index) => (
           <button
-            class="filter-chip px-3 py-1.5 bg-slate-50 border border-slate-200 rounded-full text-sm text-slate-600 hover:bg-slate-100 hover:text-slate-900 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-[var(--color-primary)] aria-pressed:bg-[var(--color-primary)] aria-pressed:text-white aria-pressed:border-[var(--color-primary)]"
-            data-filter-type="tag"
-            data-filter-value={tag}
-            aria-pressed="false"
+            class={`filter-chip px-4 py-2 bg-slate-50 border border-slate-200 rounded-full text-sm font-medium text-slate-600 hover:bg-slate-100 hover:text-slate-900 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-[var(--color-primary)] aria-pressed:bg-[var(--color-primary)] aria-pressed:text-white aria-pressed:border-[var(--color-primary)] ${index === 0 ? 'bg-[var(--color-primary)] text-white border-[var(--color-primary)]' : ''}`}
+            data-filter-value={chip.value}
+            aria-pressed={index === 0 ? "true" : "false"}
           >
-            {tag.replace(/-/g, ' ')}
+            {chip.label}
           </button>
         ))}
       </div>
@@ -69,7 +57,6 @@ const filterChips = [...new Set([...tags, ...categories.map(c => c.slug)])].slic
     <span id="search-result-count">Showing all articles</span>
   </div>
 </div>
-)}
 
 <script>
   function setupSearchFilters() {
@@ -104,15 +91,77 @@ const filterChips = [...new Set([...tags, ...categories.map(c => c.slug)])].slic
 
         const matchesTags = activeTags.size === 0 ||
                             activeTags.has('all') ||
-                            [...activeTags].some(tag => tags.includes(tag) || catSlug === tag);
+                            [...activeTags].some(tag => {
+                               // Topic mapping to handle "General" gracefully
+                               const t = tag.toLowerCase();
+                               const allContent = `${title} ${excerpt} ${category} ${tags.join(' ')}`.toLowerCase();
+
+                               if (t === 'lms') return allContent.includes('lms') || allContent.includes('moodle') || allContent.includes('talentlms') || allContent.includes('absorb') || allContent.includes('docebo') || allContent.includes('learndash') || allContent.includes('learnworlds') || allContent.includes('teachable') || allContent.includes('thinkific');
+                               if (t === 'kajabi') return allContent.includes('kajabi');
+                               if (t === 'ai') return allContent.includes('ai ') || allContent.includes('artificial intelligence');
+                               if (t === 'corporate') return allContent.includes('corporate') || allContent.includes('employee') || allContent.includes('compliance') || allContent.includes('onboarding');
+                               if (t === 'instructional') return allContent.includes('instructional') || allContent.includes('curriculum') || allContent.includes('learner experience');
+                               if (t === 'conversion') return allContent.includes('conversion') || allContent.includes('pdf') || allContent.includes('slide') || allContent.includes('video') || allContent.includes('sop');
+                               if (t === 'platform') return allContent.includes('platform') || allContent.includes('lms') || allContent.includes('kajabi') || allContent.includes('learndash');
+                               if (t === 'funnel') return allContent.includes('funnel') || allContent.includes('automation');
+                               if (t === 'course creation') return allContent.includes('course creation') || allContent.includes('create course');
+
+                               return tags.includes(t) || catSlug.includes(t);
+                            });
+
+        // We only hide the card itself. We shouldn't touch the wrapper here.
+        // Wait, the wrapper controls layout in AllArticlesGrid.
+        const wrapper = card.closest('.article-card-wrapper');
 
         if (matchesSearch && matchesTags) {
           card.style.display = '';
+          if (wrapper) wrapper.style.display = ''; // Make wrapper visible if filter matches
           visibleCount++;
         } else {
           card.style.display = 'none';
+          if (wrapper) wrapper.style.display = 'none';
         }
       });
+
+      // Update Load More button visibility
+      const loadMoreBtn = document.getElementById('load-more-btn');
+      if (loadMoreBtn && loadMoreBtn.parentElement) {
+          if (activeTags.size > 0 && !activeTags.has('all')) {
+              // If filtering, we might just want to hide load more since we're showing all matched
+              loadMoreBtn.parentElement.style.display = 'none';
+
+              // Ensure all matched are visible, removing 'hidden' from wrappers
+              cards.forEach((card: any) => {
+                  const wrapper = card.closest('.article-card-wrapper');
+                  if (wrapper && card.style.display !== 'none') {
+                      wrapper.classList.remove('hidden');
+                  }
+              });
+          } else if (currentQuery !== '') {
+              loadMoreBtn.parentElement.style.display = 'none';
+              cards.forEach((card: any) => {
+                  const wrapper = card.closest('.article-card-wrapper');
+                  if (wrapper && card.style.display !== 'none') {
+                      wrapper.classList.remove('hidden');
+                  }
+              });
+          } else {
+              loadMoreBtn.parentElement.style.display = '';
+              // Reset the initial 12 visibility if we clear filters
+              let count = 0;
+              cards.forEach((card: any) => {
+                  const wrapper = card.closest('.article-card-wrapper');
+                  if (wrapper) {
+                      if (count < 12) {
+                          wrapper.classList.remove('hidden');
+                      } else {
+                          wrapper.classList.add('hidden');
+                      }
+                      count++;
+                  }
+              });
+          }
+      }
 
       // Update UI
       if (resultCount) {

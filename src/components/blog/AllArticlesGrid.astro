@@ -1,0 +1,87 @@
+---
+import BlogCard from './BlogCard.astro';
+
+interface Props {
+  posts: any[];
+}
+
+const { posts = [] } = Astro.props;
+---
+
+<div class="all-articles-container my-16">
+  <div class="flex justify-between items-end mb-8 border-b border-slate-200 pb-4">
+    <div>
+      <h2 class="text-3xl font-bold text-slate-800">All Blog Articles</h2>
+      <p class="text-slate-600 mt-2">Browse our complete collection of insights.</p>
+    </div>
+  </div>
+
+  <div id="no-results-message" class="hidden text-center py-12 bg-slate-50 rounded-lg border border-slate-200 border-dashed">
+    <p class="text-slate-600">No articles found matching your criteria.</p>
+  </div>
+
+  <div class="article-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {posts.map((post, index) => (
+      <div class={`article-card-wrapper ${index >= 12 ? 'hidden' : ''}`}>
+        <BlogCard
+          title={post.title}
+          slug={post.slug?.current || post.slug}
+          excerpt={post.excerpt}
+          category={post.category}
+          readTimeMinutes={post.readingTime}
+          publishedAt={post.publishedAt}
+          image={post.heroImage || post.mainImage?.asset?.url}
+          imageAlt={post.heroImageAlt || post.mainImage?.alt}
+          tags={post.tags}
+        />
+      </div>
+    ))}
+  </div>
+
+  {posts.length > 12 && (
+    <div class="mt-12 text-center load-more-container">
+      <button id="load-more-btn" class="inline-flex items-center justify-center px-6 py-3 bg-white text-slate-700 font-medium rounded-md border border-slate-300 hover:bg-slate-50 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-slate-500 focus:outline-none">
+        Load More Articles
+      </button>
+    </div>
+  )}
+</div>
+
+<script>
+  function setupLoadMore() {
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    if (!loadMoreBtn) return;
+
+    let visibleCount = 12;
+    const increment = 12;
+
+    loadMoreBtn.addEventListener('click', () => {
+      // Need to recount based on what is currently displayable vs filtered
+      // But search filtering might hide things, so the simplest approach is to just show the next N hidden cards that match the current filter
+
+      const wrappers = document.querySelectorAll('.article-card-wrapper');
+      let shownThisClick = 0;
+
+      wrappers.forEach(wrapper => {
+        if (shownThisClick >= increment) return;
+
+        // Only consider it hidden if the wrapper itself has the 'hidden' class
+        // (The filter logic will hide the article inside, or we can update the filter logic to handle this gracefully)
+        if (wrapper.classList.contains('hidden')) {
+          wrapper.classList.remove('hidden');
+          shownThisClick++;
+          visibleCount++;
+        }
+      });
+
+      // Hide button if no more hidden wrappers
+      const remainingHidden = document.querySelectorAll('.article-card-wrapper.hidden').length;
+      if (remainingHidden === 0) {
+        loadMoreBtn.parentElement.style.display = 'none';
+      }
+    });
+  }
+
+  setupLoadMore();
+  document.addEventListener('astro:page-load', setupLoadMore);
+</script>

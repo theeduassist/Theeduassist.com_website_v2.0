@@ -1,0 +1,99 @@
+---
+export const faqs = [
+  {
+    question: "What topics does TheEduAssist blog cover?",
+    answer: "Our blog covers practical insights into online course creation, Kajabi setup, instructional design, AI-powered e-learning, content conversion, and learner experience optimization."
+  },
+  {
+    question: "Are there guides for LMS migration and platform selection?",
+    answer: "Yes, we regularly publish guides to help you navigate LMS migration safely and select the best platform for your specific training needs and audience."
+  },
+  {
+    question: "Do you publish articles about Kajabi, LearnDash, Thinkific, Teachable, and LearnWorlds?",
+    answer: "Absolutely. We review and compare major platforms including Kajabi, LearnDash, Thinkific, Teachable, and LearnWorlds so you can make an informed decision for your business."
+  },
+  {
+    question: "Can TheEduAssist help me choose the right LMS or course platform?",
+    answer: "Yes. While our articles provide general guidance, you can also explore our services or request a review to get tailored advice on which platform fits your goals."
+  },
+  {
+    question: "Can I request a 24–48 Hour Review after reading a blog?",
+    answer: "Yes, you can easily request a 24–48 Hour Review directly from the blog. We will review your current setup or course idea and suggest the best next steps."
+  },
+  {
+    question: "Are the articles useful for coaches, consultants, educators, and corporate training teams?",
+    answer: "Yes, our content is designed for a broad range of e-learning professionals, including individual creators, established coaches, and corporate teams looking to improve employee onboarding and compliance."
+  }
+];
+---
+<div class="my-20 max-w-3xl mx-auto">
+  <h2 class="text-3xl font-bold text-slate-800 mb-8 text-center">Blog FAQs</h2>
+  <div class="space-y-4" data-accordion-group>
+    {faqs.map((faq, index) => (
+      <div class="border border-slate-200 rounded-lg bg-white overflow-hidden" data-accordion-item>
+        <button
+          type="button"
+          class="flex justify-between items-center w-full px-6 py-4 text-left font-semibold text-slate-800 hover:bg-slate-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-primary)] transition-colors"
+          data-accordion-trigger
+          aria-expanded="false"
+          aria-controls={`index-faq-answer-${index}`}
+          id={`index-faq-question-${index}`}
+        >
+          <span>{faq.question}</span>
+          <svg
+            class="w-5 h-5 text-slate-400 transform transition-transform duration-200"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            data-accordion-icon
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div
+          id={`index-faq-answer-${index}`}
+          role="region"
+          aria-labelledby={`index-faq-question-${index}`}
+          class="hidden px-6 pb-4 text-slate-600"
+          data-accordion-content
+        >
+          <p>{faq.answer}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
+<script>
+  function setupIndexAccordions() {
+    const triggers = document.querySelectorAll('[data-accordion-trigger]');
+    triggers.forEach(trigger => {
+      // Avoid attaching multiple listeners if re-run
+      const newTrigger = trigger.cloneNode(true) as HTMLElement;
+      if (trigger.parentNode) {
+        trigger.parentNode.replaceChild(newTrigger, trigger);
+      }
+
+      newTrigger.addEventListener('click', () => {
+        const expanded = newTrigger.getAttribute('aria-expanded') === 'true';
+        const contentId = newTrigger.getAttribute('aria-controls');
+        if (!contentId) return;
+        const content = document.getElementById(contentId);
+        const icon = newTrigger.querySelector('[data-accordion-icon]');
+
+        if (expanded) {
+          newTrigger.setAttribute('aria-expanded', 'false');
+          content?.classList.add('hidden');
+          icon?.classList.remove('rotate-180');
+        } else {
+          newTrigger.setAttribute('aria-expanded', 'true');
+          content?.classList.remove('hidden');
+          icon?.classList.add('rotate-180');
+        }
+      });
+    });
+  }
+
+  setupIndexAccordions();
+  document.addEventListener('astro:page-load', setupIndexAccordions);
+</script>

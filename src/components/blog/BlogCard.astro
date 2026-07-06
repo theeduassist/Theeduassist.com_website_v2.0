@@ -20,6 +20,11 @@ const pubDate = publishedAt ? new Date(publishedAt).toLocaleDateString('en-US', 
 
 // Safe excerpt fallback if missing
 const safeExcerpt = excerpt || "Read this article to learn more about our e-learning strategies and course building insights.";
+
+// Filter out internal CMS statuses
+const hiddenStatuses = ['review pending', 'draft', 'internal', 'admin', 'private', 'test', 'do not publish'];
+const displayCategory = category && !hiddenStatuses.includes(category.toLowerCase()) ? category : 'Article';
+const displayTags = tags.filter(tag => !hiddenStatuses.includes(tag.toLowerCase()));
 ---
 <article
   class="blog-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow flex flex-col h-full group relative"
@@ -28,7 +33,7 @@ const safeExcerpt = excerpt || "Read this article to learn more about our e-lear
   data-category={category}
   data-tags={tags.join(',')}
 >
-  <a href={getBlogUrl({slug}) || "#"} class="block relative w-full pt-[56.25%] overflow-hidden bg-slate-100">
+  <a href={getBlogUrl({slug}) || "#"} class="block relative w-full aspect-[16/9] overflow-hidden bg-slate-100">
     {image ? (
       <img
         src={image}
@@ -45,8 +50,8 @@ const safeExcerpt = excerpt || "Read this article to learn more about our e-lear
 
   <div class="p-6 flex flex-col flex-grow">
     <div class="flex items-center justify-between mb-3">
-      <span class="text-xs font-semibold uppercase tracking-wider text-[var(--color-primary)]">
-        {category}
+      <span class="text-xs font-semibold uppercase tracking-wider text-[var(--color-primary)] truncate max-w-[70%]">
+        {displayCategory}
       </span>
       {readTimeMinutes && readTimeMinutes > 0 && (
         <ReadTimeBadge minutes={readTimeMinutes} />
