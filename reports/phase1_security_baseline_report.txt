@@ -1,0 +1,4 @@
+Modifications made for Security Baseline:
+1. `vercel.json` headers were updated to include `Permissions-Policy: camera=(), microphone=(), geolocation=()`.
+2. Other security headers (`X-Content-Type-Options`, `Referrer-Policy`, `X-Frame-Options`, `Strict-Transport-Security`, `Content-Security-Policy-Report-Only`) were already present and verified.
+3. Added route redirects in `vercel.json` to safely redirect common scanner paths (`/wp-admin`, `/wp-login.php`, `/xmlrpc.php`, `/.env`, `/.git`, `/phpmyadmin`, `/adminer`) to the 404 page, preventing internal server errors or exposure on those routes.

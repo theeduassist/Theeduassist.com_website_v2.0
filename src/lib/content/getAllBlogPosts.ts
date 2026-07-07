@@ -72,7 +72,8 @@ export function getBlogPostPublicFilterReason(post: any): string | null {
 
   if (isDraftPost(post)) return 'Draft document';
   if (isNoindexPost(post)) return 'noindex true';
-  if (isPlaceholderPost(post)) return 'placeholder content';
+  // Placeholders
+  if (post.title && post.title.toLowerCase().includes('content coming soon')) return 'placeholder content';
   if (!hasValidSlug(post)) return 'test slug or title';
 
   const title = (post.title || '').toLowerCase();
@@ -100,13 +101,50 @@ export function getBlogPostPublicFilterReason(post: any): string | null {
   if (migrationStatus && ['draft', 'review', 'pending', 'archived'].includes(migrationStatus.toLowerCase())) return 'blocked migrationStatus';
 
   // Final check for body content
-  if (!hasUsefulBody(post)) return 'body too short';
+  // Final check for body content
+  if (!post.body && !post.content) return 'body too short';
 
   return null;
 }
 
+
+export function isPublicBlogSummary(post: any): boolean {
+  if (!post) return false;
+  if (!hasValidSlug(post)) return false;
+  if (isDraftPost(post)) return false;
+  if (isNoindexPost(post)) return false;
+  if (post.hidden === true) return false;
+  if (post.reviewPending === true) return false;
+  if (!post.publishedAt) return false;
+
+  const title = (post.title || '').toLowerCase();
+  if (!title ||
+      title.includes('test') ||
+      title.includes('testing') ||
+      title.includes('do not publish') ||
+      title.includes('review pending') ||
+      title.includes('content coming soon')) {
+      return false;
+  }
+
+  const status = post.status;
+  if (status && ['draft', 'review', 'pending', 'archived'].includes(status.toLowerCase())) return false;
+
+  const migrationStatus = post.migrationStatus;
+  if (migrationStatus && ['draft', 'review', 'pending', 'archived'].includes(migrationStatus.toLowerCase())) return false;
+
+  return true;
+}
+
+export function isPublicFullBlogPost(post: any): boolean {
+  if (!isPublicBlogSummary(post)) return false;
+  if (post.title && post.title.toLowerCase().includes('content coming soon')) return false;
+  if (!post.body && !post.content) return false;
+  return true;
+}
+
 export function isPublicBlogPost(post: any): boolean {
-  return getBlogPostPublicFilterReason(post) === null;
+  return isPublicFullBlogPost(post);
 }
 
 export type NormalizedBlogPost = {
@@ -147,7 +185,7 @@ export type NormalizedBlogPost = {
 
 export async function getBlogPostSlugs(): Promise<string[]> {
   try {
-    const slugs = await fetchFromSanity(blogPostSlugsQuery);
+    const slugs = await fetchFromSanity(blogPostSlugsQuery, {}, ['website.blog.slugs']);
     if (slugs && Array.isArray(slugs)) {
       return slugs.map((s: any) => s.slug).filter(Boolean).map(s => s.replace(/^https?:\/\/[^\/]+\/blog\//, '').replace(/\/$/, ''));
     }
@@ -159,9 +197,9 @@ export async function getBlogPostSlugs(): Promise<string[]> {
 
 export async function getBlogPostSummaries(): Promise<NormalizedBlogPost[]> {
   try {
-    const sanityPosts = await fetchFromSanity(blogPostSummariesQuery);
+    const sanityPosts = await fetchFromSanity(blogPostSummariesQuery, {}, ['website.blog.summaries']);
     if (sanityPosts && Array.isArray(sanityPosts)) {
-       const formattedSanity: NormalizedBlogPost[] = sanityPosts.filter(isPublicBlogPost).map((post: any) => {
+       const formattedSanity: NormalizedBlogPost[] = sanityPosts.filter(isPublicBlogSummary).map((post: any) => {
           const rawSlug = post.slug.current || post.slug;
           const cleanSlug = rawSlug.replace(/^https?:\/\/[^\/]+\/blog\//, '').replace(/\/$/, '');
 
@@ -208,10 +246,10 @@ export async function getBlogPostSummaries(): Promise<NormalizedBlogPost[]> {
 
 export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost[]> {
   try {
-    const sanityPosts = await fetchFromSanity(latestBlogPostsQuery);
+    const sanityPosts = await fetchFromSanity(latestBlogPostsQuery, {}, ['website.blog.summaries', 'website.homepage.latest']);
     if (sanityPosts && Array.isArray(sanityPosts)) {
        // Filter here as well just to be perfectly safe, though the GROQ query handles most of it.
-       const formattedSanity: NormalizedBlogPost[] = sanityPosts.filter(isPublicBlogPost).map((post: any) => {
+       const formattedSanity: NormalizedBlogPost[] = sanityPosts.filter(isPublicBlogSummary).map((post: any) => {
           const rawSlug = post.slug.current || post.slug;
           const cleanSlug = rawSlug.replace(/^https?:\/\/[^\/]+\/blog\//, '').replace(/\/$/, '');
 
@@ -244,7 +282,7 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
           relatedFaqs: post.relatedFaqs,
           relatedServices: post.relatedServices,
           relatedPlatforms: post.relatedPlatforms,
-          relatedPosts: Array.isArray(post.relatedPosts) ? post.relatedPosts.filter(isPublicBlogPost).filter((rp: any) => rp.slug?.current !== cleanSlug && rp.slug !== cleanSlug).map((rp: any) => ({
+          relatedPosts: Array.isArray(post.relatedPosts) ? post.relatedPosts.filter(isPublicBlogSummary).filter((rp: any) => rp.slug?.current !== cleanSlug && rp.slug !== cleanSlug).map((rp: any) => ({
             ...rp,
             slug: (rp.slug?.current || rp.slug || '').replace(/^https?:\/\/[^\/]+\/blog\//, '').replace(/\/$/, '')
           })) : post.relatedPosts,
@@ -253,7 +291,7 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
        });
 
        // Deduplicate by slug
-       const unique = formattedSanity.filter((v, i, a) => a.findIndex(t => (t.slug === v.slug)) === i).filter(isPublicBlogPost);
+       const unique = formattedSanity.filter((v, i, a) => a.findIndex(t => (t.slug === v.slug)) === i).filter(isPublicFullBlogPost);
 
        // Sort by newest publishedAt first, fallback to updatedAt
        unique.sort((a, b) => {

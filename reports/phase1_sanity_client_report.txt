@@ -1,0 +1,5 @@
+Modifications made for Sanity Client Update:
+1. `src/lib/sanity/client.ts` updated to export `sanityBuildClient` (useCdn: false) and `sanityCdnClient` (useCdn: true). `sanityClient` is aliased to `sanityBuildClient` for backwards compatibility.
+2. `src/sanity/client.ts` updated to export `sanityBuildClient` (useCdn: false) and `sanityCdnClient` (useCdn: true). `fetchFromSanity` now accepts a third boolean parameter `useCdn` to switch between clients.
+3. `src/components/blog/PortableTextRenderer.tsx` and `src/lib/sanity/image.ts` updated to import and use `sanityCdnClient`.
+4. `src/sanity/queries.ts` updated to pass `true` as the third parameter to `fetchFromSanity` in `getAllPosts` to use the CDN.
