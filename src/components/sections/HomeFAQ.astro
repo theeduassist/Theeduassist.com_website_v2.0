@@ -1,19 +1,31 @@
 ---
+import { faqPageSchema } from '../../lib/seo/schema';
+
 const faqs = [
-  { question: "What does TheEduAssist do?", answer: "We turn raw ideas, PDFs, slides, videos, and coaching content into professional online courses, LMS programs, and Kajabi setups." },
-  { question: "Who does TheEduAssist help?", answer: "We help creators, coaches, consultants, educators, training companies, online academies, and businesses." },
-  { question: "Can TheEduAssist build a full online course from raw content?", answer: "Yes, we specialize in converting existing content into structured, platform-ready learning experiences." },
-  { question: "Does TheEduAssist work with Kajabi?", answer: "Yes, Kajabi setup is one of our specialties. We build courses, landing pages, and automations." },
-  { question: "Can TheEduAssist help with LMS migration?", answer: "Yes, we can migrate your content safely from WordPress, old LMS platforms, or Google Drive to a modern LMS." },
-  { question: "Can TheEduAssist convert PDFs, slides, videos, and manuals into online learning?", answer: "Absolutely. We map and structure all raw materials into interactive lessons." },
-  { question: "Can TheEduAssist help with course funnels and automation?", answer: "Yes, we build opt-in pages, sales funnels, and email sequences to support your launch." },
-  { question: "How can someone contact TheEduAssist?", answer: "You can book a 24-48 hour free audit on our site, talk to sales via chat, or email Info@theeduassist.com." }
+  { question: "What does TheEduAssist help me build?", answer: "TheEduAssist helps you plan, structure, and build professional online courses, corporate training portals, internal academies, Kajabi websites, and comprehensive <a href=\"/services/lms-implementation-migration/\" class=\"underline hover:text-brand-accent transition-colors\">LMS experiences</a>." },
+  { question: "Can TheEduAssist turn my PDFs, slides, videos, or notes into an online course?", answer: "Absolutely. We specialize in <a href=\"/services/content-conversion/\" class=\"underline hover:text-brand-accent transition-colors\">content conversion</a>. We take your raw materials, map them to a clear curriculum, and design structured, engaging interactive lessons ready for your learners." },
+  { question: "Do you build Kajabi websites and course products?", answer: "Yes, <a href=\"/kajabi-services/\" class=\"underline hover:text-brand-accent transition-colors\">Kajabi</a> is one of our core specialties. We design the website pages, set up the products and offers, build your landing pages, and connect your sales funnels and automations." },
+  { question: "Can you help migrate training content into an LMS?", answer: "Yes. Whether you are moving from an old WordPress setup, a legacy platform, or a Google Drive folder, TheEduAssist can securely transfer and rebuild your content in a <a href=\"/services/lms-implementation-migration/\" class=\"underline hover:text-brand-accent transition-colors\">modern LMS</a>." },
+  { question: "Which LMS or course platform should I choose?", answer: "It depends on your audience and goals. We support Kajabi for creators, platforms like LearnDash for WordPress users, and systems like TalentLMS or Docebo for corporate teams. We help you choose the right fit during our discovery process. Visit our <a href=\"/platforms/\" class=\"underline hover:text-brand-accent transition-colors\">platforms page</a> to see more." },
+  { question: "Can you create SCORM, Rise, Storyline, or xAPI-ready learning content?", answer: "Yes. For corporate and enterprise clients, we use authoring tools like Articulate 360, Rise, and Storyline to build SCORM or xAPI packages that plug directly into your internal systems." },
+  { question: "Can TheEduAssist help companies build employee training or onboarding?", answer: "Yes. We partner with HR and L&D departments to design standardized onboarding tracks, role-based learning paths, and internal training academies." },
+  { question: "Can you create AI ethics or responsible AI training for employees?", answer: "Yes. TheEduAssist provides specialized training design to convert your company's AI policies into clear, scenario-based <a href=\"/services/ai-ethics-corporate-training/\" class=\"underline hover:text-brand-accent transition-colors\">learning modules</a> for safe, responsible AI use." },
+  { question: "Can AI help speed up course planning without making the course generic?", answer: "When used correctly, yes. We offer <a href=\"/services/ai-powered-elearning/\" class=\"underline hover:text-brand-accent transition-colors\">AI-powered e-learning support</a> to help extract insights from your content faster, brainstorm outlines, and draft initial structures, always keeping your unique voice and expertise at the center." },
+  { question: "How does the 24–48 Hour Review work?", answer: "You submit your course idea, files, or current platform setup through our <a href=\"/book-free-audit/\" class=\"underline hover:text-brand-accent transition-colors\">secure form</a>. Within 24 to 48 hours, our team will review it and reply with a recommended roadmap, scope, and the best next step to move forward." },
+  { question: "How much does an e-learning project cost?", answer: "Pricing depends on the platform, amount of content, level of design, and launch requirements. You can view our starting packages on the <a href=\"/pricing/\" class=\"underline hover:text-brand-accent transition-colors\">pricing page</a>, or request an audit for a custom enterprise quote." },
+  { question: "Can TheEduAssist work with clients globally?", answer: "Yes, we are a remote agency serving clients worldwide. From creators in the US and Europe to corporate teams in the Middle East and Asia Pacific, we adapt our communication to fit your time zone. Check our <a href=\"/locations/\" class=\"underline hover:text-brand-accent transition-colors\">locations</a>." },
+  { question: "What should I prepare before contacting TheEduAssist?", answer: "You don't need a perfect plan. Just bring your goals, your target audience, and whatever notes, videos, or ideas you currently have. We will help structure the rest." },
+  { question: "Do you provide ongoing support after launch?", answer: "Yes. We offer <a href=\"/services/ongoing-support-maintenance/\" class=\"underline hover:text-brand-accent transition-colors\">ongoing maintenance and support</a> packages to update your content, monitor platform health, and improve the learner experience based on real feedback." }
 ];
+
+const jsonLd = faqPageSchema(faqs);
 ---
 <section class="py-24 bg-brand-softBg relative overflow-hidden">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy">Frequently Asked Questions</h2>
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Questions People Ask Before Building an Online Learning System</h2>
+      <p class="text-lg text-brand-textMuted max-w-2xl mx-auto">Clear answers about course creation, Kajabi, LMS migration, AI-assisted eLearning, corporate training, pricing, and working with TheEduAssist.</p>
     </div>
 
     <div class="space-y-4">
@@ -26,7 +38,7 @@ const faqs = [
             </span>
           </summary>
           <div class="px-6 pb-6 pt-2 text-brand-textMuted text-base leading-relaxed border-t border-brand-border/30 bg-brand-softBg/30">
-            <p>{faq.answer}</p>
+            <p set:html={faq.answer}></p>
           </div>
         </details>
       ))}

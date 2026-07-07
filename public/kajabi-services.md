@@ -30,7 +30,7 @@ TheEduAssist helps coaches, course creators, educators, and training teams build
 Clients can bring raw content, training materials, videos, PDFs, worksheets, or existing courses on other platforms.
 
 ## Booking path
-https://www.theeduassist.com/daily-kajabi-lms-session/
+https://theeduassist.com/daily-kajabi-lms-session/
 
 ## Accuracy notes
 * TheEduAssist is NOT an official partner of Kajabi unless verified on the website.

@@ -30,7 +30,7 @@ export function buildPageSchema(
         "@type": type,
         "name": name,
         "description": description,
-        "url": `https://www.theeduassist.com${urlPath.startsWith('/') ? '' : '/'}${urlPath}${urlPath.endsWith('/') ? '' : '/'}`
+        "url": `https://theeduassist.com${urlPath.startsWith('/') ? '' : '/'}${urlPath}${urlPath.endsWith('/') ? '' : '/'}`
     };
 
     if (type === 'Service') {

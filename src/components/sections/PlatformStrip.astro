@@ -2,16 +2,128 @@
 import Badge from '../ui/Badge.astro';
 import { getPlatformsForBadges } from '../../sanity/queries';
 
-const platforms = await getPlatformsForBadges();
+const row1 = [
+    "Kajabi", "Thinkific", "Teachable", "LearnWorlds", "Podia",
+    "Skool", "Circle", "Mighty Networks", "LearnDash", "LifterLMS", "Kajabi", "Thinkific", "Teachable", "LearnWorlds", "Podia",
+    "Skool", "Circle", "Mighty Networks", "LearnDash", "LifterLMS"
+];
+
+const row2 = [
+    "TalentLMS", "Docebo", "Absorb LMS", "LearnUpon", "Litmos", "iSpring Learn", "360Learning",
+    "Moodle", "Canvas", "Blackboard", "Brightspace", "Google Classroom",
+    "Articulate 360", "Rise", "Storyline", "iSpring Suite", "SCORM", "xAPI", "H5P",
+    "SharePoint", "Google Drive", "Notion", "Confluence", "TalentLMS", "Docebo", "Absorb LMS", "LearnUpon", "Litmos", "iSpring Learn", "360Learning",
+    "Moodle", "Canvas", "Blackboard", "Brightspace", "Google Classroom",
+    "Articulate 360", "Rise", "Storyline", "iSpring Suite", "SCORM", "xAPI", "H5P",
+    "SharePoint", "Google Drive", "Notion", "Confluence"
+];
 ---
-<section class="py-12 border-y border-slate-200 bg-white">
-  <div class="max-w-7xl mx-auto px-4 text-center">
-    <h2 class="text-sm font-bold text-slate-500 uppercase tracking-wider mb-6">Platforms We Support</h2>
-    <div class="flex flex-wrap justify-center gap-3">
-      {platforms.map(p => (
-        <Badge variant="outline">{p}</Badge>
-      ))}
+<section class="py-16 md:py-20 bg-slate-50 border-y border-brand-border/40 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 text-center">
+        <h2 class="text-2xl md:text-3xl font-bold text-brand-navy mb-4">Platforms, LMS, and Authoring Tools We Can Support</h2>
+        <p class="text-slate-600 max-w-3xl mx-auto leading-relaxed">
+            Whether you are building a creator course, corporate training portal, internal academy, or SCORM-ready learning experience, TheEduAssist helps structure content for the platform that fits your learners and business model.
+        </p>
     </div>
-    <p class="text-xs text-slate-400 mt-6">Platform support does not imply official partnership unless stated.</p>
-  </div>
+
+    <!-- Marquee Container -->
+    <div class="relative max-w-[100vw] overflow-hidden flex flex-col gap-6 py-4">
+
+        <!-- Row 1: Left to Right -->
+        <div class="flex overflow-hidden group">
+            <div class="flex space-x-6 min-w-max animate-marquee-left group-hover:pause-animation">
+                {row1.map((p, index) => (
+                    <div class="bg-white text-brand-navy font-semibold px-6 py-3 rounded-full border border-slate-200 shadow-sm hover:shadow-md hover:border-brand-accent/50 transition-all" aria-hidden={index >= (row1.length / 2) ? "true" : "false"}>
+                        {p}
+                    </div>
+                ))}
+            </div>
+             <div class="flex space-x-6 min-w-max animate-marquee-left group-hover:pause-animation ml-6" aria-hidden="true">
+                {row1.map((p) => (
+                    <div class="bg-white text-brand-navy font-semibold px-6 py-3 rounded-full border border-slate-200 shadow-sm hover:shadow-md hover:border-brand-accent/50 transition-all">
+                        {p}
+                    </div>
+                ))}
+            </div>
+        </div>
+
+        <!-- Row 2: Right to Left -->
+        <div class="flex overflow-hidden group">
+            <div class="flex space-x-6 min-w-max animate-marquee-right group-hover:pause-animation">
+                {row2.map((p, index) => (
+                    <div class="bg-white text-brand-navy font-semibold px-6 py-3 rounded-full border border-slate-200 shadow-sm hover:shadow-md hover:border-brand-accent/50 transition-all" aria-hidden={index >= (row2.length / 2) ? "true" : "false"}>
+                        {p}
+                    </div>
+                ))}
+            </div>
+             <div class="flex space-x-6 min-w-max animate-marquee-right group-hover:pause-animation ml-6" aria-hidden="true">
+                {row2.map((p) => (
+                    <div class="bg-white text-brand-navy font-semibold px-6 py-3 rounded-full border border-slate-200 shadow-sm hover:shadow-md hover:border-brand-accent/50 transition-all">
+                        {p}
+                    </div>
+                ))}
+            </div>
+        </div>
+
+        <!-- Gradient Fades -->
+        <div class="absolute top-0 bottom-0 left-0 w-24 bg-gradient-to-r from-slate-50 to-transparent pointer-events-none"></div>
+        <div class="absolute top-0 bottom-0 right-0 w-24 bg-gradient-to-l from-slate-50 to-transparent pointer-events-none"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 text-center mt-12">
+        <p class="text-xs text-slate-400">Platform names are third-party tools. Support does not imply official partnership unless stated.</p>
+    </div>
 </section>
+
+<style>
+    @keyframes marqueeLeft {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-100%); }
+    }
+
+    @keyframes marqueeRight {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(0); }
+    }
+
+    .animate-marquee-left {
+        animation: marqueeLeft 50s linear infinite;
+    }
+
+    .animate-marquee-right {
+        animation: marqueeRight 60s linear infinite;
+    }
+
+    .pause-animation {
+        animation-play-state: paused;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .animate-marquee-left,
+        .animate-marquee-right {
+            animation: none !important;
+            transform: none !important;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Hide the duplicated marquee content for screen readers and visual when motion is reduced */
+        .flex.overflow-hidden > .flex[aria-hidden="true"] {
+            display: none;
+        }
+
+        .flex.overflow-hidden {
+             overflow: visible;
+        }
+
+        .group > .animate-marquee-left,
+        .group > .animate-marquee-right {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-left: 0;
+            padding: 1rem;
+        }
+    }
+</style>

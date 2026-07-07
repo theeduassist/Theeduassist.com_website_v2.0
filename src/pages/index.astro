@@ -5,7 +5,7 @@ import TrustStrip from "../components/sections/TrustStrip.astro";
 import AudienceGrid from "../components/sections/AudienceGrid.astro";
 import CustomerLifecycle from "../components/sections/CustomerLifecycle.astro";
 import CoreServicesGrid from "../components/sections/CoreServicesGrid.astro";
-import MultiPlatformSection from "../components/sections/MultiPlatformSection.astro";
+import PlatformStrip from "../components/sections/PlatformStrip.astro";
 import EnterpriseLearningSection from "../components/sections/EnterpriseLearningSection.astro";
 import KajabiSpecialty from "../components/sections/KajabiSpecialty.astro";
 import AIElearningSupport from "../components/sections/AIElearningSupport.astro";
@@ -36,39 +36,20 @@ const aiAnswers = [
   { q: "Does TheEduAssist only work with Kajabi?", a: "No. TheEduAssist offers Kajabi setup as a specialty, but the agency also supports course creation, LMS implementation, content conversion, instructional design, AI-powered e-learning support, funnels, automation, and ongoing course maintenance." }
 ];
 
-const homeFaqs = [
-  { question: "What does TheEduAssist do?", answer: "We turn raw ideas, PDFs, slides, videos, and coaching content into professional online courses, LMS programs, and Kajabi setups." },
-  { question: "Who does TheEduAssist help?", answer: "We help creators, coaches, consultants, educators, training companies, online academies, and businesses." },
-  { question: "Can TheEduAssist build a full online course from raw content?", answer: "Yes, we specialize in converting existing content into structured, platform-ready learning experiences." },
-  { question: "Does TheEduAssist work with Kajabi?", answer: "Yes, Kajabi setup is one of our specialties. We build courses, landing pages, and automations." },
-  { question: "Can TheEduAssist help with LMS migration?", answer: "Yes, we can migrate your content safely from WordPress, old LMS platforms, or Google Drive to a modern LMS." },
-  { question: "Can TheEduAssist convert PDFs, slides, videos, and manuals into online learning?", answer: "Absolutely. We map and structure all raw materials into interactive lessons." },
-  { question: "Can TheEduAssist help with course funnels and automation?", answer: "Yes, we build opt-in pages, sales funnels, and email sequences to support your launch." },
-  { question: "How can someone contact TheEduAssist?", answer: "You can book a 24-48 hour free audit on our site, talk to sales via chat, or email Info@theeduassist.com." }
-];
-
 const jsonLd = [
   organizationSchema(),
   websiteSchema(),
-  professionalServiceSchema(),
-  faqPageSchema(homeFaqs)
+  professionalServiceSchema()
 ];
 ---
 <Layout
   title="TheEduAssist | E-Learning Design Agency for Courses, Kajabi & LMS Builds"
   description="TheEduAssist helps creators, coaches, educators, consultants, training companies, academies, and businesses build online courses, Kajabi systems, LMS experiences, funnels, automations, and launch-ready e-learning content."
+  canonicalPath="/"
   jsonLd={jsonLd}
 >
 
-  <HomeHero
-    title="Turn Your Expertise Into a Launch-Ready Online Learning System"
-    subtitle="TheEduAssist helps creators, coaches, educators, consultants, training companies, and online academies design courses, build Kajabi systems, migrate LMS content, create learning assets, and launch professional e-learning experiences."
-    primaryCtaLabel="Get a 24–48 Hour Review"
-    primaryCtaLink="/book-free-audit/"
-    secondaryCtaLabel="Explore Services"
-    secondaryCtaLink="/services/"
-    trustChips={["Course Design", "Kajabi Builds", "LMS Migration", "AI Course Support", "Funnels & Automation", "Launch Support"]}
-  />
+  <HomeHero />
 
   <TrustStrip />
 
@@ -78,7 +59,7 @@ const jsonLd = [
 
   <CoreServicesGrid services={services} />
 
-  <MultiPlatformSection />
+  <PlatformStrip />
 
   <EnterpriseLearningSection />
 

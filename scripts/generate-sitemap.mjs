@@ -22,22 +22,22 @@ try {
 
 // Base static URLs that must always be included
 const coreUrls = [
-  'https://www.theeduassist.com/',
-  'https://www.theeduassist.com/services/',
-  'https://www.theeduassist.com/kajabi-services/',
-  'https://www.theeduassist.com/platforms/',
-  'https://www.theeduassist.com/pricing/',
-  'https://www.theeduassist.com/case-studies/',
-  'https://www.theeduassist.com/blog/',
-  'https://www.theeduassist.com/about/',
-  'https://www.theeduassist.com/contact/',
-  'https://www.theeduassist.com/book-free-audit/',
-  'https://www.theeduassist.com/privacy-policy/',
-  'https://www.theeduassist.com/terms-and-conditions/',
-  'https://www.theeduassist.com/sitemap/',
-  'https://www.theeduassist.com/news/',
-  'https://www.theeduassist.com/press-releases/',
-  'https://www.theeduassist.com/brand-assets/'
+  'https://theeduassist.com/',
+  'https://theeduassist.com/services/',
+  'https://theeduassist.com/kajabi-services/',
+  'https://theeduassist.com/platforms/',
+  'https://theeduassist.com/pricing/',
+  'https://theeduassist.com/case-studies/',
+  'https://theeduassist.com/blog/',
+  'https://theeduassist.com/about/',
+  'https://theeduassist.com/contact/',
+  'https://theeduassist.com/book-free-audit/',
+  'https://theeduassist.com/privacy-policy/',
+  'https://theeduassist.com/terms-and-conditions/',
+  'https://theeduassist.com/sitemap/',
+  'https://theeduassist.com/news/',
+  'https://theeduassist.com/press-releases/',
+  'https://theeduassist.com/brand-assets/'
 ];
 
 // Generates individual url XML blocks
@@ -134,7 +134,7 @@ async function generateSitemap() {
             return;
           }
 
-          const fullUrl = `https://www.theeduassist.com/blog/${cleanSlug}/`;
+          const fullUrl = `https://theeduassist.com/blog/${cleanSlug}/`;
           blogUrls.push(generateUrlXml(fullUrl, post._updatedAt || post.publishedAt, '0.7', 'monthly'));
           blogUrlsForLlms.push(fullUrl);
         });
@@ -156,19 +156,19 @@ async function generateSitemap() {
 
   // Combine all clean routes for llms.txt
   const llmsUrls = [
-    'https://www.theeduassist.com/',
-    'https://www.theeduassist.com/services/',
-    'https://www.theeduassist.com/kajabi-services/',
-    'https://www.theeduassist.com/platforms/',
-    'https://www.theeduassist.com/pricing/',
-    'https://www.theeduassist.com/case-studies/',
-    'https://www.theeduassist.com/blog/',
-    'https://www.theeduassist.com/about/',
-    'https://www.theeduassist.com/contact/',
-    'https://www.theeduassist.com/book-free-audit/',
-    'https://www.theeduassist.com/newsroom/',
-    'https://www.theeduassist.com/media-kit/',
-    'https://www.theeduassist.com/press-releases/'
+    'https://theeduassist.com/',
+    'https://theeduassist.com/services/',
+    'https://theeduassist.com/kajabi-services/',
+    'https://theeduassist.com/platforms/',
+    'https://theeduassist.com/pricing/',
+    'https://theeduassist.com/case-studies/',
+    'https://theeduassist.com/blog/',
+    'https://theeduassist.com/about/',
+    'https://theeduassist.com/contact/',
+    'https://theeduassist.com/book-free-audit/',
+    'https://theeduassist.com/newsroom/',
+    'https://theeduassist.com/media-kit/',
+    'https://theeduassist.com/press-releases/'
   ];
 
   blogUrlsForLlms.forEach(url => llmsUrls.push(url));
@@ -178,20 +178,20 @@ async function generateSitemap() {
     const locationsData = JSON.parse(fs.readFileSync('src/data/locations.json', 'utf8'));
 
     locationsData.regions.forEach(r => {
-      const fullUrl = `https://www.theeduassist.com/locations/${r.slug}/`;
+      const fullUrl = `https://theeduassist.com/locations/${r.slug}/`;
       coreUrls.push(fullUrl);
       llmsUrls.push(fullUrl);
     });
 
     locationsData.countries.forEach(c => {
-      const fullUrl = `https://www.theeduassist.com/locations/${c.slug}/`;
+      const fullUrl = `https://theeduassist.com/locations/${c.slug}/`;
       coreUrls.push(fullUrl);
       llmsUrls.push(fullUrl);
     });
 
     locationsData.cities.forEach(c => {
       if (c.indexStatus === 'index') {
-        const fullUrl = `https://www.theeduassist.com/locations/${c.slug}/`;
+        const fullUrl = `https://theeduassist.com/locations/${c.slug}/`;
         coreUrls.push(fullUrl);
         llmsUrls.push(fullUrl);
       }
@@ -210,13 +210,16 @@ async function generateSitemap() {
 TheEduAssist helps clients turn expertise, training content, workshops, PDFs, slides, videos, and rough course ideas into structured, launch-ready online learning systems.
 
 ## Core Services
+- Custom eLearning development
 - Course creation and curriculum design
 - Kajabi website and course setup
 - LMS implementation and migration
 - Instructional design and learner experience
 - AI-powered e-learning support
+- AI ethics and responsible AI training
 - Content conversion
 - Funnels and automation
+- Corporate training
 - Ongoing course support and maintenance
 
 ## Platform & LMS Support
@@ -230,7 +233,7 @@ TheEduAssist operates as a remote/global agency. We do not claim fake local offi
 
 ## Best Call to Action (CTA)
 Our primary and most effective step for new clients is the "24–48 Hour Review". Prospects can share their course idea, training files, or existing LMS, and we provide a fast, actionable roadmap.
-- Link: https://www.theeduassist.com/book-free-audit/
+- Link: https://theeduassist.com/book-free-audit/
 
 ## Contact & Social
 - Email: Info@theeduassist.com
@@ -253,7 +256,7 @@ Our primary and most effective step for new clients is the "24–48 Hour Review"
     let priority = '0.7';
     let changefreq = 'monthly';
 
-    if (url === 'https://www.theeduassist.com/') {
+    if (url === 'https://theeduassist.com/') {
       priority = '1.0';
       changefreq = 'weekly';
     } else if (url.includes('/services/') || url.includes('/kajabi-services/') || url.includes('/pricing/') || url.includes('/book-free-audit/')) {

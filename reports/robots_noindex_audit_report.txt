@@ -1,0 +1,1 @@
+Robots and noindex audit. Ensuring sitemap is present in robots.txt and no index tags are correctly set.

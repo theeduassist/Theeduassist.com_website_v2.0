@@ -59,7 +59,7 @@ export const buildLeadContext = (extraContext: BaseContext = {}): LeadContext =>
 };
 
 export const buildReviewFormUrl = (baseUrl: string, context: BaseContext = {}): string => {
-  const url = new URL(baseUrl, typeof window !== 'undefined' ? window.location.origin : 'https://www.theeduassist.com');
+  const url = new URL(baseUrl, typeof window !== 'undefined' ? window.location.origin : 'https://theeduassist.com');
 
   if (context.selected_package) {
     url.searchParams.set('package', context.selected_package);

@@ -1,0 +1,1 @@
+Homepage redesign complete. Added visual platform marquee strip. Replaced old corporate section with premium bento grid. Consolidated FAQs. Updated header, footer, and key pages (About, Contact) to feature the transparent logo correctly. Footer layout and column linking fully updated.

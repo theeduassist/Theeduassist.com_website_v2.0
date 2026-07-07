@@ -1,0 +1,1 @@
+Sitemap audited. Invalid patterns excluded. Multiple sitemaps evaluated but kept single for simpler script maintenance.

@@ -1,0 +1,1 @@
+Canonical URL audit. All indexable pages should have a self-referencing canonical URL using https://theeduassist.com/.

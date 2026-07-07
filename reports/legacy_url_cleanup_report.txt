@@ -1,0 +1,1 @@
+Legacy URLs audited. Outdated WordPress-style service pages and old tags have been added to the redirect map. Any remaining old paths not relevant for indexing will remain noindex to prevent 404s for old external links.
