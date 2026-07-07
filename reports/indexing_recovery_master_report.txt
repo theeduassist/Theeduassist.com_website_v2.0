@@ -1,0 +1,1 @@
+Master indexing recovery report. We are checking and creating redirects for 404s and reviewing noindexed pages for SEO.

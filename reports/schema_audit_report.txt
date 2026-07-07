@@ -1,0 +1,1 @@
+Structured data audited. No fake details used. FAQ schema only used where questions are visibly rendered on the page, such as the homepage and audit form page.

@@ -41,4 +41,4 @@ A: Yes, human review and quality control are a mandatory part of our process for
 A: It's a 30-minute discussion where we can review your current Kajabi setup, LMS challenges, or online course plans and provide actionable advice.
 
 **Q: How do I book a session?**
-A: You can book a session via our dedicated booking path: https://www.theeduassist.com/daily-kajabi-lms-session/
+A: You can book a session via our dedicated booking path: https://theeduassist.com/daily-kajabi-lms-session/

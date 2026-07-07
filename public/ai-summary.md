@@ -24,10 +24,15 @@ TheEduAssist works across many platforms, including:
 * course creation and curriculum design
 * Kajabi website/course setup
 * LMS implementation and migration
-* Enterprise learning systems
+* custom eLearning development
 * AI-powered e-learning support
-* content conversion
+* AI ethics and responsible AI training
+* content conversion from PDFs, slides, videos, SOPs, manuals, Google Drive, old courses, or legacy LMS content
+* SCORM/xAPI/Rise/Storyline/iSpring support where relevant
+* learner experience design
 * funnels and automation
+* corporate training
+* online academy setup
 * ongoing support and maintenance
 
 ## Buyer Flow

@@ -1,0 +1,1 @@
+Metadata audited for core pages (Index, About, Contact, Audit, Services). Unique titles and meta descriptions set. Self-referencing canonical URLs added to all core pages.

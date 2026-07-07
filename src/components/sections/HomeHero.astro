@@ -3,23 +3,23 @@
 import { getSiteSettings } from '../../sanity/queries';
 
 export interface Props {
-    title: string;
-    subtitle: string;
-    primaryCtaLabel: string;
-    primaryCtaLink: string;
+    title?: string;
+    subtitle?: string;
+    primaryCtaLabel?: string;
+    primaryCtaLink?: string;
     secondaryCtaLabel?: string;
     secondaryCtaLink?: string;
     trustChips?: string[];
 }
 
 const {
-    title,
-    subtitle,
-    primaryCtaLabel,
-    primaryCtaLink,
-    secondaryCtaLabel,
-    secondaryCtaLink,
-    trustChips
+    title = "Turn Your Expertise Into a Launch-Ready Online Learning System",
+    subtitle = 'TheEduAssist helps creators, coaches, educators, consultants, <a href="/services/ai-ethics-corporate-training/" class="underline hover:text-brand-accent transition-colors">corporate training teams</a>, and online academies <a href="/services/custom-elearning-development/" class="underline hover:text-brand-accent transition-colors">design courses</a>, <a href="/kajabi-services/" class="underline hover:text-brand-accent transition-colors">build Kajabi systems</a>, <a href="/services/lms-implementation-migration/" class="underline hover:text-brand-accent transition-colors">migrate LMS content</a>, create learning assets, and launch professional e-learning experiences.',
+    primaryCtaLabel = "Get a 24–48 Hour Review",
+    primaryCtaLink = "/book-free-audit/",
+    secondaryCtaLabel = "Explore Services",
+    secondaryCtaLink = "/services/",
+    trustChips = ["Course Design", "Kajabi Builds", "LMS Migration", "AI Course Support", "Corporate Training", "AI Ethics Training", "SCORM/xAPI Content", "Launch Support"]
 } = Astro.props;
 
 ---
@@ -33,9 +33,7 @@ const {
       {title}
     </h1>
 
-    <p class="text-lg md:text-xl text-brand-textMuted mb-10 max-w-3xl mx-auto leading-relaxed">
-      {subtitle}
-    </p>
+    <p class="text-lg md:text-xl text-brand-textMuted mb-10 max-w-3xl mx-auto leading-relaxed" set:html={subtitle}></p>
 
     <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
       <a href={primaryCtaLink} class="w-full sm:w-auto bg-brand-accent text-white px-8 py-3.5 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-brand-primary shadow-md hover:shadow-lg text-center">
