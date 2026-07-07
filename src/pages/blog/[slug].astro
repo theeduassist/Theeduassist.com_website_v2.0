@@ -26,7 +26,7 @@ export async function getStaticPaths() {
   });
 }
 
-const { slug } = Astro.props;
+const { slug } = Astro.params;
 
 // Fetch the full post details including the body
 const post = await getPostBySlug(slug);

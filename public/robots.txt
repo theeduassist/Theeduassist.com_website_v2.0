@@ -1,12 +1,9 @@
 User-agent: *
 Allow: /
 Disallow: /admin/
-Disallow: /api/
 Disallow: /studio/
 Disallow: /preview/
 Disallow: /drafts/
-Disallow: /_actions/
-Disallow: /_server-islands/
 
 User-agent: Googlebot
 Allow: /

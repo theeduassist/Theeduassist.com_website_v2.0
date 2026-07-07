@@ -12,17 +12,17 @@ export async function getAllPages() {
 
 // Page by slug
 export async function getPageBySlug(slug: string) {
-  return await fetchFromSanity(`*[_type == "page" && slug.current == $slug][0]`, { slug })
+  return await fetchFromSanity(`*[_type == "page" && slug.current == $slug][0]`, { slug }, false, ["website.pages"])
 }
 
 // All services
 export async function getAllServices() {
-  return await fetchFromSanity(`*[_type == "service"] | order(orderRank asc)`)
+  return await fetchFromSanity(`*[_type == "service"] | order(orderRank asc)`, {}, false, ["website.services"])
 }
 
 // Service by slug
 export async function getServiceBySlug(slug: string) {
-  return await fetchFromSanity(`*[_type == "service" && slug.current == $slug][0]`, { slug })
+  return await fetchFromSanity(`*[_type == "service" && slug.current == $slug][0]`, { slug }, false, ["website.blog.detail"])
 }
 
 // All Kajabi services
@@ -61,10 +61,10 @@ export async function getAllAuthors() {
 }
 
 export async function getAuthorBySlug(slug: string) {
-  return await fetchFromSanity(`*[_type == "author" && slug.current == $slug][0]`, { slug })
+  return await fetchFromSanity(`*[_type == "author" && slug.current == $slug][0]`, { slug }, false, ["website.blog.detail"])
 }
 
-// Posts
+// Posts (use CDN)
 export async function getAllPosts() {
   return await fetchFromSanity(`*[_type == "post" && defined(slug.current) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc) {
   _id,
@@ -91,7 +91,7 @@ export async function getAllPosts() {
   hidden,
   reviewPending,
   seo
-}`)
+}`, {}, true, ["website.blog.summaries"])
 }
 
 
@@ -117,10 +117,10 @@ export async function getPostBySlug(slug: string) {
     relatedServices[]->{ title, slug, description, "image": image.asset->url },
     relatedPlatforms[]->{ name, slug, "logo": logo.asset->url },
     relatedFaqs[]->{ question, answer, showOnSite, orderRank }
-  }`, { slug })
+  }`, { slug }, false, ["website.blog.detail"])
 }
 
-// Get latest blog posts
+// Get latest blog posts (use CDN)
 export const latestBlogPostsQuery = `*[_type == "post" && defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc) {
   _id,
   title,
@@ -155,7 +155,7 @@ export async function getAllTestimonials() {
 
 // Case study by slug
 export async function getCaseStudyBySlug(slug: string) {
-  return await fetchFromSanity(`*[_type == "caseStudy" && slug.current == $slug][0]`, { slug })
+  return await fetchFromSanity(`*[_type == "caseStudy" && slug.current == $slug][0]`, { slug }, false, ["website.blog.detail"])
 }
 
 // Navigation

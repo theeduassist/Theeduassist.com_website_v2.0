@@ -1,19 +1,29 @@
 import { createClient } from '@sanity/client'
 import { projectId, dataset, apiVersion } from './env'
 
-// THIS CLIENT MUST ONLY BE USED SERVER-SIDE / BUILD TIME
-// DO NOT import this into browser-hydrated React/Vue components to prevent exposing tokens or doing client-side fetching.
-export const client = createClient({
+// Client for build time, fetching fresh data
+export const sanityBuildClient = createClient({
   projectId,
   dataset,
   apiVersion,
   useCdn: false, // Ensure fresh build data and prevent reliance on runtime fetching
 })
 
+// Client for public read-only summaries/lists
+export const sanityCdnClient = createClient({
+  projectId,
+  dataset,
+  apiVersion,
+  useCdn: true,
+})
+
 // Wrapper to gracefully fallback when env vars are missing
-export async function fetchFromSanity(query: string, params: Record<string, any> = {}) {
+export async function fetchFromSanity(query: string, params: Record<string, any> = {}, useCdn: boolean = false, tags: string[] = []) {
   try {
-    return await client.fetch(query, params)
+    const client = useCdn ? sanityCdnClient : sanityBuildClient;
+    // Define request options, including tags if provided
+    const options = tags && tags.length > 0 ? { filterResponse: false, tag: tags.join(',') } : {};
+    return await client.fetch(query, params, options)
   } catch (error: any) {
     console.warn('Gracefully skipping Sanity fetch due to missing environment variables or connection error.');
     if (query.trim().endsWith('[0]')) {

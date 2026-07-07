@@ -96,7 +96,7 @@ async function generateSitemap() {
         reviewPending
       }`);
 
-      const sanityUrl = `https://${projectId}.api.sanity.io/v${apiVersion}/data/query/${dataset}?query=${query}`;
+      const sanityUrl = `https://${projectId}.apicdn.sanity.io/v${apiVersion}/data/query/${dataset}?query=${query}`;
 
       const response = await fetch(sanityUrl);
       if (response.ok) {

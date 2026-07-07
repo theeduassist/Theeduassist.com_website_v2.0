@@ -2,7 +2,7 @@ import React from 'react';
 import { PortableText } from '@portabletext/react';
 import type { PortableTextComponents } from '@portabletext/react';
 import { createImageUrlBuilder } from '@sanity/image-url';
-import { sanityClient } from '../../lib/sanity/client';
+import { sanityCdnClient as sanityClient } from '../../lib/sanity/client';
 
 const builder = createImageUrlBuilder(sanityClient);
 
