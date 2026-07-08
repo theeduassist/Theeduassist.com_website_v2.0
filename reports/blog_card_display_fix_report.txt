@@ -1,0 +1,12 @@
+EXECUTIVE SUMMARY
+=================
+Task: Fix blog excerpt and card display UI
+Result: Verified success.
+
+FINDINGS
+========
+In checking `BlogCard.astro`, `FeaturedBlogArticle.astro`, and `AllArticlesGrid.astro` along with `LatestArticles.astro`, CSS rules implementing `line-clamp-2` (for titles) and `line-clamp-3` (for descriptions) were already established and effectively clamping visual bounds. No modifications to length constraints were required.
+
+I successfully updated `BlogCard.astro`, `FeaturedBlogArticle.astro`, `LatestArticles.astro`, and `AllArticlesGrid.astro` to properly accept and prioritize the `aiSummary` field over `excerpt` to maintain lightweight payload compliance across cards. The template strings now employ the fallback cascade: `post.aiSummary || post.excerpt || "Read this article..."`.
+
+In `AllArticlesGrid.astro`, the `No articles found matching your criteria.` label possessed a permanent `.hidden` utility block that was inappropriately implemented. I modified this to dynamically react to `posts.length === 0` utilizing Astro interpolation during compilation, which safely hides it when articles exist.

@@ -1,1 +1,18 @@
-Sanity quota protection verified. Fetch data during build time using useCdn: false. Blog Load More uses static JSON.
+EXECUTIVE SUMMARY
+=================
+Task: Clean fetchFromSanity()
+Result: Verified compliance.
+
+FINDINGS
+========
+The `fetchFromSanity()` wrapper signature in `src/sanity/client.ts` possessed an unsafe structural defect involving positional boolean/array mapping that forced `getAllBlogPosts.ts` to mistakenly pass string arrays (`['tags']`) to a boolean `useCdn` positional argument, overriding logic inconsistently.
+
+I restructured the signature to cleanly leverage an options payload:
+`async function fetchFromSanity(query, params, options: { useCdn?: boolean, tags?: string[] })`
+
+I refactored all instances within:
+- `src/sanity/queries.ts` (assigning `useCdn: false` for strict build data).
+- `src/lib/content/getAllBlogPosts.ts` (assigning `useCdn: true` for summary endpoints).
+- `src/pages/sanity-test.astro` (assigning `useCdn: false` for test pings).
+
+This standardizes network calls, strictly enforcing CDN reads for all public static summary fetches to protect the core API limits. No front-end client-side logic exposes Sanity calls.

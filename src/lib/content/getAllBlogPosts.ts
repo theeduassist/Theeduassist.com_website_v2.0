@@ -185,7 +185,7 @@ export type NormalizedBlogPost = {
 
 export async function getBlogPostSlugs(): Promise<string[]> {
   try {
-    const slugs = await fetchFromSanity(blogPostSlugsQuery, {}, ['website.blog.slugs']);
+    const slugs = await fetchFromSanity(blogPostSlugsQuery, {}, { useCdn: true, tags: ['website.blog.slugs'] });
     if (slugs && Array.isArray(slugs)) {
       return slugs.map((s: any) => s.slug).filter(Boolean).map(s => s.replace(/^https?:\/\/[^\/]+\/blog\//, '').replace(/\/$/, ''));
     }
@@ -197,7 +197,7 @@ export async function getBlogPostSlugs(): Promise<string[]> {
 
 export async function getBlogPostSummaries(): Promise<NormalizedBlogPost[]> {
   try {
-    const sanityPosts = await fetchFromSanity(blogPostSummariesQuery, {}, ['website.blog.summaries']);
+    const sanityPosts = await fetchFromSanity(blogPostSummariesQuery, {}, { useCdn: true, tags: ['website.blog.summaries'] });
     if (sanityPosts && Array.isArray(sanityPosts)) {
        const formattedSanity: NormalizedBlogPost[] = sanityPosts.filter(isPublicBlogSummary).map((post: any) => {
           const rawSlug = post.slug.current || post.slug;
@@ -246,7 +246,7 @@ export async function getBlogPostSummaries(): Promise<NormalizedBlogPost[]> {
 
 export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost[]> {
   try {
-    const sanityPosts = await fetchFromSanity(latestBlogPostsQuery, {}, ['website.blog.summaries', 'website.homepage.latest']);
+    const sanityPosts = await fetchFromSanity(latestBlogPostsQuery, {}, { useCdn: false, tags: ['website.blog.summaries', 'website.homepage.latest'] });
     if (sanityPosts && Array.isArray(sanityPosts)) {
        // Filter here as well just to be perfectly safe, though the GROQ query handles most of it.
        const formattedSanity: NormalizedBlogPost[] = sanityPosts.filter(isPublicBlogSummary).map((post: any) => {
