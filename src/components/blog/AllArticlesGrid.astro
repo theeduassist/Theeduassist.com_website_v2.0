@@ -18,7 +18,7 @@ const { posts = [], page, isFirstPage = true } = Astro.props;
     </div>
   </div>
 
-  <div id="no-results-message" class="hidden text-center py-12 bg-slate-50 rounded-lg border border-slate-200 border-dashed">
+  <div id="no-results-message" class={`${posts.length === 0 ? '' : 'hidden'} text-center py-12 bg-slate-50 rounded-lg border border-slate-200 border-dashed`}>
     <p class="text-slate-600">No articles found matching your criteria.</p>
   </div>
 
@@ -29,6 +29,7 @@ const { posts = [], page, isFirstPage = true } = Astro.props;
           title={post.title}
           slug={post.slug?.current || post.slug}
           excerpt={post.excerpt}
+          aiSummary={post.aiSummary}
           category={post.category}
           readTimeMinutes={post.readingTime}
           publishedAt={post.publishedAt}
@@ -151,7 +152,7 @@ const { posts = [], page, isFirstPage = true } = Astro.props;
           clone.querySelector('.tpl-category').textContent = category;
           clone.querySelector('.tpl-link-title').textContent = post.title;
 
-          const safeExcerpt = post.excerpt || "Read this article to learn more about our e-learning strategies and course building insights.";
+          const safeExcerpt = post.aiSummary || post.excerpt || "Read this article to learn more about our e-learning strategies and course building insights.";
           clone.querySelector('.tpl-excerpt').textContent = safeExcerpt;
 
           if (post.readingTime && post.readingTime > 0) {

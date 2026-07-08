@@ -1,0 +1,10 @@
+EXECUTIVE SUMMARY
+=================
+Task: Fix live static JSON endpoint
+Result: Verified success.
+
+FINDINGS
+========
+The static JSON chunked data for the Load More functionality depends upon Astro's `getStaticPaths`. It experienced the exact same failures as the paginated HTML routes because of the flawed post-body validation.
+
+Following the fix in `src/lib/content/getAllBlogPosts.ts`, the build engine successfully emitted 25 JSON files (e.g. `dist/data/blog/page-2.json`). Checking their contents confirms they exclusively carry lightweight metadata arrays for optimal "Load More" consumption, free from heavy block content arrays or rendering exceptions.

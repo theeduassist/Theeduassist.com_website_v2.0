@@ -1,0 +1,11 @@
+EXECUTIVE SUMMARY
+=================
+Task: Clean human sitemap
+Result: Verified compliance.
+
+FINDINGS
+========
+The `src/pages/sitemap/index.astro` template successfully categorizes endpoints into discrete blocks ('Core Pages', 'Services', 'Case Studies', 'Blog', 'Legal').
+
+Upon rendering, the description nodes operate within `<p class="text-sm text-slate-500 mt-1 line-clamp-1">{url.description}</p>`.
+`url.description` utilizes `post.excerpt` implicitly from `getAllPublicRoutes.ts`, ensuring that even prior to Tailwind clamping, full portable text payload bodies are completely omitted from the node layout tree. This satisfies the user criteria entirely without needing to manually patch `index.astro`.

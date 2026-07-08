@@ -6,6 +6,7 @@ interface Props {
   title: string;
   slug: string;
   excerpt?: string;
+  aiSummary?: string;
   category: string;
   readTimeMinutes?: number;
   publishedAt?: string;
@@ -14,12 +15,12 @@ interface Props {
   tags?: string[];
 }
 
-const { title, slug, excerpt, category, readTimeMinutes, publishedAt, image, imageAlt, tags = [] } = Astro.props;
+const { title, slug, excerpt, aiSummary, category, readTimeMinutes, publishedAt, image, imageAlt, tags = [] } = Astro.props;
 
 const pubDate = publishedAt ? new Date(publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : null;
 
 // Safe excerpt fallback if missing
-const safeExcerpt = excerpt || "Read this article to learn more about our e-learning strategies and course building insights.";
+const safeExcerpt = aiSummary || excerpt || "Read this article to learn more about our e-learning strategies and course building insights.";
 
 // Filter out internal CMS statuses
 const hiddenStatuses = ['review pending', 'draft', 'internal', 'admin', 'private', 'test', 'do not publish'];

@@ -12,17 +12,17 @@ export async function getAllPages() {
 
 // Page by slug
 export async function getPageBySlug(slug: string) {
-  return await fetchFromSanity(`*[_type == "page" && slug.current == $slug][0]`, { slug }, false, ["website.pages"])
+  return await fetchFromSanity(`*[_type == "page" && slug.current == $slug][0]`, { slug }, { useCdn: false, tags: ["website.pages"] })
 }
 
 // All services
 export async function getAllServices() {
-  return await fetchFromSanity(`*[_type == "service"] | order(orderRank asc)`, {}, false, ["website.services"])
+  return await fetchFromSanity(`*[_type == "service"] | order(orderRank asc)`, {}, { useCdn: false, tags: ["website.services"] })
 }
 
 // Service by slug
 export async function getServiceBySlug(slug: string) {
-  return await fetchFromSanity(`*[_type == "service" && slug.current == $slug][0]`, { slug }, false, ["website.blog.detail"])
+  return await fetchFromSanity(`*[_type == "service" && slug.current == $slug][0]`, { slug }, { useCdn: false, tags: ["website.blog.detail"] })
 }
 
 // All Kajabi services
@@ -61,7 +61,7 @@ export async function getAllAuthors() {
 }
 
 export async function getAuthorBySlug(slug: string) {
-  return await fetchFromSanity(`*[_type == "author" && slug.current == $slug][0]`, { slug }, false, ["website.blog.detail"])
+  return await fetchFromSanity(`*[_type == "author" && slug.current == $slug][0]`, { slug }, { useCdn: false, tags: ["website.blog.detail"] })
 }
 
 // Posts (use CDN)
@@ -91,7 +91,7 @@ export async function getAllPosts() {
   hidden,
   reviewPending,
   seo
-}`, {}, true, ["website.blog.summaries"])
+}`, {}, { useCdn: true, tags: ["website.blog.summaries"] })
 }
 
 
@@ -117,7 +117,7 @@ export async function getPostBySlug(slug: string) {
     relatedServices[]->{ title, slug, description, "image": image.asset->url },
     relatedPlatforms[]->{ name, slug, "logo": logo.asset->url },
     relatedFaqs[]->{ question, answer, showOnSite, orderRank }
-  }`, { slug }, false, ["website.blog.detail"])
+  }`, { slug }, { useCdn: false, tags: ["website.blog.detail"] })
 }
 
 // Get latest blog posts (use CDN)
@@ -155,7 +155,7 @@ export async function getAllTestimonials() {
 
 // Case study by slug
 export async function getCaseStudyBySlug(slug: string) {
-  return await fetchFromSanity(`*[_type == "caseStudy" && slug.current == $slug][0]`, { slug }, false, ["website.blog.detail"])
+  return await fetchFromSanity(`*[_type == "caseStudy" && slug.current == $slug][0]`, { slug }, { useCdn: false, tags: ["website.blog.detail"] })
 }
 
 // Navigation

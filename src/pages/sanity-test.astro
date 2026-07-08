@@ -19,7 +19,7 @@ let documentCount = 0;
 let errorMsg = null;
 
 try {
-  const posts = await fetchFromSanity(latestBlogPostsQuery);
+  const posts = await fetchFromSanity(latestBlogPostsQuery, {}, { useCdn: false });
   if (Array.isArray(posts)) {
     connectionStatus = "Sanity connected";
     documentCount = posts.length;

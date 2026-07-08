@@ -18,12 +18,17 @@ export const sanityCdnClient = createClient({
 })
 
 // Wrapper to gracefully fallback when env vars are missing
-export async function fetchFromSanity(query: string, params: Record<string, any> = {}, useCdn: boolean = false, tags: string[] = []) {
+export async function fetchFromSanity(
+  query: string,
+  params: Record<string, any> = {},
+  options: { useCdn?: boolean, tags?: string[] } = {}
+) {
   try {
+    const { useCdn = false, tags = [] } = options;
     const client = useCdn ? sanityCdnClient : sanityBuildClient;
     // Define request options, including tags if provided
-    const options = tags && tags.length > 0 ? { filterResponse: false, tag: tags.join(',') } : {};
-    return await client.fetch(query, params, options)
+    const fetchOptions = tags && tags.length > 0 ? { filterResponse: false, tag: tags.join(',') } : {};
+    return await client.fetch(query, params, fetchOptions)
   } catch (error: any) {
     console.warn('Gracefully skipping Sanity fetch due to missing environment variables or connection error.');
     if (query.trim().endsWith('[0]')) {

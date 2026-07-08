@@ -13,7 +13,7 @@ if (!post) {
 }
 
 const pubDate = post.publishedAt ? new Date(post.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : null;
-const safeExcerpt = post.excerpt || "Read this featured article to learn more about our e-learning strategies and course building insights.";
+const safeExcerpt = post.aiSummary || post.excerpt || "Read this featured article to learn more about our e-learning strategies and course building insights.";
 const imageSrc = post.heroImage || post.featuredImage?.asset?.url || post.mainImage?.asset?.url;
 const imageAlt = post.heroImageAlt || post.title;
 
