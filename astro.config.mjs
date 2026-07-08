@@ -6,6 +6,7 @@ import vercel from '@astrojs/vercel';
 
 export default defineConfig({
   site: 'https://theeduassist.com',
+  output: 'static',
   adapter: vercel(),
   vite: {
     plugins: [tailwindcss()]
