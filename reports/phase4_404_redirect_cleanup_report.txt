@@ -1,0 +1,26 @@
+# Phase 4 - 404 and Redirect Cleanup Report
+
+## Audit of Known 404s and Old URLs
+
+| URL | Status | Linked Internally | In Sitemap | Replacement Page | Redirect Needed | Noindex Needed | Remove from Sitemap |
+|---|---|---|---|---|---|---|---|
+| `/about-us/` | 301 | No | No | `/about/` | Yes (existing) | No | Yes (already removed) |
+| `/contact-us/` | 301 | No | No | `/contact/` | Yes (existing) | No | Yes (already removed) |
+| `/case-studies-1/` | 301 | No | No | `/case-studies/` | Yes (existing) | No | Yes (already removed) |
+| `/career/` | 301 | No | No | `/careers/` | Yes (existing) | No | Yes (already removed) |
+| `/custom-elearning-content-development/` | 301 | No | No | `/services/custom-elearning-development/` | Yes (existing) | No | Yes (already removed) |
+| `/lms-integration-migration-services/` | 301 | No | No | `/services/lms-implementation-migration/` | Yes (existing) | No | Yes (already removed) |
+| `/ai-powered-elearning/` | 301 | No | No | `/services/ai-powered-elearning/` | Yes (existing) | No | Yes (already removed) |
+| `/resources/` | 301 | No | No | `/blog/` | Yes (existing) | No | Yes (already removed) |
+| `/gamification/` | 301 | No | No | `/services/` | Yes (existing) | No | Yes (already removed) |
+| `/wp-admin/` | 404 | No | No | N/A | No (keep 404) | Yes | Yes |
+| `/wp-login.php` | 404 | No | No | N/A | No (keep 404) | Yes | Yes |
+| `/xmlrpc.php` | 404 | No | No | N/A | No (keep 404) | Yes | Yes |
+| `/.env` | 404 | No | No | N/A | No (keep 404) | Yes | Yes |
+
+## Rules Followed
+* Did not delete useful content.
+* Redirected old useful URLs to closest relevant current page (handled via existing `public/_redirects`).
+* Removed broken/noindex/redirect URLs from sitemap (handled by `scripts/generate-sitemap.mjs`).
+* Avoided redirect chains.
+* Avoided redirecting everything to homepage unless no better match exists.
