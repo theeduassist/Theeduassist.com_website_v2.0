@@ -1,0 +1,33 @@
+# Phase 4 - Lead Tracking and Conversion Events Report
+
+## Current Analytics Setup
+*   **Google Analytics (GA4):** Verified present in `src/layouts/Layout.astro`.
+*   **Measurement ID:** `G-39NHQ9YM9P`
+*   **Implementation:** Standard `gtag.js` script placed globally in the `<head>` of the main layout.
+
+## Conversion Events to Track
+The following events should be configured in GA4 or implemented via custom Javascript pushing to the `dataLayer`:
+
+| Event Name | Trigger Condition | Priority Pages |
+| :--- | :--- | :--- |
+| `click_get_24_48_review` | Clicks on the primary "24-48 Hour Review" CTA button. | Homepage, Services, Blog detail pages |
+| `click_book_free_audit` | Clicks on links leading to `/book-free-audit/`. | Homepage, Services, Pricing |
+| `click_contact` | Clicks on links leading to `/contact/`. | Global navigation, Footer |
+| `submit_audit_form` | Successful submission of the Audit form. | `/book-free-audit/` |
+| `submit_contact_form` | Successful submission of the general Contact form. | `/contact/` |
+| `click_pricing_cta` | Clicks on specific tier CTA buttons on the pricing page. | `/pricing/` |
+| `click_enterprise_project` | Clicks on the Enterprise inquiry button. | `/pricing/`, Services |
+| `click_ai_ethics_training` | Clicks related to the AI Ethics service. | AI ethics service page |
+| `click_email` | Clicks on `mailto:Info@theeduassist.com` links. | Contact, Footer |
+| `blog_load_more` | Clicks on the "Load More" button on the blog index. | `/blog/` |
+| `blog_card_click` | Clicks on individual blog post cards. | `/blog/`, Homepage |
+| `service_cta_click` | Clicks on secondary CTAs within service description blocks. | Services pages |
+
+## Implementation Rules & Privacy Guardrails
+1.  **Do Not Break Forms:** Event tracking scripts (e.g., `onsubmit` handlers) must not interfere with the default form submission behavior or validation logic.
+2.  **No PII in Analytics:** Do not send Personally Identifiable Information (PII) such as names, emails, phone numbers, or free-text message contents to GA4 as event parameters. Track only the *action* (e.g., `form_submitted: true`).
+3.  **Privacy Policy Consistency:** Ensure the existing privacy policy accurately reflects the use of Google Analytics for conversion tracking.
+4.  **No Sensitive Data:** Never expose sensitive form fields to analytics.
+
+## Manual Setup Steps (if relying on GTM or GA4 Dashboard)
+If these events are not hardcoded into the button `onclick` attributes, they must be set up manually in the GA4 dashboard using the "Events" > "Create Event" feature based on existing page views or button click classes.
