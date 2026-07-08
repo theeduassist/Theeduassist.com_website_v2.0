@@ -3,9 +3,11 @@ import BlogCard from './BlogCard.astro';
 
 interface Props {
   posts: any[];
+  page?: any;
+  isFirstPage?: boolean;
 }
 
-const { posts = [] } = Astro.props;
+const { posts = [], page, isFirstPage = true } = Astro.props;
 ---
 
 <div class="all-articles-container my-16">
@@ -38,46 +40,150 @@ const { posts = [] } = Astro.props;
     ))}
   </div>
 
-  {posts.length > 12 && (
+  {page?.url && (
+    <div class="mt-12 flex justify-between items-center w-full">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="inline-flex items-center justify-center px-6 py-3 bg-white text-[var(--color-primary)] font-bold rounded-md border border-slate-300 hover:bg-slate-50 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-slate-500 focus:outline-none">
+          &larr; Previous
+        </a>
+      ) : <div></div>}
+
+      <span class="text-slate-600 font-medium">Page {page.currentPage} of {page.lastPage}</span>
+
+      {page.url.next ? (
+        <a href={page.url.next} class="inline-flex items-center justify-center px-6 py-3 bg-white text-[var(--color-primary)] font-bold rounded-md border border-slate-300 hover:bg-slate-50 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-slate-500 focus:outline-none">
+          Next &rarr;
+        </a>
+      ) : <div></div>}
+    </div>
+  )}
+
+  {isFirstPage && page?.url?.next && (
     <div class="mt-12 text-center load-more-container">
-      <button id="load-more-btn" class="inline-flex items-center justify-center px-6 py-3 bg-white text-slate-700 font-medium rounded-md border border-slate-300 hover:bg-slate-50 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-slate-500 focus:outline-none">
+      <button id="load-more-btn" data-next-page="2" data-last-page={page.lastPage} class="inline-flex items-center justify-center px-6 py-3 bg-white text-slate-700 font-medium rounded-md border border-slate-300 hover:bg-slate-50 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-slate-500 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed">
         Load More Articles
       </button>
     </div>
   )}
 </div>
 
+<div id="load-more-status" aria-live="polite" class="sr-only"></div>
+
+<template id="blog-card-template">
+  <div class="article-card-wrapper">
+    <article class="blog-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-md transition-shadow flex flex-col h-full group relative">
+      <a href="#" class="tpl-link block relative w-full aspect-[16/9] overflow-hidden bg-slate-100">
+        <img src="" alt="" loading="lazy" decoding="async" class="tpl-img absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+      </a>
+
+      <div class="p-6 flex flex-col flex-grow">
+        <div class="flex items-center justify-between mb-3">
+          <span class="tpl-category text-xs font-semibold uppercase tracking-wider text-[var(--color-primary)] truncate max-w-[70%]"></span>
+          <span class="tpl-read-time text-xs font-medium text-slate-500 bg-slate-100 px-2.5 py-1 rounded-full flex items-center hidden">
+            <svg class="w-4 h-4 mr-1.5 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span class="tpl-read-time-text"></span>
+          </span>
+        </div>
+
+        <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-[var(--color-primary)] transition-colors line-clamp-2">
+          <a href="#" class="tpl-link-title after:absolute after:inset-0"></a>
+        </h3>
+
+        <p class="tpl-excerpt text-slate-600 text-sm mb-4 line-clamp-3"></p>
+
+        <div class="mt-auto flex items-center justify-between text-xs text-slate-500 pt-4 border-t border-slate-100 relative z-10">
+          <time class="tpl-date"></time>
+          <a href="#" class="tpl-link-cta font-medium text-[var(--color-primary)] flex items-center group-hover:text-[var(--color-accent)] transition-colors">
+            Read Article
+            <svg class="w-3 h-3 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+          </a>
+        </div>
+      </div>
+    </article>
+  </div>
+</template>
+
 <script>
   function setupLoadMore() {
     const loadMoreBtn = document.getElementById('load-more-btn');
-    if (!loadMoreBtn) return;
+    const grid = document.querySelector('.article-grid');
+    const template = document.getElementById('blog-card-template');
+    const statusMsg = document.getElementById('load-more-status');
 
-    let visibleCount = 12;
-    const increment = 12;
+    if (!loadMoreBtn || !grid || !template || !statusMsg) return;
 
-    loadMoreBtn.addEventListener('click', () => {
-      // Need to recount based on what is currently displayable vs filtered
-      // But search filtering might hide things, so the simplest approach is to just show the next N hidden cards that match the current filter
+    loadMoreBtn.addEventListener('click', async () => {
+      if (loadMoreBtn.disabled) return;
 
-      const wrappers = document.querySelectorAll('.article-card-wrapper');
-      let shownThisClick = 0;
+      const nextPage = parseInt(loadMoreBtn.dataset.nextPage, 10);
+      const lastPage = parseInt(loadMoreBtn.dataset.lastPage, 10);
 
-      wrappers.forEach(wrapper => {
-        if (shownThisClick >= increment) return;
+      if (nextPage > lastPage) return;
 
-        // Only consider it hidden if the wrapper itself has the 'hidden' class
-        // (The filter logic will hide the article inside, or we can update the filter logic to handle this gracefully)
-        if (wrapper.classList.contains('hidden')) {
-          wrapper.classList.remove('hidden');
-          shownThisClick++;
-          visibleCount++;
+      loadMoreBtn.disabled = true;
+      loadMoreBtn.textContent = 'Loading...';
+      statusMsg.textContent = 'Loading more articles...';
+
+      try {
+        const response = await fetch(`/data/blog/page-${nextPage}.json`);
+        if (!response.ok) throw new Error('Failed to fetch articles');
+
+        const posts = await response.json();
+
+        posts.forEach(post => {
+          const clone = template.content.cloneNode(true);
+          const url = `/blog/${post.slug}/`;
+
+          const links = clone.querySelectorAll('.tpl-link, .tpl-link-title, .tpl-link-cta');
+          links.forEach(link => link.setAttribute('href', url));
+
+          const img = clone.querySelector('.tpl-img');
+          if (post.heroImage) {
+            img.setAttribute('src', post.heroImage);
+            img.setAttribute('alt', post.heroImageAlt || post.title);
+          } else {
+            img.parentElement.innerHTML = '<div class="absolute inset-0 flex items-center justify-center text-slate-400">No Image</div>';
+          }
+
+          const hiddenStatuses = ['review pending', 'draft', 'internal', 'admin', 'private', 'test', 'do not publish'];
+          const category = post.category && !hiddenStatuses.includes(post.category.toLowerCase()) ? post.category : 'Article';
+
+          clone.querySelector('.tpl-category').textContent = category;
+          clone.querySelector('.tpl-link-title').textContent = post.title;
+
+          const safeExcerpt = post.excerpt || "Read this article to learn more about our e-learning strategies and course building insights.";
+          clone.querySelector('.tpl-excerpt').textContent = safeExcerpt;
+
+          if (post.readingTime && post.readingTime > 0) {
+            const readTimeEl = clone.querySelector('.tpl-read-time');
+            readTimeEl.classList.remove('hidden');
+            clone.querySelector('.tpl-read-time-text').textContent = `${post.readingTime} Min`;
+          }
+
+          if (post.publishedAt) {
+            const dateStr = new Date(post.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+            clone.querySelector('.tpl-date').textContent = dateStr;
+            clone.querySelector('.tpl-date').setAttribute('datetime', post.publishedAt);
+          }
+
+          grid.appendChild(clone);
+        });
+
+        loadMoreBtn.dataset.nextPage = (nextPage + 1).toString();
+        statusMsg.textContent = `${posts.length} more articles loaded.`;
+
+        if (nextPage >= lastPage) {
+          loadMoreBtn.parentElement.style.display = 'none';
+        } else {
+          loadMoreBtn.disabled = false;
+          loadMoreBtn.textContent = 'Load More Articles';
         }
-      });
 
-      // Hide button if no more hidden wrappers
-      const remainingHidden = document.querySelectorAll('.article-card-wrapper.hidden').length;
-      if (remainingHidden === 0) {
-        loadMoreBtn.parentElement.style.display = 'none';
+      } catch (err) {
+        console.error('Error loading more articles:', err);
+        statusMsg.textContent = 'Failed to load more articles. Please try again.';
+        loadMoreBtn.disabled = false;
+        loadMoreBtn.textContent = 'Try Again';
       }
     });
   }

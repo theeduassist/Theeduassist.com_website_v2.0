@@ -1,0 +1,5 @@
+Image Optimization Report
+
+- Added `loading="lazy"` and `decoding="async"` to `<img />` tags in `src/components/blog/BlogCard.astro` to lazily load blog thumbnails.
+- Added `loading="lazy"` and `decoding="async"` to the two logo `<img />` tags in `src/components/layout/Footer.astro`.
+- Audited `AuditReviewScope.astro` and `AudienceGrid.astro` and confirmed they rely exclusively on inline SVG icons, thus requiring no `img` tag optimizations.

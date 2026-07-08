@@ -1,0 +1,6 @@
+CDN and Cache Review Report
+
+- Reviewed caching configurations in `vercel.json`.
+- `/_astro/(.*)` and `/assets/(.*)` are properly cached for 1 year with immutability, ensuring optimal performance for hashed static assets.
+- `/images/(.*)` has a standard 30-day cache.
+- Added a new rule for `/data/blog/(.*)\.json` with `Cache-Control: public, max-age=3600` to apply standard normal caching to generated static JSON chunks, preventing rapid redundant refetches from clients while staying relatively fresh.

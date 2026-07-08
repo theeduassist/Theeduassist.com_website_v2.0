@@ -1,0 +1,15 @@
+Monitoring Setup Report
+
+Vercel Monitoring:
+- Enabled: Vercel Web Analytics and Vercel Speed Insights can be tracked via the native Vercel dashboard.
+- To Monitor Daily: Edge request volume, function invocations, and error rates.
+- To Monitor Weekly: Speed Insights (LCP, CLS, FID) to ensure optimizations hold up over time.
+
+Sanity Monitoring:
+- Action required: Dashboard access needed.
+- To Monitor Daily: API Requests and API CDN Requests (to verify no accidental browser-side client fetching has been reintroduced).
+- To Monitor Weekly: Webhook frequency and build frequency.
+
+Google Search Console:
+- Enabled: `sitemap.xml` is successfully generating and returns a 200 via `scripts/generate-sitemap.mjs`.
+- To Monitor after 24-48 hours: Submission indexing errors, 404s, "crawled currently not indexed", and "discovered currently not indexed" logs to verify the new pagination structure is being correctly indexed.
