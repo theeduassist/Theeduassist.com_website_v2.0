@@ -1,0 +1,1 @@
+Sanity quota protection verified. Fetch data during build time using useCdn: false. Blog Load More uses static JSON.

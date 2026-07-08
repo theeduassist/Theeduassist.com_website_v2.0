@@ -92,7 +92,7 @@ export default defineConfig({
       if (document._type === 'post') {
         const slug = (document.slug as any)?.current
         if (slug) {
-          return `https://theeduassist.com/api/preview/?slug=${slug}&type=post`
+          return `https://www.theeduassist.com/api/preview/?slug=${slug}&type=post`
         }
       }
       return prev

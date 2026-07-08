@@ -1,3 +1,3 @@
 Canonical Domain Consistency check:
-1. Ran `grep` searches across `src/`, `public/`, and `scripts/` directories for `www.theeduassist.com` and `http://theeduassist.com`.
-2. No matching source files required updating because all canonical references, sitemap links, and schema URLs already successfully enforce `https://theeduassist.com/`. (The live blocker audit showed Vercel level redirects force the Apex domain to redirect to www, which is out of source file control and is reported).
+1. Ran `grep` searches across `src/`, `public/`, and `scripts/` directories for `www.theeduassist.com` and `https://www.theeduassist.com`.
+2. No matching source files required updating because all canonical references, sitemap links, and schema URLs already successfully enforce `https://www.theeduassist.com/`. (The live blocker audit showed Vercel level redirects force the Apex domain to redirect to www, which is out of source file control and is reported).

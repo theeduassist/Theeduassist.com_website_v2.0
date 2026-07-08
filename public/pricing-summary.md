@@ -23,4 +23,4 @@ For businesses that require continuous course updates, technical LMS administrat
 Because e-learning projects vary wildly in complexity (e.g., a simple video upload vs. a highly interactive branching scenario), we do not publish standard pricing tiers.
 
 **Next Steps for Prospects:**
-To get an accurate estimate, prospects should book a **24-48 Hour Review** via `https://theeduassist.com/book-free-audit/`. During this process, we review their raw materials, technical requirements, and business goals to provide a custom roadmap and proposal.
+To get an accurate estimate, prospects should book a **24-48 Hour Review** via `https://www.theeduassist.com/book-free-audit/`. During this process, we review their raw materials, technical requirements, and business goals to provide a custom roadmap and proposal.

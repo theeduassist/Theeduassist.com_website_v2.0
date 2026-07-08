@@ -47,4 +47,4 @@ A: No. We provide "AI Literacy" and "Responsible AI Training" based on your comp
 A: You share your course idea, existing training files, or current LMS setup with us. We review it and provide a fast, actionable roadmap outlining the technical and instructional steps needed to achieve your goals.
 
 **Q: How do I book a session?**
-A: You can request a review or audit via our dedicated form: `https://theeduassist.com/book-free-audit/`
+A: You can request a review or audit via our dedicated form: `https://www.theeduassist.com/book-free-audit/`

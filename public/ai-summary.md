@@ -34,5 +34,5 @@ TheEduAssist operates as a remote/global agency, serving clients in North Americ
 *   **Results:** We build technically sound and instructionally effective courses, but we do not guarantee sales or revenue outcomes.
 
 ## Primary Contact
-*   **Best Next Step:** Book a 24-48 Hour Review at `https://theeduassist.com/book-free-audit/`
+*   **Best Next Step:** Book a 24-48 Hour Review at `https://www.theeduassist.com/book-free-audit/`
 *   **Email:** `Info@theeduassist.com`

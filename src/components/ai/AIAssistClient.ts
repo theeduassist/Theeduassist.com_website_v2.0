@@ -53,7 +53,7 @@ export function generateFullPrompt(actionId?: string): string {
       actionInstruction = "Read this page and explain how TheEduAssist uses AI to support course creation, content conversion, quizzes, scripts, learner support, and training automation while keeping human review involved.";
     } else if (pageUrl.includes('/case-studies')) {
       actionInstruction = "Read these case studies and summarize the types of e-learning, Kajabi, LMS, and course-building projects TheEduAssist has worked on.";
-    } else if (pageUrl === 'https://theeduassist.com/' || pageUrl === 'https://theeduassist.com') {
+    } else if (pageUrl === 'https://www.theeduassist.com/' || pageUrl === 'https://www.theeduassist.com') {
       actionInstruction = "Read this page and summarize what TheEduAssist does, who it helps, and when someone should contact them for online course creation, Kajabi setup, LMS implementation, or e-learning content support.";
     }
 

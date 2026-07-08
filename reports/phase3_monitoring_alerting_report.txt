@@ -4,8 +4,8 @@ Phase 3 Monitoring & Alerting Report
 ### Daily Checks
 - **Sanity Request Increase:** Monitor Sanity's dashboard (API tab) for sudden spikes in requests or CDN usage. Spikes might indicate a missing `Cache-Control` header or rogue client-side fetching.
 - **Vercel Error Rate:** Check Vercel logs for 500 errors or failed builds to ensure static rendering processes aren't timing out.
-- **Sitemap Status:** Ensure `https://theeduassist.com/sitemap.xml` returns 200 and correctly lists live URLs without including drafts.
-- **Robots Status:** Ensure `https://theeduassist.com/robots.txt` returns 200 and points to the sitemap.
+- **Sitemap Status:** Ensure `https://www.theeduassist.com/sitemap.xml` returns 200 and correctly lists live URLs without including drafts.
+- **Robots Status:** Ensure `https://www.theeduassist.com/robots.txt` returns 200 and points to the sitemap.
 - **Lead Form Working:** Submit a test through the primary lead form (or audit form) to ensure form submission handlers (e.g., Netlify Forms, Formspree, or custom API) are responding correctly.
 
 ### Weekly Checks

@@ -4,23 +4,23 @@
 
 | URL | HTTP Status | Canonical URL | Indexable | In Sitemap | Robots/Noindex | Title/Meta | Schema | Internal Links | Action Needed |
 |---|---|---|---|---|---|---|---|---|---|
-| `/` | 200 | `https://theeduassist.com/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
-| `/services/` | 200 | `https://theeduassist.com/services/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
-| `/pricing/` | 200 | `https://theeduassist.com/pricing/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
-| `/book-free-audit/` | 200 | `https://theeduassist.com/book-free-audit/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
-| `/contact/` | 200 | `https://theeduassist.com/contact/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
-| `/about/` | 200 | `https://theeduassist.com/about/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
-| `/blog/` | 200 | `https://theeduassist.com/blog/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
-| `/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/` | 200 | `https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
-| `/kajabi-services/` | 200 | `https://theeduassist.com/kajabi-services/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
-| `/services/lms-implementation-migration/` | 200 | `https://theeduassist.com/services/lms-implementation-migration/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
-| `/services/ai-powered-elearning/` | 200 | `https://theeduassist.com/services/ai-powered-elearning/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
-| `/services/ai-ethics-corporate-training/` | 200 | `https://theeduassist.com/services/ai-ethics-corporate-training/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
-| `/platforms/` | 200 | `https://theeduassist.com/platforms/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
-| `/locations/` | 200 | `https://theeduassist.com/locations/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
-| `/locations/new-york/` | 200 | `https://theeduassist.com/locations/new-york/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
-| `/locations/london/` | 200 | `https://theeduassist.com/locations/london/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
-| `/locations/sydney/` | 200 | `https://theeduassist.com/locations/sydney/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
+| `/` | 200 | `https://www.theeduassist.com/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
+| `/services/` | 200 | `https://www.theeduassist.com/services/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
+| `/pricing/` | 200 | `https://www.theeduassist.com/pricing/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
+| `/book-free-audit/` | 200 | `https://www.theeduassist.com/book-free-audit/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
+| `/contact/` | 200 | `https://www.theeduassist.com/contact/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
+| `/about/` | 200 | `https://www.theeduassist.com/about/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
+| `/blog/` | 200 | `https://www.theeduassist.com/blog/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
+| `/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/` | 200 | `https://www.theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
+| `/kajabi-services/` | 200 | `https://www.theeduassist.com/kajabi-services/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
+| `/services/lms-implementation-migration/` | 200 | `https://www.theeduassist.com/services/lms-implementation-migration/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
+| `/services/ai-powered-elearning/` | 200 | `https://www.theeduassist.com/services/ai-powered-elearning/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
+| `/services/ai-ethics-corporate-training/` | 200 | `https://www.theeduassist.com/services/ai-ethics-corporate-training/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC & Request Indexing |
+| `/platforms/` | 200 | `https://www.theeduassist.com/platforms/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
+| `/locations/` | 200 | `https://www.theeduassist.com/locations/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
+| `/locations/new-york/` | 200 | `https://www.theeduassist.com/locations/new-york/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
+| `/locations/london/` | 200 | `https://www.theeduassist.com/locations/london/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
+| `/locations/sydney/` | 200 | `https://www.theeduassist.com/locations/sydney/` | Yes | Yes | index, follow | Yes | Yes | Yes | Inspect in GSC |
 
 ## Manual Search Console steps
 

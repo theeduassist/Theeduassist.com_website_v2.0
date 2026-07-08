@@ -3,7 +3,7 @@ PHASE 1 STABILIZATION MASTER REPORT
 =========================================
 
 1. Executive Summary:
-Phase 1 has been successfully completed. TheEduAssist website stabilization efforts have secured the Sanity CMS setup to use the CDN properly, reduced direct API load, secured static sitemap logic, added baseline security headers to Vercel, and maintained a consistent `https://theeduassist.com/` non-www URL domain model across schemas and metadata.
+Phase 1 has been successfully completed. TheEduAssist website stabilization efforts have secured the Sanity CMS setup to use the CDN properly, reduced direct API load, secured static sitemap logic, added baseline security headers to Vercel, and maintained a consistent `https://www.theeduassist.com/` non-www URL domain model across schemas and metadata.
 
 2. Live blockers found:
 All 12 requested URLs were successfully tested. The apex domains successfully block 500s but show 308 permanent redirects to `www`. This will need to be configured in Vercel.
@@ -42,10 +42,10 @@ Vercel `vercel.json` received `Permissions-Policy: camera=(), microphone=(), geo
 Validation modules ran correctly (`validate:env`, `validate:redirects`). `npm run build` compiled cleanly.
 
 14. Remaining risks:
-Vercel Domain console must be checked to switch apex configuration (currently `www` is the primary domain redirecting apex, but `https://theeduassist.com/` is the requested primary).
+Vercel Domain console must be checked to switch apex configuration (currently `www` is the primary domain redirecting apex, but `https://www.theeduassist.com/` is the requested primary).
 
 15. What to monitor in Sanity after deploy:
 Monitor Sanity API CDN quotas to verify the load heavily leans toward the CDN (`sanityCdnClient`) and drops for the direct API usage.
 
 16. What to validate in Google Search Console after deploy:
-Verify the latest non-www sitemap `https://theeduassist.com/sitemap.xml` crawls safely, processing 200 HTTP codes. Check index reports for the updated robots.txt rules.
+Verify the latest non-www sitemap `https://www.theeduassist.com/sitemap.xml` crawls safely, processing 200 HTTP codes. Check index reports for the updated robots.txt rules.
