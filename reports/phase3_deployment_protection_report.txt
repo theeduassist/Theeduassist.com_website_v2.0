@@ -1,0 +1,17 @@
+Phase 3 Deployment Protection Report
+====================================
+
+- Current Preview Exposure Risk: Currently, any PR pushed to GitHub triggers a Vercel preview deployment. These URLs (e.g., `*-theeduassist.vercel.app`) can technically be indexed by search engines if leaked or if standard `robots.txt` ignores preview subdomains.
+- Recommended Vercel Deployment Protection Setting:
+  - Vercel Dashboard > Project Settings > Deployment Protection.
+  - Enable **Vercel Authentication** for Preview Deployments. This forces anyone accessing a preview URL to log into Vercel with a verified team account.
+- What can be done in code:
+  - Inside `src/layouts/Layout.astro`, read the Vercel environment variable `VERCEL_ENV`. If `VERCEL_ENV === 'preview'`, dynamically insert `<meta name="robots" content="noindex, nofollow" />`. (Note: Since we are fully static, this depends on whether Astro builds read the preview env variables at build time).
+  - Add `X-Robots-Tag: noindex` in `vercel.json` specifically for preview deployments if Vercel supports conditional headers, but code-level `noindex` during the build is safer.
+- What must be done manually in dashboard:
+  - Turn on Vercel Authentication for previews.
+  - Ensure standard protection features (like SSO or password protection) are active if standard auth is insufficient.
+- Old preview branch cleanup recommendation:
+  - Delete old merged PR branches in GitHub.
+  - Use Vercel's settings to automatically delete preview deployments for merged or closed pull requests.
+  - Check Google Search Console for any `*.vercel.app` indexed URLs and request their removal.

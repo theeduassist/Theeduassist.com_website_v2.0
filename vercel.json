@@ -68,6 +68,15 @@
           "value": "public, max-age=3600"
         }
       ]
+    },
+    {
+      "source": "/services/ai-ethics-corporate-training/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Tag",
+          "value": "service:ai-ethics-corporate-training"
+        }
+      ]
     }
   ],
   "redirects": [

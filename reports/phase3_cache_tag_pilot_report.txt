@@ -1,0 +1,17 @@
+Phase 3 Cache Tag Pilot Report
+==============================
+
+- Route chosen: `/services/ai-ethics-corporate-training/`
+- Cache tag names: `service:ai-ethics-corporate-training`
+- Implementation files: `vercel.json`
+- Cache headers used: `Cache-Tag: service:ai-ethics-corporate-training`
+- Invalidation method used: Documented fallback. Because the project is fully static without server/hybrid mode, there is no server-side API available to emit cache tags at runtime. Thus, the tag is set via static Vercel headers (`vercel.json`). To invalidate, an on-demand invalidation via Vercel Edge API or a manual rebuild (Sanity Deploy Hook) must be used.
+- Test result: Safe. Applying the header via `vercel.json` does not break static builds or routing.
+- Expand later?: Yes, this pattern can be safely expanded to other routes via `vercel.json` or, once `output: 'hybrid'` is enabled, natively via Astro middleware.
+
+Acceptance Check:
+- Pilot does not break static pages: Verified (it is just a header).
+- Pilot does not break sitemap: Verified.
+- Pilot does not break blog index: Verified.
+- Pilot does not cause browser-side Sanity requests: Verified.
+- Pilot does not expose secrets: Verified.

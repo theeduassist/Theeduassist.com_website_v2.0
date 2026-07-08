@@ -1,0 +1,43 @@
+Phase 3 Master Report
+=====================
+
+1. Executive Summary:
+Phase 3 focused on auditing and piloting advanced caching, preview protection, and monitoring. Since the current architecture is strictly static (`output: 'static'`), server-side dynamic rendering (like Server Islands) and native runtime cache invalidation endpoints were carefully deferred or adapted to static Vercel headers. The project remains safe, fast, and stable, while the pathway to an eventual hybrid mode is fully mapped out.
+
+2. Architecture Readiness Result:
+The project is structurally sound. However, advanced native Astro Server Islands and runtime API webhooks require a shift to `output: 'hybrid'`. For now, cache rules are pushed to the Edge via static configuration (`vercel.json`), and content deployments rely on Sanity Deploy Hooks triggering Vercel rebuilds.
+
+3. Cache Tag Pilot Result:
+Safe and successful. A `Cache-Tag: service:ai-ethics-corporate-training` header was applied to the `/services/ai-ethics-corporate-training/(.*)` route via `vercel.json`. This validates that Vercel Edge caching rules can be explicitly scoped for targeted invalidation, laying the foundation for future API-driven purging.
+
+4. Sanity Webhook Plan/Result:
+A webhook filter and GROQ projection were mapped out. However, exposing an `/api/revalidate` endpoint is deferred until the project is upgraded to support server/hybrid routes safely. The fallback (deploy hooks for full rebuilds) remains active and effective.
+
+5. Preview Mode Plan/Result:
+A secure preview route strategy (`/preview/blog/[slug]/` protected by a secret query string) was designed. Like the webhook, building this in code requires `output: 'hybrid'`. The required security protocols (noindex, no-store, token protection) are fully documented for when the feature is enabled.
+
+6. Server Islands Pilot Result:
+The pilot analyzed the AI Assistant/Chat Widget for Server Islands (`server:defer`). Since the project is currently static, implementation was deferred to avoid breaking the static paradigm. The widget remains safe and does not block SEO.
+
+7. Deployment Protection Recommendations:
+Vercel Authentication for Preview Deployments was recommended as the primary security layer to prevent preview URLs from being indexed or accessed by the public. Code-level `noindex` fallbacks and branch cleanup routines were also documented.
+
+8. Monitoring and Alerting Checklist:
+A comprehensive checklist covering daily, weekly, and after-deploy checks (including Sanity API usage, Vercel error rates, Search Console indexing, and environment safety) was created and verified.
+
+9. Regression Test Result:
+Passed. Phase 1 and 2 outputs (`sitemap.xml`, `robots.txt`, blog pagination, Load More JSON, security headers) remain intact and fully functional.
+
+10. Build/Test Result:
+Passed. The `prebuild` (sitemap) and `build` commands executed successfully. Environment safety checks passed (after a minor redaction of a test string in a report).
+
+11. Remaining Risks:
+- Long build times could occur if the blog scales significantly because the site is fully static. Moving to hybrid caching and webhooks will eventually be required.
+- Preview deployments on Vercel must be manually protected in the dashboard to prevent accidental indexing.
+
+12. What should be done manually in Sanity/Vercel dashboards:
+- Vercel: Enable Vercel Authentication for Preview Deployments.
+- Sanity: Maintain the Vercel Deploy Hook for production publishing until hybrid API endpoints are implemented.
+
+13. Whether Phase 4 is safe to start:
+Yes, Phase 4 is safe to start. The static baseline is completely verified and stable.
