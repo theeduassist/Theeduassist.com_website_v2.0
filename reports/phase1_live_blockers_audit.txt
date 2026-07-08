@@ -1,5 +1,5 @@
 
-URL: https://theeduassist.com/
+URL: https://www.theeduassist.com/
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/
 redirect yes/no: yes
@@ -11,7 +11,7 @@ indexable yes/no: no
 immediate fix needed: yes
 
 
-URL: https://theeduassist.com/sitemap.xml
+URL: https://www.theeduassist.com/sitemap.xml
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/sitemap.xml
 redirect yes/no: yes
@@ -23,7 +23,7 @@ indexable yes/no: no
 immediate fix needed: yes
 
 
-URL: https://theeduassist.com/robots.txt
+URL: https://www.theeduassist.com/robots.txt
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/robots.txt
 redirect yes/no: yes
@@ -35,7 +35,7 @@ indexable yes/no: no
 immediate fix needed: yes
 
 
-URL: https://theeduassist.com/blog/
+URL: https://www.theeduassist.com/blog/
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/blog/
 redirect yes/no: yes
@@ -47,7 +47,7 @@ indexable yes/no: no
 immediate fix needed: yes
 
 
-URL: https://theeduassist.com/services/
+URL: https://www.theeduassist.com/services/
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/services/
 redirect yes/no: yes
@@ -59,7 +59,7 @@ indexable yes/no: no
 immediate fix needed: yes
 
 
-URL: https://theeduassist.com/pricing/
+URL: https://www.theeduassist.com/pricing/
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/pricing/
 redirect yes/no: yes
@@ -71,7 +71,7 @@ indexable yes/no: no
 immediate fix needed: yes
 
 
-URL: https://theeduassist.com/book-free-audit/
+URL: https://www.theeduassist.com/book-free-audit/
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/book-free-audit/
 redirect yes/no: yes
@@ -83,7 +83,7 @@ indexable yes/no: no
 immediate fix needed: yes
 
 
-URL: https://theeduassist.com/about/
+URL: https://www.theeduassist.com/about/
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/about/
 redirect yes/no: yes
@@ -95,7 +95,7 @@ indexable yes/no: no
 immediate fix needed: yes
 
 
-URL: https://theeduassist.com/contact/
+URL: https://www.theeduassist.com/contact/
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/contact/
 redirect yes/no: yes
@@ -107,7 +107,7 @@ indexable yes/no: no
 immediate fix needed: yes
 
 
-URL: https://theeduassist.com/platforms/
+URL: https://www.theeduassist.com/platforms/
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/platforms/
 redirect yes/no: yes
@@ -119,7 +119,7 @@ indexable yes/no: no
 immediate fix needed: yes
 
 
-URL: https://theeduassist.com/locations/
+URL: https://www.theeduassist.com/locations/
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/locations/
 redirect yes/no: yes
@@ -131,7 +131,7 @@ indexable yes/no: no
 immediate fix needed: yes
 
 
-URL: https://theeduassist.com/services/ai-ethics-corporate-training/
+URL: https://www.theeduassist.com/services/ai-ethics-corporate-training/
 HTTP status: 308
 final resolved URL: https://www.theeduassist.com/services/ai-ethics-corporate-training/
 redirect yes/no: yes

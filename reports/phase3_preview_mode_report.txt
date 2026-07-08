@@ -11,7 +11,7 @@ Phase 3 Preview Mode Report
   - Since Astro is fully static right now, implementing a server-rendered preview route requires switching Astro to `output: 'hybrid'` and exporting `prerender = false` on preview endpoints.
 - Manual Editor Testing Steps:
   1. Editors generate a secure link from Sanity Studio using a Preview plugin.
-  2. The link opens `https://theeduassist.com/preview/blog/my-draft?secret=TOKEN`.
+  2. The link opens `https://www.theeduassist.com/preview/blog/my-draft?secret=TOKEN`.
   3. Verify the browser shows draft content without caching it on reload.
   4. Verify the page source includes `<meta name="robots" content="noindex, nofollow" />`.
 

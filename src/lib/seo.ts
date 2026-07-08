@@ -1,5 +1,5 @@
 export const site = {
-  url: 'https://theeduassist.com',
+  url: 'https://www.theeduassist.com',
   name: 'TheEduAssist',
   title: 'TheEduAssist | E-Learning Design Agency for Courses, Kajabi & LMS Builds',
   description: 'TheEduAssist helps creators, coaches, educators, consultants, training companies, online academies, and businesses turn knowledge into structured, launch-ready online learning systems.',

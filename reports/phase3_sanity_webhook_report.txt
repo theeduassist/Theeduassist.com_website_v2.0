@@ -18,7 +18,7 @@ Phase 3 Sanity Webhook Report
 - Manual Sanity Dashboard Setup Steps:
   1. In Sanity project settings, navigate to API > Webhooks.
   2. Create a webhook for Vercel Deploy Hook (the current working method).
-  3. When the architecture upgrades to `hybrid`, create a new webhook pointing to `https://theeduassist.com/api/revalidate`.
+  3. When the architecture upgrades to `hybrid`, create a new webhook pointing to `https://www.theeduassist.com/api/revalidate`.
   4. Use the projection defined above.
   5. Add a custom header: `x-sanity-webhook-secret` with a securely generated token.
 

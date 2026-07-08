@@ -1,7 +1,7 @@
 # TheEduAssist Astro Website Deployment Guide
 
 **Project name:** TheEduAssist Astro Website
-**Production domain:** https://theeduassist.com
+**Production domain:** https://www.theeduassist.com
 **Build command:** `npm run build`
 **Output directory:** `dist`
 **Node version note:** Ensure Node v22.12.0 or higher

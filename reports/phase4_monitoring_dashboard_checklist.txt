@@ -8,8 +8,8 @@ The following metrics must be checked daily to ensure post-deployment stability 
 *   [ ] **Vercel Error Rate:** Check the Vercel dashboard for 500 errors, specifically looking for SSR crashes related to missing data fallbacks.
 *   [ ] **Vercel Edge Requests:** Monitor traffic volume to gauge if new indexable pages are being hit by bots/users.
 *   [ ] **Form Submissions:** Test or monitor the Audit and Contact forms to ensure lead flow is uninterrupted.
-*   [ ] **Sitemap Status:** Check `https://theeduassist.com/sitemap.xml` to ensure it returns 200 OK and contains the expected URLs.
-*   [ ] **Robots Status:** Check `https://theeduassist.com/robots.txt` to ensure it returns 200 OK and has correct allow/disallow rules.
+*   [ ] **Sitemap Status:** Check `https://www.theeduassist.com/sitemap.xml` to ensure it returns 200 OK and contains the expected URLs.
+*   [ ] **Robots Status:** Check `https://www.theeduassist.com/robots.txt` to ensure it returns 200 OK and has correct allow/disallow rules.
 
 ## Weekly Monitoring
 These metrics should be reviewed weekly to track long-term SEO and conversion goals:
