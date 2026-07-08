@@ -31,15 +31,15 @@ const row2 = [
 
         <!-- Row 1: Left to Right -->
         <div class="flex overflow-hidden group">
-            <div class="flex space-x-6 min-w-max animate-marquee-left group-hover:pause-animation">
-                {row1.map((p, index) => (
-                    <div class="bg-white text-brand-navy font-semibold px-6 py-3 rounded-full border border-slate-200 shadow-sm hover:shadow-md hover:border-brand-accent/50 transition-all" aria-hidden={index >= (row1.length / 2) ? "true" : "false"}>
+            <div class="flex space-x-6 min-w-max animate-marquee-left motion-reduce:animate-none group-hover:pause-animation">
+                {row1.slice(0, row1.length / 2).map((p) => (
+                    <div class="bg-white text-brand-navy font-semibold px-6 py-3 rounded-full border border-slate-200 shadow-sm hover:shadow-md hover:border-brand-accent/50 transition-all">
                         {p}
                     </div>
                 ))}
             </div>
-             <div class="flex space-x-6 min-w-max animate-marquee-left group-hover:pause-animation ml-6" aria-hidden="true">
-                {row1.map((p) => (
+             <div class="flex space-x-6 min-w-max animate-marquee-left motion-reduce:animate-none group-hover:pause-animation ml-6" aria-hidden="true">
+                {row1.slice(0, row1.length / 2).map((p) => (
                     <div class="bg-white text-brand-navy font-semibold px-6 py-3 rounded-full border border-slate-200 shadow-sm hover:shadow-md hover:border-brand-accent/50 transition-all">
                         {p}
                     </div>
@@ -49,15 +49,15 @@ const row2 = [
 
         <!-- Row 2: Right to Left -->
         <div class="flex overflow-hidden group">
-            <div class="flex space-x-6 min-w-max animate-marquee-right group-hover:pause-animation">
-                {row2.map((p, index) => (
-                    <div class="bg-white text-brand-navy font-semibold px-6 py-3 rounded-full border border-slate-200 shadow-sm hover:shadow-md hover:border-brand-accent/50 transition-all" aria-hidden={index >= (row2.length / 2) ? "true" : "false"}>
+            <div class="flex space-x-6 min-w-max animate-marquee-right motion-reduce:animate-none group-hover:pause-animation">
+                {row2.slice(0, row2.length / 2).map((p) => (
+                    <div class="bg-white text-brand-navy font-semibold px-6 py-3 rounded-full border border-slate-200 shadow-sm hover:shadow-md hover:border-brand-accent/50 transition-all">
                         {p}
                     </div>
                 ))}
             </div>
-             <div class="flex space-x-6 min-w-max animate-marquee-right group-hover:pause-animation ml-6" aria-hidden="true">
-                {row2.map((p) => (
+             <div class="flex space-x-6 min-w-max animate-marquee-right motion-reduce:animate-none group-hover:pause-animation ml-6" aria-hidden="true">
+                {row2.slice(0, row2.length / 2).map((p) => (
                     <div class="bg-white text-brand-navy font-semibold px-6 py-3 rounded-full border border-slate-200 shadow-sm hover:shadow-md hover:border-brand-accent/50 transition-all">
                         {p}
                     </div>

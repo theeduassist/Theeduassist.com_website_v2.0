@@ -1,45 +1,47 @@
 ---
 export const prerender = true;
-import Layout from '../../layouts/Layout.astro';
-import BlogHero from '../../components/blog/BlogHero.astro';
-import BlogSearchFilters from '../../components/blog/BlogSearchFilters.astro';
-import FeaturedBlogArticle from '../../components/blog/FeaturedBlogArticle.astro';
-import LatestArticles from '../../components/blog/LatestArticles.astro';
-import AllArticlesGrid from '../../components/blog/AllArticlesGrid.astro';
-import QuickBlogQuestions from '../../components/blog/QuickBlogQuestions.astro';
-import IndexBlogFAQs from '../../components/blog/IndexBlogFAQs.astro';
-import BlogCTA from '../../components/blog/BlogCTA.astro';
+import Layout from '../../../layouts/Layout.astro';
+import BlogHero from '../../../components/blog/BlogHero.astro';
+import BlogSearchFilters from '../../../components/blog/BlogSearchFilters.astro';
+import FeaturedBlogArticle from '../../../components/blog/FeaturedBlogArticle.astro';
+import LatestArticles from '../../../components/blog/LatestArticles.astro';
+import AllArticlesGrid from '../../../components/blog/AllArticlesGrid.astro';
+import QuickBlogQuestions from '../../../components/blog/QuickBlogQuestions.astro';
+import IndexBlogFAQs from '../../../components/blog/IndexBlogFAQs.astro';
+import BlogCTA from '../../../components/blog/BlogCTA.astro';
 
-import { getBlogPostSummaries } from '../../lib/content/getAllBlogPosts';
-import { faqs as indexFaqs } from '../../components/blog/IndexBlogFAQs.astro';
+import { getBlogPostSummaries } from '../../../lib/content/getAllBlogPosts';
+import { faqs as indexFaqs } from '../../../components/blog/IndexBlogFAQs.astro';
 
-let posts = [];
-try {
-  posts = await getBlogPostSummaries();
-} catch (e) {
-  console.log("Error fetching blog posts for index");
+export async function getStaticPaths({ paginate }) {
+  let posts = [];
+  try {
+    posts = await getBlogPostSummaries();
+  } catch (e) {
+    console.log("Error fetching blog posts for index pagination");
+  }
+  return paginate(posts, { pageSize: 12 });
 }
 
-const isFirstPage = true;
-const featuredPost = posts.length > 0 ? posts[0] : null;
-const gridPosts = posts.slice(1, 12);
-const totalPages = Math.ceil(posts.length / 12);
+const { page } = Astro.props;
 
-const mockPage = {
-    data: gridPosts,
-    currentPage: 1,
-    lastPage: totalPages,
-    url: {
-        prev: undefined,
-        next: totalPages > 1 ? '/blog/page/2/' : undefined
-    }
-};
+// Determine if we are on the first page to show hero and featured sections
+const isFirstPage = page.currentPage === 1;
 
+// On the first page, the first post in the paginated array is the featured post
+const featuredPost = (isFirstPage && page.data.length > 0) ? page.data[0] : null;
+
+// The rest of the posts for the grid
+const gridPosts = isFirstPage ? page.data.slice(1) : page.data;
 
 // SEO details
-const title = "Blog | Course Creation, Kajabi, LMS & E-Learning Insights | TheEduAssist";
+const titleText = isFirstPage
+  ? "Blog | Course Creation, Kajabi, LMS & E-Learning Insights | TheEduAssist"
+  : `Blog - Page ${page.currentPage} | TheEduAssist`;
+const title = titleText;
 const description = "Read TheEduAssist articles on course creation, Kajabi setup, LMS implementation, instructional design, AI-powered e-learning, content conversion, and online course launches.";
-const canonicalPath = "/blog/";
+
+const canonicalPath = isFirstPage ? "/blog/" : `/blog/page/${page.currentPage}/`;
 const ogTitle = title;
 const ogDescription = description;
 
@@ -82,7 +84,7 @@ const faqSchema = {
   {isFirstPage && <BlogHero />}
 
   <main class="container mx-auto px-4 py-12 max-w-6xl">
-    {mockPage.data.length === 0 ? (
+    {page.data.length === 0 ? (
       <div class="text-center py-20 bg-slate-50 rounded-lg border border-slate-200 border-dashed">
         <p class="text-xl text-slate-600">New articles coming soon.</p>
       </div>
@@ -102,7 +104,7 @@ const faqSchema = {
           <LatestArticles currentSlug={featuredPost?.slug?.current || featuredPost?.slug} />
         )}
 
-        <AllArticlesGrid posts={gridPosts} page={mockPage} isFirstPage={isFirstPage} />
+        <AllArticlesGrid posts={gridPosts} page={page} isFirstPage={isFirstPage} />
 
         <QuickBlogQuestions />
 
