@@ -1,0 +1,42 @@
+Audit Report: Logo, Favicon, and Branding
+
+Findings:
+- Favicon references found in:
+  - `src/layouts/Layout.astro` points to `/favicon.svg`
+  - `public/site.webmanifest` points to `/favicon.svg`
+- Logos found in:
+  - `src/components/contact/ContactHero.astro`: `/brand/theeduassist-logo-circle.png`
+  - `src/components/about/OurStory.astro`: `/brand/theeduassist-logo-circle.png`
+  - `src/components/ai-elearning/AIElearningHero.astro`: `/brand/theeduassist-logo-mark.svg`
+  - `src/components/ai-elearning/WhyNotDIYAI.astro`: `/brand/theeduassist-logo-mark.svg`
+  - `src/components/sections/NewHomeHero.astro`: `/brand/theeduassist-logo-mark.svg`
+  - `src/components/sections/HomeHero.astro`: `/brand/theeduassist-logo-mark.svg`
+  - `src/components/layout/Header.astro`: `/brand/theeduassist-logo-circle.png`
+  - `src/components/layout/Footer.astro`: `/brand/theeduassist-logo-circle.png` (multiple)
+  - `src/pages/brand-assets/index.astro`: `/brand/theeduassist-logo.svg`
+  - `src/pages/about/index.astro`: `https://www.theeduassist.com/brand/theeduassist-logo-transparent.png`
+  - `src/lib/seo/schema.ts`: `/brand/theeduassist-logo.svg`
+- OG Image found in:
+  - `src/components/seo/SeoHead.astro`
+  - `src/layouts/Layout.astro`
+
+Old/default/Vercel/incorrect assets to be replaced:
+- `/favicon.svg` (we will use png/ico formats as we generated them from a raster image).
+- `/brand/theeduassist-logo.svg`
+- `/brand/theeduassist-logo-mark.svg`
+- `/brand/theeduassist-logo-wordmark.svg`
+
+Files to be updated:
+- `src/layouts/Layout.astro` (for favicons and og image)
+- `src/components/seo/SeoHead.astro` (for og image)
+- `public/site.webmanifest` (for favicons and name)
+- `src/components/layout/Header.astro`
+- `src/components/layout/Footer.astro`
+- `src/lib/seo/schema.ts`
+- Various page components: `ContactHero.astro`, `OurStory.astro`, `AIElearningHero.astro`, `WhyNotDIYAI.astro`, `NewHomeHero.astro`, `HomeHero.astro`, `pages/about/index.astro`, `pages/brand-assets/index.astro`.
+
+Files to be deleted (or no longer referenced):
+- `public/favicon.svg`
+- `public/brand/theeduassist-logo.svg`
+- `public/brand/theeduassist-logo-wordmark.svg`
+- `public/brand/theeduassist-logo-mark.svg`
