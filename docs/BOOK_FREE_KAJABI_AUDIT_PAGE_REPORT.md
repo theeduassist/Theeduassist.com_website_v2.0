@@ -26,7 +26,7 @@
 **10. Process diagram status:** Built. Uses a custom CSS-based numbered timeline diagram.
 **11. FAQ status:** Built using the existing `FAQAccordion.astro` component and includes `FAQPage` JSON-LD schema.
 **12. AI Page Assistant status:** Built as a custom component (`AuditAIPageAssist.astro`) that copies a specific, tailored prompt to the clipboard and opens the user's selected AI tool safely without iframes or API calls.
-**13. SEO/schema status:** Canonical URL set to `https://theeduassist.com/book-free-kajabi-audit/`. Only one H1. Title and meta description set. Included `BreadcrumbList` and `Service` JSON-LD schemas. `FAQPage` schema also included.
+**13. SEO/schema status:** Canonical URL set to `https://www.theeduassist.com/book-free-kajabi-audit/`. Only one H1. Title and meta description set. Included `BreadcrumbList` and `Service` JSON-LD schemas. `FAQPage` schema also included.
 **14. Accessibility status:** Only one H1. Calendly links are explicitly marked to open in a new tab with standard `rel` attributes. Color contrast uses existing tailwind brand palette. Diagrams have text alternatives/descriptions. Reduced motion supported via CSS media query in Hero animation.
 **15. Performance status:** Built natively with HTML/Tailwind CSS. No heavy external scripts/iframes. Calendly uses a button link rather than an embedded widget.
 **16. Security scan result:** Clean. No `.env`, `PUBLIC_SANITY_VIEWER_TOKEN`, `private_key`, or `firebase-adminsdk` secrets were found in the source.

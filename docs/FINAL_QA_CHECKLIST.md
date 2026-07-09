@@ -34,7 +34,7 @@
 
 ## SEO checks
 
-* canonical uses `https://theeduassist.com`
+* canonical uses `https://www.theeduassist.com`
 * Firebase demo URL is not canonical
 * sitemap uses final domain
 * robots.txt does not block important pages

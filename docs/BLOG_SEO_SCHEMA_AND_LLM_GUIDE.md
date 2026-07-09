@@ -7,7 +7,7 @@
 *   **BreadcrumbList Schema:** (To be added via global SEO helper if applicable) - provides clear hierarchy (Home > Blog > Article).
 
 ## Canonical URLs
-*   All canonical tags are strictly forced to use the absolute path `https://theeduassist.com/...` via `buildCanonicalUrl`. No trailing Firebase `.web.app` domains will bleed into Google indexing.
+*   All canonical tags are strictly forced to use the absolute path `https://www.theeduassist.com/...` via `buildCanonicalUrl`. No trailing Firebase `.web.app` domains will bleed into Google indexing.
 
 ## Indexing (Robots)
 *   The main hubs `/blog/` and `/resources/` are indexable.

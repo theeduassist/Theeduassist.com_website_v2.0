@@ -127,6 +127,7 @@ async function generateSitemap() {
             title.includes('do-not-publish') ||
             title.includes('review-pending') ||
             cleanSlug.includes('test') ||
+            cleanSlug.includes('__trashed') ||
             cleanSlug.includes('do-not-publish') ||
             cleanSlug.includes('review-pending')
           ) {

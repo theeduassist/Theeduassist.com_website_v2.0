@@ -6,8 +6,8 @@ This document outlines the deployment workflow for TheEduAssist.com using Vercel
 
 *   **Import GitHub repo:** theeduassist/Theeduassist.com_website
 *   **Framework:** Astro
-*   **Vercel project domain:** https://theeduassist-com-website-dtg2.vercel.app
-*   **Production deployment URL:** https://theeduassist-com-website-dtg2-8zs59fizd-the-edu-assist.vercel.app
+*   **Vercel project domain:** https://www.theeduassist.com-website-dtg2.vercel.app
+*   **Production deployment URL:** https://www.theeduassist.com-website-dtg2-8zs59fizd-the-edu-assist.vercel.app
 *   **Production deployment status:** Ready
 
 *   **Package manager:** `npm@11.17.0` (ensure `pnpm-lock.yaml` is not committed)
@@ -17,7 +17,7 @@ This document outlines the deployment workflow for TheEduAssist.com using Vercel
 *   **Output directory:** `dist`
 *   **Production branch:** `main`
 *   **Add environment variables:**
-    *   `PUBLIC_SITE_URL=https://theeduassist.com`
+    *   `PUBLIC_SITE_URL=https://www.theeduassist.com`
     *   `PUBLIC_SANITY_PROJECT_ID=jg4gi6mn`
     *   `PUBLIC_SANITY_DATASET=production`
 *   **Initial Deploy:** Deploy a preview first to verify the build.
@@ -45,7 +45,7 @@ This document outlines the deployment workflow for TheEduAssist.com using Vercel
 *   Cloudflare proxy status: Planned DNS-only / gray cloud first
 *   Vercel domain verification: Pending
 *   SSL status: Pending
-*   Production QA on https://theeduassist.com: Pending
+*   Production QA on https://www.theeduassist.com: Pending
 *   Google Search Console submission: Pending domain launch
 *   Bing Webmaster Tools submission: Pending domain launch
 *   Sanity Deploy Hook: Pending after production domain is stable
@@ -69,7 +69,7 @@ This document outlines the deployment workflow for TheEduAssist.com using Vercel
 **3. After DNS:**
 *   Wait for Vercel domain verification
 *   Wait for SSL to become active
-*   Test https://theeduassist.com
+*   Test https://www.theeduassist.com
 *   Test https://www.theeduassist.com
 *   Run live production QA
 

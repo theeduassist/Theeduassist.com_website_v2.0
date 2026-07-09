@@ -20,7 +20,7 @@ Use this checklist to verify that URL redirects are working correctly and preser
 You can use `curl` to inspect HTTP headers and redirect statuses:
 
 ```bash
-curl -I https://theeduassist.com/about-us/
-curl -I https://theeduassist.com/contact-us/
-curl -I https://theeduassist.com/custom-elearning-content-development/
+curl -I https://www.theeduassist.com/about-us/
+curl -I https://www.theeduassist.com/contact-us/
+curl -I https://www.theeduassist.com/custom-elearning-content-development/
 ```

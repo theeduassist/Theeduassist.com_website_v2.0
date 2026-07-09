@@ -100,10 +100,6 @@ export function getBlogPostPublicFilterReason(post: any): string | null {
   const migrationStatus = post.migrationStatus;
   if (migrationStatus && ['draft', 'review', 'pending', 'archived'].includes(migrationStatus.toLowerCase())) return 'blocked migrationStatus';
 
-  // Final check for body content
-  // Final check for body content
-  if (!post.body && !post.content) return 'body too short';
-
   return null;
 }
 

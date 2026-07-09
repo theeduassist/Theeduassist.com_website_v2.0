@@ -13,7 +13,7 @@ This document outlines the steps to securely connect the Astro frontend to the S
 6. Add Firebase demo origin:
    `https://theeduassist-website-prod.web.app`
 7. Later add final domain:
-   `https://theeduassist.com`
+   `https://www.theeduassist.com`
    `https://www.theeduassist.com`
 8. **Do not use wildcard `*` with credentials.**
 9. Only enable credentials for trusted domains if token-based browser access is truly needed.

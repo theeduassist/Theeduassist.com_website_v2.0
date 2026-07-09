@@ -53,7 +53,7 @@
 - Verified. Blog handles empty data gracefully with fallbacks and builds seamlessly.
 
 ## 16. SEO/redirect/robots/sitemap status
-- Verified. Domain defaults to `https://theeduassist.com` for canonical tags.
+- Verified. Domain defaults to `https://www.theeduassist.com` for canonical tags.
 
 ## 17. Forms/notifications status
 - Pending. Described in `docs/FORMS_NOTIFICATION_STATUS.md`.

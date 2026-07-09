@@ -23,11 +23,17 @@ export const sanityCdnClient = createClient({
 // Deprecated in favor of sanityBuildClient / sanityCdnClient. Kept for backwards compatibility if needed during refactoring
 export const sanityClient = sanityBuildClient;
 
-export async function fetchFromSanity(query, params = {}, tags = []) {
+export async function fetchFromSanity(
+  query: string,
+  params: Record<string, any> = {},
+  options: { useCdn?: boolean, tags?: string[] } = {}
+) {
   try {
-    const options = tags && tags.length > 0 ? { filterResponse: false, tag: tags.join(',') } : {};
-    return await sanityBuildClient.fetch(query, params, options);
-  } catch (error) {
+    const { useCdn = false, tags = [] } = options;
+    const client = useCdn ? sanityCdnClient : sanityBuildClient;
+    const fetchOptions = tags && tags.length > 0 ? { filterResponse: false, tag: tags.join(',') } : {};
+    return await client.fetch(query, params, fetchOptions);
+  } catch (error: any) {
     console.error("Sanity fetch error:", error);
     if (error.message?.includes("Dataset not found") || error.message?.includes("Project not found")) {
       return query.includes('[0]') ? null : [];

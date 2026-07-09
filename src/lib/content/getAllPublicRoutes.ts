@@ -1,4 +1,4 @@
-import { getBlogPostSummaries, isPublicBlogPost } from './getAllBlogPosts';
+import { getBlogPostSummaries, isPublicBlogSummary } from './getAllBlogPosts';
 import { getAllCaseStudies } from './getAllCaseStudies';
 import { getAllServices } from './getAllServices';
 
@@ -170,7 +170,7 @@ export async function getAllPublicRoutes(): Promise<PublicRoute[]> {
 
   // Blog Posts dynamically
   const blogPosts = await getBlogPostSummaries();
-  blogPosts.filter(isPublicBlogPost).forEach(post => {
+  blogPosts.filter(isPublicBlogSummary).forEach(post => {
     routes.push({
       path: `/blog/${post.slug}/`,
       title: `${post.title} | TheEduAssist`,
