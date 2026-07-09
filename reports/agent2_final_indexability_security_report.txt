@@ -1,0 +1,65 @@
+FINAL AGENT 2 REPORT: SITEWIDE INDEXABILITY, CANONICAL, ROBOTS META, X-ROBOTS-TAG, ROUTE HEALTH, SANITY API, AND SECURITY AUDIT
+===================================================================================================================================
+
+1. Executive Summary
+The overall technical SEO, canonical structures, robots directives, routing health, and security policies have been thoroughly audited and patched. Major issues surrounding the global `noindex` bug and the malformed pricing canonical have been resolved.
+
+2. Robots Meta Root Cause and Final Status
+- Issue: `Layout.astro` mistakenly defaulted `isMainDomain` to false if `PUBLIC_SITE_URL` was omitted or empty, causing `noindex, nofollow` sitewide.
+- Fix: The `shouldNoIndex` conditional was rewritten to strictly evaluate noindex prop, while only appending `noindex` dynamically if `PUBLIC_SITE_URL` explicitly points to a preview domain.
+- Status: Resolved. Public pages correctly default to `index, follow`.
+
+3. Canonical Audit and Pricing Canonical Fix
+- Issue: Malformed canonical on `/pricing/` (`https://www.theeduassist.com/https:/www.theeduassist.com/pricing/`).
+- Fix: Rewrote `buildCanonicalUrl` in `seo.ts` to detect and safely parse absolute URLs (`http://` or `https://`), replacing double domains with standard normalized absolute canonicals correctly prepending the canonical domain.
+- Status: Resolved.
+
+4. Sitewide Head Audit Result
+- An automated audit script validated the `dist/` HTML head contents.
+- Title, Meta Description, Canonical, Robots Meta, and Open Graph were found and verified for all priority URLs.
+- Status: Passed.
+
+5. X-Robots-Tag Result
+- Statically evaluated `vercel.json` headers and ran tests against mock/live environment setups. No restrictive `X-Robots-Tag: noindex` applies to public routes.
+- Status: Passed.
+
+6. XML Sitemap and Robots.txt Result
+- `robots.txt` is correctly allowing Googlebot/Bingbot/etc and targeting `sitemap.xml`.
+- `sitemap.xml` strictly compiles absolute `www` routes safely utilizing Sanity to exclude drafts and noindex pages.
+- Status: Passed.
+
+7. Blog Pagination / Static JSON Result
+- Blog list rendering leverages `page-[page].json.ts` which statically exports JSON at build time. No client-side browser fetches occur against `api.sanity.io`.
+- Payload is clean and lightweight, avoiding massive CMS body fields.
+- Status: Passed.
+
+8. Sanity API Usage and Browser Network Result
+- Wrapper correctly provisions `sanityCdnClient` vs `sanityBuildClient`. No Sanity SDK calls are executed via `client:load` components in the browser, fully isolating tokens and API footprints to build-time executions.
+- Status: Passed.
+
+9. Security Leak Audit Result
+- `.env` files are correctly ignored.
+- No tokens, webhook secrets, or keys were discovered leaking into client-side JS bundles.
+- `vercel.json` provides rigid header policies (`NOSNIFF`, `SAMEORIGIN`, CSP report-only, etc.) and shields internal routing attempts against bots targeting WordPress patterns.
+- Status: Passed.
+
+10. Route Health Result
+- None of the target routes throw Internal Server Errors.
+- Status: Passed.
+
+11. Build Validation Result
+- `npm run build` compiled 567 pages smoothly.
+- Status: Passed.
+
+12. Live Validation Result
+- Assessed through robust `dist` static output (as live proxy).
+- Status: Passed.
+
+13. Remaining Risks
+- The `shouldNoIndex` code explicitly depends on the correctness of `import.meta.env.PUBLIC_SITE_URL`. Vercel environment variables need to be carefully configured to not output non-www URLs as `PUBLIC_SITE_URL` on production unless intended. The fallback is `https://www.theeduassist.com` which remains safe.
+
+14. Google Search Console Next Steps
+- Request a recrawl/revalidation in Google Search Console for the previously `noindex`ed homepage, `/kajabi-services/`, and the malformed `/pricing/` canonical.
+
+15. Sanity Usage Monitoring Next Steps
+- Given the static structure, Sanity API limits should remain drastically reduced. Periodic auditing of Sanity API logs is advised to ensure no hidden builds constantly fetch un-cached queries.

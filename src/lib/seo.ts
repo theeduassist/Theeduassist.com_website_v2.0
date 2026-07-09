@@ -6,13 +6,31 @@ export const site = {
 };
 
 export function buildCanonicalUrl(path: string): string {
-  // Ensure we don't have double slashes
+  if (!path) return `${site.url}/`;
+
+  // If the path is already a full absolute URL, parse and normalize it
+  if (path.startsWith('http://') || path.startsWith('https://')) {
+    try {
+      const url = new URL(path);
+      // Ensure we always use the canonical domain
+      let pathname = url.pathname;
+      if (!pathname.endsWith('/')) {
+        pathname = `${pathname}/`;
+      }
+      pathname = pathname.replace(/\/{2,}/g, '/');
+      return `${site.url}${pathname}`;
+    } catch (e) {
+      // Fallback if parsing fails
+    }
+  }
+
+  // Ensure we don't have double slashes at start
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
   // Ensure URL always ends with trailing slash
   const finalPath = cleanPath.endsWith('/') ? cleanPath : `${cleanPath}/`;
 
   if (finalPath === '/') {
-    return site.url;
+    return `${site.url}/`;
   }
 
   // replace double slashes

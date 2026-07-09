@@ -1,0 +1,178 @@
+Sitewide Indexability Head Audit Report
+=======================================
+
+URL: /
+Status: Exists in dist
+Content Type: text/html
+Title: TheEduAssist | E-Learning Design Agency for Courses, Kajabi &amp; LMS Builds
+Meta Description: Present
+Canonical: https://www.theeduassist.com/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/
+
+URL: /services/
+Status: Exists in dist
+Content Type: text/html
+Title: TheEduAssist Services | Course Creation, Kajabi, LMS &amp; E-Learning Builds
+Meta Description: Present
+Canonical: https://www.theeduassist.com/services/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/services/
+
+URL: /kajabi-services/
+Status: Exists in dist
+Content Type: text/html
+Title: Kajabi Services | Kajabi Websites, Courses, Funnels &amp; Automations | TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/kajabi-services/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/kajabi-services/
+
+URL: /pricing/
+Status: Exists in dist
+Content Type: text/html
+Title: Pricing | Course Creation, Kajabi Setup &amp; LMS Builds | TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/pricing/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/pricing/
+
+URL: /blog/
+Status: Exists in dist
+Content Type: text/html
+Title: Blog | Course Creation, Kajabi, LMS &amp; E-Learning Insights | TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/blog/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/blog/
+
+URL: /blog/page/2/
+Status: 404 Not Found (Missing in dist)
+Issue found: 404/500
+
+URL: /book-free-audit/
+Status: Exists in dist
+Content Type: text/html
+Title: Get a 24–48 Hour Course/LMS Review | TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/book-free-audit/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/book-free-audit/
+
+URL: /contact/
+Status: Exists in dist
+Content Type: text/html
+Title: Contact TheEduAssist | E-Learning Design Agency
+Meta Description: Present
+Canonical: https://www.theeduassist.com/contact/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/contact/
+
+URL: /about/
+Status: Exists in dist
+Content Type: text/html
+Title: About TheEduAssist | E-Learning Design Agency for Courses, Kajabi &amp; LMS Builds
+Meta Description: Present
+Canonical: https://www.theeduassist.com/about/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/about/
+
+URL: /platforms/
+Status: Exists in dist
+Content Type: text/html
+Title: Platforms &amp; LMS We Support | TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/platforms/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/platforms/
+
+URL: /locations/
+Status: Exists in dist
+Content Type: text/html
+Title: Global E-Learning &amp; Course Development Locations | TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/locations/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/locations/
+
+URL: /case-studies/
+Status: Exists in dist
+Content Type: text/html
+Title: Case Studies | Real E-Learning, LMS &amp; Course Development Projects by TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/case-studies/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/case-studies/
+
+URL: /sitemap/
+Status: Exists in dist
+Content Type: text/html
+Title: Sitemap | TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/sitemap/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/sitemap/
+
+URL: /services/custom-elearning-development/
+Status: Exists in dist
+Content Type: text/html
+Title: Course Creation &amp; Curriculum Design Services | TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/services/custom-elearning-development/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/services/custom-elearning-development/
+
+URL: /services/lms-implementation-migration/
+Status: Exists in dist
+Content Type: text/html
+Title: LMS Implementation &amp; Migration Services | TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/services/lms-implementation-migration/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/services/lms-implementation-migration/
+
+URL: /services/ai-powered-elearning/
+Status: Exists in dist
+Content Type: text/html
+Title: AI-Powered E-Learning Support | Course Planning, Content Conversion &amp; Launch Assets | TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/services/ai-powered-elearning/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/services/ai-powered-elearning/
+
+URL: /services/ai-ethics-corporate-training/
+Status: Exists in dist
+Content Type: text/html
+Title: AI Ethics Training for Employees | Responsible AI Corporate Training | TheEduAssist
+Meta Description: Present
+Canonical: https://www.theeduassist.com/services/ai-ethics-corporate-training/
+Robots Meta: index, follow
+Indexable: Yes
+Open Graph URL: https://www.theeduassist.com/services/ai-ethics-corporate-training/
+
+URL: /sitemap.xml
+Status: Exists in dist
+Content Type: xml
+
+URL: /robots.txt
+Status: Exists in dist
+Content Type: txt
+
+URL: /data/blog/page-2.json
+Status: 404 Not Found (Missing in dist)
+Issue found: 404/500

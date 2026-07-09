@@ -1,0 +1,29 @@
+X-Robots-Tag Header Audit
+===========================
+
+URL: https://www.theeduassist.com/
+X-Robots-Tag: NONE
+
+URL: https://www.theeduassist.com/services/
+X-Robots-Tag: NONE
+
+URL: https://www.theeduassist.com/kajabi-services/
+X-Robots-Tag: NONE
+
+URL: https://www.theeduassist.com/pricing/
+X-Robots-Tag: NONE
+
+URL: https://www.theeduassist.com/blog/
+X-Robots-Tag: NONE
+
+URL: https://www.theeduassist.com/book-free-audit/
+X-Robots-Tag: NONE
+
+URL: https://www.theeduassist.com/contact/
+X-Robots-Tag: NONE
+
+URL: https://www.theeduassist.com/about/
+X-Robots-Tag: NONE
+
+vercel.json Static Headers Check:
+No X-Robots-Tag statically defined in vercel.json.

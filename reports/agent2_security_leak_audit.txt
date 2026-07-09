@@ -1,0 +1,23 @@
+Security Leak Audit
+===================
+
+Environment Variables
+---------------------
+- No `.env` or `.env.local` files are committed to the repository (only `.env.example`).
+- Checked for exposed `SANITY_API_TOKEN`, `VERCEL_ACCESS_TOKEN`, `WEBHOOK_SECRET`, `DEPLOY_HOOK`. None were found in public-facing client-side components or plain text configurations.
+
+HTTP Security Headers (`vercel.json`)
+-------------------------------------
+- `X-Content-Type-Options: nosniff` (Present)
+- `Referrer-Policy: strict-origin-when-cross-origin` (Present)
+- `X-Frame-Options: SAMEORIGIN` (Present)
+- `Strict-Transport-Security: max-age=31536000; includeSubDomains; preload` (Present)
+- `Content-Security-Policy-Report-Only` (Present)
+- `Permissions-Policy: camera=(), microphone=(), geolocation=()` (Present)
+All headers are properly configured in `vercel.json`.
+
+Scanner Paths Blocking
+----------------------
+- `vercel.json` intercepts common bot/scanner paths (`/wp-admin`, `/wp-login.php`, `/xmlrpc.php`, `/.env`, `/.git`, `/phpmyadmin`, `/adminer`) and permanently redirects/blocks them, responding with a 404 destination.
+
+Verdict: PASS. The application safely handles secrets and protects itself against common automated scanners.
