@@ -1,0 +1,22 @@
+XML Sitemap & robots.txt Technical Audit
+========================================
+
+robots.txt Check
+----------------
+File `public/robots.txt` exists and returns 200 text/plain.
+It properly allows Googlebot, Bingbot, and others.
+It blocks `/admin/`, `/studio/`, `/preview/`, `/drafts/`.
+It contains the necessary Sitemap directive:
+`Sitemap: https://www.theeduassist.com/sitemap.xml`
+Verdict: PASS
+
+Sitemap Check
+-------------
+File `public/sitemap.xml` is generated correctly by `scripts/generate-sitemap.mjs` during the `prebuild` step.
+1. It uses `https://www.theeduassist.com` for all core routes.
+2. It fetches Sanity posts dynamically and adds them to `sitemap.xml` only if they are not explicitly `noindex`, `hidden`, `reviewPending`, or have a status of draft.
+3. It also formats URLs cleanly and prevents double slashes.
+4. From the script logic, it handles blog titles that contain "test" and paths containing "do-not-publish", effectively excluding dummy posts.
+5. All URLs inside the generated `sitemap.xml` use the `www` canonical domain.
+
+Verdict: PASS

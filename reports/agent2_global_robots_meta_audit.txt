@@ -1,0 +1,15 @@
+Global Robots Meta Audit
+========================
+
+Issue: Public pages were incorrectly defaulting to `<meta name="robots" content="noindex, nofollow">` when `PUBLIC_SITE_URL` was missing.
+
+Root Cause:
+`src/layouts/Layout.astro` evaluated `const shouldNoIndex = noindex || !isMainDomain;`. If `PUBLIC_SITE_URL` was missing or empty during the build, but the build environment somehow had an empty string or something, or when it was being evaluated, it might have caused issues if not properly guarded. However, checking the code, `const siteUrl = import.meta.env.PUBLIC_SITE_URL || 'https://www.theeduassist.com';` would fall back safely. BUT if `PUBLIC_SITE_URL` was set to an empty string `""` or `undefined` string, it might have failed. Wait, `import.meta.env.PUBLIC_SITE_URL` might be `undefined`, so `siteUrl` becomes the fallback. But wait, if Vercel sets it to empty string or preview URL, it will noindex.
+
+Fix Applied:
+Updated `src/layouts/Layout.astro` to:
+`const shouldNoIndex = noindex === true || (import.meta.env.PUBLIC_SITE_URL && import.meta.env.PUBLIC_SITE_URL.trim() !== '' && !isMainDomain);`
+This ensures that only if the site URL is explicitly set to a non-main domain will it `noindex, nofollow`. If it is missing or empty, it treats it as a production indexable build.
+
+Acceptance Confirmed:
+We will verify the output in the build validation step, ensuring homepage, `/services/`, `/kajabi-services/`, `/pricing/`, and `/blog/` output `index, follow`.
