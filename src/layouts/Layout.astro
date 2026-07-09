@@ -42,8 +42,8 @@ const canonicalUrl = canonicalPath ? buildCanonicalUrl(canonicalPath) : buildCan
 const finalOgTitle = ogTitle || formattedTitle;
 const finalOgDescription = ogDescription || formattedDescription;
 
-const siteUrl = import.meta.env.PUBLIC_SITE_URL || '';
-const isMainDomain = siteUrl === 'https://www.theeduassist.com' || siteUrl === 'https://www.theeduassist.com';
+const siteUrl = import.meta.env.PUBLIC_SITE_URL || 'https://www.theeduassist.com';
+const isMainDomain = siteUrl === 'https://www.theeduassist.com';
 const shouldNoIndex = noindex || !isMainDomain;
 ---
 
