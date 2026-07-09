@@ -50,6 +50,7 @@
     "sanity-plugin-markdown": "^9.0.0",
     "sanity-plugin-seo": "^1.4.4",
     "sanity-plugin-table-of-contents": "^1.0.7",
+    "sharp": "^0.35.3",
     "styled-components": "^6.1.18",
     "tailwind-merge": "^3.6.0",
     "typescript": "^5.9.3"

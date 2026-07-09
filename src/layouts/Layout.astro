@@ -66,7 +66,12 @@ const shouldNoIndex = noindex === true || (import.meta.env.PUBLIC_SITE_URL && im
 		  gtag('config', 'G-39NHQ9YM9P');
 		</script>
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" sizes="any">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="theme-color" content="#27496D">
 		<meta name="generator" content={Astro.generator} />
 		<title>{formattedTitle}</title>
         <link rel="canonical" href={canonicalUrl} />
@@ -75,12 +80,12 @@ const shouldNoIndex = noindex === true || (import.meta.env.PUBLIC_SITE_URL && im
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:type" content={type} />
         <meta property="og:site_name" content={site.name} />
-        {ogImage && <meta property="og:image" content={ogImage} />}
+        <meta property="og:image" content={ogImage || `${siteUrl}/og/theeduassist-og-image.png`} />
 
-        <meta name="twitter:card" content={twitterCardType || (ogImage ? 'summary_large_image' : 'summary')} />
+        <meta name="twitter:card" content={twitterCardType || 'summary_large_image'} />
         <meta name="twitter:title" content={finalOgTitle} />
         <meta name="twitter:description" content={finalOgDescription} />
-        {ogImage && <meta name="twitter:image" content={ogImage} />}
+        <meta name="twitter:image" content={ogImage || `${siteUrl}/og/theeduassist-og-image.png`} />
 
         {shouldNoIndex && <meta name="robots" content="noindex, nofollow" />}
         {!shouldNoIndex && <meta name="robots" content="index, follow" />}
