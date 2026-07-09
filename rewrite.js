@@ -1,4 +1,8 @@
----
+import fs from 'fs';
+
+const currentContent = fs.readFileSync('src/pages/sitemap/index.astro', 'utf-8');
+
+const newContent = `---
 import Layout from "../../layouts/Layout.astro";
 import { getAllPublicRoutes } from "../../lib/content/getAllPublicRoutes";
 import { getBlogPostSummaries, isPublicBlogSummary } from "../../lib/content/getAllBlogPosts";
@@ -187,7 +191,7 @@ const safeLegalPages = legalPages.filter(p => p.path.endsWith('.md') || p.path.e
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {publicBlogs.map((post: any) => (
-                        <a href={`/blog/${post.slug}/`} class="block bg-white p-6 rounded-xl border border-slate-200 hover:border-brand-primary shadow-sm hover:shadow-md transition-all flex flex-col h-full">
+                        <a href={\`/blog/\${post.slug}/\`} class="block bg-white p-6 rounded-xl border border-slate-200 hover:border-brand-primary shadow-sm hover:shadow-md transition-all flex flex-col h-full">
                             <div class="flex-grow">
                                 <span class="inline-block text-xs font-semibold text-brand-secondary uppercase tracking-wider mb-2">{post.category || 'Guide'}</span>
                                 <h3 class="text-lg font-bold text-brand-navy mb-3 line-clamp-2">{post.title}</h3>
@@ -210,7 +214,7 @@ const safeLegalPages = legalPages.filter(p => p.path.endsWith('.md') || p.path.e
                                 {category.items.map(item => {
                                     // Make a safe URL slug
                                     const slug = item.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-                                    const path = `/platforms/${slug}/`;
+                                    const path = \`/platforms/\${slug}/\`;
                                     const exists = routeExists(path);
                                     return (
                                         <li class="flex items-center text-slate-700">
@@ -306,3 +310,6 @@ const safeLegalPages = legalPages.filter(p => p.path.endsWith('.md') || p.path.e
         </div>
     </div>
 </Layout>
+`;
+
+fs.writeFileSync('src/pages/sitemap/index.astro', newContent);
