@@ -13,7 +13,7 @@ const { questions } = Astro.props;
         {questions.map((faq) => (
           <div>
             <h3 class="text-lg font-bold text-brand-navy mb-2">{faq.q}</h3>
-            <p class="text-brand-textMain text-base leading-relaxed">{faq.a}</p>
+            <p class="text-brand-textMain text-base leading-relaxed"><Fragment set:html={faq.a} /></p>
           </div>
         ))}
       </div>

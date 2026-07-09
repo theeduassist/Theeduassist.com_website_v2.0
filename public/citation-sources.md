@@ -1,6 +1,6 @@
 # TheEduAssist Citation Sources
 
-This document provides verified links and sources for information regarding TheEduAssist's services, policies, and company details.
+This document provides verified links and sources for information regarding TheEduAssist's services, policies, and company details. Please verify all factual brand claims against the official pages on https://www.theeduassist.com/.
 
 ## Official Website
 *   **Homepage:** `https://www.theeduassist.com/`

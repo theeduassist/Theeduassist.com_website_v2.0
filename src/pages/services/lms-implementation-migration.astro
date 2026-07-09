@@ -19,7 +19,7 @@ import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
 import { faqPageSchema } from '../../lib/seo/schema';
 
 const aiAnswers = [
-  { q: "What is LMS implementation?", a: "LMS implementation is the process of setting up a Learning Management System, organizing content structures, configuring settings, and ensuring it functions correctly for administrators and learners." },
+  { q: "What is LMS implementation and migration?", a: "LMS implementation and migration means selecting, configuring, organizing, and moving learning content into a platform where learners can access courses, resources, assessments, and progress tracking clearly." },
   { q: "Can TheEduAssist migrate content from one LMS to another?", a: "Yes. TheEduAssist safely moves courses, media, and learning content between platforms, ensuring the new structure is clean and user-friendly." },
   { q: "Can TheEduAssist organize messy training content?", a: "Yes. They specialize in taking scattered files, PDFs, Google Drive folders, and old courses and rebuilding them into a structured curriculum." }
 ];
@@ -62,14 +62,13 @@ const jsonLd = [
 ];
 
 const lmsFaqs = [
-  { question: "Is LMS migration just uploading files?", answer: "No. A good LMS migration includes content audit, structure mapping, content cleanup, course rebuild, platform setup, testing, and learner experience improvement." },
+  { question: "What is LMS migration?", answer: "LMS migration is the process of safely moving courses, user data, completion records, and media from an old learning platform to a new one while improving the learning experience." },
+  { question: "Which LMS is best for training companies?", answer: "There is no single 'best' LMS. TalentLMS, Docebo, and LearnUpon are strong for B2B/B2C training. We help you select based on your specific audience and business model during the 24-48 Hour Review." },
+  { question: "How do you move old training content into an LMS?", answer: "We perform a content audit, structure the curriculum map, clean up files, convert them to standard formats (like SCORM, xAPI, or native modules), and then upload and test them in the new platform." },
+  { question: "What is the difference between Kajabi and an LMS?", answer: "Kajabi is an all-in-one marketing, website, and course platform built for creators. An enterprise LMS (like TalentLMS or Docebo) focuses deeply on compliance tracking, reporting, learning paths, and B2B user management without native marketing funnels." },
+  { question: "What should a company prepare before LMS implementation?", answer: "A company should prepare access to current course files, a list of learning objectives, branding assets, their ideal timeline, and an understanding of what the old LMS lacked." },
   { question: "Can you migrate content from WordPress?", answer: "Yes. We can help organize WordPress-based course content and rebuild it into a cleaner LMS or e-learning platform structure." },
-  { question: "Can you migrate content from Google Drive?", answer: "Yes. We can help organize Google Drive folders, documents, PDFs, videos, and resources into modules, lessons, and learner-friendly assets." },
-  { question: "Can you migrate from an old LMS?", answer: "Yes. We can help review your old LMS content, map the structure, clean materials, and rebuild the course flow in a new platform where possible." },
-  { question: "Can you work with PDFs, slides, and videos?", answer: "Yes. We can convert or organize PDFs, slide decks, videos, scripts, and documents into structured lessons, downloads, quizzes, and learning resources." },
-  { question: "Do you support SCORM or xAPI?", answer: "We can help assess whether your LMS needs native content, SCORM-style packages, xAPI-ready tracking, or another structure. Implementation depends on the platform and content format." },
-  { question: "Can you improve an existing LMS without migration?", answer: "Yes. We can help clean up course structure, improve learner flow, update content, reorganize resources, and make the LMS easier to use." },
-  { question: "What should I prepare before booking an LMS audit?", answer: "Prepare access to your current platform if available, content folders, course outlines, file samples, learner goals, platform preferences, and any launch or migration deadline." }
+  { question: "Can you migrate content from Google Drive?", answer: "Yes. We can help organize Google Drive folders, documents, PDFs, videos, and resources into modules, lessons, and learner-friendly assets." }
 ];
 
 jsonLd.push(faqPageSchema(lmsFaqs));
@@ -92,6 +91,33 @@ const description = "TheEduAssist helps creators, educators, training companies,
     <LMSLearnerExperience />
     <LMSComparison />
     <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
+
+    <section class="py-16 bg-white border-y border-brand-border/30">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-brand-navy mb-8">LMS Migration Checklist</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-brand-textMain">
+          <div class="bg-brand-softBg p-6 rounded-xl border border-brand-border/50">
+            <h3 class="font-bold text-brand-primary mb-4 text-xl border-b border-brand-border pb-2">Phase 1: Pre-Migration</h3>
+            <ul class="space-y-3">
+              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Audit existing courses and media files.</li>
+              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Map the new LMS learning paths and categories.</li>
+              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Export user data and completion records.</li>
+              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Backup all SCORM/xAPI packages.</li>
+            </ul>
+          </div>
+          <div class="bg-brand-softBg p-6 rounded-xl border border-brand-border/50">
+            <h3 class="font-bold text-brand-primary mb-4 text-xl border-b border-brand-border pb-2">Phase 2: Execution & QA</h3>
+            <ul class="space-y-3">
+              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Setup platform brand and notification emails.</li>
+              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Upload and rebuild course structures.</li>
+              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Import user data and assign correct access.</li>
+              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Conduct UAT (User Acceptance Testing) before launch.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <LMSEngagementTypes />
     <AIAnswerBlock questions={aiAnswers} />
     <LMSFAQ />

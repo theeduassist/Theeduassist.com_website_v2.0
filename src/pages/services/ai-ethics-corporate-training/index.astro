@@ -1,19 +1,17 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
+import AIAnswerBlock from "../../../components/ai/AIAnswerBlock.astro";
 import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../../lib/seo/schema';
 
 const faqs = [
-  { question: "What is AI ethics training for employees?", answer: "AI ethics training educates employees on the safe, fair, and responsible use of AI tools at work. It covers data privacy, copyright awareness, bias, hallucination verification, and ensuring human oversight. The goal is to help teams understand your internal AI policies and use generative AI without creating risk." },
-  { question: "Can TheEduAssist create AI literacy training for a corporate team?", answer: "Yes. We help enterprises and corporate L&D teams build AI literacy training modules tailored to different roles. We convert your high-level AI expectations into plain-language lessons, practical scenarios, and LMS-ready resources that help employees adopt AI safely." },
+  { question: "What should employees know before using AI at work?", answer: "Employees should understand data privacy risks (not sharing confidential data with public LLMs), the reality of AI hallucinations (fact-checking outputs), brand voice alignment, and when human oversight is mandatory." },
+  { question: "What topics should AI ethics training include?", answer: "Training should cover your internal acceptable use policy, prompt engineering for safety, copyright rules, bias awareness, deepfakes, and practical role-based scenarios." },
+  { question: "How do companies reduce AI misuse?", answer: "By providing clear, scenario-based training rather than just a 50-page legal policy. Employees need to see realistic examples of 'what to do' and 'what not to do' in their specific roles." },
+  { question: "How do you train employees on responsible AI?", answer: "We convert your high-level AI policies into interactive LMS modules. This includes bite-sized videos, realistic workplace dilemmas, and mandatory knowledge checks before employees are granted AI tool access." },
   { question: "Can you turn our internal AI policy into employee training?", answer: "Yes, this is a core service. We take your internal AI policies, risk guidelines, and compliance rules and structure them into engaging eLearning modules. We create lesson outlines, scripts, quizzes, and manager discussion guides to ensure the policy is actually understood." },
   { question: "Do you provide AI Act compliance training?", answer: "TheEduAssist can help organizations turn AI literacy and responsible AI expectations into employee-friendly training, but we do not provide legal advice or official compliance certification. We can support L&D and compliance teams by converting AI policies, role expectations, and risk guidance into structured modules, scenarios, quizzes, and LMS-ready learning materials." },
-  { question: "Can you build responsible AI training for global teams?", answer: "Yes. We design training structures that can be rolled out across global departments. We focus on clear, accessible language, universal AI concepts, and modular design so regional teams can adapt specific lessons to local rules if necessary." },
-  { question: "Can AI ethics training be uploaded into our LMS?", answer: "Absolutely. All our AI ethics training and AI literacy modules are designed to be LMS-ready. We provide the structured content, lesson assets, quizzes, and SCORM/xAPI packages so you can seamlessly upload the training into your existing enterprise learning platform." },
   { question: "Which LMS platforms can support AI ethics training?", answer: "Our structured training can be uploaded to almost any modern enterprise LMS, including Docebo, Absorb LMS, TalentLMS, LearnUpon, Litmos, iSpring Learn, Moodle, and Canvas. We can also provide SCORM packages built with tools like Articulate Rise." },
   { question: "Can you create SCORM or xAPI-ready AI ethics modules?", answer: "Yes. If your enterprise requires SCORM or xAPI formats for tracking and compliance reporting, we can develop the modules using authoring tools like Articulate 360, ensuring they integrate perfectly with your existing tracking infrastructure." },
-  { question: "Can you create role-based AI training for HR, sales, support, and operations?", answer: "Yes. AI risks vary by role. We can design specific learning paths so HR teams learn about bias in hiring tools, sales teams learn about safe customer communication, and operations teams learn about secure automation and data handling." },
-  { question: "Can you create quizzes and scenarios for AI ethics training?", answer: "Yes. We believe scenario-based learning is the best way to teach AI ethics. We build practical knowledge checks and realistic workplace dilemmas to test if employees know how to handle hallucinations, data privacy, and escalation protocols." },
-  { question: "Can you help train employees on safe generative AI use?", answer: "Yes. We build modules specifically focused on generative AI. This includes teaching employees how to write safe prompts, avoid uploading confidential data, verify AI outputs for accuracy, and maintain a human-in-the-loop review process." },
   { question: "How long does an AI ethics training project take?", answer: "Timelines depend on the scope. A basic AI literacy starter package can take 2-4 weeks, while a comprehensive, role-based global rollout with SCORM modules and custom policy conversion can take 6-12 weeks." },
   { question: "How do we start an enterprise AI training project with TheEduAssist?", answer: "The best way to start is to request a 24-48 Hour Review. Share your current AI policy or training goals with us, and we will outline a recommended curriculum structure, timeline, and delivery format tailored to your team." }
 ];
@@ -298,6 +296,9 @@ const canonicalPath = "/services/ai-ethics-corporate-training/";
           </p>
       </div>
   </section>
+
+  {/* AI Answer Block */}
+  <AIAnswerBlock questions={[{ q: "What is AI ethics training for employees?", a: "AI ethics training helps employees understand safe, responsible, and practical AI use, including data privacy, bias, hallucinations, transparency, workplace policy, and human oversight." }]} />
 
   {/* FAQ Section */}
   <section class="py-20 bg-white">
