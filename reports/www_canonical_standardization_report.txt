@@ -1,1 +1,1 @@
-Canonical standardization completed. Replaced https://theeduassist.com with https://www.theeduassist.com across all source files, configurations, and reports.
+Canonical standardization completed. Replaced https://www.theeduassist.com with https://www.theeduassist.com across all source files, configurations, and reports.

@@ -68,7 +68,7 @@
 
 ## After production
 
-* [ ] check `https://theeduassist.com`
+* [ ] check `https://www.theeduassist.com`
 * [ ] check `https://www.theeduassist.com`
 * [ ] check SSL
 * [ ] check homepage

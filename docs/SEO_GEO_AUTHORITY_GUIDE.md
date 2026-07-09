@@ -28,7 +28,7 @@ This document outlines the principles and standards for Search Engine Optimizati
 
 * Use the `@astrojs/sitemap` integration to automatically generate the sitemap.
 * Filter out non-indexable utility routes (e.g., `/thank-you/`, `/studio/`, `/drafts/`).
-* Ensure the base site URL is correctly set to `https://theeduassist.com`.
+* Ensure the base site URL is correctly set to `https://www.theeduassist.com`.
 
 ## 5. llms.txt & AI Summary Maintenance
 

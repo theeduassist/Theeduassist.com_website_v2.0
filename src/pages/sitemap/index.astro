@@ -7,24 +7,29 @@ const sitemapRoutes = routes.filter(r => r.includeInHumanSitemap);
 
 const categorizeRoutes = () => {
     const categories: Record<string, typeof sitemapRoutes> = {
-        'Core Pages': [],
-        'Services': [],
-        'Case Studies': [],
-        'Blog': [],
-        'Legal': []
+        'Main Pages': [],
+        'Core Services': [],
+        'Platform Support': [],
+        'Blog Articles': [],
+        'Locations': [],
+        'Legal and Utility': []
     };
 
     sitemapRoutes.forEach(route => {
-        if (route.pageType === 'home' || route.pageType === 'general' || route.pageType === 'case-study-listing' || route.pageType === 'blog-listing' || route.pageType === 'kajabi') {
-            categories['Core Pages'].push(route);
-        } else if (route.pageType === 'service') {
-            categories['Services'].push(route);
-        } else if (route.pageType === 'case-study-detail') {
-            categories['Case Studies'].push(route);
+        if (route.pageType === 'home' || route.pageType === 'general' || route.pageType === 'blog-listing' || route.path.includes('/about/') || route.path.includes('/contact/') || route.path.includes('/pricing/') || route.path.includes('/book-free-audit/')) {
+            categories['Main Pages'].push(route);
+        } else if (route.pageType === 'service' || route.pageType === 'kajabi' || route.path.includes('/services/')) {
+            categories['Core Services'].push(route);
+        } else if (route.path.includes('/platforms/')) {
+            categories['Platform Support'].push(route);
         } else if (route.pageType === 'blog-detail') {
-            categories['Blog'].push(route);
+            categories['Blog Articles'].push(route);
+        } else if (route.path.includes('/locations/')) {
+            categories['Locations'].push(route);
         } else if (route.pageType === 'legal') {
-            categories['Legal'].push(route);
+            categories['Legal and Utility'].push(route);
+        } else {
+             categories['Main Pages'].push(route); // Fallback
         }
     });
 

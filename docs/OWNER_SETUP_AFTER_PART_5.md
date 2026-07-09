@@ -17,7 +17,7 @@ PUBLIC_FIREBASE_API_KEY = value from Firebase web app config
 PUBLIC_FIREBASE_APP_ID = value from Firebase web app config
 PUBLIC_FIREBASE_MESSAGING_SENDER_ID = value from Firebase web app config
 PUBLIC_FIREBASE_MEASUREMENT_ID = value from Firebase web app config
-PUBLIC_SITE_URL = https://theeduassist.com
+PUBLIC_SITE_URL = https://www.theeduassist.com
 PUBLIC_DEMO_SITE_URL = https://theeduassist-website-prod.web.app
 ```
 
@@ -49,7 +49,7 @@ Add:
 
 * `http://localhost:4321`
 * `https://theeduassist-website-prod.web.app`
-* later: `https://theeduassist.com`
+* later: `https://www.theeduassist.com`
 * later: `https://www.theeduassist.com`
 
 Do not add wildcard `*` with credentials.

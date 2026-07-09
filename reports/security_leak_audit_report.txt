@@ -1,0 +1,8 @@
+SECURITY LEAK AUDIT REPORT
+
+1. Checked for leaked .env files using `git ls-files | grep .env`.
+Result: No private .env files are committed to the repository (only `.env.example`, `.mjs` scripts, and `env.ts`).
+2. Verified Vercel Headers: `vercel.json` already contains `Strict-Transport-Security`, `X-Content-Type-Options`, `Referrer-Policy`, `X-Frame-Options`, `Content-Security-Policy-Report-Only`, and `Permissions-Policy`.
+3. Checked for sensitive tokens like `SANITY_API_TOKEN` and `VERCEL_ACCESS_TOKEN`. None were found exposed in the client.
+
+Conclusion: Passed security leak audit.

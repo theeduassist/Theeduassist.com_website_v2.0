@@ -20,6 +20,7 @@ export async function GET({ props }) {
     title: post.title,
     slug: post.slug?.current || post.slug,
     excerpt: post.excerpt,
+    aiSummary: post.aiSummary,
     category: post.category,
     readingTime: post.readingTime,
     publishedAt: post.publishedAt,
