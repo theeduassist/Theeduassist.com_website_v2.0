@@ -7,6 +7,7 @@ export function organizationSchema() {
     "name": site.name,
     "url": site.url,
     "logo": `${site.url}/brand/theeduassist-logo-official.png`,
+    "image": `${site.url}/og/theeduassist-og-image.png`,
     "email": "Info@theeduassist.com",
     "sameAs": [
       "https://www.facebook.com/people/Theeduassist/61576126813447/",
@@ -38,6 +39,7 @@ export function professionalServiceSchema() {
     "name": site.name,
     "url": site.url,
     "description": site.description,
+    "image": `${site.url}/favicon-512x512.png`,
     "email": "Info@theeduassist.com"
   };
 }
