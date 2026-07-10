@@ -6,7 +6,7 @@ export function organizationSchema() {
     "@type": "Organization",
     "name": site.name,
     "url": site.url,
-    "logo": `${site.url}/brand/theeduassist-logo-official.png`,
+    "logo": `${site.url}/brand/theeduassist-logo-official.svg`,
     "image": `${site.url}/og/theeduassist-og-image.png`,
     "email": "Info@theeduassist.com",
     "sameAs": [

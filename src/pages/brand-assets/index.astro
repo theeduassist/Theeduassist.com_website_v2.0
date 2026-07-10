@@ -3,44 +3,39 @@ export const prerender = true;
 import Layout from "../../layouts/Layout.astro";
 
 const title = "Brand Assets | TheEduAssist";
-const description = "Official brand assets and guidelines for TheEduAssist: E-Learning Design Agency.";
+const description = "Download the official TheEduAssist company logo and review basic brand usage guidance.";
 const canonicalPath = "/brand-assets/";
 ---
 
 <Layout title={title} description={description} canonicalPath={canonicalPath}>
   <div class="container mx-auto px-4 py-24 max-w-5xl min-h-[60vh]">
     <div class="text-center mb-16">
-      <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-6">Brand Assets</h1>
+      <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-6">TheEduAssist Brand Assets</h1>
       <p class="text-xl text-slate-600 max-w-2xl mx-auto">
-        <strong>TheEduAssist</strong><br/>
-        Positioning: E-Learning Design Agency
+        Use the official TheEduAssist logo below for approved brand references. The logo must not be redrawn, recolored, stretched, cropped, or modified.
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
+    <div class="grid grid-cols-1 gap-12 mb-16">
       <div class="bg-slate-50 p-10 rounded-2xl border border-slate-200 text-center flex flex-col items-center justify-center">
-        <h2 class="text-xl font-bold text-slate-800 mb-8 w-full text-left">Logo</h2>
-        <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100 w-full mb-6">
-          <img src="/brand/theeduassist-logo-official.png" alt="TheEduAssist Logo" class="h-16 w-auto mx-auto" />
+        <h2 class="text-xl font-bold text-slate-800 mb-8 w-full text-left">Official Logo</h2>
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100 w-full max-w-lg mb-6">
+          <img src="/brand/theeduassist-logo-official.svg" alt="TheEduAssist e-learning design agency logo" class="h-32 w-auto mx-auto object-contain" width="128" height="128" />
         </div>
-        <p class="text-sm text-slate-500 w-full text-left">Brand files are available on request.</p>
-      </div>
+        <div class="mb-8">
+            <a href="/brand-assets/theeduassist-logo-cropped.svg" download class="inline-block bg-[#27496D] text-white px-6 py-3 rounded-md hover:bg-opacity-90 font-semibold transition-colors">Download Official SVG</a>
+        </div>
 
-      <div class="bg-slate-50 p-10 rounded-2xl border border-slate-200">
-        <h2 class="text-xl font-bold text-slate-800 mb-8">Social Media & Contact</h2>
-        <div class="space-y-6">
-          <p>
-            <strong>Official Email:</strong> <a href="mailto:Info@theeduassist.com" class="text-[var(--color-primary)] hover:underline">Info@theeduassist.com</a>
-          </p>
-          <p>
-            <strong>Facebook:</strong> <a href="https://www.facebook.com/people/Theeduassist/61576126813447/" target="_blank" class="text-[var(--color-primary)] hover:underline">https://www.facebook.com/people/Theeduassist/61576126813447/</a>
-          </p>
-          <p>
-            <strong>Instagram:</strong> <a href="https://www.instagram.com/theeduassist" target="_blank" class="text-[var(--color-primary)] hover:underline">https://www.instagram.com/theeduassist</a>
-          </p>
-          <p>
-            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/company/theeduassist" target="_blank" class="text-[var(--color-primary)] hover:underline">https://www.linkedin.com/company/theeduassist</a>
-          </p>
+        <div class="text-left w-full max-w-lg mx-auto bg-white p-6 rounded-lg border border-slate-100">
+            <h3 class="font-bold text-slate-800 mb-4">Usage Notes:</h3>
+            <ul class="list-disc pl-5 text-sm text-slate-600 space-y-2">
+                <li>Keep the logo's original proportions.</li>
+                <li>Do not recolor or redraw it.</li>
+                <li>Do not stretch it.</li>
+                <li>Do not crop the circular design.</li>
+                <li>Maintain sufficient clear space.</li>
+                <li>Use the official supplied file.</li>
+            </ul>
         </div>
       </div>
     </div>
