@@ -1,0 +1,13 @@
+Task 5: Robots.txt and XML Sitemap Quality Audit Report
+
+robots.txt status:
+- All required public pages are allowed by default (`Allow: /`).
+- Sitemap URL is correctly defined (`Sitemap: https://www.theeduassist.com/sitemap.xml`).
+- Important paths (e.g., `/brand/`, `/images/`, `/favicon*`) are NOT blocked.
+- Internal/admin paths (`/admin/`, `/studio/`, `/preview/`, `/drafts/`) are appropriately blocked.
+
+sitemap.xml (via scripts/generate-sitemap.mjs) status:
+- Verified that all URLs use the canonical `www` format (`https://www.theeduassist.com/...`).
+- Verified that draft and non-indexable blog posts are excluded correctly via the Sanity GROQ query.
+- No `localhost` or `vercel.app` preview URLs are included.
+- Core pages and indexable locations are all correctly accounted for.

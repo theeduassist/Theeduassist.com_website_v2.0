@@ -1,6 +1,7 @@
 ---
 export const prerender = true;
 import Layout from "../../layouts/Layout.astro";
+import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
 
 const title = "Pricing | Course Creation, Kajabi Setup & LMS Builds | TheEduAssist";
 const description = "Explore TheEduAssist pricing for course creation, Kajabi setup, LMS migration, content conversion, AI-powered e-learning support, and ongoing course support.";
@@ -11,7 +12,7 @@ const packages = [
     title: "Course Clarity Blueprint",
     price: "Starting at $500",
     bestFor: "Creators, coaches, consultants, educators, and businesses that need a clear course plan before building.",
-    desc: "A strategy-first package to turn raw expertise, workshop ideas, PDFs, slides, or rough training content into a structured course plan.",
+    desc: "A strategy-first package to turn raw expertise, workshop ideas, PDFs, slides, or rough training content into a structured course plan. Perfect for planning <a href='/services/custom-elearning-development/' class='text-brand-accent underline'>custom e-learning development</a>.",
     features: [
       "Course idea review",
       "Audience and learner goal clarification",
@@ -29,7 +30,7 @@ const packages = [
     title: "Content Conversion Kit",
     price: "Starting at $900",
     bestFor: "Teams that already have content and need it converted into learner-friendly course material.",
-    desc: "Convert PDFs, slides, documents, webinars, scripts, or training recordings into structured lessons, worksheets, activities, and course-ready assets.",
+    desc: "Convert PDFs, slides, documents, webinars, scripts, or training recordings into structured lessons, worksheets, activities, and course-ready assets. Highly requested as part of our <a href='/services/ai-powered-elearning/' class='text-brand-accent underline'>AI-powered e-learning support</a>.",
     features: [
       "Existing content review",
       "Lesson restructuring",
@@ -478,6 +479,9 @@ const faqs = [
       </div>
     </div>
   </section>
+
+  {/* AI Answer Block */}
+  <AIAnswerBlock questions={[{ q: "How much does an e-learning project cost?", a: "E-learning project cost depends on content volume, platform, course complexity, media needs, LMS or Kajabi setup, assessments, automation, and launch support. TheEduAssist starts with a 24–48 Hour Review to clarify scope before recommending a build path." }]} />
 
   {/* FAQs */}
   <section class="py-20 bg-slate-50 border-t border-brand-border/30">

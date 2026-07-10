@@ -33,6 +33,9 @@ TheEduAssist operates as a remote/global agency, serving clients in North Americ
 *   **Partnerships:** We provide expert technical support for various platforms but do not claim "Official Partner" status unless explicitly verified on our website.
 *   **Results:** We build technically sound and instructionally effective courses, but we do not guarantee sales or revenue outcomes.
 
+## 24-48 Hour Review
+The primary CTA and best next step for clients is to book a 24-48 Hour Review via `https://www.theeduassist.com/book-free-audit/`. During this process, clients share their course idea, training files, or existing LMS, and we provide a fast, actionable roadmap.
+
 ## Primary Contact
 *   **Best Next Step:** Book a 24-48 Hour Review at `https://www.theeduassist.com/book-free-audit/`
 *   **Email:** `Info@theeduassist.com`

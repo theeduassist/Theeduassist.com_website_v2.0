@@ -20,12 +20,18 @@ import { getAllServices } from '../../sanity/queries';
 const services = await getAllServices();
 
 const aiAnswers = [
-  { q: "What services does TheEduAssist offer?", a: "TheEduAssist offers course creation and curriculum design, Kajabi website and course setup, LMS implementation and migration, custom e-learning development, AI-powered e-learning support, content conversion, funnels and automation, and ongoing support." },
+  { q: "Which e-learning services does TheEduAssist provide?", a: "TheEduAssist provides course creation, instructional design, Kajabi setup, LMS migration, custom eLearning development, AI-powered learning support, corporate training, and ongoing learning system support." },
   { q: "What does the process look like?", a: "The process typically involves an initial content and platform review, followed by curriculum strategy, asset creation (or conversion), platform setup (like Kajabi or an LMS), testing, and launch handover." },
   { q: "How can someone get started?", a: "The best way to get started is to request a 24-48 hour free audit or talk to sales directly on the site. We review your existing content, goals, and platform needs to recommend the right starting package." }
 ];
 
 const packageFaqs = [
+  { question: "Who are your services for?", answer: "Our services are designed for creators, coaches, consultants, corporate training teams, HR departments, and educational institutions looking to build structured online learning." },
+  { question: "Who is this not a fit for?", answer: "We are not a good fit for businesses looking for generic, low-quality PLR content generation, or those who want a guarantee of sales and revenue without providing marketing effort." },
+  { question: "What are the common deliverables?", answer: "Deliverables often include course curriculum maps, video/slide structures, configured LMS/Kajabi platforms, migrated courses, automated email funnels, and AI ethics training modules." },
+  { question: "What affects the cost of an e-learning project?", answer: "Cost depends heavily on the volume of content, the chosen platform, custom integrations, the amount of existing raw material (vs. needing from-scratch creation), and timeline urgency." },
+  { question: "What are common mistakes to avoid?", answer: "Common mistakes include building complex platforms without a clear curriculum, skipping the learner onboarding experience, and failing to define clear learning objectives before recording video." },
+  { question: "What happens after booking a 24-48 Hour Review?", answer: "We review your submitted materials, goals, and current tech stack. Within 48 hours, we provide a custom roadmap, recommended service package, and next steps to begin." },
   { question: "Are these fixed prices?", answer: "No. They are starting investments and budget guides. Final pricing depends on content volume, course length, platform, pages, automations, integrations, review rounds, and timeline." },
   { question: "What happens when I click Start This Package?", answer: "The sales chat opens so our team can understand your project, confirm the right package, and guide you to the review, payment, or invoice next step." },
   { question: "Do I need to pay before talking to the team?", answer: "No. We recommend confirming the scope first so the project path is clear before payment." },
@@ -60,6 +66,43 @@ const jsonLd = [
   <AIWorkflowSection />
   <ServicesComparison />
   <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'business-analytics-corporate-training', 'language-courses-book-publisher']} />
+
+  <section class="py-16 bg-white border-y border-brand-border/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center text-brand-navy mb-8">What we check in a 24-48 Hour Review</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-brand-textMain">
+        <ul class="space-y-4">
+          <li class="flex items-start">
+            <span class="text-brand-accent mr-3 font-bold text-xl">✓</span>
+            <span><strong>Content Readiness:</strong> Do you have the raw materials, or do we need to storyboard from scratch?</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-brand-accent mr-3 font-bold text-xl">✓</span>
+            <span><strong>Platform Fit:</strong> Does Kajabi, an LMS, or Skool make the most sense for your goals?</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-brand-accent mr-3 font-bold text-xl">✓</span>
+            <span><strong>Learner Journey:</strong> Where do your students start, and what is the desired outcome?</span>
+          </li>
+        </ul>
+        <ul class="space-y-4">
+          <li class="flex items-start">
+            <span class="text-brand-accent mr-3 font-bold text-xl">✓</span>
+            <span><strong>Tech Stack:</strong> What tools are you currently using, and how can we connect them smoothly?</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-brand-accent mr-3 font-bold text-xl">✓</span>
+            <span><strong>Timeline Risks:</strong> Identifying bottlenecks before the build phase starts.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-brand-accent mr-3 font-bold text-xl">✓</span>
+            <span><strong>Cost Estimate:</strong> Defining a realistic scope based on your exact needs.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <StartingPoint />
   <AIAnswerBlock questions={aiAnswers} />
   <ServicesFAQ />

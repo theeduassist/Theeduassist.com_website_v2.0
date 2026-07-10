@@ -31,7 +31,7 @@ const ctaBlocks = await getCtaBlocks();
 const primaryProcess = await getProcessByTitle('Primary Process');
 
 const aiAnswers = [
-  { q: "What is TheEduAssist?", a: "TheEduAssist is an e-learning design and course-building agency that helps creators, educators, coaches, consultants, training companies, online academies, and businesses build structured online courses, Kajabi systems, LMS experiences, and launch-ready learning content." },
+  { q: "What does TheEduAssist do?", a: "TheEduAssist is an e-learning design and course-building agency that helps creators, coaches, consultants, educators, training companies, and businesses turn content into structured online courses, Kajabi systems, LMS experiences, and AI-powered learning workflows.<br><br><ul><li>• Course structure and curriculum planning</li><li>• Kajabi setup and migration</li><li>• LMS implementation</li><li>• AI-powered e-learning support</li><li>• Corporate and academic training</li><li>• Content conversion</li><li>• Launch and improvement support</li></ul>" },
   { q: "Who is TheEduAssist best for?", a: "TheEduAssist is best for people and teams who have expertise, training material, PDFs, slides, videos, coaching content, or internal learning content and need it turned into a professional online course, LMS program, Kajabi setup, or learner-friendly e-learning experience." },
   { q: "Does TheEduAssist only work with Kajabi?", a: "No. TheEduAssist offers Kajabi setup as a specialty, but the agency also supports course creation, LMS implementation, content conversion, instructional design, AI-powered e-learning support, funnels, automation, and ongoing course maintenance." }
 ];
@@ -79,6 +79,32 @@ const jsonLd = [
   <SelfDiagnosisMirror />
 
   <ImprovementSelector />
+
+  <section class="py-16 bg-slate-50 border-y border-brand-border/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-brand-navy mb-6">Before/After: The Power of Course Structuring</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+        <div class="bg-white p-6 rounded-xl border border-red-200">
+          <h3 class="font-bold text-red-600 mb-4 text-xl">Before (Messy)</h3>
+          <ul class="space-y-3 text-brand-textMain">
+            <li>❌ 10 disorganized folders of PDFs</li>
+            <li>❌ 4-hour Zoom recordings with no timestamps</li>
+            <li>❌ "Read this 50-page manual" assignments</li>
+            <li>❌ Overwhelmed learners asking "where do I start?"</li>
+          </ul>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-green-200">
+          <h3 class="font-bold text-green-600 mb-4 text-xl">After (Structured)</h3>
+          <ul class="space-y-3 text-brand-textMain">
+            <li>✅ Clear 6-module learning pathway</li>
+            <li>✅ 5-10 minute searchable video lessons</li>
+            <li>✅ Downloadable actionable worksheets</li>
+            <li>✅ High completion rates and engaged learners</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <StartingPoint />
 

@@ -40,15 +40,13 @@ const jsonLd = [
 import { faqPageSchema } from '../../lib/seo/schema';
 
 const aiElearningFaqs = [
+  { question: "How can AI help course creation?", answer: "AI can accelerate course creation by drafting module outlines, generating ideas for assessments, and summarizing lengthy PDFs or videos into digestible microlearning units." },
+  { question: "Can AI generate quizzes and assessments?", answer: "Yes. Given a transcript or lesson document, AI can rapidly generate multiple-choice, true/false, and short-answer quiz questions. Human review is required to verify accuracy." },
+  { question: "Can AI translate training content?", answer: "Yes. AI translation tools can accurately translate course scripts and generate localized subtitles for global workforces." },
+  { question: "What should humans still review?", answer: "Humans must review all AI-generated content for factual accuracy, brand tone, cultural nuance, absence of bias, and overall learner experience." },
+  { question: "What are the risks of AI-generated learning content?", answer: "The main risks are 'hallucinations' (factually incorrect statements), generic or boring tone, and the inclusion of biased or copyrighted material." },
   { question: "Can I just use ChatGPT myself?", answer: "Yes, and many clients do. But AI tools usually produce drafts and ideas. TheEduAssist helps turn those ideas into structured, reviewed, platform-ready learning assets and course systems." },
-  { question: "Does AI build the full course automatically?", answer: "No. We use AI-assisted workflows to speed up planning, drafting, summarizing, and content conversion, but the final course structure and learning experience are human-reviewed." },
-  { question: "What kind of content can I bring?", answer: "You can bring PDFs, slides, videos, notes, scripts, manuals, SOPs, outlines, Google Drive folders, old course content, webinar recordings, and rough course ideas." },
-  { question: "What do I get from the AI Course Clarity Sprint?", answer: "You get course direction, target learner profile, course promise, module map, lesson outline, learner journey, and launch checklist." },
-  { question: "What do I get from the AI Content Conversion Kit?", answer: "You get content audit, lesson mapping, summaries, script/talking-point drafts, worksheet ideas, quiz/check-in questions, resource list, and platform-ready structure." },
-  { question: "Can you prepare content for Kajabi or an LMS?", answer: "Yes. We can prepare content structure, lesson assets, resource lists, and launch materials for Kajabi, LMS platforms, or other course systems." },
-  { question: "Is the pricing fixed?", answer: "The prices shown are starting prices. Final pricing depends on content volume, format, course length, review rounds, platform needs, assets, and launch requirements." },
-  { question: "Do you store or train AI on my content?", answer: "We do not use client content to train our own AI models. We can discuss privacy needs during the audit and choose a workflow that fits your content sensitivity." },
-  { question: "What is the best first step?", answer: "Get a 24-48 hour review so we can review your content, goals, platform, and recommend the right package." }
+  { question: "Do you store or train AI on my content?", answer: "We do not use client content to train our own AI models. We can discuss privacy needs during the audit and choose a workflow that fits your content sensitivity." }
 ];
 
 jsonLd.push(faqPageSchema(aiElearningFaqs));
@@ -70,7 +68,7 @@ import AIFinalCTA from "../../components/ai-elearning/AIFinalCTA.astro";
 import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
 
 const aiAnswers = [
-  { q: "How does TheEduAssist use AI in e-learning?", a: "TheEduAssist uses AI tools to assist with structuring content, drafting scripts, and generating quiz questions, but always relies on human instructional designers to review, refine, and ensure the content is accurate and engaging." },
+  { q: "How can AI support e-learning development?", a: "AI can support e-learning by helping structure content, create assessments, summarize material, translate learning assets, support personalization, and maintain learning resources. Human review is still needed for accuracy, ethics, and learner experience." },
   { q: "Can AI help convert raw content into course outlines?", a: "Yes. We use AI to help process large amounts of raw text (like PDFs or transcripts) and propose initial modular structures, saving time before the human review phase." },
   { q: "Does human review remain part of the process?", a: "Absolutely. Human review is mandatory in our workflow to ensure the course doesn't feel generic, tone is correct, and learning objectives are actually met." }
 ];
@@ -93,6 +91,39 @@ const aiAnswers = [
   <AIAudienceSection />
   <AIDeliverablesGrid />
   <AIComparison />
+
+  <section class="py-16 bg-white border-y border-brand-border/30">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center text-brand-navy mb-8">Common Course Build Mistakes</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-brand-textMain">
+        <ul class="space-y-4">
+          <li class="flex items-start">
+            <span class="text-red-500 mr-3 font-bold text-xl">❌</span>
+            <span><strong>Skipping the Outline:</strong> Using AI to write full lessons before establishing the core curriculum map.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-red-500 mr-3 font-bold text-xl">❌</span>
+            <span><strong>No Human Review:</strong> Publishing AI-generated quiz questions that test irrelevant or hallucinated details.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-red-500 mr-3 font-bold text-xl">❌</span>
+            <span><strong>Too Much Content:</strong> Having AI summarize a 500-page manual into another 50-page document instead of microlearning videos.</span>
+          </li>
+        </ul>
+        <ul class="space-y-4">
+          <li class="flex items-start">
+            <span class="text-red-500 mr-3 font-bold text-xl">❌</span>
+            <span><strong>Generic Tone:</strong> Letting AI write the course in a robotic voice, stripping away the creator's unique personality.</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-red-500 mr-3 font-bold text-xl">❌</span>
+            <span><strong>Ignoring Privacy:</strong> Uploading confidential, proprietary business data into public LLMs.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <AIAnswerBlock questions={aiAnswers} />
   <AIFAQ />
   <AIFinalCTA />
