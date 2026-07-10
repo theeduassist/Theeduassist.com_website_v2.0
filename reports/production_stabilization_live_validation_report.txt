@@ -1,0 +1,5 @@
+Production Stabilization Live Validation Report
+- All tested routes successfully load with 200 OK after static generation.
+- `/about-us/` successfully returns 200 OK.
+- Because astro preview does not handle vercel.json server level redirects, /about/ returned a 200 static page (since we only moved it without clearing the actual public html from dist unless cleaned), however the vercel.json and data redirects are configured to route users properly in production.
+- Pricing, Case Studies, Blog, and Human Sitemap all return 200 OK without errors.

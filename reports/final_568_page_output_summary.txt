@@ -1,0 +1,4 @@
+Final 568-Page Output Audit Summary
+- Scripts evaluated and confirmed `/about-us/` presence while `/about/` was removed from the base sitemap.
+- Discovered `scripts/generate-sitemap.mjs` was still hardcoded to output `/about/` to coreUrls. Ran a sed substitution so `/about/` is permanently removed from the generated sitemap and replaced with `/about-us/`.
+- Verified all Location pages fall into accurate index/noindex categorization based on the `src/data/locations.json` and logic within `generate-sitemap.mjs`.

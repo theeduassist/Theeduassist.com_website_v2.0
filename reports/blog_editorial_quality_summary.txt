@@ -1,0 +1,4 @@
+Blog Editorial Quality Summary
+- We have identified articles containing broken publication dates (e.g., 'gamification-corporate-training').
+- We also flagged articles containing "strong" migration artifacts and inconsistent brand naming (e.g., "The EduAssist").
+- Action: These should be evaluated by the editorial team and either rewritten or redirected. The static site logic automatically excludes them from the sitemap if they lack valid `publishedAt` dates or contain filtering patterns, keeping the production index clean.

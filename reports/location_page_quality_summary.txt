@@ -1,0 +1,3 @@
+Location Page Quality Summary
+- Location pages use templates. To prevent thin content penalties, they default to 'noindex' status unless they pass quality gates as outlined in AGENTS.md.
+- Action: Manual review and content expansion needed before flipping `noindex` to `index` on these individual routes. No fake local addresses are claimed.

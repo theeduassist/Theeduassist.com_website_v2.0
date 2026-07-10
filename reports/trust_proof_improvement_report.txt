@@ -1,0 +1,4 @@
+Trust/Proof Improvement Report
+- The Before/After component already acts as strong proof on the homepage.
+- Case studies have been added safely to /case-studies/ without blank labels due to the structured summary query, and represent verified proof.
+- The 24-48 Hour Review CTA directly outlines what happens next, providing actionable clarity without fabricated guarantees. No fake client logos, reviews, or testimonials have been added.

@@ -23,7 +23,7 @@ const packages = [
       "Launch-readiness notes"
     ],
     timeline: "3–5 business days",
-    ctaText: "Book Free Audit",
+    ctaText: "Get 24–48 Hour Review",
     ctaLink: "/book-free-audit/"
   },
   {
@@ -166,7 +166,7 @@ const faqs = [
         Choose the right starting point for turning your expertise, training content, or learning program into a structured, launch-ready online learning experience.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-        <a href="/book-free-audit/" class="bg-brand-accent text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-brand-primary transition-colors focus-ring w-full sm:w-auto shadow-md">Book Free Audit →</a>
+        <a href="/book-free-audit/" class="bg-brand-accent text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-brand-primary transition-colors focus-ring w-full sm:w-auto shadow-md">Get 24–48 Hour Review →</a>
         <a href="/contact/" class="bg-white text-brand-navy border border-brand-border px-8 py-4 rounded-md font-bold text-lg hover:bg-slate-50 transition-colors focus-ring w-full sm:w-auto">Contact Us →</a>
       </div>
       <div class="text-sm text-brand-textMuted max-w-2xl mx-auto space-y-2">
@@ -232,7 +232,7 @@ const faqs = [
               <span class="text-sm font-bold text-brand-textMain block mb-1">Best for:</span>
               <p class="text-sm text-brand-textMuted">{pkg.bestFor}</p>
             </div>
-            <p class="text-brand-textMain mb-8 font-medium">{pkg.desc}</p>
+            <p class="text-brand-textMain mb-8 font-medium"><Fragment set:html={pkg.desc} /></p>
 
             <div class="flex-grow mb-8">
               <span class="text-sm font-bold text-brand-textMain block mb-3">What's included:</span>
@@ -506,7 +506,7 @@ const faqs = [
         Invite us to review your project. Book a free audit so TheEduAssist can recommend the right path for your specific goals.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <a href="/book-free-audit/" class="bg-brand-accent text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-white hover:text-brand-navy transition-colors focus-ring w-full sm:w-auto shadow-md">Book Free Audit →</a>
+        <a href="/book-free-audit/" class="bg-brand-accent text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-white hover:text-brand-navy transition-colors focus-ring w-full sm:w-auto shadow-md">Get 24–48 Hour Review →</a>
         <a href="/contact/" class="bg-transparent text-white border border-slate-500 hover:border-white px-8 py-4 rounded-md font-bold text-lg hover:bg-slate-800 transition-colors focus-ring w-full sm:w-auto">Contact Us</a>
       </div>
     </div>

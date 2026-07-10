@@ -1,0 +1,4 @@
+Final Case Study Failure Safety Check
+- Verified `RealCaseStudyCards.astro` logic dynamically hides fields if `caseStudies` properties are missing.
+- Updated `getAllCaseStudies` GROQ logic projects explicit non-content body fields ensuring zero payload blowout risk.
+- Case studies gracefully handle missing fields and avoid throwing render exceptions during index array builds.

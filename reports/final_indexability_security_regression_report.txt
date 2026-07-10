@@ -1,0 +1,6 @@
+Final Indexability Security Regression Report
+- Form safely embedded via iframe; no private form data exposed.
+- Sanity uses apicdn in build time (`useCdn: true`) to prevent token leaks.
+- `api.sanity.io/.../data/query` is not called browser-side; Astro compiles static endpoints in `/data/blog/page-[page].json`.
+- Secrets validation passed during static generation script logic (`validate:env`).
+- CSP headers are maintained in Report-Only mode via vercel.json.

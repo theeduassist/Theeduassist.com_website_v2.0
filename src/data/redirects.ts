@@ -33,8 +33,8 @@ export const redirects: RedirectRule[] = [
     targetExists: true
   },
   {
-    from: "/about-us/",
-    to: "/about/",
+    from: "/about/",
+    to: "/about-us/",
     status: "ready",
     statusCode: 301,
     reason: "Old WordPress about page moved to Astro about page.",

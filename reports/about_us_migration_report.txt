@@ -1,0 +1,5 @@
+About Us Migration Report
+- Moved /about/ to /about-us/
+- Set up a redirect in src/data/redirects.ts from /about/ to /about-us/
+- Updated references in Footer, Sitemap, and internal links
+- Changed title to About Us | TheEduAssist
