@@ -1,0 +1,4 @@
+Shared File Request:
+- Target: src/data/locations.json or index.ts
+- Change: Import europeExpansionIndex export to integrate new Europe records seamlessly.
+- Reason: Required to combine agent-specific records without direct destructive edits.

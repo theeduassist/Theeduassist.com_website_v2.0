@@ -1,0 +1,32 @@
+[
+  {
+    "country": "Poland",
+    "term": "szkolenia online",
+    "context": "online training",
+    "reviewStatus": "pending"
+  },
+  {
+    "country": "Austria",
+    "term": "Mitarbeiterschulung",
+    "context": "employee training",
+    "reviewStatus": "pending"
+  },
+  {
+    "country": "Portugal",
+    "term": "formação profissional",
+    "context": "professional training",
+    "reviewStatus": "pending"
+  },
+  {
+    "country": "Czechia",
+    "term": "firemní vzdělávání",
+    "context": "corporate training",
+    "reviewStatus": "pending"
+  },
+  {
+    "country": "Romania",
+    "term": "învățare digitală",
+    "context": "digital learning",
+    "reviewStatus": "pending"
+  }
+]

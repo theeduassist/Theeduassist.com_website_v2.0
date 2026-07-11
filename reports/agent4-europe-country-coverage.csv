@@ -1,0 +1,33 @@
+Country,IndexStatus,QualityScore
+Albania,noindex,65
+Andorra,noindex,65
+Austria,index,95
+Belarus,do-not-publish,65
+Bosnia and Herzegovina,improve,65
+Bulgaria,improve,65
+Croatia,improve,65
+Czechia,index,95
+Estonia,improve,65
+Greece,index,95
+Hungary,index,95
+Iceland,noindex,65
+Latvia,improve,65
+Liechtenstein,noindex,65
+Lithuania,improve,65
+Luxembourg,improve,65
+Malta,improve,65
+Moldova,noindex,65
+Monaco,noindex,65
+Montenegro,noindex,65
+North Macedonia,noindex,65
+Poland,index,95
+Portugal,index,95
+Romania,index,95
+Russia,do-not-publish,65
+San Marino,noindex,65
+Serbia,improve,65
+Slovakia,improve,65
+Slovenia,improve,65
+Ukraine,improve,65
+Vatican City,noindex,65
+Kosovo,noindex,65

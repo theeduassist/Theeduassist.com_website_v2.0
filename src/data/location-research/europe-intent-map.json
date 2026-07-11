@@ -1,0 +1,17 @@
+[
+  {
+    "country": "Estonia",
+    "primaryIntent": "SaaS and Tech customer education, digital-first government/corporate training",
+    "buyerProfile": "Tech startups, e-residency businesses"
+  },
+  {
+    "country": "Poland",
+    "primaryIntent": "Enterprise LMS migration, corporate employee development",
+    "buyerProfile": "Large corporate HR and L&D departments"
+  },
+  {
+    "country": "Portugal",
+    "primaryIntent": "Independent creators, coaching, small academy setups",
+    "buyerProfile": "Solo-consultants, subject-matter experts"
+  }
+]
