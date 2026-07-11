@@ -1,46 +1,9 @@
 ---
-import { getSiteSettings, getNavigation } from '../../sanity/queries';
-import { shareLinks } from '../../data/shareLinks';
+import { getSiteSettings } from '../../sanity/queries';
+import { footerNavigation } from '../../data/siteNavigation';
 
 const siteSettings = await getSiteSettings();
 const site = siteSettings || { name: 'TheEduAssist', email: 'Info@theeduassist.com', social: {} };
-
-const sanityNav = await getNavigation();
-
-const navigation = {
-    services: [
-        { label: 'Course Creation', href: '/services/' },
-        { label: 'Curriculum Design', href: '/services/' },
-        { label: 'Kajabi Setup', href: '/kajabi-services/' },
-        { label: 'LMS Migration', href: '/services/lms-implementation-migration/' },
-        { label: 'Content Conversion', href: '/services/' },
-        { label: 'Funnels & Automation', href: '/services/' },
-        { label: 'Ongoing Support', href: '/services/' }
-    ],
-    solutions: [
-        { label: 'For Creators & Coaches', href: '/' },
-        { label: 'For Consultants', href: '/' },
-        { label: 'For Educators', href: '/' },
-        { label: 'For Training Companies', href: '/' },
-        { label: 'For Online Academies', href: '/' },
-        { label: 'For Businesses', href: '/' }
-    ],
-    resources: [
-        { label: 'Blog', href: '/blog/' },
-        { label: 'Case Studies', href: '/case-studies/' },
-        { label: 'Platforms', href: '/platforms/' },
-        { label: 'Sitemap', href: '/sitemap/' },
-        { label: 'Contact', href: '/contact/' },
-        { label: 'Brand Assets', href: '/brand-assets/' }
-    ],
-        company: sanityNav?.footerCompanyLinks || [
-        { label: 'About Us', href: '/about-us/' },
-        { label: 'Services', href: '/services/' },
-        { label: 'Careers', href: '/careers/' },
-        { label: 'Privacy Policy', href: '/privacy-policy/' },
-        { label: 'Terms & Conditions', href: '/terms-and-conditions/' }
-    ]
-};
 ---
 <footer class="bg-brand-navy text-slate-300 py-16 border-t border-brand-border/20 relative overflow-hidden">
     <!-- Top Footer CTA -->
@@ -60,11 +23,11 @@ const navigation = {
     <!-- Logo & Description Row -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
-            <a href="/" class="inline-block focus-ring rounded-sm mb-4">
+            <div class="inline-block focus-ring rounded-sm mb-4">
                 <div class="h-24 w-24 rounded-full overflow-hidden flex items-center justify-center shrink-0">
                     <img src="/brand/theeduassist-logo-official.svg" alt="TheEduAssist e-learning design agency logo" loading="lazy" decoding="async" class="h-full w-full object-contain" />
                 </div>
-            </a>
+            </div>
             <p class="text-slate-400 text-sm max-w-md leading-relaxed">
                 TheEduAssist helps creators, educators, coaches, consultants, training companies, and businesses build structured online courses, Kajabi systems, LMS experiences, and e-learning content.
             </p>
@@ -76,42 +39,34 @@ const navigation = {
         <div>
             <h4 class="text-white font-bold mb-6 tracking-wider uppercase text-sm">Services</h4>
             <ul class="space-y-3 text-sm">
-                <li><a href="/services/custom-elearning-development/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Custom eLearning Development</a></li>
-                <li><a href="/services/lms-implementation-migration/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">LMS Implementation & Migration</a></li>
-                <li><a href="/kajabi-services/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Kajabi Services</a></li>
-                <li><a href="/services/ai-powered-elearning/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">AI-Powered E-Learning</a></li>
-                <li><a href="/services/ai-ethics-corporate-training/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">AI Ethics Training</a></li>
-                <li><a href="/services/content-conversion/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Course Content Conversion</a></li>
-                <li><a href="/services/ongoing-support-maintenance/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Ongoing Support</a></li>
-            </ul>
-        </div>
-
-        <div>
-            <h4 class="text-white font-bold mb-6 tracking-wider uppercase text-sm">Platforms</h4>
-            <ul class="space-y-3 text-sm">
-                <li><a href="/platforms/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Kajabi</a></li>
-                <li><a href="/platforms/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Thinkific</a></li>
-                <li><a href="/platforms/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">LearnWorlds</a></li>
-                <li><a href="/platforms/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">LearnDash</a></li>
-                <li><a href="/platforms/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Moodle</a></li>
-                <li><a href="/platforms/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">TalentLMS</a></li>
-                <li><a href="/platforms/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Docebo</a></li>
-                <li><a href="/platforms/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Articulate 360</a></li>
-                <li><a href="/platforms/" class="text-slate-300 hover:text-brand-accent transition-colors focus-ring inline-block font-semibold">View All Platforms</a></li>
-            </ul>
-        </div>
-        <div>
-            <h4 class="text-white font-bold mb-6 tracking-wider uppercase text-sm">Solutions</h4>
-            <ul class="space-y-3 text-sm">
-                {navigation.solutions.map((item) => (
+                {footerNavigation.services.map((item) => (
                     <li><a href={item.href} class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">{item.label}</a></li>
                 ))}
             </ul>
         </div>
+
+        <div>
+            <h4 class="text-white font-bold mb-6 tracking-wider uppercase text-sm">Kajabi</h4>
+            <ul class="space-y-3 text-sm">
+                {footerNavigation.kajabi.map((item) => (
+                    <li><a href={item.href} class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">{item.label}</a></li>
+                ))}
+            </ul>
+        </div>
+
         <div>
             <h4 class="text-white font-bold mb-6 tracking-wider uppercase text-sm">Resources</h4>
             <ul class="space-y-3 text-sm">
-                {navigation.resources.map((item) => (
+                {footerNavigation.resources.map((item) => (
+                    <li><a href={item.href} class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">{item.label}</a></li>
+                ))}
+            </ul>
+        </div>
+
+        <div>
+            <h4 class="text-white font-bold mb-6 tracking-wider uppercase text-sm">Company</h4>
+            <ul class="space-y-3 text-sm">
+                {footerNavigation.company.map((item) => (
                     <li><a href={item.href} class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">{item.label}</a></li>
                 ))}
             </ul>

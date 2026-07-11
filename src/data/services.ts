@@ -87,7 +87,6 @@ export const services = {
         { label: 'AI-Powered eLearning', link: '/services/ai-powered-elearning/' },
         { label: 'Corporate AI Ethics & AI Literacy Training', link: '/services/ai-ethics-corporate-training/' },
         { label: 'Gamified Learning' },
-        { label: 'AR & VR Solutions' },
         { label: 'Dashboards & Analytics' },
       ],
     },
