@@ -1,0 +1,8 @@
+RESEARCH INTEGRITY CHECK
+- All community questions have been paraphrased.
+- No usernames or private details were exposed.
+- Private groups were not scraped.
+- Factual claims are tied to sources in eastern-source-register.json.
+- No unsupported legal or compliance advice was added.
+- No fake local offices or partnerships claimed.
+- Country-specific nuances were respected.

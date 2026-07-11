@@ -1,0 +1,3 @@
+NATIVE LANGUAGE REVIEW REQUIREMENTS
+- Any Arabic terms (e.g., التعلم الإلكتروني) must be reviewed by a native Arabic speaker.
+- Urdu and Hindi terms, if included, require native review.

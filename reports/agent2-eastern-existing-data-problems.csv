@@ -1,0 +1,18 @@
+type,name,slug,existing country,correct country,existing region,correct region,existing indexStatus,duplication risk,placeholder risk,FAQ repetition risk,relationship gaps,localization gaps,recommended correction,severity,notes
+city,Dubai,dubai-elearning-development,Global,United Arab Emirates,global,middle-east-and-gcc,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Abu Dhabi,abu-dhabi-elearning-development,Global,United Arab Emirates,global,middle-east-and-gcc,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Riyadh,riyadh-elearning-development,Global,Saudi Arabia,global,middle-east-and-gcc,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Jeddah,jeddah-elearning-development,Global,Saudi Arabia,global,middle-east-and-gcc,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Doha,doha-elearning-development,Global,Qatar,global,middle-east-and-gcc,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Singapore,singapore-elearning-development,Global,Singapore,global,southeast-asia,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Sydney,sydney-elearning-development,Global,Australia,global,australia-and-new-zealand,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Melbourne,melbourne-elearning-development,Global,Australia,global,australia-and-new-zealand,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Auckland,auckland-elearning-development,Global,New Zealand,global,australia-and-new-zealand,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Lahore,lahore-elearning-development,Global,Pakistan,global,south-asia,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Karachi,karachi-elearning-development,Global,Pakistan,global,south-asia,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Islamabad,islamabad-elearning-development,Global,Pakistan,global,south-asia,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Mumbai,mumbai-elearning-development,Global,India,global,south-asia,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Bengaluru,bengaluru-elearning-development,Global,India,global,south-asia,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Delhi,delhi-elearning-development,Global,India,global,south-asia,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Cape Town,cape-town-elearning-development,Global,South Africa,global,africa,index,high,high,high,high,high,Update country and region,High,City marked as global
+city,Johannesburg,johannesburg-elearning-development,Global,South Africa,global,africa,index,high,high,high,high,high,Update country and region,High,City marked as global

@@ -1,0 +1,18 @@
+location,type,relatedServiceCount,relatedResourceCount,relatedBlogCount,relatedCaseStudyCount,status
+Dubai,city,2,1,0,0,Pass
+Abu Dhabi,city,2,1,0,0,Pass
+Riyadh,city,2,1,0,0,Pass
+Jeddah,city,2,1,0,0,Pass
+Doha,city,2,1,0,0,Pass
+Singapore,city,2,1,0,0,Pass
+Sydney,city,2,1,0,0,Pass
+Melbourne,city,2,1,0,0,Pass
+Auckland,city,2,1,0,0,Pass
+Lahore,city,2,1,0,0,Pass
+Karachi,city,2,1,0,0,Pass
+Islamabad,city,2,1,0,0,Pass
+Mumbai,city,2,1,0,0,Pass
+Bengaluru,city,2,1,0,0,Pass
+Delhi,city,2,1,0,0,Pass
+Cape Town,city,2,1,0,0,Pass
+Johannesburg,city,2,1,0,0,Pass

@@ -1,0 +1,7 @@
+SHARED FILE REQUESTS
+Requested file: src/data/locations.json
+Exact requested change: Import easternLocations from eastern-index.ts
+Reason: To integrate Agent 2 Eastern data into the main data source.
+Export/import required: Yes
+Integration risk: Low, if schema matches
+Acceptance criteria: All eastern locations appear in locations.json safely

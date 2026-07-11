@@ -1,0 +1,10 @@
+DATA MODEL NOTES
+Fields supported:
+- type, name, slug, country, countrySlug, region, regionSlug, priorityTier, indexStatus, canonicalPath
+- title, metaDescription, h1, heroIntroduction, shortAnswer, localAudienceSummary
+- creatorNeeds, corporateNeeds, industries, commonProjects, platformConsiderations
+- localizationConsiderations, timezoneCollaboration, diyGuidance, professionalSupportGuidance
+- projectTimeFactors, commonMistakes, relevantServices, relevantResources
+- relatedBlogs, relatedCaseStudies, faqs, disclaimer, lastReviewed
+- researchSourceIds, qualityScore, editorialReviewStatus, nativeLanguageReviewStatus
+If templates cannot display all fields, they will remain in Agent 2-owned files.

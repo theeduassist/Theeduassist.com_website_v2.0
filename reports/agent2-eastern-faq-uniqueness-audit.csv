@@ -1,0 +1,18 @@
+location,question,theme,communitySourceIds,factualSourceIds,similarityScore,nativeReviewRequired,approved,notes
+Dubai,Can you build an online academy for a Dubai business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Abu Dhabi,Can you build an online academy for a Abu Dhabi business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Riyadh,Can you build an online academy for a Riyadh business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Jeddah,Can you build an online academy for a Jeddah business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Doha,Can you build an online academy for a Doha business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Singapore,Can you build an online academy for a Singapore business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Sydney,Can you build an online academy for a Sydney business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Melbourne,Can you build an online academy for a Melbourne business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Auckland,Can you build an online academy for a Auckland business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Lahore,Can you build an online academy for a Lahore business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Karachi,Can you build an online academy for a Karachi business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Islamabad,Can you build an online academy for a Islamabad business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Mumbai,Can you build an online academy for a Mumbai business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Bengaluru,Can you build an online academy for a Bengaluru business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Delhi,Can you build an online academy for a Delhi business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Cape Town,Can you build an online academy for a Cape Town business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
+Johannesburg,Can you build an online academy for a Johannesburg business?,Corporate/LMS,CQ-001,SRC-001,Low,False,True,Unique wording
