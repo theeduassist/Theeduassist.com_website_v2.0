@@ -1,0 +1,9 @@
+{
+  "China": "Use Simplified Chinese (简体中文). Professional terminology is preferred. '数字化学习' (Digital Learning) is common in enterprise contexts.",
+  "Japan": "Use Japanese. Avoid casual internet slang in corporate contexts. Business honorifics (Keigo) might be expected in formal enterprise training, requiring native review.",
+  "South Korea": "Use Korean (Hangul). Corporate training (기업교육) requires formal tone. High expectation for mobile-optimized learning.",
+  "Taiwan": "Strictly use Traditional Chinese (繁體中文). Terminology often differs from Mainland China (e.g., '線上課程' vs '在线课程').",
+  "Hong Kong": "Bilingual (English and Traditional Chinese) is standard. Cantonese phrasing may be used in creator contexts but stick to standard written Chinese for enterprise.",
+  "Macau": "Similar to Hong Kong (Traditional Chinese), but some Portuguese influence. English is also used.",
+  "Mongolia": "Use Mongolian (Cyrillic). English is increasingly common in tech but local language is needed for broad employee training."
+}

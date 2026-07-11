@@ -1,0 +1,8 @@
+Script Cleanup Report:
+The following temporary scripts were successfully removed from the root directory:
+- temp_audit.cjs
+- temp_research_data.cjs
+- temp_generate_locations.cjs
+- temp_generate_reports.cjs
+
+Retained intentional validation and audit scripts in the scripts/ folder.

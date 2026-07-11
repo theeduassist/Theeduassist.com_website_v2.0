@@ -1,0 +1,297 @@
+[
+  {
+    "officialName": "People's Republic of China",
+    "commonName": "China",
+    "localName": "中国",
+    "alternateNames": [
+      "Mainland China"
+    ],
+    "countryOrTerritoryCode": "CN",
+    "status": "sovereign country",
+    "eastAsiaSubregion": "Mainland",
+    "ownership": "Agent 5",
+    "proposedSlug": "china-elearning-development",
+    "countryRecordStatus": "indexable candidate",
+    "priorityTier": 1,
+    "majorCityCandidates": [
+      "Beijing",
+      "Shanghai",
+      "Shenzhen",
+      "Guangzhou",
+      "Hangzhou",
+      "Chengdu",
+      "Nanjing",
+      "Wuhan",
+      "Suzhou",
+      "Tianjin",
+      "Chongqing",
+      "Xi'an",
+      "Qingdao",
+      "Xiamen"
+    ],
+    "officialLanguages": [
+      "Mandarin"
+    ],
+    "writingSystems": [
+      "Simplified Chinese"
+    ],
+    "localizationNeeds": "High",
+    "platformAccessResearchRequired": true,
+    "nativeReviewRequirements": true,
+    "commercialServiceReview": "complete",
+    "researchStatus": "complete",
+    "indexStatus": "index",
+    "indexabilityStatus": "indexable",
+    "notes": "Requires careful testing for platform access."
+  },
+  {
+    "officialName": "Japan",
+    "commonName": "Japan",
+    "localName": "日本",
+    "alternateNames": [
+      "Nippon"
+    ],
+    "countryOrTerritoryCode": "JP",
+    "status": "sovereign country",
+    "eastAsiaSubregion": "Island",
+    "ownership": "Agent 5",
+    "proposedSlug": "japan-elearning-development",
+    "countryRecordStatus": "indexable candidate",
+    "priorityTier": 1,
+    "majorCityCandidates": [
+      "Tokyo",
+      "Osaka",
+      "Yokohama",
+      "Nagoya",
+      "Kyoto",
+      "Fukuoka",
+      "Sapporo",
+      "Kobe",
+      "Sendai",
+      "Hiroshima",
+      "Kawasaki"
+    ],
+    "officialLanguages": [
+      "Japanese"
+    ],
+    "writingSystems": [
+      "Kanji",
+      "Hiragana",
+      "Katakana"
+    ],
+    "localizationNeeds": "High",
+    "platformAccessResearchRequired": false,
+    "nativeReviewRequirements": true,
+    "commercialServiceReview": "complete",
+    "researchStatus": "complete",
+    "indexStatus": "index",
+    "indexabilityStatus": "indexable",
+    "notes": "Business professional tone required."
+  },
+  {
+    "officialName": "Republic of Korea",
+    "commonName": "South Korea",
+    "localName": "대한민국",
+    "alternateNames": [
+      "Korea"
+    ],
+    "countryOrTerritoryCode": "KR",
+    "status": "sovereign country",
+    "eastAsiaSubregion": "Peninsula",
+    "ownership": "Agent 5",
+    "proposedSlug": "south-korea-elearning-development",
+    "countryRecordStatus": "indexable candidate",
+    "priorityTier": 1,
+    "majorCityCandidates": [
+      "Seoul",
+      "Busan",
+      "Incheon",
+      "Daejeon",
+      "Daegu",
+      "Gwangju",
+      "Suwon",
+      "Seongnam"
+    ],
+    "officialLanguages": [
+      "Korean"
+    ],
+    "writingSystems": [
+      "Hangul"
+    ],
+    "localizationNeeds": "High",
+    "platformAccessResearchRequired": false,
+    "nativeReviewRequirements": true,
+    "commercialServiceReview": "complete",
+    "researchStatus": "complete",
+    "indexStatus": "index",
+    "indexabilityStatus": "indexable",
+    "notes": "High tech adoption, mobile first."
+  },
+  {
+    "officialName": "Taiwan",
+    "commonName": "Taiwan",
+    "localName": "台灣",
+    "alternateNames": [
+      "Republic of China"
+    ],
+    "countryOrTerritoryCode": "TW",
+    "status": "sovereign country",
+    "eastAsiaSubregion": "Island",
+    "ownership": "Agent 5",
+    "proposedSlug": "taiwan-elearning-development",
+    "countryRecordStatus": "indexable candidate",
+    "priorityTier": 1,
+    "majorCityCandidates": [
+      "Taipei",
+      "New Taipei City",
+      "Taichung",
+      "Kaohsiung",
+      "Hsinchu",
+      "Tainan",
+      "Taoyuan"
+    ],
+    "officialLanguages": [
+      "Mandarin"
+    ],
+    "writingSystems": [
+      "Traditional Chinese"
+    ],
+    "localizationNeeds": "High",
+    "platformAccessResearchRequired": false,
+    "nativeReviewRequirements": true,
+    "commercialServiceReview": "complete",
+    "researchStatus": "complete",
+    "indexStatus": "index",
+    "indexabilityStatus": "indexable",
+    "notes": "Use Traditional Chinese. Differentiate terminology from Mainland China."
+  },
+  {
+    "officialName": "Hong Kong Special Administrative Region of the People's Republic of China",
+    "commonName": "Hong Kong",
+    "localName": "香港",
+    "alternateNames": [
+      "HK",
+      "HKSAR"
+    ],
+    "countryOrTerritoryCode": "HK",
+    "status": "special administrative region",
+    "eastAsiaSubregion": "Special Region",
+    "ownership": "Agent 5",
+    "proposedSlug": "hong-kong-elearning-development",
+    "countryRecordStatus": "indexable candidate",
+    "priorityTier": 1,
+    "majorCityCandidates": [
+      "Hong Kong"
+    ],
+    "officialLanguages": [
+      "Chinese",
+      "English"
+    ],
+    "writingSystems": [
+      "Traditional Chinese",
+      "Latin"
+    ],
+    "localizationNeeds": "Medium",
+    "platformAccessResearchRequired": false,
+    "nativeReviewRequirements": true,
+    "commercialServiceReview": "complete",
+    "researchStatus": "complete",
+    "indexStatus": "index",
+    "indexabilityStatus": "indexable",
+    "notes": "Bilingual setup is common."
+  },
+  {
+    "officialName": "Macao Special Administrative Region of the People's Republic of China",
+    "commonName": "Macau",
+    "localName": "澳門",
+    "alternateNames": [
+      "Macao"
+    ],
+    "countryOrTerritoryCode": "MO",
+    "status": "special administrative region",
+    "eastAsiaSubregion": "Special Region",
+    "ownership": "Agent 5",
+    "proposedSlug": "macau-elearning-development",
+    "countryRecordStatus": "indexable candidate",
+    "priorityTier": 1,
+    "majorCityCandidates": [
+      "Macau"
+    ],
+    "officialLanguages": [
+      "Chinese",
+      "Portuguese"
+    ],
+    "writingSystems": [
+      "Traditional Chinese",
+      "Latin"
+    ],
+    "localizationNeeds": "Medium",
+    "platformAccessResearchRequired": false,
+    "nativeReviewRequirements": true,
+    "commercialServiceReview": "complete",
+    "researchStatus": "complete",
+    "indexStatus": "index",
+    "indexabilityStatus": "indexable",
+    "notes": "Small market, but targeted needs."
+  },
+  {
+    "officialName": "Mongolia",
+    "commonName": "Mongolia",
+    "localName": "Монгол улс",
+    "alternateNames": [],
+    "countryOrTerritoryCode": "MN",
+    "status": "sovereign country",
+    "eastAsiaSubregion": "North",
+    "ownership": "Agent 5",
+    "proposedSlug": "mongolia-elearning-development",
+    "countryRecordStatus": "indexable candidate",
+    "priorityTier": 1,
+    "majorCityCandidates": [
+      "Ulaanbaatar"
+    ],
+    "officialLanguages": [
+      "Mongolian"
+    ],
+    "writingSystems": [
+      "Cyrillic"
+    ],
+    "localizationNeeds": "Medium",
+    "platformAccessResearchRequired": false,
+    "nativeReviewRequirements": true,
+    "commercialServiceReview": "complete",
+    "researchStatus": "complete",
+    "indexStatus": "index",
+    "indexabilityStatus": "indexable",
+    "notes": "Growing tech scene."
+  },
+  {
+    "officialName": "Democratic People's Republic of Korea",
+    "commonName": "North Korea",
+    "localName": "조선민주주의인민공화국",
+    "alternateNames": [
+      "DPRK"
+    ],
+    "countryOrTerritoryCode": "KP",
+    "status": "research-only",
+    "eastAsiaSubregion": "Peninsula",
+    "ownership": "Agent 5",
+    "proposedSlug": "north-korea-elearning",
+    "countryRecordStatus": "do-not-publish",
+    "priorityTier": 3,
+    "majorCityCandidates": [],
+    "officialLanguages": [
+      "Korean"
+    ],
+    "writingSystems": [
+      "Chosongul"
+    ],
+    "localizationNeeds": "None",
+    "platformAccessResearchRequired": true,
+    "nativeReviewRequirements": false,
+    "commercialServiceReview": "excluded",
+    "researchStatus": "complete",
+    "indexStatus": "noindex",
+    "indexabilityStatus": "do-not-publish",
+    "notes": "Not a commercial market. Excluded from service pages."
+  }
+]

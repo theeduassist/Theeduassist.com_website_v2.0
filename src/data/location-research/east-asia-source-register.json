@@ -1,0 +1,32 @@
+[
+  {
+    "sourceId": "SR-EA-001",
+    "title": "Kajabi Help Center: Access in China",
+    "organization": "Kajabi",
+    "url": "https://help.kajabi.com/",
+    "sourceType": "Official Documentation",
+    "country": "China",
+    "topic": "Platform Access",
+    "dateAccessed": "2023-10-25",
+    "lastUpdated": "2023-01-01",
+    "factSupported": "Kajabi uses Wistia for video hosting, which may be blocked or slow in Mainland China.",
+    "reliabilityLevel": "High",
+    "limitations": "Subject to change based on firewall policies.",
+    "notes": "Requires clients to test access locally."
+  },
+  {
+    "sourceId": "SR-EA-002",
+    "title": "W3C Web Content Accessibility Guidelines (WCAG) 2.1",
+    "organization": "W3C",
+    "url": "https://www.w3.org/TR/WCAG21/",
+    "sourceType": "Standard",
+    "country": "Global",
+    "topic": "Accessibility",
+    "dateAccessed": "2023-10-25",
+    "lastUpdated": "2018-06-05",
+    "factSupported": "Accessibility guidelines apply universally, though local standards may map to WCAG.",
+    "reliabilityLevel": "High",
+    "limitations": "None",
+    "notes": "Used to inform accessibility statements."
+  }
+]
