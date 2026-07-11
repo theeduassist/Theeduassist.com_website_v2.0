@@ -1,9 +1,23 @@
 ---
-// src/components/sections/FinalCTA.astro
-const { ctaBlocks } = Astro.props;
+const { ctaBlocks = [] } = Astro.props;
 
-// Try to find a block named "Final CTA" or just take the first one
-const finalCta = ctaBlocks?.find((b: any) => b.title?.toLowerCase().includes('final')) || ctaBlocks?.[0];
+// Use CMS data if available and valid
+let displayTitle = "Ready to Build a Better Learning Experience?";
+let displayDescription = "Share your course idea, Kajabi setup, LMS, or existing learning content. We’ll review it and recommend the clearest next step for structuring, building, or improving it.";
+let primaryLabel = "Get a 24–48 Hour Review";
+let primaryHref = "/book-free-audit/";
+let secondaryLabel = "Contact Our Team";
+let secondaryHref = "/contact/";
+
+if (ctaBlocks && ctaBlocks.length > 0) {
+    const cmsCta = ctaBlocks[0];
+    if (cmsCta.title && cmsCta.title !== "primary-cta") displayTitle = cmsCta.title;
+    if (cmsCta.description) displayDescription = cmsCta.description;
+    if (cmsCta.primaryAction?.label) primaryLabel = cmsCta.primaryAction.label;
+    if (cmsCta.primaryAction?.href) primaryHref = cmsCta.primaryAction.href;
+    if (cmsCta.secondaryAction?.label) secondaryLabel = cmsCta.secondaryAction.label;
+    if (cmsCta.secondaryAction?.href) secondaryHref = cmsCta.secondaryAction.href;
+}
 ---
 <section class="py-24 bg-brand-primary text-white relative overflow-hidden">
     <!-- Decorative background -->
@@ -14,29 +28,18 @@ const finalCta = ctaBlocks?.find((b: any) => b.title?.toLowerCase().includes('fi
     </div>
 
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-        <h2 class="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">{finalCta?.title || "Ready to Turn Your Expertise Into a Professional Online Course System?"}</h2>
+        <h2 class="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">{displayTitle}</h2>
         <p class="text-xl text-slate-300 mb-10 leading-relaxed">
-            {finalCta?.subtitle || "Get a 24–48 Hour Review and we’ll review your current content, course idea, Kajabi setup, LMS, or learning workflow and show you what needs to be structured, built, optimized, or improved."}
+            {displayDescription}
         </p>
 
         <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-            {finalCta?.ctas ? finalCta.ctas.map((cta: any, index: number) => (
-                <a
-                    href={cta.href}
-                    class={`w-full sm:w-auto px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all shadow-lg text-center ${index === 0 ? 'bg-brand-accent text-white hover:bg-white hover:text-brand-navy' : 'bg-transparent border-2 border-white/30 text-white hover:bg-white/10'}`}
-                >
-                    {cta.label}
-                </a>
-            )) : (
-                <>
-                    <a href="/book-free-audit/" class="w-full sm:w-auto bg-brand-accent text-white px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-white hover:text-brand-navy shadow-lg text-center">
-                        Get 24–48 Hour Review
-                    </a>
-                    <a href="/contact/" class="w-full sm:w-auto bg-transparent border-2 border-white/30 text-white px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-white/10 text-center">
-                        Contact TheEduAssist
-                    </a>
-                </>
-            )}
+            <a href={primaryHref} class="w-full sm:w-auto bg-brand-accent text-white px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-white hover:text-brand-navy shadow-lg text-center">
+                {primaryLabel}
+            </a>
+            <a href={secondaryHref} class="w-full sm:w-auto bg-transparent border-2 border-white/30 text-white px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-white/10 text-center">
+                {secondaryLabel}
+            </a>
         </div>
     </div>
 </section>

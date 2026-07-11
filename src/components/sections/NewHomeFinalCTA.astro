@@ -1,5 +1,23 @@
 ---
-import Button from '../ui/Button.astro';
+const { ctaBlocks = [] } = Astro.props;
+
+// Use CMS data if available and valid
+let displayTitle = "Ready to Build a Better Learning Experience?";
+let displayDescription = "Share your course idea, Kajabi setup, LMS, or existing learning content. We’ll review it and recommend the clearest next step for structuring, building, or improving it.";
+let primaryLabel = "Get a 24–48 Hour Review";
+let primaryHref = "/book-free-audit/";
+let secondaryLabel = "Contact Our Team";
+let secondaryHref = "/contact/";
+
+if (ctaBlocks && ctaBlocks.length > 0) {
+    const cmsCta = ctaBlocks[0];
+    if (cmsCta.title && cmsCta.title !== "primary-cta") displayTitle = cmsCta.title;
+    if (cmsCta.description) displayDescription = cmsCta.description;
+    if (cmsCta.primaryAction?.label) primaryLabel = cmsCta.primaryAction.label;
+    if (cmsCta.primaryAction?.href) primaryHref = cmsCta.primaryAction.href;
+    if (cmsCta.secondaryAction?.label) secondaryLabel = cmsCta.secondaryAction.label;
+    if (cmsCta.secondaryAction?.href) secondaryHref = cmsCta.secondaryAction.href;
+}
 ---
 <section class="py-24 bg-brand-navy text-center px-4 relative overflow-hidden">
     <!-- Decorative background elements -->
@@ -7,12 +25,12 @@ import Button from '../ui/Button.astro';
     <div class="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full blur-3xl pointer-events-none"></div>
 
     <div class="max-w-3xl mx-auto relative z-10">
-        <h2 class="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">Ready to Turn Your Expertise Into a Professional Online Course System?</h2>
-        <p class="text-lg md:text-xl text-slate-300 mb-10 leading-relaxed font-medium">Get a 24–48 Hour Review and we’ll review your current content, platform, course idea, or Kajabi setup and show you what needs to be structured, built, fixed, or improved.</p>
+        <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">{displayTitle}</h2>
+        <p class="text-xl text-blue-100 mb-10 max-w-2xl mx-auto leading-relaxed">{displayDescription}</p>
 
         <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-            <Button href="/book-free-audit/?source=homepage-cta" variant="primary" size="lg" class="w-full sm:w-auto shadow-lg bg-brand-accent text-brand-navy hover:bg-white border-none">Get 24–48 Hour Review</Button>
-            <Button href="/book-free-audit/?source=homepage-cta" variant="outline" size="lg" class="w-full sm:w-auto border-slate-500 text-white hover:bg-slate-800">Contact TheEduAssist</Button>
+            <Button href="/book-free-audit/?source=homepage-cta" variant="primary" size="lg" class="w-full sm:w-auto shadow-lg bg-brand-accent text-brand-navy hover:bg-white border-none">{primaryLabel}</Button>
+            <Button href="/contact/?source=homepage-cta" variant="outline" size="lg" class="w-full sm:w-auto border-slate-500 text-white hover:bg-slate-800">{secondaryLabel}</Button>
         </div>
     </div>
 </section>
