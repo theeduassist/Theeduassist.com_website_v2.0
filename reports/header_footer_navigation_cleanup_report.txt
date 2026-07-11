@@ -1,0 +1,3 @@
+Header Footer Navigation Cleanup Report
+- Replaced "About" with "About Us" mapping in Footer.astro and header navigations.
+- Removed duplicated Locations group in Footer.astro to clean up UI and improve link profile.

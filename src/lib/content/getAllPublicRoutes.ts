@@ -81,7 +81,7 @@ export async function getAllPublicRoutes(): Promise<PublicRoute[]> {
   });
 
   routes.push({
-    path: '/about/',
+    path: '/about-us/',
     title: 'About | TheEduAssist',
     pageType: 'general',
     indexable: true,

@@ -32,7 +32,19 @@ export async function getAllKajabiServices() {
 
 // All case studies
 export async function getAllCaseStudies() {
-  return await fetchFromSanity(`*[_type == "caseStudy"] | order(orderRank asc)`)
+  return await fetchFromSanity(`*[_type == "caseStudy"] | order(orderRank asc) {
+    title,
+    "slug": slug.current,
+    shortSummary,
+    publicStatus,
+    mainImage,
+    "imageAlt": mainImage.alt,
+    clientType,
+    industry,
+    mainChallenge,
+    keyDeliverables,
+    relatedServices
+  }`)
 }
 
 // All FAQs by category
