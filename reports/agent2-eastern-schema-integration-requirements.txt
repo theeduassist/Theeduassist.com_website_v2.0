@@ -1,0 +1,4 @@
+SCHEMA INTEGRATION REQUIREMENTS
+- Location Detail Pages: WebPage, BreadcrumbList, FAQPage (only for visible FAQs).
+- Region/Country Hubs: WebPage, BreadcrumbList, ItemList (where visible lists exist), FAQPage (only for visible FAQs).
+- Do NOT use: fake LocalBusiness, fake addresses, fake AggregateRating, Course schema for agency services.

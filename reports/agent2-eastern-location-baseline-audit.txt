@@ -1,0 +1,6 @@
+BASELINE AUDIT REPORT
+- Identified cities marked "Global"
+- Identified missing regionSlug and countrySlug in several cities
+- Placeholder descriptions found in regions
+- Empty relatedBlogs and relatedCaseStudies
+- Incorrect region assignments for some GCC countries
