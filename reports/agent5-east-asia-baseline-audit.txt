@@ -1,0 +1,5 @@
+East Asia Baseline Audit Report
+============================
+
+- Found 'Hong Kong' in src/data/cities.ts.
+- Found 'Asia Pacific' region covering East Asia in src/data/regionsAndCountries.ts.

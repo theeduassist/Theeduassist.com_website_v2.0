@@ -1,0 +1,3 @@
+page type,name,slug,geographic issue,naming issue,language issue,duplication risk,platform-access risk,factual-validation gap,internal-link gap,existing indexStatus,recommended action,severity,notes
+city,Hong Kong,hong-kong-elearning-development,incorrect geographic assignment,none,none,high,low,high,high,index,move to east asia,high,Currently mapped improperly or mixed.
+region,Asia Pacific,asia-pacific,broad grouping,none,none,high,low,high,high,index,split into specific east asia markets,high,Currently groups all of Asia.

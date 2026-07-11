@@ -1,0 +1,3 @@
+platform,URL,country,access limitation,likely research value,questions,privacy warning,manual review recommendation
+WeChat Groups,N/A,China,app-only/private,high,"What are the biggest complaints about slow video loading?",Do not scrape private chats,Native researcher to join related public groups
+Line Groups,N/A,Japan,private,medium,"How do creators handle subscription payments?",Do not scrape,Review public notes only

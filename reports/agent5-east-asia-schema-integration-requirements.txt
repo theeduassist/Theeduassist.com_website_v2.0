@@ -1,0 +1,3 @@
+Schema Requirements:
+- Country/Territory pages (China, Japan, etc.) require WebPage, BreadcrumbList, and FAQPage schemas.
+- Do NOT add fake LocalBusiness schemas. Ensure no fake reviews or addresses are injected.

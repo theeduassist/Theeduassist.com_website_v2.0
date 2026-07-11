@@ -1,0 +1,20 @@
+[
+  {
+    "country": "China",
+    "platform": "Kajabi",
+    "status": "requires testing",
+    "notes": "Video hosting (Wistia) and underlying CDNs may be blocked or heavily throttled. Clients must test."
+  },
+  {
+    "country": "China",
+    "platform": "YouTube",
+    "status": "not supported by available evidence",
+    "notes": "Blocked in Mainland China."
+  },
+  {
+    "country": "Japan",
+    "platform": "All Major Platforms",
+    "status": "verified",
+    "notes": "No significant platform access issues reported."
+  }
+]
