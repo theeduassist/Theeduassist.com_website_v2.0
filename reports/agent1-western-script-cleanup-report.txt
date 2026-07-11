@@ -1,0 +1,18 @@
+Script Cleanup Report (Western Markets)
+
+The following single-use, temporary generation and rewrite scripts were permanently removed from the repository:
+- `scripts/deep-rewrite.cjs`
+- `scripts/generate-audits.mjs`
+- `scripts/generate-manifest.mjs`
+- `rewrite.cjs`
+- `scripts/audit-western-data.mjs`
+- `scripts/audit-western-data2.mjs`
+- `scripts/audit-western.cjs`
+- `scripts/generate-research-data.mjs`
+- `scripts/generate-western-content.mjs`
+- `scripts/parse-western.cjs`
+
+These scripts were strictly utilized by Agent 1 to inject boilerplate, process the deep rewrite of localized content, and generate initial reports. They are not required for ongoing maintenance.
+
+Retained Scripts:
+- `scripts/validate-western-location-data.mjs` (Maintained for continued CI validation of western location data formats and rules).

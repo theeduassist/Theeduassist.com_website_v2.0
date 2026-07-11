@@ -1,0 +1,9 @@
+location,type,hasCreatorNeeds,hasCorporateNeeds,industryCount
+"North America","region",true,true,4
+"Europe","region",true,true,4
+"United Kingdom and Ireland","region",true,true,4
+"Latin America","region",true,true,4
+"United States","country",true,true,4
+"Canada","country",true,true,4
+"New York","city",true,true,4
+"London","city",true,true,4

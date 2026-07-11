@@ -1,0 +1,9 @@
+location,type,relatedServices,relatedResources,relatedBlogs,relatedCaseStudies
+"North America","region",2,2,1,0
+"Europe","region",2,1,1,0
+"United Kingdom and Ireland","region",1,1,1,0
+"Latin America","region",1,1,0,0
+"United States","country",2,1,2,0
+"Canada","country",1,1,1,0
+"New York","city",2,1,2,0
+"London","city",2,1,2,0
