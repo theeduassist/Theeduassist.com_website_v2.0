@@ -1,0 +1,22 @@
+[
+  {
+    "country": "Poland",
+    "notes": "Use terms like 'szkolenia online' or 'e-learning'. Maintain a professional tone for B2B contexts."
+  },
+  {
+    "country": "Austria",
+    "notes": "Use 'digitales Lernen' or 'Weiterbildung'. Ensure distinction from generic German content where applicable."
+  },
+  {
+    "country": "Portugal",
+    "notes": "Use 'formação online' or 'aprendizagem digital'. Ensure Continental Portuguese is used, not Brazilian."
+  },
+  {
+    "country": "Czechia",
+    "notes": "Use 'firemní vzdělávání' for corporate contexts and 'online vzdělávání'."
+  },
+  {
+    "country": "Romania",
+    "notes": "Use 'formare online' and 'instruirea angajaților'."
+  }
+]

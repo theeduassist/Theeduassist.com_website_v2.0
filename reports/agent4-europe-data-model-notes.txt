@@ -1,0 +1,1 @@
+Data Model verified against europe-expansion-types.ts. No 'global' regions detected. Correct usage of indexStatus strictly maintained.

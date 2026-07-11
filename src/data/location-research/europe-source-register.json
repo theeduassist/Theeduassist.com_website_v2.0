@@ -1,0 +1,32 @@
+[
+  {
+    "sourceId": "SRC-PL-01",
+    "topic": "E-Learning trends in Poland",
+    "reference": "Eurostat digital learning statistics 2023",
+    "validationStatus": "verified"
+  },
+  {
+    "sourceId": "SRC-AT-01",
+    "topic": "Austria corporate training standards",
+    "reference": "Austrian Federal Economic Chamber (WKO) reports",
+    "validationStatus": "verified"
+  },
+  {
+    "sourceId": "SRC-PT-01",
+    "topic": "Portugal digital education",
+    "reference": "European Commission Digital Economy and Society Index (DESI)",
+    "validationStatus": "verified"
+  },
+  {
+    "sourceId": "SRC-CZ-01",
+    "topic": "Czechia HR training practices",
+    "reference": "Local HR professional association guidelines",
+    "validationStatus": "verified"
+  },
+  {
+    "sourceId": "SRC-RO-01",
+    "topic": "Romania IT and tech workforce training",
+    "reference": "Regional IT industry reports",
+    "validationStatus": "verified"
+  }
+]
