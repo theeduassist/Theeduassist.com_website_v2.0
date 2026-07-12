@@ -1,48 +1,43 @@
 ---
 import Layout from "../layouts/Layout.astro";
+
+// Import new components
 import KajabiHero from "../components/kajabi/KajabiHero.astro";
-import KajabiProblemSection from "../components/kajabi/KajabiProblemSection.astro";
-import KajabiLifecycle from "../components/kajabi/KajabiLifecycle.astro";
-import KajabiServicesGrid from "../components/kajabi/KajabiServicesGrid.astro";
-import KajabiEcosystemMap from "../components/kajabi/KajabiEcosystemMap.astro";
-import KajabiAudienceSection from "../components/kajabi/KajabiAudienceSection.astro";
-import KajabiMigrationSection from "../components/kajabi/KajabiMigrationSection.astro";
-import KajabiFunnelsAutomation from "../components/kajabi/KajabiFunnelsAutomation.astro";
-import KajabiStudentExperience from "../components/kajabi/KajabiStudentExperience.astro";
-import KajabiComparison from "../components/kajabi/KajabiComparison.astro";
-import StartingPoint from "../components/sections/StartingPoint.astro";
+import KajabiAudience from "../components/kajabi/KajabiAudience.astro";
+import KajabiSystemOverview from "../components/kajabi/KajabiSystemOverview.astro";
+import KajabiCourseArchitecture from "../components/kajabi/KajabiCourseArchitecture.astro";
+import KajabiWebsitePages from "../components/kajabi/KajabiWebsitePages.astro";
+import KajabiProductsOffers from "../components/kajabi/KajabiProductsOffers.astro";
+import KajabiCheckout from "../components/kajabi/KajabiCheckout.astro";
+import KajabiFunnelsEmail from "../components/kajabi/KajabiFunnelsEmail.astro";
+import KajabiAutomations from "../components/kajabi/KajabiAutomations.astro";
+import KajabiCustomerJourney from "../components/kajabi/KajabiCustomerJourney.astro";
+import KajabiMigration from "../components/kajabi/KajabiMigration.astro";
+import KajabiQualityAssurance from "../components/kajabi/KajabiQualityAssurance.astro";
+import KajabiSupportOptions from "../components/kajabi/KajabiSupportOptions.astro";
+import KajabiProof from "../components/kajabi/KajabiProof.astro";
 import KajabiFAQ from "../components/kajabi/KajabiFAQ.astro";
 import KajabiFinalCTA from "../components/kajabi/KajabiFinalCTA.astro";
-import CaseStudyProof from "../components/case-studies/CaseStudyProof.astro";
-import AIAnswerBlock from "../components/ai/AIAnswerBlock.astro";
-import { getAllKajabiServices } from '../sanity/queries';
-
-const kajabiServices = await getAllKajabiServices();
 
 import { serviceSchema, faqPageSchema, breadcrumbSchema } from '../lib/seo/schema';
 
-// Hardcoded faqs array to reuse the existing schema mapping logic without needing complex fetcher
+// Visible FAQs mapping to Schema
 const faqs = [
-  { question: "What is Kajabi course setup?", answer: "Kajabi course setup means organizing course content, landing pages, offers, checkout flow, emails, automations, and student access into one launch-ready learning business system." },
-  { question: "Is Kajabi good for coaches?", answer: "Yes. Kajabi is excellent for coaches because it natively connects coaching products, scheduling tools, digital courses, community features, and email marketing all in one place, avoiding duct-taped software." },
-  { question: "Can Kajabi host courses and funnels together?", answer: "Yes. That is Kajabi's core strength. You can host the actual video course while simultaneously building the opt-in pages, sales pages, checkout flow, and automated email funnels to sell it." },
-  { question: "Can I migrate from WordPress or Google Drive to Kajabi?", answer: "Yes. We regularly migrate content from fragmented setups like WordPress (LearnDash/Tutor LMS), Google Drive, or Teachable into a single, cohesive Kajabi environment." },
-  { question: "How long does a Kajabi course build take?", answer: "It depends heavily on whether your content is ready. A simple migration might take 2-4 weeks, while a full from-scratch build with funnels, copy, and complex automations can take 6-12 weeks." },
-  { question: "What should I prepare before a Kajabi setup?", answer: "You should prepare your course outline, video or PDF files, brand assets (logos, colors), and a clear understanding of your pricing and target audience." },
-  { question: "Do you only build Kajabi websites?", answer: "No. We can build Kajabi websites, course products, landing pages, funnels, offers, email automations, migrations, and student onboarding systems." },
-  { question: "Can you improve my existing Kajabi setup?", answer: "Yes. We can review your current Kajabi pages, products, offers, emails, automations, and student experience, then recommend and implement improvements." }
-];
-
-const aiAnswers = [
-  { q: "What is Kajabi course setup?", a: "Kajabi course setup means organizing course content, landing pages, offers, checkout flow, emails, automations, and student access into one launch-ready learning business system." },
-  { q: "Can TheEduAssist upload course content to Kajabi?", a: "Yes. TheEduAssist can organize and upload PDFs, videos, slides, scripts, and documents into clean, learner-friendly Kajabi modules and lessons." },
-  { q: "Can TheEduAssist set up offers, checkout, and email automation?", a: "Yes. The agency connects opt-in pages, forms, email sequences, sales pages, checkout offers, and automations to create a seamless launch funnel." }
+  { question: "What can TheEduAssist build in Kajabi?", answer: "TheEduAssist can support course structure, Course setup, website and landing pages, Products, Offers, checkout, email journeys, Automations, migration, testing and ongoing improvement. The exact scope depends on the client’s goals and Kajabi plan." },
+  { question: "Can you improve an existing Kajabi website?", answer: "Yes. Existing pages, navigation, mobile layouts, branding, lead journeys and customer access can be reviewed and improved. Legacy templates may require a controlled rebuild rather than an automatic transfer." },
+  { question: "Can you migrate an existing course to Kajabi?", answer: "Yes. TheEduAssist can audit the source material, map the curriculum, prepare content, rebuild the course and test access. Available migration options depend on the source platform and its export capabilities." },
+  { question: "Do you help organize course content?", answer: "Yes. Course architecture and instructional design are central parts of the service. Existing books, videos, documents and training materials can be organized into modules, lessons, activities and learner resources." },
+  { question: "Can you configure Products, Offers and checkout?", answer: "Yes. Support can include Product setup, Offer configuration, pricing, checkout design, customer access, coupons and post-purchase destinations. Feature availability can depend on the Kajabi account and payment setup." },
+  { question: "Can you create email campaigns and Automations?", answer: "Yes. TheEduAssist can map and configure lead, purchase, onboarding and learner communication flows using the tools available in the client’s Kajabi plan." },
+  { question: "Can you improve the customer Library experience?", answer: "Yes. Support can include Library organization, Product naming, thumbnails, navigation, login guidance and testing of the customer-access journey." },
+  { question: "Do you provide ongoing Kajabi support?", answer: "Yes. Ongoing support may include page updates, Course changes, new Offers, email adjustments, Automation testing, QA and launch support." },
+  { question: "What happens during the Kajabi Review?", answer: "TheEduAssist reviews the submitted information about the client’s current or planned Kajabi setup and recommends the clearest next step. It is not a promise that the complete project will be delivered within 24–48 hours." }
 ];
 
 const jsonLd = [
   serviceSchema(
     "Kajabi Services",
-    "TheEduAssist builds Kajabi websites, landing pages, course products, funnels, offers, email automations, templates, migrations, and launch-ready Kajabi learning systems for creators, coaches, educators, and training businesses.",
+    "TheEduAssist helps creators, coaches, educators and training businesses plan, build, migrate and improve Kajabi courses, websites, Products, Offers, checkout experiences, emails and Automations.",
     "/kajabi-services/"
   ),
   faqPageSchema(faqs),
@@ -53,52 +48,26 @@ const jsonLd = [
 ];
 ---
 <Layout
-  title="Kajabi Services | Kajabi Websites, Courses, Funnels & Automations"
-  description="TheEduAssist builds Kajabi websites, landing pages, course products, funnels, offers, email automations, templates, migrations, and launch-ready Kajabi learning systems for creators, coaches, educators, and training businesses."
+  title="Kajabi Services | Course, Website, Offer and Automation Support"
+  description="TheEduAssist helps creators, coaches, educators and training businesses plan, build, migrate and improve Kajabi courses, websites, Products, Offers, checkout experiences, emails and Automations."
   canonicalPath="/kajabi-services/"
   jsonLd={jsonLd}
 >
 
   <KajabiHero />
-  <KajabiProblemSection />
-  <KajabiLifecycle />
-  <KajabiServicesGrid services={kajabiServices} />
-  <KajabiEcosystemMap />
-  <KajabiAudienceSection />
-  <KajabiMigrationSection />
-  <KajabiFunnelsAutomation />
-  <KajabiStudentExperience />
-  <KajabiComparison />
-  <CaseStudyProof slugs={['business-analytics-corporate-training', 'language-courses-book-publisher']} />
-
-  <section class="py-16 bg-white border-y border-brand-border/30">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-bold text-center text-brand-navy mb-8">Sample Kajabi Setup Checklist</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-brand-textMain">
-        <div class="bg-brand-softBg p-6 rounded-xl border border-brand-border/50">
-          <h3 class="font-bold text-brand-primary mb-4 text-xl border-b border-brand-border pb-2">Phase 1: Foundation</h3>
-          <ul class="space-y-3">
-            <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Outline course curriculum modules and lessons.</li>
-            <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Set up Kajabi domain and brand settings.</li>
-            <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Upload video, audio, and PDF lesson files.</li>
-            <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Configure product structure and drip settings.</li>
-          </ul>
-        </div>
-        <div class="bg-brand-softBg p-6 rounded-xl border border-brand-border/50">
-          <h3 class="font-bold text-brand-primary mb-4 text-xl border-b border-brand-border pb-2">Phase 2: Launch</h3>
-          <ul class="space-y-3">
-            <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Design Kajabi sales page and opt-in funnel.</li>
-            <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Connect checkout offers and payment gateways (Stripe/PayPal).</li>
-            <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Write and automate welcome email sequence.</li>
-            <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Test end-to-end student purchase experience.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <StartingPoint />
-  <AIAnswerBlock questions={aiAnswers} />
+  <KajabiAudience />
+  <KajabiSystemOverview />
+  <KajabiCourseArchitecture />
+  <KajabiWebsitePages />
+  <KajabiProductsOffers />
+  <KajabiCheckout />
+  <KajabiFunnelsEmail />
+  <KajabiAutomations />
+  <KajabiCustomerJourney />
+  <KajabiMigration />
+  <KajabiQualityAssurance />
+  <KajabiSupportOptions />
+  <KajabiProof />
   <KajabiFAQ />
   <KajabiFinalCTA />
 
