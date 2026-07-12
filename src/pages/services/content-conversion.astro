@@ -1,71 +1,176 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import ContentConversionHero from "../../components/content-conversion/ContentConversionHero.astro";
-import ContentProblemSection from "../../components/content-conversion/ContentProblemSection.astro";
-import ContentAudienceSection from "../../components/content-conversion/ContentAudienceSection.astro";
-import ContentInputsSection from "../../components/content-conversion/ContentInputsSection.astro";
-import ContentOutputsSection from "../../components/content-conversion/ContentOutputsSection.astro";
-import ContentConversionLifecycle from "../../components/content-conversion/ContentConversionLifecycle.astro";
-import FormatConversionSection from "../../components/content-conversion/FormatConversionSection.astro";
-import AIConversionSupport from "../../components/content-conversion/AIConversionSupport.astro";
-import PlatformReadyContent from "../../components/content-conversion/PlatformReadyContent.astro";
-import ContentQualitySection from "../../components/content-conversion/ContentQualitySection.astro";
-import ContentPackages from "../../components/content-conversion/ContentPackages.astro";
-import ContentComparison from "../../components/content-conversion/ContentComparison.astro";
-import ContentFAQ from "../../components/content-conversion/ContentFAQ.astro";
-import ContentFinalCTA from "../../components/content-conversion/ContentFinalCTA.astro";
-import CaseStudyProof from "../../components/case-studies/CaseStudyProof.astro";
 
-import { professionalServiceSchema, breadcrumbSchema } from '../../lib/seo/schema';
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceInputs from "../../components/service-page/ServiceInputs.astro";
+import ServiceProblems from "../../components/service-page/ServiceProblems.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceLimitations from "../../components/service-page/ServiceLimitations.astro";
+import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+
+import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
+
+const title = "Content Conversion and Modernization | TheEduAssist";
+const description = "TheEduAssist helps organizations turn useful existing materials into structured digital learning. We organize, redesign, and rebuild documents, videos, and legacy files into platform-ready courses.";
+
+const conversionFaqs = [
+  { question: "Can you convert books into online courses?", answer: "Yes, we adapt printed educational content by mapping chapters to modules, segmenting lessons, designing activities, creating assessments, and structuring it for a learning platform." },
+  { question: "Can you use our PowerPoint presentations?", answer: "Yes, we review existing presentations, extract the core learning points, and redesign them into interactive modules, videos, or structured online lessons." },
+  { question: "Can you modernize an old eLearning course?", answer: "Yes, we can take legacy eLearning (like older SCORM files or Flash-based content) and rebuild it into a responsive, accessible, and modern digital format." },
+  { question: "Do you rewrite or only reformat content?", answer: "We can do both. If you only need organization, we inventory and structure it. If you need instructional redesign, we add learning outcomes, rewrite for clarity, and add activities." },
+  { question: "Can you add quizzes and activities?", answer: "Yes, as part of the redesign process, we write and build new assessments, quizzes, and learning activities based on your source material." },
+  { question: "Can converted content be used in an LMS?", answer: "Yes, the final deliverables can be platform-ready content or LMS-ready packages (like SCORM), depending on your requirements." },
+  { question: "What source files do you need?", answer: "We can work with books, manuals, PDFs, Word documents, PowerPoint slides, recorded webinars, video files, audio content, and existing LMS exports." },
+  { question: "How do you handle copyright and permissions?", answer: "Permissions and copyright remain the client's responsibility. We assume you have the legal right to adapt and use the source materials you provide to us. We also verify third-party media rights when adding new assets." },
+  { question: "Can the content be updated later?", answer: "Yes, we structure content to be maintainable. We provide source files and version-control guidance so you can make updates, or you can use our ongoing support service." }
+];
 
 const jsonLd = [
   professionalServiceSchema(),
   breadcrumbSchema([
-    { name: "Home", urlPath: "/" },
-    { name: "Services", urlPath: "/services/" },
-    { name: "Content Conversion Services", urlPath: "/services/content-conversion/" }
-  ])
+    { name: "Home", item: "/" },
+    { name: "Services", item: "/services/" },
+    { name: "Content Conversion and Modernization", item: "/services/content-conversion/" }
+  ]),
+  faqPageSchema(conversionFaqs.map(f => ({ questionName: f.question, acceptedAnswerText: f.answer })))
 ];
 ---
+
 <Layout
-  title="Content Conversion Services | Turn PDFs, Slides & Videos Into Online Courses"
-  description="TheEduAssist helps creators, educators, training companies, academies, and businesses convert PDFs, slides, videos, manuals, SOPs, notes, and training files into online course lessons, worksheets, quizzes, scripts, summaries, and platform-ready learning assets."
-  canonicalPath="/services/content-conversion/"
-  jsonLd={jsonLd}
+  title={title}
+  description={description}
+  canonical="/services/content-conversion/"
+  schema={jsonLd}
 >
+  <main id="main-content">
+    <ServiceHero
+      eyebrow="Content Conversion and Modernization"
+      title="Turn Existing Content into Structured Digital Learning"
+      description="TheEduAssist helps convert books, PDFs, presentations, videos, audio, classroom materials and legacy courses into organized, maintainable and platform-ready learning experiences."
+      primaryCtaLabel="Review Your Existing Content"
+      primaryCtaLink="/book-free-audit/"
+      secondaryCtaLabel="Discuss Your Conversion Project"
+      secondaryCtaLink="/contact/"
+    />
 
-  <ContentConversionHero />
-  <ContentProblemSection />
-  <ContentAudienceSection />
-  <ContentInputsSection />
-  <ContentOutputsSection />
-  <ContentConversionLifecycle />
-  <FormatConversionSection />
-  <AIConversionSupport />
-  <PlatformReadyContent />
-  <ContentQualitySection />
-  <ContentPackages />
-  <ContentComparison />
-  <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
-  <ContentFAQ />
-  <ContentFinalCTA />
+    <ServiceShortAnswer
+      heading="What Is Learning Content Conversion?"
+      answer="Learning content conversion reviews, restructures and redesigns existing materials so they can function as a clear digital learning experience rather than simply reproducing the source format online."
+    />
 
-  <script>
-    import { openStartServiceChat } from "../../utils/tawkSales";
-    document.addEventListener("DOMContentLoaded", () => {
-      const btns = document.querySelectorAll(".tawk-service-btn");
-      btns.forEach(btn => {
-        btn.addEventListener("click", (e) => {
-          e.preventDefault();
-          const target = e.currentTarget as HTMLButtonElement;
-          openStartServiceChat({
-            serviceSlug: target.dataset.serviceSlug || "",
-            pageUrl: window.location.href,
-            pageTitle: document.title,
-          });
-        });
-      });
-    });
-  </script>
+    <ServiceInputs
+      title="Source Materials We Convert"
+      description="We transform a wide variety of existing formats into modern learning assets."
+      inputs={[
+        "Books and manuals",
+        "PDFs and documents",
+        "Presentations (PowerPoint, Keynote)",
+        "Classroom training materials",
+        "Facilitator guides",
+        "Recorded webinars",
+        "Video libraries",
+        "Audio content",
+        "Workbooks",
+        "Legacy eLearning (e.g., outdated SCORM)",
+        "Existing LMS courses"
+      ]}
+    />
 
+    <ServiceProblems
+      problems={[
+        { problem: "Content is valuable but difficult to navigate.", solution: "We structure the content into clear, logical modules." },
+        { problem: "Excessive reading.", solution: "We redesign text-heavy content with media and interactions." },
+        { problem: "Repeated or outdated material.", solution: "We perform a duplication and gap analysis to clean the curriculum." },
+        { problem: "No module structure.", solution: "We create a proper curriculum map and lesson sequence." },
+        { problem: "No learning outcomes.", solution: "We define clear objectives before redesigning." },
+        { problem: "Missing activities.", solution: "We design and build assessments and practice exercises." },
+        { problem: "Inaccessible or unresponsive legacy content.", solution: "We rebuild using modern, accessible, mobile-friendly formats." },
+        { problem: "Difficult maintenance.", solution: "We deliver structured files and provide maintenance guidance." },
+        { problem: "Content spread across systems.", solution: "We centralize and package the learning for a single platform." },
+        { problem: "Inconsistent formatting.", solution: "We apply unified branding and instructional design standards." }
+      ]}
+    />
+
+    <section class="py-16 bg-white border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <h2 class="text-3xl font-bold text-brand-navy mb-4">Modernization Levels</h2>
+          <p class="text-lg text-slate-600">Depending on the quality of your source material, we can organize, redesign, or completely rebuild.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-slate-50 border border-slate-200 p-8 rounded-xl shadow-sm">
+                <h3 class="text-xl font-bold text-brand-navy mb-3">1. Organize</h3>
+                <p class="text-slate-700">Inventory, clean, categorize and restructure existing material into a logical curriculum without changing the core content itself.</p>
+            </div>
+            <div class="bg-slate-50 border border-slate-200 p-8 rounded-xl shadow-sm">
+                <h3 class="text-xl font-bold text-brand-navy mb-3">2. Redesign</h3>
+                <p class="text-slate-700">Add learning outcomes, lesson structures, interactive activities, assessments, and learner guidance to the existing material.</p>
+            </div>
+            <div class="bg-slate-50 border border-slate-200 p-8 rounded-xl shadow-sm">
+                <h3 class="text-xl font-bold text-brand-navy mb-3">3. Rebuild</h3>
+                <p class="text-slate-700">Create entirely new digital modules, media, interactive content, or platform-ready courses inspired by the revised structure.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <ServiceProcess
+      steps={[
+        { title: "Inventory & Review", description: "Content inventory, source-content review, duplication and gap analysis." },
+        { title: "Structure & Design", description: "Learning structure design, content prioritization, and instructional redesign." },
+        { title: "Develop & Build", description: "Asset and format planning, development, and platform setup." },
+        { title: "Review & Deliver", description: "Quality review, final handover, and maintenance guidance." }
+      ]}
+    />
+
+    <ServiceDeliverables
+      title="Common Deliverables"
+      description="What you can expect at the end of a conversion project."
+      items={[
+        "Content inventory & map",
+        "Gap analysis",
+        "Curriculum structure",
+        "Revised lessons & scripts",
+        "Storyboards",
+        "Assessments & activities",
+        "Multimedia plan",
+        "Platform-ready content",
+        "LMS-ready packages (where applicable)",
+        "Source & version-control guidance",
+        "Maintenance recommendations"
+      ]}
+    />
+
+    <section class="py-16 bg-brand-navy text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold mb-6">Book and Publisher Content</h2>
+        <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+            Printed educational content requires careful adaptation for digital formats. We adapt books by mapping chapters to digital modules, segmenting lessons for screen reading, designing online activities, creating digital assessments, planning multimedia enhancements, and structuring the final product for LMS delivery.
+        </p>
+      </div>
+    </section>
+
+    <ServiceLimitations
+      limitations={[
+        "Source quality directly affects the final result",
+        "Permissions and copyright remain the client's responsibility",
+        "Inaccessible source files may require manual recreation",
+        "Conversion does not automatically improve learning without redesign",
+        "Exact output formats depend on the target platform",
+        "Third-party media rights must be verified"
+      ]}
+    />
+
+    <ServiceRelatedCaseStudies
+      slugs={['language-courses-book-publisher', 'sqa-aligned-vocational-training', 'business-analytics-corporate-training']}
+    />
+
+    <ServiceFAQ faqs={conversionFaqs} />
+
+    <ServiceFinalCTA />
+  </main>
 </Layout>

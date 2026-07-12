@@ -1,149 +1,166 @@
 ---
+import Layout from "../../layouts/Layout.astro";
+
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceInputs from "../../components/service-page/ServiceInputs.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceLimitations from "../../components/service-page/ServiceLimitations.astro";
+import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceRelatedContent from "../../components/service-page/ServiceRelatedContent.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+
+import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
+
+const title = "AI-Supported E-Learning Services | TheEduAssist";
+const description = "TheEduAssist helps teams use AI carefully for content organization, research support, drafting, and production assistance while maintaining human review and instructional quality.";
+
+const aiFaqs = [
+  { question: "Do you create complete courses automatically with AI?", answer: "No. We use AI to assist with outlining, drafting, and organizing, but human instructional designers and subject-matter experts always review, refine, and approve the final content." },
+  { question: "How do you check AI-generated content?", answer: "All AI-assisted content goes through human review for factual accuracy, learning alignment, tone, bias, accessibility, copyright compliance, and cultural suitability." },
+  { question: "Can AI use our existing documents?", answer: "Yes. AI can help summarize and extract learning points from your approved source materials (like manuals, PDFs, and transcripts)." },
+  { question: "How do you handle confidential information?", answer: "We follow strict privacy requirements and AI policies. Confidential data is never entered into public or unapproved AI systems that train on user inputs." },
+  { question: "Can AI help with assessments?", answer: "Yes, AI can generate initial drafts of quiz questions or scenario variations based on approved source content, which are then reviewed and corrected by humans." },
+  { question: "Can AI support translation or localization?", answer: "AI can assist translation workflows, but we ensure human review is in place for accuracy, especially for nuanced or sensitive learning material." },
+  { question: "Which AI tools do you use?", answer: "Tool selection depends on the specific project, use case, and data privacy requirements of the client." },
+  { question: "Can AI replace an instructional designer?", answer: "No. AI is a tool that supports the process. Instructional designers are required to structure the learning experience, ensure alignment with goals, and maintain quality." },
+  { question: "Do you guarantee productivity improvements?", answer: "While AI can accelerate certain tasks like summarizing or initial drafting, we do not guarantee exact productivity improvements, as quality and human review remain the primary focus." }
+];
 
 const jsonLd = [
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "AI-Powered E-Learning Support",
-    "description": "TheEduAssist uses AI-assisted, human-reviewed workflows to help creators, educators, academies, and training teams turn raw ideas, PDFs, videos, slides, and notes into course plans, lesson scripts, worksheets, quizzes, summaries, launch content, and platform-ready learning assets.",
-    "provider": {
-      "@type": "Organization",
-      "name": "TheEduAssist"
-    }
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://www.theeduassist.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Services",
-        "item": "https://www.theeduassist.com/services/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "AI-Powered E-Learning Support",
-        "item": "https://www.theeduassist.com/services/ai-powered-elearning/"
-      }
-    ]
-  }
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: "Home", item: "/" },
+    { name: "Services", item: "/services/" },
+    { name: "AI-Supported E-Learning", item: "/services/ai-powered-elearning/" }
+  ]),
+  faqPageSchema(aiFaqs.map(f => ({ questionName: f.question, acceptedAnswerText: f.answer })))
 ];
-
-import { faqPageSchema } from '../../lib/seo/schema';
-
-const aiElearningFaqs = [
-  { question: "How can AI help course creation?", answer: "AI can accelerate course creation by drafting module outlines, generating ideas for assessments, and summarizing lengthy PDFs or videos into digestible microlearning units." },
-  { question: "Can AI generate quizzes and assessments?", answer: "Yes. Given a transcript or lesson document, AI can rapidly generate multiple-choice, true/false, and short-answer quiz questions. Human review is required to verify accuracy." },
-  { question: "Can AI translate training content?", answer: "Yes. AI translation tools can accurately translate course scripts and generate localized subtitles for global workforces." },
-  { question: "What should humans still review?", answer: "Humans must review all AI-generated content for factual accuracy, brand tone, cultural nuance, absence of bias, and overall learner experience." },
-  { question: "What are the risks of AI-generated learning content?", answer: "The main risks are 'hallucinations' (factually incorrect statements), generic or boring tone, and the inclusion of biased or copyrighted material." },
-  { question: "Can I just use ChatGPT myself?", answer: "Yes, and many clients do. But AI tools usually produce drafts and ideas. TheEduAssist helps turn those ideas into structured, reviewed, platform-ready learning assets and course systems." },
-  { question: "Do you store or train AI on my content?", answer: "We do not use client content to train our own AI models. We can discuss privacy needs during the audit and choose a workflow that fits your content sensitivity." }
-];
-
-jsonLd.push(faqPageSchema(aiElearningFaqs));
-
-import Layout from "../../layouts/Layout.astro";
-import AIElearningHero from "../../components/ai-elearning/AIElearningHero.astro";
-import WhyNotDIYAI from "../../components/ai-elearning/WhyNotDIYAI.astro";
-import AIServiceBuckets from "../../components/ai-elearning/AIServiceBuckets.astro";
-import AICaseExample from "../../components/ai-elearning/AICaseExample.astro";
-import AIPricingPackages from "../../components/ai-elearning/AIPricingPackages.astro";
-import AIPackageChooser from "../../components/ai-elearning/AIPackageChooser.astro";
-import AIWorkflow from "../../components/ai-elearning/AIWorkflow.astro";
-import ResponsibleAISection from "../../components/ai-elearning/ResponsibleAISection.astro";
-import AIAudienceSection from "../../components/ai-elearning/AIAudienceSection.astro";
-import AIDeliverablesGrid from "../../components/ai-elearning/AIDeliverablesGrid.astro";
-import AIComparison from "../../components/ai-elearning/AIComparison.astro";
-import AIFAQ from "../../components/ai-elearning/AIFAQ.astro";
-import AIFinalCTA from "../../components/ai-elearning/AIFinalCTA.astro";
-import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
-
-const aiAnswers = [
-  { q: "How can AI support e-learning development?", a: "AI can support e-learning by helping structure content, create assessments, summarize material, translate learning assets, support personalization, and maintain learning resources. Human review is still needed for accuracy, ethics, and learner experience." },
-  { q: "Can AI help convert raw content into course outlines?", a: "Yes. We use AI to help process large amounts of raw text (like PDFs or transcripts) and propose initial modular structures, saving time before the human review phase." },
-  { q: "Does human review remain part of the process?", a: "Absolutely. Human review is mandatory in our workflow to ensure the course doesn't feel generic, tone is correct, and learning objectives are actually met." }
-];
-
 ---
 
-<Layout jsonLd={jsonLd}
-  title="AI-Powered E-Learning Support | Course Planning, Content Conversion & Launch Assets"
-  description="TheEduAssist uses AI-assisted, human-reviewed workflows to help creators, educators, academies, and training teams turn raw ideas, PDFs, videos, slides, and notes into course plans, lesson scripts, worksheets, quizzes, summaries, launch content, and platform-ready learning assets."
+<Layout
+  title={title}
+  description={description}
+  canonical="/services/ai-powered-elearning/"
+  schema={jsonLd}
 >
+  <main id="main-content">
+    <ServiceHero
+      eyebrow="AI-Supported E-Learning"
+      title="Use AI to Support Learning Design Without Removing Human Review"
+      description="TheEduAssist helps teams use AI carefully for content organization, research support, drafting, knowledge workflows, personalization planning and production assistance while maintaining human review, instructional quality and responsible-use controls."
+      primaryCtaLabel="Discuss an AI-Supported Learning Project"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Get a 24–48 Hour Review"
+      secondaryCtaLink="/book-free-audit/"
+    />
 
-  <AIElearningHero />
-  <WhyNotDIYAI />
-  <AIServiceBuckets />
-  <AICaseExample />
-  <AIPricingPackages />
-  <AIPackageChooser />
-  <AIWorkflow />
-  <ResponsibleAISection />
-  <AIAudienceSection />
-  <AIDeliverablesGrid />
-  <AIComparison />
+    <ServiceShortAnswer
+      heading="How Can AI Support E-Learning?"
+      answer="AI can assist with organizing information, producing early drafts, summarizing approved source material, creating content variations and supporting production workflows. Human review is still required for accuracy, instructional quality, bias, privacy and suitability."
+    />
 
-  <section class="py-16 bg-white border-y border-brand-border/30">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-bold text-center text-brand-navy mb-8">Common Course Build Mistakes</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-brand-textMain">
-        <ul class="space-y-4">
-          <li class="flex items-start">
-            <span class="text-red-500 mr-3 font-bold text-xl">❌</span>
-            <span><strong>Skipping the Outline:</strong> Using AI to write full lessons before establishing the core curriculum map.</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-red-500 mr-3 font-bold text-xl">❌</span>
-            <span><strong>No Human Review:</strong> Publishing AI-generated quiz questions that test irrelevant or hallucinated details.</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-red-500 mr-3 font-bold text-xl">❌</span>
-            <span><strong>Too Much Content:</strong> Having AI summarize a 500-page manual into another 50-page document instead of microlearning videos.</span>
-          </li>
-        </ul>
-        <ul class="space-y-4">
-          <li class="flex items-start">
-            <span class="text-red-500 mr-3 font-bold text-xl">❌</span>
-            <span><strong>Generic Tone:</strong> Letting AI write the course in a robotic voice, stripping away the creator's unique personality.</span>
-          </li>
-          <li class="flex items-start">
-            <span class="text-red-500 mr-3 font-bold text-xl">❌</span>
-            <span><strong>Ignoring Privacy:</strong> Uploading confidential, proprietary business data into public LLMs.</span>
-          </li>
-        </ul>
+    <ServiceDeliverables
+      title="AI Use Cases"
+      description="Carefully qualified areas where AI can support the learning workflow:"
+      items={[
+        "Content inventory support",
+        "Source summarization",
+        "Outline development",
+        "Drafting learning objectives",
+        "Question drafting",
+        "Scenario variation",
+        "Content tagging & metadata support",
+        "Translation workflow assistance",
+        "Knowledge-base organization",
+        "Personalization planning (where supported)",
+        "Content maintenance",
+        "Production support",
+        "Learner-support concepts"
+      ]}
+    />
+
+    <ServiceProcess
+      title="Responsible Workflow"
+      description="How we integrate AI safely into learning design."
+      steps={[
+        { title: "Define & Protect", description: "Define the approved use case, identify permitted source content, and review privacy and intellectual-property risks." },
+        { title: "Select & Generate", description: "Select the appropriate AI tool or workflow and generate controlled drafts or outputs." },
+        { title: "Review & Correct", description: "Review through subject-matter and instructional experts. Check for accuracy, bias, and consistency." },
+        { title: "Approve & Publish", description: "Final human approval before publishing. Monitor and update continuously." }
+      ]}
+    />
+
+    <section class="py-16 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-2xl font-bold text-brand-navy mb-4">Human Review Responsibilities</h3>
+                <p class="text-slate-700 leading-relaxed mb-6">
+                    AI generation is never the final step. Our human experts are responsible for reviewing:
+                </p>
+                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-slate-700">
+                    <li class="flex items-start"><span class="text-brand-accent mr-2">•</span> Factual accuracy & Hallucinations</li>
+                    <li class="flex items-start"><span class="text-brand-accent mr-2">•</span> Learning alignment</li>
+                    <li class="flex items-start"><span class="text-brand-accent mr-2">•</span> Tone & Brand consistency</li>
+                    <li class="flex items-start"><span class="text-brand-accent mr-2">•</span> Bias & Cultural suitability</li>
+                    <li class="flex items-start"><span class="text-brand-accent mr-2">•</span> Accessibility</li>
+                    <li class="flex items-start"><span class="text-brand-accent mr-2">•</span> Copyright & Source verification</li>
+                    <li class="flex items-start"><span class="text-brand-accent mr-2">•</span> Privacy & Sensitive topics</li>
+                </ul>
+            </div>
+            <div>
+                 <ServiceInputs
+                  title="Client Inputs for AI Workflows"
+                  description="To ensure safe and aligned outputs, we require specific inputs from you."
+                  inputs={[
+                    "Approved source materials",
+                    "Company AI policies",
+                    "Privacy requirements & prohibited data",
+                    "Brand guidelines",
+                    "Review responsibilities",
+                    "Publishing approval process",
+                    "Platform requirements"
+                  ]}
+                />
+            </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <AIAnswerBlock questions={aiAnswers} />
-  <AIFAQ />
-  <AIFinalCTA />
+    <ServiceLimitations
+      limitations={[
+        "AI-generated outputs can be inaccurate and require correction",
+        "Confidential data should not be entered into unapproved systems",
+        "Copyright and licensing require human review",
+        "AI tool behavior may change over time",
+        "Human approval remains necessary before any launch",
+        "AI does not replace subject-matter expertise",
+        "AI does not guarantee faster or better learning outcomes",
+        "Regulated or sensitive content needs additional controls"
+      ]}
+    />
 
-  <script>
-    import { openStartServiceChat } from "../../utils/tawkSales";
-    document.addEventListener("DOMContentLoaded", () => {
-      const btns = document.querySelectorAll(".tawk-service-btn");
-      btns.forEach(btn => {
-        btn.addEventListener("click", (e) => {
-          e.preventDefault();
-          const target = e.currentTarget as HTMLButtonElement;
-          openStartServiceChat({
-            serviceSlug: target.dataset.serviceSlug || "",
-            pageUrl: window.location.href,
-            pageTitle: document.title,
-          });
-        });
-      });
-    });
-  </script>
+    <section class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-2xl font-bold text-brand-navy mb-6">Related Services</h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="/services/learning-strategy/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Learning Strategy</a>
+                <a href="/services/instructional-design/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Instructional Design</a>
+                <a href="/services/course-development/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Course Development</a>
+                <a href="/services/custom-elearning-development/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Custom eLearning</a>
+                <a href="/services/content-conversion/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Content Conversion</a>
+            </div>
+        </div>
+    </section>
 
+    <!-- Use case study only if AI involvement verified, else methodology block (using standard block for now) -->
+    <!-- Case study omitted as per instructions unless verified -->
+
+    <ServiceFAQ faqs={aiFaqs} />
+
+    <ServiceFinalCTA />
+  </main>
 </Layout>

@@ -1,72 +1,134 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import SupportHero from "../../components/support/SupportHero.astro";
-import SupportProblemSection from "../../components/support/SupportProblemSection.astro";
-import SupportAudienceSection from "../../components/support/SupportAudienceSection.astro";
-import SupportCapabilities from "../../components/support/SupportCapabilities.astro";
-import SupportLifecycle from "../../components/support/SupportLifecycle.astro";
-import KajabiSupportSection from "../../components/support/KajabiSupportSection.astro";
-import LMSSupportSection from "../../components/support/LMSSupportSection.astro";
-import FunnelAutomationMaintenance from "../../components/support/FunnelAutomationMaintenance.astro";
-import QualityAssuranceSection from "../../components/support/QualityAssuranceSection.astro";
-import LaunchSupportSection from "../../components/support/LaunchSupportSection.astro";
-import SupportPackages from "../../components/support/SupportPackages.astro";
-import SupportComparison from "../../components/support/SupportComparison.astro";
-import SupportFAQ from "../../components/support/SupportFAQ.astro";
-import SupportFinalCTA from "../../components/support/SupportFinalCTA.astro";
-import CaseStudyProof from "../../components/case-studies/CaseStudyProof.astro";
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Ongoing Course Support & Maintenance Services",
-  "provider": {
-    "@type": "Organization",
-    "name": "TheEduAssist"
-  },
-  "description": "TheEduAssist provides ongoing support and maintenance for online courses, Kajabi systems, LMS platforms, funnels, automations, course content, student onboarding, QA checks, and launch improvements.",
-  "serviceType": "E-Learning Maintenance"
-};
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceSupportModel from "../../components/service-page/ServiceSupportModel.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceLimitations from "../../components/service-page/ServiceLimitations.astro";
+import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+
+import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
+
+const title = "Ongoing Learning Support and Maintenance | TheEduAssist";
+const description = "TheEduAssist supports organizations, academies and course businesses with planned content updates, platform changes, quality checks, new learning assets and continued improvement after launch.";
+
+const supportFaqs = [
+  { question: "Can you support a course after launch?", answer: "Yes. We offer ongoing support to fix issues, update content, and improve the learning experience based on actual learner feedback after you go live." },
+  { question: "Can you update existing LMS content?", answer: "Yes, we can perform lesson updates, media replacements, link maintenance, and assessment corrections inside your existing platform." },
+  { question: "Do you support Kajabi updates?", answer: "Yes, we can maintain Kajabi pages, products, offers, and connected email sequences under a structured agreement." },
+  { question: "Can you create new modules under an ongoing agreement?", answer: "Yes. If your support model includes project-based updates or an ongoing retainer with sufficient hours, we can design and build entirely new modules." },
+  { question: "How are requests prioritized?", answer: "Requests are submitted, reviewed for scope, estimated for effort, and scheduled based on the agreed priority level in your support model." },
+  { question: "Is support available 24/7?", answer: "No. Our ongoing support follows structured SLAs (Service Level Agreements) and agreed business hours. 24/7 emergency coverage is not included unless formally documented and agreed upon." },
+  { question: "Can you test changes before release?", answer: "Yes, all content updates and platform changes go through our internal quality assurance before being handed over or released to your live environment." },
+  { question: "Do you maintain content created by another provider?", answer: "We can, but we first require an audit of the existing setup to understand the architecture, ensure we have proper access, and confirm the files are maintainable." },
+  { question: "Can support be project-based rather than recurring?", answer: "Yes, we offer project-based updates for defined changes (like a yearly content refresh) as well as recurring support models." }
+];
+
+const jsonLd = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: "Home", item: "/" },
+    { name: "Services", item: "/services/" },
+    { name: "Ongoing Support & Maintenance", item: "/services/ongoing-support-maintenance/" }
+  ]),
+  faqPageSchema(supportFaqs.map(f => ({ questionName: f.question, acceptedAnswerText: f.answer })))
+];
 ---
 
 <Layout
-  title="Ongoing Course Support & Maintenance Services | TheEduAssist"
-  description="TheEduAssist provides ongoing support and maintenance for online courses, Kajabi systems, LMS platforms, funnels, automations, course content, student onboarding, QA checks, and launch improvements."
+  title={title}
+  description={description}
+  canonical="/services/ongoing-support-maintenance/"
+  schema={jsonLd}
 >
-  <SupportHero />
-  <SupportProblemSection />
-  <SupportAudienceSection />
-  <SupportCapabilities />
-  <SupportLifecycle />
-  <KajabiSupportSection />
-  <LMSSupportSection />
-  <FunnelAutomationMaintenance />
-  <QualityAssuranceSection />
-  <LaunchSupportSection />
-  <SupportPackages />
-  <SupportComparison />
-  <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'business-analytics-corporate-training', 'language-courses-book-publisher']} />
-  <SupportFAQ />
-  <SupportFinalCTA />
+  <main id="main-content">
+    <ServiceHero
+      eyebrow="Ongoing Learning Support and Maintenance"
+      title="Keep Courses, Platforms and Learning Content Accurate and Usable"
+      description="TheEduAssist supports organizations, academies and course businesses with planned content updates, platform changes, quality checks, new learning assets and continued improvement after launch."
+      primaryCtaLabel="Discuss Ongoing Support"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Review Your Current Learning System"
+      secondaryCtaLink="/book-free-audit/"
+    />
 
-  <!-- Inject specific Service Schema -->
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
-  <script>
-    import { openStartServiceChat } from "../../utils/tawkSales";
-    document.addEventListener("DOMContentLoaded", () => {
-      const btns = document.querySelectorAll(".tawk-service-btn");
-      btns.forEach(btn => {
-        btn.addEventListener("click", (e) => {
-          e.preventDefault();
-          const target = e.currentTarget as HTMLButtonElement;
-          openStartServiceChat({
-            serviceSlug: target.dataset.serviceSlug || "",
-            pageUrl: window.location.href,
-            pageTitle: document.title,
-          });
-        });
-      });
-    });
-  </script>
+    <ServiceShortAnswer
+      heading="Why Do You Need Ongoing Maintenance?"
+      answer="Learning content is rarely 'finished' at launch. Platforms update, information changes, links break, and learner feedback reveals areas for improvement. Ongoing support provides controlled maintenance, updates, and QA to ensure the experience remains high quality."
+    />
 
+    <ServiceDeliverables
+      title="Support May Include"
+      description="We cover both content and technical platform maintenance."
+      items={[
+        "Lesson updates & New modules",
+        "Page changes & Media replacement",
+        "Link maintenance & Assessment updates",
+        "Content corrections",
+        "LMS organization",
+        "Kajabi updates",
+        "Offer or email updates where agreed",
+        "Quality Assurance checks",
+        "Launch support & Release preparation",
+        "Documentation & Backlog management",
+        "Reporting support where available"
+      ]}
+    />
+
+    <ServiceSupportModel
+      models={[
+        {
+          title: "Planned Maintenance",
+          description: "Scheduled updates and quality reviews to ensure everything remains functional.",
+          features: ["Scheduled QA sweeps", "Link and asset checking", "Minor content corrections", "Platform update checks"]
+        },
+        {
+          title: "Project-Based Updates",
+          description: "Defined changes such as a new module, migration or content refresh.",
+          features: ["Defined scope of work", "New module development", "Major content rewrites", "System migration support"]
+        },
+        {
+          title: "Ongoing Learning Support",
+          description: "Recurring support for multiple courses, platforms or learning operations.",
+          features: ["Dedicated monthly capacity", "Prioritized request backlog", "Continuous improvement", "Strategic guidance"]
+        }
+      ]}
+    />
+
+    <ServiceProcess
+      title="Request and Priority Process"
+      description="How we handle your updates efficiently."
+      steps={[
+        { title: "Intake", description: "Submit or review the request, then confirm the scope and priority." },
+        { title: "Plan", description: "Estimate effort, identify dependencies, and schedule the update." },
+        { title: "Execute", description: "Complete the change, review it internally, and test affected areas." },
+        { title: "Release", description: "Release the change or hand it over, and document the update." }
+      ]}
+    />
+
+    <ServiceLimitations
+      limitations={[
+        "Support scope depends entirely on the agreed contract",
+        "Urgent requests may require separate approval and scheduling",
+        "Third-party platform outages remain outside our control",
+        "Client access and permissions are required for execution",
+        "Custom integrations may need specialist developer support",
+        "Changes can affect existing automations or reporting",
+        "Backups and change control should be considered before major updates",
+        "Unlimited revisions are not assumed in any support model"
+      ]}
+    />
+
+    <ServiceRelatedCaseStudies
+      slugs={['sqa-aligned-vocational-training', 'business-analytics-corporate-training', 'language-courses-book-publisher']}
+    />
+
+    <ServiceFAQ faqs={supportFaqs} />
+
+    <ServiceFinalCTA />
+  </main>
 </Layout>

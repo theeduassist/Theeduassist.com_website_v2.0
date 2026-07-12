@@ -1,0 +1,203 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceInputs from "../../components/service-page/ServiceInputs.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceLimitations from "../../components/service-page/ServiceLimitations.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+
+import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
+
+const title = "E-Learning Quality Assurance and Accessibility | TheEduAssist";
+const description = "TheEduAssist reviews digital learning for instructional consistency, content accuracy, navigation, functionality, responsive behavior, assessment logic, platform delivery and accessibility fundamentals.";
+
+const qaFaqs = [
+  { question: "What do you test in an eLearning course?", answer: "We test instructional quality, content accuracy, functionality (navigation, interactions, assessment logic), responsive behavior across devices, platform access, and accessibility fundamentals." },
+  { question: "Can you test in our LMS?", answer: "Yes. We can test how SCORM/xAPI packages or native courses behave inside your specific learning management system, including enrollment and reporting." },
+  { question: "Do you review mobile behavior?", answer: "Yes, we test on desktop, tablet, and mobile to verify responsive layouts, touch targets, and text readability." },
+  { question: "Do you check accessibility?", answer: "Yes, we review accessibility fundamentals like heading structure, keyboard navigation, contrast, and screen-reader readiness based on agreed scope." },
+  { question: "Does automated testing find every issue?", answer: "No. Automated tools miss many accessibility and functional issues. We combine automated checks with manual human testing for a complete review." },
+  { question: "Do you guarantee WCAG compliance?", answer: "No. We check against WCAG fundamentals and provide detailed observations, but we do not guarantee legal compliance or provide formal accessibility certification." },
+  { question: "Can you retest after corrections?", answer: "Yes. Once you (or we) have applied the fixes, we conduct a second pass to retest and confirm the issues are resolved." },
+  { question: "Do you review instructional quality as well as technical functionality?", answer: "Yes. We verify that learning outcomes are met, content is aligned, learner workload is appropriate, and feedback is clear." },
+  { question: "What does the QA report include?", answer: "The report includes an issue log categorized by severity (Blocking, Important, Minor, Observation), screenshots, device/browser details, accessibility findings, and launch-readiness recommendations." }
+];
+
+const jsonLd = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: "Home", item: "/" },
+    { name: "Services", item: "/services/" },
+    { name: "E-Learning Quality Assurance and Accessibility", item: "/services/quality-assurance-accessibility/" }
+  ]),
+  faqPageSchema(qaFaqs.map(f => ({ questionName: f.question, acceptedAnswerText: f.answer })))
+];
+---
+
+<Layout
+  title={title}
+  description={description}
+  canonical="/services/quality-assurance-accessibility/"
+  schema={jsonLd}
+>
+  <main id="main-content">
+    <ServiceHero
+      eyebrow="E-Learning Quality Assurance and Accessibility"
+      title="Review Learning Content, Functionality and Learner Access Before Launch"
+      description="TheEduAssist reviews digital learning for instructional consistency, content accuracy, navigation, functionality, responsive behavior, assessment logic, platform delivery and accessibility fundamentals."
+      primaryCtaLabel="Discuss a Learning QA Review"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Submit Your Course for Review"
+      secondaryCtaLink="/book-free-audit/"
+    />
+
+    <ServiceShortAnswer
+      heading="What Does E-Learning Quality Assurance Review?"
+      answer="E-learning QA checks whether the content, interactions, navigation, assessment, media and platform behavior work as intended and whether the learning experience is clear and usable for its intended audience."
+    />
+
+    <section class="py-16 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+          <h2 class="text-3xl font-bold text-brand-navy mb-4">Review Areas</h2>
+          <p class="text-lg text-slate-600">A comprehensive check across all elements of the learning experience.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white border border-slate-200 p-6 rounded-xl shadow-sm">
+                <h3 class="text-lg font-bold text-brand-navy mb-4 border-b pb-2">Instructional Quality</h3>
+                <ul class="space-y-2 text-slate-700 text-sm">
+                    <li>• Learning outcomes</li>
+                    <li>• Content alignment</li>
+                    <li>• Sequence & Workload</li>
+                    <li>• Activities & Assessments</li>
+                    <li>• Feedback clarity</li>
+                </ul>
+            </div>
+            <div class="bg-white border border-slate-200 p-6 rounded-xl shadow-sm">
+                <h3 class="text-lg font-bold text-brand-navy mb-4 border-b pb-2">Content Quality</h3>
+                <ul class="space-y-2 text-slate-700 text-sm">
+                    <li>• Accuracy & Consistency</li>
+                    <li>• Grammar & Terminology</li>
+                    <li>• Source references</li>
+                    <li>• Duplication checks</li>
+                    <li>• Missing content</li>
+                </ul>
+            </div>
+            <div class="bg-white border border-slate-200 p-6 rounded-xl shadow-sm">
+                <h3 class="text-lg font-bold text-brand-navy mb-4 border-b pb-2">Functional Quality</h3>
+                <ul class="space-y-2 text-slate-700 text-sm">
+                    <li>• Navigation & Links</li>
+                    <li>• Buttons & Forms</li>
+                    <li>• Interactions & Media</li>
+                    <li>• Assessment logic</li>
+                    <li>• Downloads</li>
+                </ul>
+            </div>
+            <div class="bg-white border border-slate-200 p-6 rounded-xl shadow-sm">
+                <h3 class="text-lg font-bold text-brand-navy mb-4 border-b pb-2">Responsive Quality</h3>
+                <ul class="space-y-2 text-slate-700 text-sm">
+                    <li>• Desktop, tablet, mobile</li>
+                    <li>• Text wrapping</li>
+                    <li>• Touch targets</li>
+                    <li>• Orientation</li>
+                    <li>• Layout stability</li>
+                </ul>
+            </div>
+            <div class="bg-white border border-slate-200 p-6 rounded-xl shadow-sm">
+                <h3 class="text-lg font-bold text-brand-navy mb-4 border-b pb-2">Platform Quality</h3>
+                <ul class="space-y-2 text-slate-700 text-sm">
+                    <li>• Access & Enrollment</li>
+                    <li>• Completion & Reporting</li>
+                    <li>• SCORM/Package behavior</li>
+                    <li>• Permissions</li>
+                    <li>• Learner flow</li>
+                </ul>
+            </div>
+            <div class="bg-white border border-slate-200 p-6 rounded-xl shadow-sm">
+                <h3 class="text-lg font-bold text-brand-navy mb-4 border-b pb-2">Accessibility Fundamentals</h3>
+                <ul class="space-y-2 text-slate-700 text-sm">
+                    <li>• Headings & Labels</li>
+                    <li>• Keyboard access & Focus</li>
+                    <li>• Contrast & Text alternatives</li>
+                    <li>• Transcripts & Captions</li>
+                    <li>• Zoom & Reduced motion</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <ServiceProcess
+      title="QA Process"
+      steps={[
+        { title: "Define Scope", description: "Confirm the review scope, establish test environments, and identify devices." },
+        { title: "Review & Test", description: "Review instructional/content quality, test functionality, and responsive behavior." },
+        { title: "Accessibility & Documentation", description: "Review accessibility fundamentals and document findings by severity level." },
+        { title: "Retest & Status", description: "Retest confirmed fixes and produce final status notes for launch readiness." }
+      ]}
+    />
+
+    <section class="py-16 bg-white border-b border-slate-200">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-10">
+          <h2 class="text-3xl font-bold text-brand-navy mb-4">Severity Levels</h2>
+          <p class="text-lg text-slate-600">We classify findings so your team knows what to fix first.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div class="p-6 bg-red-50 border border-red-200 rounded-xl">
+                <h3 class="font-bold text-red-700 text-xl mb-2">Blocking</h3>
+                <p class="text-red-900/80">Critical issue preventing learners from accessing content, completing the course, or breaking core functionality.</p>
+            </div>
+            <div class="p-6 bg-orange-50 border border-orange-200 rounded-xl">
+                <h3 class="font-bold text-orange-700 text-xl mb-2">Important</h3>
+                <p class="text-orange-900/80">Significant issue affecting the learning experience or causing confusion, but a workaround exists.</p>
+            </div>
+            <div class="p-6 bg-blue-50 border border-blue-200 rounded-xl">
+                <h3 class="font-bold text-blue-700 text-xl mb-2">Minor</h3>
+                <p class="text-blue-900/80">Small UI inconsistencies, typos, or minor visual bugs that do not stop the learning process.</p>
+            </div>
+            <div class="p-6 bg-slate-50 border border-slate-200 rounded-xl">
+                <h3 class="font-bold text-slate-700 text-xl mb-2">Observation</h3>
+                <p class="text-slate-600">A suggestion for improvement or best practice that is not technically broken.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <ServiceDeliverables
+      title="Deliverables"
+      description="What you receive after the review is complete."
+      items={[
+        "QA report",
+        "Issue log",
+        "Screenshots",
+        "Severity classification",
+        "Accessibility observations",
+        "Device and browser findings",
+        "Content corrections",
+        "Retest notes",
+        "Launch-readiness recommendations"
+      ]}
+    />
+
+    <ServiceLimitations
+      limitations={[
+        "Accessibility review scope must be agreed beforehand",
+        "Automated tools do not identify every issue",
+        "Legal compliance cannot be guaranteed through automated checks",
+        "Third-party platform limitations may remain",
+        "Accessibility certification is not automatically included",
+        "Client fixes may require retesting",
+        "Content accuracy depends on approved subject-matter review"
+      ]}
+    />
+
+    <ServiceFAQ faqs={qaFaqs} />
+
+    <ServiceFinalCTA />
+  </main>
+</Layout>

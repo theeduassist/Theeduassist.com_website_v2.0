@@ -2,13 +2,23 @@
 import { getLiveServices } from "../../data/serviceArchitecture";
 import { ArrowRight, MonitorPlay, RefreshCw, Database, Cpu, LifeBuoy } from "lucide-react";
 
+import { BookOpen, CheckSquare, Settings, Search, CheckCircle, Briefcase, Globe, MapPin } from "lucide-react";
+
 // Map string icons to components
 const iconMap: Record<string, any> = {
   "MonitorPlay": MonitorPlay,
   "RefreshCw": RefreshCw,
   "Database": Database,
   "Cpu": Cpu,
-  "LifeBuoy": LifeBuoy
+  "LifeBuoy": LifeBuoy,
+  "BookOpen": BookOpen,
+  "CheckSquare": CheckSquare,
+  "Settings": Settings,
+  "Search": Search,
+  "CheckCircle": CheckCircle,
+  "Briefcase": Briefcase,
+  "Globe": Globe,
+  "MapPin": MapPin
 };
 
 const liveServices = getLiveServices().filter(s => s.hubVisibility);

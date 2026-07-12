@@ -43,17 +43,19 @@ const createDesignGroup: NavigationGroup = {
 const platformsTechGroup: NavigationGroup = {
     id: "platforms-tech",
     label: "PLATFORMS & TECHNOLOGY",
-    links: getLiveServices().filter(s => s.family === "technology-platforms").map(s => ({
-        id: s.id,
-        label: s.title,
-        href: s.slug,
-        icon: s.icon
-    }))
+    links: [
+        ...getLiveServices().filter(s => s.family === "technology-platforms").map(s => ({
+            id: s.id,
+            label: s.title,
+            href: s.slug,
+            icon: s.icon
+        }))
+    ]
 };
 
 const modernizeSupportGroup: NavigationGroup = {
-    id: "modernize-support",
-    label: "MODERNIZE & SUPPORT",
+    id: "quality-ai-support",
+    label: "QUALITY & SUPPORT",
     links: getLiveServices().filter(s => s.family === "quality-ai-support").map(s => ({
         id: s.id,
         label: s.title,
@@ -76,9 +78,9 @@ export const siteNavigation: TopLevelNavigationItem[] = [
     type: "mega-menu",
     enabled: true,
     groups: [
-      createDesignGroup,
       platformsTechGroup,
-      modernizeSupportGroup
+      modernizeSupportGroup,
+      createDesignGroup
     ].filter(g => g.links.length > 0)
   },
   {

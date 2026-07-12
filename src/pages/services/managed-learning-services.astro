@@ -1,0 +1,167 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceAudience from "../../components/service-page/ServiceAudience.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceResponsibilityMatrix from "../../components/service-page/ServiceResponsibilityMatrix.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceLimitations from "../../components/service-page/ServiceLimitations.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+
+import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
+
+const title = "Managed Learning Services | TheEduAssist";
+const description = "Extend your learning team with structured ongoing delivery support. We manage course operations, content updates, platform coordination, and QA under an agreed service scope.";
+
+const managedFaqs = [
+  { question: "What are managed learning services?", answer: "Managed learning services provide ongoing operational support for your learning programs, where we act as an extension of your team to manage content updates, QA, platform administration, and new asset development." },
+  { question: "How are they different from ongoing maintenance?", answer: "Maintenance is typically reactive or focused on keeping things running (fixing bugs, updating software). Managed services are proactive, covering broader operational rhythm like managing a course backlog, coordinating releases, and actively supporting the L&D delivery pipeline." },
+  { question: "Can you support our internal L&D team?", answer: "Yes. We often act as overflow capacity or specialist support for internal L&D teams that have a delivery backlog but cannot immediately expand their internal headcount." },
+  { question: "Can you manage several courses or platforms?", answer: "Yes, we can manage course catalog updates across multiple platforms, provided the scope and access requirements are clearly defined in the agreement." },
+  { question: "Do you provide platform administration?", answer: "We provide platform administration support, such as configuring users, setting up courses, and managing settings, but we do not replace the vendor's own software support." },
+  { question: "Are service levels included?", answer: "Yes. Managed service agreements include specific service levels (SLAs) regarding response times, delivery capacity, and prioritization processes." },
+  { question: "Is 24/7 support available?", answer: "No, 24/7 coverage is not assumed. We operate during agreed business hours unless a specific out-of-hours coverage requirement is formally contracted." },
+  { question: "Can managed services include new course development?", answer: "Yes. Depending on the agreed capacity, our managed services can include designing and developing new learning assets alongside maintaining existing ones." },
+  { question: "How are priorities and approvals handled?", answer: "We maintain a shared delivery backlog. You own the business priorities and final approvals, while we manage the execution, review cycles, and release preparation." }
+];
+
+const jsonLd = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: "Home", item: "/" },
+    { name: "Services", item: "/services/" },
+    { name: "Managed Learning Services", item: "/services/managed-learning-services/" }
+  ]),
+  faqPageSchema(managedFaqs.map(f => ({ questionName: f.question, acceptedAnswerText: f.answer })))
+];
+---
+
+<Layout
+  title={title}
+  description={description}
+  canonical="/services/managed-learning-services/"
+  schema={jsonLd}
+>
+  <main id="main-content">
+    <ServiceHero
+      eyebrow="Managed Learning Services"
+      title="Extend Your Learning Team with Structured Ongoing Delivery Support"
+      description="TheEduAssist can support continuing course operations, content updates, platform coordination, quality assurance, release planning and learning asset development under an agreed managed-services scope."
+      primaryCtaLabel="Discuss Managed Learning Support"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Review Your Current Learning Operations"
+      secondaryCtaLink="/book-free-audit/"
+    />
+
+    <ServiceShortAnswer
+      heading="What Are Managed Learning Services?"
+      answer="Rather than hiring full-time staff for every role, managed learning services provide you with a structured, ongoing partnership where our team handles the day-to-day design, development, platform, and quality operations required to keep your learning programs running."
+    />
+
+    <ServiceAudience
+      audiences={[
+        "Small L&D teams",
+        "Growing training providers",
+        "Academies with multiple courses",
+        "Organizations with recurring updates",
+        "Teams operating customer education",
+        "Associations maintaining professional learning",
+        "Organizations with a learning backlog",
+        "Teams needing delivery support without immediate internal expansion"
+      ]}
+    />
+
+    <ServiceDeliverables
+      title="Possible Service Areas"
+      description="We customize the support areas based on your agreement."
+      items={[
+        "Intake and backlog management",
+        "Course-update coordination",
+        "Instructional-design support",
+        "Content production",
+        "Platform administration support",
+        "Learner-content QA",
+        "Release planning",
+        "Documentation",
+        "Reporting coordination",
+        "Vendor coordination",
+        "Course catalog organization",
+        "New learning asset development",
+        "Recurring maintenance"
+      ]}
+    />
+
+    <ServiceResponsibilityMatrix
+      responsibilities={[
+        { task: "Business priorities", owner: "client" },
+        { task: "Final content approval", owner: "client" },
+        { task: "Subject-matter expertise", owner: "client" },
+        { task: "Learner policy", owner: "client" },
+        { task: "Platform contracts", owner: "client" },
+        { task: "Data governance", owner: "client" },
+        { task: "Regulatory decisions", owner: "client" },
+        { task: "Design", owner: "theeduassist" },
+        { task: "Development", owner: "theeduassist" },
+        { task: "Content operations", owner: "theeduassist" },
+        { task: "QA", owner: "theeduassist" },
+        { task: "Platform configuration", owner: "theeduassist" },
+        { task: "Documentation", owner: "theeduassist" },
+        { task: "Release preparation", owner: "theeduassist" },
+        { task: "Reporting support", owner: "theeduassist" },
+        { task: "Planning", owner: "shared" },
+        { task: "Prioritization", owner: "shared" },
+        { task: "Review", owner: "shared" },
+        { task: "Access", owner: "shared" },
+        { task: "Launch decisions", owner: "shared" },
+        { task: "Continuous improvement", owner: "shared" }
+      ]}
+    />
+
+    <ServiceProcess
+      title="Operating Rhythm"
+      description="How we establish a predictable delivery workflow."
+      steps={[
+        { title: "Define & Establish", description: "Define scope, governance, and establish the intake and prioritization process." },
+        { title: "Maintain Backlog", description: "Maintain a clear delivery backlog based on your business priorities." },
+        { title: "Plan & Execute", description: "Plan releases, then design, update, or develop the requested content." },
+        { title: "Review & Release", description: "Review and test the work, perform the release, then report and improve." }
+      ]}
+    />
+
+    <ServiceDeliverables
+      title="Common Deliverables"
+      description="What you can expect as outputs of a managed service agreement."
+      items={[
+        "Service backlog",
+        "Delivery plan",
+        "Updated learning content",
+        "QA logs",
+        "Release notes",
+        "Platform changes",
+        "Documentation",
+        "Course catalog updates",
+        "Monthly or agreed reporting",
+        "Improvement recommendations"
+      ]}
+    />
+
+    <ServiceLimitations
+      limitations={[
+        "Scope depends entirely on the agreed service agreement",
+        "Service levels must be explicitly agreed",
+        "24/7 coverage is not assumed",
+        "Legal, regulatory and subject-matter approval remain with the client",
+        "Platform-vendor outages remain external to our control",
+        "Client access and approvals directly affect delivery speed",
+        "A managed service does not automatically include every design or development request without scoping"
+      ]}
+    />
+
+    <ServiceFAQ faqs={managedFaqs} />
+
+    <ServiceFinalCTA />
+  </main>
+</Layout>
