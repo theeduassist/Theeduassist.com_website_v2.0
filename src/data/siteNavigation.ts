@@ -25,6 +25,13 @@ export type TopLevelNavigationItem = {
 
 export const siteNavigation: TopLevelNavigationItem[] = [
   {
+    id: "home",
+    label: "Home",
+    href: "/",
+    type: "link",
+    enabled: true
+  },
+  {
     id: "services",
     label: "Services",
     type: "mega-menu",
@@ -79,8 +86,8 @@ export const siteNavigation: TopLevelNavigationItem[] = [
     enabled: true
   },
   {
-    id: "insights",
-    label: "Insights",
+    id: "blog",
+    label: "Blog",
     href: "/blog/",
     type: "link",
     enabled: true
@@ -118,7 +125,7 @@ export const footerNavigation = {
     { label: 'Kajabi Services', href: '/kajabi-services/' }
   ],
   resources: [
-    { label: 'Insights', href: '/blog/' },
+    { label: 'Blog', href: '/blog/' },
     { label: 'Case Studies', href: '/case-studies/' },
     { label: 'Pricing', href: '/pricing/' },
     { label: 'Platforms', href: '/platforms/' },

@@ -1,0 +1,48 @@
+---
+import { ChevronRight } from "lucide-react";
+
+const problems = [
+  {
+    problem: "We have content, but it is disorganized",
+    url: "/services/"
+  },
+  {
+    problem: "We need to build an online course",
+    url: "/services/"
+  },
+  {
+    problem: "We need an LMS or platform setup",
+    url: "/services/lms-implementation-migration/"
+  },
+  {
+    problem: "We need to improve an existing learning experience",
+    url: "/book-free-audit/"
+  },
+  {
+    problem: "We need to convert documents, books, slides or videos",
+    url: "/services/content-conversion/"
+  },
+  {
+    problem: "We need ongoing course and learning support",
+    url: "/contact/"
+  }
+];
+---
+<section class="py-20 bg-slate-50 border-y border-slate-200" aria-labelledby="problem-heading">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 id="problem-heading" class="text-3xl md:text-4xl font-bold text-brand-navy">What Are You Trying to Build or Improve?</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {problems.map((item) => (
+        <a href={item.url} class="group flex items-center justify-between p-6 bg-white rounded-xl border border-slate-200 hover:border-brand-navy hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-navy">
+          <span class="text-lg font-medium text-slate-800 group-hover:text-brand-navy">{item.problem}</span>
+          <div class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center group-hover:bg-brand-navy group-hover:text-white transition-colors flex-shrink-0 ml-4">
+            <ChevronRight className="w-5 h-5" />
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
