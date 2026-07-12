@@ -5,37 +5,28 @@ import HomeCapabilityStrip from "../components/home/HomeCapabilityStrip.astro";
 import AudiencePathways from "../components/home/AudiencePathways.astro";
 import ProblemNavigator from "../components/home/ProblemNavigator.astro";
 
-import CoreServicesGrid from "../components/sections/CoreServicesGrid.astro";
-import PlatformStrip from "../components/sections/PlatformStrip.astro";
-import EnterpriseLearningSection from "../components/sections/EnterpriseLearningSection.astro";
+// New Phase 2 Part 2 Components
+import HomeServices from "../components/home/HomeServices.astro";
+import LearningBuildSystem from "../components/home/LearningBuildSystem.astro";
+import OrganizationalLearning from "../components/home/OrganizationalLearning.astro";
+import KajabiSpecialty from "../components/home/KajabiSpecialty.astro";
+import LearningTransformation from "../components/home/LearningTransformation.astro";
+import FeaturedCaseStudies from "../components/home/FeaturedCaseStudies.astro";
+import SupportLevels from "../components/home/SupportLevels.astro";
+import BlogPreview from "../components/home/BlogPreview.astro";
+import HomeFAQ from "../components/home/HomeFAQ.astro";
 
-
-import AIEthicsTrainingSection from "../components/sections/AIEthicsTrainingSection.astro";
-
-import ElearningBuildSystem from "../components/sections/ElearningBuildSystem.astro";
-
-
-import StartingPoint from "../components/sections/StartingPoint.astro";
 import FinalCTA from "../components/sections/FinalCTA.astro";
 
+import { organizationSchema, websiteSchema, professionalServiceSchema } from '../lib/seo/schema';
+import { getCtaBlocks } from '../sanity/queries';
 
-import AIAnswerBlock from "../components/ai/AIAnswerBlock.astro";
-import HomeFAQ from "../components/sections/HomeFAQ.astro";
-import { organizationSchema, websiteSchema, professionalServiceSchema , faqPageSchema } from '../lib/seo/schema';
-import { getAudienceSegments, getAllServices, getAllTestimonials, getTrainingSolutions, getCtaBlocks, getProcessByTitle } from '../sanity/queries';
-
-const audienceSegments = await getAudienceSegments();
-const services = await getAllServices();
-const testimonials = await getAllTestimonials();
-const trainingSolutions = await getTrainingSolutions();
-const ctaBlocks = await getCtaBlocks();
-const primaryProcess = await getProcessByTitle('Primary Process');
-
-const aiAnswers = [
-  { q: "What does TheEduAssist do?", a: "TheEduAssist is an e-learning design and course-building agency that helps creators, coaches, consultants, educators, training companies, and businesses turn content into structured online courses, Kajabi systems, LMS experiences, and AI-powered learning workflows.<br><br><ul><li>• Course structure and curriculum planning</li><li>• Kajabi setup and migration</li><li>• LMS implementation</li><li>• AI-powered e-learning support</li><li>• Corporate and academic training</li><li>• Content conversion</li><li>• Launch and improvement support</li></ul>" },
-  { q: "Who is TheEduAssist best for?", a: "TheEduAssist is best for people and teams who have expertise, training material, PDFs, slides, videos, coaching content, or internal learning content and need it turned into a professional online course, LMS program, Kajabi setup, or learner-friendly e-learning experience." },
-  { q: "Does TheEduAssist only work with Kajabi?", a: "No. TheEduAssist offers Kajabi setup as a specialty, but the agency also supports course creation, LMS implementation, content conversion, instructional design, AI-powered e-learning support, funnels, automation, and ongoing course maintenance." }
-];
+let ctaBlocks = [];
+try {
+  ctaBlocks = await getCtaBlocks();
+} catch (e) {
+  console.warn("Could not fetch CTA blocks from Sanity on Homepage");
+}
 
 const jsonLd = [
   organizationSchema(),
@@ -44,8 +35,8 @@ const jsonLd = [
 ];
 ---
 <Layout
-  title="TheEduAssist | E-Learning Design Agency for Courses, Kajabi & LMS Builds"
-  description="TheEduAssist helps creators, coaches, educators, consultants, training companies, academies, and businesses build online courses, Kajabi systems, LMS experiences, funnels, automations, and launch-ready e-learning content."
+  title="TheEduAssist | E-Learning, Course Development, LMS and Kajabi Services"
+  description="TheEduAssist helps organizations, academies, creators and training teams plan, design and build online courses, LMS experiences, Kajabi systems and structured digital learning programs."
   canonicalPath="/"
   jsonLd={jsonLd}
 >
@@ -58,60 +49,21 @@ const jsonLd = [
 
   <ProblemNavigator />
 
+  <HomeServices />
 
+  <LearningBuildSystem />
 
-  <CoreServicesGrid services={services} />
+  <OrganizationalLearning />
 
-  <PlatformStrip />
+  <KajabiSpecialty />
 
-  <EnterpriseLearningSection />
+  <LearningTransformation />
 
+  <FeaturedCaseStudies />
 
+  <SupportLevels />
 
-
-
-  <AIEthicsTrainingSection />
-
-
-  <ElearningBuildSystem process={primaryProcess} />
-
-
-
-
-
-
-
-
-
-  <section class="py-16 bg-slate-50 border-y border-brand-border/30">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="text-3xl font-bold text-brand-navy mb-6">Before/After: The Power of Course Structuring</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
-        <div class="bg-white p-6 rounded-xl border border-red-200">
-          <h3 class="font-bold text-red-600 mb-4 text-xl">Before (Messy)</h3>
-          <ul class="space-y-3 text-brand-textMain">
-            <li>❌ 10 disorganized folders of PDFs</li>
-            <li>❌ 4-hour Zoom recordings with no timestamps</li>
-            <li>❌ "Read this 50-page manual" assignments</li>
-            <li>❌ Overwhelmed learners asking "where do I start?"</li>
-          </ul>
-        </div>
-        <div class="bg-white p-6 rounded-xl border border-green-200">
-          <h3 class="font-bold text-green-600 mb-4 text-xl">After (Structured)</h3>
-          <ul class="space-y-3 text-brand-textMain">
-            <li>✅ Clear 6-module learning pathway</li>
-            <li>✅ 5-10 minute searchable video lessons</li>
-            <li>✅ Downloadable actionable worksheets</li>
-            <li>✅ High completion rates and engaged learners</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <StartingPoint />
-
-  <AIAnswerBlock questions={aiAnswers} />
+  <BlogPreview />
 
   <HomeFAQ />
 
