@@ -1,0 +1,45 @@
+---
+import { Building2, ArrowRight } from "lucide-react";
+---
+
+<section class="py-20 bg-slate-50 border-t border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="bg-white rounded-3xl p-8 md:p-12 border border-slate-200 shadow-sm relative overflow-hidden">
+      <!-- Decorative background -->
+      <div class="absolute right-0 top-0 w-1/3 h-full bg-gradient-to-l from-brand-softBg to-transparent opacity-50 pointer-events-none"></div>
+
+      <div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <div class="w-16 h-16 bg-brand-navy rounded-2xl flex items-center justify-center mb-8 shadow-md">
+            <Building2 class="w-8 h-8 text-white" />
+          </div>
+          <h2 class="text-3xl font-bold text-brand-navy mb-6">Organizational Learning</h2>
+          <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+            We help businesses, training companies, and internal teams structure their knowledge and deliver consistent training at scale.
+          </p>
+          <a href="/contact/" class="inline-flex items-center text-brand-primary font-bold text-lg hover:text-brand-accent transition-colors focus-ring group">
+            Discuss an Organizational Learning Project
+            <ArrowRight class="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" />
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {[
+            "Employee Onboarding",
+            "Workforce Upskilling",
+            "Customer Education",
+            "Partner Training",
+            "Internal Academies",
+            "Content Modernization",
+            "LMS Implementation",
+            "Learning Operations"
+          ].map(item => (
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 font-medium text-brand-navy">
+              {item}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

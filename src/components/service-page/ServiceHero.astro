@@ -1,0 +1,67 @@
+---
+import { Lucide } from "lucide-react";
+
+interface Props {
+  eyebrow?: string;
+  title: string;
+  description: string;
+  primaryCtaLabel?: string;
+  primaryCtaLink?: string;
+  secondaryCtaLabel?: string;
+  secondaryCtaLink?: string;
+  icon?: string;
+}
+
+const {
+  eyebrow,
+  title,
+  description,
+  primaryCtaLabel = "Get a 24–48 Hour Review",
+  primaryCtaLink = "/book-free-audit/",
+  secondaryCtaLabel,
+  secondaryCtaLink,
+  icon
+} = Astro.props;
+---
+
+<section class="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden bg-brand-navy text-white">
+  <div class="absolute inset-0 z-0">
+    <div class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="max-w-3xl">
+      {eyebrow && (
+        <span class="inline-block px-3 py-1 bg-brand-accent/20 text-brand-accent rounded-full text-sm font-semibold tracking-wide uppercase mb-6">
+          {eyebrow}
+        </span>
+      )}
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white">
+        {title}
+      </h1>
+
+      <p class="text-xl text-slate-300 mb-10 leading-relaxed">
+        {description}
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a
+          href={primaryCtaLink}
+          class="inline-flex justify-center items-center px-8 py-4 bg-brand-accent text-white rounded-md font-bold text-lg hover:bg-white hover:text-brand-navy transition-all shadow-lg hover-lift click-press focus-ring"
+        >
+          {primaryCtaLabel}
+        </a>
+
+        {secondaryCtaLabel && secondaryCtaLink && (
+          <a
+            href={secondaryCtaLink}
+            class="inline-flex justify-center items-center px-8 py-4 bg-white/10 text-white rounded-md font-bold text-lg hover:bg-white/20 transition-all border border-white/20 hover-lift click-press focus-ring"
+          >
+            {secondaryCtaLabel}
+          </a>
+        )}
+      </div>
+    </div>
+  </div>
+</section>

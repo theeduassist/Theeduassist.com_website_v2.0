@@ -1,0 +1,20 @@
+---
+interface Props {
+  heading?: string;
+  answer: string;
+}
+
+const {
+  heading = "What Does This Service Include?",
+  answer
+} = Astro.props;
+---
+
+<section class="py-12 bg-slate-50 border-b border-slate-200">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-2xl font-bold text-brand-navy mb-4">{heading}</h2>
+    <p class="text-lg text-slate-700 leading-relaxed max-w-3xl mx-auto">
+      {answer}
+    </p>
+  </div>
+</section>

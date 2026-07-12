@@ -1,0 +1,64 @@
+---
+import { serviceFamiliesData, getServicesByFamily } from "../../data/serviceArchitecture";
+import { PenTool, MonitorPlay, Database, LifeBuoy, ArrowRight } from "lucide-react";
+
+// Map string icons to components
+const iconMap: Record<string, any> = {
+  "PenTool": PenTool,
+  "MonitorPlay": MonitorPlay,
+  "Database": Database,
+  "LifeBuoy": LifeBuoy
+};
+---
+
+<section class="py-20 bg-slate-50 border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl font-bold text-brand-navy mb-4">Service Families</h2>
+      <p class="text-lg text-slate-600">
+        We organize our capabilities into four main areas to support the entire learning lifecycle.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {serviceFamiliesData.map((family) => {
+        const IconComponent = iconMap[family.icon] || PenTool;
+        const familyServices = getServicesByFamily(family.id as any);
+
+        // Skip families with no live services
+        if (familyServices.length === 0) return null;
+
+        return (
+          <div class="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 rounded-xl bg-brand-softBg text-brand-primary flex items-center justify-center shrink-0">
+                <IconComponent class="w-6 h-6" />
+              </div>
+              <h3 class="text-2xl font-bold text-brand-navy">{family.title}</h3>
+            </div>
+
+            <p class="text-slate-600 mb-8 leading-relaxed">
+              {family.description}
+            </p>
+
+            <div class="space-y-4">
+              <h4 class="text-sm font-bold text-slate-400 uppercase tracking-wider">Live Services</h4>
+              <ul class="space-y-3">
+                {familyServices.map(service => (
+                  <li>
+                    <a href={service.slug} class="group flex items-center justify-between p-3 rounded-lg hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100 focus-ring">
+                      <span class="font-medium text-brand-navy group-hover:text-brand-primary transition-colors">
+                        {service.title}
+                      </span>
+                      <ArrowRight class="w-4 h-4 text-slate-300 group-hover:text-brand-accent transform group-hover:translate-x-1 transition-all" />
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</section>
