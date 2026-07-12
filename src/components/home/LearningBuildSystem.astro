@@ -1,0 +1,72 @@
+---
+const stages = [
+  {
+    number: "01",
+    title: "Discover",
+    description: "Understand the audience, learning goals, existing content, project constraints and delivery platform."
+  },
+  {
+    number: "02",
+    title: "Structure",
+    description: "Organize the curriculum, learning pathway, modules, lessons and delivery plan."
+  },
+  {
+    number: "03",
+    title: "Design",
+    description: "Define the instructional approach, activities, assessment strategy, visual direction and learner experience."
+  },
+  {
+    number: "04",
+    title: "Build",
+    description: "Develop the course, learning assets, LMS setup, Kajabi system or supporting resources."
+  },
+  {
+    number: "05",
+    title: "Launch and Improve",
+    description: "Test the complete experience, support implementation and recommend future updates."
+  }
+];
+---
+<section class="py-24 bg-brand-softBg relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center mb-20">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6">How We Turn Knowledge into a Learning Experience</h2>
+    </div>
+
+    <!-- Responsive Timeline using CSS grid for layout, vertical on mobile, horizontal on desktop -->
+    <div class="relative">
+      <!-- Decorative horizontal line for desktop only -->
+      <div class="hidden lg:block absolute top-[2.5rem] left-[10%] right-[10%] h-1 bg-brand-border/60 z-0"></div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-4 relative z-10">
+        {stages.map((stage, index) => (
+          <div class="flex flex-col items-start lg:items-center relative group">
+            <!-- Mobile: Left decorative line connecting numbers -->
+            <div class={`absolute left-[1.5rem] top-12 bottom-[-2rem] w-1 bg-brand-border/60 z-0 lg:hidden ${index === stages.length - 1 ? 'hidden' : ''}`}></div>
+
+            <div class="flex flex-row lg:flex-col items-start lg:items-center w-full">
+              <!-- Number Indicator -->
+              <div class="w-12 h-12 rounded-full bg-brand-primary text-white flex items-center justify-center font-bold text-lg mb-0 lg:mb-6 shrink-0 z-10 shadow-md group-hover:bg-brand-accent group-hover:scale-110 transition-all duration-300">
+                {stage.number}
+              </div>
+
+              <!-- Content -->
+              <div class="ml-6 lg:ml-0 lg:text-center mt-1 lg:mt-0 pb-8 lg:pb-0">
+                <h3 class="text-xl font-bold text-brand-navy mb-3">{stage.title}</h3>
+                <p class="text-brand-textMuted leading-relaxed max-w-[280px] mx-auto">
+                  {stage.description}
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <div class="mt-20 text-center">
+      <a href="/contact/" class="inline-flex justify-center bg-brand-accent text-white px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-brand-navy shadow-sm">
+        Discuss Your Learning Project <span class="ml-2" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,82 @@
+---
+import { Search, MonitorPlay, Database, LayoutTemplate, RefreshCcw, Sparkles, BookOpen, Wrench } from 'lucide-react';
+
+const services = [
+  {
+    title: "Learning Strategy and Course Planning",
+    description: "Define the audience, learning goals, curriculum structure and delivery approach before development begins.",
+    icon: Search,
+    url: "/services/"
+  },
+  {
+    title: "Custom eLearning Development",
+    description: "Turn subject-matter expertise and existing materials into structured, interactive digital learning experiences.",
+    icon: MonitorPlay,
+    url: "/services/custom-elearning-development/"
+  },
+  {
+    title: "LMS Implementation and Migration",
+    description: "Plan, configure, organize or migrate learning content into an appropriate learning platform.",
+    icon: Database,
+    url: "/services/lms-implementation-migration/"
+  },
+  {
+    title: "Kajabi Course and Website Systems",
+    description: "Build connected Kajabi courses, websites, pages, Offers, emails and learner journeys.",
+    icon: LayoutTemplate,
+    url: "/kajabi-services/"
+  },
+  {
+    title: "Content Conversion and Modernization",
+    description: "Transform books, PDFs, presentations, recordings and existing training materials into organized digital learning assets.",
+    icon: RefreshCcw,
+    url: "/services/content-conversion/"
+  },
+  {
+    title: "AI-Supported E-Learning",
+    description: "Use AI carefully to support content workflows, learning design, knowledge organization and production efficiency.",
+    icon: Sparkles,
+    url: "/services/ai-powered-elearning/"
+  },
+  {
+    title: "Instructional Design and Learner Experience",
+    description: "Improve course structure, lesson flow, activities, assessments and learner navigation.",
+    icon: BookOpen,
+    url: "/services/"
+  },
+  {
+    title: "Ongoing Support and Maintenance",
+    description: "Maintain, update, test and improve learning content, systems and learner experiences after launch.",
+    icon: Wrench,
+    url: "/services/ongoing-support-maintenance/"
+  }
+];
+---
+<section class="py-24 bg-white relative">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-4">E-Learning and Course Development Services</h2>
+      <p class="text-lg text-brand-textMuted max-w-3xl mx-auto">
+        TheEduAssist supports the complete learning-development journey, from planning and curriculum structure to platform implementation, course production, launch preparation and ongoing improvement.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+      {services.map(service => (
+        <a href={service.url} class="group bg-brand-softBg p-8 rounded-xl border border-brand-border hover:border-brand-accent/50 hover:shadow-lg transition-all flex flex-col items-start focus-ring">
+          <div class="w-12 h-12 bg-white rounded-lg shadow-sm border border-brand-border flex items-center justify-center mb-6 text-brand-primary group-hover:text-brand-accent transition-colors" aria-hidden="true">
+            <service.icon className="w-6 h-6" />
+          </div>
+          <h3 class="text-xl font-bold text-brand-navy mb-3 group-hover:text-brand-primary transition-colors">{service.title}</h3>
+          <p class="text-brand-textMuted leading-relaxed flex-grow">{service.description}</p>
+        </a>
+      ))}
+    </div>
+
+    <div class="text-center">
+      <a href="/services/" class="inline-flex items-center justify-center bg-brand-primary text-white px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-brand-accent shadow-sm">
+        Explore All Services <span class="ml-2" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,90 @@
+---
+import { CheckCircle2 } from 'lucide-react';
+
+const needs = [
+  "Employee onboarding",
+  "Workforce upskilling",
+  "Customer education",
+  "Partner training",
+  "Internal academies",
+  "Product and service training",
+  "Content modernization",
+  "LMS implementation",
+  "Learning operations support"
+];
+---
+<section class="py-24 bg-white relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="flex flex-col lg:flex-row items-center gap-16">
+
+      <!-- Content Side -->
+      <div class="w-full lg:w-1/2">
+        <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6 leading-tight">
+          Build Learning Systems for Teams, Customers and Partners
+        </h2>
+        <p class="text-lg text-brand-textMuted leading-relaxed mb-10">
+          TheEduAssist helps organizations turn internal knowledge, subject-matter expertise and existing training content into structured digital learning systems that are easier to deliver, maintain and scale.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+          {needs.map(need => (
+            <div class="flex items-start">
+              <CheckCircle2 className="w-5 h-5 text-brand-accent mt-0.5 shrink-0 mr-3" aria-hidden="true" />
+              <span class="text-brand-textMain font-medium">{need}</span>
+            </div>
+          ))}
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="/contact/" class="inline-flex justify-center items-center bg-brand-primary text-white px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-brand-accent shadow-sm">
+            Discuss an Organizational Learning Project
+          </a>
+          <a href="/book-free-audit/" class="inline-flex justify-center items-center bg-transparent border-2 border-brand-primary text-brand-primary px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-brand-softBg">
+            Get a 24–48 Hour Review
+          </a>
+        </div>
+      </div>
+
+      <!-- Visual Side -->
+      <div class="w-full lg:w-1/2">
+        <div class="bg-brand-softBg border border-brand-border rounded-2xl p-8 lg:p-12 shadow-sm relative">
+          <!-- Abstract representation of structured organizational learning -->
+          <div class="flex flex-col gap-6" aria-hidden="true">
+            <div class="h-8 w-1/3 bg-brand-border rounded"></div>
+            <div class="space-y-3">
+              <div class="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm border border-brand-border/50">
+                <div class="w-10 h-10 rounded-full bg-brand-primary/10 flex items-center justify-center">
+                  <div class="w-5 h-5 bg-brand-primary rounded-sm"></div>
+                </div>
+                <div class="flex-1 h-4 bg-brand-textMuted/20 rounded"></div>
+              </div>
+              <div class="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm border border-brand-border/50">
+                <div class="w-10 h-10 rounded-full bg-brand-accent/10 flex items-center justify-center">
+                  <div class="w-5 h-5 bg-brand-accent rounded-sm"></div>
+                </div>
+                <div class="flex-1 h-4 bg-brand-textMuted/20 rounded"></div>
+                <div class="w-16 h-4 bg-brand-textMuted/10 rounded"></div>
+              </div>
+              <div class="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm border border-brand-border/50">
+                <div class="w-10 h-10 rounded-full bg-brand-navy/10 flex items-center justify-center">
+                  <div class="w-5 h-5 bg-brand-navy rounded-sm"></div>
+                </div>
+                <div class="flex-1 h-4 bg-brand-textMuted/20 rounded"></div>
+              </div>
+            </div>
+
+            <div class="mt-4 pt-6 border-t border-brand-border flex justify-between items-center">
+              <div class="h-3 w-1/4 bg-brand-border rounded"></div>
+              <div class="flex gap-2">
+                <div class="w-2 h-2 rounded-full bg-brand-textMuted/30"></div>
+                <div class="w-2 h-2 rounded-full bg-brand-textMuted/30"></div>
+                <div class="w-2 h-2 rounded-full bg-brand-textMuted/30"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

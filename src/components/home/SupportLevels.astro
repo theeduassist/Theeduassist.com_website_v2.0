@@ -1,0 +1,57 @@
+---
+const levels = [
+  {
+    title: "Do It Yourself",
+    description: "Use practical articles, planning guidance and learning-development resources to move your project forward independently.",
+    ctaText: "Visit the Blog",
+    ctaUrl: "/blog/",
+    style: "border-slate-200 bg-white"
+  },
+  {
+    title: "Get Expert Guidance",
+    description: "Request a review of your content, course, Kajabi system or LMS project and receive a recommendation for the next step.",
+    ctaText: "Get a 24–48 Hour Review",
+    ctaUrl: "/book-free-audit/",
+    style: "border-brand-primary bg-brand-softBg shadow-md relative transform lg:-translate-y-4",
+    highlight: true
+  },
+  {
+    title: "Have TheEduAssist Build It",
+    description: "Engage the team for strategy, instructional design, course development, platform implementation and launch support.",
+    ctaText: "Explore Services",
+    ctaUrl: "/services/",
+    style: "border-slate-200 bg-white"
+  }
+];
+---
+<section class="py-24 bg-slate-50 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center mb-16 lg:mb-24">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Choose the Level of Support You Need</h2>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+      {levels.map((level, i) => (
+        <div class={`rounded-2xl border ${level.style} p-8 flex flex-col h-full`}>
+          {level.highlight && (
+            <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-brand-primary text-white text-sm font-bold uppercase tracking-wider py-1 px-4 rounded-full">
+              Recommended
+            </div>
+          )}
+
+          <h3 class="text-2xl font-bold text-brand-navy mb-4 text-center">{level.title}</h3>
+
+          <p class="text-brand-textMuted text-center leading-relaxed mb-8 flex-grow">
+            {level.description}
+          </p>
+
+          <div class="text-center mt-auto">
+             <a href={level.ctaUrl} class={`inline-flex justify-center items-center px-6 py-3 rounded-md font-bold text-base w-full hover-lift click-press focus-ring transition-all ${level.highlight ? 'bg-brand-primary text-white hover:bg-brand-accent shadow-sm' : 'bg-transparent border-2 border-brand-primary text-brand-primary hover:bg-brand-softBg'}`}>
+               {level.ctaText} <span class="ml-2" aria-hidden="true">→</span>
+             </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

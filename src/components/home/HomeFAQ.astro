@@ -1,0 +1,66 @@
+---
+import { faqPageSchema } from '../../lib/seo/schema';
+
+const faqs = [
+  {
+    question: "What does TheEduAssist help clients build?",
+    answer: "TheEduAssist helps organizations, academies, creators, coaches, educators and training teams plan and build online courses, custom eLearning, LMS experiences, Kajabi systems, converted learning content and ongoing learning support."
+  },
+  {
+    question: "Does TheEduAssist only work with Kajabi?",
+    answer: "No. Kajabi is one specialist capability. TheEduAssist also supports custom eLearning, LMS implementation, content conversion, instructional design, course development and ongoing learning operations."
+  },
+  {
+    question: "Can you improve content that already exists?",
+    answer: "Yes. Existing books, PDFs, presentations, videos, recordings, courses and training materials can be reviewed, reorganized and converted into a more structured learning experience."
+  },
+  {
+    question: "Do you support LMS implementation and migration?",
+    answer: "Yes. Support may include platform planning, content organization, course setup, migration preparation, testing and launch support. The exact scope depends on the platform and available access or export options."
+  },
+  {
+    question: "Can you work with organizations and training teams?",
+    answer: "Yes. TheEduAssist supports organizational learning needs such as onboarding, workforce upskilling, customer education, partner training, internal academies and learning-content modernization."
+  },
+  {
+    question: "What happens during the 24–48 Hour Review?",
+    answer: "The team reviews the information submitted about the course, platform or learning content and recommends the clearest next step. It is a project review pathway, not a promise that the complete project will be delivered within 24–48 hours."
+  },
+  {
+    question: "Can you provide support after launch?",
+    answer: "Yes. Ongoing support may include content updates, platform maintenance, quality checks, learner-experience improvements and future course development."
+  }
+];
+
+const jsonLd = faqPageSchema(faqs);
+---
+<section class="py-24 bg-brand-softBg relative overflow-hidden">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Frequently Asked Questions</h2>
+    </div>
+
+    <div class="space-y-4">
+      {faqs.map((faq) => (
+        <details class="group bg-white border border-brand-border rounded-xl shadow-sm overflow-hidden transition-all duration-300 open:shadow-md open:border-brand-accent/30" name="home-faq">
+          <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-brand-navy hover:text-brand-primary transition-colors focus-ring">
+            <span class="text-lg pr-4">{faq.question}</span>
+            <span class="transition-transform duration-300 group-open:rotate-180 bg-brand-softBg text-brand-textMuted p-2 rounded-full group-hover:text-brand-accent shrink-0">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </span>
+          </summary>
+          <div class="px-6 pb-6 pt-2 text-brand-textMuted text-base leading-relaxed border-t border-brand-border/30 bg-brand-softBg/30">
+            <p set:html={faq.answer}></p>
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+</style>

@@ -1,0 +1,23 @@
+# Phase 2 Part 2 Validation Report
+
+- Part 1 starting commit: e3a70fd319ab29a1334975e4ad4d109db9df1a46
+- Part 2 branch: website-2.5-phase-2-part-2
+- New Components:
+  - `src/components/home/HomeServices.astro`
+  - `src/components/home/LearningBuildSystem.astro`
+  - `src/components/home/OrganizationalLearning.astro`
+  - `src/components/home/KajabiSpecialty.astro`
+  - `src/components/home/LearningTransformation.astro`
+  - `src/components/home/FeaturedCaseStudies.astro`
+  - `src/components/home/SupportLevels.astro`
+  - `src/components/home/BlogPreview.astro`
+  - `src/components/home/HomeFAQ.astro`
+- Removed Components: Legacy imports in `src/pages/index.astro` were removed to clean up the page. (Files like `CoreServicesGrid.astro`, `ElearningBuildSystem.astro` etc. are still physically present but detached from index to meet requirements while preserving useful content).
+- Final homepage section order: Header, Home Hero, Capability Strip, Audience Pathways, Problem Navigator, Core Services, Learning Build System, Organizational Learning, Kajabi Specialty, Learning Transformation, Featured Case Studies, Three Support Levels, Blog Preview, Homepage FAQ, Final CTA, Footer.
+- Case Study Data Source: Prefer Sanity with fallback to `src/data/caseStudies.ts`.
+- Blog query behavior: Safe build-time query, fallback to 3 specific static topic cards.
+- Sanity build-time behavior: Uses build time API to pull blog/case study content.
+- Hydrated-island count: 0 new islands introduced.
+- Responsive and Accessibility: Tests simulated locally.
+- Work deferred to Part 3: Kajabi Services page rebuild, Enterprise Solutions hub, etc.
+- Confirmation: Part 3 has not started.

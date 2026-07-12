@@ -1,0 +1,78 @@
+---
+import { X, Check } from 'lucide-react';
+
+const beforePoints = [
+  "Disconnected PDFs, books, presentations and recordings",
+  "Long content with no clear learning structure",
+  "Unclear learner progression",
+  "Repeated learner questions",
+  "Content distributed across different systems",
+  "Difficult updates and maintenance",
+  "Inconsistent learner experience"
+];
+
+const afterPoints = [
+  "Structured modules and learning pathways",
+  "Focused lessons and activities",
+  "Clear learner navigation",
+  "Reusable digital learning assets",
+  "Organized delivery through an LMS or Kajabi",
+  "Easier content maintenance",
+  "A more consistent learner experience"
+];
+---
+<section class="py-24 bg-white relative">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-6">From Disconnected Content to a Structured Learning System</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mb-16">
+      <!-- BEFORE -->
+      <div class="bg-slate-50 p-8 md:p-10 rounded-2xl border border-slate-200 shadow-sm relative overflow-hidden group">
+        <div class="absolute top-0 left-0 w-full h-1 bg-red-400"></div>
+        <div class="flex items-center gap-4 mb-8">
+          <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center text-red-600">
+            <X className="w-6 h-6" />
+          </div>
+          <h3 class="text-2xl font-bold text-slate-800">Before</h3>
+        </div>
+
+        <ul class="space-y-4">
+          {beforePoints.map(point => (
+            <li class="flex items-start text-slate-600">
+              <span class="text-red-500 font-bold mr-3 mt-1" aria-hidden="true">✕</span>
+              <span>{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- AFTER -->
+      <div class="bg-brand-softBg p-8 md:p-10 rounded-2xl border border-brand-accent/20 shadow-md relative overflow-hidden group">
+        <div class="absolute top-0 left-0 w-full h-1 bg-brand-accent"></div>
+        <div class="flex items-center gap-4 mb-8">
+          <div class="w-12 h-12 bg-brand-primary/10 rounded-full flex items-center justify-center text-brand-primary">
+            <Check className="w-6 h-6" />
+          </div>
+          <h3 class="text-2xl font-bold text-brand-navy">After</h3>
+        </div>
+
+        <ul class="space-y-4">
+          {afterPoints.map(point => (
+            <li class="flex items-start text-brand-textMain">
+              <span class="text-brand-accent font-bold mr-3 mt-1" aria-hidden="true">✓</span>
+              <span class="font-medium">{point}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a href="/book-free-audit/" class="inline-flex justify-center items-center bg-brand-primary text-white px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-brand-accent shadow-sm">
+        Review Your Existing Learning Content <span class="ml-2" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>

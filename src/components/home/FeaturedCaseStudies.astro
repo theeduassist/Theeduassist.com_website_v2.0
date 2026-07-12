@@ -1,0 +1,104 @@
+---
+import { getAllCaseStudies } from '../../sanity/queries';
+import { caseStudies as fallbackCaseStudies } from '../../data/caseStudies';
+
+const targetSlugs = [
+  'sqa-aligned-vocational-training',
+  'business-analytics-corporate-training',
+  'language-courses-book-publisher'
+];
+
+let sanityCaseStudies = [];
+try {
+  sanityCaseStudies = await getAllCaseStudies();
+} catch (e) {
+  console.warn("Could not fetch case studies from Sanity on Homepage");
+}
+
+// Ensure the exact three case studies are displayed.
+// Merge with Sanity if available, otherwise use static fallback.
+const featuredCaseStudies = targetSlugs.map(slug => {
+  const sanityStudy = sanityCaseStudies.find(study => study.slug?.current === slug);
+  const fallbackStudy = fallbackCaseStudies.find(study => study.slug === slug);
+
+  if (sanityStudy && sanityStudy.title) {
+    return {
+      title: sanityStudy.title,
+      slug: sanityStudy.slug.current,
+      summary: sanityStudy.summary || fallbackStudy?.summary,
+      industry: sanityStudy.industry || fallbackStudy?.industry,
+      imageUrl: sanityStudy.mainImage?.asset?.url || null
+    };
+  }
+
+  if (fallbackStudy) {
+    return {
+      title: fallbackStudy.title,
+      slug: fallbackStudy.slug,
+      summary: fallbackStudy.summary,
+      industry: fallbackStudy.industry,
+      imageUrl: null
+    };
+  }
+
+  // This should ideally never hit if the fallbacks exist.
+  return null;
+}).filter(Boolean);
+---
+<section class="py-24 bg-brand-softBg border-y border-brand-border/30 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Featured Projects</h2>
+      <p class="text-lg text-brand-textMuted max-w-2xl mx-auto">See how we help organizations and publishers build structured learning experiences.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+      {featuredCaseStudies.map(study => (
+        <a href={`/case-studies/${study.slug}/`} class="group bg-white rounded-2xl border border-brand-border hover:border-brand-accent/50 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden focus-ring h-full">
+          <!-- Image or Visual Treatment -->
+          <div class="h-48 bg-slate-100 border-b border-brand-border/50 relative overflow-hidden">
+            {study.imageUrl ? (
+              <img
+                src={`${study.imageUrl}?w=600&h=400&fit=crop&auto=format`}
+                alt=""
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+                width="600"
+                height="400"
+              />
+            ) : (
+              <div class="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-brand-softBg to-slate-200 group-hover:scale-105 transition-transform duration-500">
+                 <div class="w-16 h-16 bg-white/60 rounded-full flex items-center justify-center mb-3 text-brand-primary">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                 </div>
+                 <span class="text-sm font-bold text-brand-navy/60 uppercase tracking-wide px-4 text-center">Case Study</span>
+              </div>
+            )}
+          </div>
+
+          <!-- Content -->
+          <div class="p-6 md:p-8 flex-grow flex flex-col">
+            <div class="mb-4">
+               <span class="inline-block bg-brand-softBg text-brand-primary text-xs font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">{study.industry}</span>
+               <h3 class="text-xl font-bold text-brand-navy group-hover:text-brand-accent transition-colors line-clamp-2">{study.title}</h3>
+            </div>
+
+            <p class="text-brand-textMuted line-clamp-3 mb-6 flex-grow text-sm leading-relaxed">
+              {study.summary}
+            </p>
+
+            <div class="mt-auto pt-4 border-t border-brand-border/50 text-brand-primary font-bold text-sm flex items-center group-hover:text-brand-accent transition-colors">
+              Read Case Study <span class="ml-2 transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div class="text-center">
+      <a href="/case-studies/" class="inline-flex justify-center items-center bg-transparent border-2 border-brand-primary text-brand-primary px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-brand-softBg">
+        View All Case Studies <span class="ml-2" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>

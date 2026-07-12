@@ -1,0 +1,104 @@
+---
+import { fetchFromSanity } from '../../lib/sanity/client';
+import { latestBlogPostsQuery } from '../../sanity/queries';
+
+let recentPosts = [];
+try {
+  // Query 3 recent posts by appending [0...3] slice to the base GROQ query
+  const query = `${latestBlogPostsQuery.trim()}[0...3]`;
+  recentPosts = await fetchFromSanity(query, {}, { useCdn: true, tags: ["website.blog.list"] });
+} catch (e) {
+  console.warn("Could not fetch recent posts from Sanity on Homepage");
+}
+
+const fallbackTopics = [
+  {
+    title: "Course Planning and Instructional Design",
+    slug: "",
+    topic: true
+  },
+  {
+    title: "LMS and Learning Technology",
+    slug: "",
+    topic: true
+  },
+  {
+    title: "Kajabi and Online Academy Development",
+    slug: "",
+    topic: true
+  }
+];
+
+const hasPosts = recentPosts && recentPosts.length > 0;
+const displayItems = hasPosts ? recentPosts : fallbackTopics;
+---
+<section class="py-24 bg-white border-y border-brand-border/30 relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Latest from the TheEduAssist Blog</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+      {displayItems.map(item => (
+        <a href={item.topic ? `/blog/` : `/blog/${item.slug.current || item.slug}/`} class="group bg-slate-50 rounded-2xl border border-brand-border hover:border-brand-accent/50 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden focus-ring h-full">
+          {/* Visual Treatment */}
+          <div class="h-48 bg-slate-200 border-b border-brand-border/50 relative overflow-hidden">
+            {item.topic ? (
+              <div class="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-brand-softBg to-slate-200 group-hover:scale-105 transition-transform duration-500">
+                 <div class="w-16 h-16 bg-white/60 rounded-full flex items-center justify-center mb-3 text-brand-primary">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                 </div>
+                 <span class="text-sm font-bold text-brand-navy/60 uppercase tracking-wide px-4 text-center">Explore This Topic</span>
+              </div>
+            ) : (
+              item.mainImage ? (
+                <img
+                  src={`${item.mainImage.asset?.url || item.mainImage}?w=600&h=400&fit=crop&auto=format`}
+                  alt=""
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                  width="600"
+                  height="400"
+                />
+              ) : (
+                <div class="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-brand-softBg to-slate-200 group-hover:scale-105 transition-transform duration-500">
+                   <div class="w-16 h-16 bg-white/60 rounded-full flex items-center justify-center mb-3 text-brand-primary">
+                      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                   </div>
+                </div>
+              )
+            )}
+          </div>
+
+          {/* Content */}
+          <div class="p-6 md:p-8 flex-grow flex flex-col">
+            <div class="mb-4">
+               {item.topic ? (
+                 <span class="inline-block bg-brand-softBg text-brand-primary text-xs font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">Topic</span>
+               ) : (
+                 item.category && <span class="inline-block bg-brand-softBg text-brand-primary text-xs font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">{item.category.title || item.category}</span>
+               )}
+               <h3 class="text-xl font-bold text-brand-navy group-hover:text-brand-accent transition-colors line-clamp-2">{item.title}</h3>
+            </div>
+
+            {!item.topic && (item.aiSummary || item.excerpt) && (
+              <p class="text-brand-textMuted line-clamp-3 mb-6 flex-grow text-sm leading-relaxed">
+                {item.aiSummary || item.excerpt}
+              </p>
+            )}
+
+            <div class="mt-auto pt-4 border-t border-brand-border/50 text-brand-primary font-bold text-sm flex items-center group-hover:text-brand-accent transition-colors">
+              {item.topic ? 'Explore Topic' : 'Read Article'} <span class="ml-2 transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div class="text-center">
+      <a href="/blog/" class="inline-flex justify-center items-center bg-transparent border-2 border-brand-primary text-brand-primary px-8 py-4 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-brand-softBg">
+        Visit the Blog <span class="ml-2" aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>
