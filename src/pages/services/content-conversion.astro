@@ -9,6 +9,7 @@ import ServiceDeliverables from "../../components/service-page/ServiceDeliverabl
 import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
 import ServiceLimitations from "../../components/service-page/ServiceLimitations.astro";
 import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceRelatedContent from "../../components/service-page/ServiceRelatedContent.astro";
 import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
 import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
 
@@ -32,9 +33,9 @@ const conversionFaqs = [
 const jsonLd = [
   professionalServiceSchema(),
   breadcrumbSchema([
-    { name: "Home", item: "/" },
-    { name: "Services", item: "/services/" },
-    { name: "Content Conversion and Modernization", item: "/services/content-conversion/" }
+    { name: "Home", urlPath: "/" },
+    { name: "Services", urlPath: "/services/" },
+    { name: "Content Conversion and Modernization", urlPath: "/services/content-conversion/" }
   ]),
   faqPageSchema(conversionFaqs.map(f => ({ questionName: f.question, acceptedAnswerText: f.answer })))
 ];
@@ -43,8 +44,8 @@ const jsonLd = [
 <Layout
   title={title}
   description={description}
-  canonical="/services/content-conversion/"
-  schema={jsonLd}
+  canonicalPath="/services/content-conversion/"
+  jsonLd={jsonLd}
 >
   <main id="main-content">
     <ServiceHero
@@ -165,12 +166,26 @@ const jsonLd = [
       ]}
     />
 
+    <section class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-2xl font-bold text-brand-navy mb-6">Related Services</h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="/services/instructional-design/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Instructional Design</a>
+                <a href="/services/course-development/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Course Development</a>
+                <a href="/services/custom-elearning-development/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Custom eLearning</a>
+                <a href="/services/lms-implementation-migration/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">LMS Implementation</a>
+                <a href="/services/quality-assurance-accessibility/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Quality Assurance</a>
+            </div>
+        </div>
+    </section>
+
     <ServiceRelatedCaseStudies
       slugs={['language-courses-book-publisher', 'sqa-aligned-vocational-training', 'business-analytics-corporate-training']}
     />
+    <ServiceRelatedContent categories={["Instructional Design", "E-Learning"]} />
 
     <ServiceFAQ faqs={conversionFaqs} />
 
-    <ServiceFinalCTA />
+    <ServiceFinalCTA serviceSlug="content-conversion" />
   </main>
 </Layout>

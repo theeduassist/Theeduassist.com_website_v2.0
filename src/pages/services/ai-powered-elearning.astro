@@ -32,9 +32,9 @@ const aiFaqs = [
 const jsonLd = [
   professionalServiceSchema(),
   breadcrumbSchema([
-    { name: "Home", item: "/" },
-    { name: "Services", item: "/services/" },
-    { name: "AI-Supported E-Learning", item: "/services/ai-powered-elearning/" }
+    { name: "Home", urlPath: "/" },
+    { name: "Services", urlPath: "/services/" },
+    { name: "AI-Supported E-Learning", urlPath: "/services/ai-powered-elearning/" }
   ]),
   faqPageSchema(aiFaqs.map(f => ({ questionName: f.question, acceptedAnswerText: f.answer })))
 ];
@@ -43,8 +43,8 @@ const jsonLd = [
 <Layout
   title={title}
   description={description}
-  canonical="/services/ai-powered-elearning/"
-  schema={jsonLd}
+  canonicalPath="/services/ai-powered-elearning/"
+  jsonLd={jsonLd}
 >
   <main id="main-content">
     <ServiceHero
@@ -158,9 +158,10 @@ const jsonLd = [
 
     <!-- Use case study only if AI involvement verified, else methodology block (using standard block for now) -->
     <!-- Case study omitted as per instructions unless verified -->
+    <ServiceRelatedContent categories={["AI", "Learning Design"]} />
 
     <ServiceFAQ faqs={aiFaqs} />
 
-    <ServiceFinalCTA />
+    <ServiceFinalCTA serviceSlug="ai-powered" />
   </main>
 </Layout>

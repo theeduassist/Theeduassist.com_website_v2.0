@@ -7,6 +7,7 @@ import ServiceInputs from "../../components/service-page/ServiceInputs.astro";
 import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
 import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
 import ServiceLimitations from "../../components/service-page/ServiceLimitations.astro";
+import ServiceRelatedContent from "../../components/service-page/ServiceRelatedContent.astro";
 import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
 import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
 
@@ -30,9 +31,9 @@ const qaFaqs = [
 const jsonLd = [
   professionalServiceSchema(),
   breadcrumbSchema([
-    { name: "Home", item: "/" },
-    { name: "Services", item: "/services/" },
-    { name: "E-Learning Quality Assurance and Accessibility", item: "/services/quality-assurance-accessibility/" }
+    { name: "Home", urlPath: "/" },
+    { name: "Services", urlPath: "/services/" },
+    { name: "E-Learning Quality Assurance and Accessibility", urlPath: "/services/quality-assurance-accessibility/" }
   ]),
   faqPageSchema(qaFaqs.map(f => ({ questionName: f.question, acceptedAnswerText: f.answer })))
 ];
@@ -41,8 +42,8 @@ const jsonLd = [
 <Layout
   title={title}
   description={description}
-  canonical="/services/quality-assurance-accessibility/"
-  schema={jsonLd}
+  canonicalPath="/services/quality-assurance-accessibility/"
+  jsonLd={jsonLd}
 >
   <main id="main-content">
     <ServiceHero
@@ -196,8 +197,24 @@ const jsonLd = [
       ]}
     />
 
+    <section class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-2xl font-bold text-brand-navy mb-6">Related Services</h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="/services/custom-elearning-development/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Custom eLearning</a>
+                <a href="/services/lms-implementation-migration/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">LMS Implementation</a>
+                <a href="/services/assessment-design/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Assessment Design</a>
+                <a href="/services/content-conversion/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Content Conversion</a>
+                <a href="/services/ongoing-support-maintenance/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Ongoing Support</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology block used when no case studies are fully verified -->
+    <ServiceRelatedContent categories={["Quality Assurance", "Accessibility"]} />
+
     <ServiceFAQ faqs={qaFaqs} />
 
-    <ServiceFinalCTA />
+    <ServiceFinalCTA serviceSlug="quality-assurance" />
   </main>
 </Layout>

@@ -8,6 +8,7 @@ import ServiceSupportModel from "../../components/service-page/ServiceSupportMod
 import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
 import ServiceLimitations from "../../components/service-page/ServiceLimitations.astro";
 import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceRelatedContent from "../../components/service-page/ServiceRelatedContent.astro";
 import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
 import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
 
@@ -31,9 +32,9 @@ const supportFaqs = [
 const jsonLd = [
   professionalServiceSchema(),
   breadcrumbSchema([
-    { name: "Home", item: "/" },
-    { name: "Services", item: "/services/" },
-    { name: "Ongoing Support & Maintenance", item: "/services/ongoing-support-maintenance/" }
+    { name: "Home", urlPath: "/" },
+    { name: "Services", urlPath: "/services/" },
+    { name: "Ongoing Support & Maintenance", urlPath: "/services/ongoing-support-maintenance/" }
   ]),
   faqPageSchema(supportFaqs.map(f => ({ questionName: f.question, acceptedAnswerText: f.answer })))
 ];
@@ -42,8 +43,8 @@ const jsonLd = [
 <Layout
   title={title}
   description={description}
-  canonical="/services/ongoing-support-maintenance/"
-  schema={jsonLd}
+  canonicalPath="/services/ongoing-support-maintenance/"
+  jsonLd={jsonLd}
 >
   <main id="main-content">
     <ServiceHero
@@ -123,12 +124,25 @@ const jsonLd = [
       ]}
     />
 
+    <section class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-2xl font-bold text-brand-navy mb-6">Related Services</h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="/services/lms-implementation-migration/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">LMS Implementation</a>
+                <a href="/kajabi-services/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Kajabi Services</a>
+                <a href="/services/quality-assurance-accessibility/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Quality Assurance</a>
+                <a href="/services/managed-learning-services/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Managed Learning Services</a>
+            </div>
+        </div>
+    </section>
+
     <ServiceRelatedCaseStudies
       slugs={['sqa-aligned-vocational-training', 'business-analytics-corporate-training', 'language-courses-book-publisher']}
     />
+    <ServiceRelatedContent categories={["Support", "Maintenance"]} />
 
     <ServiceFAQ faqs={supportFaqs} />
 
-    <ServiceFinalCTA />
+    <ServiceFinalCTA serviceSlug="ongoing-support" />
   </main>
 </Layout>

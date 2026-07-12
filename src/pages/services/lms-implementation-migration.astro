@@ -9,6 +9,7 @@ import ServiceDeliverables from "../../components/service-page/ServiceDeliverabl
 import ServiceMigrationProcess from "../../components/service-page/ServiceMigrationProcess.astro";
 import ServiceLimitations from "../../components/service-page/ServiceLimitations.astro";
 import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceRelatedContent from "../../components/service-page/ServiceRelatedContent.astro";
 import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
 import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
 
@@ -32,9 +33,9 @@ const lmsFaqs = [
 const jsonLd = [
   professionalServiceSchema(),
   breadcrumbSchema([
-    { name: "Home", item: "/" },
-    { name: "Services", item: "/services/" },
-    { name: "LMS Implementation and Migration", item: "/services/lms-implementation-migration/" }
+    { name: "Home", urlPath: "/" },
+    { name: "Services", urlPath: "/services/" },
+    { name: "LMS Implementation and Migration", urlPath: "/services/lms-implementation-migration/" }
   ]),
   faqPageSchema(lmsFaqs.map(f => ({ questionName: f.question, acceptedAnswerText: f.answer })))
 ];
@@ -43,8 +44,8 @@ const jsonLd = [
 <Layout
   title={title}
   description={description}
-  canonical="/services/lms-implementation-migration/"
-  schema={jsonLd}
+  canonicalPath="/services/lms-implementation-migration/"
+  jsonLd={jsonLd}
 >
   <main id="main-content">
     <ServiceHero
@@ -165,12 +166,27 @@ const jsonLd = [
       ]}
     />
 
+    <section class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-2xl font-bold text-brand-navy mb-6">Related Services</h2>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="/services/learning-strategy/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Learning Strategy</a>
+                <a href="/services/course-development/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Course Development</a>
+                <a href="/services/custom-elearning-development/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Custom eLearning</a>
+                <a href="/services/content-conversion/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Content Conversion</a>
+                <a href="/services/quality-assurance-accessibility/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Quality Assurance</a>
+                <a href="/services/ongoing-support-maintenance/" class="px-6 py-3 bg-slate-100 text-brand-navy rounded-full font-medium hover:bg-slate-200 transition-colors">Ongoing Support</a>
+            </div>
+        </div>
+    </section>
+
     <ServiceRelatedCaseStudies
       slugs={['sqa-aligned-vocational-training', 'business-analytics-corporate-training']}
     />
+    <ServiceRelatedContent categories={["LMS", "E-Learning"]} />
 
     <ServiceFAQ faqs={lmsFaqs} />
 
-    <ServiceFinalCTA />
+    <ServiceFinalCTA serviceSlug="lms-implementation" />
   </main>
 </Layout>
