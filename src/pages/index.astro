@@ -1,8 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import HomeHero from "../components/sections/HomeHero.astro";
-import TrustStrip from "../components/sections/TrustStrip.astro";
-import AudienceGrid from "../components/sections/AudienceGrid.astro";
+import HomeHero from "../components/home/HomeHero.astro";
+import HomeCapabilityStrip from "../components/home/HomeCapabilityStrip.astro";
+import AudiencePathways from "../components/home/AudiencePathways.astro";
+import ProblemNavigator from "../components/home/ProblemNavigator.astro";
 
 import CoreServicesGrid from "../components/sections/CoreServicesGrid.astro";
 import PlatformStrip from "../components/sections/PlatformStrip.astro";
@@ -51,9 +52,11 @@ const jsonLd = [
 
   <HomeHero />
 
-  <TrustStrip />
+  <HomeCapabilityStrip />
 
-  <AudienceGrid audienceSegments={audienceSegments} />
+  <AudiencePathways />
+
+  <ProblemNavigator />
 
 
 

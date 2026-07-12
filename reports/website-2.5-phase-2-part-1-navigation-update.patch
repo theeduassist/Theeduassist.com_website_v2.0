@@ -1,0 +1,36 @@
+--- src/data/siteNavigation.ts
++++ src/data/siteNavigation.ts
+@@ -25,6 +25,13 @@
+
+ export const siteNavigation: TopLevelNavigationItem[] = [
++  {
++    id: "home",
++    label: "Home",
++    href: "/",
++    type: "link",
++    enabled: true
++  },
+   {
+     id: "services",
+     label: "Services",
+@@ -75,9 +82,9 @@
+     enabled: true
+   },
+   {
+-    id: "insights",
+-    label: "Insights",
++    id: "blog",
++    label: "Blog",
+     href: "/blog/",
+     type: "link",
+     enabled: true
+   },
+@@ -109,7 +116,7 @@
+     { label: 'Kajabi Services', href: '/kajabi-services/' }
+   ],
+   resources: [
+-    { label: 'Insights', href: '/blog/' },
++    { label: 'Blog', href: '/blog/' },
+     { label: 'Case Studies', href: '/case-studies/' },
+     { label: 'Pricing', href: '/pricing/' },
+     { label: 'Platforms', href: '/platforms/' },

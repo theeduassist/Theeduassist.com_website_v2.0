@@ -1,0 +1,24 @@
+---
+const capabilities = [
+  "Learning Strategy",
+  "Instructional Design",
+  "Course Development",
+  "LMS and Kajabi",
+  "Content Conversion",
+  "Ongoing Support"
+];
+---
+<section class="bg-slate-50 border-b border-slate-200 py-6" aria-label="Capabilities">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <ul class="flex flex-wrap justify-center items-center gap-x-8 gap-y-4">
+      {capabilities.map((cap) => (
+        <li class="text-brand-navy font-semibold text-sm sm:text-base flex items-center gap-3">
+          <svg class="w-1.5 h-1.5 text-brand-green flex-shrink-0" fill="currentColor" viewBox="0 0 8 8" aria-hidden="true">
+            <circle cx="4" cy="4" r="3" />
+          </svg>
+          {cap}
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

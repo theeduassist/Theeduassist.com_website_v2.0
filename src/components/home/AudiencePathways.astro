@@ -1,0 +1,50 @@
+---
+import { ArrowRight, Building2, UserRound, Wrench } from "lucide-react";
+
+const pathways = [
+  {
+    title: "For Organizations and Training Teams",
+    description: "Build onboarding, workforce learning, customer education and scalable digital training systems.",
+    cta: "Discuss an Organizational Learning Project",
+    url: "/contact/",
+    icon: Building2
+  },
+  {
+    title: "For Creators, Coaches and Academies",
+    description: "Turn expertise into structured courses, learning programs, Kajabi systems and launch-ready learner journeys.",
+    cta: "Explore Kajabi and Course Support",
+    url: "/kajabi-services/",
+    icon: UserRound
+  },
+  {
+    title: "For DIY Builders and Practitioners",
+    description: "Use practical guidance and resources, then request expert support when your project requires strategy, review or complete implementation.",
+    cta: "Visit the Blog",
+    url: "/blog/",
+    icon: Wrench
+  }
+];
+---
+<section class="py-20 lg:py-32 bg-white" aria-labelledby="audience-heading">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 id="audience-heading" class="text-3xl md:text-4xl font-bold text-brand-navy tracking-tight">Choose the Support That Matches What You Are Building</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {pathways.map((pathway) => (
+        <div class="flex flex-col bg-slate-50 rounded-2xl p-8 border border-slate-200 transition-shadow hover:shadow-lg hover:border-brand-navy/20 h-full">
+          <div class="w-12 h-12 rounded-xl bg-brand-navy text-white flex items-center justify-center mb-6">
+            <pathway.icon className="w-6 h-6" />
+          </div>
+          <h3 class="text-xl font-bold text-brand-navy mb-4">{pathway.title}</h3>
+          <p class="text-slate-600 mb-8 flex-grow">{pathway.description}</p>
+          <a href={pathway.url} class="inline-flex items-center text-brand-navy font-semibold hover:text-brand-green transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-green rounded-sm">
+            {pathway.cta}
+            <ArrowRight className="ml-2 w-4 h-4" />
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
