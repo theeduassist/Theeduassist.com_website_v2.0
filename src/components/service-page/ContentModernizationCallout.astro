@@ -1,0 +1,80 @@
+---
+import { FileText, ArrowRight, Check } from "lucide-react";
+
+// Check if content conversion route is live in architecture
+import { getServiceById } from "../../data/serviceArchitecture";
+const conversionService = getServiceById("content-conversion");
+const isLive = conversionService?.status === "live";
+
+const ctaLabel = isLive ? "Explore Content Conversion" : "Review Your Existing Content";
+const ctaLink = isLive ? conversionService?.slug : "/book-free-audit/";
+---
+
+<section class="py-20 bg-brand-primary text-white relative overflow-hidden">
+  <div class="absolute inset-0 z-0 opacity-10">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,white_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 bg-white/10 rounded-full text-sm font-semibold tracking-wide uppercase mb-6 border border-white/20">
+          <FileText class="w-4 h-4" />
+          Got Existing Material?
+        </div>
+
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">We Work With What You Have</h2>
+
+        <p class="text-lg text-brand-softBg mb-8 leading-relaxed max-w-xl">
+          Don't start from scratch if you don't have to. We help clients modernize and structure existing materials into effective digital learning experiences.
+        </p>
+
+        <div class="bg-white/5 rounded-2xl p-6 border border-white/10 mb-8 max-w-xl">
+          <h3 class="font-bold text-lg mb-4">Source materials we often work with:</h3>
+          <div class="grid grid-cols-2 gap-3 text-brand-softBg">
+            {["Books & Manuals", "PDFs & Documents", "Presentations", "Video & Audio", "Classroom Materials", "Legacy Digital Courses"].map(item => (
+              <div class="flex items-center gap-2">
+                <Check class="w-4 h-4 text-brand-accent shrink-0" />
+                <span class="text-sm">{item}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <a
+          href={ctaLink}
+          class="inline-flex items-center px-8 py-4 bg-brand-accent text-white rounded-md font-bold text-lg hover:bg-white hover:text-brand-navy transition-all shadow-lg hover-lift click-press focus-ring"
+        >
+          {ctaLabel}
+          <ArrowRight class="w-5 h-5 ml-2" />
+        </a>
+      </div>
+
+      <div class="hidden lg:block relative">
+        <div class="absolute inset-0 bg-gradient-to-tr from-brand-accent/20 to-white/5 rounded-[2rem] blur-2xl"></div>
+        <div class="bg-brand-navy rounded-[2rem] p-8 border border-white/10 shadow-2xl relative">
+          <h3 class="text-xl font-bold mb-6 text-center border-b border-white/10 pb-4">The Modernization Process</h3>
+          <ol class="space-y-6 relative before:absolute before:inset-y-0 before:left-4 before:w-0.5 before:bg-white/10">
+            {[
+              { title: "Inventory & Mapping", desc: "Reviewing what exists and identifying gaps." },
+              { title: "Instructional Redesign", desc: "Restructuring content for online delivery." },
+              { title: "Asset Preparation", desc: "Designing visual and interactive elements." },
+              { title: "Digital Conversion", desc: "Building the actual course modules." },
+              { title: "Platform Setup & QA", desc: "Testing everything in the final system." }
+            ].map((step, index) => (
+              <li class="relative pl-12">
+                <div class="absolute left-0 top-0 w-8 h-8 rounded-full bg-brand-primary border-2 border-brand-accent flex items-center justify-center text-sm font-bold shadow-md">
+                  {index + 1}
+                </div>
+                <h4 class="font-bold text-lg text-white mb-1">{step.title}</h4>
+                <p class="text-sm text-slate-300">{step.desc}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

@@ -1,3 +1,5 @@
+import { getLiveServices } from "./serviceArchitecture";
+
 export type NavigationLink = {
   id: string;
   label: string;
@@ -23,6 +25,43 @@ export type TopLevelNavigationItem = {
   enabled?: boolean;
 };
 
+// Generate groups from the service architecture
+const createDesignGroup: NavigationGroup = {
+    id: "create-design",
+    label: "CREATE & DESIGN",
+    links: [
+        { id: "all-services", label: "All Services", href: "/services/", icon: "LayoutGrid" },
+        ...getLiveServices().filter(s => s.family === "strategy-design" || s.family === "development-content").map(s => ({
+            id: s.id,
+            label: s.title,
+            href: s.slug,
+            icon: s.icon
+        }))
+    ]
+};
+
+const platformsTechGroup: NavigationGroup = {
+    id: "platforms-tech",
+    label: "PLATFORMS & TECHNOLOGY",
+    links: getLiveServices().filter(s => s.family === "technology-platforms").map(s => ({
+        id: s.id,
+        label: s.title,
+        href: s.slug,
+        icon: s.icon
+    }))
+};
+
+const modernizeSupportGroup: NavigationGroup = {
+    id: "modernize-support",
+    label: "MODERNIZE & SUPPORT",
+    links: getLiveServices().filter(s => s.family === "quality-ai-support").map(s => ({
+        id: s.id,
+        label: s.title,
+        href: s.slug,
+        icon: s.icon
+    }))
+};
+
 export const siteNavigation: TopLevelNavigationItem[] = [
   {
     id: "home",
@@ -37,32 +76,10 @@ export const siteNavigation: TopLevelNavigationItem[] = [
     type: "mega-menu",
     enabled: true,
     groups: [
-      {
-        id: "create-design",
-        label: "CREATE & DESIGN",
-        links: [
-          { id: "all-services", label: "All Services", href: "/services/", icon: "LayoutGrid" },
-          { id: "custom-elearning", label: "Custom eLearning Development", href: "/services/custom-elearning-development/", icon: "PenTool" }
-        ]
-      },
-      {
-        id: "platforms-tech",
-        label: "PLATFORMS & TECHNOLOGY",
-        links: [
-          { id: "lms-implementation", label: "LMS Implementation & Migration", href: "/services/lms-implementation-migration/", icon: "Database" },
-          { id: "ai-powered", label: "AI-Powered eLearning", href: "/services/ai-powered-elearning/", icon: "Cpu" }
-        ]
-      },
-      {
-        id: "modernize-support",
-        label: "MODERNIZE & SUPPORT",
-        links: [
-          { id: "content-conversion", label: "Content Conversion", href: "/services/content-conversion/", icon: "RefreshCw" },
-          { id: "funnels-automation", label: "Funnels & Automation", href: "/services/funnels-automation/", icon: "Workflow" },
-          { id: "ongoing-support", label: "Ongoing Support & Maintenance", href: "/services/ongoing-support-maintenance/", icon: "LifeBuoy" }
-        ]
-      }
-    ]
+      createDesignGroup,
+      platformsTechGroup,
+      modernizeSupportGroup
+    ].filter(g => g.links.length > 0)
   },
   {
     id: "kajabi",
@@ -86,26 +103,18 @@ export const siteNavigation: TopLevelNavigationItem[] = [
     enabled: true
   },
   {
-    id: "blog",
-    label: "Blog",
-    href: "/blog/",
-    type: "link",
-    enabled: true
-  },
-  {
-    id: "about-us",
+    id: "about",
     label: "About Us",
     type: "dropdown",
-    href: "/about-us/",
     enabled: true,
     groups: [
       {
-        id: "company",
+        id: "about-company",
         label: "Company",
         links: [
-          { id: "about", label: "About TheEduAssist", href: "/about-us/" },
-          { id: "contact", label: "Contact Us", href: "/contact/" },
-          { id: "careers", label: "Careers", href: "/careers/" }
+          { id: "about-us", label: "About Us", href: "/about-us/", icon: "Users" },
+          { id: "blog", label: "Blog", href: "/blog/", icon: "BookOpen" },
+          { id: "platforms", label: "Supported Platforms", href: "/platforms/", icon: "Database" },
         ]
       }
     ]
@@ -114,33 +123,31 @@ export const siteNavigation: TopLevelNavigationItem[] = [
 
 export const footerNavigation = {
   services: [
-    { label: 'All Services', href: '/services/' },
-    { label: 'Custom eLearning Development', href: '/services/custom-elearning-development/' },
-    { label: 'LMS Implementation & Migration', href: '/services/lms-implementation-migration/' },
-    { label: 'AI-Powered eLearning', href: '/services/ai-powered-elearning/' },
-    { label: 'Content Conversion', href: '/services/content-conversion/' },
-    { label: 'Ongoing Support', href: '/services/ongoing-support-maintenance/' }
+    { label: "All Services", href: "/services/" },
+    ...getLiveServices().map(s => ({ label: s.title, href: s.slug })),
   ],
   kajabi: [
-    { label: 'Kajabi Services', href: '/kajabi-services/' }
+      { label: "Kajabi Services", href: "/kajabi-services/" }
   ],
   resources: [
-    { label: 'Blog', href: '/blog/' },
-    { label: 'Case Studies', href: '/case-studies/' },
-    { label: 'Pricing', href: '/pricing/' },
-    { label: 'Platforms', href: '/platforms/' },
-    { label: 'Sitemap', href: '/sitemap/' }
+      { label: "Blog", href: "/blog/" },
+      { label: "Case Studies", href: "/case-studies/" },
+      { label: "Platforms", href: "/platforms/" }
   ],
   company: [
-    { label: 'About TheEduAssist', href: '/about-us/' },
-    { label: 'Contact Us', href: '/contact/' },
-    { label: 'Careers', href: '/careers/' }
+    { label: "About Us", href: "/about-us/" },
+    { label: "Pricing", href: "/pricing/" },
+    { label: "Contact", href: "/contact/" }
   ],
-  trustLegal: [
-    { label: 'Privacy Policy', href: '/privacy-policy/' },
-    { label: 'Terms & Conditions', href: '/terms-and-conditions/' },
-    { label: 'Editorial Policy', href: '/editorial-policy/' },
-    { label: 'AI Use Policy', href: '/ai-use-policy/' },
-    { label: 'Accessibility Statement', href: '/accessibility-statement/' }
+  legal: [
+    { label: "Privacy Policy", href: "/privacy-policy/" },
+    { label: "Terms and Conditions", href: "/terms-and-conditions/" },
+    { label: "Accessibility", href: "/accessibility-statement/" },
+    { label: "Cookie Policy", href: "/cookie-policy/" }
+  ],
+  locations: [
+     { label: "London", href: "/locations/europe/united-kingdom/london/" },
+     { label: "Dubai", href: "/locations/middle-east/uae/dubai/" },
+     { label: "Toronto", href: "/locations/north-america/canada/toronto/" }
   ]
 };

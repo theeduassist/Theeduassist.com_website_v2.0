@@ -1,63 +1,16 @@
 ---
+// This route is deprecated and redirects to Kajabi services
 import Layout from "../../layouts/Layout.astro";
-import FunnelsHero from "../../components/funnels/FunnelsHero.astro";
-import FunnelsProblemSection from "../../components/funnels/FunnelsProblemSection.astro";
-import FunnelsAudienceSection from "../../components/funnels/FunnelsAudienceSection.astro";
-import FunnelJourney from "../../components/funnels/FunnelJourney.astro";
-import FunnelBuildServices from "../../components/funnels/FunnelBuildServices.astro";
-import KajabiFunnelSpecialty from "../../components/funnels/KajabiFunnelSpecialty.astro";
-import EmailAutomationSection from "../../components/funnels/EmailAutomationSection.astro";
-import AutomationLogicSection from "../../components/funnels/AutomationLogicSection.astro";
-import StudentOnboardingSection from "../../components/funnels/StudentOnboardingSection.astro";
-import FunnelAuditSection from "../../components/funnels/FunnelAuditSection.astro";
-import FunnelPackages from "../../components/funnels/FunnelPackages.astro";
-import FunnelComparison from "../../components/funnels/FunnelComparison.astro";
-import FunnelFAQ from "../../components/funnels/FunnelFAQ.astro";
-import FunnelFinalCTA from "../../components/funnels/FunnelFinalCTA.astro";
-
-import { professionalServiceSchema } from '../../lib/seo/schema';
-
-const jsonLd = [
-  professionalServiceSchema()
-];
 ---
-
 <Layout
-  title="Funnels & Automation Services | Course Launch Funnels, Emails & Student Onboarding"
-  description="TheEduAssist helps creators, coaches, educators, academies, and training businesses build course funnels, landing pages, email sequences, checkout flows, automations, student onboarding, and launch-ready learning systems."
-  canonicalPath="/services/funnels-automation/"
-  jsonLd={jsonLd}
+  title="Funnels & Automation | TheEduAssist"
+  description="This page has moved."
+  canonical="/kajabi-services/"
 >
-  <FunnelsHero />
-  <FunnelsProblemSection />
-  <FunnelsAudienceSection />
-  <FunnelJourney />
-  <FunnelBuildServices />
-  <KajabiFunnelSpecialty />
-  <EmailAutomationSection />
-  <AutomationLogicSection />
-  <StudentOnboardingSection />
-  <FunnelAuditSection />
-  <FunnelPackages />
-  <FunnelComparison />
-  <FunnelFAQ />
-  <FunnelFinalCTA />
-  <script>
-    import { openStartServiceChat } from "../../utils/tawkSales";
-    document.addEventListener("DOMContentLoaded", () => {
-      const btns = document.querySelectorAll(".tawk-service-btn");
-      btns.forEach(btn => {
-        btn.addEventListener("click", (e) => {
-          e.preventDefault();
-          const target = e.currentTarget as HTMLButtonElement;
-          openStartServiceChat({
-            serviceSlug: target.dataset.serviceSlug || "",
-            pageUrl: window.location.href,
-            pageTitle: document.title,
-          });
-        });
-      });
-    });
-  </script>
-
+    <meta http-equiv="refresh" content="0;url=/kajabi-services/" slot="head" />
+    <main class="py-32 text-center px-4">
+        <h1 class="text-3xl font-bold mb-4">Page Moved</h1>
+        <p class="text-slate-600 mb-8">Our funnels and automation services have been consolidated into our Kajabi Services.</p>
+        <a href="/kajabi-services/" class="text-brand-primary underline underline-offset-4 font-bold">Continue to Kajabi Services</a>
+    </main>
 </Layout>

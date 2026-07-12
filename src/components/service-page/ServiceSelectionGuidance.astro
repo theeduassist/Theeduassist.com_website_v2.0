@@ -1,0 +1,73 @@
+---
+import { HelpCircle, CheckCircle2 } from "lucide-react";
+import { getServiceById } from "../../data/serviceArchitecture";
+
+const customDev = getServiceById("custom-elearning");
+const lmsImpl = getServiceById("lms-implementation");
+const contentConv = getServiceById("content-conversion");
+const ongoingSupp = getServiceById("ongoing-support");
+
+const guidanceItems = [
+  {
+    condition: "the audience, curriculum or platform approach is unclear",
+    serviceTitle: "Learning Strategy",
+    link: "/contact/" // Link to contact as it's not live yet
+  },
+  {
+    condition: "the project requires purpose-built digital learning content",
+    serviceTitle: customDev?.title || "Custom eLearning",
+    link: customDev?.status === "live" ? customDev.slug : "/contact/"
+  },
+  {
+    condition: "the organization needs platform setup, migration or course organization",
+    serviceTitle: lmsImpl?.title || "LMS Implementation",
+    link: lmsImpl?.status === "live" ? lmsImpl.slug : "/contact/"
+  },
+  {
+    condition: "valuable source material already exists but is not ready for online learning",
+    serviceTitle: contentConv?.title || "Content Conversion",
+    link: contentConv?.status === "live" ? contentConv.slug : "/contact/"
+  },
+  {
+    condition: "the learning business uses or plans to use Kajabi",
+    serviceTitle: "Kajabi Services",
+    link: "/kajabi-services/"
+  },
+  {
+    condition: "the system is live but needs updates, QA and continued development",
+    serviceTitle: ongoingSupp?.title || "Ongoing Support",
+    link: ongoingSupp?.status === "live" ? ongoingSupp.slug : "/contact/"
+  }
+];
+---
+
+<section class="py-20 bg-slate-50 border-b border-slate-200">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center gap-4 mb-10 justify-center">
+      <div class="w-12 h-12 bg-brand-softBg rounded-full flex items-center justify-center text-brand-primary">
+        <HelpCircle class="w-6 h-6" />
+      </div>
+      <h2 class="text-3xl font-bold text-brand-navy">Service Selection Guidance</h2>
+    </div>
+
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+      <div class="p-6 md:p-8 space-y-6">
+        {guidanceItems.map((item) => (
+          <div class="flex flex-col sm:flex-row sm:items-start gap-3 sm:gap-6 pb-6 border-b border-slate-100 last:border-0 last:pb-0">
+            <div class="shrink-0 mt-1">
+              <CheckCircle2 class="w-6 h-6 text-brand-accent" />
+            </div>
+            <div>
+              <p class="text-slate-600 mb-2 leading-relaxed">
+                Choose <a href={item.link} class="font-bold text-brand-primary hover:text-brand-accent transition-colors focus-ring underline underline-offset-4 decoration-brand-accent/30">{item.serviceTitle}</a> when:
+              </p>
+              <p class="font-medium text-brand-navy">
+                {item.condition}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

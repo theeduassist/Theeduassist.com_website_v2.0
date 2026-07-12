@@ -1,0 +1,61 @@
+---
+import { Search, FolderGit2, RefreshCw } from "lucide-react";
+---
+
+<section class="py-24 bg-white border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-3xl font-bold text-brand-navy mb-4">How We Work Together</h2>
+      <p class="text-lg text-slate-600">
+        We offer three primary engagement models depending on where you are in your learning journey.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      {/* Model A */}
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 flex flex-col h-full hover:shadow-md transition-shadow">
+        <div class="w-14 h-14 bg-brand-primary text-white rounded-xl flex items-center justify-center mb-6">
+          <Search class="w-7 h-7" />
+        </div>
+        <h3 class="text-2xl font-bold text-brand-navy mb-3">Review & Recommendation</h3>
+        <p class="text-slate-600 mb-6 flex-grow leading-relaxed">
+          For clients who need clarity before selecting a service. We review your goals, audience, and existing materials to recommend the clearest starting point.
+        </p>
+        <a href="/book-free-audit/" class="inline-flex justify-center items-center px-6 py-3 bg-white text-brand-navy border-2 border-brand-primary rounded-md font-bold hover:bg-brand-primary hover:text-white transition-colors focus-ring w-full">
+          Get a 24–48 Hour Review
+        </a>
+      </div>
+
+      {/* Model B */}
+      <div class="bg-brand-navy border border-brand-navy rounded-2xl p-8 flex flex-col h-full shadow-lg relative overflow-hidden text-white transform md:-translate-y-4">
+        <div class="absolute right-0 top-0 w-32 h-32 bg-brand-accent/20 rounded-full blur-2xl translate-x-1/2 -translate-y-1/2"></div>
+        <div class="w-14 h-14 bg-brand-accent text-white rounded-xl flex items-center justify-center mb-6 relative z-10">
+          <FolderGit2 class="w-7 h-7" />
+        </div>
+        <h3 class="text-2xl font-bold mb-3 relative z-10">Defined Project</h3>
+        <p class="text-slate-300 mb-6 flex-grow leading-relaxed relative z-10">
+          For a clearly scoped custom eLearning course, LMS setup, content conversion, or Kajabi implementation. We define deliverables and build it.
+        </p>
+        <a href="/contact/" class="inline-flex justify-center items-center px-6 py-3 bg-brand-accent text-white rounded-md font-bold hover:bg-white hover:text-brand-navy transition-colors focus-ring w-full relative z-10">
+          Discuss Your Project
+        </a>
+      </div>
+
+      {/* Model C */}
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 flex flex-col h-full hover:shadow-md transition-shadow">
+        <div class="w-14 h-14 bg-brand-primary text-white rounded-xl flex items-center justify-center mb-6">
+          <RefreshCw class="w-7 h-7" />
+        </div>
+        <h3 class="text-2xl font-bold text-brand-navy mb-3">Ongoing Support</h3>
+        <p class="text-slate-600 mb-6 flex-grow leading-relaxed">
+          For continuing needs. Once your system is live, we can provide ongoing content updates, platform maintenance, QA, and learning operation support.
+        </p>
+        <a href="/contact/" class="inline-flex justify-center items-center px-6 py-3 bg-white text-brand-navy border-2 border-brand-primary rounded-md font-bold hover:bg-brand-primary hover:text-white transition-colors focus-ring w-full">
+          Discuss Ongoing Support
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
