@@ -1,0 +1,10 @@
+---
+import RelatedArticles from "../blog/RelatedArticles.astro";
+
+interface Props {
+  categories: string[];
+}
+
+const { categories } = Astro.props;
+---
+<RelatedArticles categories={categories} />

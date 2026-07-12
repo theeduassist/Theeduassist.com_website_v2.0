@@ -1,0 +1,161 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceAudience from "../../components/service-page/ServiceAudience.astro";
+import ServiceProblems from "../../components/service-page/ServiceProblems.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceQuality from "../../components/service-page/ServiceQuality.astro";
+import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+import { professionalServiceSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const audience = [
+  { role: "L&D Teams", description: "Looking to augment their design capabilities." },
+  { role: "Subject-Matter Experts", description: "Needing to structure their knowledge." },
+  { role: "Training Providers", description: "Enhancing the quality of their offerings." },
+  { role: "Course Creators", description: "Building effective learning products." },
+  { role: "Academies", description: "Scaling their educational content." },
+  { role: "Publishers", description: "Translating content into active learning." },
+  { role: "Professional Associations", description: "Developing certification programs." },
+  { role: "Organizations", description: "Converting instructor-led training to digital." },
+  { role: "Clients", description: "Improving an existing online course." }
+];
+
+const problems = [
+  { problem: "Content presented without clear outcomes", solution: "Defining specific, measurable goals for every lesson." },
+  { problem: "Long lessons with little learner participation", solution: "Designing interactive elements and active practice." },
+  { problem: "Weak module sequence", solution: "Structuring content logically to build knowledge progressively." },
+  { problem: "Excessive information", solution: "Managing cognitive load by prioritizing essential content." },
+  { problem: "Assessments not aligned with learning goals", solution: "Ensuring tests accurately measure intended outcomes." },
+  { problem: "Inconsistent learning experiences", solution: "Applying standard design frameworks for uniform quality." },
+  { problem: "Courses built around content rather than learner needs", solution: "Focusing on learner journey and application." },
+  { problem: "Limited learner guidance", solution: "Providing clear instructions and support mechanisms." },
+  { problem: "Repetitive or passive activities", solution: "Varying activity types for engagement and retention." }
+];
+
+const deliverables = [
+  "Instructional design plan",
+  "Curriculum map",
+  "Course outline",
+  "Module design",
+  "Learning objectives",
+  "Lesson plans",
+  "Storyboard",
+  "Script",
+  "Activity plan",
+  "Assessment blueprint",
+  "Facilitator guide",
+  "Learner workbook",
+  "Feedback strategy",
+  "Development specifications"
+];
+
+const processSteps = [
+  { title: "Analyze", description: "Analyze audience and goals." },
+  { title: "Review", description: "Review and prioritize content." },
+  { title: "Define", description: "Define measurable learning outcomes." },
+  { title: "Structure", description: "Structure modules and lessons." },
+  { title: "Design", description: "Design activities and assessments." },
+  { title: "Prepare", description: "Prepare storyboards or production plans." },
+  { title: "Review", description: "Review with subject-matter experts." },
+  { title: "Support", description: "Support development and QA." }
+];
+
+const qualityPoints = [
+  "Alignment between outcomes, content and assessment.",
+  "Learner workload and pacing.",
+  "Content sequence and logical flow.",
+  "Clarity of instructions.",
+  "Accessibility fundamentals.",
+  "Consistency in design and language.",
+  "Assessment validity.",
+  "Practical relevance to the learner.",
+  "Stakeholder and SME review processes."
+];
+
+const faqs = [
+  { question: "Is instructional design different from graphic design?", answer: "Yes. Instructional design focuses on how people learn, structuring content and activities for comprehension, rather than just visual aesthetics." },
+  { question: "Can you work with a subject-matter expert?", answer: "Absolutely. We regularly collaborate with SMEs to extract their knowledge and shape it into effective learning formats." },
+  { question: "Can you redesign an existing course?", answer: "Yes, we can evaluate your current course and apply instructional design principles to improve engagement and outcomes." },
+  { question: "Do you create storyboards and scripts?", answer: "Yes, storyboarding and scripting are core deliverables in preparing content for production." },
+  { question: "Can you design assessments and activities?", answer: "Yes, we design quizzes, scenarios, reflections, and practical activities aligned to learning goals." },
+  { question: "Do you support instructor-led and online learning?", answer: "Yes, we design for e-learning, ILT (instructor-led training), vILT, and blended learning environments." },
+  { question: "Can instructional design be combined with course development?", answer: "Often, instructional design is the critical phase immediately preceding our custom development services." },
+  { question: "Which platforms can the design be built for?", answer: "Our designs are platform-agnostic, though we often tailor the approach for specific LMS or platforms like Kajabi if known in advance." }
+];
+
+const jsonLd = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Services", urlPath: "/services/" },
+    { name: "Instructional Design Services", urlPath: "/services/instructional-design/" }
+  ])
+];
+---
+
+<Layout
+  title="Instructional Design Services | TheEduAssist"
+  description="Turn knowledge into a clear and effective learning experience with structured instructional design."
+  canonicalPath="/services/instructional-design/"
+  jsonLd={jsonLd}
+>
+  <ServiceHero
+    eyebrow="Instructional Design Services"
+    title="Turn Knowledge into a Clear and Effective Learning Experience"
+    description="TheEduAssist uses instructional design to organize content, define learning outcomes, plan activities and assessments, and create a learner journey that supports practical understanding and application."
+    primaryCtaLabel="Discuss Your Instructional Design Project"
+    primaryCtaLink="/contact/"
+    secondaryCtaLabel="Review Your Existing Content"
+    secondaryCtaLink="/book-free-audit/"
+  />
+
+  <ServiceShortAnswer
+    heading="What Does an Instructional Designer Do?"
+    answer="An instructional designer analyzes the audience and learning goals, structures content, designs activities and assessments, and plans how the learning experience should be delivered and evaluated."
+  />
+
+  <ServiceAudience audience={audience} />
+
+  <ServiceProblems problems={problems} />
+
+  <ServiceDeliverables
+    title="What the Service May Include"
+    description="Common artifacts produced during instructional design."
+    deliverables={deliverables}
+  />
+
+  <section class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-brand-navy mb-6">Our Instructional Approach</h2>
+      <p class="text-lg text-slate-700 leading-relaxed">
+        Our approach draws from proven principles in practical language, including backward design, constructive alignment, managing cognitive load, active learning, spaced and retrieval practice, scenario-based learning, and formative assessment.
+      </p>
+    </div>
+  </section>
+
+  <ServiceProcess steps={processSteps} />
+
+  <ServiceQuality
+    title="Quality Review Areas"
+    description="How we ensure the design meets high standards."
+    points={qualityPoints}
+  />
+
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-brand-navy mb-4">Related Case Studies</h2>
+        <p class="text-lg text-slate-600">See our instructional design in action.</p>
+      </div>
+      <ServiceRelatedCaseStudies slugs={['business-analytics-corporate-teams', 'sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
+    </div>
+  </section>
+
+  <ServiceFAQ faqs={faqs} />
+
+  <ServiceFinalCTA serviceSlug="instructional-design" />
+</Layout>

@@ -43,26 +43,26 @@ export const serviceArchitecture: ServiceDefinition[] = [
     problemSolved: "Our knowledge is not organized.",
     audience: ["Organizations", "Creators"],
     icon: "Map",
-    status: "planned-part-2",
-    publicVisibility: false,
-    navigationVisibility: false,
-    hubVisibility: false,
+    status: "live",
+    publicVisibility: true,
+    navigationVisibility: true,
+    hubVisibility: true,
     ctaType: "review"
   },
   {
     id: "instructional-design",
-    title: "Instructional Design",
+    title: "Instructional Design Services",
     slug: "/services/instructional-design/",
     family: "strategy-design",
     shortDescription: "Structure content for effective learning and engagement.",
     problemSolved: "We need to structure our learning material.",
     audience: ["Organizations", "Creators"],
     icon: "PenTool",
-    status: "planned-part-2",
-    publicVisibility: false,
-    navigationVisibility: false,
-    hubVisibility: false,
-    ctaType: "review"
+    status: "live",
+    publicVisibility: true,
+    navigationVisibility: true,
+    hubVisibility: true,
+    ctaType: "contact"
   },
   {
     id: "course-development",
@@ -73,11 +73,11 @@ export const serviceArchitecture: ServiceDefinition[] = [
     problemSolved: "We need to build a new online course.",
     audience: ["Organizations", "Creators"],
     icon: "BookOpen",
-    status: "planned-part-2",
-    publicVisibility: false,
-    navigationVisibility: false,
-    hubVisibility: false,
-    ctaType: "review"
+    status: "live",
+    publicVisibility: true,
+    navigationVisibility: true,
+    hubVisibility: true,
+    ctaType: "contact"
   },
   {
     id: "assessment-design",
@@ -88,11 +88,11 @@ export const serviceArchitecture: ServiceDefinition[] = [
     problemSolved: "We need to measure learning progress.",
     audience: ["Organizations", "Creators"],
     icon: "CheckSquare",
-    status: "planned-part-2",
-    publicVisibility: false,
-    navigationVisibility: false,
-    hubVisibility: false,
-    ctaType: "review"
+    status: "live",
+    publicVisibility: true,
+    navigationVisibility: true,
+    hubVisibility: true,
+    ctaType: "contact"
   },
 
   // B. DEVELOPMENT AND CONTENT

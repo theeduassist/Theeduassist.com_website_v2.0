@@ -1,27 +1,69 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import CourseCreationHero from "../../components/course-creation/CourseCreationHero.astro";
-import CourseProblemSection from "../../components/course-creation/CourseProblemSection.astro";
-import CourseAudienceSection from "../../components/course-creation/CourseAudienceSection.astro";
-import CourseLifecycle from "../../components/course-creation/CourseLifecycle.astro";
-import CourseWhatWeCreate from "../../components/course-creation/CourseWhatWeCreate.astro";
-import CurriculumDesignSection from "../../components/course-creation/CurriculumDesignSection.astro";
-import ContentConversionSection from "../../components/course-creation/ContentConversionSection.astro";
-import LearnerExperienceSection from "../../components/course-creation/LearnerExperienceSection.astro";
-import CourseDeliverables from "../../components/course-creation/CourseDeliverables.astro";
-import CoursePackages from "../../components/course-creation/CoursePackages.astro";
-import CourseComparison from "../../components/course-creation/CourseComparison.astro";
-import CourseFAQ from "../../components/course-creation/CourseFAQ.astro";
-import CourseFinalCTA from "../../components/course-creation/CourseFinalCTA.astro";
-import CaseStudyProof from "../../components/case-studies/CaseStudyProof.astro";
-import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceAudience from "../../components/service-page/ServiceAudience.astro";
+import ServiceProblems from "../../components/service-page/ServiceProblems.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceInputs from "../../components/service-page/ServiceInputs.astro";
+import ServiceQuality from "../../components/service-page/ServiceQuality.astro";
+import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
 
 import { professionalServiceSchema, breadcrumbSchema } from '../../lib/seo/schema';
 
-const aiAnswers = [
-  { q: "Can TheEduAssist create courses from PDFs and slides?", a: "Yes. TheEduAssist specializes in converting raw materials like PDFs, slide decks, manuals, and notes into structured online courses." },
-  { q: "Can TheEduAssist design curriculum and lesson flow?", a: "Yes. The agency helps map out logical learning journeys, ensuring learners know exactly what to do next to achieve their goals." },
-  { q: "Can TheEduAssist create learner-friendly activities?", a: "Yes. They can design quizzes, reflection prompts, worksheets, and practical tasks that align with the course objectives." }
+const audience = [
+  { role: "Organizations", description: "Need custom digital training for employees or customers." },
+  { role: "Creators", description: "Turning their expertise into high-quality digital courses." },
+  { role: "L&D Teams", description: "Scaling their learning programs with engaging content." },
+  { role: "Training Providers", description: "Building proprietary learning products." }
+];
+
+const problems = [
+  { problem: "Generic, off-the-shelf courses don't fit", solution: "Custom content built specifically for your audience and goals." },
+  { problem: "Low learner engagement", solution: "Interactive elements and multimedia to keep learners active." },
+  { problem: "Need content to run in an LMS", solution: "SCORM, xAPI, and LMS-ready export formats." },
+  { problem: "Complex information is hard to teach online", solution: "Instructional design applied to simplify complex topics." }
+];
+
+const deliverables = [
+  "SCORM/xAPI compliant course modules",
+  "Interactive learning activities",
+  "Multimedia assets (graphics, basic animations)",
+  "Knowledge checks and quizzes",
+  "Source files (Storyline, Rise, etc. if applicable)"
+];
+
+const processSteps = [
+  { title: "Kickoff", description: "Aligning on goals, brand, and technical requirements." },
+  { title: "Storyboarding", description: "Mapping out the visual and interactive flow." },
+  { title: "Prototyping", description: "Building a small slice for look-and-feel approval." },
+  { title: "Development", description: "Building the full course modules." },
+  { title: "QA & Testing", description: "Testing functionality across devices and platforms." },
+  { title: "Delivery", description: "Providing the final files ready for your LMS." }
+];
+
+const inputs = [
+  "Approved content or storyboards (if providing your own)",
+  "Brand guidelines and assets",
+  "LMS technical requirements",
+  "SME availability for reviews"
+];
+
+const qualityPoints = [
+  "Multi-device testing (responsive design).",
+  "Accessibility checks based on requirements (e.g., contrast, screen reader compatibility).",
+  "LMS interoperability testing.",
+  "Iterative review cycles with your team."
+];
+
+const faqs = [
+  { question: "What authoring tools do you use?", answer: "We use a variety of tools depending on your needs, including Articulate Storyline, Rise 360, and custom HTML5 development." },
+  { question: "Can you update our existing custom courses?", answer: "Yes, if you have the source files, we can update and modernize existing e-learning modules." },
+  { question: "How long does it take to develop a course?", answer: "Timelines vary based on complexity and length, but a typical module takes 4-8 weeks from kickoff to final delivery." },
+  { question: "Do we own the final course?", answer: "Yes, upon project completion and final payment, you own the final course files and the intellectual property of your content." }
 ];
 
 const jsonLd = [
@@ -29,7 +71,7 @@ const jsonLd = [
   breadcrumbSchema([
     { name: "Home", urlPath: "/" },
     { name: "Services", urlPath: "/services/" },
-    { name: "Course Creation & Curriculum Design", urlPath: "/services/custom-elearning-development/" }
+    { name: "Custom eLearning Development", urlPath: "/services/custom-elearning-development/" }
   ])
 ];
 ---
@@ -40,38 +82,44 @@ const jsonLd = [
   jsonLd={jsonLd}
 >
 
-  <CourseCreationHero />
-  <CourseProblemSection />
-  <CourseAudienceSection />
-  <CourseLifecycle />
-  <CourseWhatWeCreate />
-  <CurriculumDesignSection />
-  <ContentConversionSection />
-  <LearnerExperienceSection />
-  <CourseDeliverables />
-  <CoursePackages />
-  <CourseComparison />
-  <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
-  <AIAnswerBlock questions={aiAnswers} />
-  <CourseFAQ />
-  <CourseFinalCTA />
+  <ServiceHero
+    eyebrow="Custom eLearning Development"
+    title="Engaging Digital Learning Built for Your Audience"
+    description="We design and develop custom eLearning courses that are interactive, accessible, and aligned with your specific business goals and technical requirements."
+    primaryCtaLabel="Discuss Your eLearning Project"
+    primaryCtaLink="/contact/"
+    secondaryCtaLabel="Review Your Existing Content"
+    secondaryCtaLink="/book-free-audit/"
+  />
 
-  <script>
-    import { openStartServiceChat } from "../../utils/tawkSales";
-    document.addEventListener("DOMContentLoaded", () => {
-      const btns = document.querySelectorAll(".tawk-service-btn");
-      btns.forEach(btn => {
-        btn.addEventListener("click", (e) => {
-          e.preventDefault();
-          const target = e.currentTarget as HTMLButtonElement;
-          openStartServiceChat({
-            serviceSlug: target.dataset.serviceSlug || "",
-            pageUrl: window.location.href,
-            pageTitle: document.title,
-          });
-        });
-      });
-    });
-  </script>
+  <ServiceShortAnswer
+    heading="What is Custom eLearning Development?"
+    answer="It's the process of building digital learning content specifically for your organization, rather than buying off-the-shelf courses. This ensures the training exactly matches your processes, brand, and learner needs."
+  />
+
+  <ServiceAudience audience={audience} />
+
+  <ServiceProblems problems={problems} />
+
+  <ServiceDeliverables deliverables={deliverables} />
+
+  <ServiceInputs inputs={inputs} />
+
+  <ServiceProcess steps={processSteps} />
+
+  <ServiceQuality points={qualityPoints} />
+
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-brand-navy mb-4">Related Case Studies</h2>
+      </div>
+      <ServiceRelatedCaseStudies slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
+    </div>
+  </section>
+
+  <ServiceFAQ faqs={faqs} />
+
+  <ServiceFinalCTA serviceSlug="custom-elearning-development" />
 
 </Layout>

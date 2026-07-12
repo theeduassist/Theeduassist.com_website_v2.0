@@ -1,0 +1,122 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceAudience from "../../components/service-page/ServiceAudience.astro";
+import ServiceProblems from "../../components/service-page/ServiceProblems.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceInputs from "../../components/service-page/ServiceInputs.astro";
+import ServiceQuality from "../../components/service-page/ServiceQuality.astro";
+import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+import { professionalServiceSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const audience = [
+  { role: "Creators", description: "Building a first course." },
+  { role: "Academies", description: "Expanding course portfolios." },
+  { role: "Organizations", description: "Building internal learning." },
+  { role: "Publishers", description: "Converting books into courses." },
+  { role: "Training Providers", description: "Professional training organizations." },
+  { role: "Subject-Matter Experts", description: "Sharing specialized knowledge." },
+  { role: "Certification Bodies", description: "Creating vocational training." }
+];
+
+const problems = [
+  { problem: "Scattered knowledge", solution: "Structured synthesis of expertise into a cohesive curriculum." },
+  { problem: "Overwhelming content", solution: "Curation and pacing for optimal learner consumption." },
+  { problem: "Lack of engagement", solution: "Integration of interactive and practical activities." },
+  { problem: "Unclear progression", solution: "Clear mapping of learner journey from start to finish." },
+  { problem: "Not ready for development", solution: "Producing development-ready specifications and assets." }
+];
+
+const deliverables = [
+  "Complete curriculum map",
+  "Module and lesson outlines",
+  "Learning objectives",
+  "Assessment strategy",
+  "Activity designs",
+  "Development-ready content plan"
+];
+
+const processSteps = [
+  { title: "Discovery", description: "Gathering source material and goals." },
+  { title: "Architecture", description: "Drafting the high-level course structure." },
+  { title: "Detailed Design", description: "Fleshing out lessons and activities." },
+  { title: "Review", description: "Validating with stakeholders and SMEs." },
+  { title: "Finalization", description: "Preparing the curriculum for development." }
+];
+
+const qualityPoints = [
+  "Rigorous alignment with stated goals.",
+  "Appropriate cognitive load for the target audience.",
+  "Clear instructional pathways.",
+  "SME sign-off on accuracy."
+];
+
+const faqs = [
+  { question: "How is this different from instructional design?", answer: "Curriculum development focuses heavily on the macro-structure—the sequence of modules and the overall learning journey—while instructional design often delves deeper into the micro-level of individual lesson interactions and cognitive strategies." },
+  { question: "Do you build the course in the LMS?", answer: "This service focuses on the development of the curriculum structure and content plan. The actual build within an LMS is typically handled in our Custom eLearning Development service." },
+  { question: "What if we don't have all the content yet?", answer: "We can help identify content gaps during the curriculum mapping phase and guide you on what needs to be created." }
+];
+
+const jsonLd = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Services", urlPath: "/services/" },
+    { name: "Course and Curriculum Development", urlPath: "/services/course-development/" }
+  ])
+];
+---
+
+<Layout
+  title="Course and Curriculum Development | TheEduAssist"
+  description="Develop a course structure learners can follow. We transform expertise into structured curriculums with clear modules and activities."
+  canonicalPath="/services/course-development/"
+  jsonLd={jsonLd}
+>
+  <ServiceHero
+    eyebrow="Course and Curriculum Development"
+    title="Develop a Course Structure Learners Can Follow and Use"
+    description="TheEduAssist helps transform expertise, source content and training goals into a structured curriculum with clear modules, lessons, activities, assessments and supporting resources."
+    primaryCtaLabel="Discuss Your Course"
+    primaryCtaLink="/contact/"
+    secondaryCtaLabel="Get a 24–48 Hour Review"
+    secondaryCtaLink="/book-free-audit/"
+  />
+
+  <ServiceShortAnswer
+    heading="What Is Course and Curriculum Development?"
+    answer="Course and curriculum development defines what learners should achieve, which content is required, how topics should be sequenced and how learning should be taught, practiced and assessed."
+  />
+
+  <ServiceAudience audience={audience} />
+
+  <ServiceProblems problems={problems} />
+
+  <ServiceDeliverables
+    deliverables={deliverables}
+  />
+
+  <ServiceProcess steps={processSteps} />
+
+  <ServiceQuality
+    points={qualityPoints}
+  />
+
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-brand-navy mb-4">Related Case Studies</h2>
+        <p class="text-lg text-slate-600">See our curriculum development in action.</p>
+      </div>
+      <ServiceRelatedCaseStudies slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
+    </div>
+  </section>
+
+  <ServiceFAQ faqs={faqs} />
+
+  <ServiceFinalCTA serviceSlug="course-development" />
+</Layout>

@@ -1,0 +1,45 @@
+---
+import { CheckCircle2, XCircle } from "lucide-react";
+
+interface Problem {
+  problem: string;
+  solution: string;
+}
+
+interface Props {
+  title?: string;
+  description?: string;
+  problems: Problem[];
+}
+
+const {
+  title = "Problems We Solve",
+  description,
+  problems
+} = Astro.props;
+---
+
+<section class="py-16 bg-slate-50 border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h2 class="text-3xl font-bold text-brand-navy mb-4">{title}</h2>
+      {description && <p class="text-lg text-slate-600">{description}</p>}
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      {problems.map((item) => (
+        <div class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm flex flex-col sm:flex-row gap-6">
+          <div class="flex-1">
+            <div class="flex items-start gap-3 mb-3">
+              <XCircle class="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
+              <p class="text-slate-700 font-medium">{item.problem}</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <CheckCircle2 class="w-5 h-5 text-brand-accent shrink-0 mt-0.5" />
+              <p class="text-slate-600">{item.solution}</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
