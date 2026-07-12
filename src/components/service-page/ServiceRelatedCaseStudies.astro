@@ -1,0 +1,10 @@
+---
+import CaseStudyProof from "../case-studies/CaseStudyProof.astro";
+
+interface Props {
+  slugs: string[];
+}
+
+const { slugs } = Astro.props;
+---
+<CaseStudyProof slugs={slugs} />

@@ -1,0 +1,117 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceAudience from "../../components/service-page/ServiceAudience.astro";
+import ServiceProblems from "../../components/service-page/ServiceProblems.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceInputs from "../../components/service-page/ServiceInputs.astro";
+import ServiceQuality from "../../components/service-page/ServiceQuality.astro";
+import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+import { professionalServiceSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const audience = [
+  { role: "Organizations", description: "Measuring onboarding effectiveness." },
+  { role: "Certification Bodies", description: "Developing valid exams." },
+  { role: "Academies", description: "Ensuring learner progression." },
+  { role: "Creators", description: "Adding value to their courses." }
+];
+
+const problems = [
+  { problem: "Assessments are too easy or too hard", solution: "Calibrating difficulty to learning objectives." },
+  { problem: "Tests don't measure what was taught", solution: "Ensuring constructive alignment between content and assessment." },
+  { problem: "Learners get stuck", solution: "Designing formative assessments with helpful feedback." },
+  { problem: "Lack of practical application", solution: "Creating scenario-based and project-based activities." }
+];
+
+const deliverables = [
+  "Assessment strategy",
+  "Quiz and test questions (MCQ, short answer, etc.)",
+  "Rubrics for subjective grading",
+  "Scenario-based assessment designs",
+  "Formative feedback scripts"
+];
+
+const processSteps = [
+  { title: "Review", description: "Review learning objectives and content." },
+  { title: "Strategy", description: "Determine the appropriate assessment mix." },
+  { title: "Drafting", description: "Write items, rubrics, and scenarios." },
+  { title: "Validation", description: "Review items for clarity and validity." },
+  { title: "Finalization", description: "Prepare for platform integration." }
+];
+
+const qualityPoints = [
+  "Alignment with learning objectives.",
+  "Clarity and lack of ambiguity in questions.",
+  "Appropriate difficulty level.",
+  "Constructive feedback for incorrect answers."
+];
+
+const faqs = [
+  { question: "What types of assessments do you design?", answer: "We design everything from simple knowledge checks (multiple choice, matching) to complex scenarios, peer reviews, and portfolio rubrics." },
+  { question: "Can you help prevent cheating?", answer: "We can design assessments that focus on application rather than memorization, making them harder to 'cheat' on, and advise on platform settings like question pooling." },
+  { question: "Do you configure the assessments in our LMS?", answer: "We can provide the assessments in a format ready for import, or configure them directly as part of a broader development engagement." }
+];
+
+const jsonLd = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Services", urlPath: "/services/" },
+    { name: "Assessment and Learning Activity Design", urlPath: "/services/assessment-design/" }
+  ])
+];
+---
+
+<Layout
+  title="Assessment and Learning Activity Design | TheEduAssist"
+  description="Create meaningful tests and practice exercises that accurately measure learning progress and support skill development."
+  canonicalPath="/services/assessment-design/"
+  jsonLd={jsonLd}
+>
+  <ServiceHero
+    eyebrow="Assessment and Activity Design"
+    title="Measure Learning Progress Accurately"
+    description="TheEduAssist designs meaningful tests, practice exercises, and practical activities that align with your learning goals and provide actionable feedback."
+    primaryCtaLabel="Discuss Your Assessment Needs"
+    primaryCtaLink="/contact/"
+    secondaryCtaLabel="Get a 24–48 Hour Review"
+    secondaryCtaLink="/book-free-audit/"
+  />
+
+  <ServiceShortAnswer
+    heading="What Is Assessment Design?"
+    answer="Assessment design is the creation of methods—like quizzes, projects, or scenarios—to evaluate whether learners have achieved the intended learning outcomes, while providing feedback to guide their progress."
+  />
+
+  <ServiceAudience audience={audience} />
+
+  <ServiceProblems problems={problems} />
+
+  <ServiceDeliverables
+    deliverables={deliverables}
+  />
+
+  <ServiceProcess steps={processSteps} />
+
+  <ServiceQuality
+    points={qualityPoints}
+  />
+
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-brand-navy mb-4">Related Case Studies</h2>
+        <p class="text-lg text-slate-600">See our assessment design in action.</p>
+      </div>
+      <ServiceRelatedCaseStudies slugs={['sqa-aligned-vocational-training']} />
+    </div>
+  </section>
+
+  <ServiceFAQ faqs={faqs} />
+
+  <ServiceFinalCTA serviceSlug="assessment-design" />
+</Layout>

@@ -1,0 +1,158 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceAudience from "../../components/service-page/ServiceAudience.astro";
+import ServiceProblems from "../../components/service-page/ServiceProblems.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceInputs from "../../components/service-page/ServiceInputs.astro";
+import ServiceQuality from "../../components/service-page/ServiceQuality.astro";
+import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+import { professionalServiceSchema, breadcrumbSchema } from '../../lib/seo/schema';
+
+const audience = [
+  { role: "Organizations", description: "Planning onboarding or workforce learning." },
+  { role: "Training Teams", description: "Modernizing existing programs." },
+  { role: "Academies", description: "Developing a new course portfolio." },
+  { role: "Creators", description: "With expertise but no clear curriculum." },
+  { role: "Publishers", description: "Converting educational content." },
+  { role: "Clients", description: "Selecting between LMS, Kajabi or other delivery approaches." },
+  { role: "Teams", description: "With scattered training content." }
+];
+
+const problems = [
+  { problem: "Unclear target audience", solution: "Audience analysis to define learner needs and characteristics." },
+  { problem: "Unclear learning outcomes", solution: "Developing clear, measurable goals for the learning experience." },
+  { problem: "Excessive or disorganized content", solution: "Content inventory to prioritize and structure information." },
+  { problem: "Weak curriculum sequence", solution: "Curriculum mapping for a logical learner progression." },
+  { problem: "Uncertainty about course length and format", solution: "Course architecture design to match content to format." },
+  { problem: "Uncertainty about platform selection", solution: "Platform requirements analysis to guide technology choices." },
+  { problem: "Unclear assessment approach", solution: "Assessment strategy aligned with learning outcomes." },
+  { problem: "Inconsistent delivery across teams", solution: "Implementation roadmap for standardized delivery." },
+  { problem: "Starting development before scope is defined", solution: "Strategic planning to clarify requirements upfront." }
+];
+
+const deliverables = [
+  "Strategy brief",
+  "Audience profile",
+  "Learning-needs summary",
+  "Curriculum map",
+  "Module structure",
+  "Course outline",
+  "Content inventory",
+  "Learner-journey map",
+  "Platform requirements",
+  "Assessment plan",
+  "Development roadmap",
+  "Risks and dependencies"
+];
+
+const inputs = [
+  "Business or learning goals",
+  "Audience information",
+  "Existing content",
+  "Stakeholder access",
+  "Subject-matter expert availability",
+  "Platform constraints",
+  "Timeline and budget context",
+  "Compliance or accreditation requirements where relevant"
+];
+
+const processSteps = [
+  { title: "Context", description: "Understand the learning and business context." },
+  { title: "Audience", description: "Review the audience and stakeholders." },
+  { title: "Inventory", description: "Inventory existing knowledge and content." },
+  { title: "Outcomes", description: "Define learning outcomes." },
+  { title: "Architecture", description: "Design the curriculum architecture." },
+  { title: "Direction", description: "Recommend delivery and platform direction." },
+  { title: "Roadmap", description: "Produce the implementation plan." }
+];
+
+const qualityPoints = [
+  "Strategy recommendations depend on available information.",
+  "Stakeholder agreement may be required.",
+  "Platform recommendations depend on requirements and budget.",
+  "Accreditation approval is not guaranteed.",
+  "Learning outcomes depend on later implementation and learner context.",
+  "Strategy work does not automatically include full development unless agreed."
+];
+
+const faqs = [
+  { question: "When should learning strategy happen?", answer: "Learning strategy should happen before you start building or investing heavily in content creation or platforms. It defines the foundation." },
+  { question: "Can you help when we only have rough content?", answer: "Yes. We help inventory and structure whatever material you currently have, identifying gaps and organizing it logically." },
+  { question: "Can you recommend a platform?", answer: "Yes. Based on your audience, content, and budget, we can recommend appropriate delivery models and platforms." },
+  { question: "Does strategy include curriculum design?", answer: "Strategy defines the high-level curriculum architecture, module structure, and learning outcomes, setting the stage for detailed design." },
+  { question: "Can strategy be combined with development?", answer: "Yes, many clients move directly from the strategy phase into our course development services." },
+  { question: "Can you review an existing course plan?", answer: "We can audit existing plans to ensure they align with your goals and audience needs." },
+  { question: "What do we need to provide?", answer: "We typically need access to your goals, audience data, any existing content, and relevant stakeholders or subject-matter experts." },
+  { question: "What happens after the strategy phase?", answer: "You receive a clear roadmap and curriculum map. You can then choose to implement it internally or partner with us for development." }
+];
+
+const jsonLd = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Services", urlPath: "/services/" },
+    { name: "Learning Strategy and Course Planning", urlPath: "/services/learning-strategy/" }
+  ])
+];
+---
+
+<Layout
+  title="Learning Strategy and Course Planning | TheEduAssist"
+  description="Plan the right learning experience before you start building. We help clarify your audience, goals, curriculum, and platform needs."
+  canonicalPath="/services/learning-strategy/"
+  jsonLd={jsonLd}
+>
+  <ServiceHero
+    eyebrow="Learning Strategy and Course Planning"
+    title="Plan the Right Learning Experience Before You Start Building"
+    description="TheEduAssist helps organizations, academies, creators and training teams clarify their audience, learning goals, content, curriculum structure, delivery model and platform requirements before committing resources to development."
+    primaryCtaLabel="Get a 24–48 Hour Review"
+    primaryCtaLink="/book-free-audit/"
+    secondaryCtaLabel="Discuss Your Learning Strategy"
+    secondaryCtaLink="/contact/"
+  />
+
+  <ServiceShortAnswer
+    heading="What Is Learning Strategy and Course Planning?"
+    answer="Learning strategy and course planning determine who the learning is for, what learners need to achieve, which content is required, how the curriculum should be structured and how the experience should be delivered and evaluated."
+  />
+
+  <ServiceAudience audience={audience} />
+
+  <ServiceProblems problems={problems} />
+
+  <ServiceDeliverables
+    title="What the Service May Include"
+    description="Typical strategy deliverables based on your needs."
+    deliverables={deliverables}
+  />
+
+  <ServiceInputs inputs={inputs} />
+
+  <ServiceProcess steps={processSteps} />
+
+  <ServiceQuality
+    title="Service Limitations and Considerations"
+    description="Important context for strategy engagements."
+    points={qualityPoints}
+  />
+
+  <section class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-brand-navy mb-4">Related Case Studies</h2>
+        <p class="text-lg text-slate-600">Examples of our strategic planning work.</p>
+      </div>
+      <ServiceRelatedCaseStudies slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher', 'business-analytics-corporate-teams']} />
+    </div>
+  </section>
+
+  <ServiceFAQ faqs={faqs} />
+
+  <ServiceFinalCTA serviceSlug="learning-strategy" />
+</Layout>

@@ -1,0 +1,38 @@
+---
+import { Check } from "lucide-react";
+
+interface Props {
+  title?: string;
+  description?: string;
+  deliverables: string[];
+}
+
+const {
+  title = "Typical Deliverables",
+  description = "What you can expect to receive.",
+  deliverables
+} = Astro.props;
+---
+
+<section class="py-16 bg-white border-b border-slate-200">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <h2 class="text-3xl font-bold text-brand-navy mb-4">{title}</h2>
+      <p class="text-lg text-slate-600">{description}</p>
+    </div>
+
+    <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {deliverables.map(deliverable => (
+          <div class="flex items-start gap-3">
+            <Check class="w-5 h-5 text-brand-primary shrink-0 mt-0.5" />
+            <span class="text-slate-700 font-medium">{deliverable}</span>
+          </div>
+        ))}
+      </div>
+      <p class="text-sm text-slate-500 mt-8 text-center italic">
+        * Exact deliverables depend on project scope and client requirements.
+      </p>
+    </div>
+  </div>
+</section>
