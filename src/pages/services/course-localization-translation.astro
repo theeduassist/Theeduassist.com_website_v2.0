@@ -1,0 +1,371 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceAudience from "../../components/service-page/ServiceAudience.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceRelatedContent from "../../components/service-page/ServiceRelatedContent.astro";
+
+import { serviceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
+import { getServiceById } from '../../data/serviceArchitecture';
+
+const serviceData = getServiceById('course-localization');
+
+const faqs = [
+  { question: "What is the difference between translation and localization?", answer: "Translation focuses primarily on accurately converting written or spoken language. Localization also considers terminology, tone, cultural references, examples, images, date formats, currencies, layout, and learner expectations so the experience is accurate and culturally appropriate." },
+  { question: "Can you localize an existing online course?", answer: "Yes, we audit your existing source content, create a localization inventory, and adapt it for your target markets while preserving the original learning purpose and quality." },
+  { question: "Can you support Arabic and right-to-left layouts?", answer: "Yes, we support Arabic translations and right-to-left (RTL) implementations. However, complete RTL behavior depends on your chosen platform and template. Functional testing is required to ensure a proper RTL experience." },
+  { question: "Can you localize quizzes and assessments?", answer: "Yes, but assessments often require more than direct translation. We review question clarity, answer equivalence, scoring logic, and cultural assumptions. High-stakes assessments may require local subject-matter review." },
+  { question: "Can you translate subtitles, transcripts or voiceover scripts?", answer: "Yes, multimedia localization can include transcript preparation, subtitle timing, translated graphics, and voiceover scripts. Final studio or voiceover costs depend on the agreed project scope." },
+  { question: "Can you localize an LMS or Kajabi course?", answer: "Yes. We support LMS platforms and Kajabi where configurable. Note that some platform interface text or system labels cannot be edited, and final language behavior depends on the system limitations." },
+  { question: "Do you use machine translation?", answer: "While AI and automation tools may assist in creating the initial localization inventory, all machine translation requires human review to ensure linguistic accuracy and cultural relevance." },
+  { question: "Do you provide native-language review?", answer: "Native or local review depends on the specific project team assembled. We coordinate with qualified linguists and your local subject-matter experts to finalize language approvals." },
+  { question: "Can you support a multilingual rollout?", answer: "Yes. For a global rollout, we recommend prioritizing markets, selecting a pilot language, testing the platform readiness, and conducting a controlled release before expanding to other regions." },
+  { question: "Do you guarantee legal or accessibility compliance?", answer: "No. While we follow regional considerations, clients must obtain appropriate legal, privacy, and accessibility guidance for their specific markets and data-processing arrangements." }
+];
+
+const structuredData = [
+  serviceSchema(
+    serviceData?.title || "Course Localization and Translation",
+    serviceData?.shortDescription || "Adapt learning content for different languages, regions, and audiences.",
+    serviceData?.slug || "/services/course-localization-translation/"
+  ),
+  breadcrumbSchema([
+    { name: 'Home', urlPath: '/' },
+    { name: 'Services', urlPath: '/services/' },
+    { name: 'Course Localization and Translation', urlPath: '/services/course-localization-translation/' }
+  ]),
+  faqPageSchema(faqs)
+];
+---
+
+<Layout
+  title="Course Localization and Translation Services | TheEduAssist"
+  description="TheEduAssist helps organizations, academies and training providers adapt courses, assessments, media, platform content and learner communications for different languages, regions and audiences."
+  canonicalPath="/services/course-localization-translation/"
+  jsonLd={structuredData}
+>
+  <main id="main-content">
+    <ServiceHero
+      eyebrow="Course Localization and Translation"
+      title="Adapt Learning Content for Different Languages, Regions and Audiences"
+      description="TheEduAssist helps organizations, academies and training providers adapt courses, learning assets, platform content and learner communications for new languages and markets while preserving the original learning purpose, structure and quality."
+      primaryCtaLabel="Discuss Your Localization Project"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Review Your Existing Course"
+      secondaryCtaLink="/book-free-audit/"
+    />
+
+    <div class="bg-brand-navy border-t border-white/10 py-4 text-center text-slate-300 text-sm font-medium tracking-wide">
+        Course content &bull; Platform interface &bull; Assessments &bull; Captions and voiceover &bull; Emails and certificates &bull; Cultural adaptation &bull; Quality assurance
+    </div>
+
+    <ServiceShortAnswer
+      heading="What Is E-Learning Localization?"
+      answer="E-learning localization adapts course content, language, examples, media, interface text, assessments and learner communications so the experience is accurate, usable and culturally appropriate for a specific audience."
+    />
+
+    <ServiceAudience
+      title="Who This Service Supports"
+      description="We work with teams scaling their learning reach."
+      audience={[
+        "Organizations expanding training into new regions",
+        "Multinational learning teams",
+        "Training providers serving multilingual learners",
+        "Academies entering Europe or MENA",
+        "Publishers converting educational content",
+        "Customer education programs",
+        "Partner training programs",
+        "Associations with international members",
+        "Course businesses preparing multilingual delivery",
+        "Kajabi or LMS users adding localized experiences"
+      ]}
+    />
+
+    <section class="py-24 bg-white border-t border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-slate-900 mb-8 text-center">Translation vs. Localization</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div class="bg-slate-50 p-8 rounded-lg border border-slate-200 shadow-sm">
+                <h3 class="text-xl font-bold text-brand-navy mb-4">Translation</h3>
+                <p class="text-slate-600">
+                    Focuses primarily on accurately converting written or spoken language from a source text into a target text.
+                </p>
+            </div>
+            <div class="bg-slate-50 p-8 rounded-lg border border-brand-primary shadow-sm ring-1 ring-brand-primary/20">
+                <h3 class="text-xl font-bold text-brand-primary mb-4">Localization</h3>
+                <p class="text-slate-600 mb-4">
+                    Also considers the audience and content to ensure it is culturally relevant. Adaptation decisions may involve:
+                </p>
+                <ul class="list-disc pl-5 text-slate-600 space-y-1">
+                    <li>Terminology and tone</li>
+                    <li>Cultural references and examples</li>
+                    <li>Images and media timing</li>
+                    <li>Date and number formats, currencies</li>
+                    <li>Direction of text and layout</li>
+                    <li>Assessment wording</li>
+                    <li>Learner expectations and platform limitations</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <ServiceDeliverables
+      title="Localization Scope"
+      description="Localization is not a one-size-fits-all effort. We focus on the areas genuinely supported by your project scope."
+      deliverables={[
+        "Course Content: modules, lessons, instructions, learning objectives, scenarios, and resources.",
+        "Platform Content: navigation labels, login guidance, course descriptions, and accessible error messages.",
+        "Learner Communications: onboarding emails, reminders, certificates, surveys, and downloads.",
+        "Media: subtitles, transcripts, translated graphics, on-screen text, and audio/voiceover (where agreed).",
+        "Commercial Content: sales pages, checkout guidance, FAQs, email sequences, and launch communications.",
+        "Assessments: localized terminology, question clarity, answer equivalence, scoring logic, and cultural relevance."
+      ]}
+    />
+
+    <ServiceProcess
+      title="Localization Workflow"
+      description="A structured approach to preparing, adapting, and testing your content."
+      steps={[
+        {
+          title: "Define Audience & Audit Source",
+          description: "Define target audience and markets, then audit source content and platforms to create a localization inventory."
+        },
+        {
+          title: "Prepare Guidance",
+          description: "Prepare terminology glossaries, style guidance, and formatting rules."
+        },
+        {
+          title: "Translate & Adapt",
+          description: "Translate and adapt approved content, reviewing media and interface requirements."
+        },
+        {
+          title: "Implement & QA",
+          description: "Implement content in the target platform, conduct linguistic, visual, and functional QA."
+        },
+        {
+          title: "Review & Launch",
+          description: "Review with the approved client or local stakeholders, then launch and maintain localized versions."
+        }
+      ]}
+    />
+
+    <section class="py-24 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-slate-900 mb-6 text-center">Localization Inventory & Terminology</h2>
+            <p class="text-lg text-slate-600 mb-12 text-center max-w-3xl mx-auto">
+                Accurate localization begins with a clear inventory and approved terminology.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold text-brand-navy mb-4">Localization Inventory</h3>
+                    <p class="text-slate-600 mb-4">
+                        A detailed inventory helps estimate scope, though not all items can be translated automatically. It may include:
+                    </p>
+                    <ul class="list-disc pl-5 text-slate-600 space-y-1">
+                        <li>Page, lesson, and word counts</li>
+                        <li>Video and audio duration</li>
+                        <li>Image and assessment item counts</li>
+                        <li>Downloadable files and emails</li>
+                        <li>Platform labels and custom code dependencies</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-brand-navy mb-4">Terminology Management</h3>
+                    <p class="text-slate-600 mb-4">
+                        We establish guidance to ensure consistency. This can include:
+                    </p>
+                    <ul class="list-disc pl-5 text-slate-600 space-y-1">
+                        <li>Terminology glossaries and approved translations</li>
+                        <li>Tone, formality, and regional preferences</li>
+                        <li>Prohibited terms and acronym guidance</li>
+                    </ul>
+                    <p class="text-slate-600 mt-4 text-sm italic">
+                        Final language approval may require client reviewers, local-market reviewers, or subject-matter experts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <div class="lg:col-span-1">
+                    <h2 class="text-3xl font-bold text-slate-900 mb-6">Regional & Layout Considerations</h2>
+                    <p class="text-slate-600 mb-4">
+                        Delivering content across diverse regions requires specific technical and cultural adaptations.
+                    </p>
+                </div>
+                <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-slate-50 p-6 rounded-lg border border-slate-200">
+                        <h3 class="text-xl font-bold text-brand-navy mb-3">Arabic and Right-to-Left (RTL)</h3>
+                        <p class="text-slate-600 text-sm mb-3">
+                            RTL behavior depends on the platform and template. Custom code and third-party components may require separate review.
+                        </p>
+                        <ul class="list-disc pl-5 text-slate-600 text-sm space-y-1">
+                            <li>RTL layout, navigation, and text alignment</li>
+                            <li>Mixed Arabic and English text</li>
+                            <li>Typography, line height, and media overlays</li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg border border-slate-200">
+                        <h3 class="text-xl font-bold text-brand-navy mb-3">MENA Delivery</h3>
+                        <p class="text-slate-600 text-sm mb-3">
+                            Arabic is not one uniform variant. We consider cultural nuances alongside technical delivery.
+                        </p>
+                        <ul class="list-disc pl-5 text-slate-600 text-sm space-y-1">
+                            <li>Regional language differences and imagery review</li>
+                            <li>Bilingual delivery (Arabic/English)</li>
+                            <li>Mobile-first access and bandwidth considerations</li>
+                        </ul>
+                    </div>
+                    <div class="bg-slate-50 p-6 rounded-lg border border-slate-200 md:col-span-2">
+                        <h3 class="text-xl font-bold text-brand-navy mb-3">Europe Delivery</h3>
+                        <p class="text-slate-600 text-sm mb-3">
+                            European audiences often require specific regional terminology and compliance awareness.
+                        </p>
+                        <ul class="list-disc pl-5 text-slate-600 text-sm space-y-1">
+                            <li>Language variants, date/number formats, and currencies</li>
+                            <li>Accessibility and platform data handling expectations</li>
+                        </ul>
+                        <p class="text-slate-500 text-xs mt-3 italic">
+                            Note: Clients should obtain appropriate legal and privacy guidance for their specific markets and data-processing arrangements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-brand-navy text-white border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-12 text-center">Localization Quality Assurance</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">Linguistic QA</h3>
+                    <ul class="text-slate-300 text-sm space-y-2">
+                        <li>Meaning and terminology</li>
+                        <li>Tone, grammar, and spelling</li>
+                        <li>Truncation and untranslated text</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">Functional QA</h3>
+                    <ul class="text-slate-300 text-sm space-y-2">
+                        <li>Navigation and links</li>
+                        <li>Forms and assessments</li>
+                        <li>Media, downloads, and certificates</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">Visual QA</h3>
+                    <ul class="text-slate-300 text-sm space-y-2">
+                        <li>Layout and text expansion</li>
+                        <li>RTL alignment and line breaks</li>
+                        <li>Mobile screens and graphics</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold text-brand-accent mb-4">Learning QA</h3>
+                    <ul class="text-slate-300 text-sm space-y-2">
+                        <li>Instruction and activity alignment</li>
+                        <li>Assessment and outcomes</li>
+                        <li>Learner flow and feedback</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-slate-900 mb-6">Plan a Controlled Global Learning Rollout</h2>
+            <p class="text-lg text-slate-600 mb-8">
+                For organizations launching training across multiple regions, a phased rollout minimizes risk and ensures quality.
+            </p>
+            <div class="bg-slate-50 p-8 rounded-lg border border-slate-200">
+                <ol class="list-decimal pl-5 text-slate-700 space-y-3 font-medium">
+                    <li>Prioritize markets based on need and readiness.</li>
+                    <li>Confirm source-content readiness.</li>
+                    <li>Audit platform capabilities for the target language.</li>
+                    <li>Select a pilot audience.</li>
+                    <li>Localize and test the content.</li>
+                    <li>Review with approved stakeholders.</li>
+                    <li>Launch a controlled pilot.</li>
+                    <li>Resolve issues identified during the pilot.</li>
+                    <li>Expand in planned stages.</li>
+                    <li>Maintain versions systematically.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-xl font-bold text-slate-900 mb-2">Related Knowledge</h3>
+            <p class="text-slate-600 mb-4">
+                We regularly publish insights on localization strategy, technical platform preparation, and global training rollouts.
+            </p>
+            <a href="/blog/" class="text-brand-primary underline hover:text-brand-accent transition-colors font-medium">Browse Localization Topics on the Blog</a>
+        </div>
+    </section>
+
+    <ServiceRelatedCaseStudies
+        slugs={['language-courses-book-publisher']}
+    />
+
+    <section class="py-24 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-slate-900 mb-8 text-center">Limitations and Responsibilities</h2>
+            <div class="bg-white p-8 rounded-lg border border-slate-200 shadow-sm max-w-4xl mx-auto text-slate-600 text-sm space-y-4">
+                <p><strong>Content and Platform:</strong> Language scope must be agreed upon, and source content must be approved before starting. Platform limitations may restrict full localization, and some custom code may require separate work. Package compatibility must always be tested.</p>
+                <p><strong>Review and Quality:</strong> All machine translation requires human review. Native or local review depends on the project team assembled, and final quality depends heavily on reviewer availability and source quality.</p>
+                <p><strong>Legal and Licensing:</strong> Copyright permissions remain the client's responsibility. Voiceover and media licensing require separate scope. Legal, privacy, and compliance approval remains with the client; accreditation approval is not guaranteed.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-white border-t border-slate-200">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-slate-900 mb-8 text-center">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                {faqs.map((faq) => (
+                    <details class="group bg-slate-50 border border-slate-200 rounded-lg overflow-hidden">
+                        <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-slate-900 group-open:bg-slate-100 transition-colors">
+                            <span>{faq.question}</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                            </span>
+                        </summary>
+                        <div class="p-6 pt-0 text-slate-600 group-open:bg-slate-100">
+                            {faq.answer}
+                        </div>
+                    </details>
+                ))}
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-brand-navy text-white text-center px-4">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Preparing a Course for New Languages or Markets?</h2>
+            <p class="text-lg text-slate-300 mb-10 leading-relaxed">
+                Share your existing course, target audience, languages, platform and media requirements. TheEduAssist will review the information and recommend a practical localization starting point.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="/contact/" class="inline-flex justify-center items-center px-8 py-4 bg-brand-accent text-white rounded-md font-bold text-lg hover:bg-white hover:text-brand-navy transition-all shadow-lg hover-lift click-press focus-ring">
+                    Discuss Your Localization Project
+                </a>
+                <a href="/book-free-audit/" class="inline-flex justify-center items-center px-8 py-4 bg-transparent text-white border-2 border-white/20 rounded-md font-bold text-lg hover:bg-white/10 transition-all focus-ring hover-lift click-press">
+                    Get a 24–48 Hour Review
+                </a>
+            </div>
+        </div>
+    </section>
+
+  </main>
+</Layout>

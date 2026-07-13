@@ -62,6 +62,17 @@ const modernizeSupportGroup: NavigationGroup = {
     }))
 };
 
+const globalLearningGroup: NavigationGroup = {
+    id: "global-learning",
+    label: "GLOBAL LEARNING",
+    links: getLiveServices().filter(s => s.family === "global-learning").map(s => ({
+        id: s.id,
+        label: s.title,
+        href: s.slug,
+        icon: s.icon
+    }))
+};
+
 export const siteNavigation: TopLevelNavigationItem[] = [
   {
     id: "home",
@@ -78,7 +89,8 @@ export const siteNavigation: TopLevelNavigationItem[] = [
     groups: [
       createDesignGroup,
       platformsTechGroup,
-      modernizeSupportGroup
+      modernizeSupportGroup,
+      globalLearningGroup
     ].filter(g => g.links.length > 0)
   },
   {
