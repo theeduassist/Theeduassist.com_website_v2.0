@@ -1,72 +1,145 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import SupportHero from "../../components/support/SupportHero.astro";
-import SupportProblemSection from "../../components/support/SupportProblemSection.astro";
-import SupportAudienceSection from "../../components/support/SupportAudienceSection.astro";
-import SupportCapabilities from "../../components/support/SupportCapabilities.astro";
-import SupportLifecycle from "../../components/support/SupportLifecycle.astro";
-import KajabiSupportSection from "../../components/support/KajabiSupportSection.astro";
-import LMSSupportSection from "../../components/support/LMSSupportSection.astro";
-import FunnelAutomationMaintenance from "../../components/support/FunnelAutomationMaintenance.astro";
-import QualityAssuranceSection from "../../components/support/QualityAssuranceSection.astro";
-import LaunchSupportSection from "../../components/support/LaunchSupportSection.astro";
-import SupportPackages from "../../components/support/SupportPackages.astro";
-import SupportComparison from "../../components/support/SupportComparison.astro";
-import SupportFAQ from "../../components/support/SupportFAQ.astro";
-import SupportFinalCTA from "../../components/support/SupportFinalCTA.astro";
-import CaseStudyProof from "../../components/case-studies/CaseStudyProof.astro";
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Ongoing Course Support & Maintenance Services",
-  "provider": {
-    "@type": "Organization",
-    "name": "TheEduAssist"
-  },
-  "description": "TheEduAssist provides ongoing support and maintenance for online courses, Kajabi systems, LMS platforms, funnels, automations, course content, student onboarding, QA checks, and launch improvements.",
-  "serviceType": "E-Learning Maintenance"
-};
+import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
+
+const faqs = [
+  { question: "Can you support a course after launch?", answer: "Yes. We offer ongoing support to maintain, update, and improve your course content, platform, and learning materials long after the initial launch." },
+  { question: "Can you update LMS content?", answer: "Yes. We can manage content updates, replace outdated media, fix broken links, and reorganize categories directly within your LMS." },
+  { question: "Can you support Kajabi updates?", answer: "Yes. We can support ongoing Kajabi maintenance, including offer updates, email sequence adjustments (where agreed), and general course product management." },
+  { question: "Can you create new modules under an ongoing agreement?", answer: "Yes. Depending on your chosen support model, we can scope and develop entirely new lessons, assessments, or modules as your curriculum expands." },
+  { question: "How are requests prioritized?", answer: "Requests are submitted, reviewed for scope, and prioritized based on urgency and your remaining hours or agreed project backlog." },
+  { question: "Is support available 24/7?", answer: "No. Support is typically provided during standard business hours. 24/7 availability or emergency out-of-hours support is not assumed unless specifically stated in your agreement." },
+  { question: "Can changes be tested before release?", answer: "Yes. We incorporate quality assurance and testing into our support process to ensure changes work correctly before they are pushed live to learners." },
+  { question: "Can you maintain content created by someone else?", answer: "Yes. We often take over the maintenance of legacy courses or platforms originally built by internal teams or other agencies, provided we can access the source files or the platform." },
+  { question: "Can support be project-based?", answer: "Yes. We offer project-based updates for defined, one-off changes (like a major content refresh or a migration), as well as planned, recurring ongoing support." }
+];
+
+const structuredData = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: 'Home', urlPath: '/' },
+    { name: 'Services', urlPath: '/services/' },
+    { name: 'Ongoing Support and Maintenance', urlPath: '/services/ongoing-support-maintenance/' }
+  ]),
+  faqPageSchema(faqs)
+];
 ---
 
 <Layout
-  title="Ongoing Course Support & Maintenance Services | TheEduAssist"
-  description="TheEduAssist provides ongoing support and maintenance for online courses, Kajabi systems, LMS platforms, funnels, automations, course content, student onboarding, QA checks, and launch improvements."
+  title="Ongoing Learning Support and Maintenance | TheEduAssist"
+  description="Keep courses, platforms, and learning content accurate and usable. TheEduAssist provides planned maintenance, updates, and testing after launch."
+  canonicalPath="/services/ongoing-support-maintenance/"
+  jsonLd={structuredData}
 >
-  <SupportHero />
-  <SupportProblemSection />
-  <SupportAudienceSection />
-  <SupportCapabilities />
-  <SupportLifecycle />
-  <KajabiSupportSection />
-  <LMSSupportSection />
-  <FunnelAutomationMaintenance />
-  <QualityAssuranceSection />
-  <LaunchSupportSection />
-  <SupportPackages />
-  <SupportComparison />
-  <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'business-analytics-corporate-training', 'language-courses-book-publisher']} />
-  <SupportFAQ />
-  <SupportFinalCTA />
+  <main id="main-content">
+    <ServiceHero
+      eyebrow="Ongoing Learning Support and Maintenance"
+      title="Keep Courses, Platforms and Learning Content Accurate and Usable"
+      description="TheEduAssist supports organizations, academies and course businesses with planned content updates, platform changes, quality checks, new learning assets and continued improvement after launch."
+      primaryCtaLabel="Discuss Ongoing Support"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Review Your Current Learning System"
+      secondaryCtaLink="/book-free-audit/"
+    />
 
-  <!-- Inject specific Service Schema -->
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
-  <script>
-    import { openStartServiceChat } from "../../utils/tawkSales";
-    document.addEventListener("DOMContentLoaded", () => {
-      const btns = document.querySelectorAll(".tawk-service-btn");
-      btns.forEach(btn => {
-        btn.addEventListener("click", (e) => {
-          e.preventDefault();
-          const target = e.currentTarget as HTMLButtonElement;
-          openStartServiceChat({
-            serviceSlug: target.dataset.serviceSlug || "",
-            pageUrl: window.location.href,
-            pageTitle: document.title,
-          });
-        });
-      });
-    });
-  </script>
+    <ServiceShortAnswer
+      heading="What Is Ongoing Support and Maintenance?"
+      answer="Ongoing support ensures your digital learning environment remains effective over time by systematically handling content updates, fixing broken elements, and implementing continuous improvements so you don't have to."
+    />
 
+    <ServiceDeliverables
+      heading="Support May Include"
+      deliverables={[
+        "Lesson updates",
+        "New modules",
+        "Page changes",
+        "Media replacement",
+        "Broken-link maintenance",
+        "Assessment updates",
+        "Content corrections",
+        "LMS organization",
+        "Kajabi updates",
+        "Offer or email updates where agreed",
+        "Quality assurance",
+        "Launch support",
+        "Release preparation",
+        "Documentation",
+        "Backlog management",
+        "Reporting support where available"
+      ]}
+    />
+
+    <section class="py-24 bg-slate-50 border-y border-brand-border/30">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-brand-navy mb-12">Support Models</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-8 rounded-xl border border-brand-border/50 shadow-sm text-center">
+            <h3 class="text-xl font-bold text-brand-primary mb-4">Planned Maintenance</h3>
+            <p class="text-brand-textMain">Scheduled, routine updates and recurring quality reviews to ensure existing content and platforms function smoothly.</p>
+          </div>
+          <div class="bg-white p-8 rounded-xl border border-brand-border/50 shadow-sm text-center">
+            <h3 class="text-xl font-bold text-brand-primary mb-4">Project-Based Updates</h3>
+            <p class="text-brand-textMain">Defined, scoped changes such as adding a new module, executing a minor migration, or a focused content refresh.</p>
+          </div>
+          <div class="bg-white p-8 rounded-xl border border-brand-border/50 shadow-sm text-center">
+            <h3 class="text-xl font-bold text-brand-primary mb-4">Ongoing Learning Support</h3>
+            <p class="text-brand-textMain">Continuous, recurring support covering several courses, multiple platforms, or broader learning operations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <ServiceProcess
+      heading="Request Process"
+      steps={[
+        { title: "Submit or review the request", description: "Log the required update or maintenance task." },
+        { title: "Confirm scope and priority", description: "Ensure the request is clear and determine its urgency." },
+        { title: "Estimate effort and dependencies", description: "Calculate the time needed and identify any blockers." },
+        { title: "Schedule the work", description: "Slot the task into the ongoing maintenance sprint." },
+        { title: "Complete and review the change", description: "Execute the update and perform an internal check." },
+        { title: "Test affected areas", description: "Ensure the change hasn't broken surrounding functionality." },
+        { title: "Release or hand over", description: "Publish the update to the live environment." },
+        { title: "Document the update", description: "Record the change for future reference and compliance." }
+      ]}
+    />
+
+    <section class="py-24 bg-white border-b border-brand-border/30">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-brand-navy mb-8">Important Boundaries</h2>
+        <div class="bg-slate-50 p-6 rounded-xl border border-brand-border/50 text-brand-textMain">
+          <ul class="list-disc pl-6 space-y-2">
+            <li>Support boundaries depend strictly on the formal agreement.</li>
+            <li>Urgent or out-of-scope requests may require separate approval and scoping.</li>
+            <li>Core platform outages (e.g., Kajabi or LMS server downtime) remain outside TheEduAssist’s control.</li>
+            <li>Client access (passwords, correct administrative permissions) is required to perform work.</li>
+            <li>Complex third-party integrations may require specialist or developer support.</li>
+            <li>Content changes can affect existing marketing automation or completion reporting.</li>
+            <li>Backups and change control should always be considered before major updates.</li>
+            <li>Unlimited revisions are not assumed in any support model.</li>
+            <li>24/7 availability is not assumed.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <ServiceRelatedCaseStudies slugs={['sqa-aligned-vocational-training', 'business-analytics-corporate-training']} />
+
+    <ServiceFAQ faqs={faqs} />
+
+    <ServiceFinalCTA
+      serviceSlug="ongoing-support"
+      primaryCtaLabel="Discuss Ongoing Support"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Review Your Current Learning System"
+      secondaryCtaLink="/book-free-audit/"
+    />
+  </main>
 </Layout>

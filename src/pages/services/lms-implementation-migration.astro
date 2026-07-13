@@ -1,144 +1,211 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceAudience from "../../components/service-page/ServiceAudience.astro";
+import ServiceProblems from "../../components/service-page/ServiceProblems.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
 
-import LMSMigrationHero from "../../components/lms/LMSMigrationHero.astro";
-import LMSProblemSection from "../../components/lms/LMSProblemSection.astro";
-import LMSAudienceSection from "../../components/lms/LMSAudienceSection.astro";
-import LMSSourcesSection from "../../components/lms/LMSSourcesSection.astro";
-import LMSMigrationLifecycle from "../../components/lms/LMSMigrationLifecycle.astro";
-import LMSSetupCapabilities from "../../components/lms/LMSSetupCapabilities.astro";
-import LMSPlatformAgnostic from "../../components/lms/LMSPlatformAgnostic.astro";
-import LMSContentStandards from "../../components/lms/LMSContentStandards.astro";
-import LMSLearnerExperience from "../../components/lms/LMSLearnerExperience.astro";
-import LMSComparison from "../../components/lms/LMSComparison.astro";
-import LMSEngagementTypes from "../../components/lms/LMSEngagementTypes.astro";
-import LMSFAQ from "../../components/lms/LMSFAQ.astro";
-import LMSFinalCTA from "../../components/lms/LMSFinalCTA.astro";
-import CaseStudyProof from "../../components/case-studies/CaseStudyProof.astro";
-import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
-import { faqPageSchema } from '../../lib/seo/schema';
+import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
 
-const aiAnswers = [
-  { q: "What is LMS implementation and migration?", a: "LMS implementation and migration means selecting, configuring, organizing, and moving learning content into a platform where learners can access courses, resources, assessments, and progress tracking clearly." },
-  { q: "Can TheEduAssist migrate content from one LMS to another?", a: "Yes. TheEduAssist safely moves courses, media, and learning content between platforms, ensuring the new structure is clean and user-friendly." },
-  { q: "Can TheEduAssist organize messy training content?", a: "Yes. They specialize in taking scattered files, PDFs, Google Drive folders, and old courses and rebuilding them into a structured curriculum." }
+const faqs = [
+  { question: "Can you help select an LMS?", answer: "Yes. During the platform selection process, we evaluate your audience, user volume, course formats, reporting needs, accessibility, and budget. We don't push a single universal platform, but recommend the system that genuinely fits your specific requirements." },
+  { question: "Can you migrate courses from another platform?", answer: "Yes, provided we have access and the platform allows exports. LMS migration moves selected learning content and available data from your existing system into a new or restructured environment." },
+  { question: "Can learner information be transferred?", answer: "In most cases, yes, assuming your current platform allows user and completion data exports. We'll identify available exports and map them to the new system. However, we cannot migrate unavailable source data." },
+  { question: "Can you reorganize an existing LMS?", answer: "Yes. If your current LMS has inconsistent course structures, scattered learning content, or poor learner navigation, we can reorganize categories, user roles, and course setups within your existing system." },
+  { question: "Do you support SCORM or xAPI?", answer: "We support SCORM and xAPI, but compatibility depends on the target LMS. Not every platform or course needs these standards, and xAPI may require additional architecture. We ensure package behavior is tested before launch." },
+  { question: "Can you configure users and permissions?", answer: "Yes. We plan user roles, enrollment structures, and review permissions to ensure the right administrators and learners have the correct access." },
+  { question: "Do you test the LMS before launch?", answer: "Yes. We thoroughly test access, courses, notifications, and reporting to ensure the system is ready before handover." },
+  { question: "Can you provide ongoing LMS support?", answer: "Yes, we can provide administrator guidance and ongoing support, though this is typically structured as a separate agreement or handled through our ongoing support services." },
+  { question: "Is zero-data-loss migration guaranteed?", answer: "No. While we carefully plan and test migrations, zero data loss cannot be guaranteed. Migration depends heavily on the quality and format of exports from your legacy system. Some content or configurations may require manual recreation." }
 ];
 
-const jsonLd = [
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "LMS Implementation & Migration Services",
-    "description": "Safe strategies for moving course content, learners, and media. We support Moodle-style LMS, WordPress LMS, LearnDash, Thinkific, Teachable, TalentLMS, Canvas, Custom LMS, Membership Hubs, Internal Training Portals, and more.",
-    "provider": {
-      "@type": "Organization",
-      "name": "TheEduAssist"
-    }
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://www.theeduassist.com/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Services",
-        "item": "https://www.theeduassist.com/services/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "LMS Implementation & Migration Services",
-        "item": "https://www.theeduassist.com/services/lms-implementation-migration/"
-      }
-    ]
-  }
+const structuredData = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: 'Home', urlPath: '/' },
+    { name: 'Services', urlPath: '/services/' },
+    { name: 'LMS Implementation and Migration', urlPath: '/services/lms-implementation-migration/' }
+  ]),
+  faqPageSchema(faqs)
 ];
-
-const lmsFaqs = [
-  { question: "What is LMS migration?", answer: "LMS migration is the process of safely moving courses, user data, completion records, and media from an old learning platform to a new one while improving the learning experience." },
-  { question: "Which LMS is best for training companies?", answer: "There is no single 'best' LMS. TalentLMS, Docebo, and LearnUpon are strong for B2B/B2C training. We help you select based on your specific audience and business model during the 24-48 Hour Review." },
-  { question: "How do you move old training content into an LMS?", answer: "We perform a content audit, structure the curriculum map, clean up files, convert them to standard formats (like SCORM, xAPI, or native modules), and then upload and test them in the new platform." },
-  { question: "What is the difference between Kajabi and an LMS?", answer: "Kajabi is an all-in-one marketing, website, and course platform built for creators. An enterprise LMS (like TalentLMS or Docebo) focuses deeply on compliance tracking, reporting, learning paths, and B2B user management without native marketing funnels." },
-  { question: "What should a company prepare before LMS implementation?", answer: "A company should prepare access to current course files, a list of learning objectives, branding assets, their ideal timeline, and an understanding of what the old LMS lacked." },
-  { question: "Can you migrate content from WordPress?", answer: "Yes. We can help organize WordPress-based course content and rebuild it into a cleaner LMS or e-learning platform structure." },
-  { question: "Can you migrate content from Google Drive?", answer: "Yes. We can help organize Google Drive folders, documents, PDFs, videos, and resources into modules, lessons, and learner-friendly assets." }
-];
-
-jsonLd.push(faqPageSchema(lmsFaqs));
-
-// SEO
-const title = "LMS Implementation & Migration Services | TheEduAssist";
-const description = "TheEduAssist helps creators, educators, training companies, academies, and businesses migrate, organize, and rebuild learning content from WordPress, Google Drive, PDFs, old LMS platforms, and scattered files into clean LMS and e-learning systems.";
 ---
 
-<Layout jsonLd={jsonLd} title={title} description={description}>
-  <main>
-    <LMSMigrationHero />
-    <LMSProblemSection />
-    <LMSAudienceSection />
-    <LMSSourcesSection />
-    <LMSMigrationLifecycle />
-    <LMSSetupCapabilities />
-    <LMSPlatformAgnostic />
-    <LMSContentStandards />
-    <LMSLearnerExperience />
-    <LMSComparison />
-    <CaseStudyProof slugs={['sqa-aligned-vocational-training', 'language-courses-book-publisher']} />
+<Layout
+  title="LMS Implementation and Migration Services | TheEduAssist"
+  description="TheEduAssist helps organizations, academies, and training providers define LMS requirements, configure learning experiences, plan migrations, and test systems before launch."
+  canonicalPath="/services/lms-implementation-migration/"
+  jsonLd={structuredData}
+>
+  <main id="main-content">
+    <ServiceHero
+      eyebrow="LMS Implementation and Migration"
+      title="Set Up or Migrate an LMS Around Your Learning Requirements"
+      description="TheEduAssist helps organizations and training providers define LMS requirements, organize courses, prepare content, configure the learning experience, plan migration and test the system before launch."
+      primaryCtaLabel="Discuss Your LMS Project"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Get a 24–48 Hour Review"
+      secondaryCtaLink="/book-free-audit/"
+    />
 
-    <section class="py-16 bg-white border-y border-brand-border/30">
+    <ServiceShortAnswer
+      heading="What Is LMS Implementation and Migration?"
+      answer="LMS implementation prepares a learning platform for courses, users, content and reporting. LMS migration moves selected learning content and available data from an existing system into a new or restructured environment."
+    />
+
+    <ServiceAudience
+      heading="Who We Support"
+      audience={[
+        "Corporate learning teams",
+        "Training providers",
+        "Academies",
+        "Associations",
+        "Customer education teams",
+        "Organizations replacing a legacy LMS",
+        "Teams with disorganized courses",
+        "Clients moving from manual delivery",
+        "Organizations reviewing platform options"
+      ]}
+    />
+
+    <ServiceProblems
+      heading="Problems We Solve"
+      problems={[
+        "Unclear platform requirements",
+        "Inconsistent course structures",
+        "Scattered learning content",
+        "Outdated LMS configuration",
+        "Unclear roles and permissions",
+        "Migration uncertainty",
+        "Duplicate or obsolete courses",
+        "Undefined reporting requirements",
+        "Poor learner navigation",
+        "Insufficient launch testing"
+      ]}
+    />
+
+    <ServiceDeliverables
+      heading="Implementation May Include"
+      deliverables={[
+        "Requirements gathering",
+        "Platform-selection support",
+        "Information architecture",
+        "Course and category organization",
+        "User-role planning",
+        "Enrollment structure",
+        "Permissions review",
+        "Branding configuration",
+        "Course setup",
+        "Content organization",
+        "Assessments where supported",
+        "Notifications",
+        "Reporting requirements",
+        "Administrator guidance",
+        "Testing",
+        "Launch checklist"
+      ]}
+    />
+
+    <ServiceProcess
+      heading="Migration Process"
+      steps={[
+        { title: "Audit the current platform", description: "Review existing structure, content, and system limitations." },
+        { title: "Inventory courses, files and users", description: "Catalog everything currently in the system to determine what stays and what goes." },
+        { title: "Identify available exports", description: "Determine what data can be automatically exported from the legacy system." },
+        { title: "Remove duplicate or obsolete material", description: "Clean up the inventory to ensure only relevant content is migrated." },
+        { title: "Map the old structure to the new system", description: "Plan how categories, courses, and roles will translate." },
+        { title: "Prepare and convert content", description: "Update or reformat content as needed for the new environment." },
+        { title: "Configure the new environment", description: "Set up the new LMS according to the planned architecture." },
+        { title: "Migrate selected content and available data", description: "Move the prepared materials and user records." },
+        { title: "Test access, courses and reporting", description: "Verify everything functions correctly in the new platform." },
+        { title: "Plan launch and handover", description: "Prepare administrators and learners for the transition." }
+      ]}
+    />
+
+    <section class="py-24 bg-white border-b border-brand-border/30">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-center text-brand-navy mb-8">LMS Migration Checklist</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-brand-textMain">
-          <div class="bg-brand-softBg p-6 rounded-xl border border-brand-border/50">
-            <h3 class="font-bold text-brand-primary mb-4 text-xl border-b border-brand-border pb-2">Phase 1: Pre-Migration</h3>
-            <ul class="space-y-3">
-              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Audit existing courses and media files.</li>
-              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Map the new LMS learning paths and categories.</li>
-              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Export user data and completion records.</li>
-              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Backup all SCORM/xAPI packages.</li>
-            </ul>
-          </div>
-          <div class="bg-brand-softBg p-6 rounded-xl border border-brand-border/50">
-            <h3 class="font-bold text-brand-primary mb-4 text-xl border-b border-brand-border pb-2">Phase 2: Execution & QA</h3>
-            <ul class="space-y-3">
-              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Setup platform brand and notification emails.</li>
-              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Upload and rebuild course structures.</li>
-              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Import user data and assign correct access.</li>
-              <li class="flex items-start"><span class="text-brand-accent mr-2">✓</span> Conduct UAT (User Acceptance Testing) before launch.</li>
-            </ul>
-          </div>
+        <h2 class="text-3xl font-bold text-center text-brand-navy mb-8">Platform Selection</h2>
+        <p class="text-lg text-brand-textMain mb-6 text-center">We do not name one platform as universally best. Instead, we help you evaluate options based on:</p>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-brand-textMain">
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Audience</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> User volume</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Course formats</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Reporting</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Integrations</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Content standards</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Administration</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Accessibility</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Localization</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Security requirements</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Support</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Budget</li>
+          <li class="flex items-center"><span class="text-brand-accent mr-2">✓</span> Internal capacity</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="py-24 bg-slate-50 border-b border-brand-border/30">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-brand-navy mb-8">SCORM and xAPI Support</h2>
+        <div class="bg-white p-8 rounded-xl border border-brand-border/50 shadow-sm">
+           <ul class="space-y-4 text-lg text-brand-textMain">
+              <li class="flex items-start">
+                  <span class="text-brand-accent mr-3 mt-1 font-bold">✓</span>
+                  <span>Support depends heavily on your target LMS capabilities.</span>
+              </li>
+              <li class="flex items-start">
+                  <span class="text-brand-accent mr-3 mt-1 font-bold">✓</span>
+                  <span>Package behavior must be tested thoroughly in the intended environment.</span>
+              </li>
+              <li class="flex items-start">
+                  <span class="text-brand-accent mr-3 mt-1 font-bold">✓</span>
+                  <span>Tracking accuracy and reporting depth can vary significantly between platforms.</span>
+              </li>
+              <li class="flex items-start">
+                  <span class="text-brand-accent mr-3 mt-1 font-bold">✓</span>
+                  <span>xAPI implementation may require additional architecture (like a Learning Record Store).</span>
+              </li>
+               <li class="flex items-start">
+                  <span class="text-brand-accent mr-3 mt-1 font-bold">✓</span>
+                  <span><strong>Important:</strong> Not every platform or course needs these complex standards.</span>
+              </li>
+           </ul>
         </div>
       </div>
     </section>
 
-    <LMSEngagementTypes />
-    <AIAnswerBlock questions={aiAnswers} />
-    <LMSFAQ />
-    <LMSFinalCTA />
-  </main>
-  <script>
-    import { openStartServiceChat } from "../../utils/tawkSales";
-    document.addEventListener("DOMContentLoaded", () => {
-      const btns = document.querySelectorAll(".tawk-service-btn");
-      btns.forEach(btn => {
-        btn.addEventListener("click", (e) => {
-          e.preventDefault();
-          const target = e.currentTarget as HTMLButtonElement;
-          openStartServiceChat({
-            serviceSlug: target.dataset.serviceSlug || "",
-            pageUrl: window.location.href,
-            pageTitle: document.title,
-          });
-        });
-      });
-    });
-  </script>
+    <section class="py-24 bg-white border-b border-brand-border/30">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-brand-navy mb-8">Important Limitations</h2>
+        <div class="bg-slate-50 p-6 rounded-xl border border-brand-border/50 text-brand-textMain">
+          <ul class="list-disc pl-6 space-y-2">
+            <li>Migration depends on access and exports provided by your current system.</li>
+            <li>Unavailable source data cannot be migrated.</li>
+            <li>Some content or specialized configurations may need manual recreation.</li>
+            <li>Custom integrations require separate technical assessment.</li>
+            <li>Payment data must not be handled insecurely and typically requires secure gateway reconfiguration.</li>
+            <li>Launch planning depends on the client's internal environment and readiness.</li>
+            <li>Zero data loss cannot be guaranteed due to variations in legacy exports.</li>
+            <li>Compatibility requires extensive testing.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
+    <ServiceRelatedCaseStudies slugs={['sqa-aligned-vocational-training', 'business-analytics-corporate-training']} />
+
+    <ServiceFAQ faqs={faqs} />
+
+    <ServiceFinalCTA
+      serviceSlug="lms-implementation"
+      primaryCtaLabel="Discuss Your LMS Project"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Get a 24–48 Hour Review"
+      secondaryCtaLink="/book-free-audit/"
+    />
+  </main>
 </Layout>
