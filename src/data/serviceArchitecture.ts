@@ -244,10 +244,10 @@ export const serviceArchitecture: ServiceDefinition[] = [
     problemSolved: "We need to test our learning content.",
     audience: ["Organizations", "Creators"],
     icon: "CheckCircle",
-    status: "planned-part-3",
-    publicVisibility: false,
-    navigationVisibility: false,
-    hubVisibility: false,
+    status: "live",
+    publicVisibility: true,
+    navigationVisibility: true,
+    hubVisibility: true,
     ctaType: "review"
   },
   {
@@ -289,10 +289,10 @@ export const serviceArchitecture: ServiceDefinition[] = [
     problemSolved: "We need a team to manage our learning operations.",
     audience: ["Organizations"],
     icon: "Briefcase",
-    status: "planned-part-3",
-    publicVisibility: false,
-    navigationVisibility: false,
-    hubVisibility: false,
+    status: "live",
+    publicVisibility: true,
+    navigationVisibility: true,
+    hubVisibility: true,
     ctaType: "contact"
   },
 

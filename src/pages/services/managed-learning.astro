@@ -1,0 +1,193 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ServiceHero from "../../components/service-page/ServiceHero.astro";
+import ServiceShortAnswer from "../../components/service-page/ServiceShortAnswer.astro";
+import ServiceAudience from "../../components/service-page/ServiceAudience.astro";
+import ServiceDeliverables from "../../components/service-page/ServiceDeliverables.astro";
+import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
+import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
+import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+
+import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
+
+const faqs = [
+  { question: "What are managed learning services?", answer: "Managed learning services involve outsourcing parts of your ongoing course operations, content updates, and platform coordination to an external team like TheEduAssist under a structured, long-term agreement." },
+  { question: "How are they different from maintenance?", answer: "Maintenance usually focuses on fixing broken elements or making ad-hoc updates. Managed learning is a proactive partnership where we help manage the backlog, plan releases, and actively drive the operation of your learning programs." },
+  { question: "Can you support an internal L&D team?", answer: "Yes. We act as an extension of your existing team, providing delivery support, QA, and content production capacity without requiring immediate internal headcount expansion." },
+  { question: "Can you manage several courses or platforms?", answer: "Yes. Our managed services are designed for organizations and academies with growing catalogs, multiple ongoing courses, or frequent, complex updates across different systems." },
+  { question: "Do you provide platform administration?", answer: "We provide platform administration support (such as uploading content, organizing categories, and managing user structures), but ultimate data governance and final learner policies remain with your organization." },
+  { question: "Are service levels included?", answer: "Yes. Managed service agreements explicitly define service levels, expected turnaround times for typical updates, and the agreed operating rhythm." },
+  { question: "Is 24/7 support available?", answer: "No. Standard managed services operate during agreed business hours. 24/7 support is not assumed." },
+  { question: "Can managed services include course development?", answer: "Yes. A managed service scope often includes a blended allocation for ongoing maintenance and the development of new learning assets or minor modules." },
+  { question: "How are priorities and approvals managed?", answer: "You retain control of business priorities and final approvals. We maintain a delivery backlog, and through regular planning sessions, you decide which tasks we execute next." }
+];
+
+const structuredData = [
+  professionalServiceSchema(),
+  breadcrumbSchema([
+    { name: 'Home', urlPath: '/' },
+    { name: 'Services', urlPath: '/services/' },
+    { name: 'Managed Learning Services', urlPath: '/services/managed-learning/' }
+  ]),
+  faqPageSchema(faqs)
+];
+---
+
+<Layout
+  title="Managed Learning Services | TheEduAssist"
+  description="Extend your learning team with structured ongoing delivery support. TheEduAssist helps manage course operations, platform coordination, and content production."
+  canonicalPath="/services/managed-learning/"
+  jsonLd={structuredData}
+>
+  <main id="main-content">
+    <ServiceHero
+      eyebrow="Managed Learning Services"
+      title="Extend Your Learning Team with Structured Ongoing Delivery Support"
+      description="TheEduAssist can support continuing course operations, content updates, platform coordination, quality assurance, release planning and learning asset development under an agreed managed-services scope."
+      primaryCtaLabel="Discuss Managed Learning Support"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Review Your Current Learning Operations"
+      secondaryCtaLink="/book-free-audit/"
+    />
+
+    <ServiceShortAnswer
+      heading="What Are Managed Learning Services?"
+      answer="Managed learning services act as an extension of your team, providing structured, proactive support to run, update, and improve your online courses and learning platforms based on an agreed scope and backlog."
+    />
+
+    <ServiceAudience
+      heading="Who We Support"
+      audience={[
+        "Small learning teams",
+        "Growing training providers",
+        "Academies with several courses",
+        "Organizations with frequent updates",
+        "Customer education teams",
+        "Professional associations",
+        "Organizations with learning backlogs",
+        "Teams needing delivery support without immediate internal expansion"
+      ]}
+    />
+
+    <ServiceDeliverables
+      heading="Possible Service Areas"
+      deliverables={[
+        "Intake and backlog management",
+        "Course-update coordination",
+        "Instructional-design support",
+        "Content production",
+        "Platform administration support",
+        "Learning-content QA",
+        "Release planning",
+        "Documentation",
+        "Reporting coordination",
+        "Vendor coordination",
+        "Course-catalog organization",
+        "New learning asset development",
+        "Recurring maintenance"
+      ]}
+    />
+
+    <section class="py-24 bg-slate-50 border-y border-brand-border/30">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-brand-navy mb-12">Responsibility Model</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-xl border border-brand-border/50 shadow-sm">
+            <h3 class="text-xl font-bold text-brand-primary mb-4 border-b border-brand-border pb-2">Client May Own</h3>
+            <ul class="space-y-2 text-brand-textMain">
+              <li><span class="text-brand-accent mr-2">✓</span> Business priorities</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Final approval</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Subject-matter expertise</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Learner policies</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Platform contracts</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Data governance</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Regulatory decisions</li>
+            </ul>
+          </div>
+          <div class="bg-white p-6 rounded-xl border border-brand-border/50 shadow-sm">
+            <h3 class="text-xl font-bold text-brand-primary mb-4 border-b border-brand-border pb-2">TheEduAssist May Support</h3>
+            <ul class="space-y-2 text-brand-textMain">
+               <li><span class="text-brand-accent mr-2">✓</span> Design</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Development</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Content operations</li>
+              <li><span class="text-brand-accent mr-2">✓</span> QA</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Platform configuration</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Documentation</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Release preparation</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Reporting support</li>
+            </ul>
+          </div>
+          <div class="bg-white p-6 rounded-xl border border-brand-border/50 shadow-sm">
+            <h3 class="text-xl font-bold text-brand-primary mb-4 border-b border-brand-border pb-2">Shared Responsibilities</h3>
+            <ul class="space-y-2 text-brand-textMain">
+              <li><span class="text-brand-accent mr-2">✓</span> Planning</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Prioritization</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Review</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Access</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Launch decisions</li>
+              <li><span class="text-brand-accent mr-2">✓</span> Continuous improvement</li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-center text-brand-textMain mt-8 italic text-sm">Note: Final responsibilities depend strictly on the agreed scope of services.</p>
+      </div>
+    </section>
+
+    <ServiceProcess
+      heading="Operating Rhythm"
+      steps={[
+        { title: "Define scope and governance", description: "Establish exactly what is covered and how we will work together." },
+        { title: "Establish intake and prioritization", description: "Set up the system for logging and ranking new requests." },
+        { title: "Maintain a delivery backlog", description: "Keep a transparent list of all planned work." },
+        { title: "Plan releases", description: "Group updates into logical sprints or launch dates." },
+        { title: "Design or update content", description: "Execute the required instructional design or development." },
+        { title: "Review and test", description: "Perform internal QA and hand over for client approval." },
+        { title: "Release", description: "Push the approved changes to the live learning environment." },
+        { title: "Report and improve", description: "Review progress and adjust processes for the next cycle." }
+      ]}
+    />
+
+    <section class="py-24 bg-white border-b border-brand-border/30">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center text-brand-navy mb-8">Important Limitations</h2>
+        <div class="bg-slate-50 p-6 rounded-xl border border-brand-border/50 text-brand-textMain">
+          <ul class="list-disc pl-6 space-y-2">
+            <li>Scope strictly depends on the formal agreement. We do not automatically replace a complete internal L&D department.</li>
+            <li>Service levels must be agreed explicitly.</li>
+            <li>24/7 support is not assumed.</li>
+            <li>Legal and regulatory approval remains entirely with the client.</li>
+            <li>Platform outages remain external to our service boundaries.</li>
+            <li>Client access and timely approvals directly affect delivery timelines.</li>
+            <li>Managed support does not automatically include every new, large-scale development request outside the agreed capacity.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <ServiceDeliverables
+      heading="Deliverables We Provide"
+      deliverables={[
+        "Service backlog",
+        "Delivery plan",
+        "Updated learning material",
+        "QA logs",
+        "Release notes",
+        "Platform changes",
+        "Documentation",
+        "Catalog updates",
+        "Agreed reporting",
+        "Improvement recommendations"
+      ]}
+    />
+
+    <ServiceFAQ faqs={faqs} />
+
+    <ServiceFinalCTA
+      serviceSlug="managed-learning"
+      primaryCtaLabel="Discuss Managed Learning Support"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Review Your Current Learning Operations"
+      secondaryCtaLink="/book-free-audit/"
+    />
+  </main>
+</Layout>
