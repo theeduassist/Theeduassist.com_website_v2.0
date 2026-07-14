@@ -1,0 +1,253 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import EnterpriseSolutionHero from '../../../components/enterprise-solution/EnterpriseSolutionHero.astro';
+import EnterpriseSolutionShortAnswer from '../../../components/enterprise-solution/EnterpriseSolutionShortAnswer.astro';
+import EnterpriseSolutionAudience from '../../../components/enterprise-solution/EnterpriseSolutionAudience.astro';
+import EnterpriseSolutionChallenges from '../../../components/enterprise-solution/EnterpriseSolutionChallenges.astro';
+import EnterpriseSolutionScope from '../../../components/enterprise-solution/EnterpriseSolutionScope.astro';
+import EnterpriseSolutionPathway from '../../../components/enterprise-solution/EnterpriseSolutionPathway.astro';
+import EnterpriseSolutionProcess from '../../../components/enterprise-solution/EnterpriseSolutionProcess.astro';
+import EnterpriseSolutionDeliverables from '../../../components/enterprise-solution/EnterpriseSolutionDeliverables.astro';
+import EnterpriseSolutionResponsibilities from '../../../components/enterprise-solution/EnterpriseSolutionResponsibilities.astro';
+import EnterpriseSolutionLimitations from '../../../components/enterprise-solution/EnterpriseSolutionLimitations.astro';
+import EnterpriseSolutionRelatedServices from '../../../components/enterprise-solution/EnterpriseSolutionRelatedServices.astro';
+import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
+import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
+
+const audience = [
+  "L&D teams",
+  "HR teams",
+  "Operations teams",
+  "Functional academies",
+  "Transformation programs",
+  "Customer or product teams",
+  "Technical departments",
+  "Professional-service organizations",
+  "Training providers",
+  "Organizations with several disconnected programs"
+];
+
+const challenges = [
+  "Courses spread across teams",
+  "No common curriculum structure",
+  "Duplicated content",
+  "Inconsistent naming",
+  "Unclear learning ownership",
+  "Outdated resources",
+  "Poor platform organization",
+  "Different audiences cannot find relevant pathways",
+  "No content governance",
+  "No release or maintenance process",
+  "No relationship between role needs and learning"
+];
+
+const scope = [
+  "Academy strategy",
+  "Audience and role architecture",
+  "Curriculum framework",
+  "Learning pathways",
+  "Course catalog",
+  "Content standards",
+  "Platform information architecture",
+  "Naming and metadata rules",
+  "Governance",
+  "Content-owner responsibilities",
+  "QA standards",
+  "Release planning",
+  "Maintenance model",
+  "Learner communications"
+];
+
+const stages = [
+  {
+    title: "Organization Priorities",
+    description: "Aligning the academy with business goals and capability requirements."
+  },
+  {
+    title: "Audience and Roles",
+    description: "Mapping exactly who the academy serves and what they need to do."
+  },
+  {
+    title: "Learning Academies or Domains",
+    description: "Structuring logical schools or categories of learning."
+  },
+  {
+    title: "Pathways",
+    description: "Creating guided routes for specific roles or capabilities."
+  },
+  {
+    title: "Courses",
+    description: "Developing individual learning interventions within the pathways."
+  },
+  {
+    title: "Modules and Resources",
+    description: "The granular components, job aids, and practice exercises."
+  },
+  {
+    title: "Assessment and Application",
+    description: "Measuring knowledge transfer and workplace performance."
+  },
+  {
+    title: "Maintenance and Governance",
+    description: "The ongoing system for keeping the academy relevant and accurate."
+  }
+];
+
+const processSteps = [
+  "Review existing learning content and business goals",
+  "Define academy domains and audience architecture",
+  "Design the curriculum framework and pathways",
+  "Establish content and metadata standards",
+  "Define the governance model and responsibilities",
+  "Map the information architecture for the platform",
+  "Migrate, update, or develop initial content",
+  "Test the platform experience",
+  "Launch the academy",
+  "Transition into the ongoing governance and maintenance model"
+];
+
+const deliverables = [
+  "Academy strategy",
+  "Audience map",
+  "Taxonomy",
+  "Curriculum architecture",
+  "Learning pathways",
+  "Catalog structure",
+  "Course templates",
+  "Content standards",
+  "Governance model",
+  "Platform structure",
+  "Metadata guidance",
+  "QA framework",
+  "Maintenance roadmap"
+];
+
+const clientOwns = [
+  "Executive or business sponsorship",
+  "Academy ownership",
+  "Learning ownership",
+  "Subject-matter experts",
+  "Content review",
+  "Platform administration",
+  "Release approval"
+];
+
+const eduAssistSupports = [
+  "Academy strategy and architecture",
+  "Instructional design and content development",
+  "Platform configuration support",
+  "QA execution",
+  "Maintenance operations"
+];
+
+const limitations = [
+  "An academy requires ongoing ownership",
+  "Technology alone does not create an academy",
+  "Content governance must remain active",
+  "Platform features may limit the intended design",
+  "Internal adoption depends on communication and management",
+  "Academy creation does not guarantee engagement or performance outcomes"
+];
+
+const relatedServices = [
+  { title: "Learning Strategy", url: "/services/learning-strategy/" },
+  { title: "Instructional Design", url: "/services/instructional-design/" },
+  { title: "Course Development", url: "/services/course-development/" },
+  { title: "LMS Implementation", url: "/services/lms-implementation-migration/" },
+  { title: "Content Conversion", url: "/services/content-conversion/" },
+  { title: "Quality Assurance", url: "/services/quality-assurance/" },
+  { title: "Managed Learning Services", url: "/services/managed-learning/" },
+  { title: "Localization", url: "/services/course-localization-translation/" }
+];
+
+const faqs = [
+  {
+    question: "Is an internal academy the same as an LMS?",
+    answer: "No. An LMS is the software platform. An internal academy is the complete system of organized content, logical pathways, standardized design, and the governance model that runs on top of the LMS."
+  },
+  {
+    question: "Can you organize courses already in our LMS?",
+    answer: "Yes. We frequently audit existing, disorganized LMS catalogs and restructure them into a logical, searchable academy architecture."
+  },
+  {
+    question: "Can one academy support different roles?",
+    answer: "Yes. A well-designed academy uses personalized learning pathways and audience rules so that different roles see content specifically relevant to them."
+  },
+  {
+    question: "Can you create curriculum and learning pathways?",
+    answer: "Yes. Defining structured curriculums and learning pathways is a core part of moving from a disorganized course catalog to a true academy."
+  },
+  {
+    question: "Can you help define content governance?",
+    answer: "Yes. We help establish rules for who can create content, how it gets approved, how it must be tagged, and when it needs to be reviewed or archived."
+  },
+  {
+    question: "Can the academy include onboarding and upskilling?",
+    answer: "Yes. Academies often serve as the central hub, containing dedicated domains for new-hire onboarding, leadership development, technical upskilling, and compliance."
+  },
+  {
+    question: "Can content be localized?",
+    answer: "Yes. We can design the academy architecture to support multiple languages and regional variations where required."
+  },
+  {
+    question: "Can you provide ongoing academy support?",
+    answer: "Yes. Through our Managed Learning Services, we can act as an extension of your team to help govern, build, and maintain the academy over time."
+  },
+  {
+    question: "Do you guarantee employee participation?",
+    answer: "No. While a structured, easy-to-navigate academy significantly improves the learning experience, employee participation is ultimately driven by company culture, manager support, and dedicated time for learning."
+  }
+];
+---
+
+<Layout
+  title="Internal Learning Academies | TheEduAssist"
+  description="Organize your organizational knowledge into a structured internal academy. Connect learning pathways, content, and governance."
+  canonicalPath="/enterprise-solutions/internal-learning-academies/"
+>
+  <main class="flex-auto">
+    <EnterpriseSolutionHero
+      eyebrow="Internal Learning Academies"
+      title="Organize Organizational Knowledge into a Structured Internal Academy"
+      body="TheEduAssist helps organizations plan and build internal academies that connect learning pathways, course content, subject-matter expertise, platform delivery, governance and ongoing maintenance."
+      primaryCtaLabel="Discuss an Internal Academy"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Get a 24-48 Hour Review"
+      secondaryCtaLink="/book-free-audit/"
+    />
+
+    <EnterpriseSolutionShortAnswer
+      heading="What Is an Internal Learning Academy?"
+      answer="An internal learning academy is an organized system of learning pathways, courses, resources, roles and governance designed to support capability development across an organization."
+    />
+
+    <EnterpriseSolutionAudience audience={audience} />
+
+    <EnterpriseSolutionChallenges challenges={challenges} />
+
+    <EnterpriseSolutionScope scope={scope} />
+
+    <EnterpriseSolutionPathway
+      title="Academy Architecture"
+      description="The structural components that build a comprehensive internal academy."
+      stages={stages}
+    />
+
+    <EnterpriseSolutionProcess steps={processSteps} />
+
+    <EnterpriseSolutionDeliverables deliverables={deliverables} />
+
+    <EnterpriseSolutionResponsibilities
+      clientOwns={clientOwns}
+      eduAssistSupports={eduAssistSupports}
+    />
+
+    <EnterpriseSolutionLimitations limitations={limitations} />
+
+    <EnterpriseSolutionRelatedServices services={relatedServices} />
+
+    <ServiceFAQ faqs={faqs} />
+
+    <ServiceFinalCTA serviceSlug="internal-learning-academies" />
+  </main>
+</Layout>

@@ -1,0 +1,247 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import EnterpriseSolutionHero from '../../../components/enterprise-solution/EnterpriseSolutionHero.astro';
+import EnterpriseSolutionShortAnswer from '../../../components/enterprise-solution/EnterpriseSolutionShortAnswer.astro';
+import EnterpriseSolutionAudience from '../../../components/enterprise-solution/EnterpriseSolutionAudience.astro';
+import EnterpriseSolutionChallenges from '../../../components/enterprise-solution/EnterpriseSolutionChallenges.astro';
+import EnterpriseSolutionScope from '../../../components/enterprise-solution/EnterpriseSolutionScope.astro';
+import EnterpriseSolutionPathway from '../../../components/enterprise-solution/EnterpriseSolutionPathway.astro';
+import EnterpriseSolutionProcess from '../../../components/enterprise-solution/EnterpriseSolutionProcess.astro';
+import EnterpriseSolutionDeliverables from '../../../components/enterprise-solution/EnterpriseSolutionDeliverables.astro';
+import EnterpriseSolutionResponsibilities from '../../../components/enterprise-solution/EnterpriseSolutionResponsibilities.astro';
+import EnterpriseSolutionLimitations from '../../../components/enterprise-solution/EnterpriseSolutionLimitations.astro';
+import EnterpriseSolutionRelatedServices from '../../../components/enterprise-solution/EnterpriseSolutionRelatedServices.astro';
+import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
+import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
+
+const audience = [
+  "HR and People teams",
+  "L&D teams",
+  "Talent Development teams",
+  "Operations teams",
+  "Department leaders",
+  "Role owners",
+  "Managers",
+  "Distributed or remote teams",
+  "Organizations with frequent hiring",
+  "Teams replacing informal onboarding"
+];
+
+const challenges = [
+  "Inconsistent onboarding between teams",
+  "Dependence on individual trainers",
+  "Excessive documents and presentations",
+  "Unclear role expectations",
+  "No central learning path",
+  "Repeated questions",
+  "Weak manager involvement",
+  "Missing system or process training",
+  "Outdated onboarding content",
+  "No clear ownership of updates",
+  "Remote employees receiving an inconsistent experience"
+];
+
+const scope = [
+  "Onboarding needs review",
+  "Role and audience analysis",
+  "Onboarding journey map",
+  "Preboarding guidance",
+  "Organization orientation",
+  "Role-specific learning paths",
+  "Systems and process training",
+  "Policy learning",
+  "Product or service knowledge",
+  "Manager guidance",
+  "Checklists",
+  "Job aids",
+  "Practical assignments",
+  "Knowledge checks",
+  "Milestone reviews",
+  "Platform setup",
+  "Maintenance plan"
+];
+
+const stages = [
+  {
+    title: "Before Start",
+    description: "Essential access, expectations and introductory information."
+  },
+  {
+    title: "First Days",
+    description: "Organization, team, systems and immediate responsibilities."
+  },
+  {
+    title: "First Weeks",
+    description: "Role knowledge, processes, tools and practical application."
+  },
+  {
+    title: "Role Readiness",
+    description: "Guided practice, feedback, assessments and manager review."
+  },
+  {
+    title: "Continued Development",
+    description: "Follow-up learning, resources and future capability pathways."
+  }
+];
+
+const processSteps = [
+  "Review current onboarding",
+  "Identify audiences and roles",
+  "Map knowledge and performance requirements",
+  "Audit source content",
+  "Design the onboarding journey",
+  "Develop courses, activities and resources",
+  "Configure delivery",
+  "Review with stakeholders",
+  "Test the learner and manager experience",
+  "Launch and maintain"
+];
+
+const deliverables = [
+  "Onboarding strategy",
+  "Role-readiness map",
+  "Journey map",
+  "Curriculum",
+  "Course modules",
+  "Manager guide",
+  "New-hire checklist",
+  "System-learning resources",
+  "Knowledge checks",
+  "Assignments",
+  "Job aids",
+  "Platform structure",
+  "QA report",
+  "Maintenance guidance"
+];
+
+const clientOwns = [
+  "Final policy approval",
+  "Role expectations",
+  "Employment decisions",
+  "System access",
+  "Manager participation",
+  "Legal and regulatory approval",
+  "Subject-matter experts",
+  "Required compliance content",
+  "Learner population"
+];
+
+const eduAssistSupports = [
+  "Learning design",
+  "Content organization",
+  "Development",
+  "Platform configuration",
+  "QA",
+  "Documentation"
+];
+
+const limitations = [
+  "Onboarding success depends on management and workplace support",
+  "Learning cannot replace access, coaching or role supervision",
+  "Employment or legal compliance remains the client’s responsibility",
+  "Systems and processes may change",
+  "Final role readiness requires practical workplace evidence",
+  "Onboarding does not guarantee employee retention or performance"
+];
+
+const relatedServices = [
+  { title: "Learning Strategy", url: "/services/learning-strategy/" },
+  { title: "Instructional Design", url: "/services/instructional-design/" },
+  { title: "Course Development", url: "/services/course-development/" },
+  { title: "Custom eLearning", url: "/services/custom-elearning-development/" },
+  { title: "LMS Implementation", url: "/services/lms-implementation-migration/" },
+  { title: "Quality Assurance", url: "/services/quality-assurance/" },
+  { title: "Managed Learning", url: "/services/managed-learning/" }
+];
+
+const faqs = [
+  {
+    question: "Can you improve an existing onboarding program?",
+    answer: "Yes. We can review your current materials, identify gaps, restructure the learning journey, and modernize the delivery format while keeping what already works."
+  },
+  {
+    question: "Can onboarding include role-specific learning paths?",
+    answer: "Yes. We often design a core organizational orientation followed by branched pathways tailored to specific departments, roles, or seniority levels."
+  },
+  {
+    question: "Can you convert onboarding documents into digital learning?",
+    answer: "Yes. We take existing manuals, policies, and slide decks and convert them into interactive courses, searchable resources, or structured digital pathways."
+  },
+  {
+    question: "Can the program be delivered through our LMS?",
+    answer: "Yes. We design and package onboarding content (such as SCORM or xAPI) to be deployed directly within your existing Learning Management System."
+  },
+  {
+    question: "Can managers be included in the journey?",
+    answer: "Yes. We can build specific guidance, checklists, and feedback milestones into the journey to help managers support their new hires consistently."
+  },
+  {
+    question: "Can you support remote employee onboarding?",
+    answer: "Yes. We design digital-first onboarding experiences that ensure remote and distributed employees receive the same consistent knowledge and support as in-office staff."
+  },
+  {
+    question: "Do you create assessments and checklists?",
+    answer: "Yes. We can build knowledge checks, practical assignments, and milestone checklists to verify that key information has been understood."
+  },
+  {
+    question: "Can onboarding content be updated later?",
+    answer: "Yes. We provide editable source files or build in platforms where content can be updated. We can also provide ongoing maintenance support."
+  },
+  {
+    question: "Do you guarantee employee retention or role performance?",
+    answer: "No. While structured onboarding is critical, retention and performance also depend on management, workplace culture, compensation, and operational realities."
+  }
+];
+---
+
+<Layout
+  title="Employee Onboarding and Role Readiness | TheEduAssist"
+  description="Build a structured employee onboarding journey. Organize role knowledge, policies, and manager guidance into clear digital pathways for new hires."
+  canonicalPath="/enterprise-solutions/employee-onboarding/"
+>
+  <main class="flex-auto">
+    <EnterpriseSolutionHero
+      eyebrow="Employee Onboarding and Role Readiness"
+      title="Build a Structured Onboarding Journey for New Employees"
+      body="TheEduAssist helps organizations organize role knowledge, policies, processes, systems and manager guidance into a clear digital onboarding experience that can support employees before, during and after their first weeks."
+      primaryCtaLabel="Discuss an Employee Onboarding Project"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Get a 24-48 Hour Review"
+      secondaryCtaLink="/book-free-audit/"
+    />
+
+    <EnterpriseSolutionShortAnswer
+      heading="What Is a Structured Employee Onboarding Program?"
+      answer="A structured onboarding program guides new employees through the knowledge, systems, processes, relationships and expectations they need to begin performing their role. It may combine digital learning, manager support, practical activities and workplace guidance."
+    />
+
+    <EnterpriseSolutionAudience audience={audience} />
+
+    <EnterpriseSolutionChallenges challenges={challenges} />
+
+    <EnterpriseSolutionScope scope={scope} />
+
+    <EnterpriseSolutionPathway
+      title="The Onboarding Journey"
+      description="A staged model for integrating new employees into the organization and their specific roles."
+      stages={stages}
+    />
+
+    <EnterpriseSolutionProcess steps={processSteps} />
+
+    <EnterpriseSolutionDeliverables deliverables={deliverables} />
+
+    <EnterpriseSolutionResponsibilities
+      clientOwns={clientOwns}
+      eduAssistSupports={eduAssistSupports}
+    />
+
+    <EnterpriseSolutionLimitations limitations={limitations} />
+
+    <EnterpriseSolutionRelatedServices services={relatedServices} />
+
+    <ServiceFAQ faqs={faqs} />
+
+    <ServiceFinalCTA serviceSlug="employee-onboarding" />
+  </main>
+</Layout>

@@ -9,6 +9,7 @@ import ServiceDeliverables from "../../components/service-page/ServiceDeliverabl
 import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
 import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
 import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+import ServiceRelatedSolutions from "../../components/service-page/ServiceRelatedSolutions.astro";
 
 import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
 
@@ -128,6 +129,12 @@ const structuredData = [
         { title: "Handover and maintenance guidance", description: "Deliver the final assets and advise on how to keep them updated." }
       ]}
     />
+
+  <ServiceRelatedSolutions solutions={[
+    { title: "Employee Onboarding", url: "/enterprise-solutions/employee-onboarding/" },
+    { title: "Internal Academies", url: "/enterprise-solutions/internal-learning-academies/" },
+    { title: "Customer Education", url: "/enterprise-solutions/customer-education/" }
+  ]} />
 
     <section class="py-12 bg-white">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

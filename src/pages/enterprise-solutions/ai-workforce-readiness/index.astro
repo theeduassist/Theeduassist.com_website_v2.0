@@ -1,0 +1,264 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import EnterpriseSolutionHero from '../../../components/enterprise-solution/EnterpriseSolutionHero.astro';
+import EnterpriseSolutionShortAnswer from '../../../components/enterprise-solution/EnterpriseSolutionShortAnswer.astro';
+import EnterpriseSolutionAudience from '../../../components/enterprise-solution/EnterpriseSolutionAudience.astro';
+import EnterpriseSolutionChallenges from '../../../components/enterprise-solution/EnterpriseSolutionChallenges.astro';
+import EnterpriseSolutionScope from '../../../components/enterprise-solution/EnterpriseSolutionScope.astro';
+import EnterpriseSolutionPathway from '../../../components/enterprise-solution/EnterpriseSolutionPathway.astro';
+import EnterpriseSolutionProcess from '../../../components/enterprise-solution/EnterpriseSolutionProcess.astro';
+import EnterpriseSolutionDeliverables from '../../../components/enterprise-solution/EnterpriseSolutionDeliverables.astro';
+import EnterpriseSolutionResponsibilities from '../../../components/enterprise-solution/EnterpriseSolutionResponsibilities.astro';
+import EnterpriseSolutionLimitations from '../../../components/enterprise-solution/EnterpriseSolutionLimitations.astro';
+import EnterpriseSolutionRelatedServices from '../../../components/enterprise-solution/EnterpriseSolutionRelatedServices.astro';
+import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
+import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
+
+const audience = [
+  "L&D teams",
+  "HR teams",
+  "Transformation teams",
+  "Operations",
+  "Technology leaders",
+  "Information security stakeholders",
+  "Legal or privacy stakeholders",
+  "Managers",
+  "Knowledge workers",
+  "Customer-service teams",
+  "Content and marketing teams",
+  "Project teams"
+];
+
+const challenges = [
+  "Employees using AI without consistent guidance",
+  "Policies exist but are difficult to apply",
+  "Teams do not know which tools are approved",
+  "Confidential data may be handled incorrectly",
+  "Outputs are accepted without review",
+  "Managers cannot identify suitable use cases",
+  "Role-specific examples are missing",
+  "Training focuses on features rather than responsible application",
+  "Tool behavior changes",
+  "No maintenance or update process exists"
+];
+
+const scope = [
+  "AI literacy foundations",
+  "Approved-tool guidance",
+  "Role-based use cases",
+  "Prompt and workflow fundamentals",
+  "Source and output verification",
+  "Privacy and security expectations",
+  "Intellectual-property considerations",
+  "Bias and cultural review",
+  "Hallucination awareness",
+  "Human approval",
+  "Prohibited-use examples",
+  "Escalation guidance",
+  "Manager learning",
+  "Practical scenarios",
+  "Assessments",
+  "Policy-to-practice resources",
+  "Update and maintenance planning"
+];
+
+const stages = [
+  {
+    title: "Understand AI Capabilities and Limits",
+    description: "Foundational literacy on what AI can and cannot do reliably."
+  },
+  {
+    title: "Know Approved Tools and Policies",
+    description: "Clear understanding of the organization's approved technology and rules."
+  },
+  {
+    title: "Identify Role-Appropriate Use Cases",
+    description: "Recognizing where AI adds value and where it introduces risk in specific roles."
+  },
+  {
+    title: "Use Controlled Workflows",
+    description: "Applying structured processes to generate useful outputs."
+  },
+  {
+    title: "Review and Verify Outputs",
+    description: "The critical human responsibility to check for accuracy, bias, and tone."
+  },
+  {
+    title: "Protect Information",
+    description: "Ensuring confidential data is never exposed to unapproved models."
+  },
+  {
+    title: "Escalate Uncertain or High-Risk Situations",
+    description: "Knowing when to seek guidance before using AI."
+  },
+  {
+    title: "Maintain Skills as Tools and Policies Change",
+    description: "Continuous learning as the technology evolves."
+  }
+];
+
+const processSteps = [
+  "Review policies and approved tools",
+  "Identify audiences and roles",
+  "Map appropriate and prohibited use cases",
+  "Design role-based pathways",
+  "Create scenarios and practice",
+  "Review with security, legal and subject-matter stakeholders",
+  "Pilot with a controlled group",
+  "Update based on findings",
+  "Launch",
+  "Maintain as tools and policies change"
+];
+
+const deliverables = [
+  "Audience and role map",
+  "AI literacy curriculum",
+  "Role-based modules",
+  "Approved-use examples",
+  "Prohibited-use scenarios",
+  "Decision guides",
+  "Checklists",
+  "Assessments",
+  "Manager guidance",
+  "Policy-to-practice resources",
+  "Learner FAQs",
+  "Pilot plan",
+  "QA findings",
+  "Maintenance recommendations"
+];
+
+const clientOwns = [
+  "Approved AI policy",
+  "Tool list",
+  "Prohibited uses",
+  "Data categories",
+  "Security guidance",
+  "Privacy guidance",
+  "Legal guidance",
+  "Role groups",
+  "Approved use cases",
+  "Escalation routes",
+  "Review responsibilities",
+  "Update owners"
+];
+
+const eduAssistSupports = [
+  "Learning strategy and curriculum design",
+  "Instructional design and scenario creation",
+  "Development of interactive modules",
+  "Platform configuration",
+  "QA and testing",
+  "Maintenance guidance"
+];
+
+const limitations = [
+  "AI tools and risks change",
+  "Learning must reflect current organizational policy",
+  "Legal and security approval remains with the client",
+  "Training cannot eliminate all misuse",
+  "Confidential-data handling requires approved controls",
+  "Productivity and adoption outcomes cannot be guaranteed",
+  "Regulated or high-risk uses require specialist review",
+  "Learning does not replace governance or technical safeguards"
+];
+
+const relatedServices = [
+  { title: "Learning Strategy", url: "/services/learning-strategy/" },
+  { title: "Instructional Design", url: "/services/instructional-design/" },
+  { title: "Course Development", url: "/services/course-development/" },
+  { title: "AI-Supported E-Learning", url: "/services/ai-powered-elearning/" },
+  { title: "Quality Assurance", url: "/services/quality-assurance/" },
+  { title: "Managed Learning Services", url: "/services/managed-learning/" }
+];
+
+const faqs = [
+  {
+    question: "Is AI workforce readiness the same as AI tool training?",
+    answer: "No. While it includes how to use tools, workforce readiness focuses heavily on responsible application, knowing when not to use AI, data security, and the necessity of human review."
+  },
+  {
+    question: "Can the program be customized by role?",
+    answer: "Yes. The risks and use cases for a software engineer are completely different from those for an HR professional. We build role-specific pathways."
+  },
+  {
+    question: "Can you use our existing AI policy?",
+    answer: "Yes. We translate your formal legal and IT policies into practical, scenario-based learning that employees can understand and apply."
+  },
+  {
+    question: "Do you provide legal or security approval?",
+    answer: "No. We design learning based on the policies and guardrails provided and approved by your own legal, security, and IT teams."
+  },
+  {
+    question: "Can the program include practical scenarios?",
+    answer: "Yes. We use scenario-based learning where employees must decide if a specific use case is safe, how to handle a data prompt, and how to verify a hallucinated output."
+  },
+  {
+    question: "Can managers receive separate guidance?",
+    answer: "Yes. Managers need specific training on how to evaluate their team's use of AI, how to review AI-generated work, and how to enforce policy."
+  },
+  {
+    question: "Can you cover confidential-data risks?",
+    answer: "Yes. Data privacy and understanding the difference between public models and secure enterprise models is a core component of the curriculum."
+  },
+  {
+    question: "How is the learning kept current?",
+    answer: "Because AI tools change rapidly, we build content in easily updatable formats and offer ongoing maintenance to keep scenarios relevant."
+  },
+  {
+    question: "Do you guarantee productivity or safe AI use?",
+    answer: "No. While education is critical, safe and productive AI use also requires technical guardrails (like enterprise tool licenses), active management, and a strong culture of accountability."
+  }
+];
+---
+
+<Layout
+  title="AI Workforce Readiness Programs | TheEduAssist"
+  description="Prepare teams to use AI responsibly in their roles. Design practical learning around approved tools, use cases, risks, and human review."
+  canonicalPath="/enterprise-solutions/ai-workforce-readiness/"
+>
+  <main class="flex-auto">
+    <EnterpriseSolutionHero
+      eyebrow="AI Workforce Readiness"
+      title="Prepare Teams to Use AI Responsibly in Their Roles"
+      body="TheEduAssist helps organizations design role-based learning that explains approved AI use, practical workflows, review responsibilities, limitations and responsible decision-making."
+      primaryCtaLabel="Discuss an AI Workforce Readiness Program"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Get a 24-48 Hour Review"
+      secondaryCtaLink="/book-free-audit/"
+    />
+
+    <EnterpriseSolutionShortAnswer
+      heading="What Is AI Workforce Readiness?"
+      answer="AI workforce readiness helps employees understand approved AI tools, relevant role-based use cases, limitations, privacy and security expectations, human-review responsibilities and appropriate escalation processes."
+    />
+
+    <EnterpriseSolutionAudience audience={audience} />
+
+    <EnterpriseSolutionChallenges challenges={challenges} />
+
+    <EnterpriseSolutionScope scope={scope} />
+
+    <EnterpriseSolutionPathway
+      title="The Responsible AI Learning Pathway"
+      description="Guiding employees from foundational literacy to safe, role-based application."
+      stages={stages}
+    />
+
+    <EnterpriseSolutionProcess steps={processSteps} />
+
+    <EnterpriseSolutionDeliverables deliverables={deliverables} />
+
+    <EnterpriseSolutionResponsibilities
+      clientOwns={clientOwns}
+      eduAssistSupports={eduAssistSupports}
+    />
+
+    <EnterpriseSolutionLimitations limitations={limitations} />
+
+    <EnterpriseSolutionRelatedServices services={relatedServices} />
+
+    <ServiceFAQ faqs={faqs} />
+
+    <ServiceFinalCTA serviceSlug="ai-workforce-readiness" />
+  </main>
+</Layout>

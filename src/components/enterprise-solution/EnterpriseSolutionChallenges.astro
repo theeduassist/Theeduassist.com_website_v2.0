@@ -1,0 +1,32 @@
+---
+import { AlertCircle, XCircle } from "lucide-react";
+
+interface Props {
+  challenges: string[];
+}
+
+const { challenges } = Astro.props;
+---
+
+<section class="py-16 md:py-24 bg-white">
+  <div class="container mx-auto px-4 md:px-6">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <div class="inline-flex items-center justify-center w-16 h-16 bg-red-50 rounded-2xl mb-6">
+          <AlertCircle className="w-8 h-8 text-red-600" />
+        </div>
+        <h2 class="text-3xl font-bold text-slate-900 mb-4">Common Organizational Challenges</h2>
+        <p class="text-lg text-slate-600">The business and operational problems this solution addresses.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-4">
+        {challenges.map(challenge => (
+          <div class="flex items-start gap-4 p-5 rounded-xl bg-slate-50 border border-slate-200">
+            <XCircle className="w-6 h-6 text-slate-400 shrink-0 mt-0.5" />
+            <span class="text-slate-700 leading-relaxed">{challenge}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
