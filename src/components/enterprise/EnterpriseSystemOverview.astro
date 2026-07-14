@@ -1,0 +1,49 @@
+---
+import { Database, MonitorPlay, Users, Settings } from "lucide-react";
+
+const integrations = [
+  {
+    title: "Strategy",
+    icon: Users,
+    items: ["Audience", "Outcomes", "Curriculum", "Governance", "Delivery model"]
+  },
+  {
+    title: "Content",
+    icon: MonitorPlay,
+    items: ["Courses", "Activities", "Assessments", "Resources", "Media", "Localization"]
+  },
+  {
+    title: "Technology",
+    icon: Database,
+    items: ["LMS", "Kajabi where appropriate", "Content packages", "Platform configuration", "Integrations", "Reporting"]
+  },
+  {
+    title: "Operations",
+    icon: Settings,
+    items: ["Content ownership", "Approvals", "Release planning", "QA", "Maintenance", "Learner support", "Managed services"]
+  }
+];
+---
+<section class="py-16 bg-white border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h2 class="text-3xl font-bold text-brand-navy">Platform, Content and Operations Integration</h2>
+      <p class="mt-4 text-lg text-slate-600">Enterprise learning programs combine multiple disciplines to create a seamless experience.</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {integrations.map(integration => (
+         <div class="bg-slate-50 rounded-xl p-6 border border-slate-200 text-center">
+            <div class="inline-flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-sm text-brand-green mb-4">
+               <integration.icon className="w-6 h-6" />
+            </div>
+            <h3 class="text-xl font-bold text-brand-navy mb-4">{integration.title}</h3>
+            <ul class="space-y-2 text-slate-600">
+               {integration.items.map(item => (
+                 <li>{item}</li>
+               ))}
+            </ul>
+         </div>
+      ))}
+    </div>
+  </div>
+</section>

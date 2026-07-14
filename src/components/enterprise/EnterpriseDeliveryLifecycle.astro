@@ -1,0 +1,32 @@
+---
+const phases = [
+  { step: "1", title: "Discover", desc: "Understand audiences, stakeholders, business context, content, technology and constraints." },
+  { step: "2", title: "Diagnose", desc: "Identify learning, content, platform and operational gaps." },
+  { step: "3", title: "Design", desc: "Define curriculum, learner journeys, delivery model, governance and technical direction." },
+  { step: "4", title: "Develop", desc: "Create learning content, platform configuration, resources and supporting workflows." },
+  { step: "5", title: "Validate", desc: "Review content, functionality, accessibility, learner flow and stakeholder requirements." },
+  { step: "6", title: "Launch", desc: "Prepare users, administrators, communications and controlled release." },
+  { step: "7", title: "Operate and Improve", desc: "Maintain content, review performance information and prioritize future updates." }
+];
+---
+<section class="py-16 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mb-12">
+      <h2 class="text-3xl font-bold text-brand-navy">Enterprise Delivery Lifecycle</h2>
+      <p class="mt-4 text-lg text-slate-600">A structured methodology suited to larger organizational projects, ensuring alignment and quality at every stage.</p>
+    </div>
+    <div class="space-y-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+      {phases.map((phase, index) => (
+        <div class={`relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active`}>
+          <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-slate-50 bg-brand-green text-brand-navy font-bold shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+            {phase.step}
+          </div>
+          <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+            <h3 class="font-bold text-lg text-brand-navy mb-1">{phase.title}</h3>
+            <p class="text-slate-600">{phase.desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

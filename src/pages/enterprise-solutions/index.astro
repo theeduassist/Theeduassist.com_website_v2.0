@@ -1,0 +1,52 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EnterpriseHero from '../../components/enterprise/EnterpriseHero.astro';
+import EnterpriseShortAnswer from '../../components/enterprise/EnterpriseShortAnswer.astro';
+import EnterpriseAudiences from '../../components/enterprise/EnterpriseAudiences.astro';
+import EnterpriseChallenges from '../../components/enterprise/EnterpriseChallenges.astro';
+import EnterpriseSolutionPathways from '../../components/enterprise/EnterpriseSolutionPathways.astro';
+import EnterpriseGoalNavigator from '../../components/enterprise/EnterpriseGoalNavigator.astro';
+import EnterpriseEngagementModels from '../../components/enterprise/EnterpriseEngagementModels.astro';
+import EnterpriseDeliveryLifecycle from '../../components/enterprise/EnterpriseDeliveryLifecycle.astro';
+import EnterpriseSystemOverview from '../../components/enterprise/EnterpriseSystemOverview.astro';
+import EnterpriseTrustOverview from '../../components/enterprise/EnterpriseTrustOverview.astro';
+import EnterpriseProof from '../../components/enterprise/EnterpriseProof.astro';
+import EnterpriseProjectBrief from '../../components/enterprise/EnterpriseProjectBrief.astro';
+import EnterpriseProcurementOverview from '../../components/enterprise/EnterpriseProcurementOverview.astro';
+import EnterpriseFAQ from '../../components/enterprise/EnterpriseFAQ.astro';
+import EnterpriseFinalCTA from '../../components/enterprise/EnterpriseFinalCTA.astro';
+
+import { site } from '../../data/site';
+
+const title = "Enterprise Learning Solutions and Managed Services | TheEduAssist";
+const description = "TheEduAssist helps organizations plan, design, build, modernize and support learning systems for employees, customers, partners and global audiences.";
+const canonicalPath = "/enterprise-solutions/";
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": title,
+  "description": description,
+  "url": `${site.url}${canonicalPath}`
+};
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={schema}>
+  <main>
+    <EnterpriseHero />
+    <EnterpriseShortAnswer />
+    <EnterpriseAudiences />
+    <EnterpriseChallenges />
+    <EnterpriseSolutionPathways />
+    <EnterpriseGoalNavigator />
+    <EnterpriseEngagementModels />
+    <EnterpriseDeliveryLifecycle />
+    <EnterpriseSystemOverview />
+    <EnterpriseTrustOverview />
+    <EnterpriseProof />
+    <EnterpriseProjectBrief />
+    <EnterpriseProcurementOverview />
+    <EnterpriseFAQ />
+    <EnterpriseFinalCTA />
+  </main>
+</Layout>
