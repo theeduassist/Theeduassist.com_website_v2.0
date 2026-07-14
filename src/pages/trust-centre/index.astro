@@ -1,0 +1,404 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { trustPages } from '../../data/trustArchitecture';
+
+const pageData = trustPages.find(p => p.id === 'trust-centre');
+if (!pageData) {
+  throw new Error('Trust Centre page data not found in trustArchitecture.ts');
+}
+
+const title = pageData.title;
+const description = pageData.shortDescription;
+const canonicalPath = pageData.canonical;
+
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does TheEduAssist hold ISO or SOC 2 certification?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Certifications should only be claimed where current evidence exists. TheEduAssist does not currently hold ISO or SOC 2 certification. We focus on project-specific controls and transparent delivery practices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does TheEduAssist guarantee WCAG compliance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accessibility scope must be agreed and tested. While we design with accessibility in mind (referencing WCAG 2.2), we do not guarantee site-wide or course-wide conformance without a complete audit and documented scope."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is client access handled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Access depends on project requirements. We advocate for minimum necessary access, using approved accounts, and removing access after handover where appropriate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is AI-generated material reviewed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Client and subject-matter approval remain important. AI outputs are reviewed for accuracy, tone, bias, cultural suitability, and learning alignment before being incorporated into deliverables."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can project-specific security questions be reviewed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, security questions relevant to the agreed scope can be reviewed during project discussions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can TheEduAssist work under an NDA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NDA availability depends on review and agreement. We can review NDAs where appropriate for the engagement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can procurement teams request additional information?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, procurement teams can request information related to company details, project scope, and readiness during an enterprise engagement discussion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are quality issues managed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality issues are reviewed during defined testing phases and addressed according to the agreed project scope and acceptance criteria before handover."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who approves the final learning content?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The client remains responsible for final subject-matter approval and verifying that the content meets their business and legal requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the Trust Centre replace contractual terms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Public information does not replace contracts. Specific commitments are defined in the agreed Statement of Work or service contract."
+      }
+    }
+  ]
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": title,
+  "description": description,
+  "url": `https://theeduassist.com${canonicalPath}`,
+  "publisher": {
+    "@type": "Organization",
+    "name": "TheEduAssist",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://theeduassist.com/brand/theeduassist-logo-official.png"
+    }
+  }
+};
+---
+
+<Layout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={[jsonLd, faqSchema]}
+>
+  <main class="flex-grow">
+    <!-- Trust Centre Hero -->
+    <section class="bg-[#27496D] text-white py-20 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <span class="text-sm font-semibold tracking-wider uppercase mb-4 block text-gray-300">
+          Trust, Delivery and Governance
+        </span>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">
+          Understand How TheEduAssist Approaches Learning Delivery and Project Risk
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          The Trust Centre explains how TheEduAssist approaches project delivery, quality assurance, accessibility, responsible AI, security, privacy and procurement readiness across learning engagements.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href={pageData.primaryCta.href}
+            class="inline-block bg-[#77BA55] text-white font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-colors"
+          >
+            {pageData.primaryCta.label}
+          </a>
+          {pageData.secondaryCta && (
+            <a
+              href={pageData.secondaryCta.href}
+              class="inline-block bg-white text-[#27496D] font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition-colors"
+            >
+              {pageData.secondaryCta.label}
+            </a>
+          )}
+        </div>
+        <p class="mt-8 text-sm text-gray-400">
+          Clear scope • Defined responsibilities • Human review • Quality assurance • Controlled access • Documented handover
+        </p>
+      </div>
+    </section>
+
+    <!-- Short Answer -->
+    <section class="py-16 px-4 bg-gray-50">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6 text-[#27496D]">What Information Is Available in the Trust Centre?</h2>
+        <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+          The Trust Centre provides public information about TheEduAssist’s delivery methodology, responsible AI approach, accessibility considerations, security and privacy practices, and procurement readiness. Project-specific requirements are confirmed during an appropriate engagement discussion.
+        </p>
+      </div>
+    </section>
+
+    <!-- Trust Principles -->
+    <section class="py-16 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center text-[#27496D]">Our Core Principles</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <h3 class="text-xl font-bold mb-3 text-[#27496D]">CLEAR SCOPE</h3>
+            <p class="text-gray-600">The engagement should define work, deliverables, responsibilities, dependencies and approval expectations.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <h3 class="text-xl font-bold mb-3 text-[#27496D]">MINIMUM NECESSARY ACCESS</h3>
+            <p class="text-gray-600">Access should be limited to what is required for agreed work.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <h3 class="text-xl font-bold mb-3 text-[#27496D]">APPROVED SOURCES</h3>
+            <p class="text-gray-600">Learning content and AI-assisted work should use approved source material.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <h3 class="text-xl font-bold mb-3 text-[#27496D]">HUMAN REVIEW</h3>
+            <p class="text-gray-600">Subject-matter, instructional and publishing decisions should remain under appropriate human review.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <h3 class="text-xl font-bold mb-3 text-[#27496D]">QUALITY BEFORE RELEASE</h3>
+            <p class="text-gray-600">Content and functionality should be reviewed before handover or launch.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <h3 class="text-xl font-bold mb-3 text-[#27496D]">DOCUMENTED DECISIONS</h3>
+            <p class="text-gray-600">Important scope, review and delivery decisions should be recorded.</p>
+          </div>
+        </div>
+        <div class="mt-8 text-center text-gray-500">
+          <p>Security, privacy, accessibility and governance requirements depend on the engagement.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hub Sections -->
+    <section class="py-16 px-4 bg-gray-50">
+      <div class="max-w-5xl mx-auto space-y-16">
+
+        <!-- Delivery and Quality -->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+          <h2 class="text-2xl font-bold mb-4 text-[#27496D]">Delivery and Quality</h2>
+          <p class="text-gray-700 mb-6">
+            We follow a structured methodology covering discovery, scope, responsibilities, content review, design, development, stakeholder review, quality assurance, acceptance, launch preparation, handover, and maintenance.
+          </p>
+          <a href="/trust-centre/delivery-methodology/" class="text-[#77BA55] font-semibold hover:underline">
+            Review Our Delivery Methodology →
+          </a>
+        </div>
+
+        <!-- Responsible AI -->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+          <h2 class="text-2xl font-bold mb-4 text-[#27496D]">Responsible AI</h2>
+          <p class="text-gray-700 mb-6">
+            Our approach covers approved use cases, approved source material, tool selection, restricted information, human review, factual verification, bias and cultural review, publishing approval, and tool-change risks.
+          </p>
+          <a href="/trust-centre/responsible-ai/" class="text-[#77BA55] font-semibold hover:underline">
+            Read Our Responsible AI Approach →
+          </a>
+        </div>
+
+        <!-- Accessibility -->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+          <h2 class="text-2xl font-bold mb-4 text-[#27496D]">Accessibility</h2>
+          <p class="text-gray-700 mb-6">
+            We consider semantic structure, keyboard access, focus, contrast, alternative text, captions, transcripts, zoom, reduced motion, accessible documents, platform limitations, and manual and automated review.
+          </p>
+          <a href="/trust-centre/accessibility/" class="text-[#77BA55] font-semibold hover:underline">
+            Read Our Accessibility Approach →
+          </a>
+        </div>
+
+        <!-- Security and Privacy -->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+          <h2 class="text-2xl font-bold mb-4 text-[#27496D]">Security and Privacy</h2>
+          <p class="text-gray-700 mb-6">
+            Our practices include minimum access, approved accounts, secure credential handling, approved file sharing, project-specific data responsibilities, vendor and platform dependencies, access removal, handover, and deletion or retention expectations where agreed.
+          </p>
+          <a href="/trust-centre/security-privacy/" class="text-[#77BA55] font-semibold hover:underline">
+            Read Our Security and Privacy Approach →
+          </a>
+        </div>
+
+        <!-- Procurement -->
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
+          <h2 class="text-2xl font-bold mb-4 text-[#27496D]">Procurement and Project Readiness</h2>
+          <p class="text-gray-700 mb-6">
+            Information available during larger engagements may include company information, project scope, statement of work, responsibilities, data and access questions, security questions, privacy questions, accessibility requirements, acceptance criteria, handover, invoicing and commercial terms, and NDA or contract processes where appropriate.
+          </p>
+          <a href="/trust-centre/procurement/" class="text-[#77BA55] font-semibold hover:underline">
+            Review Procurement and Project Readiness →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Trust FAQ -->
+    <section class="py-16 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-10 text-center text-[#27496D]">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+            <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+              <span>Does TheEduAssist hold ISO or SOC 2 certification?</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+              </span>
+            </summary>
+            <div class="text-gray-600 px-6 pb-6">
+              Certifications should only be claimed where current evidence exists. TheEduAssist does not currently hold ISO or SOC 2 certification. We focus on project-specific controls and transparent delivery practices.
+            </div>
+          </details>
+          <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+            <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+              <span>Does TheEduAssist guarantee WCAG compliance?</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+              </span>
+            </summary>
+            <div class="text-gray-600 px-6 pb-6">
+              Accessibility scope must be agreed and tested. While we design with accessibility in mind (referencing WCAG 2.2), we do not guarantee site-wide or course-wide conformance without a complete audit and documented scope.
+            </div>
+          </details>
+          <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+            <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+              <span>How is client access handled?</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+              </span>
+            </summary>
+            <div class="text-gray-600 px-6 pb-6">
+              Access depends on project requirements. We advocate for minimum necessary access, using approved accounts, and removing access after handover where appropriate.
+            </div>
+          </details>
+          <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+            <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+              <span>How is AI-generated material reviewed?</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+              </span>
+            </summary>
+            <div class="text-gray-600 px-6 pb-6">
+              Client and subject-matter approval remain important. AI outputs are reviewed for accuracy, tone, bias, cultural suitability, and learning alignment before being incorporated into deliverables.
+            </div>
+          </details>
+          <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+            <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+              <span>Can project-specific security questions be reviewed?</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+              </span>
+            </summary>
+            <div class="text-gray-600 px-6 pb-6">
+              Yes, security questions relevant to the agreed scope can be reviewed during project discussions.
+            </div>
+          </details>
+          <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+            <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+              <span>Can TheEduAssist work under an NDA?</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+              </span>
+            </summary>
+            <div class="text-gray-600 px-6 pb-6">
+              NDA availability depends on review and agreement. We can review NDAs where appropriate for the engagement.
+            </div>
+          </details>
+          <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+            <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+              <span>Can procurement teams request additional information?</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+              </span>
+            </summary>
+            <div class="text-gray-600 px-6 pb-6">
+              Yes, procurement teams can request information related to company details, project scope, and readiness during an enterprise engagement discussion.
+            </div>
+          </details>
+          <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+            <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+              <span>How are quality issues managed?</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+              </span>
+            </summary>
+            <div class="text-gray-600 px-6 pb-6">
+              Quality issues are reviewed during defined testing phases and addressed according to the agreed project scope and acceptance criteria before handover.
+            </div>
+          </details>
+          <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+            <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+              <span>Who approves the final learning content?</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+              </span>
+            </summary>
+            <div class="text-gray-600 px-6 pb-6">
+              The client remains responsible for final subject-matter approval and verifying that the content meets their business and legal requirements.
+            </div>
+          </details>
+          <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+            <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+              <span>Does the Trust Centre replace contractual terms?</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+              </span>
+            </summary>
+            <div class="text-gray-600 px-6 pb-6">
+              No. Public information does not replace contracts. Specific commitments are defined in the agreed Statement of Work or service contract.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="bg-[#27496D] text-white py-16 px-4 text-center">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold mb-6">Ready to Discuss Your Project?</h2>
+        <p class="text-xl text-gray-300 mb-8">
+          Contact us to discuss your learning requirements and how our delivery approach supports your goals.
+        </p>
+        <a
+          href="/enterprise-solutions/project-brief/"
+          class="inline-block bg-[#77BA55] text-white font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-colors" data-analytics-event="trust_content_click" data-cta-name="Discuss Your Project Requirements" data-cta-location="trust_hub_footer" data-destination-type="project-brief"
+        >
+          Discuss Your Project Requirements
+        </a>
+      </div>
+    </section>
+
+  </main>
+</Layout>

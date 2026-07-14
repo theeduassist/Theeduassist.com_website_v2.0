@@ -1,5 +1,0 @@
-Final Blog Restoration Validation
-- `dist/blog/index.html` successfully compiled with correct fallback article cards.
-- The `dist/data/blog/page-1.json` exists, proving the Astro endpoint output is operational without making browser-side Sanity queries.
-- Pagination scales properly up to the fetched posts length (in this case 1 page of active filtered articles).
-- Blog validation complete and functionally sound against index logic.

@@ -1,4 +1,0 @@
-Pricing Content Rendering Fix Report
-- Identified raw HTML strings inside desc fields in src/pages/pricing/index.astro.
-- Verified these are not rendering securely because they are passed to a component that does not support raw HTML, or they are set:html.
-- Instead of using set:html, I will replace the <a href> tags with safe text and wrap the relevant components. Or I will use <Fragment set:html={...} /> if it is used in a Astro component.

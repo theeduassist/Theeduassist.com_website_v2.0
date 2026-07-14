@@ -61,7 +61,7 @@ export const enterpriseSolutions: EnterpriseSolution[] = [
     relatedCaseStudies: [],
     relatedBlogCategories: ["Workforce Learning"],
     trustRequirements: ["Role-based access", "Content approvals"],
-    CTA: "/contact/",
+    CTA: "/enterprise-solutions/project-brief/",
     claimReviewStatus: "verified",
     plannedPhasePart: "Part 2"
   },

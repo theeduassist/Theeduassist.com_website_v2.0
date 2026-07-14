@@ -1,7 +1,0 @@
-BUILD VALIDATION REPORT
-
-- Build completes without error
-- Node sitemap generation completes gracefully
-- No pagination route errors from missing body strings
-- No JSON endpoint errors
-- Security headers in vercel.json intact

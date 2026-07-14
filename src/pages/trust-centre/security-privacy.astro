@@ -1,0 +1,375 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { trustPages } from '../../data/trustArchitecture';
+
+const pageData = trustPages.find(p => p.id === 'security-privacy');
+if (!pageData) {
+  throw new Error('Security Privacy page data not found');
+}
+
+const title = pageData.title;
+const description = pageData.shortDescription;
+const canonicalPath = pageData.canonical;
+
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How is project access determined?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Access is determined based on the principle of minimum necessary access, granting only the permissions required to complete the agreed work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should passwords be sent by email?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Passwords and credentials should be shared using approved secure sharing methods, not plain-text email."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can TheEduAssist work within a client platform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We frequently work within client-provided platforms (like an LMS or authoring tool) using named accounts provisioned by the client's IT team."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are third-party tools handled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Third-party tools are assessed during project scoping. We rely on the vendor's security controls and follow platform access rules, but we do not control third-party infrastructure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can security questionnaires be reviewed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We can review appropriate security questionnaires during the procurement phase for enterprise engagements to clarify our project-specific practices."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does TheEduAssist guarantee GDPR compliance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. GDPR compliance depends on the specific data processed, the platforms used, and the roles defined (Data Controller vs. Processor). These details must be defined in project contracts, and clients remain responsible for their overall compliance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens to access after handover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Access to client systems should typically be revoked by the client upon project completion and handover, unless ongoing maintenance is agreed upon."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can project-specific retention requirements be discussed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Expectations regarding data retention, deletion, or return of working files can be defined and agreed upon in the Statement of Work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does TheEduAssist hold SOC 2 or ISO certification?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. We focus on implementing practical, project-specific security controls and do not currently hold formal SOC 2 or ISO certifications."
+      }
+    }
+  ]
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "url": `https://theeduassist.com${canonicalPath}`,
+  "publisher": {
+    "@type": "Organization",
+    "name": "TheEduAssist",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://theeduassist.com/brand/theeduassist-logo-official.png"
+    }
+  }
+};
+---
+
+<Layout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={[jsonLd, faqSchema]}
+>
+  <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="bg-[#27496D] text-white py-20 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <span class="text-sm font-semibold tracking-wider uppercase mb-4 block text-gray-300">
+          Trust Centre
+        </span>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">
+          Project-Specific Security, Access and Privacy Considerations
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          {description}
+        </p>
+        <p class="text-lg text-gray-400 mb-8 max-w-3xl mx-auto">
+          Learn how we handle access, files, credentials, client information and third-party platforms during an engagement.
+        </p>
+        <a
+          href={pageData.primaryCta.href}
+          class="inline-block bg-[#77BA55] text-white font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-colors"
+        >
+          {pageData.primaryCta.label}
+        </a>
+      </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="bg-gray-100 py-3 px-4 border-b border-gray-200">
+      <div class="max-w-6xl mx-auto text-sm text-gray-600">
+        <a href="/" class="hover:text-[#27496D] hover:underline">Home</a>
+        <span class="mx-2">/</span>
+        <a href="/trust-centre/" class="hover:text-[#27496D] hover:underline">Trust Centre</a>
+        <span class="mx-2">/</span>
+        <span class="text-gray-900 font-medium">Security & Privacy Approach</span>
+      </div>
+    </div>
+
+    <!-- Content Sections -->
+    <section class="py-16 px-4">
+      <div class="max-w-4xl mx-auto space-y-16">
+
+        <!-- Security and Access Areas -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Security and Access Control</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">ACCESS</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>minimum necessary access</li>
+                <li>named accounts where practical</li>
+                <li>role-appropriate permissions</li>
+                <li>removal of access after handover where appropriate</li>
+                <li>avoidance of shared credentials where practical</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">CREDENTIALS</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>do not place credentials in public documents</li>
+                <li>use approved secure sharing methods</li>
+                <li>do not commit secrets to repositories</li>
+                <li>change or revoke credentials when required</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">FILES AND CONTENT</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>use approved storage or sharing locations</li>
+                <li>separate client content where practical</li>
+                <li>confirm who may access project files</li>
+                <li>avoid unnecessary local copies</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">PLATFORMS AND VENDORS</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>recognize third-party dependencies</li>
+                <li>follow platform access rules</li>
+                <li>review integration requirements separately</li>
+                <li>do not imply control over vendor outages or security</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm md:col-span-2">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">HANDOVER</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700 grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+                <li>document relevant assets</li>
+                <li>confirm access ownership</li>
+                <li>transfer agreed files</li>
+                <li>remove access where appropriate</li>
+                <li>confirm retention or deletion expectations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Privacy and Data Handling -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Privacy and Data Handling</h2>
+          <p class="text-gray-700 mb-6 text-lg">
+            During engagement scoping, we clarify data handling responsibilities to ensure alignment with client requirements:
+          </p>
+          <ul class="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+            <li>what information is required</li>
+            <li>who controls it</li>
+            <li>who may access it</li>
+            <li>which platform stores it</li>
+            <li>whether personal data is necessary</li>
+            <li>how long working files are needed</li>
+            <li>whether deletion or return is required</li>
+            <li>whether external tools are approved</li>
+            <li>whether regional requirements apply</li>
+          </ul>
+
+          <div class="bg-gray-50 border-l-4 border-[#27496D] p-6 rounded-r-lg">
+            <h3 class="text-lg font-bold text-[#27496D] mb-2">Important Legal and Privacy Notes</h3>
+            <ul class="space-y-2 text-sm text-gray-700">
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Project-specific legal responsibilities should be agreed upon in the contract.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>TheEduAssist does not provide legal advice; clients should obtain appropriate legal and privacy guidance.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Published information does not replace contractual terms.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Data-protection requirements (such as GDPR obligations) depend on the specific engagement, tools used, and jurisdictions involved.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Security Incidents -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Security Concerns and Incident Reporting</h2>
+          <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm text-gray-700">
+            <p>
+              Potential security or privacy concerns related to an active engagement should be raised through the agreed project contact so they can be reviewed and handled according to the circumstances and applicable contractual requirements.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Frequently Asked Questions</h2>
+          <div class="space-y-4">
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>How is project access determined?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Access is determined based on the principle of minimum necessary access, granting only the permissions required to complete the agreed work.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Should passwords be sent by email?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No. Passwords and credentials should be shared using approved secure sharing methods, not plain-text email.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can TheEduAssist work within a client platform?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes. We frequently work within client-provided platforms (like an LMS or authoring tool) using named accounts provisioned by the client's IT team.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>How are third-party tools handled?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Third-party tools are assessed during project scoping. We rely on the vendor's security controls and follow platform access rules, but we do not control third-party infrastructure.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can security questionnaires be reviewed?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes. We can review appropriate security questionnaires during the procurement phase for enterprise engagements to clarify our project-specific practices.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Does TheEduAssist guarantee GDPR compliance?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No. GDPR compliance depends on the specific data processed, the platforms used, and the roles defined (Data Controller vs. Processor). These details must be defined in project contracts, and clients remain responsible for their overall compliance.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>What happens to access after handover?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Access to client systems should typically be revoked by the client upon project completion and handover, unless ongoing maintenance is agreed upon.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can project-specific retention requirements be discussed?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes. Expectations regarding data retention, deletion, or return of working files can be defined and agreed upon in the Statement of Work.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Does TheEduAssist hold SOC 2 or ISO certification?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No. We focus on implementing practical, project-specific security controls and do not currently hold formal SOC 2 or ISO certifications.
+              </div>
+            </details>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+</Layout>

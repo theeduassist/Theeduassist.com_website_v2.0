@@ -1,4 +1,0 @@
-Case Studies Route and Data Report
-- /case-studies/ returns 500 error likely because it attempts to load full contents of case studies.
-- Updated getAllCaseStudies query in src/sanity/queries.ts to project only the required fields: title, slug, shortSummary, publicStatus, mainImage, imageAlt, clientType, industry, mainChallenge, keyDeliverables, relatedServices.
-- This will fix the build error caused by overly large fetch payloads.

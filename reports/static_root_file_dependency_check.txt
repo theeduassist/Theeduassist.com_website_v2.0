@@ -1,4 +1,0 @@
-Static Root File Dependency Check
-- Other agents handle the generation of `/sitemap.xml`, `/robots.txt`, `/llms.txt`, and favicon files.
-- The build process triggers `scripts/generate-sitemap.mjs`, which correctly generates these files based on the latest Astro routing.
-- This agent did not overwrite completed Agent A (logo) or Agent B (LLM/AI) artifacts.

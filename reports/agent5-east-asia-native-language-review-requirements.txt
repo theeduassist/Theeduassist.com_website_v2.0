@@ -1,4 +1,0 @@
-Language Review Requirements:
-- Mainland China: Simplified Chinese must be natively reviewed for professional tone.
-- Taiwan: Traditional Chinese must be reviewed independently from Mainland translations.
-- Japan/Korea: Specific professional honorifics and structures require native review to avoid casual slang.

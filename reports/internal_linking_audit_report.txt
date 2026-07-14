@@ -1,1 +1,0 @@
-Internal linking audit. Contextual links added to homepage text fields (Hero and FAQ) pointing to core services, Kajabi services, audit, and pricing to improve lead gen flow. Footer contains well-structured global navigation links.

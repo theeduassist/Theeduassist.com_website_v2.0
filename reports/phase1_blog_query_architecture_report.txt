@@ -1,5 +1,0 @@
-Modifications made to Blog Query Architecture:
-1. `src/lib/content/getAllBlogPosts.ts` updated. Introduced `isPublicBlogSummary` to validate lists (requires valid title, slug, publishedAt; explicitly blocks "draft", "test", "do not publish" in content and status).
-2. Introduced `isPublicFullBlogPost` to validate individual posts, which also requires valid content/body length.
-3. Applied `isPublicBlogSummary` to `getBlogPostSummaries` and related posts fetching in `getFullBlogPostsForAuditOnly`.
-4. The requested wording ("TheEduAssist Resources" -> "TheEduAssist Blog", "Course Growth Resources" -> "Course Growth Articles") was already present in `src/components/blog/BlogHero.astro`.

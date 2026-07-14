@@ -1,6 +1,0 @@
-Task 9: Snippet controls audit report
-
-Search Results:
-- Evaluated the codebase for restrictive snippet tags: `nosnippet`, `max-snippet`, and `data-nosnippet`.
-- Result: 0 matches found across `src/`.
-- Conclusion: All important public content, including answer blocks and visible text, is fully eligible for search engine snippets without restrictions.

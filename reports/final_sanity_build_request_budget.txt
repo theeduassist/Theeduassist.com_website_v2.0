@@ -1,5 +1,0 @@
-Final Sanity Build Request Budget
-- Checked query properties for Sanity API interactions in `src/sanity/queries.ts`.
-- `useCdn: true` is properly used for massive public arrays such as `getAllPosts()` and blog summary queries, minimizing direct impact on API limits.
-- `useCdn: false` is accurately reserved for distinct document slug fetches (`getPostBySlug`, `getServiceBySlug`) where direct fetch validation takes precedence.
-- This adheres strictly to preserving the quota against high-concurrency static page generation on Vercel deployments.

@@ -1,2 +1,0 @@
-Data Model Mapping Notes:
-All specific fields required by the prompt have been mapped into the EastAsiaLocation interface in east-asia-types.ts. No shared templates were edited.

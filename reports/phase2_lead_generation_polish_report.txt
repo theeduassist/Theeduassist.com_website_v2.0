@@ -1,5 +1,0 @@
-Lead Generation Polish Report
-
-- Updated `src/pages/book-free-audit/index.astro`. Removed the complex, dynamic JavaScript that was populating the "You selected", "Starting price", and "Next step" fields.
-- Replaced the dynamic form context with a static, clear "What happens next?" trust block to increase form submission confidence.
-- Updated `src/pages/contact/index.astro` to include stronger conversion copy in the `<ContactHero />` subtitle, explicitly directing users towards the "Get a 24-48 Hour Review" primary CTA.

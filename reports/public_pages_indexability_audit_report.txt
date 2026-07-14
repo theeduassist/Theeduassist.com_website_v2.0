@@ -1,8 +1,0 @@
-Live Rendered Source Indexability Audit:
-Verified dist/ output manually after build fix applied to src/layouts/Layout.astro.
-1. Public pages (/, /kajabi-services/, /services/, /pricing/, etc) now output <meta name="robots" content="index, follow"> correctly.
-2. No public page outputs 'noindex, nofollow' anymore.
-3. Canonical URLs correctly resolve to https://www.theeduassist.com.
-4. Sitemap generation completed successfully, yielding 200 HTTP code for XML generation.
-5. Robots.txt copied and validates cleanly.
-6. /data/blog/page-2.json JSON endpoint builds seamlessly.
