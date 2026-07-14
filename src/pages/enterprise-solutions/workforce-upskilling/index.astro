@@ -1,0 +1,230 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import EnterpriseSolutionHero from '../../../components/enterprise-solution/EnterpriseSolutionHero.astro';
+import EnterpriseSolutionShortAnswer from '../../../components/enterprise-solution/EnterpriseSolutionShortAnswer.astro';
+import EnterpriseSolutionAudience from '../../../components/enterprise-solution/EnterpriseSolutionAudience.astro';
+import EnterpriseSolutionChallenges from '../../../components/enterprise-solution/EnterpriseSolutionChallenges.astro';
+import EnterpriseSolutionScope from '../../../components/enterprise-solution/EnterpriseSolutionScope.astro';
+import EnterpriseSolutionPathway from '../../../components/enterprise-solution/EnterpriseSolutionPathway.astro';
+import EnterpriseSolutionProcess from '../../../components/enterprise-solution/EnterpriseSolutionProcess.astro';
+import EnterpriseSolutionDeliverables from '../../../components/enterprise-solution/EnterpriseSolutionDeliverables.astro';
+import EnterpriseSolutionLimitations from '../../../components/enterprise-solution/EnterpriseSolutionLimitations.astro';
+import EnterpriseSolutionRelatedServices from '../../../components/enterprise-solution/EnterpriseSolutionRelatedServices.astro';
+import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
+import ServiceRelatedCaseStudies from '../../../components/service-page/ServiceRelatedCaseStudies.astro';
+import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
+
+const audience = [
+  "L&D teams",
+  "Talent Development teams",
+  "HR leaders",
+  "Operations teams",
+  "Functional leaders",
+  "Transformation teams",
+  "Technical teams",
+  "Service teams",
+  "Distributed workforces",
+  "Organizations formalizing role pathways"
+];
+
+const challenges = [
+  "Unclear priority skills",
+  "Scattered training content",
+  "Generic training not connected to roles",
+  "Different capability levels",
+  "No structured progression",
+  "Subject-matter expertise not converted into learning",
+  "Repeated live training",
+  "Weak practice or assessment",
+  "Limited internal delivery capacity",
+  "Difficulty maintaining learning content"
+];
+
+const scope = [
+  "Capability-needs review",
+  "Role and audience analysis",
+  "Skill or knowledge pathway design",
+  "Curriculum architecture",
+  "Foundation and advanced pathways",
+  "Course development",
+  "Practical activities",
+  "Scenario-based learning",
+  "Assessments",
+  "Job aids",
+  "Manager guidance",
+  "Platform organization",
+  "Quality assurance",
+  "Maintenance planning"
+];
+
+const stages = [
+  {
+    title: "Foundation Knowledge",
+    description: "Core concepts and baseline understanding required for the capability."
+  },
+  {
+    title: "Role-Specific Application",
+    description: "Contextual learning adapted to specific roles and responsibilities."
+  },
+  {
+    title: "Guided Practice",
+    description: "Scenarios, assignments, and safe environments to apply knowledge."
+  },
+  {
+    title: "Assessment and Feedback",
+    description: "Milestone checks and manager or peer review to confirm understanding."
+  },
+  {
+    title: "Workplace Application",
+    description: "Integrating skills into daily workflow and operational processes."
+  },
+  {
+    title: "Continued Development",
+    description: "Advanced pathways and continuous updates to maintain capabilities."
+  }
+];
+
+const processSteps = [
+  "Define business and role priorities",
+  "Identify audiences and capability gaps",
+  "Review existing learning and content",
+  "Design role-based pathways",
+  "Develop learning and practice",
+  "Add assessment and feedback",
+  "Configure delivery",
+  "Pilot with a controlled audience",
+  "Review findings",
+  "Expand and maintain"
+];
+
+const deliverables = [
+  "Capability framework support",
+  "Learner profiles",
+  "Curriculum maps",
+  "Role-based pathways",
+  "Course modules",
+  "Assessments",
+  "Scenarios",
+  "Practical assignments",
+  "Manager guides",
+  "Learner resources",
+  "LMS structure",
+  "Pilot plan",
+  "QA findings",
+  "Maintenance roadmap"
+];
+
+const limitations = [
+  "Learning is one part of capability development",
+  "Workplace access, coaching and management remain important",
+  "Capability frameworks require stakeholder input",
+  "Performance outcomes depend on implementation and workplace conditions",
+  "Certification or regulatory approval is not automatically included",
+  "A learning pathway does not guarantee promotion, productivity or performance outcomes"
+];
+
+const relatedServices = [
+  { title: "Learning Strategy", url: "/services/learning-strategy/" },
+  { title: "Instructional Design", url: "/services/instructional-design/" },
+  { title: "Course Development", url: "/services/course-development/" },
+  { title: "Custom eLearning", url: "/services/custom-elearning-development/" },
+  { title: "LMS Implementation", url: "/services/lms-implementation-migration/" }
+];
+
+const relatedCaseStudies = [
+  {
+    title: "Business Analytics for Corporate Teams",
+    slug: "business-analytics-corporate-training",
+    shortSummary: "A structured digital learning pathway supporting corporate teams with different baseline knowledge to develop practical analytics capabilities.",
+    category: "Corporate Learning"
+  }
+];
+
+const faqs = [
+  {
+    question: "Can you create learning pathways for different roles?",
+    answer: "Yes. We design curriculum architectures that start with foundational knowledge and branch into role-specific applications depending on the audience."
+  },
+  {
+    question: "Can you use our internal subject-matter experts?",
+    answer: "Yes. We partner with your SMEs to capture their knowledge and translate it into structured, scalable learning experiences."
+  },
+  {
+    question: "Can you organize existing training content?",
+    answer: "Yes. We audit your existing materials, identify gaps, and re-architect them into logical capability pathways, often converting static documents into interactive modules."
+  },
+  {
+    question: "Can upskilling include practical assignments?",
+    answer: "Yes. We design scenario-based learning, simulations, and real-world workplace assignments that require learners to apply their new knowledge."
+  },
+  {
+    question: "Can the learning be delivered through an LMS?",
+    answer: "Yes. The learning pathways and courses are designed to be deployed and tracked directly within your existing Learning Management System."
+  },
+  {
+    question: "Can you create foundation and advanced pathways?",
+    answer: "Yes. We build layered curriculums where learners can progress from essential concepts to advanced capabilities over time."
+  },
+  {
+    question: "Can you help pilot the program?",
+    answer: "Yes. We recommend piloting new capability programs with a controlled audience to gather feedback and refine the experience before a full organizational rollout."
+  },
+  {
+    question: "Can the content be maintained over time?",
+    answer: "Yes. We build maintainable content and can provide ongoing managed learning services to ensure pathways remain relevant as your business evolves."
+  },
+  {
+    question: "Do you guarantee improved employee performance?",
+    answer: "No. While structured learning is foundational, performance improvements also require effective management, process alignment, and supportive workplace conditions."
+  }
+];
+---
+
+<Layout
+  title="Workforce Upskilling and Capability Development | TheEduAssist"
+  description="Build structured role-based learning pathways to develop new capabilities, technical skills, and consistent knowledge across your workforce."
+  canonicalPath="/enterprise-solutions/workforce-upskilling/"
+>
+  <main class="flex-auto">
+    <EnterpriseSolutionHero
+      eyebrow="Workforce Upskilling and Capability Development"
+      title="Build Role-Based Learning Pathways for Workforce Capability"
+      body="TheEduAssist helps organizations identify learning priorities, organize curriculum and develop structured learning pathways that support role knowledge, practical skills and continued capability development."
+      primaryCtaLabel="Discuss a Workforce Learning Initiative"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Get a 24-48 Hour Review"
+      secondaryCtaLink="/book-free-audit/"
+    />
+
+    <EnterpriseSolutionShortAnswer
+      heading="What Is Workforce Upskilling?"
+      answer="Workforce upskilling develops new or deeper capabilities for current employees through structured learning, practice, assessment and workplace application aligned with organizational and role requirements."
+    />
+
+    <EnterpriseSolutionAudience audience={audience} />
+
+    <EnterpriseSolutionChallenges challenges={challenges} />
+
+    <EnterpriseSolutionScope scope={scope} />
+
+    <EnterpriseSolutionPathway
+      title="The Capability Pathway"
+      description="An adaptable model for moving from initial knowledge to sustained performance."
+      stages={stages}
+    />
+
+    <EnterpriseSolutionProcess steps={processSteps} />
+
+    <EnterpriseSolutionDeliverables deliverables={deliverables} />
+
+    <EnterpriseSolutionLimitations limitations={limitations} />
+
+    <EnterpriseSolutionRelatedServices services={relatedServices} />
+
+    <ServiceRelatedCaseStudies caseStudies={relatedCaseStudies} />
+
+    <ServiceFAQ faqs={faqs} />
+
+    <ServiceFinalCTA serviceSlug="workforce-upskilling" />
+  </main>
+</Layout>

@@ -9,6 +9,7 @@ import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
 import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRelatedCaseStudies.astro";
 import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
 import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+import ServiceRelatedSolutions from "../../components/service-page/ServiceRelatedSolutions.astro";
 
 import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
 
@@ -203,6 +204,13 @@ const structuredData = [
         </div>
       </div>
     </section>
+
+  <ServiceRelatedSolutions solutions={[
+    { title: "Employee Onboarding", url: "/enterprise-solutions/employee-onboarding/" },
+    { title: "Internal Academies", url: "/enterprise-solutions/internal-learning-academies/" },
+    { title: "Customer Education", url: "/enterprise-solutions/customer-education/" },
+    { title: "Partner Training", url: "/enterprise-solutions/partner-training/" }
+  ]} />
 
     <ServiceRelatedCaseStudies slugs={['sqa-aligned-vocational-training', 'business-analytics-corporate-training']} />
 

@@ -1,0 +1,19 @@
+---
+interface Props {
+  heading: string;
+  answer: string;
+}
+
+const { heading, answer } = Astro.props;
+---
+
+<section class="py-16 md:py-24 bg-white relative">
+  <div class="container mx-auto px-4 md:px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">{heading}</h2>
+      <p class="text-xl md:text-2xl text-slate-600 leading-relaxed font-medium">
+        {answer}
+      </p>
+    </div>
+  </div>
+</section>

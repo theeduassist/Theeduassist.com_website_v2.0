@@ -7,6 +7,7 @@ import ServiceDeliverables from "../../components/service-page/ServiceDeliverabl
 import ServiceProcess from "../../components/service-page/ServiceProcess.astro";
 import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
 import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
+import ServiceRelatedSolutions from "../../components/service-page/ServiceRelatedSolutions.astro";
 
 import { professionalServiceSchema, breadcrumbSchema, faqPageSchema } from '../../lib/seo/schema';
 
@@ -187,6 +188,14 @@ const structuredData = [
         "Improvement recommendations"
       ]}
     />
+
+  <ServiceRelatedSolutions solutions={[
+    { title: "Employee Onboarding", url: "/enterprise-solutions/employee-onboarding/" },
+    { title: "Workforce Upskilling", url: "/enterprise-solutions/workforce-upskilling/" },
+    { title: "Customer Education", url: "/enterprise-solutions/customer-education/" },
+    { title: "Partner Training", url: "/enterprise-solutions/partner-training/" },
+    { title: "Internal Academies", url: "/enterprise-solutions/internal-learning-academies/" }
+  ]} />
 
     <ServiceFAQ faqs={faqs} />
 

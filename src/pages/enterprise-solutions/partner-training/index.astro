@@ -1,0 +1,244 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import EnterpriseSolutionHero from '../../../components/enterprise-solution/EnterpriseSolutionHero.astro';
+import EnterpriseSolutionShortAnswer from '../../../components/enterprise-solution/EnterpriseSolutionShortAnswer.astro';
+import EnterpriseSolutionAudience from '../../../components/enterprise-solution/EnterpriseSolutionAudience.astro';
+import EnterpriseSolutionChallenges from '../../../components/enterprise-solution/EnterpriseSolutionChallenges.astro';
+import EnterpriseSolutionScope from '../../../components/enterprise-solution/EnterpriseSolutionScope.astro';
+import EnterpriseSolutionPathway from '../../../components/enterprise-solution/EnterpriseSolutionPathway.astro';
+import EnterpriseSolutionProcess from '../../../components/enterprise-solution/EnterpriseSolutionProcess.astro';
+import EnterpriseSolutionDeliverables from '../../../components/enterprise-solution/EnterpriseSolutionDeliverables.astro';
+import EnterpriseSolutionResponsibilities from '../../../components/enterprise-solution/EnterpriseSolutionResponsibilities.astro';
+import EnterpriseSolutionLimitations from '../../../components/enterprise-solution/EnterpriseSolutionLimitations.astro';
+import EnterpriseSolutionRelatedServices from '../../../components/enterprise-solution/EnterpriseSolutionRelatedServices.astro';
+import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
+import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
+
+const audience = [
+  "Partner Enablement teams",
+  "Channel teams",
+  "Sales Enablement teams",
+  "Operations teams",
+  "Implementation networks",
+  "Distributors",
+  "Resellers",
+  "Franchise networks",
+  "External service providers",
+  "Membership or association networks"
+];
+
+const challenges = [
+  "Partners receive inconsistent information",
+  "Knowledge depends on live training",
+  "Materials become outdated",
+  "Product and process information is fragmented",
+  "Different partner roles need different pathways",
+  "New partners take time to understand systems",
+  "No central academy",
+  "No clear update process",
+  "Regional requirements differ",
+  "Assessments do not reflect practical responsibilities"
+];
+
+const scope = [
+  "Partner-audience analysis",
+  "Role-based pathways",
+  "Partner onboarding",
+  "Product and service training",
+  "Process learning",
+  "Sales or service guidance",
+  "Implementation learning",
+  "Practical scenarios",
+  "Assessments",
+  "Partner resources",
+  "Academy structure",
+  "Platform setup",
+  "Localization",
+  "Release and update planning"
+];
+
+const stages = [
+  {
+    title: "Partner Introduction",
+    description: "Orientation to the organization, partnership model, and core values."
+  },
+  {
+    title: "Role and Responsibility Orientation",
+    description: "Clear expectations for specific partner types and roles."
+  },
+  {
+    title: "Product or Service Knowledge",
+    description: "Deep understanding of the offerings the partner will represent or implement."
+  },
+  {
+    title: "Systems and Process Learning",
+    description: "Navigating partner portals, ordering systems, or support escalations."
+  },
+  {
+    title: "Practical Application",
+    description: "Scenario-based training for sales, service, or implementation."
+  },
+  {
+    title: "Assessment or Readiness Review",
+    description: "Verifying knowledge before the partner begins active operation."
+  },
+  {
+    title: "Continued Updates",
+    description: "Ongoing learning for new product releases or process changes."
+  }
+];
+
+const processSteps = [
+  "Review partner strategy and requirements",
+  "Map different partner roles and capability gaps",
+  "Audit existing partner materials and documentation",
+  "Design structured learning pathways for each role",
+  "Develop digital learning, scenarios, and assessments",
+  "Configure the partner delivery platform",
+  "Run a pilot with a selected partner group",
+  "Refine content based on pilot feedback",
+  "Launch the program",
+  "Establish a continuous update process"
+];
+
+const deliverables = [
+  "Audience and role map",
+  "Partner learning pathways",
+  "Onboarding courses",
+  "Product and service modules",
+  "Process tutorials",
+  "Practical scenarios",
+  "Assessments and knowledge checks",
+  "Job aids and resources",
+  "Partner academy structure",
+  "Content maintenance workflow"
+];
+
+const clientOwns = [
+  "Partner strategy and commercial agreements",
+  "Product and process accuracy",
+  "Access and security policies",
+  "Certification criteria (if applicable)",
+  "Final compliance and legal approval"
+];
+
+const eduAssistSupports = [
+  "Learning strategy and curriculum design",
+  "Instructional design and development",
+  "Scenario and assessment creation",
+  "Platform organization",
+  "Localization management",
+  "Quality assurance"
+];
+
+const limitations = [
+  "Partner performance depends on commercial and operational factors",
+  "Training does not replace contracts or operational governance",
+  "Certification requires separately approved criteria",
+  "Local regulatory requirements remain the client's responsibility",
+  "Partner data and access depend on the platform",
+  "Training does not guarantee sales, compliance or channel performance"
+];
+
+const relatedServices = [
+  { title: "Learning Strategy", url: "/services/learning-strategy/" },
+  { title: "Course Development", url: "/services/course-development/" },
+  { title: "Custom eLearning", url: "/services/custom-elearning-development/" },
+  { title: "Assessment Design", url: "/services/assessment-design/" },
+  { title: "LMS Implementation", url: "/services/lms-implementation-migration/" },
+  { title: "Localization", url: "/services/course-localization-translation/" },
+  { title: "Quality Assurance", url: "/services/quality-assurance/" },
+  { title: "Managed Learning Services", url: "/services/managed-learning/" }
+];
+
+const faqs = [
+  {
+    question: "Can you create different learning paths for partner roles?",
+    answer: "Yes. We typically design branching pathways so that sales partners, implementation partners, and support partners receive training relevant to their specific duties."
+  },
+  {
+    question: "Can partner onboarding be included?",
+    answer: "Yes. We structure programs to begin with comprehensive onboarding before moving into deeper product or process training."
+  },
+  {
+    question: "Can the program support distributors or resellers?",
+    answer: "Yes. We design programs specifically for the channel, focusing on product positioning, technical requirements, and sales enablement."
+  },
+  {
+    question: "Can content be localized?",
+    answer: "Yes. For global partner networks, we offer localization and translation services to ensure the training is culturally and linguistically appropriate for different regions."
+  },
+  {
+    question: "Can you build assessments or readiness checks?",
+    answer: "Yes. We build robust assessments to verify that partners understand critical products, processes, or compliance requirements."
+  },
+  {
+    question: "Can the program be delivered through an LMS?",
+    answer: "Yes. Programs can be deployed on your internal Extended Enterprise LMS, a dedicated Partner LMS, or specialized channel enablement platforms."
+  },
+  {
+    question: "Can training be updated when products change?",
+    answer: "Yes. We design content to be easily maintainable and can support ongoing updates as your products and services evolve."
+  },
+  {
+    question: "Can you create a partner academy?",
+    answer: "Yes. We can help architect and build a complete digital academy serving as the central hub for all partner learning and resources."
+  },
+  {
+    question: "Do you guarantee partner performance or sales?",
+    answer: "No. Training ensures capability and knowledge, but partner sales and performance also depend heavily on market conditions, incentives, and your commercial model."
+  }
+];
+---
+
+<Layout
+  title="Partner and Channel Training | TheEduAssist"
+  description="Create consistent learning for partners, distributors, and external networks to ensure they understand your products, processes, and standards."
+  canonicalPath="/enterprise-solutions/partner-training/"
+>
+  <main class="flex-auto">
+    <EnterpriseSolutionHero
+      eyebrow="Partner and Channel Training"
+      title="Create Consistent Learning for Partners, Channels and External Networks"
+      body="TheEduAssist helps organizations turn product, process and service knowledge into structured learning for partners, distributors, resellers, implementation teams and other external networks."
+      primaryCtaLabel="Discuss a Partner Training Program"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Get a 24-48 Hour Review"
+      secondaryCtaLink="/book-free-audit/"
+    />
+
+    <EnterpriseSolutionShortAnswer
+      heading="What Is Partner and Channel Training?"
+      answer="Partner and channel training provides structured learning that helps external organizations understand products, services, processes, responsibilities and expected ways of working."
+    />
+
+    <EnterpriseSolutionAudience audience={audience} />
+
+    <EnterpriseSolutionChallenges challenges={challenges} />
+
+    <EnterpriseSolutionScope scope={scope} />
+
+    <EnterpriseSolutionPathway
+      title="The Partner Learning Journey"
+      description="A structured progression to bring external networks up to speed."
+      stages={stages}
+    />
+
+    <EnterpriseSolutionProcess steps={processSteps} />
+
+    <EnterpriseSolutionDeliverables deliverables={deliverables} />
+
+    <EnterpriseSolutionResponsibilities
+      clientOwns={clientOwns}
+      eduAssistSupports={eduAssistSupports}
+    />
+
+    <EnterpriseSolutionLimitations limitations={limitations} />
+
+    <EnterpriseSolutionRelatedServices services={relatedServices} />
+
+    <ServiceFAQ faqs={faqs} />
+
+    <ServiceFinalCTA serviceSlug="partner-training" />
+  </main>
+</Layout>

@@ -1,0 +1,29 @@
+---
+interface Props {
+  steps: string[];
+}
+
+const { steps } = Astro.props;
+---
+
+<section class="py-16 md:py-24 bg-white">
+  <div class="container mx-auto px-4 md:px-6">
+    <div class="max-w-4xl mx-auto">
+      <div class="mb-12">
+        <h2 class="text-3xl font-bold text-slate-900 mb-4">Delivery Process</h2>
+        <p class="text-lg text-slate-600">The typical sequence for planning and executing the solution.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 gap-6">
+        {steps.map((step, i) => (
+          <div class="flex items-start gap-4">
+            <div class="flex items-center justify-center w-8 h-8 rounded-full bg-slate-100 border border-slate-200 text-slate-500 font-bold text-sm shrink-0 mt-0.5">
+              {i + 1}
+            </div>
+            <p class="text-slate-700 leading-relaxed font-medium pt-1">{step}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

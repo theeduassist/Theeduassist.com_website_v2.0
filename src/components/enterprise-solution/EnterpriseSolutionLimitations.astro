@@ -1,0 +1,29 @@
+---
+import { Info } from "lucide-react";
+
+interface Props {
+  limitations: string[];
+}
+
+const { limitations } = Astro.props;
+---
+
+<section class="py-16 bg-white">
+  <div class="container mx-auto px-4 md:px-6">
+    <div class="max-w-4xl mx-auto bg-slate-50 p-6 md:p-8 rounded-2xl border border-slate-200">
+      <div class="flex items-start gap-4 mb-6">
+        <Info className="w-6 h-6 text-slate-500 shrink-0 mt-1" />
+        <div>
+          <h2 class="text-xl font-bold text-slate-900 mb-2">Important Limitations</h2>
+          <p class="text-slate-600">Please note the following boundaries and realities of this solution:</p>
+        </div>
+      </div>
+
+      <ul class="space-y-3 pl-10 list-disc text-slate-700">
+        {limitations.map(limitation => (
+          <li>{limitation}</li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

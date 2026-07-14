@@ -1,0 +1,34 @@
+---
+import { Users, CheckCircle2 } from "lucide-react";
+
+interface Props {
+  audience: string[];
+}
+
+const { audience } = Astro.props;
+---
+
+<section class="py-16 bg-slate-50 border-y border-slate-200">
+  <div class="container mx-auto px-4 md:px-6">
+    <div class="max-w-4xl mx-auto">
+      <div class="flex items-center gap-4 mb-8">
+        <div class="w-12 h-12 bg-white rounded-xl shadow-sm border border-slate-200 flex items-center justify-center shrink-0">
+          <Users className="w-6 h-6 text-primary" />
+        </div>
+        <div>
+          <h2 class="text-2xl font-bold text-slate-900">Who This Solution Supports</h2>
+          <p class="text-slate-600 mt-1">Teams and roles that benefit from this implementation.</p>
+        </div>
+      </div>
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        {audience.map(item => (
+          <div class="flex items-start gap-3 bg-white p-4 rounded-lg border border-slate-200 shadow-sm">
+            <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
+            <span class="text-slate-700 font-medium">{item}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,246 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import EnterpriseSolutionHero from '../../../components/enterprise-solution/EnterpriseSolutionHero.astro';
+import EnterpriseSolutionShortAnswer from '../../../components/enterprise-solution/EnterpriseSolutionShortAnswer.astro';
+import EnterpriseSolutionAudience from '../../../components/enterprise-solution/EnterpriseSolutionAudience.astro';
+import EnterpriseSolutionChallenges from '../../../components/enterprise-solution/EnterpriseSolutionChallenges.astro';
+import EnterpriseSolutionScope from '../../../components/enterprise-solution/EnterpriseSolutionScope.astro';
+import EnterpriseSolutionPathway from '../../../components/enterprise-solution/EnterpriseSolutionPathway.astro';
+import EnterpriseSolutionProcess from '../../../components/enterprise-solution/EnterpriseSolutionProcess.astro';
+import EnterpriseSolutionDeliverables from '../../../components/enterprise-solution/EnterpriseSolutionDeliverables.astro';
+import EnterpriseSolutionResponsibilities from '../../../components/enterprise-solution/EnterpriseSolutionResponsibilities.astro';
+import EnterpriseSolutionLimitations from '../../../components/enterprise-solution/EnterpriseSolutionLimitations.astro';
+import EnterpriseSolutionRelatedServices from '../../../components/enterprise-solution/EnterpriseSolutionRelatedServices.astro';
+import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
+import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
+
+const audience = [
+  "Customer Education teams",
+  "Customer Success teams",
+  "Product teams",
+  "Product Marketing teams",
+  "Support teams",
+  "Implementation teams",
+  "Professional-service teams",
+  "Training providers",
+  "SaaS or technology organizations",
+  "Organizations with complex products or services"
+];
+
+const challenges = [
+  "Customers depend on repeated live demonstrations",
+  "Product knowledge is spread across documents",
+  "Onboarding content is inconsistent",
+  "Customers cannot find the right guidance",
+  "Support teams repeat common explanations",
+  "No structured beginner-to-advanced pathway",
+  "Product updates are difficult to reflect",
+  "Learning is disconnected from customer journeys",
+  "No ownership or maintenance plan",
+  "Customer audiences have different levels of experience"
+];
+
+const scope = [
+  "Customer-audience analysis",
+  "Customer learning journey",
+  "Product or service curriculum",
+  "Customer onboarding courses",
+  "Knowledge pathways",
+  "Digital academy structure",
+  "Tutorials",
+  "Process guidance",
+  "Practical activities",
+  "Assessments where appropriate",
+  "Downloadable resources",
+  "Webinars converted into reusable learning",
+  "Platform setup",
+  "Release and maintenance planning"
+];
+
+const stages = [
+  {
+    title: "Introduction and Orientation",
+    description: "Welcome to the product, initial setup, and high-level concepts."
+  },
+  {
+    title: "Initial Setup or First Use",
+    description: "Guided configuration and achieving the first meaningful success."
+  },
+  {
+    title: "Core Product or Service Skills",
+    description: "Understanding the essential features required for daily use."
+  },
+  {
+    title: "Practical Application",
+    description: "Applying knowledge to solve real-world problems and tasks."
+  },
+  {
+    title: "Advanced Use",
+    description: "Complex configurations, deep features, and specialized capabilities."
+  },
+  {
+    title: "Continued Learning and Updates",
+    description: "Staying current with product releases and new methodologies."
+  }
+];
+
+const processSteps = [
+  "Review product and customer journeys",
+  "Identify customer segments and learning needs",
+  "Map product knowledge to learning paths",
+  "Design the curriculum architecture",
+  "Develop digital learning and resources",
+  "Organize the academy or delivery platform",
+  "Test with internal teams and selected customers",
+  "Refine content based on feedback",
+  "Launch the education program",
+  "Establish a maintenance and update workflow"
+];
+
+const deliverables = [
+  "Audience profiles",
+  "Customer journey map",
+  "Curriculum",
+  "Product-learning pathways",
+  "Course modules",
+  "Tutorials",
+  "Onboarding resources",
+  "Assessments",
+  "Knowledge checks",
+  "Downloadable guides",
+  "Platform structure",
+  "Content-update workflow",
+  "QA report"
+];
+
+const clientOwns = [
+  "Product accuracy",
+  "Release information",
+  "Customer policy",
+  "Product access",
+  "Final approvals",
+  "Support escalation"
+];
+
+const eduAssistSupports = [
+  "Learning strategy",
+  "Curriculum",
+  "Instructional design",
+  "Development",
+  "Platform setup",
+  "QA",
+  "Maintenance guidance"
+];
+
+const limitations = [
+  "Education cannot replace product quality or customer support",
+  "Adoption depends on product experience and customer context",
+  "Integrations require technical review",
+  "Customer data handling depends on the platform",
+  "Product updates require content maintenance",
+  "Customer education does not guarantee retention, expansion or revenue"
+];
+
+const relatedServices = [
+  { title: "Learning Strategy", url: "/services/learning-strategy/" },
+  { title: "Instructional Design", url: "/services/instructional-design/" },
+  { title: "Course Development", url: "/services/course-development/" },
+  { title: "Custom eLearning", url: "/services/custom-elearning-development/" },
+  { title: "LMS Implementation", url: "/services/lms-implementation-migration/" },
+  { title: "Kajabi Services", url: "/kajabi-services/" },
+  { title: "Quality Assurance", url: "/services/quality-assurance/" },
+  { title: "Ongoing Support", url: "/services/ongoing-support-maintenance/" },
+  { title: "Managed Learning Services", url: "/services/managed-learning/" }
+];
+
+const faqs = [
+  {
+    question: "Can you create a customer academy?",
+    answer: "Yes. We help design the structure, pathways, and content required for a complete customer academy, and can assist with platform configuration."
+  },
+  {
+    question: "Can you organize existing product documentation?",
+    answer: "Yes. We often convert technical documentation and support articles into structured, easy-to-follow learning modules."
+  },
+  {
+    question: "Can you convert live webinars into self-paced learning?",
+    answer: "Yes. We can take recordings of your existing customer training webinars and re-architect them into interactive, self-paced digital courses."
+  },
+  {
+    question: "Can customer education be delivered through our LMS?",
+    answer: "Yes. We can design courses to sit on your internal LMS, a dedicated external Customer LMS, or platforms like Kajabi depending on your strategy."
+  },
+  {
+    question: "Can you create beginner and advanced pathways?",
+    answer: "Yes. We build layered curriculums so new customers get simple onboarding while power users can access advanced configuration training."
+  },
+  {
+    question: "Can you support product updates?",
+    answer: "Yes. We offer ongoing maintenance services to ensure your training materials remain accurate as your product evolves."
+  },
+  {
+    question: "Can you design assessments or certificates?",
+    answer: "Yes. We can build knowledge checks and structured assessments that lead to customer completion certificates."
+  },
+  {
+    question: "Can you work with our Customer Success team?",
+    answer: "Absolutely. We rely on Customer Success teams to understand the common roadblocks, frequently asked questions, and goals of your users."
+  },
+  {
+    question: "Do you guarantee customer adoption or retention?",
+    answer: "No. While strong education reduces friction, customer adoption and retention also depend heavily on the actual product experience, pricing, and market fit."
+  }
+];
+---
+
+<Layout
+  title="Customer Education Programs | TheEduAssist"
+  description="Turn product, service, or professional knowledge into structured learning for customers to drive adoption and scale your support."
+  canonicalPath="/enterprise-solutions/customer-education/"
+>
+  <main class="flex-auto">
+    <EnterpriseSolutionHero
+      eyebrow="Customer Education Programs"
+      title="Help Customers Learn, Adopt and Use Your Product or Service"
+      body="TheEduAssist helps organizations structure product, service and professional knowledge into customer learning pathways, courses, resources and digital academies."
+      primaryCtaLabel="Discuss a Customer Education Program"
+      primaryCtaLink="/contact/"
+      secondaryCtaLabel="Get a 24-48 Hour Review"
+      secondaryCtaLink="/book-free-audit/"
+    />
+
+    <EnterpriseSolutionShortAnswer
+      heading="What Is Customer Education?"
+      answer="Customer education provides structured learning that helps customers understand, adopt and use a product, service or area of professional knowledge through courses, resources, guidance and practical support."
+    />
+
+    <EnterpriseSolutionAudience audience={audience} />
+
+    <EnterpriseSolutionChallenges challenges={challenges} />
+
+    <EnterpriseSolutionScope scope={scope} />
+
+    <EnterpriseSolutionPathway
+      title="The Customer Learning Journey"
+      description="A structured progression to move customers from initial awareness to advanced capability."
+      stages={stages}
+    />
+
+    <EnterpriseSolutionProcess steps={processSteps} />
+
+    <EnterpriseSolutionDeliverables deliverables={deliverables} />
+
+    <EnterpriseSolutionResponsibilities
+      clientOwns={clientOwns}
+      eduAssistSupports={eduAssistSupports}
+    />
+
+    <EnterpriseSolutionLimitations limitations={limitations} />
+
+    <EnterpriseSolutionRelatedServices services={relatedServices} />
+
+    <ServiceFAQ faqs={faqs} />
+
+    <ServiceFinalCTA serviceSlug="customer-education" />
+  </main>
+</Layout>
