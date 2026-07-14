@@ -1,6 +1,7 @@
 ---
 import { getSiteSettings } from '../../sanity/queries';
 import { footerNavigation } from '../../data/siteNavigation';
+import { trustPages } from '../../data/trustArchitecture';
 
 const siteSettings = await getSiteSettings();
 const site = siteSettings || { name: 'TheEduAssist', email: 'Info@theeduassist.com', social: {} };

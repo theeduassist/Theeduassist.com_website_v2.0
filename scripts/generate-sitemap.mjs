@@ -172,6 +172,12 @@ async function generateSitemap() {
     'https://www.theeduassist.com/contact/',
     'https://www.theeduassist.com/book-free-audit/',
     'https://www.theeduassist.com/newsroom/',
+  'https://www.theeduassist.com/trust-centre/',
+  'https://www.theeduassist.com/trust-centre/delivery-methodology/',
+  'https://www.theeduassist.com/trust-centre/responsible-ai/',
+  'https://www.theeduassist.com/trust-centre/accessibility/',
+  'https://www.theeduassist.com/trust-centre/security-privacy/',
+  'https://www.theeduassist.com/trust-centre/procurement/',
     'https://www.theeduassist.com/media-kit/',
     'https://www.theeduassist.com/press-releases/'
   ];
@@ -270,7 +276,7 @@ Our primary and most effective step for new clients is the "24–48 Hour Review"
     } else if (url.includes('/platforms/') || url.includes('/case-studies/') || url.endsWith('/blog/')) {
       priority = '0.8';
       changefreq = 'weekly';
-    } else if (url.includes('/about/') || url.includes('/contact/')) {
+    } else if (url.includes('/about/') || url.includes('/contact/') || url.includes('/trust-centre/')) {
       priority = '0.6';
     } else if (url.includes('-policy') || url.includes('terms-')) {
       priority = '0.3';

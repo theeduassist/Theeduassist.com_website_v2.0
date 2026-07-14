@@ -1,0 +1,408 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { trustPages } from '../../data/trustArchitecture';
+
+const pageData = trustPages.find(p => p.id === 'accessibility');
+if (!pageData) {
+  throw new Error('Accessibility page data not found');
+}
+
+const title = pageData.title;
+const description = pageData.shortDescription;
+const canonicalPath = pageData.canonical;
+
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does TheEduAssist follow WCAG 2.2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We use W3C WCAG 2.2 guidelines as our primary technical reference when designing, developing, and testing learning content and platforms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you guarantee WCAG conformance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Conformance depends on a fully documented scope, complete audits, and often the limitations of third-party platforms. We advocate for accessibility but do not guarantee universal compliance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you test with a keyboard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Keyboard accessibility (ensuring all interactive elements can be reached and activated without a mouse) is a standard part of our manual review process."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you review captions and transcripts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When media production is included in the project scope, we can create or review captions and transcripts to ensure they are accurate and synchronized."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you review LMS accessibility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We can test how content behaves within an LMS and identify platform-level accessibility barriers. However, remediating the core LMS code is usually the responsibility of the software vendor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does automated testing find every problem?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Automated tools only catch a percentage of accessibility issues (such as missing alt attributes or contrast errors). Manual testing is essential for evaluating context, reading order, and complex interactions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you remediate existing content?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We offer services to audit existing learning materials and implement structural, visual, and functional accessibility improvements within an agreed scope."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can third-party platforms limit accessibility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Authoring tools, LMS platforms, and embedded external widgets often introduce accessibility barriers that cannot be fully resolved without vendor intervention."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this page provide legal advice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This page outlines our design and development approach. Clients must seek independent legal counsel to determine their organization's specific compliance obligations."
+      }
+    }
+  ]
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "url": `https://theeduassist.com${canonicalPath}`,
+  "publisher": {
+    "@type": "Organization",
+    "name": "TheEduAssist",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://theeduassist.com/brand/theeduassist-logo-official.png"
+    }
+  }
+};
+---
+
+<Layout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={[jsonLd, faqSchema]}
+>
+  <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="bg-[#27496D] text-white py-20 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <span class="text-sm font-semibold tracking-wider uppercase mb-4 block text-gray-300">
+          Trust Centre
+        </span>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">
+          Designing Learning Content with Accessibility in Mind
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          {description}
+        </p>
+        <p class="text-lg text-gray-400 mb-8 max-w-3xl mx-auto">
+          We incorporate accessibility considerations into websites, course content, media, documents and platform delivery, using W3C WCAG 2.2 as our primary technical reference.
+        </p>
+        <a
+          href={pageData.primaryCta.href}
+          class="inline-block bg-[#77BA55] text-white font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-colors"
+        >
+          {pageData.primaryCta.label}
+        </a>
+      </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="bg-gray-100 py-3 px-4 border-b border-gray-200">
+      <div class="max-w-6xl mx-auto text-sm text-gray-600">
+        <a href="/" class="hover:text-[#27496D] hover:underline">Home</a>
+        <span class="mx-2">/</span>
+        <a href="/trust-centre/" class="hover:text-[#27496D] hover:underline">Trust Centre</a>
+        <span class="mx-2">/</span>
+        <span class="text-gray-900 font-medium">Accessibility Approach</span>
+      </div>
+    </div>
+
+    <!-- Content Sections -->
+    <section class="py-16 px-4">
+      <div class="max-w-4xl mx-auto space-y-16">
+
+        <!-- Accessibility Review Areas -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Accessibility Review Areas</h2>
+          <p class="text-gray-700 mb-8 text-lg">
+            Our instructional design and development practices aim to support diverse learners by addressing the following areas:
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">STRUCTURE</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>page titles</li>
+                <li>headings</li>
+                <li>lists</li>
+                <li>landmarks</li>
+                <li>reading order</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">KEYBOARD AND FOCUS</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>keyboard access</li>
+                <li>visible focus</li>
+                <li>predictable interaction</li>
+                <li>no keyboard traps</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">VISUAL PRESENTATION</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>contrast</li>
+                <li>text resizing</li>
+                <li>zoom</li>
+                <li>layout reflow</li>
+                <li>information not conveyed by colour alone</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">IMAGES AND MEDIA</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>alternative text</li>
+                <li>decorative-image handling</li>
+                <li>captions</li>
+                <li>transcripts</li>
+                <li>audio descriptions where scoped</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">FORMS AND INSTRUCTIONS</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>labels</li>
+                <li>errors</li>
+                <li>required fields</li>
+                <li>instructions</li>
+                <li>status messages</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">MOTION AND INTERACTION</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>reduced motion</li>
+                <li>pause controls where needed</li>
+                <li>no unnecessary autoplay</li>
+                <li>understandable interactions</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">DOCUMENTS</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>headings</li>
+                <li>reading order</li>
+                <li>link text</li>
+                <li>table structure</li>
+                <li>text alternatives</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">PLATFORM LIMITATIONS</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>third-party LMS behavior</li>
+                <li>Kajabi template constraints</li>
+                <li>authoring-tool output</li>
+                <li>embedded content</li>
+                <li>external integrations</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Accessibility Testing -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Accessibility Testing</h2>
+          <p class="text-gray-700 mb-6">
+            Depending on the agreed project scope, accessibility reviews may include:
+          </p>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 list-disc pl-6 text-gray-700 mb-8">
+            <li>keyboard review</li>
+            <li>zoom and reflow</li>
+            <li>screen-reader spot checks where scoped</li>
+            <li>contrast review</li>
+            <li>responsive testing</li>
+            <li>automated scanning</li>
+            <li>manual review</li>
+            <li>media review</li>
+            <li>document review</li>
+            <li>platform testing</li>
+          </ul>
+
+          <div class="bg-blue-50 border-l-4 border-[#27496D] p-6 rounded-r-lg">
+            <h3 class="text-lg font-bold text-[#27496D] mb-2">Important Limitations</h3>
+            <ul class="space-y-2 text-sm text-gray-700">
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Automated testing cannot identify every accessibility issue.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Conformance depends entirely on the full tested scope. We do not claim site-wide or course-wide conformance without a complete audit and documented scope.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Third-party limitations (e.g., LMS constraints) may remain outside our control.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Fixes discovered during review may require separate retesting.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Legal decisions regarding accessibility compliance remain with the client.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Frequently Asked Questions</h2>
+          <div class="space-y-4">
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Does TheEduAssist follow WCAG 2.2?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                We use W3C WCAG 2.2 guidelines as our primary technical reference when designing, developing, and testing learning content and platforms.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Do you guarantee WCAG conformance?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No. Conformance depends on a fully documented scope, complete audits, and often the limitations of third-party platforms. We advocate for accessibility but do not guarantee universal compliance.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Do you test with a keyboard?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes. Keyboard accessibility (ensuring all interactive elements can be reached and activated without a mouse) is a standard part of our manual review process.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Do you review captions and transcripts?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                When media production is included in the project scope, we can create or review captions and transcripts to ensure they are accurate and synchronized.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can you review LMS accessibility?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                We can test how content behaves within an LMS and identify platform-level accessibility barriers. However, remediating the core LMS code is usually the responsibility of the software vendor.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Does automated testing find every problem?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No. Automated tools only catch a percentage of accessibility issues (such as missing alt attributes or contrast errors). Manual testing is essential for evaluating context, reading order, and complex interactions.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can you remediate existing content?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes. We offer services to audit existing learning materials and implement structural, visual, and functional accessibility improvements within an agreed scope.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can third-party platforms limit accessibility?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes. Authoring tools, LMS platforms, and embedded external widgets often introduce accessibility barriers that cannot be fully resolved without vendor intervention.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Does this page provide legal advice?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No. This page outlines our design and development approach. Clients must seek independent legal counsel to determine their organization's specific compliance obligations.
+              </div>
+            </details>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+</Layout>

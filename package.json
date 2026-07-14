@@ -18,6 +18,7 @@
     "sanity:start": "sanity start",
     "create:env:production": "node scripts/create-production-env.mjs",
     "validate:env": "node scripts/validate-env-safety.mjs",
+    "validate:trust": "node scripts/validate-trust-architecture.mjs",
     "validate:redirects": "node scripts/validate-redirects.mjs",
     "check:sanity:blog": "node scripts/check-sanity-blog-public.mjs"
   },

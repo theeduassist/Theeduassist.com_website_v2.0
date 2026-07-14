@@ -1,0 +1,370 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { trustPages } from '../../data/trustArchitecture';
+
+const pageData = trustPages.find(p => p.id === 'responsible-ai');
+if (!pageData) {
+  throw new Error('Responsible AI page data not found');
+}
+
+const title = pageData.title;
+const description = pageData.shortDescription;
+const canonicalPath = pageData.canonical;
+
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does TheEduAssist use AI on every project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. AI use depends on the project scope, client preferences, and the specific tasks required. We do not apply AI where it is restricted by the client or unsuited to the material."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can confidential information be entered into AI tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Confidential information should only be used in AI tools that have been explicitly approved for that level of data classification within the agreed project framework."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is AI-generated content checked?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI outputs undergo human review for accuracy, tone, bias, and instructional alignment. Final subject-matter approval remains with the client."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can clients restrict AI use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Clients can specify restrictions on AI use during the project definition phase, which will be documented in the Statement of Work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who approves AI-assisted material?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While instructional designers provide an initial review, the client remains responsible for the final subject-matter and legal approval of all content."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI replace subject-matter experts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Subject-matter experts are essential for verifying accuracy, providing context, and ensuring the final learning material aligns with organizational goals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are copyright concerns handled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We advocate for using approved source material and reviewing outputs for potential licensing issues. Clients are responsible for final legal and copyright decisions regarding the deployed content."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does TheEduAssist guarantee AI accuracy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. AI can hallucinate or provide outdated information. Human review and subject-matter verification are critical controls in our process."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is TheEduAssist NIST compliant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While we monitor industry frameworks such as the NIST AI Risk Management Framework to inform our practices, we do not hold a formal certification of conformance. Reference to a framework is not the same as certification."
+      }
+    }
+  ]
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "url": `https://theeduassist.com${canonicalPath}`,
+  "publisher": {
+    "@type": "Organization",
+    "name": "TheEduAssist",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://theeduassist.com/brand/theeduassist-logo-official.png"
+    }
+  }
+};
+---
+
+<Layout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={[jsonLd, faqSchema]}
+>
+  <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="bg-[#27496D] text-white py-20 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <span class="text-sm font-semibold tracking-wider uppercase mb-4 block text-gray-300">
+          Trust Centre
+        </span>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">
+          Responsible Human Oversight for AI-Supported Learning Work
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          {description}
+        </p>
+        <p class="text-lg text-gray-400 mb-8 max-w-3xl mx-auto">
+          This page explains how AI may support approved learning workflows while human accountability, source verification and project-specific controls remain necessary.
+        </p>
+        <a
+          href={pageData.primaryCta.href}
+          class="inline-block bg-[#77BA55] text-white font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-colors"
+        >
+          {pageData.primaryCta.label}
+        </a>
+      </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="bg-gray-100 py-3 px-4 border-b border-gray-200">
+      <div class="max-w-6xl mx-auto text-sm text-gray-600">
+        <a href="/" class="hover:text-[#27496D] hover:underline">Home</a>
+        <span class="mx-2">/</span>
+        <a href="/trust-centre/" class="hover:text-[#27496D] hover:underline">Trust Centre</a>
+        <span class="mx-2">/</span>
+        <span class="text-gray-900 font-medium">Responsible AI</span>
+      </div>
+    </div>
+
+    <!-- Content Sections -->
+    <section class="py-16 px-4">
+      <div class="max-w-4xl mx-auto space-y-16">
+
+        <!-- Responsible AI Principles -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Responsible AI Principles</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase text-sm">PURPOSE DEFINITION</h3>
+              <p class="text-gray-700">Define why AI is being considered and what output is required.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase text-sm">APPROVED INPUTS</h3>
+              <p class="text-gray-700">Use approved source material and permitted information.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase text-sm">MINIMUM NECESSARY DATA</h3>
+              <p class="text-gray-700">Avoid unnecessary or sensitive information.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase text-sm">HUMAN ACCOUNTABILITY</h3>
+              <p class="text-gray-700">Human reviewers remain responsible for approval.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase text-sm">SOURCE VERIFICATION</h3>
+              <p class="text-gray-700">Check claims against approved reliable sources.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase text-sm">OUTPUT REVIEW</h3>
+              <p class="text-gray-700">Review accuracy, tone, bias, cultural suitability and learning alignment.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase text-sm">TRANSPARENCY</h3>
+              <p class="text-gray-700">Communicate AI involvement where appropriate to the engagement.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase text-sm">SECURITY AND PRIVACY</h3>
+              <p class="text-gray-700">Use tools and workflows appropriate to the information involved.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase text-sm">ONGOING REVIEW</h3>
+              <p class="text-gray-700">Update workflows as tools, policies and risks change.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI Use Cases -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Possible AI Use Cases</h2>
+          <p class="text-gray-700 mb-6">
+            Where agreed and appropriate, AI may assist with specific workflows. Note that not every use case is applied to every project.
+          </p>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 list-disc pl-6 text-gray-700">
+            <li>source-content organization</li>
+            <li>summarization of approved material</li>
+            <li>early outlines</li>
+            <li>draft learning objectives</li>
+            <li>question drafting</li>
+            <li>scenario variations</li>
+            <li>metadata</li>
+            <li>content tagging</li>
+            <li>translation workflow assistance</li>
+            <li>production assistance</li>
+            <li>maintenance support</li>
+          </ul>
+        </div>
+
+        <!-- Restrictions and Limitations -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Restrictions and Limitations</h2>
+          <div class="bg-gray-50 border-l-4 border-[#27496D] p-6 rounded-r-lg">
+            <ul class="space-y-3 text-gray-700">
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span><strong>Accuracy:</strong> AI outputs may be inaccurate and can fabricate sources or claims. Human review is required.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span><strong>Data Security:</strong> Confidential data should not enter unapproved tools.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span><strong>Legal and Cultural:</strong> Copyright and licensing require review. Bias may be present, and cultural suitability requires verification.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span><strong>Tool Evolution:</strong> Tool terms and behavior may change over time.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span><strong>Expertise:</strong> AI does not replace subject-matter expertise.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span><strong>Outcomes:</strong> AI does not guarantee faster delivery or better learning outcomes.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span><strong>Sensitivity:</strong> Regulated or sensitive content needs additional review.</span>
+              </li>
+            </ul>
+            <p class="mt-6 text-sm text-gray-500 italic">
+              Note: This information describes our operational approach and does not constitute legal or regulatory compliance advice.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Frequently Asked Questions</h2>
+          <div class="space-y-4">
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Does TheEduAssist use AI on every project?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No. AI use depends on the project scope, client preferences, and the specific tasks required. We do not apply AI where it is restricted by the client or unsuited to the material.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can confidential information be entered into AI tools?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Confidential information should only be used in AI tools that have been explicitly approved for that level of data classification within the agreed project framework.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>How is AI-generated content checked?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                AI outputs undergo human review for accuracy, tone, bias, and instructional alignment. Final subject-matter approval remains with the client.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can clients restrict AI use?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes. Clients can specify restrictions on AI use during the project definition phase, which will be documented in the Statement of Work.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Who approves AI-assisted material?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                While instructional designers provide an initial review, the client remains responsible for the final subject-matter and legal approval of all content.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can AI replace subject-matter experts?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No. Subject-matter experts are essential for verifying accuracy, providing context, and ensuring the final learning material aligns with organizational goals.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>How are copyright concerns handled?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                We advocate for using approved source material and reviewing outputs for potential licensing issues. Clients are responsible for final legal and copyright decisions regarding the deployed content.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Does TheEduAssist guarantee AI accuracy?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No. AI can hallucinate or provide outdated information. Human review and subject-matter verification are critical controls in our process.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Is TheEduAssist NIST compliant?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                While we monitor industry frameworks such as the NIST AI Risk Management Framework to inform our practices, we do not hold a formal certification of conformance. Reference to a framework is not the same as certification.
+              </div>
+            </details>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+</Layout>
