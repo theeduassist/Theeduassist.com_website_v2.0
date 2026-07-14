@@ -1,0 +1,56 @@
+---
+import { Search, PenTool, Layers, ShieldCheck, ArrowRight } from "lucide-react";
+
+const models = [
+  {
+    title: "Enterprise Review and Diagnostic",
+    description: "For organizations that need clarity about the problem, content, platform or delivery approach. Identifies risks and outlines a phased roadmap.",
+    icon: Search,
+    link: "/book-free-audit/",
+    linkText: "Get a 24–48 Hour Review"
+  },
+  {
+    title: "Strategy and Design Engagement",
+    description: "For learning strategy, curriculum, instructional design, platform planning or program architecture before full development begins.",
+    icon: PenTool,
+    link: "/contact/",
+    linkText: "Discuss Strategy and Design"
+  },
+  {
+    title: "Defined Implementation Project",
+    description: "For a scoped course portfolio, LMS implementation, academy, content modernization or localization initiative with clear deliverables.",
+    icon: Layers,
+    link: "/contact/",
+    linkText: "Discuss an Implementation Project"
+  },
+  {
+    title: "Managed Learning Partnership",
+    description: "For recurring content updates, platform coordination, QA, and learning-operations support under a structured agreement.",
+    icon: ShieldCheck,
+    link: "/services/managed-learning/",
+    linkText: "Explore Managed Learning Services"
+  }
+];
+---
+<section class="py-16 bg-brand-navy text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h2 class="text-3xl font-bold">Enterprise Engagement Models</h2>
+      <p class="mt-4 text-lg text-slate-300">Flexible ways to work with TheEduAssist based on your project stage and internal capacity.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {models.map(model => (
+        <div class="bg-slate-800 rounded-xl p-8 border border-slate-700">
+           <div class="w-12 h-12 bg-slate-700 rounded-lg flex items-center justify-center mb-6">
+             <model.icon className="w-6 h-6 text-brand-green" />
+           </div>
+           <h3 class="text-xl font-bold mb-3">{model.title}</h3>
+           <p class="text-slate-300 mb-6 leading-relaxed">{model.description}</p>
+           <a href={model.link} class="inline-flex items-center text-sm font-semibold text-brand-green hover:text-green-400 transition-colors">
+             {model.linkText} <ArrowRight className="ml-1 w-4 h-4" />
+           </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

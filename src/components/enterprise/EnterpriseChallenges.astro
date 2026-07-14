@@ -1,0 +1,37 @@
+---
+import { AlertCircle, ArrowRight } from "lucide-react";
+
+const challenges = [
+  { text: "Learning content is spread across documents, slides and systems.", link: "/services/content-conversion/", linkText: "Modernize Content" },
+  { text: "Employee onboarding is inconsistent.", link: "/contact/", linkText: "Discuss Onboarding" },
+  { text: "Knowledge depends too heavily on live trainers or individual experts.", link: "/services/custom-elearning-development/", linkText: "Digitalize Expertise" },
+  { text: "Courses and platforms are difficult to maintain.", link: "/services/managed-learning/", linkText: "Managed Support" },
+  { text: "Customer or partner education is not organized.", link: "/contact/", linkText: "Discuss External Learning" },
+  { text: "The LMS contains duplicated or outdated content.", link: "/services/lms-implementation-migration/", linkText: "LMS Support" },
+  { text: "Learning cannot be rolled out consistently across regions.", link: "/services/course-localization-translation/", linkText: "Global Rollout" },
+  { text: "AI adoption is happening without structured learning or governance.", link: "/contact/", linkText: "Discuss AI Readiness" },
+  { text: "The internal learning team has more demand than delivery capacity.", link: "/book-free-audit/", linkText: "Get an Audit" },
+  { text: "Quality, accessibility and learner experience vary across programs.", link: "/services/quality-assurance/", linkText: "Quality Assurance" }
+];
+---
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mb-12">
+      <h2 class="text-3xl font-bold text-brand-navy">Enterprise Learning Challenges</h2>
+      <p class="mt-4 text-lg text-slate-600">Common business problems that structured digital learning and managed services can resolve.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {challenges.map(challenge => (
+        <div class="flex items-start bg-slate-50 rounded-lg p-5 border border-slate-200">
+          <AlertCircle className="w-6 h-6 text-brand-green mt-1 flex-shrink-0" />
+          <div class="ml-4 flex-grow">
+             <p class="text-slate-800 font-medium">{challenge.text}</p>
+             <a href={challenge.link} class="inline-flex items-center mt-3 text-sm font-semibold text-brand-navy hover:text-brand-green transition-colors">
+               {challenge.linkText} <ArrowRight className="ml-1 w-4 h-4" />
+             </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

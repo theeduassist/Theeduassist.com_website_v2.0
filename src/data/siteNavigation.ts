@@ -94,6 +94,13 @@ export const siteNavigation: TopLevelNavigationItem[] = [
     ].filter(g => g.links.length > 0)
   },
   {
+    id: "enterprise-solutions",
+    label: "Enterprise Solutions",
+    href: "/enterprise-solutions/",
+    type: "link",
+    enabled: true
+  },
+  {
     id: "kajabi",
     label: "Kajabi Services",
     href: "/kajabi-services/",
@@ -147,6 +154,7 @@ export const footerNavigation = {
       { label: "Platforms", href: "/platforms/" }
   ],
   company: [
+    { label: "Enterprise Solutions", href: "/enterprise-solutions/" },
     { label: "About Us", href: "/about-us/" },
     { label: "Pricing", href: "/pricing/" },
     { label: "Contact", href: "/contact/" }

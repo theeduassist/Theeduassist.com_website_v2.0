@@ -26,6 +26,7 @@ const coreUrls = [
   'https://www.theeduassist.com/services/',
   'https://www.theeduassist.com/services/course-localization-translation/',
   'https://www.theeduassist.com/kajabi-services/',
+  'https://www.theeduassist.com/enterprise-solutions/',
   'https://www.theeduassist.com/platforms/',
   'https://www.theeduassist.com/pricing/',
   'https://www.theeduassist.com/case-studies/',
@@ -162,6 +163,7 @@ async function generateSitemap() {
     'https://www.theeduassist.com/services/',
     'https://www.theeduassist.com/services/course-localization-translation/',
     'https://www.theeduassist.com/kajabi-services/',
+    'https://www.theeduassist.com/enterprise-solutions/',
     'https://www.theeduassist.com/platforms/',
     'https://www.theeduassist.com/pricing/',
     'https://www.theeduassist.com/case-studies/',
@@ -263,7 +265,7 @@ Our primary and most effective step for new clients is the "24–48 Hour Review"
     if (url === 'https://www.theeduassist.com/') {
       priority = '1.0';
       changefreq = 'weekly';
-    } else if (url.includes('/services/') || url.includes('/kajabi-services/') || url.includes('/pricing/') || url.includes('/book-free-audit/')) {
+    } else if (url.includes('/services/') || url.includes('/kajabi-services/') || url.includes('/enterprise-solutions/') || url.includes('/pricing/') || url.includes('/book-free-audit/')) {
       priority = '0.9';
     } else if (url.includes('/platforms/') || url.includes('/case-studies/') || url.endsWith('/blog/')) {
       priority = '0.8';

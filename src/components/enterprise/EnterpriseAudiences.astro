@@ -1,0 +1,55 @@
+---
+import { Users, UserPlus, GraduationCap, Briefcase, Network, UserCheck } from "lucide-react";
+
+const audiences = [
+  {
+    title: "Learning and Development",
+    description: "For teams planning onboarding, upskilling, academies, learning pathways and content modernization.",
+    icon: GraduationCap
+  },
+  {
+    title: "HR and People Teams",
+    description: "For employee development, role readiness, manager enablement and consistent learning delivery.",
+    icon: Users
+  },
+  {
+    title: "Customer Education",
+    description: "For teams helping customers adopt products, services or professional knowledge.",
+    icon: UserPlus
+  },
+  {
+    title: "Partner and Channel Teams",
+    description: "For organizations training distributors, partners, resellers or external delivery networks.",
+    icon: Network
+  },
+  {
+    title: "Operations and Enablement",
+    description: "For teams standardizing processes, product knowledge, service delivery or role capability.",
+    icon: UserCheck
+  },
+  {
+    title: "Training Providers and Associations",
+    description: "For organizations developing and operating structured professional learning at scale.",
+    icon: Briefcase
+  }
+];
+---
+<section class="py-16 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h2 class="text-3xl font-bold text-brand-navy">Who We Support</h2>
+      <p class="mt-4 text-lg text-slate-600">TheEduAssist works alongside internal teams under an agreed responsibility model.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {audiences.map(audience => (
+        <div class="bg-white rounded-lg shadow-sm border border-slate-200 p-6">
+          <div class="w-12 h-12 bg-slate-100 text-brand-navy rounded-lg flex items-center justify-center mb-4">
+            <audience.icon className="w-6 h-6" />
+          </div>
+          <h3 class="text-xl font-semibold text-brand-navy mb-2">{audience.title}</h3>
+          <p class="text-slate-600 leading-relaxed">{audience.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

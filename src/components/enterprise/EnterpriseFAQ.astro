@@ -1,0 +1,79 @@
+---
+const faqs = [
+  {
+    q: "What enterprise learning projects can TheEduAssist support?",
+    a: "TheEduAssist can support learning strategy, onboarding, workforce learning, customer and partner education, custom eLearning, LMS implementation, content modernization, localization, quality assurance and managed learning services. Final scope depends on the organization’s requirements."
+  },
+  {
+    q: "Do you work with internal L&D and HR teams?",
+    a: "Yes. TheEduAssist can work alongside internal learning, HR, enablement, technology and subject-matter teams under an agreed responsibility model."
+  },
+  {
+    q: "Can you modernize existing training content?",
+    a: "Yes. Existing books, documents, presentations, recordings, classroom materials and legacy courses can be reviewed, reorganized and rebuilt into structured digital learning."
+  },
+  {
+    q: "Can you support an LMS implementation or migration?",
+    a: "Yes. Support may include requirements, course organization, configuration, content preparation, migration planning and testing. Available migration options depend on source exports, platform access and technical limitations."
+  },
+  {
+    q: "Can you build customer or partner education programs?",
+    a: "Yes. TheEduAssist can help structure product, service or professional knowledge into learning pathways for customers, partners or other external audiences."
+  },
+  {
+    q: "Can you help prepare employees to use AI?",
+    a: "TheEduAssist can help plan role-based and responsible AI learning content. The exact program should reflect approved tools, policies, risks and workflows."
+  },
+  {
+    q: "Can enterprise projects include localization?",
+    a: "Yes. Course content, assessments, media, learner communications and configurable platform content can be adapted for specific languages and regions under an agreed scope."
+  },
+  {
+    q: "Do you offer ongoing support?",
+    a: "Yes. Ongoing and managed support may include content updates, platform coordination, quality assurance, release planning and new learning assets."
+  },
+  {
+    q: "What happens during the 24–48 Hour Review?",
+    a: "The review begins with the information submitted about the organization’s learning problem, content, platform or planned program. TheEduAssist uses that information to identify the clearest next step. It does not mean the complete enterprise project will be delivered within 24 to 48 hours."
+  },
+  {
+    q: "Can you respond to an RFP or procurement process?",
+    a: "TheEduAssist can review an appropriate project brief, RFP or procurement requirement. The response scope and timing depend on the information provided and the requested process."
+  }
+];
+---
+<section class="py-16 bg-slate-50" aria-labelledby="faq-heading">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 id="faq-heading" class="text-3xl font-bold text-brand-navy">Enterprise FAQ</h2>
+    </div>
+    <div class="space-y-4">
+      {faqs.map((faq, index) => (
+        <details class="group bg-white border border-slate-200 rounded-lg overflow-hidden focus-within:ring-2 focus-within:ring-brand-green">
+          <summary class="flex justify-between items-center cursor-pointer p-6 font-semibold text-brand-navy hover:bg-slate-50 focus:outline-none">
+            <span class="pr-6">{faq.q}</span>
+            <span class="transition-transform duration-200 group-open:rotate-180 flex-shrink-0 text-brand-green">
+              <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5"></path></svg>
+            </span>
+          </summary>
+          <div class="p-6 pt-0 text-slate-600 leading-relaxed border-t border-slate-100 mt-2">
+            {faq.a}
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.a
+    }
+  }))
+})} />

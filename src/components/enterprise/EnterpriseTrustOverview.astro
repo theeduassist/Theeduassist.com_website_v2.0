@@ -1,0 +1,73 @@
+---
+import { Shield, Cpu, Accessibility, Lock } from "lucide-react";
+---
+<section class="py-16 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mb-12">
+      <h2 class="text-3xl font-bold text-brand-navy">Enterprise Delivery Requires Clear Governance and Responsible Controls</h2>
+      <p class="mt-4 text-lg text-slate-600">Specific controls, access requirements and review responsibilities are confirmed for each engagement.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Governance -->
+      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+        <div class="flex items-center mb-4">
+           <Shield className="w-6 h-6 text-brand-navy mr-3" />
+           <h3 class="text-xl font-bold text-brand-navy">Governance and Scope</h3>
+        </div>
+        <ul class="list-disc list-outside pl-5 space-y-1 text-slate-600">
+           <li>Agreed project scope and defined stakeholder responsibilities</li>
+           <li>Approved content sources and version management</li>
+           <li>Documented review and approval workflows</li>
+           <li>Instructional and functional QA</li>
+           <li>Release and handover documentation</li>
+        </ul>
+      </div>
+
+      <!-- Responsible AI -->
+      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+        <div class="flex items-center mb-4">
+           <Cpu className="w-6 h-6 text-brand-navy mr-3" />
+           <h3 class="text-xl font-bold text-brand-navy">Responsible AI</h3>
+        </div>
+        <ul class="list-disc list-outside pl-5 space-y-1 text-slate-600">
+           <li>Approved use cases should be defined</li>
+           <li>Client information is only used in approved tools and workflows</li>
+           <li>AI-generated material requires human review</li>
+           <li>Bias and cultural suitability are reviewed</li>
+           <li>Publishing approval remains human-controlled</li>
+        </ul>
+      </div>
+
+      <!-- Accessibility -->
+      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+        <div class="flex items-center mb-4">
+           <Accessibility className="w-6 h-6 text-brand-navy mr-3" />
+           <h3 class="text-xl font-bold text-brand-navy">Accessibility Capability</h3>
+        </div>
+        <ul class="list-disc list-outside pl-5 space-y-1 text-slate-600">
+           <li>Semantic structure and keyboard access</li>
+           <li>Focus behavior and appropriate contrast</li>
+           <li>Text alternatives, captions and transcripts</li>
+           <li>Support for zoom and reduced motion</li>
+           <li>Manual and automated testing against WCAG guidelines</li>
+        </ul>
+      </div>
+
+      <!-- Security and Privacy -->
+      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+        <div class="flex items-center mb-4">
+           <Lock className="w-6 h-6 text-brand-navy mr-3" />
+           <h3 class="text-xl font-bold text-brand-navy">Security and Privacy</h3>
+        </div>
+        <ul class="list-disc list-outside pl-5 space-y-1 text-slate-600">
+           <li>Minimum necessary access and account-based permissions</li>
+           <li>Approved file-sharing methods</li>
+           <li>Secure credential handling</li>
+           <li>Defined data responsibilities</li>
+           <li>Removal of access after handover where appropriate</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

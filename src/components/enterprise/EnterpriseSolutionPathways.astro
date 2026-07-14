@@ -1,0 +1,82 @@
+---
+import { ArrowRight, BookOpen, MonitorPlay, Users, Search, Target, Globe, Lightbulb } from "lucide-react";
+
+const pathways = [
+  {
+    title: "Workforce Onboarding and Enablement",
+    description: "Create structured pathways that help employees understand roles, processes, systems, products and expectations.",
+    icon: Target,
+    links: [ { text: "Discuss an Onboarding Project", href: "/contact/" } ]
+  },
+  {
+    title: "Workforce Upskilling and Capability",
+    description: "Build curriculum, academies and role-based learning pathways for ongoing capability development.",
+    icon: BookOpen,
+    links: [ { text: "Discuss Workforce Learning", href: "/contact/" } ]
+  },
+  {
+    title: "Customer and Partner Education",
+    description: "Turn product, service and operational knowledge into organized learning for customers, partners or external networks.",
+    icon: Users,
+    links: [ { text: "Discuss an External Learning Program", href: "/contact/" } ]
+  },
+  {
+    title: "Internal Academies and Knowledge Systems",
+    description: "Organize subject-matter expertise, learning content and platform delivery into maintainable internal academies.",
+    icon: Lightbulb,
+    links: [ { text: "Discuss an Internal Academy", href: "/contact/" } ]
+  },
+  {
+    title: "LMS and Content Modernization",
+    description: "Improve platforms, migrate learning, reorganize courses and modernize existing learning content.",
+    icon: MonitorPlay,
+    links: [
+      { text: "Explore LMS Implementation and Migration", href: "/services/lms-implementation-migration/" },
+      { text: "Explore Content Conversion and Modernization", href: "/services/content-conversion/" }
+    ]
+  },
+  {
+    title: "AI Workforce Readiness",
+    description: "Develop practical and responsible learning that helps teams understand approved AI use, role-specific applications, risks and review responsibilities.",
+    icon: Search,
+    links: [ { text: "Discuss AI Readiness", href: "/contact/" } ]
+  },
+  {
+    title: "Global and Managed Learning",
+    description: "Prepare content for new languages or regions and support continuing learning operations after launch.",
+    icon: Globe,
+    links: [
+      { text: "Course Localization and Translation", href: "/services/course-localization-translation/" },
+      { text: "Managed Learning Services", href: "/services/managed-learning/" }
+    ]
+  }
+];
+---
+<section id="solution-pathways" class="py-16 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h2 class="text-3xl font-bold text-brand-navy">Enterprise Solution Pathways</h2>
+      <p class="mt-4 text-lg text-slate-600">Explore how TheEduAssist structures solutions for specific organizational goals.</p>
+    </div>
+    <div class="space-y-8">
+      {pathways.map(pathway => (
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-8 flex flex-col md:flex-row gap-6 items-start">
+           <div class="w-14 h-14 rounded-full bg-brand-navy/5 flex items-center justify-center flex-shrink-0">
+             <pathway.icon className="w-7 h-7 text-brand-navy" />
+           </div>
+           <div class="flex-grow">
+              <h3 class="text-2xl font-bold text-brand-navy mb-3">{pathway.title}</h3>
+              <p class="text-slate-600 leading-relaxed mb-5">{pathway.description}</p>
+              <div class="flex flex-col sm:flex-row gap-4">
+                 {pathway.links.map(link => (
+                    <a href={link.href} class="inline-flex items-center text-sm font-semibold text-brand-green hover:text-green-700 transition-colors">
+                      {link.text} <ArrowRight className="ml-1.5 w-4 h-4" />
+                    </a>
+                 ))}
+              </div>
+           </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

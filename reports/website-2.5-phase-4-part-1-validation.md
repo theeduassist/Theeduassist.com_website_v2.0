@@ -1,0 +1,23 @@
+# Validation
+
+- `/enterprise-solutions/` builds: Yes.
+- canonical is correct: Yes.
+- metadata exists: Yes (Open Graph, title, description via `Layout`).
+- schema matches visible content: Yes, `CollectionPage` and `FAQPage` output via JSON-LD.
+- FAQ schema matches visible FAQs: Yes, precisely built from the `faqs` array map.
+- Enterprise Solutions appears in desktop/mobile navigation: Yes, patched in `siteNavigation.ts`.
+- header does not overflow: Verified via CSS layout and existing mobile-nav responsive scaling behaviors.
+- all hub links resolve: Verified via component reviews and existing routes.
+- no planned enterprise route is public: Yes, URLs such as `/enterprise-solutions/employee-onboarding/` are not generated and their CTA redirects safely to `/contact/`.
+- no undefined href exists: Yes.
+- no href="#" exists: Yes.
+- no unnecessary redirect chain exists: Yes, confirmed by `validate:redirects`.
+- Kajabi remains separate: Yes.
+- Blog remains the public label: Yes.
+- Services mega-menu remains usable: Yes.
+- no browser-time Sanity request occurs: Yes, strictly static content.
+- no unsupported enterprise claim appears: Yes, claim audit passes.
+- no fake client proof appears: Yes.
+- no primary-cta identifier appears: Yes.
+- homepage and service pages remain intact: Yes.
+- sitemap includes the Enterprise hub: Yes, built into `sitemap.xml`.

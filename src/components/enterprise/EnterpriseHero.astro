@@ -1,0 +1,85 @@
+---
+import { ArrowRight } from "lucide-react";
+
+---
+<section class="relative bg-brand-navy text-white overflow-hidden py-20 lg:py-32" aria-labelledby="enterprise-hero-heading">
+  <div class="absolute inset-0 z-0 opacity-10">
+    <svg class="absolute w-full h-full" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+      <defs>
+        <pattern id="hero-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#hero-grid)" />
+    </svg>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+    <div class="w-full lg:w-1/2 space-y-8">
+      <span class="inline-block text-brand-green font-semibold tracking-wide uppercase text-sm">Enterprise Learning Transformation and Managed Services</span>
+      <h1 id="enterprise-hero-heading" class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+        Build Learning Systems That Support People, Performance and Growth
+      </h1>
+      <p class="text-lg text-slate-300 max-w-2xl leading-relaxed">
+        TheEduAssist helps organizations plan, design, build, modernize and support structured learning systems for employees, customers, partners and global audiences.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 pt-4">
+        <a href="/contact/" class="inline-flex justify-center items-center px-6 py-3.5 border border-transparent text-base font-semibold rounded-md text-brand-navy bg-brand-green hover:bg-green-500 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-green focus:ring-offset-brand-navy">
+          Discuss an Enterprise Learning Project
+          <ArrowRight className="ml-2 -mr-1 w-5 h-5" />
+        </a>
+        <a href="#solution-pathways" class="inline-flex justify-center items-center px-6 py-3.5 border border-slate-600 text-base font-semibold rounded-md text-white hover:bg-slate-800 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500 focus:ring-offset-brand-navy">
+          Explore Enterprise Solutions
+        </a>
+      </div>
+      <p class="text-sm text-slate-400 font-medium pt-6 lg:pt-8 border-t border-slate-700/50">
+        Learning strategy • Workforce learning • Customer education • LMS and content modernization • AI readiness • Global rollout • Managed support
+      </p>
+    </div>
+    <div class="w-full lg:w-1/2 flex justify-center items-center">
+      <div class="relative w-full max-w-lg aspect-square">
+        <!-- Abstract representation showing Organizational knowledge -> Learning pathways -> Platforms and content -> Delivery to audiences -> Measurement and improvement -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" class="w-full h-full text-slate-200" aria-hidden="true" role="img">
+           <circle cx="200" cy="200" r="180" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="10 10"/>
+
+           <!-- Top Left: Knowledge -->
+           <g transform="translate(100, 100)">
+              <rect x="0" y="0" width="80" height="80" rx="16" fill="#1e293b" stroke="#77BA55" stroke-width="2"/>
+              <path d="M 25 30 L 55 30 M 25 40 L 55 40 M 25 50 L 40 50" stroke="#77BA55" stroke-width="4" stroke-linecap="round"/>
+           </g>
+
+           <!-- Top Right: Pathways -->
+           <g transform="translate(220, 100)">
+              <rect x="0" y="0" width="80" height="80" rx="16" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+              <path d="M 20 40 Q 40 20 60 40 T 80 40" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linecap="round"/>
+           </g>
+
+           <!-- Bottom Left: Platforms -->
+           <g transform="translate(100, 220)">
+              <rect x="0" y="0" width="80" height="80" rx="16" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+              <rect x="25" y="25" width="30" height="30" rx="4" fill="none" stroke="#f59e0b" stroke-width="4"/>
+           </g>
+
+           <!-- Bottom Right: Audiences/Delivery -->
+           <g transform="translate(220, 220)">
+              <rect x="0" y="0" width="80" height="80" rx="16" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+              <circle cx="40" cy="30" r="12" fill="none" stroke="#10b981" stroke-width="4"/>
+              <path d="M 20 60 Q 40 45 60 60" fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+           </g>
+
+           <!-- Connecting Lines -->
+           <path d="M 180 140 L 220 140" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow-hero)"/>
+           <path d="M 260 180 L 260 220" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow-hero)"/>
+           <path d="M 220 260 L 180 260" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow-hero)"/>
+           <path d="M 140 220 L 140 180" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow-hero)"/>
+
+           <defs>
+              <marker id="arrow-hero" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569" />
+              </marker>
+           </defs>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>

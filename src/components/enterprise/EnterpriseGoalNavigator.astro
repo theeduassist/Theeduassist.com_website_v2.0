@@ -1,0 +1,71 @@
+---
+import { ArrowRight } from "lucide-react";
+
+const goals = [
+  {
+    goal: "Improve employee onboarding",
+    direction: "Workforce onboarding and role-readiness planning",
+    cta: "Discuss Your Project",
+    link: "/contact/"
+  },
+  {
+    goal: "Develop workforce capabilities",
+    direction: "Learning strategy, curriculum development and custom eLearning",
+    cta: "Explore Custom eLearning",
+    link: "/services/custom-elearning-development/"
+  },
+  {
+    goal: "Educate customers or partners",
+    direction: "Customer or partner education program design",
+    cta: "Discuss an External Learning Program",
+    link: "/contact/"
+  },
+  {
+    goal: "Modernize a legacy learning system",
+    direction: "LMS migration, content modernization and quality assurance",
+    cta: "Explore LMS Implementation",
+    link: "/services/lms-implementation-migration/"
+  },
+  {
+    goal: "Prepare teams to use AI responsibly",
+    direction: "AI workforce readiness and role-based learning",
+    cta: "Discuss AI Readiness",
+    link: "/contact/"
+  },
+  {
+    goal: "Expand learning to new regions",
+    direction: "Course localization and controlled global rollout",
+    cta: "Explore Localization",
+    link: "/services/course-localization-translation/"
+  },
+  {
+    goal: "Extend the internal learning team",
+    direction: "Managed learning services and ongoing support",
+    cta: "Explore Managed Services",
+    link: "/services/managed-learning/"
+  }
+];
+---
+<section class="py-16 bg-white border-y border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mb-10">
+      <h2 class="text-3xl font-bold text-brand-navy">Choose by Organizational Goal</h2>
+      <p class="mt-4 text-lg text-slate-600">Select your primary objective to find the recommended starting point.</p>
+    </div>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+       {goals.map(item => (
+         <div class="border border-slate-200 rounded-lg p-6 bg-slate-50 flex flex-col justify-between">
+            <div>
+               <h3 class="text-lg font-bold text-slate-900 mb-2">{item.goal}</h3>
+               <p class="text-slate-600 mb-4">{item.direction}</p>
+            </div>
+            <div>
+               <a href={item.link} class="inline-flex items-center text-sm font-semibold text-brand-navy hover:text-brand-green transition-colors">
+                 {item.cta} <ArrowRight className="ml-1 w-4 h-4" />
+               </a>
+            </div>
+         </div>
+       ))}
+    </div>
+  </div>
+</section>
