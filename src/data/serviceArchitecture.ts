@@ -300,16 +300,16 @@ export const serviceArchitecture: ServiceDefinition[] = [
   {
     id: "course-localization",
     title: "Course Localization and Translation",
-    slug: "/services/course-localization/",
+    slug: "/services/course-localization-translation/",
     family: "global-learning",
     shortDescription: "Translate and adapt courses for international audiences.",
     problemSolved: "We need to train a global workforce.",
     audience: ["Organizations"],
     icon: "Globe",
-    status: "planned-part-4",
-    publicVisibility: false,
-    navigationVisibility: false,
-    hubVisibility: false,
+    status: "live",
+    publicVisibility: true,
+    navigationVisibility: true,
+    hubVisibility: true,
     ctaType: "contact"
   },
   {
@@ -336,6 +336,12 @@ export const getServiceById = (id: string) => serviceArchitecture.find(s => s.id
 export const getServicesByFamily = (family: ServiceFamily) => serviceArchitecture.filter(s => s.family === family && s.publicVisibility);
 
 export const serviceFamiliesData = [
+  {
+    id: "global-learning",
+    title: "Global Learning",
+    description: "Translate and adapt your courses for new languages, regions, and international markets.",
+    icon: "Globe"
+  },
   {
     id: "strategy-design",
     title: "Strategy and Design",

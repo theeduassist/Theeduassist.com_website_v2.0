@@ -24,6 +24,7 @@ try {
 const coreUrls = [
   'https://www.theeduassist.com/',
   'https://www.theeduassist.com/services/',
+  'https://www.theeduassist.com/services/course-localization-translation/',
   'https://www.theeduassist.com/kajabi-services/',
   'https://www.theeduassist.com/platforms/',
   'https://www.theeduassist.com/pricing/',
@@ -159,6 +160,7 @@ async function generateSitemap() {
   const llmsUrls = [
     'https://www.theeduassist.com/',
     'https://www.theeduassist.com/services/',
+    'https://www.theeduassist.com/services/course-localization-translation/',
     'https://www.theeduassist.com/kajabi-services/',
     'https://www.theeduassist.com/platforms/',
     'https://www.theeduassist.com/pricing/',
@@ -222,6 +224,7 @@ TheEduAssist helps clients turn expertise, training content, workshops, PDFs, sl
 - Funnels and automation
 - Corporate training
 - Ongoing course support and maintenance
+- Course localization and translation
 
 ## Platform & LMS Support
 We match the right learning management system to specific business models, audiences, and industries.
