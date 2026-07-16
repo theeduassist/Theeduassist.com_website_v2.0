@@ -18,6 +18,10 @@
     "sanity:start": "sanity start",
     "create:env:production": "node scripts/create-production-env.mjs",
     "validate:env": "node scripts/validate-env-safety.mjs",
+    "validate:enterprise": "node scripts/validate-enterprise-architecture.mjs",
+    "validate:trust": "node scripts/validate-trust-architecture.mjs",
+    "validate:conversion": "node scripts/validate-conversion-architecture.mjs",
+    "validate:analytics": "node scripts/validate-analytics-events.mjs",
     "validate:redirects": "node scripts/validate-redirects.mjs",
     "check:sanity:blog": "node scripts/check-sanity-blog-public.mjs"
   },
@@ -46,6 +50,7 @@
     "png-to-ico": "^3.0.2",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
+    "resend": "^6.17.2",
     "sanity": "^6.1.0",
     "sanity-plugin-iframe-pane": "^5.0.16",
     "sanity-plugin-markdown": "^9.0.0",

@@ -1,0 +1,46 @@
+---
+import Layout from "../../../../layouts/Layout.astro";
+import { webPageSchema, breadcrumbSchema } from '../../../../lib/seo/schema';
+
+const jsonLd = [
+  webPageSchema(
+    "Thank You | TheEduAssist",
+    "Thank you for submitting your enterprise project brief.",
+    "/enterprise-solutions/project-brief/thank-you/"
+  ),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Enterprise Solutions", urlPath: "/enterprise-solutions/" },
+    { name: "Project Brief", urlPath: "/enterprise-solutions/project-brief/" },
+    { name: "Thank You", urlPath: "/enterprise-solutions/project-brief/thank-you/" }
+  ])
+];
+
+---
+<Layout
+  title="Thank You | TheEduAssist"
+  description="Thank you for submitting your enterprise project brief."
+  canonicalPath="/enterprise-solutions/project-brief/thank-you/"
+  noindex={true}
+  jsonLd={jsonLd}
+>
+  <section class="py-24 bg-white relative">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">
+        Project Brief Received
+      </h1>
+      <p class="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
+        Thank you for sharing your learning initiative details. Our team will review the information and contact you shortly.
+      </p>
+
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a
+          href="/enterprise-solutions/"
+          class="inline-flex justify-center items-center px-6 py-3 rounded-md border border-slate-200 hover:border-blue-600 hover:text-blue-600 hover:bg-blue-50 font-medium transition-colors focus-ring"
+        >
+          Return to Enterprise Solutions
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

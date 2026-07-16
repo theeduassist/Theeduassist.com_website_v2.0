@@ -1,6 +1,0 @@
-Build Validation Results:
-1. `npm run validate:env` passed all checks successfully.
-2. `npm run validate:redirects` completed successfully.
-3. `npm run check:sanity:blog` correctly identified missing `publishedAt` metadata on tests/drafts and appropriately marked them as excluded, confirming our sitemap exclusions are functioning correctly.
-4. `node scripts/generate-sitemap.mjs` ran without error, returning 291 posts.
-5. The Astro build (`npm run build`) succeeded earlier without timeouts or errors.

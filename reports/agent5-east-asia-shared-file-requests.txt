@@ -1,6 +1,0 @@
-Shared File Integration Request:
-Target File: src/data/locations.json
-Requested Modification: Import 'eastAsiaCountries' and 'eastAsiaCities' into the global export map. Remove 'Hong Kong' and 'Asia Pacific' from existing broader regions.
-Reason: Handover to integration agent.
-Expected Result: Correctly routing East Asia records.
-Acceptance Criteria: Validation passes.

@@ -1,4 +1,0 @@
-Browser-side Sanity Test Results:
-1. Ran full `npm run build` after fixing module resolution with `npm install --legacy-peer-deps`.
-2. Grepped the compiled `dist/` directory for any occurrences of `sanity.io`, `api.sanity.io`, and `apicdn.sanity.io`.
-3. No occurrences were found, meaning Sanity API requests and tokens successfully remain on the server/build side and do not leak into the public browser bundles.

@@ -1,1 +1,0 @@
-Sanity static rendering audited. `export const prerender = true;` is confirmed present on public route pages (`src/pages/blog/index.astro`, `src/pages/blog/[slug].astro`). No client-side fetching occurs during build or runtime for public pages.

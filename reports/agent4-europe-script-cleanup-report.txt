@@ -1,5 +1,0 @@
-Cleanup Report:
-- generate_countries.cjs deleted.
-- generate_cities.cjs deleted.
-- generate_advanced_records.cjs deleted.
-- generate_reports.cjs will be deleted post-run.

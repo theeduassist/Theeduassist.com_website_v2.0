@@ -1,6 +1,0 @@
-Homepage HTML Cleanup Report
-
-- Audited `src/components/sections/PlatformStrip.astro`. The marquee logic contained duplicate mapping and dynamic `aria-hidden` attributes which can cause hydration issues.
-- I sliced the arrays specifically before mapping and explicitly set `aria-hidden="true"` on the duplicate tracks for proper screen reader accessibility.
-- The component already handles `pause-animation` and `prefers-reduced-motion` in CSS natively but I also added the Tailwind `motion-reduce:animate-none` for guaranteed tailwind fallback.
-- `HomeFAQ.astro` is properly consolidated and is only rendered once per homepage (no duplicated block issues found).

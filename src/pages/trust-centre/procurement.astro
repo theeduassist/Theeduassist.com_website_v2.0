@@ -1,0 +1,414 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { trustPages } from '../../data/trustArchitecture';
+
+const pageData = trustPages.find(p => p.id === 'procurement');
+if (!pageData) {
+  throw new Error('Procurement page data not found');
+}
+
+const title = pageData.title;
+const description = pageData.shortDescription;
+const canonicalPath = pageData.canonical;
+
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can TheEduAssist review an RFP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we can review appropriate RFPs that align with our service offerings, provided there is sufficient project information and timeline flexibility for a thorough response."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you work under an NDA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we can review and sign NDAs where appropriate for the engagement before discussing confidential project details."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a security questionnaire available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We can provide responses to specific security questions or standard questionnaires during the procurement phase of a larger engagement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can procurement teams request company information?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Required business, invoicing, and authorized contact information is provided securely during vendor onboarding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide fixed enterprise pricing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Enterprise pricing is typically project-specific, based on the agreed scope, deliverables, and required duration detailed in the Statement of Work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can accessibility requirements be included in scope?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Accessibility requirements, review criteria, and specific testing processes should be explicitly defined in the project scope."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI restrictions be included in the agreement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Clients may specify guidelines or restrictions on AI usage, which will be documented in the contract."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are changes handled after scope approval?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Changes to approved scope are managed through our documented change control process, evaluating impact on cost, timeline, and dependencies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does submitting an RFP guarantee a response?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. While we strive to review incoming requests, submitting an RFP does not automatically guarantee a proposal or response within a fixed deadline."
+      }
+    }
+  ]
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "url": `https://theeduassist.com${canonicalPath}`,
+  "publisher": {
+    "@type": "Organization",
+    "name": "TheEduAssist",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://theeduassist.com/brand/theeduassist-logo-official.png"
+    }
+  }
+};
+---
+
+<Layout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={[jsonLd, faqSchema]}
+>
+  <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="bg-[#27496D] text-white py-20 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <span class="text-sm font-semibold tracking-wider uppercase mb-4 block text-gray-300">
+          Trust Centre
+        </span>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">
+          Prepare the Information Needed to Review an Enterprise Learning Engagement
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          {description}
+        </p>
+        <p class="text-lg text-gray-400 mb-8 max-w-3xl mx-auto">
+          Help procurement teams and project sponsors understand what information is available and what is typically required to successfully initiate a project.
+        </p>
+        <a
+          href={pageData.primaryCta.href}
+          class="inline-block bg-[#77BA55] text-white font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-colors"
+        >
+          {pageData.primaryCta.label}
+        </a>
+      </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="bg-gray-100 py-3 px-4 border-b border-gray-200">
+      <div class="max-w-6xl mx-auto text-sm text-gray-600">
+        <a href="/" class="hover:text-[#27496D] hover:underline">Home</a>
+        <span class="mx-2">/</span>
+        <a href="/trust-centre/" class="hover:text-[#27496D] hover:underline">Trust Centre</a>
+        <span class="mx-2">/</span>
+        <span class="text-gray-900 font-medium">Procurement & Project Readiness</span>
+      </div>
+    </div>
+
+    <!-- Content Sections -->
+    <section class="py-16 px-4">
+      <div class="max-w-4xl mx-auto space-y-16">
+
+        <!-- Procurement Information Areas -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Enterprise Review Areas</h2>
+          <p class="text-gray-700 mb-8 text-lg">
+            During discussions for larger enterprise engagements, we typically review information across the following categories to establish a clear Statement of Work:
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">COMPANY & CONTACT</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>legal business information where approved</li>
+                <li>authorized contact</li>
+                <li>invoicing information</li>
+                <li>service overview</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">PROJECT DEFINITION</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>objective and audiences</li>
+                <li>content and platforms</li>
+                <li>deliverables</li>
+                <li>dependencies and acceptance criteria</li>
+                <li>target timing</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">COMMERCIAL REVIEW</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>proposal and scope</li>
+                <li>pricing basis</li>
+                <li>payment terms</li>
+                <li>change process</li>
+                <li>exclusions</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">RISK & GOVERNANCE</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                <li>access, privacy, and security</li>
+                <li>accessibility requirements</li>
+                <li>AI use guidelines</li>
+                <li>subcontractors or vendors where applicable</li>
+                <li>content ownership and approvals</li>
+              </ul>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm md:col-span-2">
+              <h3 class="text-xl font-bold text-[#27496D] mb-4">DELIVERY READINESS</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700 grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+                <li>subject-matter experts identified</li>
+                <li>source files available</li>
+                <li>platform access ready</li>
+                <li>stakeholder availability confirmed</li>
+                <li>review schedule agreed</li>
+                <li>launch dependencies mapped</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- RFP and NDA Guidance -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">RFP and NDA Guidance</h2>
+          <div class="bg-gray-50 border-l-4 border-[#27496D] p-6 rounded-r-lg mb-8">
+            <ul class="space-y-3 text-gray-700">
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Appropriate RFPs may be reviewed provided sufficient project information is included.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Response timing depends on the scope and complexity of the request. We do not promise fixed response deadlines for unsolicited requests.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Receiving an RFP request does not guarantee our participation.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>An NDA may be reviewed where appropriate before detailed discussions. Legal documents require formal review before acceptance; we do not use an automated NDA acceptance workflow.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-[#27496D] mr-2">•</span>
+                <span>Confidential information should only be shared using an agreed secure channel.</span>
+              </li>
+            </ul>
+          </div>
+          <a href="/contact/" class="text-[#77BA55] font-bold hover:underline">Discuss Procurement Requirements →</a>
+        </div>
+
+        <!-- Procurement Document Status -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Procurement Document Status</h2>
+          <p class="text-gray-700 mb-6">
+            We maintain transparency regarding the documentation we provide. The following statuses apply to common procurement requests:
+          </p>
+
+          <div class="overflow-x-auto">
+            <table class="min-w-full bg-white border border-gray-200">
+              <thead>
+                <tr class="bg-gray-50 border-b border-gray-200 text-left">
+                  <th class="py-3 px-4 font-bold text-[#27496D]">Document Type</th>
+                  <th class="py-3 px-4 font-bold text-[#27496D]">Typical Availability Status</th>
+                </tr>
+              </thead>
+              <tbody class="text-gray-700 divide-y divide-gray-200">
+                <tr>
+                  <td class="py-3 px-4">Statement of Work (SOW)</td>
+                  <td class="py-3 px-4"><span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Project-specific</span></td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4">Standard Terms of Service</td>
+                  <td class="py-3 px-4"><span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Publicly Published</span></td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4">Non-Disclosure Agreement (NDA)</td>
+                  <td class="py-3 px-4"><span class="inline-block bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">Reviewed where applicable</span></td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4">General Security Questionnaire</td>
+                  <td class="py-3 px-4"><span class="inline-block bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Available during project discussion</span></td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4">Data Processing Agreement (DPA)</td>
+                  <td class="py-3 px-4"><span class="inline-block bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">Reviewed where applicable</span></td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4">Accessibility Conformance Report (VPAT)</td>
+                  <td class="py-3 px-4"><span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Project-specific (requires audit scope)</span></td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4">SOC 2 / ISO Certificates</td>
+                  <td class="py-3 px-4"><span class="inline-block bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Not publicly published</span></td>
+                </tr>
+                <tr>
+                  <td class="py-3 px-4">Penetration Test Reports</td>
+                  <td class="py-3 px-4"><span class="inline-block bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded">Not publicly published</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Frequently Asked Questions</h2>
+          <div class="space-y-4">
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can TheEduAssist review an RFP?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes, we can review appropriate RFPs that align with our service offerings, provided there is sufficient project information and timeline flexibility for a thorough response.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can you work under an NDA?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes, we can review and sign NDAs where appropriate for the engagement before discussing confidential project details.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Is a security questionnaire available?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                We can provide responses to specific security questions or standard questionnaires during the procurement phase of a larger engagement.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can procurement teams request company information?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes. Required business, invoicing, and authorized contact information is provided securely during vendor onboarding.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Do you provide fixed enterprise pricing?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Enterprise pricing is typically project-specific, based on the agreed scope, deliverables, and required duration detailed in the Statement of Work.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can accessibility requirements be included in scope?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes. Accessibility requirements, review criteria, and specific testing processes should be explicitly defined in the project scope.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can AI restrictions be included in the agreement?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes. Clients may specify guidelines or restrictions on AI usage, which will be documented in the contract.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>How are changes handled after scope approval?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Changes to approved scope are managed through our documented change control process, evaluating impact on cost, timeline, and dependencies.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Does submitting an RFP guarantee a response?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No. While we strive to review incoming requests, submitting an RFP does not automatically guarantee a proposal or response within a fixed deadline.
+              </div>
+            </details>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+</Layout>

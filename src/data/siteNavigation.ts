@@ -134,6 +134,7 @@ export const siteNavigation: TopLevelNavigationItem[] = [
           { id: "about-us", label: "About Us", href: "/about-us/", icon: "Users" },
           { id: "blog", label: "Blog", href: "/blog/", icon: "BookOpen" },
           { id: "platforms", label: "Supported Platforms", href: "/platforms/", icon: "Database" },
+          { id: "trust-centre", label: "Trust Centre", href: "/trust-centre/", icon: "Shield" },
         ]
       }
     ]
@@ -160,10 +161,14 @@ export const footerNavigation = {
     { label: "Contact", href: "/contact/" }
   ],
   legal: [
+    { label: "Trust Centre", href: "/trust-centre/" },
+    { label: "Delivery Methodology", href: "/trust-centre/delivery-methodology/" },
+    { label: "Responsible AI", href: "/trust-centre/responsible-ai/" },
+    { label: "Accessibility", href: "/trust-centre/accessibility/" },
+    { label: "Security & Privacy", href: "/trust-centre/security-privacy/" },
+    { label: "Procurement", href: "/trust-centre/procurement/" },
     { label: "Privacy Policy", href: "/privacy-policy/" },
-    { label: "Terms and Conditions", href: "/terms-and-conditions/" },
-    { label: "Accessibility", href: "/accessibility-statement/" },
-    { label: "Cookie Policy", href: "/cookie-policy/" }
+    { label: "Terms and Conditions", href: "/terms-and-conditions/" }
   ],
   locations: [
      { label: "London", href: "/locations/europe/united-kingdom/london/" },

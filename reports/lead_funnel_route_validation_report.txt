@@ -1,5 +1,0 @@
-Lead Funnel Route Validation Report
-- /contact/ returns 200, form loads via iframe.
-- /book-free-audit/ returns 200, form loads via iframe.
-- Both use consistent Primary CTA "Get 24–48 Hour Review".
-- Both explain what happens after submission.

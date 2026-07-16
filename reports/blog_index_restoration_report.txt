@@ -1,5 +1,0 @@
-Blog Index Restoration Report
-- Verified /blog/ route functionality.
-- Confirmed getBlogPostSummaries logic filters out posts lacking a publishedAt date, leading to the "New articles coming soon" state when valid summaries aren't returned.
-- Kept the isPublicBlogSummary and isPublicFullBlogPost architecture intact.
-- Verified /data/blog/page-[page].json structure matches frontend expectations.

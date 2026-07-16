@@ -1,0 +1,216 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import { webPageSchema, faqPageSchema, breadcrumbSchema } from '../../../lib/seo/schema';
+import EnterpriseBriefForm from "../../../components/forms/EnterpriseBriefForm.astro";
+
+const faqs = [
+  {
+    question: "Do I need a complete project specification?",
+    answer: "No. The project brief is designed to start the conversation. You can provide as much or as little detail as you currently have."
+  },
+  {
+    question: "Can I submit a brief before selecting an LMS?",
+    answer: "Yes. Understanding your learning goals and audience can help inform platform requirements before a final decision is made."
+  },
+  {
+    question: "Can I describe more than one learning audience?",
+    answer: "Yes. Enterprise initiatives often span internal employees, partners, and customers. Please outline all relevant groups."
+  },
+  {
+    question: "Can the project include localization?",
+    answer: "Yes. Indicate any required languages or regions in your brief to help us understand the full scope."
+  },
+  {
+    question: "Can procurement requirements be included?",
+    answer: "Yes. Let us know early if your organization has specific vendor onboarding or procurement processes."
+  },
+  {
+    question: "Should I upload confidential documents?",
+    answer: "No. Please do not submit confidential information, PII, or security credentials through this form. We can arrange a secure sharing method after an initial discussion."
+  },
+  {
+    question: "Does submitting a brief guarantee acceptance?",
+    answer: "No. We review all briefs to ensure alignment with our capabilities and capacity before confirming next steps."
+  },
+  {
+    question: "Will I receive an immediate quotation?",
+    answer: "No. The brief helps us understand the project context. Pricing and timelines are discussed after we confirm the scope."
+  },
+  {
+    question: "Can I use the general Contact page instead?",
+    answer: "Yes. The project brief helps structure complex enterprise inquiries, but you can always reach out via the general contact page for simple questions."
+  }
+];
+
+const jsonLd = [
+  webPageSchema(
+    "Enterprise Learning Project Brief | TheEduAssist",
+    "Share your organizational learning goals, audiences, existing content, platform requirements and project context with TheEduAssist.",
+    "/enterprise-solutions/project-brief/"
+  ),
+  faqPageSchema(faqs),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Enterprise Solutions", urlPath: "/enterprise-solutions/" },
+    { name: "Project Brief", urlPath: "/enterprise-solutions/project-brief/" }
+  ])
+];
+
+---
+<Layout
+  title="Enterprise Learning Project Brief | TheEduAssist"
+  description="Share your organizational learning goals, audiences, existing content, platform requirements and project context with TheEduAssist."
+  canonicalPath="/enterprise-solutions/project-brief/"
+  jsonLd={jsonLd}
+>
+  <section class="py-20 lg:py-28 bg-brand-navy relative overflow-hidden">
+    <div class="absolute inset-0 bg-[url('/images/pattern-grid.svg')] opacity-5"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+      <span class="inline-block py-1 px-3 rounded-full bg-brand-accent/20 text-brand-accent font-semibold text-sm mb-6 border border-brand-accent/30 tracking-wide uppercase">
+        Enterprise Project Brief
+      </span>
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight max-w-4xl mx-auto">
+        Share the Information Needed to Review Your Learning Initiative
+      </h1>
+      <p class="text-xl text-brand-textMuted max-w-3xl mx-auto mb-10 leading-relaxed">
+        Provide an overview of your audiences, learning goals, existing content, platform requirements and project constraints. The information will help TheEduAssist identify a practical next step for discussion.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a
+          href="#project-brief-form"
+          class="inline-flex justify-center items-center px-8 py-4 text-lg rounded-md bg-brand-accent text-white font-bold hover:bg-brand-primary transition-all shadow-lg hover:shadow-xl focus-ring"
+        >
+          Start the Project Brief
+        </a>
+        <a
+          href="/contact/"
+          class="inline-flex justify-center items-center px-8 py-4 text-lg rounded-md border-2 border-white/20 text-white hover:bg-white/10 font-bold transition-colors focus-ring"
+        >
+          Contact Our Team
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-16 bg-white border-b border-slate-100">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-slate-900 mb-6">What Is an Enterprise Project Brief?</h2>
+      <p class="text-lg text-slate-600 leading-relaxed">
+        An enterprise project brief summarizes the learning problem, target audiences, existing materials, technology, stakeholders and delivery requirements that may affect the scope of an organizational learning initiative.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-16 bg-slate-50 border-b border-slate-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <div>
+                  <h2 class="text-2xl font-bold text-slate-900 mb-6">Who Should Use This Form</h2>
+                  <ul class="space-y-3 text-slate-700">
+                      <li class="flex items-start">
+                          <svg class="w-5 h-5 text-brand-accent mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                          <span>Learning and Development leaders</span>
+                      </li>
+                      <li class="flex items-start">
+                          <svg class="w-5 h-5 text-brand-accent mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                          <span>HR or Talent Development teams</span>
+                      </li>
+                      <li class="flex items-start">
+                          <svg class="w-5 h-5 text-brand-accent mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                          <span>Customer Education teams</span>
+                      </li>
+                      <li class="flex items-start">
+                          <svg class="w-5 h-5 text-brand-accent mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                          <span>Partner Enablement teams</span>
+                      </li>
+                      <li class="flex items-start">
+                          <svg class="w-5 h-5 text-brand-accent mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                          <span>Operations and Enablement leaders</span>
+                      </li>
+                      <li class="flex items-start">
+                          <svg class="w-5 h-5 text-brand-accent mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                          <span>Procurement representatives preparing an initial discussion</span>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="text-2xl font-bold text-slate-900 mb-6">Information That Helps the Review</h2>
+                  <p class="text-slate-600 mb-4">You do not need to provide every detail, but useful information may include:</p>
+                  <ul class="space-y-3 text-slate-700">
+                      <li class="flex items-start">
+                          <svg class="w-5 h-5 text-brand-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                          <span>Organizational objective and target audiences</span>
+                      </li>
+                      <li class="flex items-start">
+                          <svg class="w-5 h-5 text-brand-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                          <span>Locations, regions, or language requirements</span>
+                      </li>
+                      <li class="flex items-start">
+                          <svg class="w-5 h-5 text-brand-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                          <span>Existing content status and current platform</span>
+                      </li>
+                      <li class="flex items-start">
+                          <svg class="w-5 h-5 text-brand-primary mr-3 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                          <span>Security, privacy, or accessibility requirements</span>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section id="project-brief-form" class="py-20 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="bg-white border border-slate-200 rounded-2xl shadow-xl overflow-hidden p-6 md:p-10">
+
+              <h2 class="text-3xl font-bold text-slate-900 mb-6 text-center">Enterprise Project Brief Form</h2>
+
+              <div class="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-8 flex items-start">
+                  <svg class="w-6 h-6 text-amber-600 mr-4 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  <div>
+                      <h3 class="text-amber-800 font-bold mb-1">What Not to Submit</h3>
+                      <p class="text-amber-700 text-sm">Do not submit passwords, private platform credentials, payment-card information, national identity documents, sensitive employee records, health information or confidential datasets through this form. For procurement documents or confidential project material, first contact the team to agree on an appropriate sharing method.</p>
+                  </div>
+              </div>
+
+              <EnterpriseBriefForm />
+
+          </div>
+      </div>
+  </section>
+
+  <!-- FAQs -->
+  <section class="py-20 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-slate-900 mb-4">Project Brief FAQ</h2>
+        <p class="text-slate-600">Common questions about submitting an enterprise project brief.</p>
+      </div>
+
+      <div class="space-y-4">
+        {faqs.map((faq) => (
+          <details class="group bg-white border border-slate-200 rounded-lg shadow-sm hover:border-slate-300 transition-colors">
+            <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-6 text-slate-800 focus-ring rounded-lg">
+              <span class="pr-6">{faq.question}</span>
+              <span class="transition group-open:rotate-180">
+                <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+              </span>
+            </summary>
+            <div class="text-slate-600 px-6 pb-6 pt-0 leading-relaxed">
+              {faq.answer}
+            </div>
+          </details>
+        ))}
+      </div>
+
+      <div class="mt-12 text-center p-6 bg-white rounded-xl border border-slate-200">
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Alternative Contact Route</h3>
+          <p class="text-slate-600 mb-4">If you prefer not to submit a structured brief at this stage, you can use our standard contact form.</p>
+          <a href="/contact/" class="text-blue-600 font-medium hover:underline inline-flex items-center">
+              Go to Contact <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+          </a>
+      </div>
+    </div>
+  </section>
+
+</Layout>

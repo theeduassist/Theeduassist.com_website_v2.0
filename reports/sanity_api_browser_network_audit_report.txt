@@ -1,4 +1,0 @@
-Sanity API and Browser Network Audit Result:
-Verified that no browser-side api.sanity.io or apicdn.sanity.io /data/query requests are made.
-Verified that no Sanity token is exposed in the client HTML/JS.
-Confirmed that all Sanity fetches are properly encapsulated within Astro server-side scripts.

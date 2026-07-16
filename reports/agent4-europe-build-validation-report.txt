@@ -1,1 +1,0 @@
-Build Validation passed cleanly. Astro built correctly without global region errors.

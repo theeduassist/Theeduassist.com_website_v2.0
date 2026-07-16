@@ -1,5 +1,0 @@
-Widget Deferral Report
-
-- Audited the `<iframe src="https://docs.google.com/forms..." />` embeds in `src/pages/book-free-audit/index.astro` and `src/pages/contact/index.astro`. Both already explicitly include `loading="lazy"`. No code change required.
-- Audited `src/components/integrations/TawkChat.astro`. The injected tracking script already contains `s1.async=true`, ensuring it does not block the main thread. No code change required.
-- Forms and chat widgets are correctly deferred from blocking the initial page paint according to best practices.

@@ -1,2 +1,0 @@
-Build Validation Report:
-Build checks pass.

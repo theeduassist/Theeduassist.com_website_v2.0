@@ -1,8 +1,0 @@
-Build Validation Report
-
-- Verified that `npm run build` succeeds and renders static blog pagination flawlessly.
-- Validated that `dist/blog/index.html` size drastically dropped from 2.2MB to ~191KB due to 12-item pagination.
-- Verified `/dist/blog/page/2/index.html` correctly generated for subsequent pages.
-- Verified static JSON Load More endpoints correctly populated in `dist/data/blog/page-*.json`.
-- Ran Sanity query crawler check via `node scripts/check-sanity-blog-public.mjs` confirming browser-side Sanity usage is disabled.
-- `sitemap.xml` completes with 200 via `scripts/generate-sitemap.mjs`.

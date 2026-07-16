@@ -1,5 +1,0 @@
-Production Stabilization Build Report
-- Executed `npm run validate:env` - Successfully passed all security and leaking validations.
-- Executed `node scripts/generate-sitemap.mjs` - Properly ran and generated static files for robots/sitemaps.
-- Executed `npm run build` - Site generated 568 static pages successfully in ~4 minutes.
-- No build-time rendering or payload errors encountered (which fixes the /case-studies/ internal error).

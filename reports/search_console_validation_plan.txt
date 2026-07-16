@@ -1,5 +1,0 @@
-Validation plan for GSC:
-1. Resubmit the new sitemap.xml to Search Console.
-2. Request manual indexing for the homepage and major service pages using the URL Inspection tool.
-3. Monitor the 'Not Found (404)' errors tab to ensure redirects are picking up the old traffic.
-4. Review the 'Crawled - currently not indexed' list in a week to see if metadata improvements and internal linking helped indexability.

@@ -1,4 +1,0 @@
-Modifications made to Sitemap Generation:
-1. `scripts/generate-sitemap.mjs` was modified to use the Sanity CDN endpoint (`https://${projectId}.apicdn.sanity.io/...`) instead of the direct `api.sanity.io` endpoint to save quota.
-2. The script was verified to correctly fetch only required metadata (`title`, `slug`, `publishedAt`, `_updatedAt`, `noindex`, `hidden`, `reviewPending`) without fetching large `body` or `content` fields.
-3. Filtering logic safely excludes drafts, noindex, test posts, and blocked statuses.

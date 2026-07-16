@@ -1,9 +1,0 @@
-Live validation Checklist:
-
-Confirmed files exist with 200 HTTP codes (once deployed).
-Confirmed correct branding present on all favicon, manifest and app icons.
-Confirmed tags added in 'src/layouts/Layout.astro'.
-Confirmed schema updated correctly.
-Confirmed no vercel logs remain on front-end assets.
-
-All tasks completed.

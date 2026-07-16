@@ -1,7 +1,0 @@
-Task 4: LLM and AI summary files report
-
-Modifications made:
-1. `public/llms.txt`: Added instructions indicating that public information may be summarized or cited for users, and no private info is included. Verified www canonicals.
-2. `public/llms-full.txt`: Added instructions indicating that public information may be summarized or cited for users, and no private info is included. Verified www canonicals.
-3. `public/ai-summary.md`: Added details about the "24-48 Hour Review" process, serving as the main CTA step for clients.
-4. `public/citation-sources.md`: Added statement: "Please verify all factual brand claims against the official pages on https://www.theeduassist.com/".

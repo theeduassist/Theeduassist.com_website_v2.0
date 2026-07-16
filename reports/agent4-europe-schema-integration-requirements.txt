@@ -1,3 +1,0 @@
-Integration Requirements:
-- Map to existing global schema builder.
-- Ensure ISO date formats strictly used for lastReviewed fields.

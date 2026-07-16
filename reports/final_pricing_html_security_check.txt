@@ -1,5 +1,0 @@
-Final Pricing HTML Security Check
-- Found HTML literals stored as plain strings in src/data/packages.ts.
-- Rendered safely using Astro's `<Fragment set:html={pkg.desc} />` in `src/pages/pricing/index.astro`.
-- The content stems purely from hardcoded internal TS files (src/data/packages.ts) and not arbitrary Sanity CMS fields or user inputs, confirming there's no XSS risk vectors possible for dangerouslySetInnerHTML-type execution via CMS data.
-- The use of `<Fragment>` allows the <a> tags within the description strings to function correctly without compromising the application's overall security stance.

@@ -1,3 +1,0 @@
-CTA Language Standardization Report
-- Replaced instances of "Book Free Audit", "Book a 24-48 hour review", and variations with "Get 24–48 Hour Review".
-- Replaced "Get a 24-48 hour review" with "Get a 24–48 Hour Review" for consistency across components, JSON, and Astro pages.

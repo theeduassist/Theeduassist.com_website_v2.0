@@ -1,3 +1,0 @@
-Fact Validation Integrity:
-- External facts validated via Eurostat and official WKO reports.
-- No fake certifications or client testimonials invented.
