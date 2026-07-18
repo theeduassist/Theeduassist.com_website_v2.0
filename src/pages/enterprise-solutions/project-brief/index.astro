@@ -1,0 +1,139 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import EnterpriseBriefForm from '../../../components/forms/EnterpriseBriefForm.astro';
+import { FileText, Shield, ArrowRight } from 'lucide-react';
+
+const title = "Enterprise Learning Project Brief | TheEduAssist";
+const description = "Share your organizational learning goals, audiences, existing content, platform requirements and project context with TheEduAssist.";
+const canonicalPath = "/enterprise-solutions/project-brief/";
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "url": `https://theeduassist.com${canonicalPath}`,
+  "publisher": {
+    "@type": "Organization",
+    "name": "TheEduAssist",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://theeduassist.com/images/logo.png"
+    }
+  }
+};
+---
+
+<Layout title={title} description={description} canonicalPath={canonicalPath} jsonLd={[schema]}>
+  <main>
+    <!-- Hero Section -->
+    <section class="bg-brand-navy pt-24 pb-16 px-4 sm:px-6 lg:px-8 text-center text-white">
+      <div class="max-w-3xl mx-auto">
+        <p class="text-brand-green font-bold tracking-wider uppercase text-sm mb-4">Enterprise Project Brief</p>
+        <h1 class="text-4xl sm:text-5xl font-bold mb-6">Share the Information Needed to Review Your Learning Initiative</h1>
+        <p class="text-xl text-slate-300 mb-8 leading-relaxed max-w-2xl mx-auto">
+          Provide an overview of your audiences, learning goals, existing content, platform requirements and project constraints. The information will help TheEduAssist identify a practical next step for discussion.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a href="#brief-form" class="inline-flex justify-center items-center px-8 py-4 border border-transparent text-lg font-bold rounded-md text-brand-navy bg-brand-green hover:bg-green-500 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-brand-green focus:ring-offset-brand-navy">
+            Start the Project Brief
+            <ArrowRight className="ml-2 -mr-1 w-5 h-5" />
+          </a>
+          <a href="/contact/" class="inline-flex justify-center items-center px-8 py-4 border border-slate-500 text-lg font-bold rounded-md text-white hover:bg-slate-800 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-slate-500 focus:ring-offset-brand-navy">
+            Contact Our Team
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Context Section -->
+    <section class="py-16 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div>
+            <h2 class="text-2xl font-bold text-brand-navy mb-4">What Is an Enterprise Project Brief?</h2>
+            <p class="text-lg text-slate-600 mb-6">
+              An enterprise project brief summarizes the learning problem, audiences, existing materials, technology, stakeholders and delivery requirements that may affect the scope of an organizational learning initiative.
+            </p>
+            <h3 class="text-xl font-bold text-brand-navy mb-3">Who Should Use the Form</h3>
+            <ul class="list-disc list-outside pl-5 space-y-2 text-slate-600 mb-6">
+              <li>L&D Directors planning a new academy</li>
+              <li>HR Leaders organizing employee onboarding</li>
+              <li>Product Managers scaling customer education</li>
+              <li>Stakeholders responsible for compliance rollouts</li>
+            </ul>
+          </div>
+          <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm">
+            <h3 class="text-xl font-bold text-brand-navy mb-4 flex items-center">
+              <FileText className="w-6 h-6 mr-2 text-brand-accent" />
+              Information That Helps the Review
+            </h3>
+            <p class="text-slate-600 mb-4">Submitting the brief helps us understand the context of your request before scheduling a deeper conversation. Be prepared to share:</p>
+            <ul class="list-disc list-outside pl-5 space-y-2 text-slate-600">
+              <li>High-level learning objectives</li>
+              <li>Current state of raw materials or existing content</li>
+              <li>Intended technology ecosystem</li>
+              <li>Expected scope and timelines</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section id="brief-form" class="py-16 bg-white scroll-mt-20">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-10 text-center">
+          <h2 class="text-3xl font-bold text-brand-navy mb-4">Enterprise Project Brief Form</h2>
+          <p class="text-slate-600">Please provide as much detail as possible to facilitate a productive initial discussion.</p>
+        </div>
+
+        <EnterpriseBriefForm />
+
+      </div>
+    </section>
+
+    <!-- Post-submission & Security -->
+    <section class="py-16 bg-slate-50 border-t border-slate-200">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div>
+            <h2 class="text-2xl font-bold text-brand-navy mb-4">What Happens After Submission</h2>
+            <p class="text-slate-600 mb-4">
+              Upon receiving your brief, our team will conduct an initial review of the information provided to assess alignment with our capabilities and capacity.
+            </p>
+            <p class="text-slate-600 mb-4">
+              If the project aligns, we will contact you to schedule an initial discovery call. Note that submission does not guarantee immediate project acceptance or a complete proposal.
+            </p>
+          </div>
+          <div>
+            <h2 class="text-2xl font-bold text-brand-navy mb-4 flex items-center">
+              <Shield className="w-6 h-6 mr-2 text-brand-accent" />
+              What Not to Submit
+            </h2>
+            <p class="text-slate-600 mb-4">
+              To protect your organization's sensitive information, please <strong>do not include</strong>:
+            </p>
+            <ul class="list-disc list-outside pl-5 space-y-2 text-slate-600 mb-4 text-sm">
+              <li>Passwords or platform credentials</li>
+              <li>Payment-card information</li>
+              <li>National identity documents</li>
+              <li>Private employee records</li>
+              <li>Health data or confidential datasets</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-12 pt-8 border-t border-slate-200">
+          <h3 class="text-xl font-bold text-brand-navy mb-4 text-center">Related Links</h3>
+          <div class="flex flex-wrap justify-center gap-4 text-sm font-medium">
+            <a href="/trust-centre/security-privacy/" class="text-blue-600 hover:underline">Security and Privacy Approach</a>
+            <a href="/trust-centre/procurement/" class="text-blue-600 hover:underline">Procurement and Project Readiness</a>
+            <a href="/privacy-policy/" class="text-blue-600 hover:underline">Privacy Policy</a>
+            <a href="/enterprise-solutions/" class="text-blue-600 hover:underline">Enterprise Solutions Hub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

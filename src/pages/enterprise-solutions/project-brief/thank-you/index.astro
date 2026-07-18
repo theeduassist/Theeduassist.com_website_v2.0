@@ -1,0 +1,30 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import { ShieldCheck } from 'lucide-react';
+
+const title = "Submission Received | TheEduAssist";
+const description = "Thank you for submitting your enterprise project brief.";
+---
+
+<Layout title={title} description={description} robots="noindex, nofollow" canonicalPath="/enterprise-solutions/project-brief/thank-you/">
+  <main class="py-20 bg-slate-50 min-h-[70vh] flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
+    <div class="max-w-xl w-full bg-white rounded-lg shadow-sm border border-slate-200 p-8 text-center">
+      <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-100 mb-6">
+        <ShieldCheck className="w-8 h-8 text-green-600" />
+      </div>
+      <h1 class="text-3xl font-bold text-brand-navy mb-4">Submission Received</h1>
+      <p class="text-lg text-slate-600 mb-8">
+        Thank you for sharing your learning initiative details. The team has received your project brief and will review the information provided to identify a practical next step for discussion.
+      </p>
+
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="/enterprise-solutions/" class="inline-flex justify-center items-center px-6 py-3 border border-slate-300 text-base font-medium rounded-md text-brand-navy bg-white hover:bg-slate-50 transition-colors">
+          Return to Enterprise Solutions
+        </a>
+        <a href="/services/" class="inline-flex justify-center items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-brand-navy bg-brand-green hover:bg-green-500 transition-colors">
+          Explore Services
+        </a>
+      </div>
+    </div>
+  </main>
+</Layout>

@@ -1,0 +1,23 @@
+# Baseline Report: Phase 4 Part 4 Rebuild
+
+- **Branch**: website-2.5-phase-4-part-4-rebuild
+- **Starting commit**: $(git rev-parse HEAD)
+- **Node version**: $(node -v)
+- **npm version**: $(npm -v)
+- **Astro version**: $(npx astro --version)
+- **Vercel adapter version**: (found in package.json)
+- **Command results**:
+  - `git status --short`: clean
+  - `git diff --check`: clean
+  - `npm ci --legacy-peer-deps`: success
+  - `npm run validate:env`: success
+  - `npm run validate:redirects`: success
+  - `npm run check:sanity:blog`: success
+  - `npx astro check`: success
+  - `npm run build`: success (588 pages built)
+- **Warnings**: Standard npm deprecation warnings
+- **Generated static-page count**: 588
+- **Generated function count**: 0
+- **Build duration**: ~4m 20s
+- **Existing hydrated-island count**: 0
+- **Current known issues**: None currently blocking build
