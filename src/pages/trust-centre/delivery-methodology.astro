@@ -1,0 +1,448 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { trustPages } from '../../data/trustArchitecture';
+
+const pageData = trustPages.find(p => p.id === 'delivery-methodology');
+if (!pageData) {
+  throw new Error('Delivery Methodology page data not found');
+}
+
+const title = pageData.title;
+const description = pageData.shortDescription;
+const canonicalPath = pageData.canonical;
+
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does every project use the same process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. While we follow standard principles, the specific phases and depth of review are adapted to the project's complexity, scope, and agreed Statement of Work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is scope confirmed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Scope is initially defined during discovery, formalized in a contract or Statement of Work, and refined during the Definition phase before major development begins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who approves learning content?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The client remains responsible for final subject-matter accuracy, business alignment, and legal or regulatory approval."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are changes handled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Changes requested outside the agreed scope are evaluated for their impact on timeline, cost, and dependencies before being formally approved and implemented."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is quality assurance included?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, QA is integrated into our delivery methodology. The specific types of testing (e.g., functionality, accessibility observations, responsive design) are defined in the project scope."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can projects use milestone reviews?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we frequently establish milestone reviews (e.g., prototype review, Alpha/Beta releases) to gather feedback and ensure alignment before final delivery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is final acceptance handled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Final acceptance involves resolving agreed findings from the QA and stakeholder review phases against the defined acceptance criteria, followed by formal client sign-off."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens after launch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Post-launch activities, such as handover documentation, training, or ongoing maintenance, are executed as agreed in the project scope. Extended support requires a separate agreement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are unlimited revisions included?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, unlimited revisions are not assumed. Projects include defined review cycles. Additional revisions beyond the agreed scope are managed through the change control process."
+      }
+    }
+  ]
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": title,
+  "description": description,
+  "url": `https://theeduassist.com${canonicalPath}`,
+  "publisher": {
+    "@type": "Organization",
+    "name": "TheEduAssist",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://theeduassist.com/brand/theeduassist-logo-official.png"
+    }
+  }
+};
+---
+
+<Layout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={[jsonLd, faqSchema]}
+>
+  <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="bg-[#27496D] text-white py-20 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <span class="text-sm font-semibold tracking-wider uppercase mb-4 block text-gray-300">
+          Trust Centre
+        </span>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">
+          A Structured Method for Planning, Building and Reviewing Learning Projects
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          {description}
+        </p>
+        <a
+          href={pageData.primaryCta.href}
+          class="inline-block bg-[#77BA55] text-white font-bold py-3 px-8 rounded-full hover:bg-opacity-90 transition-colors"
+        >
+          {pageData.primaryCta.label}
+        </a>
+      </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="bg-gray-100 py-3 px-4 border-b border-gray-200">
+      <div class="max-w-6xl mx-auto text-sm text-gray-600">
+        <a href="/" class="hover:text-[#27496D] hover:underline">Home</a>
+        <span class="mx-2">/</span>
+        <a href="/trust-centre/" class="hover:text-[#27496D] hover:underline">Trust Centre</a>
+        <span class="mx-2">/</span>
+        <span class="text-gray-900 font-medium">Delivery Methodology</span>
+      </div>
+    </div>
+
+    <!-- Content Sections -->
+    <section class="py-16 px-4">
+      <div class="max-w-4xl mx-auto space-y-16">
+
+        <!-- Delivery Phases -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Delivery Phases</h2>
+          <p class="text-gray-700 mb-8 text-lg">
+            Our typical delivery methodology encompasses the following phases. Specific project phases are confirmed during the definition stage and documented in an agreed Statement of Work.
+          </p>
+
+          <div class="space-y-6">
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+              <div class="bg-[#27496D] text-white font-bold text-2xl w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">1</div>
+              <div>
+                <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase">DISCOVERY</h3>
+                <p class="text-gray-700">Understand goals, audiences, content, technology and constraints.</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+              <div class="bg-[#27496D] text-white font-bold text-2xl w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">2</div>
+              <div>
+                <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase">DEFINITION</h3>
+                <p class="text-gray-700">Confirm scope, deliverables, responsibilities, dependencies and acceptance expectations.</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+              <div class="bg-[#27496D] text-white font-bold text-2xl w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">3</div>
+              <div>
+                <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase">DESIGN</h3>
+                <p class="text-gray-700">Develop curriculum, learning structure, learner journeys, activities and technical plans.</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+              <div class="bg-[#27496D] text-white font-bold text-2xl w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">4</div>
+              <div>
+                <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase">DEVELOPMENT</h3>
+                <p class="text-gray-700">Build approved learning content, assets, platform configuration or supporting materials.</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+              <div class="bg-[#27496D] text-white font-bold text-2xl w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">5</div>
+              <div>
+                <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase">REVIEW</h3>
+                <p class="text-gray-700">Conduct internal, subject-matter and stakeholder reviews.</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+              <div class="bg-[#27496D] text-white font-bold text-2xl w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">6</div>
+              <div>
+                <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase">QUALITY ASSURANCE</h3>
+                <p class="text-gray-700">Review content, learning alignment, functionality, responsive behavior, accessibility considerations and platform delivery.</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+              <div class="bg-[#27496D] text-white font-bold text-2xl w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">7</div>
+              <div>
+                <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase">ACCEPTANCE AND LAUNCH</h3>
+                <p class="text-gray-700">Resolve agreed findings, confirm handover requirements and prepare release.</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg border border-gray-200 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+              <div class="bg-[#27496D] text-white font-bold text-2xl w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">8</div>
+              <div>
+                <h3 class="text-xl font-bold text-[#27496D] mb-2 uppercase">SUPPORT AND IMPROVEMENT</h3>
+                <p class="text-gray-700">Maintain content or platforms under an agreed follow-on scope.</p>
+              </div>
+            </div>
+          </div>
+          <p class="text-sm text-gray-500 mt-4 italic">Note: We do not present this as a fixed timeline; actual timelines vary by project scale and complexity.</p>
+        </div>
+
+        <!-- Responsibility Model -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Responsibility Model</h2>
+          <p class="text-gray-700 mb-6">
+            Clear responsibilities ensure smooth project progression. Final responsibilities depend on the contract and scope, but typically follow this framework.
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h3 class="text-lg font-bold text-[#27496D] mb-4">CLIENT MAY OWN</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700 text-sm">
+                <li>business goals</li>
+                <li>final content accuracy</li>
+                <li>subject-matter approval</li>
+                <li>legal and regulatory decisions</li>
+                <li>platform contracts</li>
+                <li>user and data policy</li>
+                <li>timely access</li>
+                <li>stakeholder decisions</li>
+                <li>final acceptance</li>
+              </ul>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h3 class="text-lg font-bold text-[#27496D] mb-4">THEEDUASSIST MAY SUPPORT</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700 text-sm">
+                <li>learning strategy</li>
+                <li>instructional design</li>
+                <li>development</li>
+                <li>platform configuration</li>
+                <li>content organization</li>
+                <li>quality assurance</li>
+                <li>documentation</li>
+                <li>handover</li>
+              </ul>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <h3 class="text-lg font-bold text-[#27496D] mb-4">SHARED RESPONSIBILITIES</h3>
+              <ul class="list-disc pl-5 space-y-2 text-gray-700 text-sm">
+                <li>planning</li>
+                <li>scope clarification</li>
+                <li>reviews</li>
+                <li>risk identification</li>
+                <li>prioritization</li>
+                <li>acceptance criteria</li>
+                <li>launch decisions</li>
+                <li>maintenance planning</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Change Control -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Change Control</h2>
+          <p class="text-gray-700 mb-6">
+            To manage risk and maintain delivery quality, requests outside the agreed scope are evaluated systematically:
+          </p>
+          <ul class="list-disc pl-6 space-y-3 text-gray-700 mb-6">
+            <li>requested change</li>
+            <li>scope evaluation</li>
+            <li>effort and dependency review</li>
+            <li>impact on schedule or cost</li>
+            <li>approval</li>
+            <li>implementation</li>
+            <li>testing</li>
+            <li>documentation</li>
+          </ul>
+          <div class="bg-blue-50 p-4 rounded-lg text-sm text-[#27496D]">
+            <strong>Important:</strong> Not every change is included automatically. Changes may affect other content or systems. Approved scope controls delivery, and urgent requests may require separate agreement. Unlimited revisions are not assumed.
+          </div>
+        </div>
+
+        <!-- Quality and Acceptance -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Quality and Acceptance</h2>
+          <p class="text-gray-700 mb-6">
+            Acceptance reviews ensure deliverables meet agreed objectives. We do not claim a universal fixed acceptance checklist; instead, criteria are defined per project.
+          </p>
+
+          <h3 class="text-xl font-bold text-[#27496D] mb-4">Possible Review Categories</h3>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 list-disc pl-6 text-gray-700 mb-8">
+            <li>content accuracy</li>
+            <li>instructional alignment</li>
+            <li>functionality</li>
+            <li>responsive behavior</li>
+            <li>assessment logic</li>
+            <li>accessibility observations</li>
+            <li>platform behavior</li>
+            <li>links and downloads</li>
+            <li>media</li>
+            <li>stakeholder requirements</li>
+          </ul>
+
+          <h3 class="text-xl font-bold text-[#27496D] mb-4">Issue Classifications</h3>
+          <div class="space-y-4">
+            <div class="border-l-4 border-red-500 pl-4">
+              <strong class="text-red-700">Blocking:</strong> Prevents learning completion or critical functionality. Requires immediate resolution before launch.
+            </div>
+            <div class="border-l-4 border-orange-500 pl-4">
+              <strong class="text-orange-700">Important:</strong> Affects usability or accuracy significantly, but a workaround may exist. Should be resolved.
+            </div>
+            <div class="border-l-4 border-yellow-500 pl-4">
+              <strong class="text-yellow-700">Minor:</strong> Typographical errors, minor visual inconsistencies, or non-critical functionality. Addressed within scheduled review cycles.
+            </div>
+            <div class="border-l-4 border-blue-500 pl-4">
+              <strong class="text-blue-700">Observation:</strong> Suggestions for improvement or future consideration that do not prevent acceptance of the current deliverable.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[#27496D] border-b pb-4">Frequently Asked Questions</h2>
+          <div class="space-y-4">
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Does every project use the same process?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No. While we follow standard principles, the specific phases and depth of review are adapted to the project's complexity, scope, and agreed Statement of Work.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>How is scope confirmed?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Scope is initially defined during discovery, formalized in a contract or Statement of Work, and refined during the Definition phase before major development begins.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Who approves learning content?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                The client remains responsible for final subject-matter accuracy, business alignment, and legal or regulatory approval.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>How are changes handled?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Changes requested outside the agreed scope are evaluated for their impact on timeline, cost, and dependencies before being formally approved and implemented.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Is quality assurance included?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes, QA is integrated into our delivery methodology. The specific types of testing (e.g., functionality, accessibility observations, responsive design) are defined in the project scope.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Can projects use milestone reviews?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Yes, we frequently establish milestone reviews (e.g., prototype review, Alpha/Beta releases) to gather feedback and ensure alignment before final delivery.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>How is final acceptance handled?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Final acceptance involves resolving agreed findings from the QA and stakeholder review phases against the defined acceptance criteria, followed by formal client sign-off.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>What happens after launch?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                Post-launch activities, such as handover documentation, training, or ongoing maintenance, are executed as agreed in the project scope. Extended support requires a separate agreement.
+              </div>
+            </details>
+            <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden">
+              <summary class="flex justify-between items-center font-medium cursor-pointer list-none p-6 text-[#27496D]">
+                <span>Are unlimited revisions included?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
+                </span>
+              </summary>
+              <div class="text-gray-600 px-6 pb-6">
+                No, unlimited revisions are not assumed. Projects include defined review cycles. Additional revisions beyond the agreed scope are managed through the change control process.
+              </div>
+            </details>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+</Layout>
