@@ -2,7 +2,7 @@
 import { Shield, Cpu, Accessibility, Lock } from "lucide-react";
 ---
 <section class="py-16 bg-slate-50">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 max-w-full overflow-hidden">
     <div class="max-w-3xl mb-12">
       <h2 class="text-3xl font-bold text-brand-navy">Enterprise Delivery Requires Clear Governance and Responsible Controls</h2>
       <p class="mt-4 text-lg text-slate-600">Specific controls, access requirements and review responsibilities are confirmed for each engagement. <a href="/trust-centre/" class="text-brand-accent font-semibold hover:underline">Explore the Trust Centre</a> for details on our delivery approach.</p>
@@ -10,10 +10,10 @@ import { Shield, Cpu, Accessibility, Lock } from "lucide-react";
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <!-- Governance -->
-      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm flex flex-col">
+      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm flex flex-col max-w-full overflow-hidden">
         <div class="flex items-center mb-4">
-           <Shield className="w-6 h-6 text-brand-navy mr-3" />
-           <h3 class="text-xl font-bold text-brand-navy">Governance and Scope</h3>
+           <Shield className="w-6 h-6 text-brand-navy mr-3 flex-shrink-0" />
+           <h3 class="text-xl font-bold text-brand-navy truncate">Governance and Scope</h3>
         </div>
         <ul class="list-disc list-outside pl-5 space-y-1 text-slate-600 flex-grow mb-4">
            <li>Agreed project scope and defined stakeholder responsibilities</li>
@@ -26,10 +26,10 @@ import { Shield, Cpu, Accessibility, Lock } from "lucide-react";
       </div>
 
       <!-- Responsible AI -->
-      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm flex flex-col">
+      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm flex flex-col max-w-full overflow-hidden">
         <div class="flex items-center mb-4">
-           <Cpu className="w-6 h-6 text-brand-navy mr-3" />
-           <h3 class="text-xl font-bold text-brand-navy">Responsible AI</h3>
+           <Cpu className="w-6 h-6 text-brand-navy mr-3 flex-shrink-0" />
+           <h3 class="text-xl font-bold text-brand-navy truncate">Responsible AI</h3>
         </div>
         <ul class="list-disc list-outside pl-5 space-y-1 text-slate-600 flex-grow mb-4">
            <li>Approved use cases should be defined</li>
@@ -42,10 +42,10 @@ import { Shield, Cpu, Accessibility, Lock } from "lucide-react";
       </div>
 
       <!-- Accessibility -->
-      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm flex flex-col">
+      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm flex flex-col max-w-full overflow-hidden">
         <div class="flex items-center mb-4">
-           <Accessibility className="w-6 h-6 text-brand-navy mr-3" />
-           <h3 class="text-xl font-bold text-brand-navy">Accessibility Capability</h3>
+           <Accessibility className="w-6 h-6 text-brand-navy mr-3 flex-shrink-0" />
+           <h3 class="text-xl font-bold text-brand-navy truncate">Accessibility Capability</h3>
         </div>
         <ul class="list-disc list-outside pl-5 space-y-1 text-slate-600 flex-grow mb-4">
            <li>Semantic structure and keyboard access</li>
@@ -58,10 +58,10 @@ import { Shield, Cpu, Accessibility, Lock } from "lucide-react";
       </div>
 
       <!-- Security and Privacy -->
-      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm flex flex-col">
+      <div class="bg-white p-6 rounded-lg border border-slate-200 shadow-sm flex flex-col max-w-full overflow-hidden">
         <div class="flex items-center mb-4">
-           <Lock className="w-6 h-6 text-brand-navy mr-3" />
-           <h3 class="text-xl font-bold text-brand-navy">Security and Privacy</h3>
+           <Lock className="w-6 h-6 text-brand-navy mr-3 flex-shrink-0" />
+           <h3 class="text-xl font-bold text-brand-navy truncate">Security and Privacy</h3>
         </div>
         <ul class="list-disc list-outside pl-5 space-y-1 text-slate-600 flex-grow mb-4">
            <li>Minimum necessary access and account-based permissions</li>

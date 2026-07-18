@@ -20,7 +20,10 @@
     "validate:env": "node scripts/validate-env-safety.mjs",
     "validate:trust": "node scripts/validate-trust-architecture.mjs",
     "validate:redirects": "node scripts/validate-redirects.mjs",
-    "check:sanity:blog": "node scripts/check-sanity-blog-public.mjs"
+    "check:sanity:blog": "node scripts/check-sanity-blog-public.mjs",
+    "validate:conversion": "node scripts/validate-conversion-architecture.mjs",
+    "validate:analytics": "node scripts/validate-analytics-events.mjs",
+    "validate:enterprise": "node scripts/validate-enterprise-architecture.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",

@@ -21,16 +21,31 @@ jobs:
           cache: 'npm'
 
       - name: Install Dependencies
-        run: npm install --legacy-peer-deps
-
-      - name: Build Project
-        run: npm run build
+        run: npm ci --legacy-peer-deps
 
       - name: Validate Environment Safety
         run: npm run validate:env
+
+      - name: Validate Enterprise Architecture
+        run: npm run validate:enterprise
+
+      - name: Validate Trust Architecture
+        run: npm run validate:trust
+
+      - name: Validate Conversion Architecture
+        run: npm run validate:conversion
+
+      - name: Validate Analytics Events
+        run: npm run validate:analytics
+
+      - name: Astro Check
+        run: npx astro check
 
       - name: Validate Redirects
         run: npm run validate:redirects
 
       - name: Check Sanity Blog Public
         run: npm run check:sanity:blog
+
+      - name: Build Project
+        run: npm run build

@@ -1,0 +1,24 @@
+---
+export interface Props {
+  errors?: string[];
+  id?: string;
+}
+
+const { errors = [], id = "form-error-summary" } = Astro.props;
+
+// Read query params natively in Astro to support no-js flows
+const errorParam = Astro.url.searchParams.get('form') === 'error';
+const codeParam = Astro.url.searchParams.get('code');
+const initialHidden = !(errorParam && codeParam);
+---
+<div id={id} class={`${initialHidden ? 'hidden ' : ''}bg-red-50 border-l-4 border-red-500 p-4 mb-6`} role="alert" aria-live="assertive">
+  <h3 class="text-red-800 font-medium">There was a problem with your submission:</h3>
+  <ul class="list-disc list-inside text-red-700 text-sm mt-2 space-y-1" id={`${id}-list`}>
+    {errors.map((error) => (
+      <li>{error}</li>
+    ))}
+    {errorParam && codeParam && (
+       <li>Submission failed (Code: {codeParam}). Please try again or contact us directly.</li>
+    )}
+  </ul>
+</div>
