@@ -172,10 +172,7 @@ const timings = [
             procurement_required: 'unknown'
           });
 
-          // Set a success flag in sessionStorage for the thank you page
-          sessionStorage.setItem('formSuccess', 'true');
-
-          window.location.href = '/enterprise-solutions/project-brief/thank-you/';
+          window.location.href = '/enterprise-solutions/project-brief/?success=true';
         } else {
           const result = await response.json().catch(() => ({ error: 'An unexpected error occurred. Please try again.' }));
 
@@ -223,10 +220,21 @@ const timings = [
     });
   }
 
-  // Check for error code in URL params (non-JS flow)
+  // Check for error code or success in URL params (non-JS flow)
   if (typeof window !== 'undefined') {
     const params = new URLSearchParams(window.location.search);
-    if (params.get('form') === 'error' && params.get('code')) {
+    if (params.get('success') === 'true') {
+        const successMsg = document.createElement('div');
+        successMsg.className = 'bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4';
+        successMsg.role = 'alert';
+        successMsg.innerHTML = '<strong class="font-bold">Success!</strong><span class="block sm:inline"> Your project brief has been submitted successfully.</span>';
+        form.parentNode?.insertBefore(successMsg, form);
+        form.reset();
+
+        // Remove the query param without refreshing the page
+        const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+        window.history.replaceState({path:newUrl}, '', newUrl);
+    } else if (params.get('form') === 'error' && params.get('code')) {
       if (errorSummary && errorList) {
         const li = document.createElement('li');
         li.textContent = `Submission failed (Code: ${params.get('code')}). Please try again or contact us directly.`;

@@ -86,7 +86,7 @@ export const conversionJourneys: ConversionJourney[] = [
     sitemapVisibility: true,
     formId: "enterprise-brief-form",
     endpoint: "/api/forms/enterprise-brief",
-    successRoute: "/enterprise-solutions/project-brief/thank-you/",
+    successRoute: "/enterprise-solutions/project-brief/?success=true",
     analyticsCategory: "enterprise_brief",
     primaryCtaLabel: "Submit an Enterprise Project Brief",
     shortDescription: "Submit details for enterprise eLearning projects."

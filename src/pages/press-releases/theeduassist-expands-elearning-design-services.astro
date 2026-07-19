@@ -1,0 +1,108 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+const title = "TheEduAssist Expands Its E-Learning Design and Development Services";
+const description = "TheEduAssist has expanded its public learning-services architecture to help organizations, training providers and expert-led academies plan, develop, modernize and support structured digital learning experiences.";
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": title,
+    "description": description,
+    "datePublished": "2024-03-01T00:00:00Z",
+    "dateModified": "2024-03-01T00:00:00Z",
+    "author": {
+      "@type": "Organization",
+      "name": "TheEduAssist"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "TheEduAssist",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.theeduassist.com/logo.png"
+      }
+    }
+  }
+];
+---
+
+<Layout title={title} description={description} canonicalPath="/press-releases/theeduassist-expands-elearning-design-services/" jsonLd={jsonLd}>
+  <main class="container mx-auto px-4 py-12 max-w-4xl">
+    <nav class="mb-8 text-sm">
+      <ol class="flex items-center space-x-2 text-slate-500">
+        <li><a href="/" class="hover:text-primary">Home</a></li>
+        <li><span class="mx-2">/</span></li>
+        <li><a href="/press-releases/" class="hover:text-primary">Press Releases</a></li>
+        <li><span class="mx-2">/</span></li>
+        <li class="text-slate-800 font-medium truncate">TheEduAssist Expands...</li>
+      </ol>
+    </nav>
+    <article class="prose prose-slate max-w-none">
+      <div class="mb-4">
+        <span class="inline-block bg-blue-100 text-primary px-3 py-1 rounded-full text-sm font-semibold uppercase tracking-wider">Press Release</span>
+      </div>
+      <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">{title}</h1>
+      <p class="text-xl text-slate-600 mb-8 leading-relaxed font-light">{description}</p>
+      <div class="flex items-center text-sm text-slate-500 mb-12 border-b pb-8">
+        <span class="mr-4"><strong>Published:</strong> March 1, 2024</span>
+        <span><strong>Organization:</strong> TheEduAssist</span>
+      </div>
+
+      <h2>Main Announcement</h2>
+      <p>TheEduAssist is proud to announce the expansion of its core e-learning design and development services. This expansion aims to provide comprehensive support for organizations, training providers, and expert-led academies seeking to elevate their digital learning offerings.</p>
+
+      <h2>Why the Updated Service Structure Matters</h2>
+      <p>As the demand for high-quality, engaging online learning continues to grow, organizations require specialized expertise to navigate the complexities of curriculum design, platform implementation, and content localization. Our updated service architecture provides a clear, structured pathway for clients to access the specific support they need, from initial strategy to ongoing maintenance.</p>
+
+      <h2>Services Included</h2>
+      <ul>
+        <li><a href="/services/learning-strategy/">Learning Strategy</a></li>
+        <li><a href="/services/instructional-design/">Instructional Design</a></li>
+        <li><a href="/services/course-development/">Course and Curriculum Development</a></li>
+        <li><a href="/services/custom-elearning-development/">Custom eLearning Development</a></li>
+        <li><a href="/services/assessment-design/">Assessment Design</a></li>
+        <li><a href="/services/lms-implementation-migration/">LMS Implementation and Migration</a></li>
+        <li><a href="/services/content-conversion/">Content Conversion</a></li>
+        <li><a href="/services/ai-powered-elearning/">AI-Supported E-Learning</a></li>
+        <li><a href="/services/quality-assurance/">Quality Assurance and Accessibility</a></li>
+        <li><a href="/services/course-localization-translation/">Localization</a></li>
+        <li><a href="/services/managed-learning/">Managed Learning Services</a></li>
+      </ul>
+
+      <h2>Audiences Supported</h2>
+      <p>Our expanded services cater to a diverse range of clients, including corporate L&D teams, independent course creators, coaching businesses, and educational institutions.</p>
+
+      <h2>Delivery Approach</h2>
+      <p>We emphasize a collaborative, iterative approach to e-learning development, ensuring that our solutions align closely with our clients' business goals and learner needs. Our methodology is detailed in our <a href="/trust-centre/delivery-methodology/">Delivery Methodology</a>.</p>
+
+      <h2>Enterprise Pathways</h2>
+      <p>For large-scale organizations, we offer specialized <a href="/enterprise-solutions/">Enterprise Solutions</a>, including Employee Onboarding, Workforce Upskilling, and Customer Education.</p>
+
+      <h2>Kajabi Pathway</h2>
+      <p>We continue to offer dedicated <a href="/kajabi-services/">Kajabi Services</a> to support creators and businesses utilizing the Kajabi platform for their knowledge products.</p>
+
+      <h2>Quality and Accessibility Considerations</h2>
+      <p>Quality and accessibility remain central to our development process. We strive to create inclusive learning experiences that meet industry standards. Learn more about our approach to <a href="/trust-centre/accessibility/">Accessibility</a>.</p>
+
+      <h2>Responsible AI Considerations</h2>
+      <p>As we integrate AI-powered tools into our workflows, we maintain a strong commitment to <a href="/trust-centre/responsible-ai/">Responsible AI</a> practices, prioritizing transparency, fairness, and data privacy.</p>
+
+      <h2>Relevant Case Studies</h2>
+      <p>Explore our <a href="/case-studies/">Case Studies</a> to see examples of our work and the impact we've had on our clients' learning initiatives.</p>
+
+      <h2>About TheEduAssist</h2>
+      <p>TheEduAssist is a premier e-learning design and development agency dedicated to helping clients create impactful and engaging digital learning experiences.</p>
+
+      <h2>Contact Information</h2>
+      <p>For more information about our expanded services or to discuss your e-learning project, please <a href="/contact/">contact us</a>.</p>
+
+      <div class="mt-12 p-8 bg-blue-50 rounded-2xl text-center">
+        <h3 class="text-2xl font-bold text-slate-900 mb-4">Ready to elevate your e-learning?</h3>
+        <p class="text-slate-600 mb-6">Let's discuss how our expanded services can support your organization's learning goals.</p>
+        <a href="/enterprise-solutions/project-brief/" class="inline-block bg-primary text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors">Start a Project Brief</a>
+      </div>
+    </article>
+  </main>
+</Layout>
