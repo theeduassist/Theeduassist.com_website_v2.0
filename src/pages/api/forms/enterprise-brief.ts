@@ -116,7 +116,7 @@ export const POST: APIRoute = async ({ request, redirect }) => {
       });
     }
 
-    return redirect('/enterprise-solutions/project-brief/thank-you/', 303);
+    return redirect('/enterprise-solutions/project-brief/?success=true', 303);
 
   } catch (err) {
     console.error('Form processing error:', err);

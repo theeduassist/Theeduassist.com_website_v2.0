@@ -1,41 +1,10 @@
 User-agent: *
 Allow: /
+
+Disallow: /api/
 Disallow: /admin/
 Disallow: /studio/
 Disallow: /preview/
-Disallow: /drafts/
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Claude-User
-Allow: /
-
-User-agent: Claude-SearchBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: CCBot
-Allow: /
+Disallow: /_internal/
 
 Sitemap: https://www.theeduassist.com/sitemap.xml

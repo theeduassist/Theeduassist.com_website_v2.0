@@ -24,7 +24,9 @@ export async function getStaticPaths() {
 
   // Cities
   cities.forEach((city) => {
-    paths.push({ params: { slug: city.slug }, props: { type: 'city', data: city } });
+    if (city.indexStatus === 'index') {
+      paths.push({ params: { slug: city.slug }, props: { type: 'city', data: city } });
+    }
   });
 
   return paths;
@@ -101,7 +103,7 @@ if (type === 'region') {
   });
 }
 ---
-<Layout title={title} description={description} noindex={type === 'city' && itemData.indexStatus === 'noindex'} jsonLd={schemas}>
+<Layout title={title} description={description} noindex={false} jsonLd={schemas}>
   {type === 'region' && (
       <RegionTemplate regionData={itemData} countries={countries.filter(c => c.region === itemData.slug)} />
   )}
