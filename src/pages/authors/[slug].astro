@@ -1,0 +1,95 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { authors } from "../../data/authors";
+import { fetchFromSanity } from "../../sanity/client";
+import { blogPostSummariesQuery } from "../../lib/blog/queries";
+import { normalizeBlogPost } from "../../lib/blog/normalizeBlogPost";
+import BlogCard from "../../components/blog/BlogCard.astro";
+import BlogCTA from "../../components/blog/BlogCTA.astro";
+
+export async function getStaticPaths() {
+  return authors
+    .filter((author) => author.publicVisibility)
+    .map((author) => {
+      return {
+        params: { slug: author.slug },
+        props: { author },
+      };
+    });
+}
+
+const { author } = Astro.props;
+
+// Fetch all posts and filter locally
+const allPostsRaw = await fetchFromSanity(blogPostSummariesQuery, {}, { useCdn: false, tags: ["website.blog.summaries"] });
+const allPosts = Array.isArray(allPostsRaw) ? allPostsRaw.map(normalizeBlogPost) : [];
+
+const authorPosts = allPosts.filter(p => p.author?.id === author.id);
+const hasContent = authorPosts.length > 0;
+
+const seoTitle = `${author.name} | TheEduAssist Authors`;
+const seoDescription = author.shortBio;
+---
+
+<Layout
+  title={seoTitle}
+  description={seoDescription}
+  canonicalPath={`/authors/${author.slug}/`}
+  robots={hasContent ? "index, follow" : "noindex, follow"}
+>
+  <main class="w-full flex-grow flex flex-col bg-slate-50 overflow-hidden">
+    <!-- Profile Hero -->
+    <section class="w-full py-16 md:py-24 px-6 md:px-12 max-w-3xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-8">
+      {author.profileImage && (
+        <img
+          src={author.profileImage}
+          alt={author.profileImageAlt}
+          class="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover shadow-lg"
+          width="192"
+          height="192"
+          loading="eager"
+        />
+      )}
+      <div class="flex-1 text-center md:text-left">
+        <h1 class="text-3xl md:text-4xl font-bold text-brand-blue mb-2">
+          {author.name}
+        </h1>
+        <p class="text-lg font-medium text-brand-green mb-4">{author.role}</p>
+        <p class="text-slate-700 leading-relaxed mb-6">
+          {author.fullBio}
+        </p>
+
+        {author.areasOfExpertise.length > 0 && (
+          <div class="mb-4">
+            <h2 class="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-2">Expertise</h2>
+            <div class="flex flex-wrap gap-2 justify-center md:justify-start">
+              {author.areasOfExpertise.map(area => (
+                <span class="bg-white px-3 py-1 rounded-full text-sm text-slate-700 border border-slate-200">
+                  {area}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </section>
+
+    <!-- Articles Section -->
+    {hasContent && (
+      <section class="w-full py-12 px-6 md:px-12 max-w-7xl mx-auto bg-white border-t border-slate-200">
+        <h2 class="text-2xl md:text-3xl font-bold text-brand-blue mb-8 text-center md:text-left">
+          Articles by {author.name}
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {authorPosts.map((post) => (
+            <BlogCard post={post} />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <div class="mt-8 mb-20 px-6 md:px-12 max-w-7xl mx-auto w-full">
+      <BlogCTA />
+    </div>
+  </main>
+</Layout>

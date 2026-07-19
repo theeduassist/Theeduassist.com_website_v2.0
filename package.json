@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "node scripts/generate-sitemap.mjs",
+    "prebuild": "node scripts/generate-sitemap.mjs && node scripts/generate-sitemap-extension.cjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
@@ -27,12 +27,16 @@
     "validate:metadata": "node scripts/validate-metadata.mjs",
     "validate:structured-data": "node scripts/validate-structured-data.mjs",
     "validate:sitemap": "node scripts/validate-sitemap.mjs",
+    "validate:blog-architecture": "node scripts/validate-blog-architecture.mjs",
+    "validate:blog-content": "node scripts/validate-blog-content.mjs",
+    "validate:authors": "node scripts/validate-authors.mjs",
     "validate:internal-links": "node scripts/validate-internal-links.mjs",
     "validate:enterprise": "node scripts/validate-enterprise-architecture.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
     "@astrojs/react": "^5.0.7",
+    "@astrojs/rss": "^4.0.19",
     "@astrojs/vercel": "^10.0.8",
     "@portabletext/react": "^6.2.0",
     "@portabletext/types": "^4.0.2",
