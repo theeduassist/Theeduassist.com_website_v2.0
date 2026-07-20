@@ -31,7 +31,9 @@
     "validate:blog-content": "node scripts/validate-blog-content.mjs",
     "validate:authors": "node scripts/validate-authors.mjs",
     "validate:internal-links": "node scripts/validate-internal-links.mjs",
-    "validate:enterprise": "node scripts/validate-enterprise-architecture.mjs"
+    "validate:enterprise": "node scripts/validate-enterprise-architecture.mjs",
+    "validate:content-clusters": "node scripts/validate-content-clusters.mjs",
+    "validate:article-evidence": "node scripts/validate-article-evidence.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
