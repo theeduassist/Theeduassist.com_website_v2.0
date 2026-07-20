@@ -35,7 +35,11 @@
     "validate:content-clusters": "node scripts/validate-content-clusters.mjs",
     "validate:article-evidence": "node scripts/validate-article-evidence.mjs",
     "validate:phase5-part3": "node scripts/validate-phase5-part3-clusters.mjs",
-    "validate:platform-claims": "node scripts/validate-platform-claims.mjs"
+    "validate:platform-claims": "node scripts/validate-platform-claims.mjs",
+    "validate:phase5-content": "node scripts/validate-phase5-content-quality.mjs",
+    "validate:blog-orphans": "node scripts/validate-blog-orphans.mjs",
+    "validate:blog-media": "node scripts/validate-blog-media.mjs",
+    "validate:phase5": "node scripts/validate-phase5-complete.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
