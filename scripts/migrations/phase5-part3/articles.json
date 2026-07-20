@@ -1,0 +1,646 @@
+[
+  {
+    "_id": "drafts.blog-lms-selection-implementation-guide",
+    "_type": "blogPost",
+    "title": "How to Select and Implement an LMS for Your Organization",
+    "slug": { "current": "lms-selection-implementation-guide" },
+    "articleType": "guide",
+    "category": { "_type": "reference", "_ref": "category-lms-learning-technology" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "L&D Manager",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "How to Select and Implement an LMS for Your Organization",
+      "description": "A comprehensive guide to planning, selecting, and successfully rolling out a learning management system for your organization."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Implementing a new Learning Management System (LMS) is a major project that requires careful planning, stakeholder alignment, and a clear understanding of technical requirements." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "1. Define Your Organizational Need" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Before comparing platforms, document your core use cases. Will this system serve internal employees, external customers, or partners? What are the integration requirements with existing HR or CRM systems?" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "2. Interoperability Standards" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Determine if your content requires specific standards such as SCORM 1.2, SCORM 2004, xAPI, or cmi5. Understand that claiming SCORM support does not guarantee seamless data reporting; always test with sample content. Review date: March 2024." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "3. Implementation Stages and Limitations" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "A successful rollout involves phased testing, data migration, and administrator training. Be aware of platform limitations, such as fixed reporting structures or rigid user role hierarchies." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-lms-migration-planning-audit",
+    "_type": "blogPost",
+    "title": "LMS Migration Planning: What to Audit Before Moving Platforms",
+    "slug": { "current": "lms-migration-planning-audit" },
+    "articleType": "checklist",
+    "category": { "_type": "reference", "_ref": "category-lms-learning-technology" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "LMS Administrator",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "LMS Migration Planning: What to Audit Before Moving Platforms",
+      "description": "An actionable checklist of course assets, user data, and integration requirements to audit before migrating to a new Learning Management System."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Migrating to a new LMS is risky without a comprehensive audit of your existing environment. This checklist helps prevent lost data and broken course links." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Content and Course Structure Audit" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Inventory all active courses, inactive content, SCORM packages, assessments, and attached media files. Document the current file sizes and format limitations. Review date: March 2024." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "User Data and History" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Determine what historical completion data and certificates must be retained. Map existing user roles to the proposed roles in the new system." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-planning-kajabi-course-business",
+    "_type": "blogPost",
+    "title": "Planning a Kajabi Course Business: Products, Offers, Content and Learner Experience",
+    "slug": { "current": "planning-kajabi-course-business" },
+    "articleType": "guide",
+    "category": { "_type": "reference", "_ref": "category-kajabi" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "Course Creator",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "Planning a Kajabi Course Business: Products and Offers",
+      "description": "How to correctly map your online courses to Kajabi Products and Offers for a seamless learner experience."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Structuring a course business on Kajabi requires understanding the distinct roles of Products (what the learner accesses) and Offers (how they purchase access). Review date: March 2024." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Products vs. Offers" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "A Kajabi Product houses your course content, modules, and lessons. An Offer is the pricing and checkout structure. Multiple Offers can grant access to the same Product." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Limitations and Planning" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Plan your curriculum hierarchy carefully, as Kajabi enforces specific structural limits (Categories, Subcategories, and Posts). Consider these constraints during your initial design phase." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-kajabi-migration-course-structure",
+    "_type": "blogPost",
+    "title": "How to Plan a Kajabi Migration Without Losing Course Structure",
+    "slug": { "current": "kajabi-migration-course-structure" },
+    "articleType": "guide",
+    "category": { "_type": "reference", "_ref": "category-kajabi" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "Course Creator",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "How to Plan a Kajabi Migration Without Losing Course Structure",
+      "description": "A strategic guide to migrating your digital products and customer data into Kajabi while maintaining curriculum integrity."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Migrating an established course catalog to Kajabi involves mapping external course structures into Kajabi's specific Product and Offer architecture. Review date: March 2024." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Inventory and Mapping" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "List every asset in your current platform. Map each existing course to a Kajabi Product, and map your existing pricing plans to Kajabi Offers." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Testing the Cutover" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Perform a controlled test migration for a small cohort of users before moving your entire customer base to ensure access grants trigger correctly." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-scalable-enterprise-learning-system",
+    "_type": "blogPost",
+    "title": "How to Build an Enterprise Learning System That Can Scale",
+    "slug": { "current": "scalable-enterprise-learning-system" },
+    "articleType": "guide",
+    "category": { "_type": "reference", "_ref": "category-enterprise-learning" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "CLO",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "How to Build an Enterprise Learning System That Can Scale",
+      "description": "Learn how to architect a holistic enterprise learning environment that supports employees, partners, and customers."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "A scalable enterprise learning system requires cohesive governance, flexible architecture, and clearly defined audience pathways." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Consolidating Disparate Platforms" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Many enterprises suffer from disconnected learning tools. Centralizing identity management and content repositories is crucial for long-term operational efficiency." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Governance and Measurement" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Establish a clear ownership model detailing who is responsible for content creation, technical maintenance, and outcome measurement." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-employee-customer-partner-learning-programs",
+    "_type": "blogPost",
+    "title": "How to Decide Between Employee, Customer and Partner Learning Programs",
+    "slug": { "current": "employee-customer-partner-learning-programs" },
+    "articleType": "comparison",
+    "category": { "_type": "reference", "_ref": "category-enterprise-learning" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "L&D Director",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "Comparing Employee, Customer and Partner Learning Programs",
+      "description": "Understand the critical differences between internal and external enterprise learning strategies and platform requirements."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "While the underlying technology may overlap, the instructional strategy, access controls, and business outcomes differ significantly between audience types." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Internal vs. External Needs" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Employee training often focuses on compliance and upskilling, tightly integrated with HRIS data. Customer training prioritizes product adoption, retention, and self-service support." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-ai-workforce-readiness-learning-programs",
+    "_type": "blogPost",
+    "title": "AI Workforce Readiness: Building Practical and Responsible Learning Programs",
+    "slug": { "current": "ai-workforce-readiness-learning-programs" },
+    "articleType": "guide",
+    "category": { "_type": "reference", "_ref": "category-ai-learning" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "L&D Manager",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "AI Workforce Readiness: Responsible AI Learning Programs",
+      "description": "How to develop practical AI literacy training that balances productivity gains with security, privacy, and organizational risk management."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Integrating AI into daily workflows requires more than just software access; it requires a structured approach to AI literacy and risk management." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Balancing Enablement and Risk" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Training should explicitly cover permitted use cases, prohibited actions regarding confidential data, and the necessity of human review for AI-generated outputs." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Framework Alignment" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "While organizations may consult frameworks like the NIST AI RMF to inform their policies, training alone does not guarantee risk elimination." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-role-based-ai-literacy-training",
+    "_type": "blogPost",
+    "title": "How to Design Role-Based AI Literacy Training",
+    "slug": { "current": "role-based-ai-literacy-training" },
+    "articleType": "guide",
+    "category": { "_type": "reference", "_ref": "category-ai-learning" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "Instructional Designer",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "How to Design Role-Based AI Literacy Training",
+      "description": "A framework for creating targeted, role-specific AI training that addresses the unique needs of different departments."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Generic AI training often fails to change behavior. Effective programs must address how specific roles will actually interact with these tools." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Mapping Roles to Use Cases" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "A marketing team requires different AI literacy skills (content ideation, tone matching) compared to a legal or compliance team (risk assessment, data privacy). Design practical exercises tailored to each context." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-accessibility-quality-assurance-digital-learning",
+    "_type": "blogPost",
+    "title": "Accessibility and Quality Assurance for Digital Learning",
+    "slug": { "current": "accessibility-quality-assurance-digital-learning" },
+    "articleType": "guide",
+    "category": { "_type": "reference", "_ref": "category-accessibility-quality" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "Instructional Designer",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "Accessibility and Quality Assurance for Digital Learning",
+      "description": "Learn how to build inclusive digital learning experiences and implement an effective accessibility quality assurance process."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Creating accessible digital learning is an ongoing commitment to inclusive design, covering visual, auditory, cognitive, and physical requirements." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Standards and Testing" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Use WCAG guidelines as a technical reference. Remember that automated testing alone cannot confirm complete accessibility; human testing with assistive technologies is essential. No automated tool can guarantee compliance." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-practical-accessibility-review-checklist",
+    "_type": "blogPost",
+    "title": "A Practical Accessibility Review Checklist for Online Courses",
+    "slug": { "current": "practical-accessibility-review-checklist" },
+    "articleType": "checklist",
+    "category": { "_type": "reference", "_ref": "category-accessibility-quality" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "Course Developer",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "A Practical Accessibility Review Checklist for Online Courses",
+      "description": "An actionable checklist to evaluate color contrast, screen reader compatibility, and keyboard navigation in eLearning courses."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "This checklist provides practical steps for reviewing the accessibility of a digital course before launch, focusing on content structure and media." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Key Review Areas" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Ensure logical heading structures, meaningful alternative text for informative images, closed captions for video, and full keyboard operability for interactive elements." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-learning-content-localization-planning",
+    "_type": "blogPost",
+    "title": "Learning Content Localization: Planning for Global and Multilingual Delivery",
+    "slug": { "current": "learning-content-localization-planning" },
+    "articleType": "guide",
+    "category": { "_type": "reference", "_ref": "category-localization-global-learning" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "Global L&D Manager",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "Learning Content Localization: Planning Multilingual Training",
+      "description": "How to plan the localization and cultural adaptation of your corporate training programs for global audiences."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "True localization goes beyond direct translation. It involves cultural adaptation, adjusting idioms, modifying imagery, and ensuring technical compatibility." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Planning the Process" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Plan for text expansion in your course layouts. Determine whether voiceover replacement or subtitling is appropriate for your audience and budget. Always require native-language human review." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-arabic-rtl-learning-content-design",
+    "_type": "blogPost",
+    "title": "Arabic and RTL Learning Content: Design and QA Considerations",
+    "slug": { "current": "arabic-rtl-learning-content-design" },
+    "articleType": "guide",
+    "category": { "_type": "reference", "_ref": "category-localization-global-learning" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "Course Developer",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "Arabic and RTL Learning Content: Design and QA Considerations",
+      "description": "Technical requirements and design best practices for localizing eLearning content into Arabic and other Right-to-Left (RTL) languages."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Developing learning content for Right-to-Left (RTL) languages like Arabic requires specific technical planning regarding UI mirroring, typography, and mixed-direction text." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Technical Constraints" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Verify that your authoring tool and LMS fully support RTL layouts. Pay close attention to punctuation placement, numbering, and navigation elements during the QA process." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-managed-learning-services-operations",
+    "_type": "blogPost",
+    "title": "Managed Learning Services: What Ongoing Learning Operations May Include",
+    "slug": { "current": "managed-learning-services-operations" },
+    "articleType": "guide",
+    "category": { "_type": "reference", "_ref": "category-managed-learning" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "L&D Director",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "Managed Learning Services: Ongoing Learning Operations",
+      "description": "Understand the scope, responsibilities, and benefits of partnering with a managed learning services provider."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Managed learning services can help organizations maintain their learning infrastructure by offloading course updates, LMS administration, and release management." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Defining Boundaries" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Clear responsibility boundaries must be established between internal teams and external providers regarding content ownership, user support, and platform governance." }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "drafts.blog-learning-content-maintenance-release-process",
+    "_type": "blogPost",
+    "title": "How to Build a Learning Content Maintenance and Release Process",
+    "slug": { "current": "learning-content-maintenance-release-process" },
+    "articleType": "guide",
+    "category": { "_type": "reference", "_ref": "category-managed-learning" },
+    "author": { "_type": "reference", "_ref": "author-editorial-team" },
+    "targetAudience": "Learning Operations Manager",
+    "status": "published",
+    "publishedAt": "2024-03-22T08:00:00.000Z",
+    "seo": {
+      "title": "How to Build a Learning Content Maintenance and Release Process",
+      "description": "A practical framework for version control, content updates, and structured release planning in corporate eLearning."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Establishing a robust maintenance and release process prevents outdated content and ensures a consistent experience for learners across updates." }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          { "_type": "span", "text": "Version Control and Testing" }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          { "_type": "span", "text": "Implement strict version control for source files. Require impact analysis and staging environment testing before deploying any updates to the live LMS." }
+        ]
+      }
+    ]
+  }
+]
