@@ -53,5 +53,17 @@ jobs:
       - name: Validate Article Evidence
         run: npm run validate:article-evidence
 
+      - name: Validate Phase 5 Content Quality
+        run: npm run validate:phase5-content
+
+      - name: Validate Blog Orphans
+        run: npm run validate:blog-orphans
+
+      - name: Validate Blog Media
+        run: npm run validate:blog-media
+
+      - name: Validate Phase 5 Complete
+        run: npm run validate:phase5
+
       - name: Build Project
         run: npm run build
