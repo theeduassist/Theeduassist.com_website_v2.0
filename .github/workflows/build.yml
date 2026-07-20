@@ -47,5 +47,11 @@ jobs:
       - name: Check Sanity Blog Public
         run: npm run check:sanity:blog
 
+      - name: Validate Content Clusters
+        run: npm run validate:content-clusters
+
+      - name: Validate Article Evidence
+        run: npm run validate:article-evidence
+
       - name: Build Project
         run: npm run build

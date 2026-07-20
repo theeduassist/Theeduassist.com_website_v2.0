@@ -1,0 +1,436 @@
+[
+  {
+    "_type": "post",
+    "_id": "drafts.learning-strategy-organizations-framework",
+    "title": "Learning Strategy for Organizations: A Practical Planning Framework",
+    "slug": { "current": "learning-strategy-organizations-framework" },
+    "articleType": "guide",
+    "targetAudience": ["Head of Learning and Development", "L&D Manager"],
+    "category": { "_ref": "learning-strategy", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:00:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "Learning Strategy for Organizations: A Practical Planning Framework",
+      "description": "Learn how to build an effective learning strategy for your organization with this practical 5-step framework."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "How do I create an effective learning strategy for my organization? A learning strategy aligns training efforts with business goals. It identifies capability gaps and prioritizes the right learning pathways."
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "h2",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "The 5-Step Framework"
+          }
+        ]
+      },
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "1. Analyze business context.\n2. Identify capability gaps.\n3. Design learning pathways.\n4. Establish governance.\n5. Measure performance."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "learning-strategy", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.learning-needs-analysis-guide", "_type": "reference" },
+      { "_ref": "drafts.learning-pathways-design", "_type": "reference" }
+    ]
+  },
+  {
+    "_type": "post",
+    "_id": "drafts.learning-needs-analysis-guide",
+    "title": "How to Conduct a Learning Needs Analysis Before Building Training",
+    "slug": { "current": "learning-needs-analysis-guide" },
+    "articleType": "article",
+    "targetAudience": ["Instructional Designer", "L&D Manager"],
+    "category": { "_ref": "learning-strategy", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:05:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "How to Conduct a Learning Needs Analysis Before Building Training",
+      "description": "A practical checklist and methodology for conducting a learning needs analysis before you start building training."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "How do I perform a learning needs analysis? You perform it by identifying the business problem, observing tasks, interviewing stakeholders, and separating training from non-training issues."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "learning-strategy", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.learning-strategy-organizations-framework", "_type": "reference" }
+    ]
+  },
+  {
+    "_type": "post",
+    "_id": "drafts.learning-pathways-design",
+    "title": "How to Design Learning Pathways for Different Roles and Skill Levels",
+    "slug": { "current": "learning-pathways-design" },
+    "articleType": "article",
+    "targetAudience": ["Learning Experience Designer", "L&D Manager"],
+    "category": { "_ref": "learning-strategy", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:10:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "How to Design Learning Pathways for Different Roles and Skill Levels",
+      "description": "Learn how to structure effective learning pathways for different roles and skill levels to avoid one-size-fits-all training."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "How should I structure learning pathways for different roles? Sequence learning by mapping prerequisite knowledge, core competencies, and role-specific practice activities."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "learning-strategy", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.learning-strategy-organizations-framework", "_type": "reference" }
+    ]
+  },
+  {
+    "_type": "post",
+    "_id": "drafts.instructional-design-practical-guide",
+    "title": "Instructional Design: A Practical Guide to Planning Effective Learning",
+    "slug": { "current": "instructional-design-practical-guide" },
+    "articleType": "guide",
+    "targetAudience": ["Instructional Designer", "L&D Manager"],
+    "category": { "_ref": "instructional-design", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:15:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "Instructional Design: A Practical Guide to Planning Effective Learning",
+      "description": "An end-to-end implementation sequence and practical guide to instructional design for effective corporate learning."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "What is the practical process for instructional design? It involves audience analysis, learning objectives, content selection, and assessment design to improve performance."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "instructional-design", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.writing-effective-learning-objectives", "_type": "reference" },
+      { "_ref": "drafts.aligning-assessment-learning-objectives", "_type": "reference" }
+    ]
+  },
+  {
+    "_type": "post",
+    "_id": "drafts.writing-effective-learning-objectives",
+    "title": "How to Write Learning Objectives That Support Real Performance",
+    "slug": { "current": "writing-effective-learning-objectives" },
+    "articleType": "article",
+    "targetAudience": ["Instructional Designer", "Course Developer"],
+    "category": { "_ref": "instructional-design", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:20:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "How to Write Learning Objectives That Support Real Performance",
+      "description": "Learn how to write actionable learning objectives that support real performance with before-and-after examples."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "How do I write actionable learning objectives? Focus on observable behavior, conditions, and standards rather than vague understanding."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "instructional-design", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.instructional-design-practical-guide", "_type": "reference" }
+    ]
+  },
+  {
+    "_type": "post",
+    "_id": "drafts.aligning-assessment-learning-objectives",
+    "title": "How to Align Learning Activities and Assessments With Learning Objectives",
+    "slug": { "current": "aligning-assessment-learning-objectives" },
+    "articleType": "article",
+    "targetAudience": ["Instructional Designer", "Learning Experience Designer"],
+    "category": { "_ref": "instructional-design", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:25:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "How to Align Learning Activities and Assessments With Learning Objectives",
+      "description": "Ensure your assessments measure what was actually taught by mapping learning activities directly to learning objectives."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "How do I map assessments to learning objectives? Ensure the verb and complexity in the objective match the task in the assessment."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "assessment-design", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.instructional-design-practical-guide", "_type": "reference" }
+    ]
+  },
+  {
+    "_type": "post",
+    "_id": "drafts.course-development-process-guide",
+    "title": "The Course Development Process: From Project Brief to Quality Review",
+    "slug": { "current": "course-development-process-guide" },
+    "articleType": "guide",
+    "targetAudience": ["Learning Project Manager", "Course Developer"],
+    "category": { "_ref": "course-development", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:30:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "The Course Development Process: From Project Brief to Quality Review",
+      "description": "A comprehensive guide to the course development process, from project discovery to quality assurance and review."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "What is the step-by-step process for developing a digital course? It moves through discovery, storyboarding, content development, review cycles, and testing."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "course-development", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.sme-instructional-designer-collaboration", "_type": "reference" },
+      { "_ref": "drafts.course-quality-assurance-checklist", "_type": "reference" }
+    ]
+  },
+  {
+    "_type": "post",
+    "_id": "drafts.sme-instructional-designer-collaboration",
+    "title": "How Instructional Designers and Subject-Matter Experts Can Work Together",
+    "slug": { "current": "sme-instructional-designer-collaboration" },
+    "articleType": "article",
+    "targetAudience": ["Instructional Designer", "Subject-Matter Expert"],
+    "category": { "_ref": "course-development", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:35:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "How Instructional Designers and Subject-Matter Experts Can Work Together",
+      "description": "Improve collaboration workflows between Instructional Designers and Subject-Matter Experts to reduce delays and friction."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "How can IDs and SMEs collaborate more effectively? By defining clear roles, preparing structured interviews, and setting exact review expectations."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "course-development", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.course-development-process-guide", "_type": "reference" }
+    ]
+  },
+  {
+    "_type": "post",
+    "_id": "drafts.course-quality-assurance-checklist",
+    "title": "A Practical Quality-Assurance Checklist for Digital Courses",
+    "slug": { "current": "course-quality-assurance-checklist" },
+    "articleType": "checklist",
+    "targetAudience": ["Course Developer", "Learning Project Manager"],
+    "category": { "_ref": "course-development", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:40:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "A Practical Quality-Assurance Checklist for Digital Courses",
+      "description": "A comprehensive quality-assurance checklist to review digital courses for content accuracy, interaction, and accessibility."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "What should I check before launching an eLearning course? Check content accuracy, navigation, assessment functionality, and accessibility constraints."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "quality-assurance", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.course-development-process-guide", "_type": "reference" }
+    ]
+  },
+  {
+    "_type": "post",
+    "_id": "drafts.modernize-existing-learning-content",
+    "title": "How to Modernize Existing Learning Content Without Starting From Scratch",
+    "slug": { "current": "modernize-existing-learning-content" },
+    "articleType": "guide",
+    "targetAudience": ["L&D Manager", "Instructional Designer"],
+    "category": { "_ref": "course-development", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:45:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "How to Modernize Existing Learning Content Without Starting From Scratch",
+      "description": "A framework for auditing and updating legacy training materials, including keep, update, retire, or rebuild decisions."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "How do I effectively modernize old training materials? Audit the inventory, assess business needs, fix accessibility issues, and update interactions without rebuilding from zero."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "content-conversion", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.audit-legacy-course-before-redesign", "_type": "reference" },
+      { "_ref": "drafts.document-to-course-conversion", "_type": "reference" }
+    ]
+  },
+  {
+    "_type": "post",
+    "_id": "drafts.audit-legacy-course-before-redesign",
+    "title": "How to Audit a Legacy Course Before Redesign or Migration",
+    "slug": { "current": "audit-legacy-course-before-redesign" },
+    "articleType": "article",
+    "targetAudience": ["Instructional Designer", "Learning Project Manager"],
+    "category": { "_ref": "course-development", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:50:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "How to Audit a Legacy Course Before Redesign or Migration",
+      "description": "Learn what to evaluate when auditing an old eLearning course to make informed redesign and migration decisions."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "What should I look for when auditing an old eLearning course? Evaluate usage data, content accuracy, ownership, and platform constraints."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "content-conversion", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.modernize-existing-learning-content", "_type": "reference" }
+    ]
+  },
+  {
+    "_type": "post",
+    "_id": "drafts.document-to-course-conversion",
+    "title": "Turning Documents and Presentations Into Structured Digital Learning",
+    "slug": { "current": "document-to-course-conversion" },
+    "articleType": "article",
+    "targetAudience": ["Instructional Designer", "Trainer"],
+    "category": { "_ref": "course-development", "_type": "reference" },
+    "status": "approved",
+    "publishedAt": "2026-07-20T10:55:00Z",
+    "author": { "_ref": "editorial-team", "_type": "reference" },
+    "seo": {
+      "noindex": false,
+      "title": "Turning Documents and Presentations Into Structured Digital Learning",
+      "description": "Convert static PDFs and presentations into interactive, structured digital courses with proper extraction and sequencing methods."
+    },
+    "body": [
+      {
+        "_type": "block",
+        "style": "normal",
+        "children": [
+          {
+            "_type": "span",
+            "marks": [],
+            "text": "How do I turn a document or presentation into an actual course? Extract performance goals, separate reference from instruction, and sequence interactions."
+          }
+        ]
+      }
+    ],
+    "relatedServices": [{ "_ref": "content-conversion", "_type": "reference" }],
+    "relatedPosts": [
+      { "_ref": "drafts.modernize-existing-learning-content", "_type": "reference" }
+    ]
+  }
+]
