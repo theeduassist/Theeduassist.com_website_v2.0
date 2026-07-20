@@ -1,7 +1,7 @@
-import imageUrlBuilder from '@sanity/image-url'
+import { createImageUrlBuilder } from '@sanity/image-url'
 import { sanityCdnClient as client } from './client'
 
-const builder = imageUrlBuilder(client)
+const builder = createImageUrlBuilder(client)
 
 /**
  * Helper to build an image URL.

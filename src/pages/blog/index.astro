@@ -1,118 +1,185 @@
 ---
-export const prerender = true;
-import Layout from '../../layouts/Layout.astro';
-import BlogHero from '../../components/blog/BlogHero.astro';
-import BlogSearchFilters from '../../components/blog/BlogSearchFilters.astro';
-import FeaturedBlogArticle from '../../components/blog/FeaturedBlogArticle.astro';
-import LatestArticles from '../../components/blog/LatestArticles.astro';
-import AllArticlesGrid from '../../components/blog/AllArticlesGrid.astro';
-import QuickBlogQuestions from '../../components/blog/QuickBlogQuestions.astro';
-import IndexBlogFAQs from '../../components/blog/IndexBlogFAQs.astro';
-import BlogCTA from '../../components/blog/BlogCTA.astro';
+import Layout from "../../layouts/Layout.astro";
+import { fetchFromSanity } from "../../sanity/client";
+import { blogPostSummariesQuery } from "../../lib/blog/queries";
+import { normalizeBlogPost } from "../../lib/blog/normalizeBlogPost";
+import { blogCategories } from "../../data/blogArchitecture";
+import BlogCard from "../../components/blog/BlogCard.astro";
+import BlogCTA from "../../components/blog/BlogCTA.astro";
 
-import { getBlogPostSummaries } from '../../lib/content/getAllBlogPosts';
-import { faqs as indexFaqs } from '../../components/blog/IndexBlogFAQs.astro';
+// Fetch posts
+const allPostsRaw = await fetchFromSanity(blogPostSummariesQuery, {}, { useCdn: false, tags: ["website.blog.summaries"] });
+const allPosts = Array.isArray(allPostsRaw) ? allPostsRaw.map(normalizeBlogPost) : [];
 
-let posts = [];
-try {
-  posts = await getBlogPostSummaries();
-} catch (e) {
-  console.log("Error fetching blog posts for index");
-}
+// Find featured
+const featuredPost = allPosts.find(p => p.featured) || allPosts[0];
 
-const isFirstPage = true;
-const featuredPost = posts.length > 0 ? posts[0] : null;
-const gridPosts = posts.slice(1, 12);
-const totalPages = Math.ceil(posts.length / 12);
+// Categorize for hub
+const latestPosts = allPosts.filter(p => p.id !== featuredPost?.id).slice(0, 6);
+const enterprisePosts = allPosts.filter(p => p.primaryCategory === "enterprise-learning").slice(0, 3);
+const kajabiPosts = allPosts.filter(p => p.primaryCategory === "kajabi").slice(0, 3);
 
-const mockPage = {
-    data: gridPosts,
-    currentPage: 1,
-    lastPage: totalPages,
-    url: {
-        prev: undefined,
-        next: totalPages > 1 ? '/blog/page/2/' : undefined
-    }
-};
+// Active categories
+const activeCategories = blogCategories.filter(cat => cat.publicVisibility && allPosts.some(p => p.primaryCategory === cat.id));
 
-
-// SEO details
-const title = "Blog | Course Creation, Kajabi, LMS & E-Learning Insights | TheEduAssist";
-const description = "Read TheEduAssist articles on course creation, Kajabi setup, LMS implementation, instructional design, AI-powered e-learning, content conversion, and online course launches.";
-const canonicalPath = "/blog/";
-const ogTitle = title;
-const ogDescription = description;
-
-// Basic WebPage schema for the hub
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "Blog",
-  "name": title,
-  "description": description,
-  "url": `https://www.theeduassist.com${canonicalPath}`,
-  "publisher": {
-    "@type": "Organization",
-    "name": "TheEduAssist",
-    "url": "https://www.theeduassist.com/"
-  }
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": indexFaqs.map(faq => ({
-    "@type": "Question",
-    "name": faq.question,
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": faq.answer
-    }
-  }))
-};
+const seoTitle = "TheEduAssist Blog | Practical Guidance for Learning Experiences";
+const seoDescription = "Explore research-informed guidance on learning strategy, instructional design, course development, LMS implementation, Kajabi, and enterprise learning.";
 ---
 
 <Layout
-  title={title}
-  description={description}
-  canonicalPath={canonicalPath}
-  ogTitle={ogTitle}
-  ogDescription={ogDescription}
-  jsonLd={[schema, faqSchema]}
+  title={seoTitle}
+  description={seoDescription}
+  canonicalPath="/blog/"
+  robots="index, follow"
 >
-  {isFirstPage && <BlogHero />}
-
-  <main class="container mx-auto px-4 py-12 max-w-6xl">
-    {mockPage.data.length === 0 ? (
-      <div class="text-center py-20 bg-slate-50 rounded-lg border border-slate-200 border-dashed">
-        <p class="text-xl text-slate-600">New articles coming soon.</p>
+  <main class="w-full flex-grow flex flex-col bg-slate-50 overflow-hidden">
+    <!-- Hero Section -->
+    <section class="w-full py-16 md:py-24 px-6 md:px-12 max-w-7xl mx-auto flex flex-col items-center text-center">
+      <div class="mb-4 text-sm font-semibold text-brand-green uppercase tracking-wider">
+        TheEduAssist Blog
       </div>
-    ) : (
-      <>
-        {isFirstPage && featuredPost && (
-          <FeaturedBlogArticle post={featuredPost} />
-        )}
+      <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold text-brand-blue mb-6 max-w-4xl">
+        Practical Guidance for Building and Improving Learning Experiences
+      </h1>
+      <p class="text-lg md:text-xl text-slate-700 max-w-3xl mb-8">
+        Explore research-informed guidance on learning strategy, instructional design, course development, LMS implementation, Kajabi, enterprise learning, responsible AI, accessibility and global delivery.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#latest-articles" class="px-8 py-3 bg-brand-green text-white font-semibold rounded-md shadow-sm hover:bg-green-600 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-brand-green focus:outline-none">
+          Browse Latest Articles
+        </a>
+        <a href="/services/" class="px-8 py-3 bg-white text-brand-blue font-semibold rounded-md shadow-sm border border-slate-200 hover:bg-slate-50 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-brand-blue focus:outline-none">
+          Explore Services
+        </a>
+      </div>
+    </section>
 
-        {isFirstPage && (
-          <div class="mb-12">
-              <BlogSearchFilters />
+    <!-- Short Answer Section -->
+    <section class="w-full py-12 px-6 md:px-12 max-w-4xl mx-auto bg-white rounded-xl shadow-sm border border-slate-100 mb-16">
+      <h2 class="text-xl md:text-2xl font-bold text-brand-blue mb-4 text-center">
+        What Will You Find in the TheEduAssist Blog?
+      </h2>
+      <p class="text-slate-700 text-center text-lg leading-relaxed">
+        The Blog provides practical guidance for organizations, training teams, course businesses and learning professionals planning, building, modernizing or managing digital learning.
+      </p>
+    </section>
+
+    <!-- Featured Post -->
+    {featuredPost && (
+      <section class="w-full py-12 px-6 md:px-12 max-w-7xl mx-auto mb-16">
+        <div class="flex flex-col md:flex-row gap-8 bg-white rounded-xl shadow-sm border border-slate-100 overflow-hidden group">
+          {featuredPost.featuredImage && (
+            <div class="md:w-1/2 h-64 md:h-auto relative overflow-hidden">
+              <a href={`/blog/${featuredPost.slug}/`} class="block w-full h-full" tabindex="-1">
+                <img
+                  src={featuredPost.featuredImage}
+                  alt={featuredPost.featuredImageAlt}
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  width="800"
+                  height="600"
+                  loading="eager"
+                />
+              </a>
+            </div>
+          )}
+          <div class="md:w-1/2 p-8 flex flex-col justify-center">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="px-3 py-1 bg-slate-100 text-brand-blue text-xs font-semibold rounded-full uppercase tracking-wider">
+                Featured {featuredPost.contentType}
+              </span>
+            </div>
+            <h2 class="text-2xl md:text-4xl font-bold text-brand-blue mb-4">
+              <a href={`/blog/${featuredPost.slug}/`} class="hover:text-brand-green transition-colors">
+                {featuredPost.title}
+              </a>
+            </h2>
+            <p class="text-slate-600 text-lg mb-6 line-clamp-3">
+              {featuredPost.excerpt}
+            </p>
+            <div class="flex items-center gap-4 text-sm text-slate-500">
+              {featuredPost.author && (
+                <div class="flex items-center gap-2">
+                  <span class="font-medium">{featuredPost.author.name}</span>
+                </div>
+              )}
+              <span>•</span>
+              <time datetime={featuredPost.datePublished}>
+                {new Date(featuredPost.datePublished).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              </time>
+            </div>
           </div>
-        )}
-
-        {isFirstPage && (
-          <LatestArticles currentSlug={featuredPost?.slug?.current || featuredPost?.slug} />
-        )}
-
-        <AllArticlesGrid posts={gridPosts} page={mockPage} isFirstPage={isFirstPage} />
-
-        <QuickBlogQuestions />
-
-        <IndexBlogFAQs />
-
-        <div class="mt-20">
-            <BlogCTA />
         </div>
-      </>
+      </section>
     )}
-  </main>
 
+    <!-- Browse by Topic -->
+    {activeCategories.length > 0 && (
+      <section class="w-full py-12 px-6 md:px-12 max-w-7xl mx-auto mb-16">
+        <h2 class="text-2xl md:text-3xl font-bold text-brand-blue mb-8 text-center">Browse by Topic</h2>
+        <div class="flex flex-wrap gap-4 justify-center">
+          {activeCategories.map(cat => (
+            <a href={cat.href} class="px-6 py-3 bg-white text-brand-blue font-medium rounded-full shadow-sm border border-slate-200 hover:bg-brand-green hover:text-white hover:border-brand-green transition-colors">
+              {cat.title}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Latest Articles -->
+    {latestPosts.length > 0 && (
+      <section id="latest-articles" class="w-full py-16 px-6 md:px-12 max-w-7xl mx-auto bg-slate-50 scroll-mt-20">
+        <div class="flex justify-between items-end mb-8">
+          <h2 class="text-2xl md:text-3xl font-bold text-brand-blue">Latest Articles</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {latestPosts.map(post => <BlogCard post={post} />)}
+        </div>
+      </section>
+    )}
+
+    <!-- Enterprise Learning -->
+    {enterprisePosts.length > 0 && (
+      <section class="w-full py-16 px-6 md:px-12 max-w-7xl mx-auto border-t border-slate-200">
+        <div class="flex justify-between items-end mb-8">
+          <h2 class="text-2xl md:text-3xl font-bold text-brand-blue">Enterprise Learning</h2>
+          <a href="/blog/category/enterprise-learning/" class="text-brand-green font-semibold hover:underline hidden md:block">View all →</a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {enterprisePosts.map(post => <BlogCard post={post} />)}
+        </div>
+        <a href="/blog/category/enterprise-learning/" class="text-brand-green font-semibold hover:underline block md:hidden mt-6 text-center">View all Enterprise Learning →</a>
+      </section>
+    )}
+
+    <!-- Kajabi -->
+    {kajabiPosts.length > 0 && (
+      <section class="w-full py-16 px-6 md:px-12 max-w-7xl mx-auto border-t border-slate-200">
+        <div class="flex justify-between items-end mb-8">
+          <h2 class="text-2xl md:text-3xl font-bold text-brand-blue">Kajabi & Course Business</h2>
+          <a href="/blog/category/kajabi/" class="text-brand-green font-semibold hover:underline hidden md:block">View all →</a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {kajabiPosts.map(post => <BlogCard post={post} />)}
+        </div>
+        <a href="/blog/category/kajabi/" class="text-brand-green font-semibold hover:underline block md:hidden mt-6 text-center">View all Kajabi →</a>
+      </section>
+    )}
+
+    <!-- Authors / Editorial Standards -->
+    <section class="w-full py-16 px-6 md:px-12 max-w-7xl mx-auto bg-white rounded-xl shadow-sm border border-slate-100 mb-16 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-brand-blue mb-4">Editorial Standards</h2>
+      <p class="text-slate-700 text-lg max-w-3xl mx-auto mb-8">
+        We prioritize practical, research-informed, and expert-reviewed content. Our editorial team ensures all guidance is clear, accurate, and actionable.
+      </p>
+      <a href="/editorial-policy/" class="px-6 py-3 bg-slate-100 text-brand-blue font-semibold rounded-md shadow-sm border border-slate-200 hover:bg-slate-200 transition-colors inline-block">
+        Read Our Editorial Policy
+      </a>
+    </section>
+
+    <!-- Final CTA -->
+    <div class="mt-8 mb-20 px-6 md:px-12 max-w-7xl mx-auto w-full">
+      <BlogCTA />
+    </div>
+  </main>
 </Layout>
