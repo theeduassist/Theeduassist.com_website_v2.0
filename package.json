@@ -33,7 +33,9 @@
     "validate:internal-links": "node scripts/validate-internal-links.mjs",
     "validate:enterprise": "node scripts/validate-enterprise-architecture.mjs",
     "validate:content-clusters": "node scripts/validate-content-clusters.mjs",
-    "validate:article-evidence": "node scripts/validate-article-evidence.mjs"
+    "validate:article-evidence": "node scripts/validate-article-evidence.mjs",
+    "validate:phase5-part3": "node scripts/validate-phase5-part3-clusters.mjs",
+    "validate:platform-claims": "node scripts/validate-platform-claims.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
