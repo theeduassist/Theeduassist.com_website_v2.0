@@ -1,7 +1,9 @@
-export const blogPostSummariesQuery = `*[_type == "post" && defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc) {
+export const publicBlogEligibility = `_type == "post" && defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])`;
+
+export const blogPostSummariesQuery = `*[${publicBlogEligibility}] | order(publishedAt desc, _createdAt desc) {
   _id,
   title,
-  slug,
+  "slug": slug.current,
   excerpt,
   seo,
   articleType,
@@ -25,10 +27,10 @@ export const blogPostSummariesQuery = `*[_type == "post" && defined(slug.current
   featured
 }`;
 
-export const blogPostDetailQuery = `*[_type == "post" && slug.current == $slug && !(_id in path("drafts.**"))][0] {
+export const blogPostDetailQuery = `*[${publicBlogEligibility} && slug.current == $slug][0] {
   _id,
   title,
-  slug,
+  "slug": slug.current,
   excerpt,
   seo,
   articleType,
@@ -49,22 +51,22 @@ export const blogPostDetailQuery = `*[_type == "post" && slug.current == $slug &
   legacyFeaturedImageUrl,
   body,
   sources,
-  relatedServices[]->{ slug },
-  relatedPosts[]->{ slug },
+  relatedServices[]->{ "slug": slug.current },
+  relatedPosts[]->{ "slug": slug.current },
   stats,
   readingTime,
   featured,
   author->{ name }
 }`;
 
-export const blogPostSlugsQuery = `*[_type == "post" && defined(slug.current) && !(_id in path("drafts.**"))] {
+export const blogPostSlugsQuery = `*[${publicBlogEligibility}] {
   "slug": slug.current
 }`;
 
 // Fetch RSS items
-export const rssPostsQuery = `*[_type == "post" && defined(slug.current) && defined(title) && defined(publishedAt) && !(_id in path("drafts.**")) && seo.noindex != true && hidden != true && reviewPending != true && !(title match "*Test*") && !(title match "*test*") && !(slug.current match "*test*") && (!defined(status) || status in ["approved", "published"]) && (!defined(migrationStatus) || migrationStatus in ["approved", "published"])] | order(publishedAt desc, _createdAt desc) {
+export const rssPostsQuery = `*[${publicBlogEligibility}] | order(publishedAt desc, _createdAt desc) {
   title,
-  slug,
+  "slug": slug.current,
   excerpt,
   seo,
   publishedAt,

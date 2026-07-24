@@ -31,7 +31,7 @@ export async function fetchFromSanity(
   try {
     const { useCdn = false, tags = [] } = options;
     const client = useCdn ? sanityCdnClient : sanityBuildClient;
-    const fetchOptions = tags && tags.length > 0 ? { filterResponse: false, tag: tags.join(',') } : {};
+    const fetchOptions: any = tags && tags.length > 0 ? { tag: tags.join(',') } : {};
     return await client.fetch(query, params, fetchOptions);
   } catch (error: any) {
     console.error("Sanity fetch error:", error);

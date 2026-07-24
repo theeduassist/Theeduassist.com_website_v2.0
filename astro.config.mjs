@@ -6,6 +6,10 @@ import vercel from '@astrojs/vercel';
 
 export default defineConfig({
   site: 'https://www.theeduassist.com',
+  trailingSlash: 'always',
+  build: {
+    format: 'directory',
+  },
   output: 'static',
   adapter: vercel(),
   vite: {

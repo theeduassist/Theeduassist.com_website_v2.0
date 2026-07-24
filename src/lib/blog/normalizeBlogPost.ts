@@ -35,7 +35,43 @@ export interface NormalizedBlogPost {
   wordCount?: number;
 }
 
+
+type SanitySlugValue =
+  | string
+  | {
+      current?: unknown;
+    }
+  | null
+  | undefined;
+
+export function resolveBlogSlug(value: unknown): string | null {
+  if (typeof value === 'string') {
+    const slug = value.trim();
+    return slug.length > 0 ? slug : null;
+  }
+
+  if (
+    value !== null &&
+    typeof value === 'object' &&
+    'current' in value
+  ) {
+    const current = (value as { current?: unknown }).current;
+
+    if (typeof current === 'string') {
+      const slug = current.trim();
+      return slug.length > 0 ? slug : null;
+    }
+  }
+
+  return null;
+}
+
 export function normalizeBlogPost(raw: any): NormalizedBlogPost {
+  const resolvedSlug = resolveBlogSlug(raw.slug);
+  if (!resolvedSlug) {
+    throw new Error(`Public Blog record has no valid slug. raw: ${JSON.stringify(raw).slice(0,200)}`);
+  }
+
   const fallbackDate = new Date().toISOString();
 
   // Try to match category, fallback to 'learning-strategy' if none or invalid
@@ -47,7 +83,7 @@ export function normalizeBlogPost(raw: any): NormalizedBlogPost {
   return {
     id: raw._id || raw.id || "unknown",
     title: raw.title || 'Untitled',
-    slug: raw.slug?.current || raw.slug || 'no-slug',
+    slug: resolvedSlug,
     excerpt: raw.excerpt || raw.seo?.description || '',
     contentType: (raw.articleType?.toLowerCase().replace(' ', '-') as BlogContentType) || "article",
     primaryCategory: categoryMatch.id,
@@ -63,11 +99,11 @@ export function normalizeBlogPost(raw: any): NormalizedBlogPost {
     featuredImageAlt: raw.featuredImage?.alt || raw.title,
     body: raw.body || [],
     sources: raw.sources || [],
-    relatedServiceIds: raw.relatedServices?.map((s: any) => s.slug?.current || s.slug) || [],
+    relatedServiceIds: raw.relatedServices?.map((s: any) => resolveBlogSlug(s.slug) || resolveBlogSlug(s)).filter(Boolean) || [],
     relatedEnterpriseSolutionIds: [],
     relatedCaseStudySlugs: [],
-    relatedArticleSlugs: raw.relatedPosts?.map((p: any) => p.slug?.current || p.slug) || [],
-    canonical: raw.seo?.canonicalUrl || `/blog/${raw.slug?.current || raw.slug}/`,
+    relatedArticleSlugs: raw.relatedPosts?.map((p: any) => resolveBlogSlug(p.slug) || resolveBlogSlug(p)).filter(Boolean) || [],
+    canonical: raw.seo?.canonicalUrl || `/blog/${resolvedSlug}/`,
     robots: raw.seo?.noindex ? 'noindex, nofollow' : 'index, follow',
     indexStatus: raw.seo?.noindex ? 'noindex' : 'index',
     featured: raw.featured || false,

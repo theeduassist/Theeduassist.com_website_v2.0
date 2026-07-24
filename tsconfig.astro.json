@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "bundler"
+  },
+  "include": [
+    ".astro/types.d.ts",
+    "src/**/*.astro",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "sanity.config.ts",
+    "sanity.cli.ts",
+    "src/**/deskStructure.ts",
+    "src/**/structure.ts",
+    "src/**/schemas/**/*.ts",
+    "src/**/schemas/**/*.tsx",
+    "src/**/sanity/**/*.ts",
+    "src/**/sanity/**/*.tsx"
+  ]
+}

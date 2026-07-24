@@ -3,7 +3,7 @@ import { sanityCdnClient as sanityClient } from './client';
 
 const builder = createImageUrlBuilder(sanityClient);
 
-export function urlForImage(source) {
+export function urlForImage(source: any) {
   if (!source) {
     return null;
   }

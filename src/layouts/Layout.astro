@@ -89,7 +89,7 @@ const shouldNoIndex = noindex === true || (import.meta.env.PUBLIC_SITE_URL && im
         <meta name="twitter:image" content={ogImage || `${siteUrl}/og/theeduassist-og-image.png`} />
 
         {shouldNoIndex && <meta name="robots" content="noindex, nofollow" />}
-        {!shouldNoIndex && <meta name="robots" content="index, follow" />}
+        {!shouldNoIndex && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />}
 
         {jsonLd && jsonLd.length > 0 && jsonLd.map((schema) => (
             <script type="application/ld+json" set:html={JSON.stringify(schema)} />

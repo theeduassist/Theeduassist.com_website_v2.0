@@ -2,7 +2,10 @@ import fs from 'fs';
 import path from 'path';
 
 // The sitemap is generated in the public directory and then copied to dist
-const sitemapPath = path.join(process.cwd(), 'public', 'sitemap.xml');
+let sitemapPath = path.join(process.cwd(), 'dist', 'sitemap.xml');
+if (!fs.existsSync(sitemapPath)) {
+  sitemapPath = path.join(process.cwd(), '.vercel/output/static', 'sitemap.xml');
+}
 let hasErrors = false;
 
 if (fs.existsSync(sitemapPath)) {
@@ -18,6 +21,24 @@ if (fs.existsSync(sitemapPath)) {
     const urlMatches = sitemapContent.matchAll(/<loc>([^<]+)<\/loc>/g);
     for (const match of urlMatches) {
         const url = match[1];
+        const lastmodMatch = match[0].match(/<lastmod>([^<]+)<\/lastmod>/);
+        if (lastmodMatch) {
+            const lastmodDate = new Date(lastmodMatch[1]);
+            if (lastmodDate > new Date()) {
+                console.error(`❌ Future lastmod found: ${lastmodMatch[1]} in ${url}`);
+                hasErrors = true;
+            }
+        }
+        if (url.includes('/api/') || url.includes('/thank-you') || url.includes('/offline') || url.includes('/sanity-test') || url.includes('?success=')) {
+            console.error(`❌ Sitemap contains invalid URL: ${url}`);
+            hasErrors = true;
+        }
+
+        if (!url.endsWith('/') && url !== 'https://www.theeduassist.com' && !url.includes('.xml')) {
+            console.error(`❌ Sitemap URL missing trailing slash: ${url}`);
+            hasErrors = true;
+        }
+
         if (url.includes('/api/') || url.includes('/thank-you') || url.includes('/offline') || url.includes('/sanity-test')) {
             console.error(`❌ Sitemap contains invalid URL: ${url}`);
             hasErrors = true;

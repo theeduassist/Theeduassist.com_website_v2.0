@@ -61,9 +61,10 @@ export default defineConfig({
     presentationTool({
       // Use trailing slash here too
       previewUrl: 'http://localhost:4321/api/preview/',
-      resolve: {
+      resolve: {} as any,
+      /*
         locations: {
-          post: (doc, context) => {
+          post: (doc: any, context: any) => {
             if (!doc.slug?.current) return null
             return {
               locations: [
@@ -76,10 +77,11 @@ export default defineConfig({
                   href: '/blog',
                 },
               ],
-            }
+            } as any
           },
         },
       },
+    */
     }),
   ],
 
