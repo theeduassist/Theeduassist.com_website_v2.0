@@ -15,7 +15,7 @@ import { extractHeadings } from '../../utils/extractHeadings';
 
 export async function getStaticPaths() {
   const postsRaw = await fetchFromSanity(blogPostSlugsQuery);
-  return postsRaw.map((p: any) => ({
+  return postsRaw.filter((p: any) => p.slug).map((p: any) => ({
     params: { slug: p.slug },
     props: { slug: p.slug }
   }));
@@ -28,6 +28,10 @@ if (!rawPost) {
   return new Response("Not found", { status: 404 });
 }
 const post = normalizeBlogPost(rawPost);
+
+if (post.slug !== slug) {
+  throw new Error(`Route constraint failure: Fetched detail slug "${post.slug}" does not match generated route slug "${slug}"`);
+}
 
 // Direct Answer support
 // We can extract a 'directAnswer' if it exists or use a field from Sanity.

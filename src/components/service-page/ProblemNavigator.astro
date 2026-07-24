@@ -36,12 +36,12 @@ const problems = [
       {problems.map((item) => (
         <a
           href={item.link}
-          class="flex items-center justify-between p-5 rounded-xl border border-slate-200 hover:border-brand-primary hover:shadow-md transition-all group bg-slate-50 hover:bg-white focus-ring"
+          class="flex flex-col sm:flex-row sm:items-center justify-between p-5 rounded-xl border border-slate-200 hover:border-brand-primary hover:shadow-md transition-all group bg-slate-50 hover:bg-white focus-ring"
         >
           <span class="font-medium text-brand-navy group-hover:text-brand-primary transition-colors text-lg">
             "{item.problem}"
           </span>
-          <span class="flex items-center text-brand-accent text-sm font-semibold uppercase tracking-wider shrink-0 ml-4">
+          <span class="flex items-center text-brand-accent text-sm font-semibold uppercase tracking-wider shrink-0 mt-3 sm:mt-0 sm:ml-4">
             {item.linkText}
             <ArrowRight class="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" />
           </span>

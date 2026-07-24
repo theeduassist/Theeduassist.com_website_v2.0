@@ -39,7 +39,11 @@
     "validate:phase5-content": "node scripts/validate-phase5-content-quality.mjs",
     "validate:blog-orphans": "node scripts/validate-blog-orphans.mjs",
     "validate:blog-media": "node scripts/validate-blog-media.mjs",
-    "validate:phase5": "node scripts/validate-phase5-complete.mjs"
+    "validate:phase5": "node scripts/validate-phase5-complete.mjs",
+    "validate:robots": "node scripts/validate-robots.mjs",
+    "validate:canonicals": "node scripts/validate-canonicals.mjs",
+    "validate:http": "node scripts/validate-http-statuses.mjs",
+    "validate:crawl": "node scripts/validate-crawl-readiness.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",

@@ -23,7 +23,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci --legacy-peer-deps
 
-      - name: Validate Environment Safety
+- name: Validate Environment Safety
         run: npm run validate:env
 
       - name: Validate Enterprise Architecture
@@ -38,20 +38,32 @@ jobs:
       - name: Validate Analytics Events
         run: npm run validate:analytics
 
-      - name: Astro Check
-        run: npx astro check || true
+      - name: Validate Metadata
+        run: npm run validate:metadata || true
 
-      - name: Validate Redirects
-        run: npm run validate:redirects
+      - name: Validate Structured Data
+        run: npm run validate:structured-data || true
 
-      - name: Check Sanity Blog Public
-        run: npm run check:sanity:blog
+      - name: Validate Internal Links
+        run: npm run validate:internal-links || true
+
+      - name: Validate Blog Architecture
+        run: npm run validate:blog-architecture || true
+
+      - name: Validate Authors
+        run: npm run validate:authors || true
 
       - name: Validate Content Clusters
         run: npm run validate:content-clusters
 
       - name: Validate Article Evidence
         run: npm run validate:article-evidence
+
+      - name: Validate Phase 5 Part 3 Clusters
+        run: npm run validate:phase5-part3 || true
+
+      - name: Validate Platform Claims
+        run: npm run validate:platform-claims || true
 
       - name: Validate Phase 5 Content Quality
         run: npm run validate:phase5-content
@@ -65,5 +77,26 @@ jobs:
       - name: Validate Phase 5 Complete
         run: npm run validate:phase5
 
+      - name: Validate Robots
+        run: npm run validate:robots
+
+      - name: Validate Redirects
+        run: npm run validate:redirects
+
+      - name: Check Sanity Blog Public
+        run: npm run check:sanity:blog
+
+      - name: Astro Check
+        run: npx astro check --tsconfig tsconfig.astro.json
+
+      - name: Sanity Check
+        run: npx tsc --project tsconfig.sanity.json --noEmit
+
       - name: Build Project
         run: npm run build
+
+      - name: Validate Canonicals
+        run: npm run validate:canonicals
+
+      - name: Validate Sitemap
+        run: npm run validate:sitemap

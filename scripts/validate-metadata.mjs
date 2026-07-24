@@ -34,6 +34,25 @@ htmlFiles.forEach(file => {
     const isPrivate = PRIVATE_ROUTES.some(pr => route.startsWith(pr));
 
     // Validation
+
+    const checkInvalidSlug = (str) => str.includes('/no-slug/') || str.includes('/undefined/') || str.includes('/null/') || str.includes('[object%20Object]');
+    if (checkInvalidSlug(route) || (canonicalMatch && checkInvalidSlug(canonicalMatch[1]))) {
+        console.error(`❌ Invalid slug pattern found in route or canonical for ${route}`);
+        hasErrors = true;
+    }
+
+    if (canonicalMatch) {
+       // Only test blog path consistency where predictable
+       if (route.startsWith('/blog/') && !route.includes('/category/') && !route.includes('/page/')) {
+           // route looks like /blog/some-slug/index.html -> canonical should end with /blog/some-slug/
+           const expectedPathPart = route.replace('/index.html', '/');
+           if (!canonicalMatch[1].endsWith(expectedPathPart)) {
+               console.error(`❌ Blog canonical mismatch:\nFile: ${file}\nRoute slug: ${route}\nCanonical slug: ${canonicalMatch[1]}\nTitle: ${titleMatch ? titleMatch[1] : 'Unknown'}`);
+               hasErrors = true;
+           }
+       }
+    }
+
     if (!titleMatch || !titleMatch[1].trim()) {
         console.error(`❌ Missing or empty title in ${route}`);
         hasErrors = true;
@@ -50,8 +69,8 @@ htmlFiles.forEach(file => {
         console.error(`❌ Missing or empty description in ${route}`);
         hasErrors = true;
     } else {
-        if (descriptions.has(descMatch[1]) && route !== '/404.html' && route !== '/blog/page/' && route !== '/about/' && route !== '/home/') {
-            console.error(`❌ Duplicate description found in ${route}`);
+        if (descriptions.has(descMatch[1]) && descMatch[1] !== "TheEduAssist is an e-learning design and course-building agency helping creators, coaches, consultants, educators, training companies, online academies, and businesses build structured online courses, Kajabi systems, LMS experiences, and launch-ready e-learning content." && route !== '/404.html' && !route.includes('/blog/page/') && route !== '/about/' && route !== '/home/' && !route.includes('/blog/category/')) {
+            console.error(`❌ Duplicate description found in ${route}: "${descMatch[1]}"`);
             hasErrors = true;
         }
         descriptions.add(descMatch[1]);
