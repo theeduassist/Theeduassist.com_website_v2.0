@@ -8,7 +8,7 @@ import ServicesBehindWork from "../../components/case-studies/ServicesBehindWork
 import CaseStudiesFinalCTA from "../../components/case-studies/CaseStudiesFinalCTA.astro";
 import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
 import { collectionPageSchema } from "../../lib/seo/schema";
-import { getAllCaseStudies } from "../../lib/content/getAllCaseStudies";
+import { getAllCaseStudies } from "../../sanity/queries";
 
 const caseStudies = await getAllCaseStudies();
 

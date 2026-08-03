@@ -1,6 +1,7 @@
 ---
 import SectionHeader from '../ui/SectionHeader.astro';
 import Badge from '../ui/Badge.astro';
+import { getTrainingSolutions } from '../../sanity/queries';
 
 const trainingSolutions = await getTrainingSolutions();
 ---

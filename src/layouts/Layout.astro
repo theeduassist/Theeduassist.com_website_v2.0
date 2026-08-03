@@ -24,6 +24,7 @@ const {
     type = 'website',
     jsonLd = []
 } = Astro.props;
+import { getSiteSettings } from '../sanity/queries';
 import { buildCanonicalUrl, formatTitle, formatDescription } from '../lib/seo';
 import '../styles/global.css';
 import SiteVerification from "../components/seo/SiteVerification.astro";
@@ -33,7 +34,8 @@ import TawkChat from '../components/integrations/TawkChat.astro';
 import PersistentAIBottomBar from '../components/ai/PersistentAIBottomBar.astro';
 import RightSalesWidget from '../components/sales/RightSalesWidget.astro';
 
-const site = { title: 'TheEduAssist', name: 'TheEduAssist' };
+const siteSettings = await getSiteSettings();
+const site = siteSettings || { title: 'TheEduAssist', name: 'TheEduAssist' };
 
 const formattedTitle = formatTitle(title);
 const formattedDescription = formatDescription(description);

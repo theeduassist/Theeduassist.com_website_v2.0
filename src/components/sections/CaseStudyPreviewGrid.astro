@@ -1,5 +1,6 @@
 ---
 import Card from '../ui/Card.astro';
+import { getAllCaseStudies } from '../../sanity/queries';
 
 const caseStudies = await getAllCaseStudies();
 ---

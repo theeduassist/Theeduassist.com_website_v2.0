@@ -1,7 +1,7 @@
 ---
 export interface FAQItem {
   question: string;
-  answer: string | any; // String in Markdown or  obj
+  answer: string | any; // String in Markdown or PortableText obj
   showOnPage?: boolean;
   showOnSite?: boolean;
   orderRank?: string | number;
@@ -81,7 +81,7 @@ if (allFaqs.length === 0) {
               <p>{faq.answer}</p>
             ) : (
               <div class="px-6 pb-6 pt-2 text-slate-600 prose prose-sm max-w-none">
-                {typeof faq.answer === 'string' ? <Fragment set:html={faq.answer} /> : <div>FAQ text unable to render properly without </div>}
+                {typeof faq.answer === 'string' ? <Fragment set:html={faq.answer} /> : <div>FAQ text unable to render properly without PortableText</div>}
               </div>
             )}
           </div>

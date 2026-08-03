@@ -1,5 +1,6 @@
 ---
 import StatelessTabs from '../ui/StatelessTabs.astro';
+import { getAllServices } from '../../sanity/queries';
 
 const services = await getAllServices();
 // Derive simple categories from services (group by category field if present)

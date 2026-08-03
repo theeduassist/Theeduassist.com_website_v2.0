@@ -1,11 +1,15 @@
 ---
+import { getSiteSettings, getNavigation } from '../../sanity/queries';
 import MobileMenu from './MobileMenu.astro';
 import { aiAssistants } from '../../data/aiAssistants';
 import { siteNavigation } from '../../data/siteNavigation';
 import BrandLogo from '../ui/BrandLogo.astro';
 import { organizationEntity } from '../../data/organizationEntity';
 
-const site = { name: organizationEntity.name, email: organizationEntity.contactPoint.email, social: {} };
+const siteSettings = await getSiteSettings();
+const site = siteSettings || { name: organizationEntity.name, email: organizationEntity.contactPoint.email, social: {} };
+
+const navigation = await getNavigation();
 
 ---
 <header class="bg-white/90 backdrop-blur-md border-b border-brand-border/50 relative z-50 sticky top-0 shadow-sm transition-all duration-300">

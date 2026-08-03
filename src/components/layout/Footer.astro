@@ -1,10 +1,12 @@
 ---
+import { getSiteSettings } from '../../sanity/queries';
 import { footerNavigation } from '../../data/siteNavigation';
 import { trustPages } from '../../data/trustArchitecture';
 import { organizationEntity } from '../../data/organizationEntity';
 import BrandLogo from '../ui/BrandLogo.astro';
 
-const site = { name: organizationEntity.name, email: organizationEntity.contactPoint.email, social: {} };
+const siteSettings = await getSiteSettings();
+const site = siteSettings || { name: organizationEntity.name, email: organizationEntity.contactPoint.email, social: {} };
 ---
 <footer class="bg-brand-navy text-slate-300 py-16 border-t border-brand-border/20 relative overflow-hidden">
     <!-- Top Footer CTA -->

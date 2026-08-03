@@ -21,7 +21,7 @@ const displays = services.length > 0
     ? services.map(s => ({
         title: s.title,
         desc: s.summary || s.description,
-        href: s.slug?.current ? `/services/${s.slug}/` : s.slug || '#'
+        href: s.slug?.current ? `/services/${s.slug.current}/` : s.slug || '#'
       }))
     : staticServices;
 ---

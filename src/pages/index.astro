@@ -19,6 +19,7 @@ import HomeFAQ from "../components/home/HomeFAQ.astro";
 import FinalCTA from "../components/sections/FinalCTA.astro";
 
 import { organizationSchema, websiteSchema, professionalServiceSchema } from '../lib/seo/schema';
+import { getCtaBlocks } from '../sanity/queries';
 
 let ctaBlocks = [];
 try {

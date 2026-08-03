@@ -38,7 +38,7 @@ const displayItems = hasPosts ? recentPosts : fallbackTopics;
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
       {displayItems.map(item => (
-        <a href={item.topic ? `/blog/` : `/blog/${item.slug || item.slug}/`} class="group bg-slate-50 rounded-2xl border border-brand-border hover:border-brand-accent/50 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden focus-ring h-full">
+        <a href={item.topic ? `/blog/` : `/blog/${item.slug.current || item.slug}/`} class="group bg-slate-50 rounded-2xl border border-brand-border hover:border-brand-accent/50 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden focus-ring h-full">
           {/* Visual Treatment */}
           <div class="h-48 bg-slate-200 border-b border-brand-border/50 relative overflow-hidden">
             {item.topic ? (

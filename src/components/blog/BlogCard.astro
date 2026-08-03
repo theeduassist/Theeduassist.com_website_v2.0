@@ -26,7 +26,8 @@ const safeExcerpt = aiSummary || excerpt || "Read this article to learn more abo
 const hiddenStatuses = ['review pending', 'draft', 'internal', 'admin', 'private', 'test', 'do not publish'];
 const displayCategory = category && !hiddenStatuses.includes(category.toLowerCase()) ? category : 'Article';
 const displayTags = tags.filter(tag => !hiddenStatuses.includes(tag.toLowerCase()));
-
+---
+---
 // Get a valid URL; if null, throw error locally instead of silently making a broken link
 const postUrl = getBlogUrl({slug});
 if (!postUrl || postUrl === '#') {

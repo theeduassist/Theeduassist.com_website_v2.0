@@ -90,9 +90,9 @@ const schemaData = {
           <nav class="flex items-center text-sm font-medium text-slate-500 mb-6 space-x-2" aria-label="Breadcrumb">
             <a href="/blog/" class="hover:text-brand-green transition-colors">Blog</a>
             <span>/</span>
-            <a href={`/blog/category/${post.category || 'general'}/`} class="hover:text-brand-green transition-colors capitalize">{(post.category || 'General').replace('-', ' ')}</a>
+            <a href={`/blog/category/${post.primaryCategory}/`} class="hover:text-brand-green transition-colors capitalize">{post.primaryCategory.replace('-', ' ')}</a>
             <span>/</span>
-            <span class="text-brand-blue capitalize">{post.contentType ? post.contentType.replace('-', ' ') : 'Article'}</span>
+            <span class="text-brand-blue capitalize">{post.contentType.replace('-', ' ')}</span>
           </nav>
 
           <h1 class="text-3xl md:text-5xl font-bold text-brand-blue leading-tight mb-6">

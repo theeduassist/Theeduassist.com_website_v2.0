@@ -2,8 +2,20 @@
 import Layout from "../../layouts/Layout.astro";
 import { platformsData, platformGroups, extraToolsData } from "../../data/platforms";
 import { webPageSchema, breadcrumbSchema, faqPageSchema } from "../../lib/seo/schema";
+import { getPlatformsForBadges } from "../../sanity/queries";
 
-const displays = platformsData;
+const sanityPlatforms = await getPlatformsForBadges();
+
+const displays = sanityPlatforms.length > 0
+  ? sanityPlatforms.map(p => ({
+      name: p.name,
+      group: p.category || 'Platform',
+      bestFor: p.description,
+      recommendedService: p.recommendedService,
+      officialUrl: p.officialUrl,
+      externalLinkLabel: 'Visit Official Site'
+    }))
+  : platformsData;
 
 const faqs = [
   {

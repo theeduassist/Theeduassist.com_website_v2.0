@@ -4,6 +4,7 @@ interface Props {
 }
 
 const { className = '' } = Astro.props;
+import { getCtaBlocks } from '../../sanity/queries';
 
 const ctaBlocks = (await getCtaBlocks()).reduce((acc, block) => {
   // merge blocks by slug/title into a handy map
