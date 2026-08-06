@@ -7,36 +7,35 @@ import RelatedArticles from '../../components/blog/RelatedArticles.astro';
 import BlogCTA from '../../components/blog/BlogCTA.astro';
 import ArticleShareButtons from '../../components/blog/ArticleShareButtons.astro';
 import BlogFAQs from '../../components/blog/BlogFAQs.astro';
-
-import { getFullBlogPostsForAuditOnly, getBlogPostSlugs } from '../../lib/content/getAllBlogPosts';
+import { getFullBlogPostsForAuditOnly } from '../../lib/content/getAllBlogPosts';
 import { extractHeadings } from '../../utils/extractHeadings';
 
 export async function getStaticPaths() {
-  const slugs = await getBlogPostSlugs();
-  return slugs.map(slug => ({
-    params: { slug },
-    props: { slug }
-  }));
+  const posts = await getFullBlogPostsForAuditOnly();
+  const paths: any[] = [];
+  
+  posts.forEach(post => {
+    if (post.slug) {
+      paths.push({ params: { slug: post.slug }, props: { slug: post.slug } });
+    }
+    if (post.id && post.id !== post.slug) {
+      paths.push({ params: { slug: post.id }, props: { slug: post.slug } });
+    }
+  });
+  
+  return paths;
 }
 
 const { slug } = Astro.params;
 
 const allPosts = await getFullBlogPostsForAuditOnly();
-const post = allPosts.find(p => p.slug === slug);
+const post = allPosts.find(p => p.slug === slug || p.id === slug);
 
 if (!post) {
   return new Response("Not found", { status: 404 });
 }
 
-if (post.slug !== slug) {
-  throw new Error(`Route constraint failure: Fetched detail slug "${post.slug}" does not match generated route slug "${slug}"`);
-}
-
-// Direct Answer support
-// We can extract a 'directAnswer' if it exists or use a field from Sanity.
-// For now, if 'shortAnswer' is added in sanity, we'd render it. We'll use a placeholder logic if we had it.
 const hasDirectAnswer = !!post.shortAnswer;
-
 const headings = extractHeadings(post.body);
 const showToc = headings.length >= 2;
 
@@ -79,14 +78,12 @@ const schemaData = {
   robots={post.robots}
   jsonLd={[schemaData]}
 >
-  <!-- Schema inserted via layout -->
-
   <main class="w-full flex-grow flex flex-col bg-slate-50 relative pb-20">
     <article class="w-full">
       <!-- Article Header -->
       <header class="w-full bg-white pt-16 pb-12 px-6 md:px-12 border-b border-slate-200">
         <div class="max-w-4xl mx-auto">
-          <!-- Breadcrumbs / Content Type -->
+          <!-- Breadcrumbs -->
           <nav class="flex items-center text-sm font-medium text-slate-500 mb-6 space-x-2" aria-label="Breadcrumb">
             <a href="/blog/" class="hover:text-brand-green transition-colors">Blog</a>
             <span>/</span>
@@ -121,8 +118,8 @@ const schemaData = {
 
             <div class="flex flex-col">
               <span class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Published</span>
-              <time class="text-sm font-medium text-slate-700" datetime={post.datePublished}>
-                {new Date(post.datePublished).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+              <time class="text-sm font-medium text-slate-700" datetime={post.datePublished || post.publishedAt}>
+                {new Date(post.datePublished || post.publishedAt || '').toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
               </time>
             </div>
 
@@ -136,7 +133,7 @@ const schemaData = {
             )}
 
             {post.readingTime && (
-               <div class="flex flex-col">
+              <div class="flex flex-col">
                 <span class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Reading Time</span>
                 <span class="text-sm font-medium text-slate-700">{post.readingTime} min</span>
               </div>
@@ -146,11 +143,11 @@ const schemaData = {
       </header>
 
       <!-- Featured Image -->
-      {post.featuredImage && (
+      {(post.featuredImage || post.heroImage) && (
         <div class="w-full max-w-5xl mx-auto px-6 md:px-12 -mt-8 relative z-10">
           <img
-            src={post.featuredImage}
-            alt={post.featuredImageAlt || post.title}
+            src={post.featuredImage || post.heroImage}
+            alt={post.featuredImageAlt || post.heroImageAlt || post.title}
             class="w-full h-auto aspect-video object-cover rounded-xl shadow-md border border-slate-200 bg-slate-100"
             width="1024"
             height="576"
@@ -161,7 +158,7 @@ const schemaData = {
       <!-- Layout with Sidebar for TOC -->
       <div class="w-full max-w-7xl mx-auto px-6 md:px-12 py-12 flex flex-col lg:flex-row gap-12">
 
-        {/* Main Content */}
+        <!-- Main Content -->
         <div class={`w-full ${showToc ? 'lg:w-2/3 lg:pr-8' : 'max-w-4xl mx-auto'}`}>
 
           {hasDirectAnswer && (
@@ -176,8 +173,6 @@ const schemaData = {
           <div class="prose prose-slate prose-lg md:prose-xl prose-brand max-w-none prose-headings:scroll-mt-24 prose-a:text-brand-green hover:prose-a:text-brand-blue prose-img:rounded-xl">
             {post.content ? (
               <div set:html={post.content} />
-            ) : post.body && post.body.length > 0 ? (
-              <div>Content cannot be rendered without PortableText.</div>
             ) : (
               <p>Content is being updated.</p>
             )}
@@ -185,36 +180,41 @@ const schemaData = {
 
           <!-- Sources -->
           {post.sources && post.sources.length > 0 && (
-             <div class="mt-16 pt-8 border-t border-slate-200">
-               <h3 class="text-xl font-bold text-slate-800 mb-4">Sources and References</h3>
-               <ul class="space-y-3 text-sm text-slate-600">
-                 {post.sources.map((source: any, i: number) => (
-                   <li class="pl-4 border-l-2 border-slate-200">
-                     {source.url ? (
-                       <a href={source.url} target="_blank" rel="noopener noreferrer" class="hover:text-brand-green hover:underline">
-                         {source.label || source.title || source.url}
-                       </a>
-                     ) : (
-                       <span>{source.label || source.title}</span>
-                     )}
-                   </li>
-                 ))}
-               </ul>
-             </div>
+            <div class="mt-16 pt-8 border-t border-slate-200">
+              <h3 class="text-xl font-bold text-slate-800 mb-4">Sources and References</h3>
+              <ul class="space-y-3 text-sm text-slate-600">
+                {post.sources.map((source: any) => (
+                  <li class="pl-4 border-l-2 border-slate-200">
+                    {source.url ? (
+                      <a href={source.url} target="_blank" rel="noopener noreferrer" class="hover:text-brand-green hover:underline">
+                        {source.label || source.title || source.url}
+                      </a>
+                    ) : (
+                      <span>{source.label || source.title}</span>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
           )}
 
+          <!-- Share Buttons -->
           <div class="mt-12">
-            <ArticleShareButtons url={`https://www.theeduassist.com${post.canonical}`} title={post.title} />
+            <ArticleShareButtons url={`https://www.theeduassist.com/blog/${post.slug}/`} title={post.title} />
           </div>
+
+          <!-- Reading Progress Bar -->
+          <div id="progress-bar" class="fixed top-0 left-0 h-1 bg-brand-green z-50 transition-all duration-150" style="width: 0%"></div>
+
         </div>
 
-        {/* Sidebar */}
+        <!-- Sidebar TOC -->
         {showToc && (
           <aside class="w-full lg:w-1/3 order-first lg:order-last mb-12 lg:mb-0">
             <div class="sticky top-24">
               <BlogTableOfContents headings={headings} />
               <div class="mt-8 hidden lg:block">
-                 <BlogCTA variant="sidebar" />
+                <BlogCTA variant="sidebar" />
               </div>
             </div>
           </aside>
@@ -226,27 +226,63 @@ const schemaData = {
     {post.author && (
       <section class="w-full py-12 px-6 md:px-12 bg-white border-y border-slate-200">
         <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-6">
-           {post.author.profileImage && (
-             <img src={post.author.profileImage} alt={post.author.name} class="w-24 h-24 rounded-full object-cover shadow-sm" />
-           )}
-           <div class="text-center md:text-left">
-             <h3 class="text-xl font-bold text-brand-blue mb-2">Written by {post.author.name}</h3>
-             <p class="text-slate-600 mb-4">{post.author.shortBio}</p>
-             <a href={`/authors/${post.author.slug}/`} class="text-brand-green font-medium hover:underline">View full profile</a>
-           </div>
+          {post.author.profileImage && (
+            <img src={post.author.profileImage} alt={post.author.name} class="w-24 h-24 rounded-full object-cover shadow-sm" />
+          )}
+          <div class="text-center md:text-left">
+            <h3 class="text-xl font-bold text-brand-blue mb-2">Written by {post.author.name}</h3>
+            <p class="text-slate-600 mb-4">{post.author.shortBio}</p>
+            <a href={`/authors/${post.author.slug}/`} class="text-brand-green font-medium hover:underline">View full profile</a>
+          </div>
         </div>
       </section>
     )}
 
-    {/* Related Articles */}
+    <!-- Related Articles -->
     {post.relatedArticleSlugs && post.relatedArticleSlugs.length > 0 && (
       <RelatedArticles currentSlug={post.slug} relatedSlugs={post.relatedArticleSlugs} />
     )}
 
-    {/* Final CTA */}
+    <!-- Final CTA -->
     <div class="py-16 px-6 md:px-12 max-w-7xl mx-auto w-full">
       <BlogCTA />
     </div>
 
   </main>
+
+  <!-- Back to Top Button -->
+  <button 
+    id="back-to-top" 
+    class="fixed bottom-8 right-8 bg-brand-green text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-90 z-50"
+    aria-label="Back to top"
+  >
+    ↑
+  </button>
+
+  <script>
+    // Reading Progress Bar
+    const progressBar = document.getElementById('progress-bar');
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = (scrollTop / docHeight) * 100;
+      if (progressBar) progressBar.style.width = `${progress}%`;
+    });
+
+    // Back to Top Button
+    const backToTop = document.getElementById('back-to-top');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTop?.classList.remove('opacity-0');
+        backToTop?.classList.add('opacity-100');
+      } else {
+        backToTop?.classList.remove('opacity-100');
+        backToTop?.classList.add('opacity-0');
+      }
+    });
+    backToTop?.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+
 </BlogArticleLayout>

@@ -62,13 +62,10 @@ export function hasValidSlug(post: any): boolean {
          !cleanSlug.includes('content-coming-soon');
 }
 
-
 export function getBlogPostPublicFilterReason(post: any): string | null {
   if (!post) return 'Post is null or undefined';
-
   if (isDraftPost(post)) return 'Draft document';
   if (isNoindexPost(post)) return 'noindex true';
-  // Placeholders
   if (post.title && post.title.toLowerCase().includes('content coming soon')) return 'placeholder content';
   if (!hasValidSlug(post)) return 'test slug or title';
 
@@ -83,9 +80,8 @@ export function getBlogPostPublicFilterReason(post: any): string | null {
       return 'test title';
   }
 
-  if (post.slug && post.slug && post.slug.includes('__trashed')) return 'trashed slug';
+  if (post.slug && post.slug.includes('__trashed')) return 'trashed slug';
   if (post.slug && typeof post.slug === 'string' && post.slug.includes('__trashed')) return 'trashed slug';
-
   if (post.hidden === true) return 'hidden true';
   if (post.reviewPending === true) return 'reviewPending true';
   if (!post.publishedAt) return 'missing publishedAt';
@@ -98,7 +94,6 @@ export function getBlogPostPublicFilterReason(post: any): string | null {
 
   return null;
 }
-
 
 export function isPublicBlogSummary(post: any): boolean {
   if (!post) return false;
@@ -174,7 +169,6 @@ export type NormalizedBlogPost = {
   endCta?: any;
 };
 
-
 export async function getBlogPostSlugs(): Promise<string[]> {
   try {
     const localPosts = import.meta.glob('/src/content/blog/*.md', { eager: true });
@@ -200,7 +194,7 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
       const match = filePath.match(/\/([^\/]+)\.md$/);
       const slug = match ? match[1] : '';
       const module = localPosts[filePath] as any;
-      const frontmatter = module.frontmatter || {};
+      const frontmatter = module.default?.frontmatter || module.frontmatter || {};
 
       return {
         id: slug,
@@ -215,9 +209,9 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
         seoDescription: frontmatter.seoDescription || frontmatter.excerpt,
         noIndex: frontmatter.noIndex || false,
         canonicalUrl: frontmatter.canonicalUrl,
-        source: 'sanity', // Keeping the label 'sanity' to avoid type errors in legacy components until fully cleaned
-        content: module.compiledContent ? module.compiledContent() : '',
-        body: module.rawContent ? module.rawContent() : '',
+        source: 'sanity',
+        content: module.default?.compiledContent?.() || module.compiledContent?.() || '',
+        body: module.default?.rawContent?.() || module.rawContent?.() || '',
         heroImage: frontmatter.heroImage,
         heroImageAlt: frontmatter.heroImageAlt,
         author: frontmatter.author,
@@ -259,7 +253,6 @@ export async function getUniqueBlogCategoriesAndTags() {
          }
       });
     } else if (post.category) {
-       // Fallback to simple string category if structured category not available
        const fallbackSlug = post.category.toLowerCase().replace(/[^a-z0-9]+/g, '-');
        if (!categories.has(fallbackSlug)) {
           categories.set(fallbackSlug, {
