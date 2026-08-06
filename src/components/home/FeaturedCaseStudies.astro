@@ -7,21 +7,6 @@ const targetSlugs = [
   'language-courses-book-publisher'
 ];
 
-let sanityCaseStudies = [];
-try {
-  sanityCaseStudies = await getAllCaseStudies();
-} catch (e) {
-  console.warn("Could not fetch case studies from Sanity on Homepage");
-}
-
-const sanityStudyMap = new Map();
-if (Array.isArray(sanityCaseStudies)) {
-  for (const study of sanityCaseStudies) {
-    if (study && study.slug?.current) {
-      sanityStudyMap.set(study.slug, study);
-    }
-  }
-}
 
 const fallbackStudyMap = new Map();
 if (Array.isArray(fallbackCaseStudies)) {
@@ -33,20 +18,9 @@ if (Array.isArray(fallbackCaseStudies)) {
 }
 
 // Ensure the exact three case studies are displayed.
-// Merge with Sanity if available, otherwise use static fallback.
+// Use static fallback.
 const featuredCaseStudies = targetSlugs.map(slug => {
-  const sanityStudy = sanityStudyMap.get(slug);
   const fallbackStudy = fallbackStudyMap.get(slug);
-
-  if (sanityStudy && sanityStudy.title) {
-    return {
-      title: sanityStudy.title,
-      slug: sanityStudy.slug,
-      summary: sanityStudy.summary || fallbackStudy?.summary,
-      industry: sanityStudy.industry || fallbackStudy?.industry,
-      imageUrl: sanityStudy.mainImage?.asset?.url || null
-    };
-  }
 
   if (fallbackStudy) {
     return {
