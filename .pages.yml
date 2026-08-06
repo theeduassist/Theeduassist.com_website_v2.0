@@ -51,7 +51,8 @@ content:
     label: Blog
     type: collection
     path: src/content/blog
-    format: frontmatter
+    format: yaml-frontmatter
+    filename: "{slug}.md"
     view:
       primary: title
       sort: publishedAt
@@ -69,7 +70,6 @@ content:
         label: URL Slug
         type: string
         required: true
-        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
       - name: excerpt
         label: Short Description / Excerpt
         type: text
@@ -325,11 +325,13 @@ content:
         required: true
         options:
           media: blog_images
+
   - name: authors
     label: Authors
     type: collection
     path: src/content/authors
-    format: frontmatter
+    format: yaml-frontmatter
+    filename: "{slug}.md"
     view:
       primary: name
     operations:
