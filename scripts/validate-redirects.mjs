@@ -49,4 +49,45 @@ if (redirectsMatch) {
     }
 }
 
+
+
+
+const vercelContent = fs.readFileSync(path.join(process.cwd(), 'vercel.json'), 'utf8');
+try {
+  const vercelObj = JSON.parse(vercelContent);
+  if (vercelObj.redirects) {
+    const vFroms = new Set();
+    for (const r of vercelObj.redirects) {
+      if (!r.source || !r.destination) {
+        console.error("Error: Vercel redirect missing source or destination");
+        process.exit(1);
+      }
+      if (!r.source.startsWith('/')) {
+        console.error("Error: Vercel redirect source does not start with /: " + r.source);
+        process.exit(1);
+      }
+      if (r.destination.startsWith('/') === false && !r.destination.startsWith('http')) {
+        console.error("Error: Vercel redirect internal destination does not start with /: " + r.destination);
+        process.exit(1);
+      }
+      if (r.source === r.destination) {
+        console.error("Error: Vercel redirect source and destination are the same: " + r.source);
+        process.exit(1);
+      }
+      if (vFroms.has(r.source)) {
+        console.error("Error: Duplicate Vercel redirect source found: " + r.source);
+        process.exit(1);
+      }
+      if (r.source.includes('/?')) {
+        console.error("Error: Unsupported optional trailing slash syntax /? in Vercel redirect source: " + r.source);
+        process.exit(1);
+      }
+      vFroms.add(r.source);
+    }
+  }
+} catch (e) {
+  console.error("Error parsing vercel.json: ", e);
+  process.exit(1);
+}
+
 console.log("Redirects validated successfully.");

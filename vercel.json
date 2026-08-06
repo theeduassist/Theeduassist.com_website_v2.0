@@ -81,22 +81,17 @@
   ],
   "redirects": [
     {
-      "source": "/blog/how-theeduassist-transforms-online-learning/?",
+      "source": "/blog/how-theeduassist-transforms-online-learning/",
       "destination": "/blog/how-theeduassist-transforms-learning/",
       "permanent": true
     },
     {
-      "source": "/blog/how-theeduassist-is-transforming-online-education/?",
+      "source": "/blog/how-theeduassist-is-transforming-online-education/",
       "destination": "/blog/how-theeduassist-transforms-learning/",
       "permanent": true
     },
     {
-      "source": "/blog/2026-08-05-how-theeduassist-is-transforming-online-education/?",
-      "destination": "/blog/how-theeduassist-transforms-learning/",
-      "permanent": true
-    },
-    {
-      "source": "/enterprise-solutions/project-brief/?",
+      "source": "/enterprise-solutions/project-brief/",
       "destination": "/book-free-audit/",
       "permanent": true
     },
