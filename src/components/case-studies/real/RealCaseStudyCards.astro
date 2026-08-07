@@ -6,12 +6,12 @@ interface Props {
   caseStudies?: any[];
 }
 
-const { caseStudies: sanityCaseStudies = [] } = Astro.props;
+const { caseStudies: propsCaseStudies = [] } = Astro.props;
 
 const staticStudies = caseStudies.filter(c => c.isRealProject);
 
-const displays = sanityCaseStudies.length > 0
-  ? sanityCaseStudies.map(s => ({
+const displays = propsCaseStudies.length > 0
+  ? propsCaseStudies.map(s => ({
       title: s.title,
       summary: s.summary,
       slug: s.slug?.current || s.slug,

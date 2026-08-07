@@ -20,13 +20,6 @@ import FinalCTA from "../components/sections/FinalCTA.astro";
 
 import { organizationSchema, websiteSchema, professionalServiceSchema } from '../lib/seo/schema';
 
-let ctaBlocks = [];
-try {
-  ctaBlocks = await getCtaBlocks();
-} catch (e) {
-  console.warn("Could not fetch CTA blocks from Sanity on Homepage");
-}
-
 const jsonLd = [
   organizationSchema(),
   websiteSchema(),
@@ -66,6 +59,6 @@ const jsonLd = [
 
   <HomeFAQ />
 
-  <FinalCTA ctaBlocks={ctaBlocks} />
+  <FinalCTA />
 
 </Layout>

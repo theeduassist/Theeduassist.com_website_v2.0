@@ -1,5 +1,4 @@
 {
-  "installCommand": "npm install --legacy-peer-deps",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "astro",
@@ -26,7 +25,7 @@
         },
         {
           "key": "Content-Security-Policy-Report-Only",
-          "value": "default-src 'self'; img-src 'self' data: https://cdn. https://*.; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://*."
+          "value": "default-src 'self'; img-src 'self' data: https://cdn.theeduassist.com https://*.; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://challenges.cloudflare.com; frame-src 'self' https://challenges.cloudflare.com; connect-src 'self' https://*."
         },
         {
           "key": "Permissions-Policy",
@@ -82,7 +81,17 @@
   ],
   "redirects": [
     {
-      "source": "/enterprise-solutions/project-brief/?",
+      "source": "/blog/how-theeduassist-transforms-online-learning/",
+      "destination": "/blog/how-theeduassist-transforms-learning/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-theeduassist-is-transforming-online-education/",
+      "destination": "/blog/how-theeduassist-transforms-learning/",
+      "permanent": true
+    },
+    {
+      "source": "/enterprise-solutions/project-brief/",
       "destination": "/book-free-audit/",
       "permanent": true
     },

@@ -1,6 +1,6 @@
 ---
 title: "How TheEduAssist Transforms Online Learning"
-slug: "how-theeduassist-transforms-online-learning"
+slug: "how-theeduassist-transforms-learning"
 excerpt: "Discover how TheEduAssist helps educators and learners achieve more through innovative eLearning solutions."
 publishedAt: "2026-08-05T09:00:00Z"
 author: "editorial-team"
