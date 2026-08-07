@@ -64,7 +64,17 @@ const seoDescription = category.description;
       {hasContent ? (
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {categoryPosts.map((post) => (
-            <BlogCard post={post} />
+            <BlogCard
+              title={post.title}
+              slug={post.slug}
+              excerpt={post.excerpt}
+              aiSummary={post.aiSummary}
+              category={post.category?.title || post.category}
+              readTimeMinutes={post.readingTime}
+              publishedAt={post.publishedAt || post.datePublished}
+              image={post.heroImage || post.featuredImage || post.mainImage}
+              imageAlt={post.heroImageAlt || post.featuredImageAlt}
+            />
           ))}
         </div>
       ) : (
