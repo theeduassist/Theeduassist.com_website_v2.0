@@ -6,7 +6,12 @@ excerpt: Struggling to retain what you study? These five science-backed
   exams.
 author: TheEduAssist Team
 category: Study Tips
-tags: study, learning, productivity, students, education
+tags:
+  - study
+  - learning
+  - productivity
+  - students
+  - education
 publishedAt: 2026-08-07
 updatedAt: 2026-08-07
 heroImage: /images/blog/tired-student-books-notes-education-college-concept-pile-studying-indoors-37210555.webp

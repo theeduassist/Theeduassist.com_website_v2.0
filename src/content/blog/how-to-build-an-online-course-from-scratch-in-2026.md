@@ -4,7 +4,11 @@ slug: how-to-build-an-online-course-from-scratch-in-2026
 excerpt: Thinking about creating your first online course? Here's a step-by-step guide to go from idea to launched course even if you're starting from zero.
 author: TheEduAssist Team
 category: Course Development
-tags: online course, e-learning, course creation, instructional design
+tags:
+  - online course
+  - e-learning
+  - course creation
+  - instructional design
 publishedAt: 2026-08-07
 updatedAt: 2026-08-07
 heroImage: /images/blog/test-1.jpg

@@ -83,7 +83,8 @@ content:
         type: string
       - name: tags
         label: Tags
-        type: list
+        type: string
+        list: true
       - name: publishedAt
         label: Publication Date
         type: date
@@ -120,7 +121,8 @@ content:
         type: string
       - name: secondaryKeywords
         label: Secondary Keywords
-        type: list
+        type: string
+        list: true
       - name: searchIntent
         label: Search Intent
         type: string
@@ -160,7 +162,8 @@ content:
               - summary_large_image
       - name: keyTakeaways
         label: Key Takeaways
-        type: list
+        type: string
+        list: true
       - name: faqs
         label: Frequently Asked Questions
         type: object
@@ -202,10 +205,12 @@ content:
             type: date
       - name: relatedArticles
         label: Related Articles
-        type: list
+        type: string
+        list: true
       - name: relatedServices
         label: Related Service
-        type: list
+        type: string
+        list: true
       - name: downloadableResource
         label: Downloadable Resource
         type: object
@@ -371,7 +376,8 @@ content:
         type: string
       - name: areasOfExpertise
         label: Expertise Areas
-        type: list
+        type: string
+        list: true
       - name: organization
         label: Organization
         type: string

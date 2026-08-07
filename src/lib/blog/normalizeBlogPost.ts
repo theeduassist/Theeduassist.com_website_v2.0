@@ -1,6 +1,7 @@
 import type { BlogContentType, BlogContentStatus, BlogCategoryId } from '../../data/blogArchitecture';
 import { blogCategories } from '../../data/blogArchitecture';
 import { authors } from '../../data/authors';
+import { normalizeStringArray } from '../../utils/blog';
 
 export interface NormalizedBlogPost {
   id: string;
@@ -87,7 +88,7 @@ export function normalizeBlogPost(raw: any): NormalizedBlogPost {
     excerpt: raw.excerpt || raw.seo?.description || '',
     contentType: (raw.articleType?.toLowerCase().replace(' ', '-') as BlogContentType) || "article",
     primaryCategory: categoryMatch.id,
-    tags: raw.tags || [],
+    tags: normalizeStringArray(raw.tags),
     primaryAudience: raw.targetAudience?.[0] || 'L&D Professional',
     primaryIntent: 'learn',
     buyerStage: 'awareness',
@@ -99,10 +100,10 @@ export function normalizeBlogPost(raw: any): NormalizedBlogPost {
     featuredImageAlt: raw.featuredImage?.alt || raw.title,
     body: raw.body || [],
     sources: raw.sources || [],
-    relatedServiceIds: raw.relatedServices?.map((s: any) => resolveBlogSlug(s.slug) || resolveBlogSlug(s)).filter(Boolean) || [],
+    relatedServiceIds: normalizeStringArray(raw.relatedServices).map((s: any) => resolveBlogSlug(s?.slug) || resolveBlogSlug(s)).filter(Boolean) as string[],
     relatedEnterpriseSolutionIds: [],
     relatedCaseStudySlugs: [],
-    relatedArticleSlugs: raw.relatedPosts?.map((p: any) => resolveBlogSlug(p.slug) || resolveBlogSlug(p)).filter(Boolean) || [],
+    relatedArticleSlugs: normalizeStringArray(raw.relatedPosts).map((p: any) => resolveBlogSlug(p?.slug) || resolveBlogSlug(p)).filter(Boolean) as string[],
     canonical: raw.seo?.canonicalUrl || `/blog/${resolvedSlug}/`,
     robots: raw.seo?.noindex ? 'noindex, nofollow' : 'index, follow',
     indexStatus: raw.seo?.noindex ? 'noindex' : 'index',

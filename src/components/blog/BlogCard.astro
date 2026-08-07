@@ -1,6 +1,6 @@
 ---
 import ReadTimeBadge from './ReadTimeBadge.astro';
-import { getBlogUrl } from '../../utils/blog';
+import { getBlogUrl, normalizeStringArray } from '../../utils/blog';
 
 interface Props {
   title: string;
@@ -25,7 +25,9 @@ const safeExcerpt = aiSummary || excerpt || "Read this article to learn more abo
 // Filter out internal CMS statuses
 const hiddenStatuses = ['review pending', 'draft', 'internal', 'admin', 'private', 'test', 'do not publish'];
 const displayCategory = category && !hiddenStatuses.includes(category.toLowerCase()) ? category : 'Article';
-const displayTags = tags.filter(tag => !hiddenStatuses.includes(tag.toLowerCase()));
+
+const normalizedTags = normalizeStringArray(tags);
+const displayTags = normalizedTags.filter(tag => !hiddenStatuses.includes(tag.toLowerCase()));
 
 // Get a valid URL; if null, throw error locally instead of silently making a broken link
 const postUrl = getBlogUrl({slug});
@@ -38,7 +40,7 @@ if (!postUrl || postUrl === '#') {
   data-title={title}
   data-excerpt={safeExcerpt}
   data-category={category}
-  data-tags={tags.join(',')}
+  data-tags={normalizedTags.join(',')}
 >
   <a href={postUrl} class="block relative w-full aspect-[16/9] overflow-hidden bg-slate-100">
     {image ? (
