@@ -194,7 +194,7 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
       const match = filePath.match(/\/([^\/]+)\.md$/);
       const slug = match ? match[1] : '';
       const module = localPosts[filePath] as any;
-      const frontmatter = module.default?.frontmatter || module.frontmatter || {};
+      const frontmatter = (module as any).frontmatter || module.default?.frontmatter || {};
 
       return {
         id: slug,
