@@ -1,3 +1,5 @@
+import { normalizeStringArray } from '../../utils/blog';
+
 export function getPlainTextFromPortableText(body: any[]): string {
   if (!body || !Array.isArray(body)) return '';
 
@@ -215,7 +217,7 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
         heroImage: frontmatter.heroImage,
         heroImageAlt: frontmatter.heroImageAlt,
         author: frontmatter.author,
-        tags: frontmatter.tags || [],
+        tags: normalizeStringArray(frontmatter.tags),
       } as NormalizedBlogPost;
     });
 

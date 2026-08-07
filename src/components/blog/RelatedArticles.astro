@@ -1,6 +1,7 @@
 ---
 import BlogCard from './BlogCard.astro';
 import type { NormalizedBlogPost } from '../../lib/content/getAllBlogPosts';
+import { normalizeStringArray } from '../../utils/blog';
 
 interface Props {
   currentSlug: string;
@@ -20,8 +21,10 @@ const topicClusters: Record<string, string[]> = {
   'AI E-learning': ['ai elearning', 'ai course creation', 'ai learning support', 'training automation', 'ai content conversion']
 };
 const topicClustersEntries = Object.entries(topicClusters);
+const normalizedCurrentTags = normalizeStringArray(currentTags);
+
 const activeClusters = topicClustersEntries.filter(([_, clusterTags]) =>
-  currentTags.some(t => clusterTags.includes(t.toLowerCase()))
+  normalizedCurrentTags.some(t => clusterTags.includes(t.toLowerCase()))
 );
 
 // Ensure allPosts is strictly public already, but filter by current slug
@@ -41,16 +44,18 @@ const related = allPosts
       score += 3;
     }
 
+    const pTags = normalizeStringArray(p.tags);
+
     // Tag matching
-    if (currentTags.length > 0 && p.tags && p.tags.length > 0) {
-      const matchingTags = p.tags.filter((t: string) => currentTags.includes(t));
+    if (normalizedCurrentTags.length > 0 && pTags.length > 0) {
+      const matchingTags = pTags.filter((t: string) => normalizedCurrentTags.includes(t));
       score += matchingTags.length * 2;
     }
 
     // Cluster matching
-    if (p.tags && p.tags.length > 0 && activeClusters.length > 0) {
+    if (pTags.length > 0 && activeClusters.length > 0) {
       for (const [clusterName, clusterTags] of activeClusters) {
-        const hasPostCluster = p.tags.some((t: string) => clusterTags.includes(t.toLowerCase()));
+        const hasPostCluster = pTags.some((t: string) => clusterTags.includes(t.toLowerCase()));
         if (hasPostCluster) {
            score += 1.5;
            break;
