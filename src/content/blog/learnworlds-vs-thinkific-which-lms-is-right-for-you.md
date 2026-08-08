@@ -1,5 +1,5 @@
 ---
-title: "LearnWorlds vs Thinkific: Which LMS Is Right for You"
+title: "LearnWorlds vs Thinkific: Which LMS Is Right for You?"
 slug: learnworlds-vs-thinkific
 excerpt: >
   Compare LearnWorlds vs Thinkific to discover which LMS is the better fit for
@@ -24,7 +24,7 @@ updatedAt: 2026-08-08
 heroImage: /images/blog/com-1pm.png
 heroImageAlt: LearnWorlds vs Thinkific comparison showing features, pricing,
   marketing tools, and the best LMS for online course creators.
-seoTitle: "LearnWorlds vs Thinkific: Which LMS Is Right for You"
+seoTitle: "LearnWorlds vs Thinkific: Which LMS Is Right for You?"
 seoDescription: >
   LearnWorlds vs Thinkific: compare features, pricing, customization, marketing,
   analytics, and more to find the right LMS for your online course business.
