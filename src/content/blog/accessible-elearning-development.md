@@ -66,7 +66,7 @@ We design and remediate digital learning experiences toward WCAG 2.2 Level AA an
 
 *Applicable legal and procurement requirements should always be confirmed for each organization, contract and jurisdiction.*
 
-## What We Make Accessible
+### What We Make Accessible
 
 - self-paced online courses
 - instructor-led virtual learning materials
@@ -168,11 +168,11 @@ Share your existing course, platform and accessibility requirements with our tea
 [Request a 24–48 Hour Course Review](/book-free-audit/)
 [Explore Our Course Development Services](/services/course-development/)
 
-## References
+## Sources & References
 
-- [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/)
-- [W3C Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/)
-- [United States Access Board Section 508 standards](https://www.access-board.gov/ict/)
-- [ADA.gov Title II web accessibility rule](https://www.ada.gov/resources/title-ii-web-accessibility-rule/)
-- [ETSI EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/)
-- [European Commission European Accessibility Act](https://ec.europa.eu/social/main.jsp?catId=1202)
+1. [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/)
+2. [W3C Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/)
+3. [United States Access Board Section 508 standards](https://www.access-board.gov/ict/)
+4. [ADA.gov Title II web accessibility rule](https://www.ada.gov/resources/title-ii-web-accessibility-rule/)
+5. [ETSI EN 301 549](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/)
+6. [European Commission European Accessibility Act](https://ec.europa.eu/social/main.jsp?catId=1202)
