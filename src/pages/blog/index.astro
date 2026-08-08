@@ -309,10 +309,10 @@ const seoDescription = "Explore research-informed guidance on learning strategy,
     }
 
     const filtered = allPosts.filter(post => {
-      const matchesSearch = !query ||
-        post.title?.toLowerCase().includes(query) ||
+      const matchesSearch = !query || 
+        post.title?.toLowerCase().includes(query) || 
         post.excerpt?.toLowerCase().includes(query);
-      const matchesCategory = !category ||
+      const matchesCategory = !category || 
         post.category?.toLowerCase() === category;
       return matchesSearch && matchesCategory;
     });
