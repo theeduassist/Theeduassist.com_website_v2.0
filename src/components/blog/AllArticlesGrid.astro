@@ -14,7 +14,7 @@ const { posts = [], page, isFirstPage = true } = Astro.props;
   <div class="flex justify-between items-end mb-8 border-b border-slate-200 pb-4">
     <div>
       <h2 class="text-3xl font-bold text-slate-800">All Blog Articles</h2>
-      <p class="text-slate-600 mt-2">Browse our complete collection of insights.</p>
+      <p class="text-slate-600 mt-2">Browse our complete collection of Articles.</p>
     </div>
   </div>
 
@@ -152,7 +152,7 @@ const { posts = [], page, isFirstPage = true } = Astro.props;
           clone.querySelector('.tpl-category').textContent = category;
           clone.querySelector('.tpl-link-title').textContent = post.title;
 
-          const safeExcerpt = post.aiSummary || post.excerpt || "Read this article to learn more about our e-learning strategies and course building insights.";
+          const safeExcerpt = post.aiSummary || post.excerpt || "Read this article to learn more about our e-learning strategies and course building Articles.";
           clone.querySelector('.tpl-excerpt').textContent = safeExcerpt;
 
           if (post.readingTime && post.readingTime > 0) {

@@ -12,6 +12,7 @@ tags:
 publishedAt: 2026-08-07
 updatedAt: 2026-08-07
 heroImage: /images/blog/test-1.jpg
+heroImageAlt: "A person planning an online course on a whiteboard."
 advancedSeo:
   noindex: false
 editorialManagement:

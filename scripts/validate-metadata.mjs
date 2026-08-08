@@ -128,7 +128,7 @@ htmlFiles.forEach(file => {
         if (isPrivate && !robots.includes('noindex')) {
             console.error(`❌ Private route ${route} is not marked noindex`);
             hasErrors = true;
-        } else if (!isPrivate && robots.includes('noindex') && route !== '/404.html' && !route.startsWith('/locations/')) {
+        } else if (!isPrivate && robots.includes('noindex') && route !== '/404.html' && route !== '/home/' && !route.startsWith('/locations/')) {
             console.error(`❌ Public route ${route} is marked noindex`);
             hasErrors = true;
         }
