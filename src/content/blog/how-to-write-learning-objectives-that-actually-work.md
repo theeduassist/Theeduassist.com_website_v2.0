@@ -18,6 +18,7 @@ editorialManagement:
   scheduledPublicationDate: 2026-08-08
   lastReviewedDate: 2026-08-08
   nextReviewDate: 2026-08-08
+heroImage: /images/blog/test2-1.jpg
 ---
 Learning objectives are the foundation of any good course — but most course creators write them wrong. Here's how to get them right.
 
