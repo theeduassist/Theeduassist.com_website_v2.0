@@ -121,6 +121,14 @@ export const siteNavigation: TopLevelNavigationItem[] = [
     type: "link",
     enabled: true
   },
+
+  {
+    id: "blog",
+    label: "Blog",
+    href: "/blog/",
+    type: "link",
+    enabled: true
+  },
   {
     id: "about",
     label: "About Us",
@@ -132,7 +140,7 @@ export const siteNavigation: TopLevelNavigationItem[] = [
         label: "Company",
         links: [
           { id: "about-us", label: "About Us", href: "/about-us/", icon: "Users" },
-          { id: "blog", label: "Blog", href: "/blog/", icon: "BookOpen" },
+          { id: "contact-us", label: "Contact Us", href: "/contact-us/", icon: "Mail" },
           { id: "platforms", label: "Supported Platforms", href: "/platforms/", icon: "Database" },
           { id: "trust-centre", label: "Trust Centre", href: "/trust-centre/", icon: "Shield" },
         ]

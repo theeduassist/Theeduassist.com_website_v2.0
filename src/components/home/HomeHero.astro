@@ -1,6 +1,11 @@
 ---
 import { ArrowRight } from "lucide-react";
 
+interface Props {
+  isReferenceHome?: boolean;
+}
+const { isReferenceHome = false } = Astro.props;
+
 ---
 <section class="relative bg-brand-navy text-white overflow-hidden py-20 lg:py-32" aria-labelledby="home-hero-heading">
   <div class="absolute inset-0 z-0 opacity-10">
@@ -18,10 +23,10 @@ import { ArrowRight } from "lucide-react";
     <div class="w-full lg:w-1/2 space-y-8">
       <span class="inline-block text-brand-green font-semibold tracking-wide uppercase text-sm">Learning Transformation, Technology and Course Development</span>
       <h1 id="home-hero-heading" class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-        Build Learning Experiences That Are Structured, Scalable and Ready to Use
+        {isReferenceHome ? "Welcome to TheEduAssist - Digital Learning Solutions" : "Build Learning Experiences That Are Structured, Scalable and Ready to Use"}
       </h1>
       <p class="text-lg text-slate-300 max-w-2xl leading-relaxed">
-        TheEduAssist helps organizations, academies, creators and training teams turn expertise, existing content and learning goals into professional courses, LMS experiences, Kajabi systems and digital learning programs.
+        {isReferenceHome ? "Explore our comprehensive overview of e-learning design, instructional strategies, and learning management systems customized for your organization's unique requirements." : "TheEduAssist helps organizations, academies, creators and training teams turn expertise, existing content and learning goals into professional courses, LMS experiences, Kajabi systems and digital learning programs."}
       </p>
       <div class="flex flex-col sm:flex-row gap-4 pt-4">
         <a href="/book-free-audit/" class="inline-flex justify-center items-center px-6 py-3.5 border border-transparent text-base font-semibold rounded-md text-brand-navy bg-brand-green hover:bg-green-500 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-green focus:ring-offset-brand-navy">

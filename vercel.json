@@ -81,6 +81,11 @@
   ],
   "redirects": [
     {
+      "source": "/contact/",
+      "destination": "/contact-us/",
+      "permanent": true
+    },
+    {
       "source": "/blog/how-theeduassist-transforms-online-learning/",
       "destination": "/blog/how-theeduassist-transforms-learning/",
       "permanent": true

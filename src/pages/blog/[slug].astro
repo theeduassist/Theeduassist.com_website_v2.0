@@ -49,7 +49,8 @@ const schemaData: Record<string, any> = {
   "dateModified": post.dateModified || post.datePublished,
   "author": {
     "@type": post.author?.schemaType || "Organization",
-    "name": post.author?.name || "TheEduAssist Editorial Team"
+    "name": "TheEduAssist Editorial Team",
+    "url": "https://www.theeduassist.com/authors/editorial-team/"
   },
   "publisher": {
     "@type": "Organization",
@@ -91,7 +92,7 @@ if (post.featuredImage) {
           <nav class="flex items-center text-sm font-medium text-slate-500 mb-6 space-x-2" aria-label="Breadcrumb">
             <a href="/blog/" class="hover:text-brand-green transition-colors">Blog</a>
             <span>/</span>
-            <a href={`/blog/category/${post.category || 'general'}/`} class="hover:text-brand-green transition-colors capitalize">{(post.category || 'General').replace('-', ' ')}</a>
+            <a href={`/blog/category/${(post.category || 'general').toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`} class="hover:text-brand-green transition-colors capitalize">{(post.category || 'General').replace('-', ' ')}</a>
             <span>/</span>
             <span class="text-brand-blue capitalize">{post.contentType ? post.contentType.replace('-', ' ') : 'Article'}</span>
           </nav>
@@ -110,12 +111,9 @@ if (post.featuredImage) {
           <div class="flex flex-wrap items-center gap-6 py-6 border-t border-slate-100">
             {post.author && (
               <div class="flex items-center gap-3">
-                {post.author.profileImage && (
-                  <img src={post.author.profileImage} alt={post.author.name} class="w-10 h-10 rounded-full object-cover bg-slate-100" />
-                )}
                 <div class="flex flex-col">
-                  <span class="text-sm font-semibold text-brand-blue">{post.author.name}</span>
-                  <a href={`/authors/${post.author.slug}/`} class="text-xs text-brand-green hover:underline">View Profile</a>
+                  <span class="text-sm font-semibold text-brand-blue">TheEduAssist Editorial Team</span>
+                  <a href="/authors/editorial-team/" class="text-xs text-brand-green hover:underline">View Profile</a>
                 </div>
               </div>
             )}
@@ -184,6 +182,8 @@ if (post.featuredImage) {
             </div>
           )}
 
+          <ArticleTabs headings={headings} aiSummary={post.aiSummary} />
+
           <div class="prose prose-slate prose-lg md:prose-xl prose-brand max-w-none prose-headings:scroll-mt-24 prose-a:text-brand-green hover:prose-a:text-brand-blue prose-img:rounded-xl">
             {post.content ? (
               <div set:html={post.content} />
@@ -229,13 +229,10 @@ if (post.featuredImage) {
     {post.author && (
       <section class="w-full py-12 px-6 md:px-12 bg-white border-y border-slate-200">
         <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-6">
-          {post.author.profileImage && (
-            <img src={post.author.profileImage} alt={post.author.name} class="w-24 h-24 rounded-full object-cover shadow-sm" />
-          )}
           <div class="text-center md:text-left">
-            <h3 class="text-xl font-bold text-brand-blue mb-2">Written by {post.author.name}</h3>
-            <p class="text-slate-600 mb-4">{post.author.shortBio}</p>
-            <a href={`/authors/${post.author.slug}/`} class="text-brand-green font-medium hover:underline">View full profile</a>
+            <h3 class="text-xl font-bold text-brand-blue mb-2">Written by TheEduAssist Editorial Team</h3>
+            <p class="text-slate-600 mb-4">Practical guidance for building and improving learning experiences.</p>
+            <a href="/authors/editorial-team/" class="text-brand-green font-medium hover:underline">View full profile</a>
           </div>
         </div>
       </section>

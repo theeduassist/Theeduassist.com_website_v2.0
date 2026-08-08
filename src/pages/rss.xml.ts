@@ -1,8 +1,9 @@
 import rss from '@astrojs/rss';
-import { getBlogPostSummaries } from '../lib/content/getAllBlogPosts';
+import { getBlogPostSummaries, isPublicBlogPost } from '../lib/content/getAllBlogPosts';
 
 export async function GET(context: any) {
-  const posts = await getBlogPostSummaries();
+  const allPosts = await getBlogPostSummaries();
+  const posts = allPosts.filter(post => isPublicBlogPost(post));
 
   return rss({
     title: 'TheEduAssist Blog',
