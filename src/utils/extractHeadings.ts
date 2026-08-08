@@ -4,25 +4,47 @@ export interface Heading {
   text: string;
 }
 
-export function extractHeadings(body: any[]): Heading[] {
-  if (!body || !Array.isArray(body)) return [];
+export function extractHeadings(body: any): Heading[] {
+  if (!body) return [];
 
-  return body
-    .filter((block) => block._type === 'block' && /^h[1-6]$/.test(block.style))
-    .map((block) => {
-      const text = block.children
-        .map((child: any) => child.text)
-        .join('');
+  // Handle markdown string (local .md files)
+  if (typeof body === 'string') {
+    const headings: Heading[] = [];
+    const lines = body.split('\n');
+    for (const line of lines) {
+      const match = line.match(/^(#{1,6})\s+(.+)$/);
+      if (match) {
+        const depth = match[1].length;
+        const text = match[2].trim();
+        const slug = text
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/(^-|-$)/g, '');
+        headings.push({ depth, slug, text });
+      }
+    }
+    return headings;
+  }
 
-      const slug = text
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/(^-|-$)/g, '');
+  // Handle Sanity Portable Text (array of blocks)
+  if (Array.isArray(body)) {
+    return body
+      .filter((block) => block._type === 'block' && /^h[1-6]$/.test(block.style))
+      .map((block) => {
+        const text = block.children
+          .map((child: any) => child.text)
+          .join('');
+        const slug = text
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/(^-|-$)/g, '');
+        return {
+          depth: parseInt(block.style.replace('h', '')),
+          slug,
+          text,
+        };
+      });
+  }
 
-      return {
-        depth: parseInt(block.style.replace('h', '')),
-        slug,
-        text,
-      };
-    });
+  return [];
 }
