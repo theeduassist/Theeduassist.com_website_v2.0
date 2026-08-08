@@ -164,6 +164,7 @@ export type NormalizedBlogPost = {
   heroImageAlt?: string;
   author?: string;
   tags?: string[];
+  aiSummary?: string;
   seo?: any;
   migrationStatus?: string;
   sources?: any[];
@@ -218,6 +219,7 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
         heroImageAlt: frontmatter.heroImageAlt,
         author: frontmatter.author,
         tags: normalizeStringArray(frontmatter.tags),
+        aiSummary: frontmatter.aiSummary || '',
       } as NormalizedBlogPost;
     });
 
