@@ -443,7 +443,7 @@ Some plans on ++[LearnWorlds](https://www.learnworlds.com/pricing/?utm_medium=af
 
 ![](/images/blog/com-9.png)
 
-## **Which Platform Suits You Better?** 
+## **Which Platform Suits You Better?**
 
 Choose **Thinkific** if you:
 
@@ -490,4 +490,3 @@ The best LMS is the one that supports your goals today while giving you room to 
 - ++[10 Powerful Benefits of LearnWorlds LMS for Online Training](https://medium.com/@hafsazahoor144/10-powerful-benefits-of-learnworlds-lms-for-online-training-5ced3b307453?sharedUserId=hafsazahoor144)++
 - ++[How to Boost Employee Training With the Right LMS Technology](https://medium.com/@hafsazahoor144/how-to-boost-employee-training-with-the-right-lms-technology-275654440700?sharedUserId=hafsazahoor144)++
 
-  
