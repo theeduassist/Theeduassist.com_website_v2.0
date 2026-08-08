@@ -74,6 +74,9 @@ content:
         label: Short Description / Excerpt
         type: text
         required: true
+      - name: aiSummary
+        label: AI Summary
+        type: text
       - name: author
         label: Author
         type: string

@@ -105,6 +105,7 @@ export function isPublicBlogSummary(post: any): boolean {
   if (post.hidden === true) return false;
   if (post.reviewPending === true) return false;
   if (!post.publishedAt) return false;
+  if (isPlaceholderPost(post)) return false;
 
   const title = (post.title || '').toLowerCase();
   if (!title ||
@@ -112,7 +113,8 @@ export function isPublicBlogSummary(post: any): boolean {
       title.includes('testing') ||
       title.includes('do not publish') ||
       title.includes('review pending') ||
-      title.includes('content coming soon')) {
+      title.includes('content coming soon') ||
+      title.includes('untitled')) {
       return false;
   }
 
@@ -164,6 +166,8 @@ export type NormalizedBlogPost = {
   heroImageAlt?: string;
   author?: string;
   tags?: string[];
+  aiSummary?: string;
+  keyTakeaways?: string[];
   seo?: any;
   migrationStatus?: string;
   sources?: any[];
@@ -218,6 +222,8 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
         heroImageAlt: frontmatter.heroImageAlt,
         author: frontmatter.author,
         tags: normalizeStringArray(frontmatter.tags),
+        aiSummary: frontmatter.aiSummary || '',
+        keyTakeaways: normalizeStringArray(frontmatter.keyTakeaways),
       } as NormalizedBlogPost;
     });
 

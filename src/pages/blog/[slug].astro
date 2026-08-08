@@ -2,7 +2,7 @@
 export const prerender = true;
 import BlogArticleLayout from '../../layouts/BlogArticleLayout.astro';
 import PortableTextRenderer from '../../components/blog/PortableTextRenderer.tsx';
-import BlogTableOfContents from '../../components/blog/BlogTableOfContents.astro';
+import ArticleTabs from '../../components/blog/ArticleTabs.astro';
 import RelatedArticles from '../../components/blog/RelatedArticles.astro';
 import BlogCTA from '../../components/blog/BlogCTA.astro';
 import ArticleShareButtons from '../../components/blog/ArticleShareButtons.astro';
@@ -32,16 +32,19 @@ if (!post) {
   return new Response("Not found", { status: 404 });
 }
 
+const currentIndex = allPosts.findIndex(p => p.slug === post.slug);
+const prevPost = allPosts[currentIndex + 1];
+const nextPost = allPosts[currentIndex - 1];
+
 const hasDirectAnswer = !!post.shortAnswer;
 const headings = extractHeadings(post.body);
 const showToc = headings.length >= 2;
 
-const schemaData = {
+const schemaData: Record<string, any> = {
   "@context": "https://schema.org",
   "@type": post.contentType === 'press-release' ? "NewsArticle" : "Article",
   "headline": post.title,
   "description": post.excerpt,
-  "image": post.featuredImage ? [post.featuredImage] : undefined,
   "datePublished": post.datePublished,
   "dateModified": post.dateModified || post.datePublished,
   "author": {
@@ -61,6 +64,10 @@ const schemaData = {
     "@id": `https://www.theeduassist.com${post.canonical}`
   }
 };
+
+if (post.featuredImage) {
+    schemaData.image = [post.featuredImage];
+}
 ---
 
 <BlogArticleLayout
@@ -156,7 +163,7 @@ const schemaData = {
       <div class="w-full max-w-7xl mx-auto px-6 md:px-12 py-12 flex flex-col lg:flex-row gap-12">
 
         <!-- Main Content -->
-        <div class={`w-full ${showToc ? 'lg:w-2/3 lg:pr-8' : 'max-w-4xl mx-auto'}`}>
+        <div class="w-full max-w-4xl mx-auto">
 
           {hasDirectAnswer && (
             <div class="bg-brand-blue/5 border border-brand-blue/10 rounded-xl p-6 md:p-8 mb-10">
@@ -166,6 +173,13 @@ const schemaData = {
               </div>
             </div>
           )}
+
+          <ArticleTabs
+            aiSummary={post.aiSummary}
+            keyTakeaways={post.keyTakeaways}
+            excerpt={post.excerpt}
+            headings={headings}
+          />
 
           <div class="prose prose-slate prose-lg md:prose-xl prose-brand max-w-none prose-headings:scroll-mt-24 prose-a:text-brand-green hover:prose-a:text-brand-blue prose-img:rounded-xl">
             {post.content ? (
@@ -205,17 +219,6 @@ const schemaData = {
 
         </div>
 
-        <!-- Sidebar TOC -->
-        {showToc && (
-          <aside class="w-full lg:w-1/3 order-first lg:order-last mb-12 lg:mb-0">
-            <div class="sticky top-24">
-              <BlogTableOfContents headings={headings} />
-              <div class="mt-8 hidden lg:block">
-                <BlogCTA variant="sidebar" />
-              </div>
-            </div>
-          </aside>
-        )}
       </div>
     </article>
 
@@ -233,6 +236,26 @@ const schemaData = {
           </div>
         </div>
       </section>
+    )}
+
+    <!-- Previous / Next Navigation -->
+    {(prevPost || nextPost) && (
+      <div class="w-full px-6 md:px-12 max-w-4xl mx-auto py-12 border-t border-slate-200">
+        <div class="flex flex-col md:flex-row justify-between gap-6">
+          {prevPost && (
+            <a href={`/blog/${prevPost.slug}/`} class="flex-1 p-6 bg-white rounded-xl border border-slate-200 hover:border-brand-green hover:shadow-md transition-all group">
+              <span class="text-xs text-slate-400 uppercase tracking-wider font-semibold">← Previous</span>
+              <p class="mt-2 font-bold text-brand-blue group-hover:text-brand-green transition-colors line-clamp-2">{prevPost.title}</p>
+            </a>
+          )}
+          {nextPost && (
+            <a href={`/blog/${nextPost.slug}/`} class="flex-1 p-6 bg-white rounded-xl border border-slate-200 hover:border-brand-green hover:shadow-md transition-all group text-right">
+              <span class="text-xs text-slate-400 uppercase tracking-wider font-semibold">Next →</span>
+              <p class="mt-2 font-bold text-brand-blue group-hover:text-brand-green transition-colors line-clamp-2">{nextPost.title}</p>
+            </a>
+          )}
+        </div>
+      </div>
     )}
 
     <!-- Related Articles -->

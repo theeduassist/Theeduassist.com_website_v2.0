@@ -12,39 +12,16 @@ interface Props {
 const { headings = [] } = Astro.props;
 ---
 {headings.length > 0 && (
-  <nav class="bg-white border border-slate-200 rounded-xl shadow-sm mb-10 overflow-hidden lg:sticky lg:top-24 max-h-[calc(100vh-8rem)] overflow-y-auto" aria-label="Table of contents">
-    <details class="group lg:open md:hidden">
-        <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-4 text-slate-800 bg-slate-50 border-b border-slate-100 hover:bg-slate-100 transition-colors focus-ring focus-visible:ring-2 focus-visible:ring-brand-primary">
-            <span class="text-sm uppercase tracking-wider">In this article</span>
-            <span class="transition-transform duration-300 group-open:rotate-180 text-slate-400">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-            </span>
-        </summary>
-        <div class="p-4 bg-white">
-            <ul class="space-y-2.5 text-sm">
-              {headings.map(heading => (
-                <li class={`pl-${(heading.depth - 2) * 4}`}>
-                  <a href={`#${heading.slug}`} class={`block text-slate-600 hover:text-brand-primary transition-colors focus-ring rounded-sm ${heading.depth === 2 ? 'font-semibold text-slate-800' : 'text-slate-600 before:content-["-"] before:mr-1.5 before:text-slate-300'}`} data-toc-link>
-                    {heading.text}
-                  </a>
-                </li>
-              ))}
-            </ul>
-        </div>
-    </details>
-
-    <div class="hidden md:block p-6 bg-slate-50/50">
-        <h3 class="font-bold text-slate-800 mb-4 uppercase tracking-wider text-xs border-b border-slate-200 pb-3">On this page</h3>
-        <ul class="space-y-2.5 text-sm">
-          {headings.map(heading => (
-            <li class={`pl-${(heading.depth - 2) * 4}`}>
-              <a href={`#${heading.slug}`} class={`block text-slate-600 hover:text-brand-primary transition-colors focus-ring rounded-sm py-0.5 ${heading.depth === 2 ? 'font-semibold text-slate-800' : 'text-slate-600 before:content-["└"] before:mr-1.5 before:text-slate-300'}`} data-toc-link>
-                {heading.text}
-              </a>
-            </li>
-          ))}
-        </ul>
-    </div>
+  <nav class="bg-white" aria-label="Table of contents">
+    <ul class="space-y-2 text-sm">
+        {headings.map(heading => (
+        <li class={`pl-${(heading.depth - 2) * 4}`}>
+            <a href={`#${heading.slug}`} class={`block text-slate-600 hover:text-brand-primary transition-colors focus-ring rounded-sm py-0.5 ${heading.depth === 2 ? 'font-semibold text-slate-800' : 'text-slate-600 before:content-["└"] before:mr-1.5 before:text-slate-300'}`} data-toc-link>
+            {heading.text}
+            </a>
+        </li>
+        ))}
+    </ul>
   </nav>
 )}
 
