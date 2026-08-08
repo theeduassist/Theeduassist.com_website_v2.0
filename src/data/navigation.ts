@@ -14,7 +14,7 @@ export const navigation = {
     { label: 'Blogs', href: '/blog/' },
     { label: 'Career', href: '/careers/' },
     { label: 'About Us', href: '/about-us/' },
-    { label: 'Contact Us', href: '/contact/' },
+    { label: 'Contact Us', href: '/contact-us/' },
     { label: 'Case Studies', href: '/case-studies/' },
     { label: 'Terms & Conditions', href: '/terms-and-conditions/' },
   ],

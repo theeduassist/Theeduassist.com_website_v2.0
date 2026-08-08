@@ -23,8 +23,13 @@ const allPosts = await getBlogPostSummaries();
 // Filter based on category
 const categoryPosts = allPosts.filter(p => {
   if (p.category) {
-    if (typeof p.category === 'string') return p.category.toLowerCase() === category.id || p.category.toLowerCase() === category.title.toLowerCase();
-    if (typeof p.category === 'object' && (p.category as any).slug) return (p.category as any).slug === category.slug;
+    if (typeof p.category === 'string') {
+      const canonicalSlug = p.category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+      return canonicalSlug === category.slug || canonicalSlug === category.id;
+    }
+    if (typeof p.category === 'object' && (p.category as any).slug) {
+      return (p.category as any).slug === category.slug || (p.category as any).slug === category.id;
+    }
   }
   return false;
 });
@@ -43,7 +48,7 @@ const seoDescription = category.description;
   title={seoTitle}
   description={seoDescription}
   canonicalPath={`/blog/category/${category.slug}/`}
-  robots={hasContent && category.sitemapVisibility ? "index, follow" : "noindex, follow"}
+  robots="index, follow"
 >
   <main class="w-full flex-grow flex flex-col bg-slate-50 overflow-hidden">
     <!-- Hero Section -->

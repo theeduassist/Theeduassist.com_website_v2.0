@@ -45,7 +45,7 @@ const siteUrl = import.meta.env.PUBLIC_SITE_URL || 'https://www.theeduassist.com
 const isMainDomain = siteUrl === 'https://www.theeduassist.com';
 // Only noindex if explicitly requested, or if a site URL is set and it's NOT the main domain (e.g. preview)
 // If PUBLIC_SITE_URL is missing or empty, it defaults to indexable via the fallback.
-const shouldNoIndex = noindex === true || (import.meta.env.PUBLIC_SITE_URL && import.meta.env.PUBLIC_SITE_URL.trim() !== '' && !isMainDomain);
+const shouldNoIndex = noindex === true || (import.meta.env.PUBLIC_SITE_URL && import.meta.env.PUBLIC_SITE_URL.trim() !== '' && !isMainDomain && import.meta.env.PUBLIC_SITE_URL !== 'http://localhost:4321');
 ---
 
 <!doctype html>

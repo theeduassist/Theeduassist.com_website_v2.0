@@ -19,14 +19,14 @@ const site = { name: organizationEntity.name, email: organizationEntity.contactP
                 <span class="text-xs text-brand-textMuted font-medium uppercase tracking-wider">E-Learning Design Agency</span>
             </div>
         </a>
-        <nav class="hidden xl:flex gap-4 xl:gap-6 items-center relative" aria-label="Main Navigation">
+        <nav class="hidden xl:flex gap-2 xl:gap-4 items-center relative" aria-label="Main Navigation">
             {siteNavigation.map((item) => (
                 item.enabled ? (
                     item.type === 'link' ? (
-                        <a href={item.href} class="text-brand-textMain hover:text-brand-accent hover:bg-brand-accent/10 px-2 xl:px-3 py-2 font-medium focus-ring rounded-md transition-all duration-300 whitespace-nowrap">{item.label}</a>
+                        <a href={item.href} class="text-brand-textMain hover:text-brand-accent hover:bg-brand-accent/10 px-2 xl:px-2 py-2 font-medium focus-ring rounded-md transition-all duration-300 whitespace-nowrap">{item.label}</a>
                     ) : item.type === 'dropdown' ? (
                         <div class="relative group nav-dropdown-container">
-                            <button class="text-brand-textMain hover:text-brand-accent hover:bg-brand-accent/10 px-2 xl:px-3 py-2 font-medium focus-ring rounded-md transition-all duration-300 inline-flex items-center whitespace-nowrap dropdown-toggle-btn" aria-expanded="false" aria-controls={`dropdown-${item.id}`}>
+                            <button class="text-brand-textMain hover:text-brand-accent hover:bg-brand-accent/10 px-2 xl:px-2 py-2 font-medium focus-ring rounded-md transition-all duration-300 inline-flex items-center whitespace-nowrap dropdown-toggle-btn" aria-expanded="false" aria-controls={`dropdown-${item.id}`}>
                                 {item.label}
                                 <svg class="ml-1 w-4 h-4 text-brand-textMuted group-hover:text-brand-accent transition-transform duration-200 transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                             </button>
@@ -44,7 +44,7 @@ const site = { name: organizationEntity.name, email: organizationEntity.contactP
                         </div>
                     ) : item.type === 'mega-menu' ? (
                         <div class="group nav-mega-container static-mega">
-                            <button class="text-brand-textMain hover:text-brand-accent hover:bg-brand-accent/10 px-2 xl:px-3 py-2 font-medium focus-ring rounded-md transition-all duration-300 inline-flex items-center whitespace-nowrap mega-toggle-btn" aria-expanded="false" aria-controls={`mega-menu-${item.id}`}>
+                            <button class="text-brand-textMain hover:text-brand-accent hover:bg-brand-accent/10 px-2 xl:px-2 py-2 font-medium focus-ring rounded-md transition-all duration-300 inline-flex items-center whitespace-nowrap mega-toggle-btn" aria-expanded="false" aria-controls={`mega-menu-${item.id}`}>
                                 {item.label}
                                 <svg class="ml-1 w-4 h-4 text-brand-textMuted group-hover:text-brand-accent transition-transform duration-200 transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                             </button>
@@ -79,9 +79,9 @@ const site = { name: organizationEntity.name, email: organizationEntity.contactP
                 ) : null
             ))}
 
-            <div class="flex items-center ml-2 xl:ml-4 pl-4 xl:pl-6 border-l border-brand-border/60 gap-3">
-                <a href="/book-free-audit/" class="bg-brand-accent text-white px-5 py-2.5 rounded-md font-semibold hover-lift click-press focus-ring transition-all duration-300 hover:bg-brand-primary shadow hover:shadow-md whitespace-nowrap">Get a 24–48 Hour Review</a>
-                <a href="https://calendly.com/eduassist-talk/30min" target="_blank" rel="noopener noreferrer" class="hidden 2xl:inline-flex bg-transparent border-2 border-brand-primary text-brand-primary px-5 py-2.5 rounded-md font-semibold hover-lift click-press focus-ring transition-all duration-300 hover:bg-brand-softBg whitespace-nowrap">Book a Call / Demo</a>
+            <div class="flex items-center ml-2 xl:ml-3 pl-2 xl:pl-4 border-l border-brand-border/60 gap-3">
+                <a href="/book-free-audit/" class="bg-brand-accent text-white px-4 py-2 rounded-md font-semibold hover-lift click-press focus-ring transition-all duration-300 hover:bg-brand-primary shadow hover:shadow-md whitespace-nowrap">Get a 24–48 Hour Review</a>
+                <a href="https://calendly.com/eduassist-talk/30min" target="_blank" rel="noopener noreferrer" class="hidden 2xl:inline-flex bg-transparent border-2 border-brand-primary text-brand-primary px-4 py-2 rounded-md font-semibold hover-lift click-press focus-ring transition-all duration-300 hover:bg-brand-softBg whitespace-nowrap">Book a Call / Demo</a>
             </div>
         </nav>
         <div class="xl:hidden flex items-center">
