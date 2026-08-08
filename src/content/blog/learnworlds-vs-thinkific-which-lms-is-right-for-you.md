@@ -35,7 +35,7 @@ secondaryKeywords:
   - LearnWorlds vs Thinkific features
   - best LMS for online courses
   - online course platform comparison
-searchIntent: Commercial Investigation
+searchIntent: Informational and Commercial Investigation
 advancedSeo:
   noindex: false
 faqs:
