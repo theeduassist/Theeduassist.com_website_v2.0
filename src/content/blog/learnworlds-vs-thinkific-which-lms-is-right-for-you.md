@@ -74,8 +74,8 @@ In this [LearnWorlds vs Thinkific](https://www.learnworlds.com/compare/learnworl
 
 ### **Quick Verdict**
 
-- Choose **LearnWorlds** if you want advanced learning tools, stronger branding, and an LMS that grows with your business.
-- Choose **Thinkific** if you want a simple platform that helps you launch your first course quickly.
+- Choose learnWorlds if you want advanced learning tools, stronger branding, and an LMS that grows with your business.
+- Choose Thinkific if you want a simple platform that helps you launch your first course quickly.
 
 ## **The Core Difference: What Suits You Better?**
 
