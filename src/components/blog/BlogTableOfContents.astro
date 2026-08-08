@@ -13,43 +13,58 @@ const { headings = [] } = Astro.props;
 ---
 {headings.length > 0 && (
   <nav class="bg-white border border-slate-200 rounded-xl shadow-sm mb-10 overflow-hidden lg:sticky lg:top-24 max-h-[calc(100vh-8rem)] overflow-y-auto" aria-label="Table of contents">
-    <details class="group lg:open md:hidden">
-        <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-4 text-slate-800 bg-slate-50 border-b border-slate-100 hover:bg-slate-100 transition-colors focus-ring focus-visible:ring-2 focus-visible:ring-brand-primary">
-            <span class="text-sm uppercase tracking-wider">In this article</span>
-            <span class="transition-transform duration-300 group-open:rotate-180 text-slate-400">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-            </span>
-        </summary>
-        <div class="p-4 bg-white">
-            <ul class="space-y-2.5 text-sm">
-              {headings.map(heading => (
-                <li class={`pl-${(heading.depth - 2) * 4}`}>
-                  <a href={`#${heading.slug}`} class={`block text-slate-600 hover:text-brand-primary transition-colors focus-ring rounded-sm ${heading.depth === 2 ? 'font-semibold text-slate-800' : 'text-slate-600 before:content-["-"] before:mr-1.5 before:text-slate-300'}`} data-toc-link>
-                    {heading.text}
-                  </a>
-                </li>
-              ))}
-            </ul>
-        </div>
-    </details>
-
-    <div class="hidden md:block p-6 bg-slate-50/50">
-        <h3 class="font-bold text-slate-800 mb-4 uppercase tracking-wider text-xs border-b border-slate-200 pb-3">On this page</h3>
-        <ul class="space-y-2.5 text-sm">
+    
+    <!-- Mobile: Collapsible -->
+    <details class="group md:hidden">
+      <summary class="flex justify-between items-center font-bold cursor-pointer list-none p-4 text-slate-800 bg-slate-50 border-b border-slate-100 hover:bg-slate-100 transition-colors">
+        <span class="text-sm font-semibold uppercase tracking-wider text-brand-green">On This Page</span>
+        <span class="transition-transform duration-300 group-open:rotate-180 text-slate-400">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </span>
+      </summary>
+      <div class="p-4 bg-white">
+        <ul class="space-y-1 text-sm">
           {headings.map(heading => (
-            <li class={`pl-${(heading.depth - 2) * 4}`}>
-              <a href={`#${heading.slug}`} class={`block text-slate-600 hover:text-brand-primary transition-colors focus-ring rounded-sm py-0.5 ${heading.depth === 2 ? 'font-semibold text-slate-800' : 'text-slate-600 before:content-["└"] before:mr-1.5 before:text-slate-300'}`} data-toc-link>
+            <li style={`padding-left: ${(heading.depth - 2) * 12}px`}>
+              
+                href={`#${heading.slug}`}
+                class={`block py-1.5 px-3 rounded-md text-slate-600 hover:text-brand-green hover:bg-green-50 transition-all ${heading.depth === 2 ? 'font-semibold text-slate-800' : 'text-slate-500 text-xs'}`}
+                data-toc-link
+              >
                 {heading.text}
               </a>
             </li>
           ))}
         </ul>
+      </div>
+    </details>
+
+    <!-- Desktop: Always visible -->
+    <div class="hidden md:block">
+      <div class="px-5 pt-5 pb-3 border-b border-slate-100">
+        <h3 class="font-bold text-xs uppercase tracking-widest text-brand-green">On This Page</h3>
+      </div>
+      <ul class="p-4 space-y-1 text-sm">
+        {headings.map(heading => (
+          <li style={`padding-left: ${(heading.depth - 2) * 12}px`}>
+            
+              href={`#${heading.slug}`}
+              class={`toc-link block py-1.5 px-3 rounded-md transition-all border-l-2 border-transparent hover:border-brand-green hover:text-brand-green hover:bg-green-50 ${heading.depth === 2 ? 'font-semibold text-slate-700' : 'text-slate-500 text-xs'}`}
+              data-toc-link
+              data-slug={heading.slug}
+            >
+              {heading.text}
+            </a>
+          </li>
+        ))}
+      </ul>
     </div>
   </nav>
 )}
 
 <style is:global>
-  /* Ensure anchors aren't hidden under sticky header */
   .prose h2, .prose h3, .prose h4 {
     scroll-margin-top: 6rem;
   }
@@ -58,23 +73,51 @@ const { headings = [] } = Astro.props;
       scroll-behavior: smooth;
     }
   }
+  .toc-link.active {
+    border-left-color: var(--color-brand-green, #16a34a) !important;
+    color: var(--color-brand-green, #16a34a) !important;
+    background-color: #f0fdf4 !important;
+    font-weight: 600;
+  }
 </style>
 
 <script>
   function setupToc() {
-    const tocLinks = document.querySelectorAll('[data-toc-link]');
+    const tocLinks = document.querySelectorAll('.toc-link');
     if (!tocLinks.length) return;
 
-    // Optional: Add active state logic using IntersectionObserver later
-
+    // Active section highlighting
+    const headingElements: Element[] = [];
     tocLinks.forEach(link => {
-      link.addEventListener('click', (e) => {
-        // Only override default behavior if smooth scroll isn't native (mostly it is now)
-        // But we keep tracking
+      const slug = link.getAttribute('data-slug');
+      if (slug) {
+        const el = document.getElementById(slug);
+        if (el) headingElements.push(el);
+      }
+    });
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            tocLinks.forEach(link => link.classList.remove('active'));
+            const activeLink = document.querySelector(`.toc-link[data-slug="${entry.target.id}"]`);
+            if (activeLink) activeLink.classList.add('active');
+          }
+        });
+      },
+      { rootMargin: '-10% 0px -80% 0px', threshold: 0 }
+    );
+
+    headingElements.forEach(el => observer.observe(el));
+
+    // Track clicks
+    tocLinks.forEach(link => {
+      link.addEventListener('click', () => {
         if (window.dataLayer && typeof window.trackEvent === 'function') {
-           window.trackEvent('article_toc_click', {
-             target_id: link.getAttribute('href')
-           });
+          window.trackEvent('article_toc_click', {
+            target_id: link.getAttribute('href')
+          });
         }
       });
     });
