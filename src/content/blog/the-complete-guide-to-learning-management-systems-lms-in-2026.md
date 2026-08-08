@@ -3,11 +3,11 @@ title: The Complete Guide to Learning Management Systems (LMS) in 2026
 slug: complete-guide-learning-management-systems-2026
 excerpt: Everything you need to know about Learning Management Systems what they
   are, how they work, and how to choose the right one for your organization.
-aiSummary: '"This comprehensive guide covers what an LMS is, how it works, the
-  key features to look for, and how to choose the right platform for your
+aiSummary: This comprehensive guide covers what an LMS is, how it works, the key
+  features to look for, and how to choose the right platform for your
   organization or course business in 2026. Topics include cloud-based vs
   self-hosted options, must-have features, and top platforms like TalentLMS,
-  Docebo, and Kajabi'
+  Docebo, and Kajabi
 author: TheEduAssist Team
 category: LMS Learning Technology
 publishedAt: 2026-08-08
