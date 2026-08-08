@@ -72,7 +72,7 @@ Choosing the wrong Learning Management System (LMS) can cost you far more than t
 
 In this [LearnWorlds vs Thinkific](https://www.learnworlds.com/compare/learnworlds-vs-thinkific/) comparison, we'll break down their features, pricing, customization, marketing tools, and learning experience. By the end, you'll know which LMS best fits your goals, budget, and the type of online course business you want to build.
 
-### **Quick Verdict**
+## **Quick Verdict**
 
 - Choose LearnWorlds if you want advanced learning tools, stronger branding, and an LMS that grows with your business.
 - Choose Thinkific if you want a simple platform that helps you launch your first course quickly.
