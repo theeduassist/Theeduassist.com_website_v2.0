@@ -19,12 +19,12 @@ if (!showAiSummary && !showToc) {
 }
 ---
 
-<div class="mb-10 rounded-xl overflow-hidden shadow-sm border border-slate-200 bg-white" id="article-tabs">
-  <div class="flex border-b border-slate-200 bg-slate-50" role="tablist" aria-label="Article Features">
+<div class="mb-12 mt-8" id="article-tabs">
+  <div class="flex border-b border-slate-200 mb-6" role="tablist" aria-label="Article Features">
     {showAiSummary && (
       <button
         id="tab-summary"
-        class="flex-1 py-3 px-4 text-center font-semibold text-brand-blue border-b-2 border-brand-green bg-white hover:bg-slate-50 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-green"
+        class="pb-3 px-6 text-center font-semibold text-brand-blue border-b-2 border-brand-green bg-transparent hover:text-brand-green transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-green"
         role="tab"
         aria-selected="true"
         aria-controls="panel-summary"
@@ -35,7 +35,7 @@ if (!showAiSummary && !showToc) {
     {showToc && (
       <button
         id="tab-toc"
-        class={`flex-1 py-3 px-4 text-center font-medium text-slate-600 hover:text-brand-blue hover:bg-slate-100 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-green ${!showAiSummary ? 'border-b-2 border-brand-green bg-white font-semibold text-brand-blue' : 'border-b-2 border-transparent'}`}
+        class={`pb-3 px-6 text-center font-medium text-slate-600 hover:text-brand-blue bg-transparent transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-green ${!showAiSummary ? 'border-b-2 border-brand-green font-semibold text-brand-blue' : 'border-b-2 border-transparent'}`}
         role="tab"
         aria-selected={!showAiSummary ? "true" : "false"}
         aria-controls="panel-toc"
@@ -45,11 +45,12 @@ if (!showAiSummary && !showToc) {
     )}
   </div>
 
-  <div class="p-6 md:p-8">
+  <div class="py-2">
     {showAiSummary && (
       <div id="panel-summary" role="tabpanel" aria-labelledby="tab-summary" tabindex="0" class="focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-green rounded-sm">
         <div class="prose prose-slate prose-brand max-w-none">
-          <p class="text-lg text-slate-700 leading-relaxed mb-6">{summaryContent}</p>
+          <h3 class="text-lg font-bold text-brand-blue mt-0 mb-3">Quick Answer</h3>
+          <p class="text-[18px] text-slate-700 leading-[1.8] mb-6">{summaryContent}</p>
 
           {keyTakeaways && keyTakeaways.length > 0 && (
             <div class="bg-brand-blue/5 border border-brand-blue/10 rounded-lg p-5">
@@ -112,16 +113,16 @@ if (!showAiSummary && !showToc) {
         // Reset all
         tabs.forEach(t => {
           t.setAttribute('aria-selected', 'false');
-          t.classList.remove('border-brand-green', 'bg-white', 'font-semibold', 'text-brand-blue');
-          t.classList.add('border-transparent', 'font-medium', 'text-slate-600', 'hover:bg-slate-100');
+          t.classList.remove('border-brand-green', 'font-semibold', 'text-brand-blue');
+          t.classList.add('border-transparent', 'font-medium', 'text-slate-600');
         });
 
         panels.forEach(p => p.classList.add('hidden'));
 
         // Activate selected
         target.setAttribute('aria-selected', 'true');
-        target.classList.remove('border-transparent', 'font-medium', 'text-slate-600', 'hover:bg-slate-100');
-        target.classList.add('border-brand-green', 'bg-white', 'font-semibold', 'text-brand-blue', 'hover:bg-slate-50');
+        target.classList.remove('border-transparent', 'font-medium', 'text-slate-600');
+        target.classList.add('border-brand-green', 'font-semibold', 'text-brand-blue');
 
         const panelId = target.getAttribute('aria-controls');
         if (panelId) {
