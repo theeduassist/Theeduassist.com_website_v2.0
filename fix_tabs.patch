@@ -1,0 +1,19 @@
+<<<<<<< SEARCH
+// Only render if we have either TOC or AI Summary
+if (!showToc && !aiSummary) {
+  return null;
+}
+---
+=======
+---
+>>>>>>> REPLACE
+<<<<<<< SEARCH
+  setupTabs();
+  document.addEventListener('astro:page-load', setupTabs);
+=======
+  document.addEventListener('astro:page-load', setupTabs);
+  // Only call immediately if we are not using View Transitions, otherwise let the event handle it.
+  if (!document.startViewTransition) {
+     setupTabs();
+  }
+>>>>>>> REPLACE

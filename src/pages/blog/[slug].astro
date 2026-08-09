@@ -2,8 +2,7 @@
 export const prerender = true;
 import BlogArticleLayout from '../../layouts/BlogArticleLayout.astro';
 import PortableTextRenderer from '../../components/blog/PortableTextRenderer.tsx';
-import BlogTableOfContents from '../../components/blog/BlogTableOfContents.astro';
-import ArticleAiSummary from '../../components/blog/ArticleAiSummary.astro';
+import ArticleTabs from '../../components/blog/ArticleTabs.astro';
 import RelatedArticles from '../../components/blog/RelatedArticles.astro';
 import BlogCTA from '../../components/blog/BlogCTA.astro';
 import ArticleShareButtons from '../../components/blog/ArticleShareButtons.astro';
@@ -56,6 +55,12 @@ const breadcrumbSchema = {
       "position": 2,
       "name": (post.category || 'General').replace(/-/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase()),
       "item": `https://www.theeduassist.com/blog/category/${(post.category || 'general').toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": post.title,
+      "item": `https://www.theeduassist.com/blog/${post.slug}/`
     }
   ]
 };
@@ -178,27 +183,15 @@ if (post.featuredImage) {
         </div>
       )}
 
-      <!-- Layout with Sidebar for TOC -->
-      <div class="w-full max-w-7xl mx-auto px-6 md:px-12 py-12 flex flex-col lg:flex-row gap-8 xl:gap-16 relative">
-
-        {/* Left Sidebar (Desktop TOC) */}
-        {showToc && (
-          <aside class="hidden lg:block w-[260px] shrink-0">
-            <BlogTableOfContents headings={headings} />
-          </aside>
-        )}
+      <!-- Layout -->
+      <div class="w-full max-w-4xl mx-auto px-6 md:px-12 py-12 flex flex-col relative">
 
         <!-- Main Content -->
-        <div class="w-full max-w-[680px] mx-auto lg:mx-0 flex-grow">
+        <div class="w-full flex-grow">
 
-          {/* Mobile TOC */}
-          {showToc && (
-            <div class="lg:hidden block">
-              <BlogTableOfContents headings={headings} />
-            </div>
+          {(showToc || post.aiSummary) && (
+             <ArticleTabs showToc={showToc} headings={headings} aiSummary={post.aiSummary} />
           )}
-
-          <ArticleAiSummary aiSummary={post.aiSummary} />
 
           {hasDirectAnswer && (
             <div class="bg-brand-blue/5 border border-brand-blue/10 rounded-xl p-6 md:p-8 mb-10">
