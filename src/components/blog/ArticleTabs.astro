@@ -1,0 +1,91 @@
+---
+interface Props {
+  showToc: boolean;
+  headings: any[];
+  aiSummary?: string;
+}
+
+const { showToc, headings, aiSummary } = Astro.props;
+import BlogTableOfContents from './BlogTableOfContents.astro';
+import ArticleAiSummary from './ArticleAiSummary.astro';
+---
+
+<div class="mb-10 w-full" id="article-tabs-container">
+  {/* Tab Navigation */}
+  <div class="flex border-b border-slate-200 mb-6">
+    {aiSummary && (
+      <button
+        class="tab-btn active px-6 py-3 font-semibold text-brand-blue border-b-2 border-brand-green bg-slate-50/50 focus:outline-none transition-colors"
+        data-target="tab-summary"
+      >
+        AI Summary
+      </button>
+    )}
+    {showToc && (
+      <button
+        class={`tab-btn px-6 py-3 font-semibold text-slate-500 border-b-2 border-transparent hover:text-brand-blue hover:bg-slate-50/30 focus:outline-none transition-colors ${!aiSummary ? 'active !text-brand-blue !border-brand-green !bg-slate-50/50' : ''}`}
+        data-target="tab-toc"
+      >
+        Table of Contents
+      </button>
+    )}
+  </div>
+
+  {/* Tab Contents */}
+  <div class="tab-content relative">
+    {aiSummary && (
+      <div id="tab-summary" class="tab-pane active block">
+        <ArticleAiSummary aiSummary={aiSummary} />
+      </div>
+    )}
+    {showToc && (
+      <div id="tab-toc" class={`tab-pane ${!aiSummary ? 'active block' : 'hidden'}`}>
+        <div class="bg-white border border-slate-200 rounded-xl">
+          <BlogTableOfContents headings={headings} />
+        </div>
+      </div>
+    )}
+  </div>
+</div>
+
+<script>
+  function setupTabs() {
+    const tabContainer = document.getElementById('article-tabs-container');
+    if (!tabContainer) return;
+
+    const btns = tabContainer.querySelectorAll('.tab-btn');
+    const panes = tabContainer.querySelectorAll('.tab-pane');
+
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetId = btn.getAttribute('data-target');
+
+        // Update Buttons
+        btns.forEach(b => {
+          b.classList.remove('active', 'text-brand-blue', 'border-brand-green', 'bg-slate-50/50');
+          b.classList.add('text-slate-500', 'border-transparent');
+          if (b === btn) {
+            b.classList.add('active', 'text-brand-blue', 'border-brand-green', 'bg-slate-50/50');
+            b.classList.remove('text-slate-500', 'border-transparent');
+          }
+        });
+
+        // Update Panes
+        panes.forEach(pane => {
+          if (pane.id === targetId) {
+            pane.classList.remove('hidden');
+            pane.classList.add('block', 'active');
+          } else {
+            pane.classList.add('hidden');
+            pane.classList.remove('block', 'active');
+          }
+        });
+      });
+    });
+  }
+
+  document.addEventListener('astro:page-load', setupTabs);
+  if (!window.NavigationEvent) { // fallback for very basic env where view transitions not active
+    setupTabs();
+  }
+</script>
