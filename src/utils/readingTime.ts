@@ -11,8 +11,9 @@ export function calculateReadingTime(text: string): number {
 
   const words = cleanText.split(/\s+/).length;
 
-  // Round up to the nearest minute
-  return Math.ceil(words / wpm);
+  // Round up to the nearest minute (minimum 1 minute if there are words)
+  const time = Math.ceil(words / wpm);
+  return Math.max(1, time);
 }
 
 export function getWordCount(text: string): number {

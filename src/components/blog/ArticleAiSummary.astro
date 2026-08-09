@@ -1,0 +1,36 @@
+---
+interface Props {
+  aiSummary?: string;
+  keyTakeaways?: string[];
+  excerpt?: string;
+}
+
+const { aiSummary, keyTakeaways = [], excerpt } = Astro.props;
+
+const summaryContent = aiSummary || excerpt;
+const showAiSummary = !!summaryContent;
+
+if (!showAiSummary) {
+  return null;
+}
+---
+
+<div class="mb-12 mt-8">
+  <div class="bg-brand-blue/5 border border-brand-blue/10 rounded-xl p-6 md:p-8">
+    <div class="prose prose-slate prose-brand max-w-none">
+      <h3 class="text-xl font-bold text-brand-blue mt-0 mb-4">Quick Answer</h3>
+      <p class="text-[18px] text-slate-700 leading-[1.8] mb-6">{summaryContent}</p>
+
+      {keyTakeaways && keyTakeaways.length > 0 && (
+        <div class="mt-6 border-t border-brand-blue/10 pt-4">
+          <h4 class="text-brand-blue font-bold text-lg mb-3 mt-0">Key Takeaways</h4>
+          <ul class="mb-0 space-y-2 text-[17px]">
+            {keyTakeaways.map(takeaway => (
+              <li>{takeaway}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  </div>
+</div>

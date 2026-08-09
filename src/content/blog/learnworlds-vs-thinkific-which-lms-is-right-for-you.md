@@ -12,7 +12,7 @@ aiSummary: >
   seeking advanced learning tools, customization, interactive content, marketing
   features, and long-term growth.
 author: TheEduAssist Editorial Team
-category: LMS Learning Technology
+category: lms-learning-technology
 tags:
   - LearnWorlds
   - Thinkific

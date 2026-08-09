@@ -5,6 +5,7 @@ excerpt: Learn how to build an online course yourself or decide when hiring
   course creation experts is the better choice. Discover practical tips, LMS
   advice, and proven strategies for success.
 author: editorial-team
+category: course-development
 publishedAt: 2026-08-06
 updatedAt: 2026-08-06
 advancedSeo:

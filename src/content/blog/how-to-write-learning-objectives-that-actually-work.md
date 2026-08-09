@@ -9,7 +9,8 @@ aiSummary: >
   completing a course. This article explains how to write effective objectives
   using Bloom's Taxonomy and the SMART framework, with practical examples.
 author: TheEduAssist Editorial Team
-category: Instructional Design
+category: instructional-design
+featured: true
 publishedAt: "2026-08-08T00:00:00.000Z"
 updatedAt: "2026-08-08T00:00:00.000Z"
 advancedSeo:
