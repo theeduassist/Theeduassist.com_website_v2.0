@@ -3,7 +3,7 @@ title: 5 Proven Study Techniques Backed by Science
 slug: 5-proven-study-techniques-backed-by-science
 excerpt: Struggling to retain what you study? These five science-backed techniques will help you learn faster, remember more, and stress less during exams.
 author: TheEduAssist Editorial Team
-category: Study Tips
+category: learning-strategy
 tags:
   - study
   - learning

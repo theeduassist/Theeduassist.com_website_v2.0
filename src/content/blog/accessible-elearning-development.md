@@ -3,7 +3,7 @@ title: "How We Build Accessible Online Courses: WCAG, Section 508 and Inclusive 
 slug: accessible-elearning-development
 excerpt: Learn how TheEduAssist designs and improves accessible online courses using WCAG 2.2 AA practices, inclusive course design and structured accessibility testing.
 author: TheEduAssist Editorial Team
-category: Accessibility & Quality
+category: accessibility-quality
 tags:
   - accessible online courses
   - WCAG course accessibility

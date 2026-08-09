@@ -1,4 +1,5 @@
 import { normalizeStringArray } from '../../utils/blog';
+import { calculateReadingTime } from '../../utils/readingTime';
 
 export function getPlainTextFromPortableText(body: any[]): string {
   if (!body || !Array.isArray(body)) return '';
@@ -172,6 +173,7 @@ export type NormalizedBlogPost = {
   sources?: any[];
   stats?: any;
   endCta?: any;
+  featured?: boolean;
 };
 
 export async function getBlogPostSlugs(): Promise<string[]> {
@@ -201,13 +203,14 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
       const module = localPosts[filePath] as any;
       const frontmatter = (module as any).frontmatter || module.default?.frontmatter || {};
 
+      const bodyStr = module.default?.rawContent?.() || module.rawContent?.() || '';
       return {
         id: slug,
         title: frontmatter.title || '',
         slug: frontmatter.slug || slug,
         category: frontmatter.category || 'General',
         excerpt: frontmatter.excerpt || '',
-        readingTime: frontmatter.readingTime || 5,
+        readingTime: calculateReadingTime(bodyStr),
         publishedAt: frontmatter.publishedAt,
         updatedAt: frontmatter.updatedAt || frontmatter.publishedAt,
         seoTitle: frontmatter.seoTitle || frontmatter.title,
@@ -216,12 +219,13 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
         canonicalUrl: frontmatter.canonicalUrl,
         source: 'sanity',
         content: module.default?.compiledContent?.() || module.compiledContent?.() || '',
-        body: module.default?.rawContent?.() || module.rawContent?.() || '',
+        body: bodyStr,
         heroImage: frontmatter.heroImage,
         heroImageAlt: frontmatter.heroImageAlt,
         author: frontmatter.author,
         tags: normalizeStringArray(frontmatter.tags),
         aiSummary: frontmatter.aiSummary || '',
+        featured: frontmatter.featured || false,
       } as NormalizedBlogPost;
     });
 

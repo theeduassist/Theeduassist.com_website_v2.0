@@ -143,7 +143,12 @@ const { posts = [], page, isFirstPage = true } = Astro.props;
             img.setAttribute('src', post.heroImage);
             img.setAttribute('alt', post.heroImageAlt || post.title);
           } else {
-            img.parentElement.innerHTML = '<div class="absolute inset-0 flex items-center justify-center text-slate-400">No Image</div>';
+            img.parentElement.innerHTML = `<div class="absolute inset-0 bg-gradient-to-br from-brand-blue/5 to-brand-green/10 flex items-center justify-center p-6 text-center text-brand-blue/40">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+              </svg>
+            </div>`;
           }
 
           const hiddenStatuses = ['review pending', 'draft', 'internal', 'admin', 'private', 'test', 'do not publish'];

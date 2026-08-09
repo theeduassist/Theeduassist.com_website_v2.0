@@ -24,8 +24,7 @@ const allPosts = await getBlogPostSummaries();
 const categoryPosts = allPosts.filter(p => {
   if (p.category) {
     if (typeof p.category === 'string') {
-      const canonicalSlug = p.category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-      return canonicalSlug === category.slug || canonicalSlug === category.id;
+      return p.category === category.slug || p.category === category.id;
     }
     if (typeof p.category === 'object' && (p.category as any).slug) {
       return (p.category as any).slug === category.slug || (p.category as any).slug === category.id;
@@ -42,13 +41,14 @@ if (!hasContent) {
 
 const seoTitle = `${category.title} Guides and Articles | TheEduAssist`;
 const seoDescription = category.description;
+const robots = hasContent ? "index, follow" : "noindex, follow";
 ---
 
 <Layout
   title={seoTitle}
   description={seoDescription}
   canonicalPath={`/blog/category/${category.slug}/`}
-  robots="index, follow"
+  robots={robots}
 >
   <main class="w-full flex-grow flex flex-col bg-slate-50 overflow-hidden">
     <!-- Hero Section -->
@@ -74,7 +74,7 @@ const seoDescription = category.description;
               slug={post.slug}
               excerpt={post.excerpt}
               aiSummary={post.aiSummary}
-              category={post.category?.title || post.category}
+              category={blogCategories.find(c => c.id === post.category)?.title || post.category}
               readTimeMinutes={post.readingTime}
               publishedAt={post.publishedAt || post.datePublished}
               image={post.heroImage || post.featuredImage || post.mainImage}

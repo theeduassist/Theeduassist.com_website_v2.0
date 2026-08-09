@@ -70,6 +70,13 @@ content:
         label: URL Slug
         type: string
         required: true
+        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        description: "Must be lowercase letters, numbers, and hyphens only (e.g., my-new-article)."
+      - name: featured
+        label: Featured Article
+        type: boolean
+        default: false
+        description: "Check this to feature this article on the blog index."
       - name: excerpt
         label: Short Description / Excerpt
         type: text
@@ -83,7 +90,30 @@ content:
         required: true
       - name: category
         label: Primary Category
-        type: string
+        type: select
+        required: true
+        options:
+          values:
+            - name: learning-strategy
+              label: Learning Strategy
+            - name: instructional-design
+              label: Instructional Design
+            - name: course-development
+              label: Course Development
+            - name: lms-learning-technology
+              label: LMS & Learning Technology
+            - name: kajabi
+              label: Kajabi
+            - name: ai-learning
+              label: AI & Learning
+            - name: accessibility-quality
+              label: Accessibility & Quality
+            - name: enterprise-learning
+              label: Enterprise Learning
+            - name: localization-global-learning
+              label: Localization & Global Learning
+            - name: managed-learning
+              label: Managed Learning
       - name: tags
         label: Tags
         type: string
@@ -101,6 +131,7 @@ content:
       - name: heroImageAlt
         label: Featured Image Alt Text
         type: string
+        description: "Required for accessibility if a hero image is provided."
       - name: heroImageCaption
         label: Featured Image Caption
         type: text

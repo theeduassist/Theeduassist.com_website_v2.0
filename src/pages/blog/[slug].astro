@@ -2,7 +2,8 @@
 export const prerender = true;
 import BlogArticleLayout from '../../layouts/BlogArticleLayout.astro';
 import PortableTextRenderer from '../../components/blog/PortableTextRenderer.tsx';
-import ArticleTabs from '../../components/blog/ArticleTabs.astro';
+import BlogTableOfContents from '../../components/blog/BlogTableOfContents.astro';
+import ArticleAiSummary from '../../components/blog/ArticleAiSummary.astro';
 import RelatedArticles from '../../components/blog/RelatedArticles.astro';
 import BlogCTA from '../../components/blog/BlogCTA.astro';
 import ArticleShareButtons from '../../components/blog/ArticleShareButtons.astro';
@@ -158,7 +159,7 @@ if (post.featuredImage) {
 
             <div class="flex flex-col">
               <span class="text-xs text-slate-500 uppercase tracking-wider font-semibold">Reading Time</span>
-              <span class="text-sm font-medium text-slate-700">{Math.ceil(((typeof post.content === 'string' ? post.content : '').replace(/<[^>]*>?/gm, '').split(/\s+/).length || (typeof post.body === 'string' ? post.body : '').split(/\s+/).length || 0) / 225) || post.readingTime || 5} min read</span>
+              <span class="text-sm font-medium text-slate-700">{post.readingTime} min read</span>
             </div>
           </div>
         </div>
@@ -178,10 +179,26 @@ if (post.featuredImage) {
       )}
 
       <!-- Layout with Sidebar for TOC -->
-      <div class="w-full max-w-7xl mx-auto px-6 md:px-12 py-12 flex flex-col lg:flex-row gap-12">
+      <div class="w-full max-w-7xl mx-auto px-6 md:px-12 py-12 flex flex-col lg:flex-row gap-8 xl:gap-16 relative">
+
+        {/* Left Sidebar (Desktop TOC) */}
+        {showToc && (
+          <aside class="hidden lg:block w-[260px] shrink-0">
+            <BlogTableOfContents headings={headings} />
+          </aside>
+        )}
 
         <!-- Main Content -->
-        <div class="w-full max-w-[780px] mx-auto">
+        <div class="w-full max-w-[680px] mx-auto lg:mx-0 flex-grow">
+
+          {/* Mobile TOC */}
+          {showToc && (
+            <div class="lg:hidden block">
+              <BlogTableOfContents headings={headings} />
+            </div>
+          )}
+
+          <ArticleAiSummary aiSummary={post.aiSummary} />
 
           {hasDirectAnswer && (
             <div class="bg-brand-blue/5 border border-brand-blue/10 rounded-xl p-6 md:p-8 mb-10">
@@ -192,9 +209,7 @@ if (post.featuredImage) {
             </div>
           )}
 
-          <ArticleTabs headings={headings} aiSummary={post.aiSummary} />
-
-          <div class="prose prose-slate prose-brand max-w-none prose-headings:scroll-mt-24 prose-a:text-brand-green hover:prose-a:text-brand-blue prose-img:rounded-xl text-[18px] leading-[1.8] prose-h2:text-[32px] prose-h2:mt-12 prose-h2:mb-6 prose-h3:text-[24px]">
+          <div class="prose prose-slate prose-brand max-w-none prose-headings:scroll-mt-28 prose-a:text-brand-green hover:prose-a:text-brand-blue prose-img:rounded-xl text-[18px] md:text-[19px] leading-[1.8] text-slate-800 prose-h2:text-[32px] prose-h2:mt-16 prose-h2:mb-6 prose-h3:text-[24px] prose-h3:mt-10 prose-h3:mb-4 prose-p:mb-6 prose-ul:my-6 prose-li:my-2 prose-blockquote:border-brand-green prose-blockquote:bg-slate-50 prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-r-xl prose-blockquote:font-medium prose-blockquote:text-brand-blue prose-blockquote:not-italic prose-table:overflow-x-auto prose-table:block md:prose-table:table">
             {post.content ? (
               <div set:html={post.content} />
             ) : (
