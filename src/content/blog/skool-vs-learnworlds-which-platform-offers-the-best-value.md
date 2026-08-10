@@ -103,7 +103,7 @@ The ideal platform will depend on your goals and your enterprise needs.
 
 **LearnWorlds** is ideal for educators, businesses, and training providers. Ideal for users requiring in-depth learning capabilities. Choose a platform to suit your objectives and requirements.
 
-## **Skool vs LearnWorlds: Key Features Compared** 
+## **Skool vs LearnWorlds: Key Features Compared**
 
 ### **1. Ease of Setup and User Experience**
 
@@ -237,7 +237,9 @@ It has advanced course-building features. 
 
 - Higher learning curve
 - Too many features may be a problem for novices.
-- Unfortunately, advanced plans can sometimes be more expensive. 
+- Unfortunately, advanced plans can sometimes be more expensive.
+
+
 
 ![](/images/blog/skool-4.png)
 
