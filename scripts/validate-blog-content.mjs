@@ -42,7 +42,7 @@ if (fs.existsSync(contentDir)) {
       console.error(`❌ [${file}] Error: Missing slug in frontmatter.`);
       hasErrors = true;
     } else {
-      const slug = slugMatch[1].trim();
+      const slug = slugMatch[1].trim().replace(/^["']|["']$/g, "");
       if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) {
         console.error(`❌ [${file}] Error: Invalid slug format "${slug}". Must be lowercase letters, numbers, and hyphens only.`);
         hasErrors = true;

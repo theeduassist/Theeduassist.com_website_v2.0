@@ -1,20 +1,22 @@
 ---
 export const prerender = true;
+import { getCollection, getEntry } from 'astro:content';
 import BlogArticleLayout from '../../layouts/BlogArticleLayout.astro';
-import PortableTextRenderer from '../../components/blog/PortableTextRenderer.tsx';
-import ArticleTabs from '../../components/blog/ArticleTabs.astro';
+import BlogTableOfContents from '../../components/blog/BlogTableOfContents.astro';
 import RelatedArticles from '../../components/blog/RelatedArticles.astro';
 import BlogCTA from '../../components/blog/BlogCTA.astro';
 import ArticleShareButtons from '../../components/blog/ArticleShareButtons.astro';
 import BlogFAQs from '../../components/blog/BlogFAQs.astro';
-import { getFullBlogPostsForAuditOnly } from '../../lib/content/getAllBlogPosts';
-import { extractHeadings } from '../../utils/extractHeadings';
+import { getFullBlogPostsForAuditOnly, isPublicBlogSummary } from '../../lib/content/getAllBlogPosts';
 
 export async function getStaticPaths() {
   const posts = await getFullBlogPostsForAuditOnly();
+  // Filter for valid public posts locally to make sure we don't index drafts or tests
+  const publicPosts = posts.filter(isPublicBlogSummary);
+
   const paths: any[] = [];
   
-  posts.forEach(post => {
+  publicPosts.forEach(post => {
     if (post.slug) {
       paths.push({ params: { slug: post.slug }, props: { slug: post.slug } });
     }
@@ -26,18 +28,30 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 
 const allPosts = await getFullBlogPostsForAuditOnly();
-const post = allPosts.find(p => p.slug === slug || p.id === slug);
+const publicPosts = allPosts.filter(isPublicBlogSummary).sort((a, b) => {
+  const dateA = new Date(a.publishedAt || '').getTime();
+  const dateB = new Date(b.publishedAt || '').getTime();
+  return dateB - dateA; // Descending (newest first)
+});
+
+const post = publicPosts.find(p => p.slug === slug || p.id === slug);
 
 if (!post) {
   return new Response("Not found", { status: 404 });
 }
 
-const currentIndex = allPosts.findIndex(p => p.slug === post.slug);
-const prevPost = allPosts[currentIndex + 1];
-const nextPost = allPosts[currentIndex - 1];
+const collectionPost = await getEntry('blog', post.id!);
+if (!collectionPost) {
+  return new Response("Content not found", { status: 404 });
+}
+
+const { Content, headings } = await collectionPost.render();
+
+const currentIndex = publicPosts.findIndex(p => p.slug === post.slug);
+const prevPost = publicPosts[currentIndex + 1];
+const nextPost = publicPosts[currentIndex - 1];
 
 const hasDirectAnswer = !!post.shortAnswer;
-const headings = extractHeadings(post.body);
 const showToc = headings.length >= 2;
 
 const breadcrumbSchema = {
@@ -184,16 +198,33 @@ if (post.featuredImage) {
       )}
 
       <!-- Layout -->
-      <div class="w-full max-w-4xl mx-auto px-6 md:px-12 py-12 flex flex-col relative">
+      <div class="w-full max-w-[1200px] mx-auto px-6 md:px-12 py-12 flex flex-col lg:flex-row relative gap-12">
+
+        <!-- Sidebar TOC -->
+        <aside class="hidden lg:block w-64 shrink-0">
+          <div class="sticky top-24">
+            {showToc && <BlogTableOfContents headings={headings} />}
+          </div>
+        </aside>
 
         <!-- Main Content -->
-        <div class="w-full flex-grow">
+        <div class="w-full max-w-[780px] flex-grow">
 
-          {(showToc || post.aiSummary) && (
-             <ArticleTabs showToc={showToc} headings={headings} aiSummary={post.aiSummary} />
+          {/* Mobile TOC */}
+          <div class="lg:hidden mb-8">
+            {showToc && <BlogTableOfContents headings={headings} />}
+          </div>
+
+          {post.aiSummary && (
+             <div class="mb-10">
+               <div class="bg-brand-blue/5 border border-brand-blue/10 rounded-xl p-6 md:p-8">
+                 <h2 class="text-xl font-bold text-brand-blue mb-4">Quick Answer</h2>
+                 <p class="text-[18px] text-slate-700 leading-[1.8]">{post.aiSummary}</p>
+               </div>
+             </div>
           )}
 
-          {hasDirectAnswer && (
+          {hasDirectAnswer && !post.aiSummary && (
             <div class="bg-brand-blue/5 border border-brand-blue/10 rounded-xl p-6 md:p-8 mb-10">
               <h2 class="text-xl font-bold text-brand-blue mb-4">The Short Answer</h2>
               <div class="prose prose-slate prose-brand max-w-none">
@@ -203,11 +234,7 @@ if (post.featuredImage) {
           )}
 
           <div class="prose prose-slate prose-brand max-w-none prose-headings:scroll-mt-28 prose-a:text-brand-green hover:prose-a:text-brand-blue prose-img:rounded-xl text-[18px] md:text-[19px] leading-[1.8] text-slate-800 prose-h2:text-[32px] prose-h2:mt-16 prose-h2:mb-6 prose-h3:text-[24px] prose-h3:mt-10 prose-h3:mb-4 prose-p:mb-6 prose-ul:my-6 prose-li:my-2 prose-blockquote:border-brand-green prose-blockquote:bg-slate-50 prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-r-xl prose-blockquote:font-medium prose-blockquote:text-brand-blue prose-blockquote:not-italic prose-table:overflow-x-auto prose-table:block md:prose-table:table">
-            {post.content ? (
-              <div set:html={post.content} />
-            ) : (
-              <p>Content is being updated.</p>
-            )}
+            <Content />
           </div>
 
           <!-- Sources -->

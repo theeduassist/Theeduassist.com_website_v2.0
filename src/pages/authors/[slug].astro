@@ -77,11 +77,11 @@ const seoDescription = author.shortBio;
     </section>
 
     <!-- Articles Section -->
-    {hasContent && (
-      <section class="w-full py-12 px-6 md:px-12 max-w-7xl mx-auto bg-white border-t border-slate-200">
-        <h2 class="text-2xl md:text-3xl font-bold text-brand-blue mb-8 text-center md:text-left">
-          Articles by {author.name}
-        </h2>
+    <section class="w-full py-12 px-6 md:px-12 max-w-7xl mx-auto bg-white border-t border-slate-200">
+      <h2 class="text-2xl md:text-3xl font-bold text-brand-blue mb-8 text-center md:text-left">
+        Articles by {author.name}
+      </h2>
+      {hasContent ? (
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {authorPosts.map((post) => (
             <BlogCard
@@ -98,8 +98,12 @@ const seoDescription = author.shortBio;
             />
           ))}
         </div>
-      </section>
-    )}
+      ) : (
+        <div class="text-center py-12">
+          <p class="text-slate-600">No articles have been published by this author yet.</p>
+        </div>
+      )}
+    </section>
 
     <div class="mt-8 mb-20 px-6 md:px-12 max-w-7xl mx-auto w-full">
       <BlogCTA />
