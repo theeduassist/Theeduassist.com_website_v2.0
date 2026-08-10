@@ -1,7 +1,7 @@
 ---
 title: "Skool vs LearnWorlds: Which Platform Offers the Best Value?"
 slug: skool-vs-learnworlds
-featured: false
+featured: true
 excerpt: Compare Skool vs LearnWorlds to find the best platform for online
   courses, communities, branding, marketing, and long-term growth.
 aiSummary: Skool and LearnWorlds are online course platforms with different
