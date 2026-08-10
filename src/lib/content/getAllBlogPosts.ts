@@ -224,7 +224,7 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
       return {
         id: post.id,
         title: frontmatter.title || '',
-        slug: slug,
+        slug: { current: slug },
         category: frontmatter.category || 'General',
         excerpt: frontmatter.excerpt || '',
         readingTime: calculateReadingTime(bodyStr),

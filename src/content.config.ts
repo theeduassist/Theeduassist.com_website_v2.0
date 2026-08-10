@@ -1,17 +1,18 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
 
 const blog = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/blog" }),
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
+    slug: z.string().optional(),
     excerpt: z.string(),
     author: z.string(),
     category: z.string().optional(),
     tags: z.array(z.string()).optional(),
     draft: z.boolean().optional(),
-    publishedAt: z.string().optional(),
-    updatedAt: z.string().optional(),
+    publishedAt: z.union([z.string(), z.date()]).optional(),
+    updatedAt: z.union([z.string(), z.date()]).optional(),
     heroImage: z.string().optional(),
     heroImageAlt: z.string().optional(),
     heroImageCaption: z.string().optional(),
@@ -43,7 +44,7 @@ const blog = defineCollection({
       title: z.string(),
       url: z.string().optional(),
       publisher: z.string().optional(),
-      accessedAt: z.string().optional()
+      accessedAt: z.union([z.string(), z.date()]).optional()
     })).optional(),
     relatedArticles: z.array(z.string()).optional(),
     relatedServices: z.array(z.string()).optional(),
@@ -65,10 +66,10 @@ const blog = defineCollection({
       assignedWriter: z.string().optional(),
       assignedEditor: z.string().optional(),
       seoReviewer: z.string().optional(),
-      dueDate: z.string().optional(),
-      scheduledPublicationDate: z.string().optional(),
-      lastReviewedDate: z.string().optional(),
-      nextReviewDate: z.string().optional(),
+      dueDate: z.union([z.string(), z.date()]).optional(),
+      scheduledPublicationDate: z.union([z.string(), z.date()]).optional(),
+      lastReviewedDate: z.union([z.string(), z.date()]).optional(),
+      nextReviewDate: z.union([z.string(), z.date()]).optional(),
       editorialNotes: z.string().optional(),
       targetAudience: z.string().optional(),
       contentObjective: z.string().optional(),

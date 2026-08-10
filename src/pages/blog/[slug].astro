@@ -1,6 +1,6 @@
 ---
 export const prerender = true;
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection, getEntry, render } from 'astro:content';
 import BlogArticleLayout from '../../layouts/BlogArticleLayout.astro';
 import BlogTableOfContents from '../../components/blog/BlogTableOfContents.astro';
 import RelatedArticles from '../../components/blog/RelatedArticles.astro';
@@ -18,7 +18,8 @@ export async function getStaticPaths() {
   
   publicPosts.forEach(post => {
     if (post.slug) {
-      paths.push({ params: { slug: post.slug }, props: { slug: post.slug } });
+      const slugValue = typeof post.slug === 'object' && post.slug !== null && 'current' in post.slug ? post.slug.current : post.slug;
+      paths.push({ params: { slug: slugValue }, props: { slug: slugValue } });
     }
   });
   
@@ -45,7 +46,7 @@ if (!collectionPost) {
   return new Response("Content not found", { status: 404 });
 }
 
-const { Content, headings } = await collectionPost.render();
+const { Content, headings } = await render(collectionPost);
 
 const currentIndex = publicPosts.findIndex(p => p.slug === post.slug);
 const prevPost = publicPosts[currentIndex + 1];
