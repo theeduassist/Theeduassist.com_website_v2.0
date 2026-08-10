@@ -47,11 +47,11 @@ export function isPlaceholderPost(post: any): boolean {
 }
 
 export function isDraftPost(post: any): boolean {
-  return post?._id?.startsWith('drafts.') || false;
+  return post?._id?.startsWith('drafts.') || post?.draft === true || false;
 }
 
 export function isNoindexPost(post: any): boolean {
-  return post?.seo?.noindex === true;
+  return post?.seo?.noindex === true || post?.noIndex === true || post?.advancedSeo?.noindex === true;
 }
 
 export function hasValidSlug(post: any): boolean {
@@ -100,13 +100,29 @@ export function getBlogPostPublicFilterReason(post: any): string | null {
 
 export function isPublicBlogSummary(post: any): boolean {
   if (!post) return false;
-  if (!hasValidSlug(post)) return false;
-  if (isDraftPost(post)) return false;
-  if (isNoindexPost(post)) return false;
-  if (post.hidden === true) return false;
-  if (post.reviewPending === true) return false;
-  if (!post.publishedAt) return false;
-  if (isPlaceholderPost(post)) return false;
+
+  if (!hasValidSlug(post)) {
+    return false;
+  }
+  if (isDraftPost(post)) {
+    return false;
+  }
+  if (isNoindexPost(post)) {
+    return false;
+  }
+  if (post.hidden === true) {
+    return false;
+  }
+  if (post.reviewPending === true) {
+    return false;
+  }
+  // Note: if there is no publishedAt, the item should be rejected from the index.
+  if (!post.publishedAt) {
+    return false;
+  }
+  if (isPlaceholderPost(post)) {
+    return false;
+  }
 
   const title = (post.title || '').toLowerCase();
   if (!title ||
@@ -120,10 +136,14 @@ export function isPublicBlogSummary(post: any): boolean {
   }
 
   const status = post.status;
-  if (status && ['draft', 'review', 'pending', 'archived'].includes(status.toLowerCase())) return false;
+  if (status && ['draft', 'review', 'pending', 'archived'].includes(status.toLowerCase())) {
+    return false;
+  }
 
   const migrationStatus = post.migrationStatus;
-  if (migrationStatus && ['draft', 'review', 'pending', 'archived'].includes(migrationStatus.toLowerCase())) return false;
+  if (migrationStatus && ['draft', 'review', 'pending', 'archived'].includes(migrationStatus.toLowerCase())) {
+    return false;
+  }
 
   return true;
 }
@@ -131,7 +151,6 @@ export function isPublicBlogSummary(post: any): boolean {
 export function isPublicFullBlogPost(post: any): boolean {
   if (!isPublicBlogSummary(post)) return false;
   if (post.title && post.title.toLowerCase().includes('content coming soon')) return false;
-  if (!post.body && !post.content) return false;
   return true;
 }
 
@@ -176,14 +195,12 @@ export type NormalizedBlogPost = {
   featured?: boolean;
 };
 
+import { getCollection } from 'astro:content';
+
 export async function getBlogPostSlugs(): Promise<string[]> {
   try {
-    const localPosts = import.meta.glob('/src/content/blog/*.md', { eager: true });
-    return Object.keys(localPosts).map(filepath => {
-      const match = filepath.match(/\/([^\/]+)\.md$/);
-      if (match) return match[1];
-      return null;
-    }).filter(Boolean) as string[];
+    const posts = await getCollection('blog');
+    return posts.map(post => post.id);
   } catch (e) {
     console.error("Failed to fetch blog slugs", e);
   }
@@ -191,23 +208,23 @@ export async function getBlogPostSlugs(): Promise<string[]> {
 }
 
 export async function getBlogPostSummaries(): Promise<NormalizedBlogPost[]> {
-  return getFullBlogPostsForAuditOnly();
+  const posts = await getFullBlogPostsForAuditOnly();
+  return posts.filter(isPublicBlogSummary);
 }
 
 export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost[]> {
   try {
-    const localPosts = import.meta.glob('/src/content/blog/*.md', { eager: true });
-    const posts: NormalizedBlogPost[] = Object.keys(localPosts).map(filePath => {
-      const match = filePath.match(/\/([^\/]+)\.md$/);
-      const slug = match ? match[1] : '';
-      const module = localPosts[filePath] as any;
-      const frontmatter = (module as any).frontmatter || module.default?.frontmatter || {};
+    const localPosts = await getCollection('blog');
 
-      const bodyStr = module.default?.rawContent?.() || module.rawContent?.() || '';
+    const posts: NormalizedBlogPost[] = localPosts.map(post => {
+      const frontmatter = post.data;
+      const slug = frontmatter.slug || post.id;
+      const bodyStr = post.body || '';
+
       return {
-        id: slug,
+        id: post.id,
         title: frontmatter.title || '',
-        slug: frontmatter.slug || slug,
+        slug: slug,
         category: frontmatter.category || 'General',
         excerpt: frontmatter.excerpt || '',
         readingTime: calculateReadingTime(bodyStr),
@@ -215,17 +232,17 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
         updatedAt: frontmatter.updatedAt || frontmatter.publishedAt,
         seoTitle: frontmatter.seoTitle || frontmatter.title,
         seoDescription: frontmatter.seoDescription || frontmatter.excerpt,
-        noIndex: frontmatter.noIndex || false,
-        canonicalUrl: frontmatter.canonicalUrl,
+        noIndex: frontmatter.advancedSeo?.noindex || false,
+        canonicalUrl: frontmatter.advancedSeo?.canonicalOverride,
         source: 'sanity',
-        content: module.default?.compiledContent?.() || module.compiledContent?.() || '',
+        content: bodyStr,
         body: bodyStr,
         heroImage: frontmatter.heroImage,
         heroImageAlt: frontmatter.heroImageAlt,
         author: frontmatter.author,
         tags: normalizeStringArray(frontmatter.tags),
-        aiSummary: frontmatter.aiSummary || '',
-        featured: frontmatter.featured || false,
+        aiSummary: (frontmatter as any).aiSummary || '',
+        featured: (frontmatter as any).featured || false,
       } as NormalizedBlogPost;
     });
 

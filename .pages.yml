@@ -86,8 +86,12 @@ content:
         type: text
       - name: author
         label: Author
-        type: string
+        type: select
         required: true
+        options:
+          values:
+            - name: editorial-team
+              label: TheEduAssist Editorial Team
       - name: category
         label: Primary Category
         type: select
@@ -118,6 +122,10 @@ content:
         label: Tags
         type: string
         list: true
+      - name: draft
+        label: Draft
+        type: boolean
+        default: false
       - name: publishedAt
         label: Publication Date
         type: date
