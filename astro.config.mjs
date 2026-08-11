@@ -3,6 +3,8 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 import vercel from '@astrojs/vercel';
 
+import remarkRemovePlusPlus from './src/plugins/remark-remove-plusplus.mjs';
+
 export default defineConfig({
   site: 'https://www.theeduassist.com',
   trailingSlash: 'always',
@@ -17,4 +19,7 @@ export default defineConfig({
   integrations: [
     react()
   ],
+  markdown: {
+    remarkPlugins: [remarkRemovePlusPlus],
+  },
 });
