@@ -62,10 +62,9 @@ faqs:
       managers, and LMS administrators handle their areas. Clear
       responsibilities help keep the project moving.
   - question: What is the biggest challenge when implementing an LMS?
-    answer: "**User adoption is often one of the biggest challenges.** Even a
-      powerful LMS will not deliver results if people do not use it. Clear
-      communication, simple training, and ongoing support can make the
-      transition much easier."
+    answer: User adoption is often one of the biggest challenges. Even a powerful
+      LMS will not deliver results if people do not use it. Clear communication,
+      simple training, and ongoing support can make the transition much easier.
   - question: Can a small business benefit from an LMS?
     answer: Absolutely. Small businesses can use an LMS to organize employee
       training, simplify onboarding, track progress, and reduce repetitive
