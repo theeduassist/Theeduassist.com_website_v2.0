@@ -348,7 +348,9 @@ Managers can address these gaps before they affect customer interactions. By tak
 - Improve employee performance
 - Reduce compliance risks
 - Strengthen customer experience
-- Increase training ROI 
+- Increase training ROI
+
+
 
 Learning analytics transform training from an expense to a savvy business investment. Without measurement, there can be no improvement.
 
@@ -356,7 +358,7 @@ Learning analytics transform training from an expense to a savvy business invest
 
 Long training sessions can overwhelm employees and make it harder to stay focused. Microlearning offers a simpler approach by breaking training into short, focused lessons that employees can complete in just a few minutes.
 
-### **What Is Microlearning?**				
+### **What Is Microlearning?**
 
 ++[Microlearning](https://www.td.org/talent-development-glossary-terms/what-is-microlearning)++ is based on short lessons. These only take 5 to 10 minutes to complete. Workers don't complete courses all at once. Rather, they learn in small and simple steps. Examples include:
 
@@ -424,7 +426,9 @@ Companies that foster teamwork typically experience:
 - Stronger teamwork
 - Better knowledge sharing
 - Increased ++[employee engagement](https://www.gallup.com/workplace/285674/improve-employee-engagement-workplace.aspx)++
-- A stronger culture of continuous learning 
+- A stronger culture of continuous learning
+
+
 
 Learning is better when it's shared within the company. Not only training materials.
 
@@ -463,7 +467,9 @@ Reminders and certificates are automatically given to workers. This saves time. 
 - Eliminate manual errors
 - Improve compliance
 - Deliver consistent training
-- Scale training as the organization grows. 
+- Scale training as the organization grows.
+
+
 
 ## **8. Measure the Impact of Every Training Program**
 
