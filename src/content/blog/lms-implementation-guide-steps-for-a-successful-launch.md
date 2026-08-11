@@ -192,7 +192,16 @@ Clear objectives make it easier to measure success after launch. They also help 
 
 Launching a learning platform is a team effort. IT plays an important role. But a successful LMS launch needs support from the whole organization. Bringing the right people together early helps avoid confusion and speeds up decision-making. Your implementation team may include:
 
-![](/images/blog/lms-implementation-guide-2.png)
+
+| Team Member | Primary Responsibility |
+| ------------------- | -------------------------------------------------------------------- |
+| Project Manager | Oversees the project timeline and coordinates the team. |
+| HR or L&D Manager | Defines learning objectives and training programs. |
+| IT Team | Handles system setup, integrations, security, and technical support. |
+| Department Managers | Share business requirements and learner feedback. |
+| LMS Administrator | Configures and manages the platform. |
+| Content Creators | Develop, organize, and update learning materials. |
+
 
 Assign clear responsibilities from the beginning. When everyone knows their role, they work better together. Problems are solved faster, and the project stays on track.
 
