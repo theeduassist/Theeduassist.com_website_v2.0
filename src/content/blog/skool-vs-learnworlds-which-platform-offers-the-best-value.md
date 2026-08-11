@@ -16,7 +16,7 @@ draft: false
 publishedAt: 2026-08-10
 updatedAt: 2026-08-10
 heroImage: /images/blog/skool-1-1.png
-heroImageAlt: Skool vs LearnWorlds online course platform comparison
+heroImageAlt: Skool vs LearnWorlds online course platform comparison theeduassist.com
 heroImageCaption: "Skool vs LearnWorlds: Community-focused learning vs. advanced
   course creation."
 seoTitle: "Skool vs LearnWorlds: Which Is Better in 2026?"
