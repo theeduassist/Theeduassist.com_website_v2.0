@@ -22,6 +22,12 @@ if (fs.existsSync(contentDir)) {
         hasErrors = true;
       }
 
+      // Check for ++ formatting artifacts
+      if (/\+\+.*?\+\+/.test(body)) {
+        console.error(`❌ [${file}] Error: Found "++" artifact formatting. Use standard Markdown formatting (**bold**, [link](url)).`);
+        hasErrors = true;
+      }
+
       // 2. Check for empty body or placeholder text
       const cleanBody = body.replace(/\s+/g, '').toLowerCase();
       if (cleanBody.length < 50 || cleanBody.includes('contentcomingsoon') || cleanBody.includes('contentisbeingupdated')) {

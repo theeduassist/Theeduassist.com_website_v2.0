@@ -228,13 +228,13 @@ if (post.featuredImage) {
           {hasDirectAnswer && !post.aiSummary && (
             <div class="bg-brand-blue/5 border border-brand-blue/10 rounded-xl p-6 md:p-8 mb-10">
               <h2 class="text-xl font-bold text-brand-blue mb-4">The Short Answer</h2>
-              <div class="prose prose-slate prose-brand max-w-none">
+              <div class="blog-prose">
                 <p>{post.shortAnswer}</p>
               </div>
             </div>
           )}
 
-          <div class="prose prose-slate prose-brand max-w-none prose-headings:scroll-mt-28 prose-a:text-brand-green hover:prose-a:text-brand-blue prose-img:rounded-xl text-[18px] md:text-[19px] leading-[1.8] text-slate-800 prose-h2:text-3xl md:prose-h2:text-4xl prose-h2:font-bold prose-h2:tracking-tight prose-h2:mt-16 prose-h2:mb-6 prose-h3:text-2xl md:prose-h3:text-[28px] prose-h3:font-bold prose-h3:mt-10 prose-h3:mb-4 prose-p:mb-6 prose-ul:my-6 prose-li:my-2 prose-blockquote:border-brand-green prose-blockquote:bg-slate-50 prose-blockquote:py-2 prose-blockquote:px-6 prose-blockquote:rounded-r-xl prose-blockquote:font-medium prose-blockquote:text-brand-blue prose-blockquote:not-italic prose-table:overflow-x-auto prose-table:block md:prose-table:table">
+          <div class="blog-prose">
             <Content />
           </div>
 
