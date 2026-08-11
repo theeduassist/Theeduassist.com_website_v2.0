@@ -6,6 +6,7 @@ import BlogTableOfContents from '../../components/blog/BlogTableOfContents.astro
 import RelatedArticles from '../../components/blog/RelatedArticles.astro';
 import BlogCTA from '../../components/blog/BlogCTA.astro';
 import ArticleShareButtons from '../../components/blog/ArticleShareButtons.astro';
+import ArticleAiSummary from '../../components/blog/ArticleAiSummary.astro';
 import BlogFAQs from '../../components/blog/BlogFAQs.astro';
 import { getFullBlogPostsForAuditOnly, isPublicBlogSummary } from '../../lib/content/getAllBlogPosts';
 
@@ -106,16 +107,16 @@ const schemaData: Record<string, any> = {
   }
 };
 
-if (post.featuredImage) {
-    schemaData.image = [post.featuredImage];
+if (post.featuredImage || post.heroImage) {
+    schemaData.image = [post.featuredImage || post.heroImage];
 }
 ---
 
 <BlogArticleLayout
-  title={`${post.title} | TheEduAssist`}
-  description={post.excerpt}
+  title={post.seoTitle || `${post.title} | TheEduAssist`}
+  description={post.seoDescription || post.excerpt}
   canonicalPath={post.canonical}
-  image={post.featuredImage}
+  image={post.featuredImage || post.heroImage}
   type="article"
   publishDate={post.datePublished}
   modifiedDate={post.dateModified}
@@ -216,14 +217,7 @@ if (post.featuredImage) {
             {showToc && <BlogTableOfContents headings={headings} />}
           </div>
 
-          {post.aiSummary && (
-             <div class="mb-10">
-               <div class="bg-brand-blue/5 border border-brand-blue/10 rounded-xl p-6 md:p-8">
-                 <h2 class="text-xl font-bold text-brand-blue mb-4">Quick Answer</h2>
-                 <p class="text-[18px] text-slate-700 leading-[1.8]">{post.aiSummary}</p>
-               </div>
-             </div>
-          )}
+          <ArticleAiSummary aiSummary={post.aiSummary} keyTakeaways={post.keyTakeaways} excerpt={post.excerpt} />
 
           {hasDirectAnswer && !post.aiSummary && (
             <div class="bg-brand-blue/5 border border-brand-blue/10 rounded-xl p-6 md:p-8 mb-10">

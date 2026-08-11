@@ -21,11 +21,6 @@ const blog = defineCollection({
     featured: z.boolean().optional(),
     videoUrl: z.string().optional(),
     videoTranscript: z.string().optional(),
-    seoTitle: z.string().optional(),
-    seoDescription: z.string().optional(),
-    focusKeyword: z.string().optional(),
-    secondaryKeywords: z.array(z.string()).optional(),
-    searchIntent: z.string().optional(),
     advancedSeo: z.object({
       canonicalOverride: z.string().optional(),
       noindex: z.boolean().optional(),
