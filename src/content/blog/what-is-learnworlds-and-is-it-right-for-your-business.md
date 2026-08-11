@@ -175,7 +175,7 @@ This makes it useful for businesses that want to create better learning experien
 
 Let's discuss some of the features that make LearnWorlds stand out.
 
-### **1. Interactive Video Learning**
+### **Interactive Video Learning**
 
 Most online courses rely on standard videos. LearnWorlds allows you to turn videos into ++[interactive learning experiences](https://instruqt.com/glossary/interactive-learning-experience)++.
 
@@ -190,7 +190,7 @@ You can add:
 
 This keeps learners engaged instead of passively watching content. Higher engagement often leads to better course completion rates.
 
-### **2. Fully Branded Learning Platform**
+### **Fully Branded Learning Platform**
 
 Your branded learning platform reflects your business and builds trust. LearnWorlds allows you to customize almost everything without needing advanced coding skills.
 
@@ -208,7 +208,7 @@ Your learning platform should feel like an extension of your brand. LearnWorlds 
 
 This helps create a more professional and consistent experience for your learners.
 
-### **3. Built-In Website Builder**
+### **Built-In Website Builder**
 
 Many course creators purchase separate website builders. LearnWorlds includes a built-in course hosting platform and website builder. You can build:
 
@@ -221,11 +221,11 @@ Many course creators purchase separate website builders. LearnWorlds includes a 
 
 Having these tools in one platform can reduce the need for separate website and course-hosting tools. It can also save time and simplify day-to-day management. 
 
-### **4. Advanced Course Authoring Tools**
+### **Advanced Course Authoring Tools**
 
 Creating online courses should not be complicated. LearnWorlds offers a drag-and-drop course builder that makes content creation simple. You can organize lessons into sections, add videos and other learning materials, schedule drip content, and create assessments without complicated technical steps. 
 
-### **5. Powerful Learning Analytics**
+### **Powerful Learning Analytics**
 
 Knowing how learners interact with your courses is essential. LearnWorlds provides detailed analytics that help you understand learner behavior.
 
