@@ -94,4 +94,48 @@ const authors = defineCollection({
   })
 });
 
-export const collections = { blog, authors };
+const resources = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/resources" }),
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    description: z.string().optional(),
+    category: z.string(),
+    resourceType: z.string().optional(),
+    language: z.string().optional(),
+    locale: z.string().optional(),
+    translationOf: z.string().optional(),
+    translationStatus: z.string().optional(),
+    publishedAt: z.union([z.string(), z.date()]).optional(),
+    updatedAt: z.union([z.string(), z.date()]).optional(),
+    author: z.string().optional(),
+    reviewedBy: z.string().optional(),
+    featuredImage: z.string().optional(),
+    featuredImageAlt: z.string().optional(),
+    summary: z.string().optional(),
+    primaryKeyword: z.string().optional(),
+    secondaryKeywords: z.array(z.string()).optional(),
+    searchIntent: z.string().optional(),
+    audience: z.array(z.string()).optional(),
+    relatedServices: z.array(z.string()).optional(),
+    relatedResources: z.array(z.string()).optional(),
+    relatedPlatforms: z.array(z.string()).optional(),
+    relatedTerms: z.array(z.string()).optional(),
+    faq: z.array(z.object({
+      question: z.string(),
+      answer: z.string()
+    })).optional(),
+    sources: z.array(z.object({
+      title: z.string(),
+      url: z.string().optional(),
+      publisher: z.string().optional()
+    })).optional(),
+    canonical: z.string().optional(),
+    noindex: z.boolean().optional(),
+    featured: z.boolean().optional(),
+    schemaType: z.string().optional(),
+    lastReviewed: z.union([z.string(), z.date()]).optional()
+  })
+});
+
+export const collections = { blog, authors, resources };

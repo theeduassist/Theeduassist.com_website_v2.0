@@ -1,0 +1,16 @@
+---
+export interface Props {
+  summary: string;
+}
+
+const { summary } = Astro.props;
+---
+{summary && (
+  <div class="bg-slate-50 border-l-4 border-brand-primary p-6 rounded-r-xl mb-10">
+    <div class="flex items-center gap-2 mb-2">
+      <svg class="w-5 h-5 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+      <h3 class="text-lg font-bold text-brand-navy m-0">In Brief</h3>
+    </div>
+    <p class="text-slate-700 m-0 leading-relaxed">{summary}</p>
+  </div>
+)}

@@ -1,0 +1,22 @@
+---
+export interface Props {
+  headings: any[];
+}
+
+const { headings } = Astro.props;
+const tocHeadings = headings.filter(h => h.depth === 2);
+---
+{tocHeadings.length > 0 && (
+  <nav class="sticky top-24 max-h-[calc(100vh-120px)] overflow-y-auto hidden lg:block border-l-2 border-slate-100 pl-4 py-2 pr-4">
+    <h3 class="text-sm font-bold text-brand-navy uppercase tracking-wider mb-4">Table of Contents</h3>
+    <ul class="space-y-2.5 text-sm">
+      {tocHeadings.map(heading => (
+        <li>
+          <a href={`#${heading.slug}`} class="text-slate-600 hover:text-brand-primary transition-colors hover:underline block leading-tight">
+            {heading.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}
