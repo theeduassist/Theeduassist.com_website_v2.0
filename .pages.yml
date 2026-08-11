@@ -1,428 +1,423 @@
 media:
-  - name: blog_images
-    label: Blog Images
-    input: public/images/blog
-    output: /images/blog
-    rename: safe
-    extensions:
-      - jpg
-      - jpeg
-      - png
-      - webp
-      - avif
-
-  - name: author_images
-    label: Author Images
-    input: public/images/authors
-    output: /images/authors
-    rename: safe
-    extensions:
-      - jpg
-      - jpeg
-      - png
-      - webp
-      - svg
-
-  - name: case_study_images
-    label: Case Study Images
-    input: public/images/case-studies
-    output: /images/case-studies
-    rename: safe
-    extensions:
-      - jpg
-      - jpeg
-      - png
-      - webp
-      - avif
-
+- name: blog_images
+  label: Blog Images
+  input: public/images/blog
+  output: /images/blog
+  rename: safe
+  extensions:
+  - jpg
+  - jpeg
+  - png
+  - webp
+  - avif
+- name: author_images
+  label: Author Images
+  input: public/images/authors
+  output: /images/authors
+  rename: safe
+  extensions:
+  - jpg
+  - jpeg
+  - png
+  - webp
+  - svg
+- name: case_study_images
+  label: Case Study Images
+  input: public/images/case-studies
+  output: /images/case-studies
+  rename: safe
+  extensions:
+  - jpg
+  - jpeg
+  - png
+  - webp
+  - avif
 settings:
   content:
     merge: true
   commit:
     identity: app
     templates:
-      create: "content(create): {path}"
-      update: "content(update): {path}"
-      delete: "content(delete): {path}"
-      rename: "content(rename): {oldPath} -> {newPath}"
-
+      create: 'content(create): {path}'
+      update: 'content(update): {path}'
+      delete: 'content(delete): {path}'
+      rename: 'content(rename): {oldPath} -> {newPath}'
 content:
-  - name: blog
-    label: Blog
-    type: collection
-    path: src/content/blog
-    format: yaml-frontmatter
-    filename: "{slug}.md"
-    view:
-      primary: title
-      sort: publishedAt
-      order: desc
-    operations:
-      create: true
-      rename: false
-      delete: false
+- name: blog
+  label: Blog
+  type: collection
+  path: src/content/blog
+  format: yaml-frontmatter
+  filename: '{slug}.md'
+  view:
+    primary: title
+    sort: publishedAt
+    order: desc
+  operations:
+    create: true
+    rename: false
+    delete: false
+  fields:
+  - name: title
+    label: Article Title
+    type: string
+    required: true
+  - name: slug
+    label: URL Slug
+    type: string
+    required: true
+    pattern: ^[a-z0-9]+(?:-[a-z0-9]+)*$
+    description: Must be lowercase letters, numbers, and hyphens only (e.g., my-new-article).
+  - name: featured
+    label: Featured Article
+    type: boolean
+    default: false
+    description: Check this to feature this article on the blog index.
+  - name: excerpt
+    label: Short Description / Excerpt
+    type: text
+    required: true
+  - name: aiSummary
+    label: AI Summary
+    type: text
+  - name: author
+    label: Author
+    type: select
+    required: true
+    options:
+      values:
+      - name: editorial-team
+        label: TheEduAssist Editorial Team
+  - name: category
+    label: Primary Category
+    type: select
+    required: true
+    options:
+      values:
+      - name: learning-strategy
+        label: Learning Strategy
+      - name: instructional-design
+        label: Instructional Design
+      - name: course-development
+        label: Course Development
+      - name: lms-learning-technology
+        label: LMS & Learning Technology
+      - name: kajabi
+        label: Kajabi
+      - name: ai-learning
+        label: AI & Learning
+      - name: accessibility-quality
+        label: Accessibility & Quality
+      - name: enterprise-learning
+        label: Enterprise Learning
+      - name: localization-global-learning
+        label: Localization & Global Learning
+      - name: managed-learning
+        label: Managed Learning
+  - name: tags
+    label: Tags
+    type: string
+    list: true
+  - name: draft
+    label: Draft
+    type: boolean
+    default: false
+  - name: publishedAt
+    label: Publication Date
+    type: date
+  - name: updatedAt
+    label: Last Updated Date
+    type: date
+  - name: heroImage
+    label: Featured Image
+    type: image
+    media: blog_images
+  - name: heroImageAlt
+    label: Featured Image Alt Text
+    type: string
+    description: Required for accessibility if a hero image is provided.
+  - name: heroImageCaption
+    label: Featured Image Caption
+    type: text
+  - name: heroImageCredit
+    label: Image Credit / Source
+    type: string
+  - name: videoUrl
+    label: Optional Video URL
+    type: string
+  - name: videoTranscript
+    label: Video Transcript
+    type: text
+  - name: seoTitle
+    label: SEO Title
+    type: string
+  - name: seoDescription
+    label: Meta Description
+    type: text
+  - name: focusKeyword
+    label: Focus Keyword
+    type: string
+  - name: secondaryKeywords
+    label: Secondary Keywords
+    type: string
+    list: true
+  - name: searchIntent
+    label: Search Intent
+    type: string
+    options:
+    - Informational
+    - Commercial
+    - Transactional
+    - Navigational
+  - name: advancedSeo
+    label: Advanced SEO
+    type: object
     fields:
-      - name: title
-        label: Article Title
-        type: string
-        required: true
-      - name: slug
-        label: URL Slug
-        type: string
-        required: true
-        pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-        description: "Must be lowercase letters, numbers, and hyphens only (e.g., my-new-article)."
-      - name: featured
-        label: Featured Article
-        type: boolean
-        default: false
-        description: "Check this to feature this article on the blog index."
-      - name: excerpt
-        label: Short Description / Excerpt
-        type: text
-        required: true
-      - name: aiSummary
-        label: AI Summary
-        type: text
-      - name: author
-        label: Author
-        type: select
-        required: true
-        options:
-          values:
-            - name: editorial-team
-              label: TheEduAssist Editorial Team
-      - name: category
-        label: Primary Category
-        type: select
-        required: true
-        options:
-          values:
-            - name: learning-strategy
-              label: Learning Strategy
-            - name: instructional-design
-              label: Instructional Design
-            - name: course-development
-              label: Course Development
-            - name: lms-learning-technology
-              label: LMS & Learning Technology
-            - name: kajabi
-              label: Kajabi
-            - name: ai-learning
-              label: AI & Learning
-            - name: accessibility-quality
-              label: Accessibility & Quality
-            - name: enterprise-learning
-              label: Enterprise Learning
-            - name: localization-global-learning
-              label: Localization & Global Learning
-            - name: managed-learning
-              label: Managed Learning
-      - name: tags
-        label: Tags
-        type: string
-        list: true
-      - name: draft
-        label: Draft
-        type: boolean
-        default: false
-      - name: publishedAt
-        label: Publication Date
-        type: date
-      - name: updatedAt
-        label: Last Updated Date
-        type: date
-      - name: heroImage
-        label: Featured Image
-        type: image
-        media: blog_images
-      - name: heroImageAlt
-        label: Featured Image Alt Text
-        type: string
-        description: "Required for accessibility if a hero image is provided."
-      - name: heroImageCaption
-        label: Featured Image Caption
-        type: text
-      - name: heroImageCredit
-        label: Image Credit / Source
-        type: string
-      - name: videoUrl
-        label: Optional Video URL
-        type: string
-      - name: videoTranscript
-        label: Video Transcript
-        type: text
-      - name: seoTitle
-        label: SEO Title
-        type: string
-      - name: seoDescription
-        label: Meta Description
-        type: text
-      - name: focusKeyword
-        label: Focus Keyword
-        type: string
-      - name: secondaryKeywords
-        label: Secondary Keywords
-        type: string
-        list: true
-      - name: searchIntent
-        label: Search Intent
-        type: string
-        options:
-          - Informational
-          - Commercial
-          - Transactional
-          - Navigational
-      - name: advancedSeo
-        label: Advanced SEO
-        type: object
-        fields:
-          - name: canonicalOverride
-            label: Canonical URL Override
-            type: string
-          - name: noindex
-            label: Noindex
-            type: boolean
-          - name: hreflang
-            label: Hreflang / Language
-            type: string
-          - name: socialTitle
-            label: Social Sharing Title
-            type: string
-          - name: socialDescription
-            label: Social Sharing Description
-            type: text
-          - name: ogImage
-            label: Open Graph Image
-            type: image
-            media: blog_images
-          - name: twitterCardType
-            label: Twitter/X Card Type
-            type: string
-            options:
-              - summary
-              - summary_large_image
-      - name: keyTakeaways
-        label: Key Takeaways
-        type: string
-        list: true
-      - name: faqs
-        label: Frequently Asked Questions
-        type: object
-        list:
-          collapsible:
-            collapsed: true
-            summary: "{question}"
-        fields:
-          - name: question
-            label: Question
-            type: string
-            required: true
-          - name: answer
-            label: Answer
-            type: rich-text
-            required: true
-            options:
-              media: false
-      - name: sources
-        label: References and Sources
-        type: object
-        list:
-          collapsible:
-            collapsed: true
-            summary: "{title}"
-        fields:
-          - name: title
-            label: Source Title
-            type: string
-            required: true
-          - name: url
-            label: Source URL
-            type: string
-          - name: publisher
-            label: Publisher or Organization
-            type: string
-          - name: accessedAt
-            label: Accessed / Publication Date
-            type: date
-      - name: relatedArticles
-        label: Related Articles
-        type: string
-        list: true
-      - name: relatedServices
-        label: Related Service
-        type: string
-        list: true
-      - name: downloadableResource
-        label: Downloadable Resource
-        type: object
-        fields:
-          - name: title
-            label: Resource Title
-            type: string
-          - name: url
-            label: Resource URL or File
-            type: string
-          - name: description
-            label: Resource Description
-            type: text
-      - name: endOfArticleCta
-        label: End-of-Article CTA
-        type: object
-        fields:
-          - name: ctaHeading
-            label: CTA Heading
-            type: string
-          - name: ctaDescription
-            label: CTA Description
-            type: text
-          - name: ctaLabel
-            label: CTA Button Label
-            type: string
-          - name: ctaUrl
-            label: CTA Button URL
-            type: string
-          - name: ctaType
-            label: CTA Type
-            type: string
-            options:
-              - Book a review
-              - Book a call or demo
-              - Contact us
-              - View service
-              - Download resource
-              - Read related article
-          - name: ctaTrackingLabel
-            label: CTA Tracking Label
-            type: string
-      - name: editorialManagement
-        label: Editorial Management
-        type: object
-        fields:
-          - name: contentStatus
-            label: Content Status
-            type: string
-            options:
-              - Idea
-              - Brief assigned
-              - Draft
-              - Editing
-              - SEO review
-              - Approved
-              - Scheduled
-              - Published
-              - Needs update
-              - Archived
-          - name: assignedWriter
-            label: Assigned Writer
-            type: string
-          - name: assignedEditor
-            label: Assigned Editor
-            type: string
-          - name: seoReviewer
-            label: SEO Reviewer
-            type: string
-          - name: dueDate
-            label: Due Date
-            type: date
-          - name: scheduledPublicationDate
-            label: Scheduled Publication Date
-            type: date
-          - name: lastReviewedDate
-            label: Last Reviewed Date
-            type: date
-          - name: nextReviewDate
-            label: Next Review Date
-            type: date
-          - name: editorialNotes
-            label: Editorial Notes
-            type: text
-          - name: targetAudience
-            label: Target Audience
-            type: string
-          - name: contentObjective
-            label: Content Objective
-            type: string
-          - name: campaign
-            label: Campaign
-            type: string
-          - name: contentPillar
-            label: Content Pillar
-            type: string
-          - name: priority
-            label: Priority
-            type: string
-            options:
-              - Low
-              - Normal
-              - High
-              - Urgent
-          - name: approvalStatus
-            label: Approval Status
-            type: string
-            options:
-              - Not submitted
-              - Awaiting review
-              - Changes requested
-              - Approved
-              - Rejected
-      - name: body
-        label: Article Body
-        type: rich-text
-        required: true
-        options:
-          media: blog_images
-
-  - name: authors
-    label: Authors
-    type: collection
-    path: src/content/authors
-    format: yaml-frontmatter
-    filename: "{slug}.md"
-    view:
-      primary: name
-    operations:
-      create: true
-      rename: false
-      delete: false
+    - name: canonicalOverride
+      label: Canonical URL Override
+      type: string
+    - name: noindex
+      label: Noindex
+      type: boolean
+    - name: hreflang
+      label: Hreflang / Language
+      type: string
+    - name: socialTitle
+      label: Social Sharing Title
+      type: string
+    - name: socialDescription
+      label: Social Sharing Description
+      type: text
+    - name: ogImage
+      label: Open Graph Image
+      type: image
+      media: blog_images
+    - name: twitterCardType
+      label: Twitter/X Card Type
+      type: string
+      options:
+      - summary
+      - summary_large_image
+  - name: keyTakeaways
+    label: Key Takeaways
+    type: string
+    list: true
+  - name: faqs
+    label: Frequently Asked Questions
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{question}'
     fields:
-      - name: name
-        label: Author Name
-        type: string
-        required: true
-      - name: slug
-        label: Slug
-        type: string
-        required: true
-      - name: role
-        label: Job Title
-        type: string
-      - name: shortBio
-        label: Short Biography
-        type: text
-      - name: fullBio
-        label: Full Biography
-        type: text
-      - name: profileImage
-        label: Author Photo
-        type: image
-        media: author_images
-      - name: profileImageAlt
-        label: Photo Alt Text
-        type: string
-      - name: profileUrl
-        label: Author Profile URL
-        type: string
-      - name: linkedinUrl
-        label: LinkedIn Profile
-        type: string
-      - name: areasOfExpertise
-        label: Expertise Areas
-        type: string
-        list: true
-      - name: organization
-        label: Organization
-        type: string
-      - name: schemaType
-        label: Schema Type
-        type: string
+    - name: question
+      label: Question
+      type: string
+      required: true
+    - name: answer
+      label: Answer
+      type: rich-text
+      required: true
+      options:
+        media: false
+  - name: sources
+    label: References and Sources
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: title
+      label: Source Title
+      type: string
+      required: true
+    - name: url
+      label: Source URL
+      type: string
+    - name: publisher
+      label: Publisher or Organization
+      type: string
+    - name: accessedAt
+      label: Accessed / Publication Date
+      type: date
+  - name: relatedArticles
+    label: Related Articles
+    type: string
+    list: true
+  - name: relatedServices
+    label: Related Service
+    type: string
+    list: true
+  - name: downloadableResource
+    label: Downloadable Resource
+    type: object
+    fields:
+    - name: title
+      label: Resource Title
+      type: string
+    - name: url
+      label: Resource URL or File
+      type: string
+    - name: description
+      label: Resource Description
+      type: text
+  - name: endOfArticleCta
+    label: End-of-Article CTA
+    type: object
+    fields:
+    - name: ctaHeading
+      label: CTA Heading
+      type: string
+    - name: ctaDescription
+      label: CTA Description
+      type: text
+    - name: ctaLabel
+      label: CTA Button Label
+      type: string
+    - name: ctaUrl
+      label: CTA Button URL
+      type: string
+    - name: ctaType
+      label: CTA Type
+      type: string
+      options:
+      - Book a review
+      - Book a call or demo
+      - Contact us
+      - View service
+      - Download resource
+      - Read related article
+    - name: ctaTrackingLabel
+      label: CTA Tracking Label
+      type: string
+  - name: editorialManagement
+    label: Editorial Management
+    type: object
+    fields:
+    - name: contentStatus
+      label: Content Status
+      type: string
+      options:
+      - Idea
+      - Brief assigned
+      - Draft
+      - Editing
+      - SEO review
+      - Approved
+      - Scheduled
+      - Published
+      - Needs update
+      - Archived
+    - name: assignedWriter
+      label: Assigned Writer
+      type: string
+    - name: assignedEditor
+      label: Assigned Editor
+      type: string
+    - name: seoReviewer
+      label: SEO Reviewer
+      type: string
+    - name: dueDate
+      label: Due Date
+      type: date
+    - name: scheduledPublicationDate
+      label: Scheduled Publication Date
+      type: date
+    - name: lastReviewedDate
+      label: Last Reviewed Date
+      type: date
+    - name: nextReviewDate
+      label: Next Review Date
+      type: date
+    - name: editorialNotes
+      label: Editorial Notes
+      type: text
+    - name: targetAudience
+      label: Target Audience
+      type: string
+    - name: contentObjective
+      label: Content Objective
+      type: string
+    - name: campaign
+      label: Campaign
+      type: string
+    - name: contentPillar
+      label: Content Pillar
+      type: string
+    - name: priority
+      label: Priority
+      type: string
+      options:
+      - Low
+      - Normal
+      - High
+      - Urgent
+    - name: approvalStatus
+      label: Approval Status
+      type: string
+      options:
+      - Not submitted
+      - Awaiting review
+      - Changes requested
+      - Approved
+      - Rejected
+  - name: body
+    label: Article Body
+    type: rich-text
+    required: true
+    options:
+      media: blog_images
+- name: authors
+  label: Authors
+  type: collection
+  path: src/content/authors
+  format: yaml-frontmatter
+  filename: '{slug}.md'
+  view:
+    primary: name
+  operations:
+    create: true
+    rename: false
+    delete: false
+  fields:
+  - name: name
+    label: Author Name
+    type: string
+    required: true
+  - name: slug
+    label: Slug
+    type: string
+    required: true
+  - name: role
+    label: Job Title
+    type: string
+  - name: shortBio
+    label: Short Biography
+    type: text
+  - name: fullBio
+    label: Full Biography
+    type: text
+  - name: profileImage
+    label: Author Photo
+    type: image
+    media: author_images
+  - name: profileImageAlt
+    label: Photo Alt Text
+    type: string
+  - name: profileUrl
+    label: Author Profile URL
+    type: string
+  - name: linkedinUrl
+    label: LinkedIn Profile
+    type: string
+  - name: areasOfExpertise
+    label: Expertise Areas
+    type: string
+    list: true
+  - name: organization
+    label: Organization
+    type: string
+  - name: schemaType
+    label: Schema Type
+    type: string

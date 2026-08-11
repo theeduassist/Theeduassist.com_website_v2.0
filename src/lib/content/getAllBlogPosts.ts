@@ -193,7 +193,10 @@ export type NormalizedBlogPost = {
   stats?: any;
   endCta?: any;
   featured?: boolean;
+  keyTakeaways?: string[];
+  downloadableResource?: any;
 };
+
 
 import { getCollection } from 'astro:content';
 
@@ -243,6 +246,14 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
         tags: normalizeStringArray(frontmatter.tags),
         aiSummary: (frontmatter as any).aiSummary || '',
         featured: (frontmatter as any).featured || false,
+        blogFaqs: (frontmatter as any).faqs || [],
+        keyTakeaways: normalizeStringArray((frontmatter as any).keyTakeaways),
+        sources: (frontmatter as any).sources || [],
+        relatedPosts: normalizeStringArray((frontmatter as any).relatedArticles),
+        relatedServices: normalizeStringArray((frontmatter as any).relatedServices),
+        downloadableResource: (frontmatter as any).downloadableResource || null,
+        endCta: (frontmatter as any).endOfArticleCta || null,
+
       } as NormalizedBlogPost;
     });
 
