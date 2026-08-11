@@ -67,6 +67,10 @@ async function generateSitemap() {
   let excludedCount = 0;
   let blogUrlsForLlms = [];
 
+  let resourceUrls = [];
+  let excludedResourceCount = 0;
+  let resourceUrlsForLlms = [];
+
 
   try {
     const fsFiles = fs.readdirSync('src/content/blog/');
@@ -136,10 +140,76 @@ async function generateSitemap() {
     console.warn("Warning: Exception occurred while reading local Markdown blog posts.", err);
   }
 
+  try {
+    const resourceCategories = fs.readdirSync('src/content/resources/');
+    const resources = [];
 
+    for (const category of resourceCategories) {
+      const dirPath = path.join('src/content/resources/', category);
+      if (fs.statSync(dirPath).isDirectory()) {
+        const fsFiles = fs.readdirSync(dirPath);
+        for (const file of fsFiles) {
+          if (!file.endsWith('.md')) continue;
 
+          const content = fs.readFileSync(path.join(dirPath, file), 'utf8');
 
+          let isNoIndex = false;
+          let title = '';
+          let slug = file.replace('.md', '');
+          let publishedAt = '';
+          let updatedAt = '';
 
+          if (content.startsWith('---')) {
+            const parts = content.split('---');
+            if (parts.length >= 3) {
+              const fm = parts[1];
+              const lines = fm.split('\n');
+              for (const line of lines) {
+                if (line.startsWith('title:')) title = line.substring(6).trim().replace(/^["']|["']$/g, '');
+                if (line.startsWith('slug:')) slug = line.substring(5).trim().replace(/^["']|["']$/g, '');
+                if (line.startsWith('publishedAt:')) publishedAt = line.substring(12).trim().replace(/^["']|["']$/g, '');
+                if (line.startsWith('updatedAt:')) updatedAt = line.substring(10).trim().replace(/^["']|["']$/g, '');
+                if (line.startsWith('noindex:') && line.includes('true')) isNoIndex = true;
+              }
+            }
+          }
+
+          if (
+            !isNoIndex &&
+            title &&
+            !title.toLowerCase().includes('test') &&
+            slug &&
+            publishedAt
+          ) {
+            resources.push({ title, slug, category, publishedAt, updatedAt });
+          } else {
+            excludedResourceCount++;
+          }
+        }
+      }
+    }
+
+    resources.forEach(resource => {
+      const fullUrl = `https://www.theeduassist.com/resources/${resource.category}/${resource.slug}/`;
+      resourceUrls.push(generateUrlXml(fullUrl, resource.updatedAt || resource.publishedAt, '0.8', 'monthly'));
+      resourceUrlsForLlms.push(fullUrl);
+    });
+
+    // Add category landing pages and the main hub
+    const uniqueCategories = [...new Set(resources.map(r => r.category))];
+    resourceUrls.push(generateUrlXml('https://www.theeduassist.com/resources/', '', '0.9', 'weekly'));
+    resourceUrlsForLlms.push('https://www.theeduassist.com/resources/');
+
+    uniqueCategories.forEach(cat => {
+      const fullUrl = `https://www.theeduassist.com/resources/${cat}/`;
+      resourceUrls.push(generateUrlXml(fullUrl, '', '0.8', 'weekly'));
+      resourceUrlsForLlms.push(fullUrl);
+    });
+
+    console.log(`Successfully fetched ${resources.length} local Markdown resources.`);
+  } catch (err) {
+    console.warn("Warning: Exception occurred while reading local Markdown resources.", err);
+  }
 
   // Combine all clean routes for llms.txt
 
@@ -199,6 +269,10 @@ const staticLlmsExpertise = `
 
 ## Expertise
 
+- Customer Education
+- Knowledge Bases
+- SaaS Training
+- Technical Documentation
 - Learning Strategy
 - Instructional Design
 - Course Development
@@ -228,6 +302,30 @@ const staticLlmsExpertise = `
 
 
   // Format core urls NOW
+
+  // Dynamically push the newly created service pages into coreUrls array
+  const servicePages = [
+    'articulate-storyline-localization',
+    'articulate-rise-localization',
+    'elearning-localization-implementation',
+    'multilingual-elearning-qa',
+    'ai-voiceover-localization',
+    'vyond-video-localization',
+    'bilingual-elearning-development',
+    'customer-education',
+    'knowledge-base-development',
+    'bilingual-knowledge-base',
+    'technical-documentation',
+    'saas-customer-training',
+    'software-training-video-production',
+    'customer-training-programs',
+    'documentation-maintenance'
+  ];
+
+  servicePages.forEach(sp => {
+    coreUrls.push(`https://www.theeduassist.com/services/${sp}/`);
+  });
+
   const coreUrlXml = coreUrls.map(url => {
     let priority = '0.7';
     let changefreq = 'monthly';
@@ -255,7 +353,7 @@ const staticLlmsExpertise = `
   });
 
   // Combine, deduplicate, write
-  const allXmlBlocks = [...coreUrlXml, ...blogUrls];
+  const allXmlBlocks = [...coreUrlXml, ...blogUrls, ...resourceUrls];
   const uniqueXmlBlocks = Array.from(new Set(allXmlBlocks));
 
   const xmlContent = `<?xml version="1.0" encoding="UTF-8"?>
@@ -265,7 +363,7 @@ ${uniqueXmlBlocks.join('\n')}
 
   fs.writeFileSync(path.join(process.cwd(), 'public', 'sitemap.xml'), xmlContent);
 
-  console.log(`Sitemap generated with ${coreUrlXml.length} core URLs and ${blogUrls.length} blog URLs (${excludedCount} blog posts excluded).`);
+  console.log(`Sitemap generated with ${coreUrlXml.length} core URLs, ${blogUrls.length} blog URLs, and ${resourceUrls.length} resource URLs.`);
 }
 
 generateSitemap();

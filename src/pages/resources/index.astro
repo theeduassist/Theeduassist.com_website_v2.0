@@ -1,0 +1,111 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ResourceCard from "../../components/resources/ResourceCard.astro";
+import { getCollection } from 'astro:content';
+
+const allResources = await getCollection('resources');
+const resources = allResources
+  .filter(r => !r.data.noindex)
+  .sort((a, b) => new Date(b.data.publishedAt || b.data.updatedAt || new Date()).valueOf() - new Date(a.data.publishedAt || a.data.updatedAt || new Date()).valueOf());
+
+const featuredResources = resources.filter(r => r.data.featured).slice(0, 3);
+const latestResources = resources.filter(r => !r.data.featured).slice(0, 9);
+
+const categories = [
+  { name: "Localization", slug: "localization", count: resources.filter(r => r.data.category === 'localization').length },
+  { name: "Customer Education", slug: "customer-education", count: resources.filter(r => r.data.category === 'customer-education').length },
+  { name: "Knowledge Bases", slug: "knowledge-bases", count: resources.filter(r => r.data.category === 'knowledge-bases').length },
+  { name: "SaaS Training", slug: "saas-training", count: resources.filter(r => r.data.category === 'saas-training').length },
+  { name: "Technical Documentation", slug: "technical-documentation", count: resources.filter(r => r.data.category === 'technical-documentation').length },
+  { name: "Learning Technology", slug: "learning-technology", count: resources.filter(r => r.data.category === 'learning-technology').length },
+  { name: "Instructional Design", slug: "instructional-design", count: resources.filter(r => r.data.category === 'instructional-design').length },
+  { name: "Accessibility", slug: "accessibility", count: resources.filter(r => r.data.category === 'accessibility').length },
+  { name: "Glossary", slug: "glossary", count: resources.filter(r => r.data.category === 'glossary').length },
+].filter(c => c.count > 0);
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Knowledge Hub | TheEduAssist",
+  "description": "Practical guides for eLearning, Customer Education, Localization and Learning Technology.",
+  "url": "https://www.theeduassist.com/resources/"
+};
+---
+
+<Layout
+  title="Learning Knowledge Hub | TheEduAssist"
+  description="Explore practical, research-informed guidance for building, localizing and managing training, knowledge bases, customer education and learning technology."
+  canonical="/resources/"
+  schema={[structuredData]}
+>
+  <main id="main-content">
+
+    <div class="bg-brand-navy pt-32 pb-24 text-white text-center px-4">
+      <div class="max-w-4xl mx-auto">
+          <h1 class="text-4xl md:text-5xl font-bold mb-6">TheEduAssist Learning Knowledge Hub</h1>
+          <p class="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
+            Practical guides for eLearning, Customer Education, Localization and Learning Technology.
+          </p>
+      </div>
+    </div>
+
+    <section class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {categories.length > 0 && (
+          <div class="mb-16">
+            <h2 class="text-2xl font-bold text-brand-navy mb-6 text-center">Browse by Topic</h2>
+            <div class="flex flex-wrap justify-center gap-3">
+              {categories.map(category => (
+                <a href={`/resources/${category.slug}/`} class="inline-flex items-center px-4 py-2 rounded-full border border-slate-200 bg-slate-50 text-brand-navy font-medium hover:bg-brand-primary hover:text-white hover:border-brand-primary transition-colors">
+                  {category.name} <span class="ml-2 text-xs opacity-70">({category.count})</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {featuredResources.length > 0 && (
+          <div class="mb-24">
+            <h2 class="text-3xl font-bold text-brand-navy mb-8 border-b border-slate-200 pb-4">Featured Guides</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {featuredResources.map(resource => (
+                <ResourceCard resource={resource} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {latestResources.length > 0 && (
+          <div>
+            <h2 class="text-3xl font-bold text-brand-navy mb-8 border-b border-slate-200 pb-4">Latest Resources</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {latestResources.map(resource => (
+                <ResourceCard resource={resource} />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {resources.length === 0 && (
+          <div class="text-center py-20 bg-slate-50 rounded-xl border border-slate-200">
+             <h3 class="text-xl font-bold text-brand-navy mb-2">Check back soon!</h3>
+             <p class="text-slate-600">We are currently migrating our resources library.</p>
+          </div>
+        )}
+
+      </div>
+    </section>
+
+    <section class="py-24 bg-slate-50 border-t border-slate-200">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl font-bold text-brand-navy mb-6">Need help applying this to your organization?</h2>
+        <p class="text-xl text-slate-600 mb-8">Get actionable advice specific to your business and learning goals.</p>
+        <a href="/book-free-audit/" class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-brand-primary rounded-md hover:bg-brand-accent transition-colors shadow-sm focus-ring">
+          Get a 24-48 Hour Review
+        </a>
+      </div>
+    </section>
+
+  </main>
+</Layout>

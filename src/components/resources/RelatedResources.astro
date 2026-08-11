@@ -1,0 +1,48 @@
+---
+import ResourceCard from './ResourceCard.astro';
+import { getCollection } from 'astro:content';
+
+export interface Props {
+  currentSlug: string;
+  relatedSlugs?: string[];
+  category?: string;
+  limit?: number;
+}
+
+const { currentSlug, relatedSlugs = [], category, limit = 3 } = Astro.props;
+
+const allResources = await getCollection('resources');
+
+let related: any[] = [];
+
+if (relatedSlugs.length > 0) {
+  related = allResources.filter(r => {
+    const slug = r.data.slug || r.id.split('/').pop();
+    return relatedSlugs.includes(slug) && slug !== currentSlug;
+  });
+}
+
+if (related.length < limit && category) {
+  const categoryMatch = allResources.filter(r => {
+    const slug = r.data.slug || r.id.split('/').pop();
+    return r.data.category === category && slug !== currentSlug && !related.find(ex => (ex.data.slug || ex.id.split('/').pop()) === slug);
+  });
+  related = [...related, ...categoryMatch];
+}
+
+related = related.slice(0, limit);
+
+if (related.length === 0) {
+    related = allResources.filter(r => (r.data.slug || r.id.split('/').pop()) !== currentSlug).slice(0, limit);
+}
+---
+{related.length > 0 && (
+  <div class="mt-12 pt-12 border-t border-slate-200">
+    <h3 class="text-2xl font-bold text-brand-navy mb-6">Related Guides</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {related.map(r => (
+        <ResourceCard resource={r} />
+      ))}
+    </div>
+  </div>
+)}
