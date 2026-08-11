@@ -148,28 +148,28 @@ content:
   - name: videoTranscript
     label: Video Transcript
     type: text
-  - name: seoTitle
-    label: SEO Title
-    type: string
-  - name: seoDescription
-    label: Meta Description
-    type: text
-  - name: focusKeyword
-    label: Focus Keyword
-    type: string
-  - name: secondaryKeywords
-    label: Secondary Keywords
-    type: string
-    list: true
-  - name: searchIntent
-    label: Search Intent
-    type: string
-    options:
-    - Informational
-    - Commercial
-    - Transactional
-    - Navigational
   - name: advancedSeo
+    - name: seoTitle
+      label: SEO Title Override
+      type: string
+    - name: seoDescription
+      label: Meta Description Override
+      type: text
+    - name: focusKeyword
+      label: Focus Keyword
+      type: string
+    - name: secondaryKeywords
+      label: Secondary Keywords
+      type: string
+      list: true
+    - name: searchIntent
+      label: Search Intent
+      type: string
+      options:
+      - Informational
+      - Commercial
+      - Transactional
+      - Navigational
     label: Advanced SEO
     type: object
     fields:
