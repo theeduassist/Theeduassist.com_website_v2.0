@@ -22,11 +22,8 @@ if (fs.existsSync(contentDir)) {
         hasErrors = true;
       }
 
-      // Check for ++ formatting artifacts
-      if (/\+\+.*?\+\+/.test(body)) {
-        console.error(`❌ [${file}] Error: Found "++" artifact formatting. Use standard Markdown formatting (**bold**, [link](url)).`);
-        hasErrors = true;
-      }
+      // We no longer fail on "++" artifact formatting because it is handled dynamically by a remark plugin,
+      // allowing writers to use Pages CMS underline functionality seamlessly.
 
       // 2. Check for empty body or placeholder text
       const cleanBody = body.replace(/\s+/g, '').toLowerCase();
