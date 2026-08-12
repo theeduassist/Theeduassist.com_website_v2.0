@@ -143,6 +143,7 @@ export const siteNavigation: TopLevelNavigationItem[] = [
           { id: "contact-us", label: "Contact Us", href: "/contact-us/", icon: "Mail" },
           { id: "platforms", label: "Supported Platforms", href: "/platforms/", icon: "Database" },
           { id: "trust-centre", label: "Trust Centre", href: "/trust-centre/", icon: "Shield" },
+          { id: "knowledge-hub", label: "Knowledge Hub", href: "/resources/", icon: "BookOpen" }
         ]
       }
     ]
@@ -158,6 +159,7 @@ export const footerNavigation = {
       { label: "Kajabi Services", href: "/kajabi-services/" }
   ],
   resources: [
+      { label: "Knowledge Hub", href: "/resources/" },
       { label: "Blog", href: "/blog/" },
       { label: "Case Studies", href: "/case-studies/" },
       { label: "Platforms", href: "/platforms/" }
