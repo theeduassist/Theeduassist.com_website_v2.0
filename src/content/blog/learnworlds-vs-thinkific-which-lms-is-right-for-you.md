@@ -398,7 +398,7 @@ If learning experience is your priority, LearnWorlds is the stronger platform.
 
 **Better Choice:** LearnWorlds
 
-## **2. Website Builder and Customization**
+### **2. Website Builder and Customization**
 
 A professional website builds trust and strengthens your brand.
 
@@ -418,9 +418,9 @@ Thinkific provides appealing templates that are simple to tailor. They may appea
 - Choose LearnWorlds if your brand identity matters.
 - Choose Thinkific if you prefer a simple website with minimal setup.
 
-**Better Choice: LearnWorlds**
+**Better Choice:** LearnWorlds
 
-## **3. Marketing and Sales Tools**
+### **3. Marketing and Sales Tools**
 
 Creating courses is only part of the journey. Growing your business requires effective marketing.
 
@@ -455,7 +455,7 @@ If you want an all-in-one platform, LearnWorlds is the better choice.
 
 **Better Choice:** LearnWorlds
 
-## **4.  Analytics and Student Progress**
+### **4.  Analytics and Student Progress**
 
 Good ++[analytics](https://developers.google.com/analytics)++ help you understand how students learn. LearnWorlds offers comprehensive analytics on course completion, student engagement, video metrics, and assessment metrics. From this information, you can fine-tune your course over time. Track and report on progress, and more basic analytics are included in Thinkific. 
 
@@ -479,13 +479,13 @@ Good ++[analytics](https://developers.google.com/analytics)++ help you understan
 - Basic learner tracking
 - Small course businesses
 
-### **What suits you better?**
+**What suits you better?**
 
 If you rely on data to improve learning outcomes, LearnWorlds offers more valuable insights.
 
 **Better Choice:** LearnWorlds
 
-## **5. Pricing: Which Platform Offers Better Value?**
+### **5. Pricing: Which Platform Offers Better Value?**
 
 Price is important, but value matters more. ++[Thinkific](https://www.thinkific.com/pricing/)++ is the better option if you're just getting started. Its free plan allows you to test your course idea without paying upfront.
 
@@ -507,7 +507,7 @@ Price is important, but value matters more. ++[Thinkific](https://www.thinkific.
 
 ## **Pros and Cons**
 
-### **LearnWorldsPros**
+### **LearnWorlds Pros**
 
 - Excellent interactive learning features
 - Native SCORM support
@@ -516,7 +516,7 @@ Price is important, but value matters more. ++[Thinkific](https://www.thinkific.
 - Advanced learner analytics
 - Strong branding and customization options
 
-#### **LearnWorlds Cons**
+### **LearnWorlds Cons**
 
 - Slight learning curve for beginners
 - Transaction fee on the Starter plan
@@ -530,7 +530,7 @@ Price is important, but value matters more. ++[Thinkific](https://www.thinkific.
 - Clean and intuitive interface
 - Large app marketplace
 
-#### **Thinkific Cons**
+### **Thinkific Cons**
 
 - Limited website customization
 - Fewer built-in marketing tools
