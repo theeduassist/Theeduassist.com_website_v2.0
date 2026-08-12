@@ -21,7 +21,7 @@ tags:
 draft: false
 publishedAt: 2026-08-12
 updatedAt: 2026-08-12
-heroImage: /images/blog/com-1pm-1.png
+heroImage: /images/blog/com-1pm.webp
 heroImageAlt: LearnWorlds vs Thinkific LMS comparison
 heroImageCaption: |
   LearnWorlds vs Thinkific: LMS features compared
