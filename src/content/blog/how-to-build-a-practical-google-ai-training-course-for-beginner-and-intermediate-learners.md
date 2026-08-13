@@ -124,14 +124,14 @@ sources:
     url: https://cloud.google.com/responsible-ai
     accessedAt: 2026-08-13
 endOfArticleCta:
-  ctaHeading: Build a Practical AI Training Course
-  ctaDescription: Need help developing practical AI training? TheEduAssist can
-    help you design engaging courses, learning activities, assessments, and
-    LMS-ready content.
-  ctaLabel: Explore Course Development
-  ctaUrl: https://www.theeduassist.com/services/course-development
-  ctaType: Service
-  ctaTrackingLabel: google-ai-course-development-cta
+  ctaHeading: Ready to Build Your AI Training Course?
+  ctaDescription: Have questions about AI training or course development? Contact
+    TheEduAssist to discuss your learning goals and explore the right solution
+    for your organization.
+  ctaLabel: Contact Us
+  ctaUrl: https://www.theeduassist.com/contact-us/
+  ctaType: Contact
+  ctaTrackingLabel: google-ai-training-contact-cta
 editorialManagement:
   dueDate: 2026-08-13
   scheduledPublicationDate: 2026-08-13
