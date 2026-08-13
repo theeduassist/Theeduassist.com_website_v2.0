@@ -130,7 +130,7 @@ endOfArticleCta:
     LMS-ready content.
   ctaLabel: Explore Course Development
   ctaUrl: https://www.theeduassist.com/services/course-development
-  ctaType: SErvice
+  ctaType: Service
   ctaTrackingLabel: google-ai-course-development-cta
 editorialManagement:
   dueDate: 2026-08-13
