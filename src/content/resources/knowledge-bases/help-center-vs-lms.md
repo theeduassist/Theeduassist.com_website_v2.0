@@ -4,7 +4,7 @@ slug: "help-center-vs-lms"
 description: "A comparison of Help Centers (Knowledge Bases) and Learning Management Systems (LMS) to help businesses choose the right platform for customer education."
 category: "knowledge-bases"
 resourceType: "comparison"
-publishedAt: "2026-02-12"
+publishedAt: "2026-08-13"
 author: "TheEduAssist Editorial Team"
 summary: "Help Centers and Learning Management Systems serve different customer education needs. A Help Center provides un-gated, searchable, 'just-in-time' reference material for quick troubleshooting. An LMS provides structured, gated, linear learning paths designed for formal onboarding, skill development, and certification."
 primaryKeyword: "help center vs lms"
@@ -73,3 +73,10 @@ Mature customer education programs use both.
 They use the **LMS** to deliver a "101 Onboarding Certification" that teaches the core concepts of the software. Then, they use the **Help Center** as the daily reference tool for users to quickly look up specific configurations when they are actually doing the work.
 
 When using a hybrid model, ensure the two platforms link to each other smoothly so the customer experiences a single unified education ecosystem.
+
+### Designing the User Journey
+To successfully implement a hybrid approach, map out the customer journey. New users should be driven to the LMS during their initial 30-day onboarding window. Automated emails, in-app tooltips, and Customer Success Managers (CSMs) should guide them to formal training paths.
+
+Once a user graduates from onboarding, the primary support mechanism shifts. In-app widgets (like Zendesk Web Widget or Intercom) should proactively serve Help Center articles based on the page the user is currently viewing.
+
+By aligning the platform (LMS vs. Help Center) with the user's lifecycle stage (Onboarding vs. Adoption/Support), you maximize the ROI of your customer education investments and create a frictionless learning experience.

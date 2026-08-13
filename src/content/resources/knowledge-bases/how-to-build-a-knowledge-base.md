@@ -4,7 +4,7 @@ slug: "how-to-build-a-knowledge-base"
 description: "A practical guide to designing, writing, and launching a customer knowledge base that actually reduces support tickets."
 category: "knowledge-bases"
 resourceType: "tutorial"
-publishedAt: "2026-02-12"
+publishedAt: "2026-08-13"
 author: "TheEduAssist Editorial Team"
 summary: "Building an effective knowledge base requires defining your audience, analyzing support ticket data to prioritize content, structuring a logical category hierarchy, standardizing article templates, and establishing a governance model to keep documentation updated as your product evolves."
 primaryKeyword: "how to build a knowledge base"
@@ -79,6 +79,12 @@ A knowledge base is never "finished." Software updates constantly, and outdated 
 2.  **Release Integration:** The technical writing team must be integrated into the product release cycle. When a new feature is launched, the documentation must launch with it.
 3.  **Scheduled Audits:** Set a reminder to review high-traffic articles every 6 months to ensure screenshots and workflows are still accurate.
 
+## Step 7: Measuring Success
+To prove the ROI of your knowledge base, track these key metrics:
+*   **Ticket Deflection Rate:** Compare the volume of support tickets before and after launching the knowledge base.
+*   **Self-Service Score:** The ratio of unique knowledge base visitors to support tickets submitted. A higher score means more people are finding answers on their own.
+*   **Search Queries with No Results:** This is your most valuable content gap report. If 50 people search for "API limits" and get zero results, you know exactly what article to write next.
+
 ## Conclusion
 
-Building a knowledge base is an exercise in organization and empathy. By analyzing what your customers are struggling with and providing structured, easily searchable answers, you empower them to succeed independently.
+Building a knowledge base is an exercise in organization and empathy. By analyzing what your customers are struggling with and providing structured, easily searchable answers, you empower them to succeed independently while drastically reducing support overhead.
