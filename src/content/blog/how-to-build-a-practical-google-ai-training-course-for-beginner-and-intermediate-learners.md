@@ -128,7 +128,7 @@ endOfArticleCta:
   ctaDescription: Need help developing practical AI training? TheEduAssist can
     help you design engaging courses, learning activities, assessments, and
     LMS-ready content.
-  ctaLabel: Explore AI Course Development
+  ctaLabel: Explore Course Development
   ctaUrl: https://www.theeduassist.com/services/course-development
   ctaType: SErvice
   ctaTrackingLabel: google-ai-course-development-cta
