@@ -4,7 +4,7 @@ slug: "bilingual-knowledge-base"
 description: "A guide to architecting multilingual help centers, managing translation workflows, and keeping English and translated documentation synchronized."
 category: "knowledge-bases"
 resourceType: "guide"
-publishedAt: "2026-02-12"
+publishedAt: "2026-08-13"
 author: "TheEduAssist Editorial Team"
 summary: "Maintaining a bilingual knowledge base requires strict governance. You must establish terminology glossaries to match localized software UI, manage translation workflows to prevent machine-translation errors, and implement synchronization processes so translated articles are flagged whenever the English source content is updated."
 primaryKeyword: "bilingual knowledge base"
@@ -69,6 +69,11 @@ Ensure that your search architecture supports the target language.
 ## 5. Provide a Language Switcher
 
 Users should never be permanently trapped in a specific language version based on a bad IP guess. Always provide a clear, visible language toggle (usually a globe icon in the header) allowing them to switch between the English and translated versions of the exact same article.
+
+## 6. Video and Image Localization
+Translating text is only half the battle. A truly localized knowledge base must also adapt multimedia elements:
+*   **Screenshots:** If a French user reads an article about navigating a dashboard, the screenshots must show the dashboard in French. Using English screenshots in localized articles causes severe cognitive dissonance. Tools like Snagit or automated UI capture scripts can help manage this.
+*   **Videos:** Tutorial videos should, at minimum, include localized subtitles (VTT/SRT files). For high-priority content, consider overdubbing the audio or completely re-recording the screen capture in the target language.
 
 ## Conclusion
 
