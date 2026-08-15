@@ -5,14 +5,33 @@
 ## Primary Pages
 
 - Homepage: https://www.theeduassist.com/
-- Home: https://www.theeduassist.com/home/
 - Services: https://www.theeduassist.com/services/
 - Enterprise Solutions: https://www.theeduassist.com/enterprise-solutions/
 - Kajabi Services: https://www.theeduassist.com/kajabi-services/
 - Case Studies: https://www.theeduassist.com/case-studies/
 - Pricing: https://www.theeduassist.com/pricing/
 - Blog: https://www.theeduassist.com/blog/
+- About Us: https://www.theeduassist.com/about-us/
 - Contact Us: https://www.theeduassist.com/contact-us/
+- Platforms: https://www.theeduassist.com/platforms/
+- Locations: https://www.theeduassist.com/locations/
+
+## Knowledge Hub
+
+- Knowledge Hub: https://www.theeduassist.com/resources/
+- Knowledge Bases: https://www.theeduassist.com/resources/knowledge-bases/
+- Localization: https://www.theeduassist.com/resources/localization/
+- Customer Education: https://www.theeduassist.com/resources/customer-education/
+- Accessibility: https://www.theeduassist.com/resources/accessibility/
+- SaaS Training: https://www.theeduassist.com/resources/saas-training/
+- Global eLearning: https://www.theeduassist.com/resources/global-elearning/
+
+## Trust & Editorial
+
+- Trust Centre: https://www.theeduassist.com/trust-centre/
+- Editorial Policy: https://www.theeduassist.com/editorial-policy/
+- Brand Assets: https://www.theeduassist.com/brand-assets/
+- Editorial Team: https://www.theeduassist.com/authors/editorial-team/
 
 ## Expertise
 
@@ -30,11 +49,3 @@
 - AI-Supported Learning
 - Localization
 - Managed Learning
-
-## Editorial
-
-- Blog
-- Editorial Team
-- Editorial Policy
-- Trust Centre
-

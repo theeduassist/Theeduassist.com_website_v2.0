@@ -11,9 +11,27 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-# Foundation Model Training Crawlers
+# AI Crawlers
 User-agent: GPTBot
-Disallow: /
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: GeminiBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
 
 # General Policy
 User-agent: *
