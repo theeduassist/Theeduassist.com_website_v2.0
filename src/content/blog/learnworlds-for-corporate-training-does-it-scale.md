@@ -21,8 +21,8 @@ tags:
   - Online Learning
   - Learning Management Systems
 draft: false
-publishedAt: 2026-08-15
-updatedAt: 2026-08-15
+publishedAt: 2026-08-13
+updatedAt: 2026-08-13
 heroImage: /images/blog/untitled-design-3.webp
 heroImageAlt: LearnWorlds for corporate training with scalable employee learning dashboard
 heroImageCaption: LearnWorlds can support growing corporate training programs,
@@ -96,10 +96,10 @@ sources:
     url: https://www.google.com/aclk?sa=L&ai=DChsSEwjP0YjX65aWAxXiloMHHebCIOoYACICCAEQARoCZWY&ae=2&aspm=1&co=1&ase=2&gclid=Cj0KCQjw7eXTBhDBARIsAKF-w44OadZ9KbLkcNdhvgwXJp8XwwIE9FkzZgLuwUyNM7Og_IMNqSnTMZAaApr9EALw_wcB&cid=CAASugHkaIovVJMSkMU7UULp3KAHMro2LV42nXTaV8pzlakzDSNfnzVTQedrTLy5Vzik66XELk84CTqeNI3NR5zUUCkBlgr_-QjubHfPd5M3ux5FtZ-m-rHLxn02IihJm6sTn3B_xyiBD5wVayKdl9bfvamMGt2OAw-HxNfDnd91qbmZl6Mwg8pJWrgj9nW6bDBvooauoluuiQHXzKxPETgiJ3c9XI5ySp3VI_3S5DO8YKcbgDgJnPmcFFqcEZA&cce=2&category=acrcp_v1_35&sig=AOD64_2V1h2dEpMbuRAvq9NkFPOuwnZXYQ&q&nis=4&adurl&ved=2ahUKEwjOgIPX65aWAxVoRf4FHUTRPLAQ0Qx6BAgVEAE
     accessedAt: 2026-08-17
 editorialManagement:
-  dueDate: 2026-08-15
-  scheduledPublicationDate: 2026-08-15
-  lastReviewedDate: 2026-08-15
-  nextReviewDate: 2026-08-15
+  dueDate: 2026-08-13
+  scheduledPublicationDate: 2026-08-13
+  lastReviewedDate: 2026-08-13
+  nextReviewDate: 2026-08-13
 ---
 What happens when your company outgrows its training system?
 
