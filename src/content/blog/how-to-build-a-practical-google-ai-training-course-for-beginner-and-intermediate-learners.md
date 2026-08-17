@@ -22,8 +22,8 @@ tags:
   - Generative AI
   - Google Gemini
 draft: false
-publishedAt: 2026-08-13
-updatedAt: 2026-08-13
+publishedAt: 2026-08-14
+updatedAt: 2026-08-14
 heroImage: /images/blog/imagepng2k202608121606.webp
 heroImageAlt: "Google AI training course for beginner and intermediate learners "
 heroImageCaption: Practical Google AI training from beginner concepts to advanced workflows.
@@ -133,10 +133,10 @@ endOfArticleCta:
   ctaType: Contact
   ctaTrackingLabel: google-ai-training-contact-cta
 editorialManagement:
-  dueDate: 2026-08-13
-  scheduledPublicationDate: 2026-08-13
-  lastReviewedDate: 2026-08-13
-  nextReviewDate: 2026-08-13
+  dueDate: 2026-08-14
+  scheduledPublicationDate: 2026-08-14
+  lastReviewedDate: 2026-08-14
+  nextReviewDate: 2026-08-14
 ---
 Google’s AI ecosystem is transforming how organizations research, create content, analyze information, and improve workplace productivity. Tools such as Gemini, NotebookLM, Google AI Studio, Google Workspace AI features, Google Colab, Vertex AI, Google Vids, and Google Labs offer valuable opportunities for structured AI learning.
 
