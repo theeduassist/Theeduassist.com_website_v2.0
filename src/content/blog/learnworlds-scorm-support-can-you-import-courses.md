@@ -118,7 +118,9 @@ Yes. LearnWorlds supports SCORM packages as learning activities. According to th
 - SCORM 2004 3rd Edition
 - ++[SCORM 2004](https://scholar.google.com.pk/scholar?q=Advanced+Distributed+Learning+(ADL).+%E2%80%9CSCORM+2004.%E2%80%9D&hl=en&as_sdt=0&as_vis=1&oi=scholart)++ 4th Edition
 - Captivate CAM 1.3 ZIP packages
-- HTML5 packages 
+- HTML5 packages
+
+
 
 LearnWorlds also supports SCORM completion rules and student time tracking. These features are available for SCORM packages, but not for HTML5 files. This means you can bring compatible interactive courses into LearnWorlds without rebuilding every lesson or activity.
 
@@ -264,4 +266,3 @@ LearnWorlds currently lists SCORM/HTML5 packages alongside these other learning 
 
 Yes, LearnWorlds supports SCORM course imports. It is a practical choice if you already have SCORM content and want to reuse it without rebuilding your courses. Before uploading, check the SCORM version, package size, plan limits, and tracking requirements. 
 
-  
