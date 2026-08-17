@@ -22,8 +22,8 @@ tags:
   - Instructional Design
   - Course Creation Tools
 draft: false
-publishedAt: 2026-08-14
-updatedAt: 2026-08-14
+publishedAt: 2026-08-15
+updatedAt: 2026-08-15
 heroImage: /images/blog/chatgpt-image-aug-13-2026-024349-pm.webp
 heroImageAlt: Create your first course on LearnWorlds
 heroImageCaption: Step-by-step LearnWorlds course creation guide.
@@ -97,10 +97,10 @@ sources:
     url: https://support.learnworlds.com/support/solutions/12000004745?utm_source=chatgpt.com
     accessedAt: 2026-08-14
 editorialManagement:
-  dueDate: 2026-08-14
-  scheduledPublicationDate: 2026-08-14
-  lastReviewedDate: 2026-08-14
-  nextReviewDate: 2026-08-14
+  dueDate: 2026-08-15
+  scheduledPublicationDate: 2026-08-15
+  lastReviewedDate: 2026-08-15
+  nextReviewDate: 2026-08-15
 ---
 Creating your first online course can feel overwhelming. The challenge isn't just uploading content to LearnWorlds. It's turning your expertise into a clear learning experience that learners can actually complete.
 
