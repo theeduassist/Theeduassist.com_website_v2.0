@@ -19,8 +19,8 @@ tags:
   - LMS Platforms
   - Online Learning
 draft: false
-publishedAt: 2026-08-08
-updatedAt: 2026-08-08
+publishedAt: 2026-08-05
+updatedAt: 2026-08-05
 heroImage: /images/blog/10-lms-compared-1.png
 heroImageAlt: 10 best learning management systems compared on features and pricing
 heroImageCaption: Compare the 10 best learning management systems by features,
@@ -107,10 +107,10 @@ sources:
     url: https://www.capterra.com?utm_source=chatgpt.com
     accessedAt: 2026-08-10
 editorialManagement:
-  dueDate: 2026-08-08
-  scheduledPublicationDate: 2026-08-08
-  lastReviewedDate: 2026-08-08
-  nextReviewDate: 2026-08-08
+  dueDate: 2026-08-05
+  scheduledPublicationDate: 2026-08-05
+  lastReviewedDate: 2026-08-05
+  nextReviewDate: 2026-08-05
 keyTakeaways:
   - "The best LMS depends on your goals, budget, and organization size. "
   - "TalentLMS is a strong choice for small and growing businesses. "
