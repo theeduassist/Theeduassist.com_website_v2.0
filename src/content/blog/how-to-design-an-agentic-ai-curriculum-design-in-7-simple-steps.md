@@ -91,6 +91,15 @@ According to IBM, agentic AI systems can plan, decide, and act on their own, mak
 
 ## Agentic AI Curriculum vs Traditional AI Course
 
+
+| Feature | Traditional AI Course | Agentic AI Curriculum |
+| --------------- | --------------------- | ------------------------------ |
+| Focus | Concepts and theory | Real-world task work |
+| Tools Used | Python, notebooks | Claude Code, Cursor, LangChain |
+| Learner Outcome | Basic AI knowledge | Build and run AI agents |
+| Best For | General audience | Creators, coaches, developers |
+
+
 ### Why You Should Build This Course Right Now
 
 Most AI courses still cover old tools. Because of this, a huge gap exists for fresh, easy, hands-on content. Filling that gap now gives you a head start. Furthermore, solo creators are earning steady income by teaching niche AI skills on Kajabi, Skool, and ClickFunnels.
