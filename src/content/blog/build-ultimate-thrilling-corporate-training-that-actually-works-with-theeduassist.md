@@ -93,7 +93,7 @@ faqs:
       your next program.
   - question: How much time does effective corporate training take employees away
       from work?
-    answer: >
+    answer: >-
       Well‑designed corporate training minimizes disruption by using:
 
 
