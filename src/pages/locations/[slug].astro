@@ -103,7 +103,7 @@ if (type === 'region') {
   });
 }
 ---
-<Layout title={title} description={description} noindex={false} jsonLd={schemas}>
+<Layout title={title} description={description} canonicalPath={`/locations/${Astro.params.slug}/`} noindex={false} jsonLd={schemas}>
   {type === 'region' && (
       <RegionTemplate regionData={itemData} countries={countries.filter(c => c.region === itemData.slug)} />
   )}
