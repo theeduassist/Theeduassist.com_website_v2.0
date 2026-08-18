@@ -687,8 +687,8 @@ By using these **7 proven ways**, you turn TheEduAssist into the clear choice fo
 - lower error and compliance risk,
 - and **hard dollars** linked directly to your training.
 
-**Authored By:** Atiqa Sajid [++http://www.linkedin.com/in/atiqa-sajid-747b57137++](http://www.linkedin.com/in/atiqa-sajid-747b57137)
-
-  
+**Authored By:** Atiqa Sajid ++[http://www.linkedin.com/in/atiqa-sajid-747b57137](http://www.linkedin.com/in/atiqa-sajid-747b57137)++
 
 
+
+&nbsp;
