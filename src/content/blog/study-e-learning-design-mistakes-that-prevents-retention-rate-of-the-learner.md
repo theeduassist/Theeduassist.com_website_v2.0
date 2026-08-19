@@ -190,14 +190,14 @@ For L&D managers and course creators, this means shorter modules with clearly de
 
 A classic E‑learning Design mistake is structuring courses as **passive exposition followed by a quiz** (“teach then test”). Therefore, this assumes that learners retain what they hear or read once, but research shows that **passive exposure alone yields low retention and transfer.**
 
-**Why this hurts retention**
+### **Why this hurts retention**
 
 - **Surface learning**: Learners memorize for the quiz, not for real‑world use.
 - **No retrieval practice**: Without spaced practice, review, and application, concepts fade quickly from working memory.
 
-Research on **learning design for student retention** shows that **active, applied tasks** not just information delivery are essential for persistence.
+Research on **learning design for student retention** shows that **active, applied tasks** not just information delivery, are essential for persistence.
 
-**How to redesign for retention**
+### **How to redesign for retention**
 
 - **Flip the sequence**: Start with context (e.g., “You’ll decide how to handle this client email”), then let learners apply the concept before explaining it.
 - **Embed practice early**: Use branching scenarios, drag‑and‑drop tasks, or mini‑simulations in the first 10–15 minutes of each module, not just at the end.
@@ -209,7 +209,7 @@ Instructional designers and educators can frame each module as a **mini‑worksh
 
 Even brilliant content becomes frustrating when learners cannot easily navigate the course. Many organizations underestimate how much **navigation friction** damages retention.
 
-Common UX issues:
+### **Common UX issues:**
 
 - Unintuitive menus or inconsistent buttons.
 - Hidden progress indicators or unclear next‑step cues.
