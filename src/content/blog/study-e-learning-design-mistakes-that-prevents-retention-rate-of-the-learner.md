@@ -186,7 +186,7 @@ Cognitive Load Theory shows that working memory has limited capacity. However,wh
 
 For L&D managers and course creators, this means shorter modules with clearly defined “learning snacks” instead of marathon sessions.
 
-### **2. Designing for “teach then test” instead of “apply then retain” in E-learning Design:**
+## **2. Designing for “teach then test” instead of “apply then retain” in E-learning Design:**
 
 A classic E‑learning Design mistake is structuring courses as **passive exposition followed by a quiz** (“teach then test”). Therefore, this assumes that learners retain what they hear or read once, but research shows that **passive exposure alone yields low retention and transfer.**
 
