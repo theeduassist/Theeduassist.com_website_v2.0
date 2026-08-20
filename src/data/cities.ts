@@ -568,7 +568,7 @@ export const cities = [
     "commonTrainingNeeds": "Dubai-based businesses often need polished training systems for multicultural teams, consultants, real estate educators, hospitality trainers, healthcare educators, and corporate L&D departments. TheEduAssist can support English-first or bilingual course planning, <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS content structuring</a>, Kajabi launches, <a href='/services/ai-powered-elearning/' class='text-brand-accent font-medium hover:underline'>AI-assisted course assets</a>, and learner onboarding workflows for teams working across the UAE and GCC.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Dubai.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Dubai.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Dubai.",
+    "languageLocalizationNeeds": "English primary with Arabic secondary. Key Arabic search terms: تطوير التعلم الإلكتروني في دبي (eLearning development in Dubai), تصميم الدورات التدريبية (course design), نظام إدارة التعلم (LMS), تدريب الموظفين عبر الإنترنت (online employee training), منصة كاجابي (Kajabi platform).",
     "timezoneCollaborationNote": "We collaborate remotely with Dubai clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, LearnWorlds, TalentLMS, Docebo, Moodle, Articulate, and iSpring as suitable options for coaches, consultants, hospitality training, healthcare training, real estate training, corporate teams, and GCC training needs.",
     "creatorCoursePlatforms": [
