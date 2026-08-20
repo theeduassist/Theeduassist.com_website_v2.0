@@ -1372,7 +1372,7 @@ export const cities = [
     "commonTrainingNeeds": "Singapore companies demand high-quality corporate training and compliance modules. We help Singapore-based teams structure Moodle, Docebo, and Articulate content for effective learning, integrating <a href='/services/ai-powered-elearning/' class='text-brand-accent font-medium hover:underline'>AI-powered e-learning support</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Singapore.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Singapore.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Singapore.",
+    "languageLocalizationNeeds": "English primary with Mandarin and Malay secondary. Key search terms: eLearning development Singapore, 新加坡电子学习开发 (eLearning development Singapore), pembangunan eLearning Singapura (eLearning development Singapore), LMS implementation.",
     "timezoneCollaborationNote": "We collaborate remotely with Singapore clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention LearnWorlds, Moodle, Canvas, Docebo, Absorb LMS, Articulate, and iSpring for corporate training, fintech, compliance, education, and regional training teams.",
     "creatorCoursePlatforms": [
@@ -1908,7 +1908,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Los Angeles often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Los Angeles.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Los Angeles.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Los Angeles.",
+    "languageLocalizationNeeds": "English primary with Spanish secondary. Key Spanish search terms: desarrollo eLearning Los Ángeles, creación de cursos en línea (online course creation), sistema de gestión del aprendizaje (LMS), formación en línea (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Los Angeles clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -2960,7 +2960,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Miami often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Miami.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Miami.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Miami.",
+    "languageLocalizationNeeds": "English primary with Spanish secondary. Key Spanish search terms: desarrollo eLearning Miami (eLearning development Miami), creación de cursos en línea (online course creation), sistema de gestión del aprendizaje (LMS), formación empresarial en línea (corporate online training), plataforma Kajabi (Kajabi platform).",
     "timezoneCollaborationNote": "We collaborate remotely with Miami clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -3311,7 +3311,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Houston often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Houston.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Houston.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Houston.",
+    "languageLocalizationNeeds": "English primary with Spanish secondary. Key Spanish search terms: desarrollo eLearning Houston, creación de cursos en línea (online course creation), sistema de gestión del aprendizaje (LMS), formación corporativa en línea (corporate online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Houston clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -8633,7 +8633,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Kuala Lumpur often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Kuala Lumpur.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Kuala Lumpur.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Kuala Lumpur.",
+    "languageLocalizationNeeds": "English and Malay primary. Key Malay search terms: pembangunan eLearning Kuala Lumpur (eLearning development KL), pembangunan kursus dalam talian (online course development), sistem pengurusan pembelajaran (LMS), latihan dalam talian (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Kuala Lumpur clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -8891,7 +8891,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Bangkok often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Bangkok.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Bangkok.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Bangkok.",
+    "languageLocalizationNeeds": "Thai primary with English secondary. Key Thai search terms: การพัฒนา eLearning กรุงเทพ (eLearning development Bangkok), การสร้างคอร์สออนไลน์ (online course creation), ระบบจัดการการเรียนรู้ (LMS), การฝึกอบรมออนไลน์ (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Bangkok clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -9359,7 +9359,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Manila often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Manila.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Manila.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Manila.",
+    "languageLocalizationNeeds": "Filipino and English primary. Key search terms: eLearning development Manila, online course creation Philippines, learning management system (LMS), online training Philippines, Kajabi platform.",
     "timezoneCollaborationNote": "We collaborate remotely with Manila clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -9476,7 +9476,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Jakarta often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Jakarta.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Jakarta.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Jakarta.",
+    "languageLocalizationNeeds": "Indonesian primary with English secondary. Key Indonesian search terms: pengembangan eLearning Jakarta (eLearning development Jakarta), pembuatan kursus online (online course creation), sistem manajemen pembelajaran (LMS), pelatihan online (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Jakarta clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -9710,7 +9710,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in São Paulo often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in São Paulo.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in São Paulo.",
-    "languageLocalizationNeeds": "Portuguese primary with English secondary. Key Portuguese search terms: desenvolvimento eLearning São Paulo (eLearning development São Paulo), criação de cursos online (online course creation), sistema de gestão de aprendizagem (LMS), treinamento online (online training).",
+    "languageLocalizationNeeds": "Portuguese primary with English secondary. Key Portuguese search terms: desenvolvimento eLearning São Paulo, criação de cursos online (online course creation), sistema de gestão de aprendizagem (LMS), treinamento online (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with São Paulo clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -10692,7 +10692,7 @@ export const cities = [
     ],
     "commonTrainingNeeds": "Madrid-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
     "commonlyUsedLMSPlatforms": "Various platforms used in City 86.",
-    "languageLocalizationNeeds": "Spanish primary with English secondary. Key Spanish search terms: desarrollo eLearning Bogotá, creación de cursos en línea (online course creation), sistema de gestión del aprendizaje (LMS), formación empresarial en línea (corporate online training).",
+    "languageLocalizationNeeds": "English primary with Twi secondary. Key search terms: eLearning development Accra, online course creation Ghana, learning management system Ghana, corporate training Accra.",
     "faqQuestions": []
   },
   {
@@ -11119,6 +11119,7 @@ export const cities = [
     ],
     "commonTrainingNeeds": "San Antonio-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
     "commonlyUsedLMSPlatforms": "Various platforms used in City 103.",
+    "languageLocalizationNeeds": "Portuguese primary with English secondary. Key Portuguese search terms: desenvolvimento eLearning Lisboa (eLearning development Lisbon), criação de cursos online (online course creation), sistema de gestão de aprendizagem (LMS), formação online (online training).",
     "faqQuestions": []
   },
   {
@@ -13594,6 +13595,7 @@ export const cities = [
     ],
     "commonTrainingNeeds": "Istanbul-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
     "commonlyUsedLMSPlatforms": "Various platforms used in City 202.",
+    "languageLocalizationNeeds": "Turkish primary with English secondary. Key Turkish search terms: İstanbul eLearning geliştirme (eLearning development Istanbul), çevrimiçi kurs oluşturma (online course creation), öğrenme yönetim sistemi (LMS), çevrimiçi eğitim (online training).",
     "faqQuestions": []
   },
   {
