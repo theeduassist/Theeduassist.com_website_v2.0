@@ -125,6 +125,10 @@ editorialManagement:
   scheduledPublicationDate: 2026-08-20
   lastReviewedDate: 2026-08-20
   nextReviewDate: 2026-08-20
+heroImageAlt: A guide to creating a real estate video strategy for social media
+  growth, featuring a camera and checklist.
+heroImageCaption: "Stop posting random property tours. Learn how to build a
+  repeatable video system that actually drives leads. "
 ---
 TheEduAssist empowers real estate professionals with a **Video Content Engine** that systematically produces, optimizes, and distributes videos to explode social media growth. This comprehensive 3000-word guide draws on educational technology research principles to deliver a research-backed, scalable framework tailored for agents in Lahore, US, and Australian markets.  
 [Exploring AI to streamline property marketing — built a video automation tool for CRE listings](https://www.reddit.com/r/CommercialRealEstate/comments/1lpupmw/exploring_ai_to_streamline_property_marketing/) by in[CommercialRealEstate](https://www.reddit.com/r/CommercialRealEstate/)
