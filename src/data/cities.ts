@@ -1640,7 +1640,7 @@ export const cities = [
     "commonTrainingNeeds": "Riyadh-based teams often require bilingual and highly structured enterprise learning systems for corporate academies and institutions. We offer comprehensive <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course creation services</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Riyadh.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Riyadh.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Riyadh.",
+    "languageLocalizationNeeds": "Arabic primary with English secondary. Key Arabic search terms: تطوير التعلم الإلكتروني في الرياض (eLearning development Riyadh), تصميم المقررات الإلكترونية (e-course design), نظام إدارة التعلم (LMS), التدريب عبر الإنترنت (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Riyadh clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Moodle, Blackboard, Docebo, TalentLMS, LearnWorlds, Absorb LMS, Articulate, and iSpring for corporate academies, education institutions, government-adjacent training, compliance training, and bilingual learning needs.",
     "creatorCoursePlatforms": [
@@ -4388,7 +4388,7 @@ export const cities = [
     "commonTrainingNeeds": "Doha's growing corporate and education sector requires sophisticated learning systems like Moodle and Docebo, often with bilingual support and <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>custom e-learning development</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Doha.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Doha.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Doha.",
+    "languageLocalizationNeeds": "Arabic primary with English secondary. Key Arabic search terms: تطوير التعلم الإلكتروني في الدوحة (eLearning development Doha), تصميم الدورات (course design), نظام إدارة التعلم (LMS), التدريب عبر الإنترنت (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Doha clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Moodle, Blackboard, Docebo, TalentLMS, LearnWorlds, Absorb LMS, Articulate, and iSpring for corporate academies, education institutions, government-adjacent training, compliance training, and bilingual learning needs.",
     "creatorCoursePlatforms": [
@@ -4656,7 +4656,7 @@ export const cities = [
     "commonTrainingNeeds": "Abu Dhabi organizations need secure, compliant, and structured LMS environments, along with expert <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a> for corporate training.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Abu Dhabi.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Abu Dhabi.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Abu Dhabi.",
+    "languageLocalizationNeeds": "English primary with Arabic secondary. Key Arabic search terms: تطوير التعلم الإلكتروني في أبوظبي (eLearning development in Abu Dhabi), تصميم الدورات التدريبية (course design), نظام إدارة التعلم (LMS), تدريب الموظفين (employee training).",
     "timezoneCollaborationNote": "We collaborate remotely with Abu Dhabi clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Moodle, Blackboard, Docebo, TalentLMS, LearnWorlds, Absorb LMS, Articulate, and iSpring for corporate academies, education institutions, government-adjacent training, compliance training, and bilingual learning needs.",
     "creatorCoursePlatforms": [
@@ -4924,7 +4924,7 @@ export const cities = [
     "commonTrainingNeeds": "Jeddah businesses need modern LMS systems and corporate training setups to upskill multicultural teams effectively, supported by our <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion capabilities</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Jeddah.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Jeddah.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Jeddah.",
+    "languageLocalizationNeeds": "Arabic primary with English secondary. Key Arabic search terms: تطوير التعلم الإلكتروني في جدة (eLearning development Jeddah), تصميم الدورات التدريبية (course design), نظام إدارة التعلم (LMS), التدريب المؤسسي (corporate training).",
     "timezoneCollaborationNote": "We collaborate remotely with Jeddah clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Moodle, Blackboard, Docebo, TalentLMS, LearnWorlds, Absorb LMS, Articulate, and iSpring for corporate academies, education institutions, government-adjacent training, compliance training, and bilingual learning needs.",
     "creatorCoursePlatforms": [
@@ -5182,7 +5182,7 @@ export const cities = [
     "commonTrainingNeeds": "Karachi businesses and coaching institutes benefit from <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setups</a> and structured LMS migrations from scattered files into cohesive training portals.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Karachi.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Karachi.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Karachi.",
+    "languageLocalizationNeeds": "Urdu and English primary. Key Urdu search terms: آن لائن کورس بنانا (creating online courses), ای لرننگ ڈویلپمنٹ (eLearning development), ایل ایم ایس سسٹم (LMS system), آن لائن تربیت (online training), کاجابی پلیٹ فارم (Kajabi platform).",
     "timezoneCollaborationNote": "We collaborate remotely with Karachi clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Moodle, LearnDash, Kajabi, Thinkific, Teachable, Google Drive-to-LMS migration, Articulate, iSpring, and LifterLMS for educators, coaches, training companies, institutes, and IT/software teams.",
     "creatorCoursePlatforms": [
@@ -5440,8 +5440,7 @@ export const cities = [
     "commonTrainingNeeds": "Lahore's IT and education sectors require scalable LMS solutions like Moodle and LearnDash, along with effective <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion services</a> from Google Drive to LMS.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Lahore.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Lahore.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Lahore.",
-    "timezoneCollaborationNote": "We collaborate remotely with Lahore clients across suitable time zones.",
+    "languageLocalizationNeeds": "Urdu and English primary. Key Urdu search terms: آن لائن کورس بنانا (creating online courses), ای لرننگ ڈویلپمنٹ (eLearning development), ایل ایم ایس سسٹم (LMS system), آن لائن تربیت (online training), کاجابی پلیٹ فارم (Kajabi platform).",    "timezoneCollaborationNote": "We collaborate remotely with Lahore clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Moodle, LearnDash, Kajabi, Thinkific, Teachable, Google Drive-to-LMS migration, Articulate, iSpring, and LifterLMS for educators, coaches, training companies, institutes, and IT/software teams.",
     "creatorCoursePlatforms": [
       "Kajabi",
@@ -5698,7 +5697,7 @@ export const cities = [
     "commonTrainingNeeds": "Islamabad teams often need polished corporate onboarding and academic LMS setups, utilizing platforms like Moodle and LearnDash alongside <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>custom development</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Islamabad.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Islamabad.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Islamabad.",
+    "languageLocalizationNeeds": "Urdu and English primary. Key Urdu search terms: آن لائن کورس بنانا (creating online courses), ای لرننگ ڈویلپمنٹ (eLearning development), ایل ایم ایس سسٹم (LMS system), آن لائن تربیت (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Islamabad clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Moodle, LearnDash, Kajabi, Thinkific, Teachable, Google Drive-to-LMS migration, Articulate, iSpring, and LifterLMS for educators, coaches, training companies, institutes, and IT/software teams.",
     "creatorCoursePlatforms": [
@@ -5956,7 +5955,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Mumbai often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Mumbai.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Mumbai.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Mumbai.",
+    "languageLocalizationNeeds": "Hindi and English primary. Key Hindi search terms: ई-लर्निंग डेवलपमेंट मुंबई (eLearning development Mumbai), ऑनलाइन कोर्स बनाना (create online course), लर्निंग मैनेजमेंट सिस्टम (LMS), ऑनलाइन प्रशिक्षण (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Mumbai clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -6589,7 +6588,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Berlin often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Berlin.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Berlin.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Berlin.",
+    "languageLocalizationNeeds": "German primary with English secondary. Key German search terms: eLearning Entwicklung Berlin (eLearning development Berlin), Online-Kurs erstellen (create online course), Lernmanagementsystem (LMS), Online-Training (online training), Kajabi Plattform (Kajabi platform).",
     "timezoneCollaborationNote": "We collaborate remotely with Berlin clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -6857,7 +6856,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Munich often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Munich.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Munich.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Munich.",
+    "languageLocalizationNeeds": "German primary with English secondary. Key German search terms: eLearning Entwicklung München (eLearning development Munich), Online-Kurs erstellen (create online course), Lernmanagementsystem (LMS), betriebliche Weiterbildung (corporate training).",
     "timezoneCollaborationNote": "We collaborate remotely with Munich clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -7091,8 +7090,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Paris often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Paris.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Paris.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Paris.",
-    "timezoneCollaborationNote": "We collaborate remotely with Paris clients across suitable time zones.",
+    "languageLocalizationNeeds": "French primary with English secondary. Key French search terms: développement eLearning Paris (eLearning development Paris), création de cours en ligne (online course creation), système de gestion de l'apprentissage (LMS), formation en ligne (online training), plateforme Kajabi (Kajabi platform).",    "timezoneCollaborationNote": "We collaborate remotely with Paris clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
       "Kajabi",
@@ -7359,7 +7357,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Lyon often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Lyon.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Lyon.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Lyon.",
+    "languageLocalizationNeeds": "French primary with English secondary. Key French search terms: développement eLearning Lyon (eLearning development Lyon), création de cours en ligne (online course creation), formation professionnelle en ligne (professional online training), LMS système.",
     "timezoneCollaborationNote": "We collaborate remotely with Lyon clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -7476,7 +7474,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Amsterdam often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Amsterdam.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Amsterdam.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Amsterdam.",
+    "languageLocalizationNeeds": "Dutch primary with English secondary. Key Dutch search terms: eLearning ontwikkeling Amsterdam (eLearning development Amsterdam), online cursus maken (create online course), leermanagementsysteem (LMS), online training (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Amsterdam clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -9010,7 +9008,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Tokyo often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Tokyo.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Tokyo.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Tokyo.",
+    "languageLocalizationNeeds": "Japanese primary with English secondary. Key Japanese search terms: eラーニング開発東京 (eLearning development Tokyo), オンラインコース作成 (online course creation), 学習管理システム (LMS), オンライン研修 (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Tokyo clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -9127,7 +9125,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Seoul often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Seoul.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Seoul.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Seoul.",
+    "languageLocalizationNeeds": "Korean primary with English secondary. Key Korean search terms: 이러닝 개발 서울 (eLearning development Seoul), 온라인 강의 제작 (online course creation), 학습 관리 시스템 (LMS), 온라인 교육 (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with Seoul clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -9595,7 +9593,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in Mexico City often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in Mexico City.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Mexico City.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Mexico City.",
+    "languageLocalizationNeeds": "Spanish primary with English secondary. Key Spanish search terms: desarrollo eLearning Ciudad de México (eLearning development Mexico City), creación de cursos en línea (online course creation), sistema de gestión del aprendizaje (LMS), formación empresarial (corporate training).",
     "timezoneCollaborationNote": "We collaborate remotely with Mexico City clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -9712,7 +9710,7 @@ export const cities = [
     "commonTrainingNeeds": "Businesses in São Paulo often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
     "localCourseOpportunities": "Great opportunities for creator and coaching courses in São Paulo.",
     "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in São Paulo.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in São Paulo.",
+    "languageLocalizationNeeds": "Portuguese primary with English secondary. Key Portuguese search terms: desenvolvimento eLearning São Paulo (eLearning development São Paulo), criação de cursos online (online course creation), sistema de gestão de aprendizagem (LMS), treinamento online (online training).",
     "timezoneCollaborationNote": "We collaborate remotely with São Paulo clients across suitable time zones.",
     "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
     "creatorCoursePlatforms": [
@@ -10694,6 +10692,7 @@ export const cities = [
     ],
     "commonTrainingNeeds": "Madrid-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
     "commonlyUsedLMSPlatforms": "Various platforms used in City 86.",
+    "languageLocalizationNeeds": "Spanish primary with English secondary. Key Spanish search terms: desarrollo eLearning Bogotá, creación de cursos en línea (online course creation), sistema de gestión del aprendizaje (LMS), formación empresarial en línea (corporate online training).",
     "faqQuestions": []
   },
   {
@@ -10719,6 +10718,7 @@ export const cities = [
     ],
     "commonTrainingNeeds": "Barcelona-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
     "commonlyUsedLMSPlatforms": "Various platforms used in City 87.",
+    "languageLocalizationNeeds": "Spanish and Catalan primary with English secondary. Key search terms: desarrollo eLearning Barcelona (eLearning development Barcelona), creación de cursos en línea (online course creation), sistema de gestión del aprendizaje (LMS), formación corporativa en línea (corporate online training).",
     "faqQuestions": []
   },
   {
