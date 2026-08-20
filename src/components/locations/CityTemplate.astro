@@ -99,6 +99,13 @@ const { cityData } = Astro.props;
     </div>
   )}
 
+  <!-- Local Language Keywords -->
+  {cityData.languageLocalizationNeeds && (
+    <div class="mb-20 bg-slate-50 p-8 rounded-xl border border-slate-100">
+      <h2 class="text-2xl font-bold text-brand-navy mb-4">Local Language & Search Terms</h2>
+      <p class="text-slate-700 leading-relaxed">{cityData.languageLocalizationNeeds}</p>
+    </div>
+  )}
   <!-- Related Resources (Contextual internal links) -->
   <div class="mb-20">
     <h2 class="text-3xl font-bold text-brand-navy mb-8">Related Resources</h2>
@@ -106,17 +113,17 @@ const { cityData } = Astro.props;
         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
             <h3 class="text-xl font-bold text-brand-primary mb-4">Related Work & Case Studies</h3>
             <ul class="space-y-3">
-                <li><a href="/case-studies/" class="text-brand-accent hover:underline font-medium">Corporate LMS Training Conversion</a></li>
-                <li><a href="/case-studies/" class="text-brand-accent hover:underline font-medium">Publisher Content to eLearning Conversion</a></li>
-                <li><a href="/case-studies/" class="text-brand-accent hover:underline font-medium">Vocational Training eLearning Design</a></li>
+                <li><a href="/case-studies/business-analytics-corporate-training/" class="text-brand-accent hover:underline font-medium">Corporate LMS Training Conversion</a></li>
+                <li><a href="/case-studies/language-courses-book-publisher/" class="text-brand-accent hover:underline font-medium">Publisher Content to eLearning Conversion</a></li>
+                <li><a href="/case-studies/sqa-aligned-vocational-training/" class="text-brand-accent hover:underline font-medium">Vocational Training eLearning Design</a></li>
             </ul>
         </div>
         <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
             <h3 class="text-xl font-bold text-brand-primary mb-4">Latest Insights</h3>
             <ul class="space-y-3">
-                <li><a href="/blog/" class="text-brand-accent hover:underline font-medium">Choosing the Right LMS Platform</a></li>
-                <li><a href="/blog/" class="text-brand-accent hover:underline font-medium">LMS Migration Checklist</a></li>
-                <li><a href="/blog/" class="text-brand-accent hover:underline font-medium">AI in E-Learning Guide</a></li>
+                <li><a href="/blog/best-learning-management-systems/" class="text-brand-accent hover:underline font-medium">Choosing the Right LMS Platform</a></li>
+                <li><a href="/blog/lms-implementation-guide/" class="text-brand-accent hover:underline font-medium">LMS Implementation Guide</a></li>
+                <li><a href="/blog/employee-training-lms-technology/" class="text-brand-accent hover:underline font-medium">AI in E-Learning Guide</a></li>
             </ul>
         </div>
     </div>

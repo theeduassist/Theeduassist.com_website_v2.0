@@ -170,7 +170,7 @@ if (data.faq && data.faq.length > 0) {
 
           {data.featuredImage && (
             <figure class="mb-12 rounded-xl overflow-hidden border border-slate-200 shadow-sm">
-              <img src={data.featuredImage} alt={data.featuredImageAlt || data.title} class="w-full h-auto object-cover" />
+              <img loading="lazy" src={data.featuredImage} alt={data.featuredImageAlt || data.title} class="w-full h-auto object-cover" />
             </figure>
           )}
 

@@ -26,7 +26,7 @@ const displayCategory = post.category && !hiddenStatuses.includes(post.category.
   <article class="bg-white rounded-2xl shadow-lg border border-slate-200 overflow-hidden group flex flex-col md:flex-row hover:shadow-xl transition-all duration-300">
      {imageSrc ? (
         <div class="md:w-1/2 overflow-hidden aspect-video md:aspect-auto">
-          <img
+          <img loading="lazy"
             src={imageSrc}
             alt={imageAlt}
             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -82,3 +82,4 @@ const displayCategory = post.category && !hiddenStatuses.includes(post.category.
       </div>
   </article>
 </div>
+

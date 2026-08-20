@@ -294,7 +294,7 @@ const seoDescription = "Explore research-informed guidance on learning strategy,
 
         <div class="relative w-full aspect-[16/9] overflow-hidden bg-slate-100 pointer-events-none">
           ${post.heroImage ?
-            `<img src="${post.heroImage}" alt="${post.heroImageAlt || post.title}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />`
+            `<img loading="lazy" src="${post.heroImage}" alt="${post.heroImageAlt || post.title}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />`
             :
             `<div class="absolute inset-0 bg-gradient-to-br from-brand-blue/5 to-brand-green/10 flex items-center justify-center p-6 text-center text-brand-blue/40 group-hover:from-brand-blue/10 group-hover:to-brand-green/20 transition-colors duration-500">
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="opacity-50">
