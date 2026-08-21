@@ -1,6 +1,5 @@
 ---
 import { tawkConfig } from '../../config/tawk';
-
 const { enabled, embedUrl, hideDefaultLauncher } = tawkConfig;
 ---
 {enabled && (
@@ -18,12 +17,15 @@ const { enabled, embedUrl, hideDefaultLauncher } = tawkConfig;
         document.body.appendChild(s1);
       }
     })();
-
     window.Tawk_API = window.Tawk_API || {};
     window.Tawk_API.onLoad = function () {
       try {
         if (${hideDefaultLauncher}) {
           window.Tawk_API.hideWidget();
+        }
+        // Minimize widget on mobile
+        if (window.innerWidth < 768) {
+          window.Tawk_API.minimize();
         }
       } catch (error) {
         console.warn("Tawk onLoad setup failed", error);
@@ -31,3 +33,11 @@ const { enabled, embedUrl, hideDefaultLauncher } = tawkConfig;
     };
   `} />
 )}
+
+<style>
+  @media (max-width: 767px) {
+    #tawk-bubble-container {
+      bottom: 60px !important;
+    }
+  }
+</style>
