@@ -46,6 +46,21 @@ if (type === 'region') {
 
   schemas.push({
     "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": `TheEduAssist - eLearning Development in ${itemData.cityName}`,
+    "url": `https://www.theeduassist.com/locations/${itemData.slug}/`,
+    "description": itemData.metaDescription,
+    "areaServed": itemData.cityName,
+    "serviceType": "eLearning Development",
+    "provider": {
+        "@type": "Organization",
+        "name": "TheEduAssist",
+        "url": "https://www.theeduassist.com"
+    }
+});
+
+  schemas.push({
+    "@context": "https://schema.org",
     "@type": "ItemList",
     "name": `Countries in ${itemData.name}`,
     "itemListElement": regionCountries.map((c, i) => ({
