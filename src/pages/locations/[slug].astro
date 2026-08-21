@@ -46,21 +46,6 @@ if (type === 'region') {
 
   schemas.push({
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": `TheEduAssist - eLearning Development in ${itemData.cityName}`,
-    "url": `https://www.theeduassist.com/locations/${itemData.slug}/`,
-    "description": itemData.metaDescription,
-    "areaServed": itemData.cityName,
-    "serviceType": "eLearning Development",
-    "provider": {
-        "@type": "Organization",
-        "name": "TheEduAssist",
-        "url": "https://www.theeduassist.com"
-    }
-});
-
-  schemas.push({
-    "@context": "https://schema.org",
     "@type": "ItemList",
     "name": `Countries in ${itemData.name}`,
     "itemListElement": regionCountries.map((c, i) => ({
@@ -70,62 +55,79 @@ if (type === 'region') {
       "name": c.name
     }))
   });
+
 } else if (type === 'country') {
   title = `E-Learning Development Services in ${itemData.name} | TheEduAssist`;
   description = `TheEduAssist helps ${itemData.name} businesses, coaches, and universities build online courses and LMS training systems.`;
+
 } else if (type === 'city') {
   title = itemData.metaTitle;
   description = itemData.metaDescription;
 
   if (itemData.faqQuestions && itemData.faqQuestions.length > 0) {
-      schemas.push({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": itemData.faqQuestions.map(faq => ({
-              "@type": "Question",
-              "name": faq.q,
-              "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": faq.a
-              }
-          }))
-      });
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": itemData.faqQuestions.map(faq => ({
+        "@type": "Question",
+        "name": faq.q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.a
+        }
+      }))
+    });
   }
 
   schemas.push({
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-          {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://www.theeduassist.com/"
-          },
-          {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Locations",
-              "item": "https://www.theeduassist.com/locations/"
-          },
-          {
-              "@type": "ListItem",
-              "position": 3,
-              "name": itemData.cityName,
-              "item": `https://www.theeduassist.com/locations/${itemData.slug}/`
-          }
-      ]
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.theeduassist.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Locations",
+        "item": "https://www.theeduassist.com/locations/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": itemData.cityName,
+        "item": `https://www.theeduassist.com/locations/${itemData.slug}/`
+      }
+    ]
+  });
+
+  schemas.push({
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": `TheEduAssist - eLearning Development in ${itemData.cityName}`,
+    "url": `https://www.theeduassist.com/locations/${itemData.slug}/`,
+    "description": itemData.metaDescription,
+    "areaServed": itemData.cityName,
+    "serviceType": "eLearning Development",
+    "provider": {
+      "@type": "Organization",
+      "name": "TheEduAssist",
+      "url": "https://www.theeduassist.com"
+    }
   });
 }
 ---
 <Layout title={title} description={description} canonicalPath={`/locations/${Astro.params.slug}/`} noindex={false} jsonLd={schemas}>
   {type === 'region' && (
-      <RegionTemplate regionData={itemData} countries={countries.filter(c => c.region === itemData.slug)} />
+    <RegionTemplate regionData={itemData} countries={countries.filter(c => c.region === itemData.slug)} />
   )}
   {type === 'country' && (
-      <CountryTemplate countryData={itemData} cities={cities.filter(c => c.country === itemData.name || (itemData.slug === 'united-states' && c.cityName === 'New York') || (itemData.slug === 'united-kingdom' && c.cityName === 'London') || (itemData.slug === 'united-arab-emirates' && c.cityName === 'Dubai') || (itemData.slug === 'australia' && c.cityName === 'Sydney') )} />
+    <CountryTemplate countryData={itemData} cities={cities.filter(c => c.country === itemData.name || (itemData.slug === 'united-states' && c.cityName === 'New York') || (itemData.slug === 'united-kingdom' && c.cityName === 'London') || (itemData.slug === 'united-arab-emirates' && c.cityName === 'Dubai') || (itemData.slug === 'australia' && c.cityName === 'Sydney') )} />
   )}
   {type === 'city' && (
-      <CityTemplate cityData={itemData} />
+    <CityTemplate cityData={itemData} />
   )}
 </Layout>
