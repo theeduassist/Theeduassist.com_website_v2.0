@@ -19,8 +19,8 @@ tags:
   - "eLearning "
   - Spiritual Courses
 draft: false
-publishedAt: 2026-08-24
-updatedAt: 2026-08-24
+publishedAt: 2026-08-22
+updatedAt: 2026-08-22
 heroImage: /images/blog/ultimate-guide-to-building-spiritual-awakening-online-course.webp
 heroImageAlt: Spiritual awakening online course creator teaching a
   transformative course from a home studio
@@ -104,10 +104,10 @@ sources:
     url: https://elearningindustry.com/instructional-design-models-and-theories
     accessedAt: 2026-08-23
 editorialManagement:
-  dueDate: 2026-08-24
-  scheduledPublicationDate: 2026-08-24
-  lastReviewedDate: 2026-08-24
-  nextReviewDate: 2026-08-24
+  dueDate: 2026-08-22
+  scheduledPublicationDate: 2026-08-22
+  lastReviewedDate: 2026-08-22
+  nextReviewDate: 2026-08-22
 ---
 A **spiritual awakening online course** can truly change lives. It is not just about sharing information. Instead, it offers a clear path to personal growth and inner transformation. Therefore, how you design your course matters a lot.
 
