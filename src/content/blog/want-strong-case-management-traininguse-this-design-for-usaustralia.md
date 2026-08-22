@@ -19,8 +19,8 @@ tags:
   - Instructional Design
   - Healthcare eLearning
 draft: false
-publishedAt: 2026-08-23
-updatedAt: 2026-08-23
+publishedAt: 2026-08-24
+updatedAt: 2026-08-24
 heroImage: /images/blog/geminigeneratedimageaq7k1maq7k1maq7k.webp
 heroImageAlt: Dual-market case management training design for US and Australia –
   client-focused, NDIS and HIPAA-ready, with proven ROI and instructional
@@ -78,7 +78,7 @@ faqs:
 
       One system, two regulatory frameworks
   - question: How do you prove Case Management Training ROI?
-    answer: |+
+    answer: |-
       Using **Kirkpatrick Level 4 metrics**:
 
       - Readmissions ↓ 18%
@@ -88,6 +88,7 @@ faqs:
 
 
 
+      &nbsp;
   - question: What are the top Case Management Training modules for 2026?
     answer: |+
       1. HIPAA Breach Response
@@ -116,7 +117,7 @@ faqs:
       - Care coordination systems
 
   - question: Will Case Management Training help pass NDIS audits?
-    answer: |2+
+    answer: |2-
        Yes.
 
       - **94% audit compliance achieved**
@@ -124,6 +125,7 @@ faqs:
 
 
 
+      &nbsp;
   - question: What makes Case Management Training truly effective?
     answer: |-
       The **70-20-10 learning model**:
@@ -185,10 +187,10 @@ sources:
     url: https://www.sciencedirect.com/journal/the-internet-and-higher-education
     accessedAt: 2026-08-23
 editorialManagement:
-  dueDate: 2026-08-23
-  scheduledPublicationDate: 2026-08-23
-  lastReviewedDate: 2026-08-23
-  nextReviewDate: 2026-08-23
+  dueDate: 2026-08-24
+  scheduledPublicationDate: 2026-08-24
+  lastReviewedDate: 2026-08-24
+  nextReviewDate: 2026-08-24
 ---
 **Case Management Training** transforms overwhelmed coordinators into confident professionals who deliver better client outcomes, reduce readmissions, and boost organizational efficiency.
 
