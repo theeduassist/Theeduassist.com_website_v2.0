@@ -42,50 +42,53 @@ const { isReferenceHome = false } = Astro.props;
       </p>
     </div>
     <div class="w-full lg:w-1/2 flex justify-center items-center">
-      <div class="relative w-full max-w-lg aspect-square">
-        <!-- Hero Visual: Knowledge -> Learning structure -> Digital experience -> Launch and improvement -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" class="w-full h-full text-slate-200" aria-hidden="true" role="img">
-           <circle cx="200" cy="200" r="180" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="10 10"/>
+      <div class="bg-white/5 border border-white/10 rounded-3xl p-8 w-full max-w-lg">
+        
+        <!-- Stats -->
+        <div class="grid grid-cols-2 gap-6 mb-8 pb-8 border-b border-white/10">
+          <div class="text-center">
+            <div class="text-3xl font-extrabold text-brand-green mb-1">500+</div>
+            <div class="text-sm text-slate-300">Courses Built</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-extrabold text-brand-green mb-1">150+</div>
+            <div class="text-sm text-slate-300">Happy Clients</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-extrabold text-brand-green mb-1">15+</div>
+            <div class="text-sm text-slate-300">LMS Platforms</div>
+          </div>
+          <div class="text-center">
+            <div class="text-3xl font-extrabold text-brand-green mb-1">48hr</div>
+            <div class="text-sm text-slate-300">Review Turnaround</div>
+          </div>
+        </div>
 
-           <g transform="translate(100, 100)">
-              <!-- Top Left: Knowledge -->
-              <rect x="0" y="0" width="80" height="80" rx="16" fill="#1e293b" stroke="#77BA55" stroke-width="2"/>
-              <path d="M 25 30 L 55 30 M 25 40 L 55 40 M 25 50 L 40 50" stroke="#77BA55" stroke-width="4" stroke-linecap="round"/>
-           </g>
+        <!-- Process Steps -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-4 bg-white/5 rounded-xl p-4">
+            <div class="w-8 h-8 bg-brand-green/20 rounded-lg flex items-center justify-center text-brand-green font-bold text-sm shrink-0">1</div>
+            <div>
+              <div class="font-semibold text-white text-sm">Share Your Content</div>
+              <div class="text-xs text-slate-400">SOPs, videos, docs, slides</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 bg-white/5 rounded-xl p-4">
+            <div class="w-8 h-8 bg-blue-500/20 rounded-lg flex items-center justify-center text-blue-400 font-bold text-sm shrink-0">2</div>
+            <div>
+              <div class="font-semibold text-white text-sm">We Design & Build</div>
+              <div class="text-xs text-slate-400">Courses, LMS, Kajabi systems</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 bg-white/5 rounded-xl p-4">
+            <div class="w-8 h-8 bg-amber-500/20 rounded-lg flex items-center justify-center text-amber-400 font-bold text-sm shrink-0">3</div>
+            <div>
+              <div class="font-semibold text-white text-sm">Launch & Scale</div>
+              <div class="text-xs text-slate-400">Live, working, ready to grow</div>
+            </div>
+          </div>
+        </div>
 
-           <g transform="translate(220, 100)">
-              <!-- Top Right: Structure -->
-              <rect x="0" y="0" width="80" height="80" rx="16" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
-              <rect x="25" y="20" width="30" height="10" rx="2" fill="#3b82f6"/>
-              <rect x="15" y="40" width="20" height="10" rx="2" fill="#3b82f6"/>
-              <rect x="45" y="40" width="20" height="10" rx="2" fill="#3b82f6"/>
-           </g>
-
-           <g transform="translate(100, 220)">
-              <!-- Bottom Left: Digital Exp -->
-              <rect x="0" y="0" width="80" height="80" rx="16" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
-              <circle cx="40" cy="40" r="20" fill="none" stroke="#f59e0b" stroke-width="4"/>
-              <path d="M 40 20 L 40 60 M 20 40 L 60 40" stroke="#f59e0b" stroke-width="4"/>
-           </g>
-
-           <g transform="translate(220, 220)">
-              <!-- Bottom Right: Launch/Improve -->
-              <rect x="0" y="0" width="80" height="80" rx="16" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
-              <path d="M 20 60 L 40 30 L 50 40 L 60 20" fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-           </g>
-
-           <!-- Connecting Lines -->
-           <path d="M 180 140 L 220 140" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
-           <path d="M 260 180 L 260 220" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
-           <path d="M 220 260 L 180 260" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
-           <path d="M 140 220 L 140 180" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
-
-           <defs>
-              <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-                <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569" />
-              </marker>
-           </defs>
-        </svg>
       </div>
     </div>
   </div>
