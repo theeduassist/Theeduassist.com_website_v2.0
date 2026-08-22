@@ -18,7 +18,7 @@ tags:
   - Curriculum Design
   - "eLearning "
   - Spiritual Courses
-draft: false
+draft: true
 publishedAt: 2026-08-24
 updatedAt: 2026-08-24
 heroImage: /images/blog/ultimate-guide-to-building-spiritual-awakening-online-course.webp
