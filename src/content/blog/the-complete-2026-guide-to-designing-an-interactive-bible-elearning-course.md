@@ -320,4 +320,4 @@ You can build a course that is:
 - Meaningful
 - Scalable
 
-Platforms like [T++**heEduAssist.com**++](https://theeduassist.com/contact-us/) support creators through edu-assist consulting services, helping design custom eLearning programs with strong content development and learner engagement strategies.
+Platforms like [T++heEduAssist.com++](https://theeduassist.com/contact-us/) support creators through TheEduAssist consulting services, helping design custom eLearning programs with strong content development and learner engagement strategies.
