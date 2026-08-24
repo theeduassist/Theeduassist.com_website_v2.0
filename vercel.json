@@ -81,6 +81,17 @@
   ],
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "theeduassist.com"
+        }
+      ],
+      "destination": "https://www.theeduassist.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/contact/",
       "destination": "/contact-us/",
       "permanent": true
