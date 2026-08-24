@@ -8,6 +8,7 @@ interface Props {
     ogImage?: string;
     twitterCardType?: string;
     noindex?: boolean;
+    robots?: string;
     type?: string;
     jsonLd?: any[];
 }
@@ -21,6 +22,7 @@ const {
     ogImage,
     twitterCardType,
     noindex = false,
+    robots,
     type = 'website',
     jsonLd = []
 } = Astro.props;
@@ -46,6 +48,7 @@ const isMainDomain = siteUrl === 'https://www.theeduassist.com';
 // Only noindex if explicitly requested, or if a site URL is set and it's NOT the main domain (e.g. preview)
 // If PUBLIC_SITE_URL is missing or empty, it defaults to indexable via the fallback.
 const shouldNoIndex = noindex === true || (import.meta.env.PUBLIC_SITE_URL && import.meta.env.PUBLIC_SITE_URL.trim() !== '' && !isMainDomain && import.meta.env.PUBLIC_SITE_URL !== 'http://localhost:4321');
+const finalRobots = shouldNoIndex ? 'noindex, nofollow' : (robots || 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
 ---
 
 <!doctype html>
@@ -87,8 +90,7 @@ const shouldNoIndex = noindex === true || (import.meta.env.PUBLIC_SITE_URL && im
         <meta name="twitter:description" content={finalOgDescription} />
         <meta name="twitter:image" content={ogImage || `${siteUrl}/og/theeduassist-og-image.png`} />
 
-        {shouldNoIndex && <meta name="robots" content="noindex, nofollow" />}
-        {!shouldNoIndex && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />}
+        <meta name="robots" content={finalRobots} />
 
         {jsonLd && jsonLd.length > 0 && jsonLd.map((schema) => (
             <script type="application/ld+json" set:html={JSON.stringify(schema)} />

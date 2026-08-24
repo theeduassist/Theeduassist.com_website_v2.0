@@ -8,11 +8,12 @@ interface Props {
   canonicalPath?: string;
   ogImage?: string;
   twitterCardType?: string;
+  robots?: string;
   type?: string;
   jsonLd?: any[];
 }
 
-const { title, description, canonicalPath, ogImage, twitterCardType, type = "article", jsonLd = [] } = Astro.props;
+const { title, description, canonicalPath, ogImage, twitterCardType, robots, type = "article", jsonLd = [] } = Astro.props;
 ---
 <Layout
   title={title}
@@ -20,6 +21,7 @@ const { title, description, canonicalPath, ogImage, twitterCardType, type = "art
   canonicalPath={canonicalPath}
   ogImage={ogImage}
   twitterCardType={twitterCardType}
+  robots={robots}
   type={type}
   jsonLd={jsonLd}
 >
