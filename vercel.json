@@ -145,6 +145,56 @@
       "source": "/adminer(.*)",
       "destination": "/404",
       "permanent": false
+    },
+    {
+      "source": "/blog/kajabi-digital-product-creation/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-online-course-setup/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-sales-funnel-setup/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-sales-funnel-setup-5-proven-ways-to-grow-enrollments/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-coaching-program-setup/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/discover-kajabi-the-most-popular-platform-of-elearning-world/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/easy-lms-migration-best-practices-for-moving-data-safely/",
+      "destination": "/services/lms-implementation-migration/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/learndash-scorm-for-enterprise-tracking/",
+      "destination": "/services/lms-implementation-migration/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-ultimate-guide-to-ai-powered-course-visuals-for-educators/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/learndash-vs-kajabi/",
+      "destination": "/blog/learnworlds-vs-kajabi-lms-which-platform-is-best-for-course-creators-and-learners/",
+      "permanent": true
     }
   ],
   "routes": [
@@ -158,6 +208,30 @@
     },
     {
       "src": "/jobs/lead-generation-internfresh-grads-unpaid(?:/.*)?",
+      "status": 410
+    },
+    {
+      "src": "/tag/opigno(?:/.*)?",
+      "status": 410
+    },
+    {
+      "src": "/tag/kajabi-funnel-builder(?:/.*)?",
+      "status": 410
+    },
+    {
+      "src": "/tag/instructional-design-secrets(?:/.*)?",
+      "status": 410
+    },
+    {
+      "src": "/tag/lms-migration(?:/.*)?",
+      "status": 410
+    },
+    {
+      "src": "/tag/lms-migration-steps(?:/.*)?",
+      "status": 410
+    },
+    {
+      "src": "/tag/lms-migration-checklist(?:/.*)?",
       "status": 410
     },
     {
