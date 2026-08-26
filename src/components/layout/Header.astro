@@ -30,7 +30,7 @@ const site = { name: organizationEntity.name, email: organizationEntity.contactP
                                 {item.label}
                                 <svg class="ml-0.5 w-4 h-4 text-brand-textMuted group-hover:text-brand-accent transition-transform duration-200 transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                             </button>
-                            <div id={`dropdown-${item.id}`} class="absolute left-0 mt-2 w-48 bg-white/95 backdrop-blur-md rounded-xl shadow-xl border border-brand-border/50 opacity-0 invisible group-hover:opacity-100 group-hover:visible focus-within:opacity-100 focus-within:visible transition-all duration-200 transform origin-top translate-y-2 group-hover:translate-y-0 focus-within:translate-y-0 z-50 overflow-hidden dropdown-menu">
+                            <div id={`dropdown-${item.id}`} class="absolute left-0 mt-2 w-48 bg-white/95 backdrop-blur-md rounded-xl shadow-xl border border-brand-border/50 opacity-0 invisible focus-within:opacity-100 focus-within:visible transition-all duration-200 transform origin-top translate-y-2 focus-within:translate-y-0 z-50 overflow-hidden dropdown-menu">
                                 <div class="py-2">
                                     {item.groups?.map(group => (
                                         group.links.map((subItem) => (
@@ -49,7 +49,7 @@ const site = { name: organizationEntity.name, email: organizationEntity.contactP
                                 <svg class="ml-0.5 w-4 h-4 text-brand-textMuted group-hover:text-brand-accent transition-transform duration-200 transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                             </button>
                             <!-- Mega Menu Dropdown -->
-                            <div id={`mega-menu-${item.id}`} class="absolute left-1/2 top-full z-50 mt-2 w-[calc(100vw-2rem)] max-w-[960px] -translate-x-1/2 box-border bg-white/95 backdrop-blur-md rounded-xl shadow-xl border border-brand-border/50 opacity-0 invisible group-hover:opacity-100 group-hover:visible focus-within:opacity-100 focus-within:visible transition-all duration-200 transform origin-top translate-y-2 group-hover:translate-y-0 focus-within:translate-y-0 z-50 p-6 flex gap-8 min-w-0 mega-menu-dropdown">
+                            <div id={`mega-menu-${item.id}`} class="absolute left-1/2 top-full z-50 mt-2 w-[calc(100vw-2rem)] max-w-[960px] -translate-x-1/2 box-border bg-white/95 backdrop-blur-md rounded-xl shadow-xl border border-brand-border/50 opacity-0 invisible focus-within:opacity-100 focus-within:visible transition-all duration-200 transform origin-top translate-y-2 focus-within:translate-y-0 z-50 p-6 flex gap-8 min-w-0 mega-menu-dropdown">
                                 {item.groups?.map((group) => (
                                     <div class="flex-1 min-w-[200px]">
                                         <h3 class="text-xs font-bold text-brand-textMuted uppercase tracking-wider mb-3">{group.label}</h3>
@@ -182,5 +182,17 @@ const site = { name: organizationEntity.name, email: organizationEntity.contactP
         }
       });
     });
+
+    // Scrolling the page (e.g. via wheel/keyboard) doesn't fire mouseleave if the
+    // cursor stays put over the sticky header, so a click-opened dropdown can stay
+    // visible and scroll along with it, overlapping page content. Close on scroll.
+    window.addEventListener('scroll', () => {
+      dropdowns.forEach(dropdown => {
+        const toggleBtn = dropdown.querySelector('.dropdown-toggle-btn, .mega-toggle-btn');
+        if (toggleBtn && toggleBtn.getAttribute('aria-expanded') === 'true') {
+          dropdown.dispatchEvent(new CustomEvent('close-dropdown'));
+        }
+      });
+    }, { passive: true });
   });
 </script>

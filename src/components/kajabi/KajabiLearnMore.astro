@@ -1,0 +1,45 @@
+---
+const posts = [
+  {
+    title: "Kajabi Course Design Explained: How to Create Online Course in 2026",
+    href: "/blog/kajabi-course-design-explained-how-to-create-online-course-in-2026/",
+  },
+  {
+    title: "LearnWorlds VS Kajabi LMS: Which Platform Is Best for Course Creators and Learners?",
+    href: "/blog/learnworlds-vs-kajabi/",
+  },
+  {
+    title: "How to Create Engaging Educational Content for Online Platforms",
+    href: "/blog/how-to-create-engaging-educational-content-for-online-platform-2026/",
+  },
+  {
+    title: "From PPT to Profitable Leadership Course: That Actually Put Impact",
+    href: "/blog/from-ppt-to-profitable-leadership-coursethat-actually-put-impact/",
+  },
+  {
+    title: "How to Win at Digital Product Creation in 2026",
+    href: "/blog/how-to-win-at-digital-product-creation-in-2026/",
+  },
+];
+---
+<section class="py-16 bg-white border-b border-brand-border/30">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-brand-navy mb-4">Learn More About Kajabi</h2>
+      <p class="text-brand-textMuted max-w-2xl mx-auto">Guides and comparisons from our blog to help you plan, build, and grow with Kajabi.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {posts.map((post) => (
+        <a
+          href={post.href}
+          class="group block bg-brand-softBg border border-brand-border rounded-lg p-5 hover:border-brand-accent hover:shadow-md transition-all duration-300"
+        >
+          <span class="font-semibold text-brand-navy group-hover:text-brand-accent transition-colors leading-snug">
+            {post.title}
+          </span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
