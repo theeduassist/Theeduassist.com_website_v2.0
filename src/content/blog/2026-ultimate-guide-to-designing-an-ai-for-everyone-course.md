@@ -152,7 +152,6 @@ For example, instead of teaching: **“What is machine learning?”**
 
 Teach: **“How to use AI tools to automate simple business tasks”**
 
-  
 [How to “Learn AI”](https://www.reddit.com/r/EngineeringStudents/comments/1skxr96/how_to_learn_ai/) by[u/StrickerPK](https://www.reddit.com/user/StrickerPK/) in[EngineeringStudents](https://www.reddit.com/r/EngineeringStudents/)
 
 ## **Design the AI Course Like a Journey (Not a Lecture Series)**
