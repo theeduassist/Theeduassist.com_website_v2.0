@@ -123,8 +123,8 @@ export const blogCategories: BlogCategory[] = [
     slug: "accessibility-quality",
     href: "/blog/category/accessibility-quality/",
     description: "Accessibility standards, QA, captions, and inclusive learning.",
-    publicVisibility: true,
-    sitemapVisibility: true,
+    publicVisibility: false,
+    sitemapVisibility: false,
     relatedServiceIds: ["quality-assurance"],
     relatedEnterpriseSolutionIds: []
   },
@@ -134,8 +134,8 @@ export const blogCategories: BlogCategory[] = [
     slug: "localization-global-learning",
     href: "/blog/category/localization-global-learning/",
     description: "Translation, localization, RTL content, and global delivery.",
-    publicVisibility: true,
-    sitemapVisibility: true,
+    publicVisibility: false,
+    sitemapVisibility: false,
     relatedServiceIds: ["course-localization-translation"],
     relatedEnterpriseSolutionIds: []
   },
@@ -145,8 +145,8 @@ export const blogCategories: BlogCategory[] = [
     slug: "managed-learning",
     href: "/blog/category/managed-learning/",
     description: "Content maintenance, LMS operations, and managed support.",
-    publicVisibility: true,
-    sitemapVisibility: true,
+    publicVisibility: false,
+    sitemapVisibility: false,
     relatedServiceIds: ["managed-learning", "ongoing-support-maintenance"],
     relatedEnterpriseSolutionIds: []
   }

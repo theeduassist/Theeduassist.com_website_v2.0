@@ -23,6 +23,7 @@ try {
 // Base static URLs that must always be included
 const coreUrls = [
   'https://www.theeduassist.com/',
+  'https://www.theeduassist.com/home/',
   'https://www.theeduassist.com/contact-us/',
   'https://www.theeduassist.com/services/',
   'https://www.theeduassist.com/services/course-localization-translation/',
@@ -35,12 +36,32 @@ const coreUrls = [
   'https://www.theeduassist.com/about-us/',
 
   'https://www.theeduassist.com/book-free-audit/',
+  'https://www.theeduassist.com/book-free-kajabi-audit/',
   'https://www.theeduassist.com/privacy-policy/',
   'https://www.theeduassist.com/terms-and-conditions/',
   'https://www.theeduassist.com/sitemap/',
   'https://www.theeduassist.com/news/',
   'https://www.theeduassist.com/press-releases/',
-  'https://www.theeduassist.com/brand-assets/'
+  'https://www.theeduassist.com/press-releases/theeduassist-expands-elearning-design-services/',
+  'https://www.theeduassist.com/brand-assets/',
+
+  'https://www.theeduassist.com/accessibility-statement/',
+  'https://www.theeduassist.com/ai-use-policy/',
+  'https://www.theeduassist.com/cookie-policy/',
+  'https://www.theeduassist.com/disclaimer/',
+  'https://www.theeduassist.com/editorial-policy/',
+  'https://www.theeduassist.com/careers/',
+  'https://www.theeduassist.com/media-kit/',
+  'https://www.theeduassist.com/newsroom/',
+  'https://www.theeduassist.com/locations/',
+  'https://www.theeduassist.com/authors/editorial-team/',
+
+  'https://www.theeduassist.com/trust-centre/',
+  'https://www.theeduassist.com/trust-centre/accessibility/',
+  'https://www.theeduassist.com/trust-centre/delivery-methodology/',
+  'https://www.theeduassist.com/trust-centre/procurement/',
+  'https://www.theeduassist.com/trust-centre/responsible-ai/',
+  'https://www.theeduassist.com/trust-centre/security-privacy/'
 ];
 
 // Generates individual url XML blocks
@@ -206,6 +227,13 @@ async function generateSitemap() {
       resourceUrlsForLlms.push(fullUrl);
     });
 
+    // Add active public blog category pages
+    const activeBlogCategories = ['learning-strategy', 'instructional-design', 'course-development', 'lms-learning-technology', 'kajabi', 'enterprise-learning', 'ai-learning'];
+    activeBlogCategories.forEach(cat => {
+      const fullUrl = `https://www.theeduassist.com/blog/category/${cat}/`;
+      blogUrls.push(generateUrlXml(fullUrl, '', '0.7', 'weekly'));
+    });
+
     console.log(`Successfully fetched ${resources.length} local Markdown resources.`);
   } catch (err) {
     console.warn("Warning: Exception occurred while reading local Markdown resources.", err);
@@ -303,27 +331,63 @@ const staticLlmsExpertise = `
 
   // Format core urls NOW
 
-  // Dynamically push the newly created service pages into coreUrls array
+  // Dynamically push all service, enterprise, and case study pages into coreUrls array
   const servicePages = [
-    'articulate-storyline-localization',
+    'ai-ethics-corporate-training',
+    'ai-powered-elearning',
     'articulate-rise-localization',
-    'elearning-localization-implementation',
-    'multilingual-elearning-qa',
+    'articulate-storyline-localization',
+    'assessment-design',
     'ai-voiceover-localization',
-    'vyond-video-localization',
     'bilingual-elearning-development',
-    'customer-education',
-    'knowledge-base-development',
     'bilingual-knowledge-base',
-    'technical-documentation',
+    'content-conversion',
+    'course-development',
+    'custom-elearning-development',
+    'customer-education',
+    'customer-training-programs',
+    'documentation-maintenance',
+    'elearning-localization-implementation',
+    'funnels-automation',
+    'instructional-design',
+    'knowledge-base-development',
+    'learning-strategy',
+    'lms-implementation-migration',
+    'managed-learning',
+    'multilingual-elearning-qa',
+    'ongoing-support-maintenance',
+    'quality-assurance',
     'saas-customer-training',
     'software-training-video-production',
-    'customer-training-programs',
-    'documentation-maintenance'
+    'technical-documentation',
+    'vyond-video-localization'
+  ];
+
+  const enterprisePages = [
+    'ai-workforce-readiness',
+    'customer-education',
+    'employee-onboarding',
+    'internal-learning-academies',
+    'partner-training',
+    'workforce-upskilling'
+  ];
+
+  const caseStudyPages = [
+    'business-analytics-corporate-training',
+    'language-courses-book-publisher',
+    'sqa-aligned-vocational-training'
   ];
 
   servicePages.forEach(sp => {
     coreUrls.push(`https://www.theeduassist.com/services/${sp}/`);
+  });
+
+  enterprisePages.forEach(ep => {
+    coreUrls.push(`https://www.theeduassist.com/enterprise-solutions/${ep}/`);
+  });
+
+  caseStudyPages.forEach(cs => {
+    coreUrls.push(`https://www.theeduassist.com/case-studies/${cs}/`);
   });
 
   const coreUrlXml = coreUrls.map(url => {
