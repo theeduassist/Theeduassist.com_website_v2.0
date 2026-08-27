@@ -29,7 +29,7 @@ heroImageAlt: Split-screen illustration showing the challenges and success of
   leadership training, with a struggling leader breaking chains on the left and
   a confident leader rising with an upward arrow on the right.
 heroImageCaption: >
-  6 critical reasons leadership training fails—and practical ways to fix them
+  6 critical reasons leadership training fails and practical ways to fix them
   fast.
 seoTitle: "Why Leadership Training Fails: 6 Critical Reasons"
 seoDescription: Discover 6 critical reasons leadership training fails and learn
