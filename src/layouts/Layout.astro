@@ -27,6 +27,7 @@ const {
     jsonLd = []
 } = Astro.props;
 import { buildCanonicalUrl, formatTitle, formatDescription } from '../lib/seo';
+import { organizationSchema, websiteSchema } from '../lib/seo/schema';
 import '../styles/global.css';
 import SiteVerification from "../components/seo/SiteVerification.astro";
 import Header from '../components/layout/Header.astro';
@@ -49,6 +50,10 @@ const isMainDomain = siteUrl === 'https://www.theeduassist.com';
 // If PUBLIC_SITE_URL is missing or empty, it defaults to indexable via the fallback.
 const shouldNoIndex = noindex === true || (import.meta.env.PUBLIC_SITE_URL && import.meta.env.PUBLIC_SITE_URL.trim() !== '' && !isMainDomain && import.meta.env.PUBLIC_SITE_URL !== 'http://localhost:4321');
 const finalRobots = shouldNoIndex ? 'noindex, nofollow' : (robots || 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
+
+// Organization + WebSite schema apply to every page, so they're injected globally
+// here rather than requiring each page to import and call them individually.
+const allJsonLd = [organizationSchema(), websiteSchema(), ...jsonLd];
 ---
 
 <!doctype html>
@@ -92,7 +97,7 @@ const finalRobots = shouldNoIndex ? 'noindex, nofollow' : (robots || 'index, fol
 
         <meta name="robots" content={finalRobots} />
 
-        {jsonLd && jsonLd.length > 0 && jsonLd.map((schema) => (
+        {allJsonLd.map((schema) => (
             <script type="application/ld+json" set:html={JSON.stringify(schema)} />
         ))}
 	</head>

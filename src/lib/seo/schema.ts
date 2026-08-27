@@ -6,6 +6,7 @@ export function organizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": organizationEntity.name,
+    "alternateName": organizationEntity.alternateName,
     "description": organizationEntity.description,
     "url": organizationEntity.url,
     "logo": organizationEntity.logo,
@@ -25,6 +26,7 @@ export function websiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": organizationEntity.name,
+    "alternateName": organizationEntity.alternateName,
     "url": organizationEntity.url,
     "description": organizationEntity.description
   };

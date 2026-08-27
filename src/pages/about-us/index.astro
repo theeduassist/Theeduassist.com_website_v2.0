@@ -15,27 +15,11 @@ import AboutFAQ from "../../components/about/AboutFAQ.astro";
 import AboutKnowledgeHubCTA from "../../components/about/AboutKnowledgeHubCTA.astro";
 import AboutFinalCTA from "../../components/about/AboutFinalCTA.astro";
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "TheEduAssist",
-  "url": "https://www.theeduassist.com",
-  "logo": "https://www.theeduassist.com/brand/theeduassist-logo-official.svg",
-  "email": "Info@theeduassist.com",
-  "description": "TheEduAssist is an e-learning design and course-building agency helping creators, coaches, educators, consultants, training companies, online academies, and businesses turn knowledge into structured, launch-ready online learning systems.",
-  "sameAs": [
-    "https://www.facebook.com/people/Theeduassist/61576126813447/",
-    "https://www.instagram.com/theeduassist",
-    "https://www.linkedin.com/company/theeduassist"
-  ]
-};
-
 ---
 <Layout
   title="About Us | TheEduAssist | E-Learning Design Agency for Courses, Kajabi & LMS Builds"
   description="Learn about TheEduAssist, a multi-platform e-learning design agency helping creators, educators, coaches, consultants, academies, training companies, and businesses build structured online courses, Kajabi systems, LMS experiences, funnels, automations, and launch-ready learning content."
   canonicalPath="/about-us/"
-  jsonLd={[schema]}
 >
 
   <AboutHero />

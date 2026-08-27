@@ -1,6 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { webPageSchema, breadcrumbSchema, organizationSchema } from '../../lib/seo/schema';
+import { webPageSchema, breadcrumbSchema } from '../../lib/seo/schema';
 
 const jsonLd = [
   webPageSchema(
@@ -12,8 +12,7 @@ const jsonLd = [
     { name: "Home", urlPath: "/" },
     { name: "Newsroom", urlPath: "/newsroom/" },
     { name: "Media Kit", urlPath: "/media-kit/" }
-  ]),
-  organizationSchema()
+  ])
 ];
 ---
 
