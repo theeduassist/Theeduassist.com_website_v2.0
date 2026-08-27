@@ -10,7 +10,7 @@ interface Props {
     noindex?: boolean;
     robots?: string;
     type?: string;
-    jsonLd?: any[];
+    jsonLd?: Record<string, any> | Record<string, any>[] | any;
 }
 
 const {
@@ -53,7 +53,13 @@ const finalRobots = shouldNoIndex ? 'noindex, nofollow' : (robots || 'index, fol
 
 // Organization + WebSite schema apply to every page, so they're injected globally
 // here rather than requiring each page to import and call them individually.
-const allJsonLd = [organizationSchema(), websiteSchema(), ...jsonLd];
+const rawJsonLd = jsonLd;
+const normalizedJsonLd = !rawJsonLd
+  ? []
+  : Array.isArray(rawJsonLd)
+    ? rawJsonLd
+    : [rawJsonLd];
+const allJsonLd = [organizationSchema(), websiteSchema(), ...normalizedJsonLd];
 ---
 
 <!doctype html>
