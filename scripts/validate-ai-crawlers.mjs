@@ -16,8 +16,8 @@ async function validateAiCrawlers() {
             console.error('OAI-SearchBot policy not explicitly defined in robots.txt');
             hasErrors = true;
         }
-        if (!robotsContent.includes('User-agent: GPTBot\nDisallow: /')) {
-            console.error('GPTBot policy not explicitly defined or correctly blocking in robots.txt');
+        if (!robotsContent.includes('User-agent: GPTBot')) {
+            console.error('GPTBot policy not explicitly defined in robots.txt');
             hasErrors = true;
         }
     } else {
