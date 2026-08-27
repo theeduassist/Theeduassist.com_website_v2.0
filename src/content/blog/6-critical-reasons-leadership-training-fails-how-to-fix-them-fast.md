@@ -9,10 +9,7 @@ aiSummary: "Leadership training fails when organizations treat it as a
   standalone event instead of an integrated development strategy. This guide
   identifies six critical causes: poor organizational alignment, lack of
   executive sponsorship, one-size-fits-all design, weak reinforcement,
-  inadequate measurement, and systemic organizational barriers. It provides
-  actionable fixes, including contextual needs assessments, personalized
-  learning, executive role modeling, 90-day reinforcement plans,
-  Kirkpatrick/Phillips evaluation, and stronger feedback systems."
+  inadequate measurement, and systemic organizational barriers."
 author: editorial-team
 category: learning-strategy
 tags:
