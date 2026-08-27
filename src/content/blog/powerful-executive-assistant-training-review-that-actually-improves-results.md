@@ -11,7 +11,7 @@ aiSummary: "Effective Executive Assistant Training transforms EAs from
   technical skills, measurable business outcomes, and flexible delivery create
   stronger results. "
 author: editorial-team
-category: learning-strategy
+category: enterprise-learning
 tags:
   - Executive Assistant Training
   - Executive Assistant Development
