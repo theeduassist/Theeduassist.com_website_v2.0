@@ -322,4 +322,3 @@ However, success depends on:
 
 By combining instructional design, content development, and LMS strategy, you can create a course that is not only functional, but engaging, scalable, and results-driven.
 
-  
