@@ -3,22 +3,28 @@ import { ArrowRight, Building2, UserRound, Wrench } from "lucide-react";
 
 const pathways = [
   {
+    badge: "Enterprise & Teams",
     title: "For Organizations and Training Teams",
     description: "Build onboarding, workforce learning, customer education and scalable digital training systems.",
+    highlights: ["Custom LMS Architecture", "SCORM & Compliance", "Enterprise Onboarding"],
     cta: "Discuss an Organizational Learning Project",
     url: "/contact/",
     icon: Building2
   },
   {
+    badge: "Creators & Academies",
     title: "For Creators, Coaches and Academies",
     description: "Turn expertise into structured courses, learning programs, Kajabi systems and launch-ready learner journeys.",
+    highlights: ["Kajabi Pipelines & Portals", "Curriculum Strategy", "Monetization Systems"],
     cta: "Explore Kajabi and Course Support",
     url: "/kajabi-services/",
     icon: UserRound
   },
   {
+    badge: "DIY & Self-Serve",
     title: "For DIY Builders and Practitioners",
     description: "Use practical guidance and resources, then request expert support when your project requires strategy, review or complete implementation.",
+    highlights: ["Implementation Guides", "Expert Audit Reviews", "Strategy Checkpoints"],
     cta: "Visit the Blog",
     url: "/blog/",
     icon: Wrench
@@ -33,15 +39,31 @@ const pathways = [
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       {pathways.map((pathway) => (
-        <div class="flex flex-col bg-slate-50 rounded-2xl p-8 border border-slate-200 transition-shadow hover:shadow-lg hover:border-brand-navy/20 h-full">
-          <div class="w-12 h-12 rounded-xl bg-brand-navy text-white flex items-center justify-center mb-6">
-            <pathway.icon className="w-6 h-6" />
+        <div class="group relative flex flex-col bg-slate-50 rounded-2xl p-8 border border-slate-200 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-brand-primary/40 h-full overflow-hidden">
+          <div class="flex items-center justify-between mb-6">
+            <div class="w-12 h-12 rounded-xl bg-brand-navy text-white flex items-center justify-center transition-transform duration-300 group-hover:scale-110 shadow-md">
+              <pathway.icon className="w-6 h-6" />
+            </div>
+            <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 bg-brand-softBg text-brand-primary rounded-full border border-brand-primary/20">
+              {pathway.badge}
+            </span>
           </div>
-          <h3 class="text-xl font-bold text-brand-navy mb-4">{pathway.title}</h3>
-          <p class="text-slate-600 mb-8 flex-grow">{pathway.description}</p>
-          <a href={pathway.url} class="inline-flex items-center text-brand-navy font-semibold hover:text-brand-green transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-green rounded-sm">
+
+          <h3 class="text-xl font-bold text-brand-navy mb-4 group-hover:text-brand-primary transition-colors">{pathway.title}</h3>
+          <p class="text-slate-600 mb-6 flex-grow leading-relaxed text-sm sm:text-base">{pathway.description}</p>
+
+          <ul class="space-y-2 mb-8 border-t border-slate-200/80 pt-4 text-xs sm:text-sm text-slate-700 font-medium">
+            {pathway.highlights.map((highlight) => (
+              <li class="flex items-center">
+                <span class="w-1.5 h-1.5 rounded-full bg-brand-green mr-2.5"></span>
+                {highlight}
+              </li>
+            ))}
+          </ul>
+
+          <a href={pathway.url} class="inline-flex items-center text-brand-navy font-bold hover:text-brand-accent transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-green rounded-sm mt-auto pt-2">
             {pathway.cta}
-            <ArrowRight className="ml-2 w-4 h-4" />
+            <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1.5" />
           </a>
         </div>
       ))}
