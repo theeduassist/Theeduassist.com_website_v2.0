@@ -198,7 +198,7 @@ However, keep everything simple.
 - Use real examples
 - Ask simple questions
 
-Learn more: [++https://theeduassist.com/instructional-design-basics++](https://theeduassist.com/instructional-design-basics)
+Learn more: ++[https://theeduassist.com/instructional-design-basics](https://theeduassist.com/instructional-design-basics)++
 
 ## **Step 4: Write Easy Scripts**
 
@@ -292,7 +292,7 @@ SEO helps your content rank on Google.
 - create online courses
 - video marketing
 
-Learn more: [++https://theeduassist.com/seo-writing-tips++](https://theeduassist.com/seo-writing-tips)
+Learn more: ++[https://theeduassist.com/seo-writing-tips](https://theeduassist.com/seo-writing-tips)++
 
 ## **Step 10: Improve User Experience**
 
@@ -350,4 +350,3 @@ Keep everything simple and clear.
 
 Video Seminars on Spotlightr can help you create strong and engaging online courses. They improve learning and keep students interested. If you follow these simple steps, you can build better video content. Focus on SEO, user experience, and clear teaching for best results.
 
-  
