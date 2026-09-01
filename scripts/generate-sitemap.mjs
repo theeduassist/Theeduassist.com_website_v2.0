@@ -100,53 +100,58 @@ async function generateSitemap() {
     for (const file of fsFiles) {
       if (!file.endsWith('.md')) continue;
 
-      const content = fs.readFileSync('src/content/blog/' + file, 'utf8');
+      try {
+        const content = fs.readFileSync('src/content/blog/' + file, 'utf8');
 
-      // Basic frontmatter parser for our needs
-      let isDraft = false;
-      let isNoIndex = false;
-      let title = '';
-      let slug = file.replace('.md', '');
-      let publishedAt = '';
-      let datePublished = '';
-      let updatedAt = '';
-      let body = '';
-      let status = '';
+        // Basic frontmatter parser for our needs
+        let isDraft = false;
+        let isNoIndex = false;
+        let title = '';
+        let slug = file.replace('.md', '');
+        let publishedAt = '';
+        let datePublished = '';
+        let updatedAt = '';
+        let body = '';
+        let status = '';
 
-      if (content.startsWith('---')) {
-        const parts = content.split('---');
-        if (parts.length >= 3) {
-          const fm = parts[1];
-          body = parts.slice(2).join('---');
+        if (content.startsWith('---')) {
+          const parts = content.split('---');
+          if (parts.length >= 3) {
+            const fm = parts[1];
+            body = parts.slice(2).join('---');
 
-          const lines = fm.split('\n');
-          for (const line of lines) {
-            if (line.startsWith('title:')) title = line.substring(6).trim().replace(/^["']|["']$/g, '');
-            if (line.startsWith('slug:')) slug = line.substring(5).trim().replace(/^["']|["']$/g, '');
-            if (line.startsWith('publishedAt:')) publishedAt = line.substring(12).trim().replace(/^["']|["']$/g, '');
-            if (line.startsWith('datePublished:')) datePublished = line.substring(14).trim().replace(/^["']|["']$/g, '');
-            if (line.startsWith('updatedAt:')) updatedAt = line.substring(10).trim().replace(/^["']|["']$/g, '');
-            if (line.startsWith('noindex:') && line.includes('true')) isNoIndex = true;
-            if (line.startsWith('status:')) status = line.substring(7).trim().replace(/^["']|["']$/g, '');
+            const lines = fm.split('\n');
+            for (const line of lines) {
+              if (line.startsWith('title:')) title = line.substring(6).trim().replace(/^["']|["']$/g, '');
+              if (line.startsWith('slug:')) slug = line.substring(5).trim().replace(/^["']|["']$/g, '');
+              if (line.startsWith('publishedAt:')) publishedAt = line.substring(12).trim().replace(/^["']|["']$/g, '');
+              if (line.startsWith('datePublished:')) datePublished = line.substring(14).trim().replace(/^["']|["']$/g, '');
+              if (line.startsWith('updatedAt:')) updatedAt = line.substring(10).trim().replace(/^["']|["']$/g, '');
+              if (line.startsWith('noindex:') && line.includes('true')) isNoIndex = true;
+              if (line.startsWith('status:')) status = line.substring(7).trim().replace(/^["']|["']$/g, '');
+            }
           }
         }
-      }
 
-      if (
-        !isNoIndex &&
-        title &&
-        !title.toLowerCase().includes('test') &&
-        !title.toLowerCase().includes('content coming soon') &&
-        !title.toLowerCase().includes('untitled') &&
-        slug &&
-        !slug.toLowerCase().includes('test') &&
-        (publishedAt || datePublished) &&
-        (status === 'published' || status === '') &&
-        !file.startsWith('drafts.')
-      ) {
-        posts.push({ title, slug, publishedAt: publishedAt || datePublished, updatedAt });
-      } else {
+        if (
+          !isNoIndex &&
+          title &&
+          !title.toLowerCase().includes('test') &&
+          !title.toLowerCase().includes('content coming soon') &&
+          !title.toLowerCase().includes('untitled') &&
+          slug &&
+          !slug.toLowerCase().includes('test') &&
+          (publishedAt || datePublished) &&
+          (status === 'published' || status === '') &&
+          !file.startsWith('drafts.')
+        ) {
+          posts.push({ title, slug, publishedAt: publishedAt || datePublished, updatedAt });
+        } else {
+          excludedCount++;
+        }
+      } catch (fileErr) {
         excludedCount++;
+        console.warn(`Warning: Skipping unreadable/malformed blog post "${file}".`, fileErr.message);
       }
     }
 
@@ -172,39 +177,44 @@ async function generateSitemap() {
         for (const file of fsFiles) {
           if (!file.endsWith('.md')) continue;
 
-          const content = fs.readFileSync(path.join(dirPath, file), 'utf8');
+          try {
+            const content = fs.readFileSync(path.join(dirPath, file), 'utf8');
 
-          let isNoIndex = false;
-          let title = '';
-          let slug = file.replace('.md', '');
-          let publishedAt = '';
-          let updatedAt = '';
+            let isNoIndex = false;
+            let title = '';
+            let slug = file.replace('.md', '');
+            let publishedAt = '';
+            let updatedAt = '';
 
-          if (content.startsWith('---')) {
-            const parts = content.split('---');
-            if (parts.length >= 3) {
-              const fm = parts[1];
-              const lines = fm.split('\n');
-              for (const line of lines) {
-                if (line.startsWith('title:')) title = line.substring(6).trim().replace(/^["']|["']$/g, '');
-                if (line.startsWith('slug:')) slug = line.substring(5).trim().replace(/^["']|["']$/g, '');
-                if (line.startsWith('publishedAt:')) publishedAt = line.substring(12).trim().replace(/^["']|["']$/g, '');
-                if (line.startsWith('updatedAt:')) updatedAt = line.substring(10).trim().replace(/^["']|["']$/g, '');
-                if (line.startsWith('noindex:') && line.includes('true')) isNoIndex = true;
+            if (content.startsWith('---')) {
+              const parts = content.split('---');
+              if (parts.length >= 3) {
+                const fm = parts[1];
+                const lines = fm.split('\n');
+                for (const line of lines) {
+                  if (line.startsWith('title:')) title = line.substring(6).trim().replace(/^["']|["']$/g, '');
+                  if (line.startsWith('slug:')) slug = line.substring(5).trim().replace(/^["']|["']$/g, '');
+                  if (line.startsWith('publishedAt:')) publishedAt = line.substring(12).trim().replace(/^["']|["']$/g, '');
+                  if (line.startsWith('updatedAt:')) updatedAt = line.substring(10).trim().replace(/^["']|["']$/g, '');
+                  if (line.startsWith('noindex:') && line.includes('true')) isNoIndex = true;
+                }
               }
             }
-          }
 
-          if (
-            !isNoIndex &&
-            title &&
-            !title.toLowerCase().includes('test') &&
-            slug &&
-            publishedAt
-          ) {
-            resources.push({ title, slug, category, publishedAt, updatedAt });
-          } else {
+            if (
+              !isNoIndex &&
+              title &&
+              !title.toLowerCase().includes('test') &&
+              slug &&
+              publishedAt
+            ) {
+              resources.push({ title, slug, category, publishedAt, updatedAt });
+            } else {
+              excludedResourceCount++;
+            }
+          } catch (fileErr) {
             excludedResourceCount++;
+            console.warn(`Warning: Skipping unreadable/malformed resource "${category}/${file}".`, fileErr.message);
           }
         }
       }
@@ -260,19 +270,22 @@ async function generateSitemap() {
   try {
     const locationsData = JSON.parse(fs.readFileSync('src/data/locations.json', 'utf8'));
 
-    locationsData.regions.forEach(r => {
+    (locationsData.regions || []).forEach(r => {
+      if (!r || !r.slug) return;
       const fullUrl = `https://www.theeduassist.com/locations/${r.slug}/`;
       coreUrls.push(fullUrl);
 
     });
 
-    locationsData.countries.forEach(c => {
+    (locationsData.countries || []).forEach(c => {
+      if (!c || !c.slug) return;
       const fullUrl = `https://www.theeduassist.com/locations/${c.slug}/`;
       coreUrls.push(fullUrl);
 
     });
 
-    locationsData.cities.forEach(c => {
+    (locationsData.cities || []).forEach(c => {
+      if (!c || !c.slug) return;
       if (c.indexStatus === 'index') {
         const fullUrl = `https://www.theeduassist.com/locations/${c.slug}/`;
         coreUrls.push(fullUrl);

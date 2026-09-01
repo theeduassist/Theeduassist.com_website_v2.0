@@ -59,7 +59,7 @@ const normalizedJsonLd = !rawJsonLd
   : Array.isArray(rawJsonLd)
     ? rawJsonLd
     : [rawJsonLd];
-const allJsonLd = [organizationSchema(), websiteSchema(), ...normalizedJsonLd];
+const allJsonLd = [organizationSchema(), websiteSchema(), ...normalizedJsonLd].filter(Boolean);
 ---
 
 <!doctype html>
