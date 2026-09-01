@@ -22,7 +22,6 @@ try {
 
 // Base static URLs that must always be included
 const coreUrls = [
-  'https://www.theeduassist.com/',
   'https://www.theeduassist.com/home/',
   'https://www.theeduassist.com/contact-us/',
   'https://www.theeduassist.com/services/',
@@ -252,8 +251,7 @@ async function generateSitemap() {
   // Combine all clean routes for llms.txt
 
   const llmsUrls = [
-    '- Homepage: https://www.theeduassist.com/',
-    '- Home: https://www.theeduassist.com/home/',
+    '- Homepage: https://www.theeduassist.com/home/',
     '- Services: https://www.theeduassist.com/services/',
     '- Enterprise Solutions: https://www.theeduassist.com/enterprise-solutions/',
     '- Kajabi Services: https://www.theeduassist.com/kajabi-services/',
@@ -407,7 +405,7 @@ const staticLlmsExpertise = `
     let priority = '0.7';
     let changefreq = 'monthly';
 
-    if (url === 'https://www.theeduassist.com/') {
+    if (url === 'https://www.theeduassist.com/home/') {
       priority = '1.0';
       changefreq = 'weekly';
     } else if (url.includes('/services/') || url.includes('/kajabi-services/') || url.includes('/enterprise-solutions/') || url.includes('/pricing/') || url.includes('/book-free-audit/')) {
