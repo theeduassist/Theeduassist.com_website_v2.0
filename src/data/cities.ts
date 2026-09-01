@@ -2928,708 +2928,6 @@ export const cities = [
     ]
   },
   {
-    "cityName": "Miami",
-    "country": "United States",
-    "region": "global",
-    "slug": "miami-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Miami | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Miami-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Miami",
-    "shortHero": "TheEduAssist helps Miami-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Miami. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Miami often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Miami.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Miami.",
-    "languageLocalizationNeeds": "English primary with Spanish secondary. Key Spanish search terms: desarrollo eLearning Miami (eLearning development Miami), creación de cursos en línea (online course creation), sistema de gestión del aprendizaje (LMS), formación empresarial en línea (corporate online training), plataforma Kajabi (Kajabi platform).",
-    "timezoneCollaborationNote": "We collaborate remotely with Miami clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Miami?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Miami and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Miami businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Miami teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Atlanta",
-    "country": "United States",
-    "region": "global",
-    "slug": "atlanta-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Atlanta | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Atlanta-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Atlanta",
-    "shortHero": "TheEduAssist helps Atlanta-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Atlanta. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Atlanta often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Atlanta.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Atlanta.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Atlanta.",
-    "timezoneCollaborationNote": "We collaborate remotely with Atlanta clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Atlanta?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Atlanta and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Atlanta businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Atlanta teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Dallas",
-    "country": "United States",
-    "region": "global",
-    "slug": "dallas-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Dallas | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Dallas-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Dallas",
-    "shortHero": "TheEduAssist helps Dallas-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Dallas. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Dallas often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Dallas.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Dallas.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Dallas.",
-    "timezoneCollaborationNote": "We collaborate remotely with Dallas clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Dallas?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Dallas and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Dallas businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Dallas teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Houston",
-    "country": "United States",
-    "region": "global",
-    "slug": "houston-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Houston | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Houston-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Houston",
-    "shortHero": "TheEduAssist helps Houston-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Houston. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Houston often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Houston.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Houston.",
-    "languageLocalizationNeeds": "English primary with Spanish secondary. Key Spanish search terms: desarrollo eLearning Houston, creación de cursos en línea (online course creation), sistema de gestión del aprendizaje (LMS), formación corporativa en línea (corporate online training).",
-    "timezoneCollaborationNote": "We collaborate remotely with Houston clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Houston?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Houston and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Houston businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Houston teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Boston",
-    "country": "United States",
-    "region": "global",
-    "slug": "boston-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Boston | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Boston-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Boston",
-    "shortHero": "TheEduAssist helps Boston-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Boston. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Boston often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Boston.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Boston.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Boston.",
-    "timezoneCollaborationNote": "We collaborate remotely with Boston clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Boston?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Boston and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Boston businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Boston teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Seattle",
-    "country": "United States",
-    "region": "global",
-    "slug": "seattle-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Seattle | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Seattle-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Seattle",
-    "shortHero": "TheEduAssist helps Seattle-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Seattle. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Seattle often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Seattle.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Seattle.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Seattle.",
-    "timezoneCollaborationNote": "We collaborate remotely with Seattle clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Seattle?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Seattle and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Seattle businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Seattle teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
     "cityName": "Vancouver",
     "country": "Global",
     "region": "global",
@@ -3884,474 +3182,6 @@ export const cities = [
       {
         "text": "Talk to Sales",
         "link": "/contact/"
-      }
-    ]
-  },
-  {
-    "cityName": "Montreal",
-    "country": "Canada",
-    "region": "global",
-    "slug": "montreal-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Montreal | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Montreal-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Montreal",
-    "shortHero": "TheEduAssist helps Montreal-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Montreal. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Montreal often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Montreal.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Montreal.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Montreal.",
-    "timezoneCollaborationNote": "We collaborate remotely with Montreal clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Montreal?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Montreal and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Montreal businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Montreal teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Brisbane",
-    "country": "Australia",
-    "region": "global",
-    "slug": "brisbane-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Brisbane | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Brisbane-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Brisbane",
-    "shortHero": "TheEduAssist helps Brisbane-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Brisbane. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Brisbane often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Brisbane.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Brisbane.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Brisbane.",
-    "timezoneCollaborationNote": "We collaborate remotely with Brisbane clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Brisbane?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Brisbane and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Brisbane businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Brisbane teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Perth",
-    "country": "Australia",
-    "region": "global",
-    "slug": "perth-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Perth | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Perth-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Perth",
-    "shortHero": "TheEduAssist helps Perth-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Perth. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Perth often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Perth.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Perth.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Perth.",
-    "timezoneCollaborationNote": "We collaborate remotely with Perth clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Perth?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Perth and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Perth businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Perth teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Auckland",
-    "country": "New Zealand",
-    "region": "global",
-    "slug": "auckland-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Auckland | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Auckland-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Auckland",
-    "shortHero": "TheEduAssist helps Auckland-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Auckland. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Auckland often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Auckland.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Auckland.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Auckland.",
-    "timezoneCollaborationNote": "We collaborate remotely with Auckland clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Auckland?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Auckland and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Auckland businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Auckland teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
       }
     ]
   },
@@ -6824,240 +5654,6 @@ export const cities = [
     ]
   },
   {
-    "cityName": "Munich",
-    "country": "Germany",
-    "region": "global",
-    "slug": "munich-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Munich | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Munich-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Munich",
-    "shortHero": "TheEduAssist helps Munich-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Munich. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Munich often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Munich.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Munich.",
-    "languageLocalizationNeeds": "German primary with English secondary. Key German search terms: eLearning Entwicklung München (eLearning development Munich), Online-Kurs erstellen (create online course), Lernmanagementsystem (LMS), betriebliche Weiterbildung (corporate training).",
-    "timezoneCollaborationNote": "We collaborate remotely with Munich clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Munich?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Munich and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Munich businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Munich teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Frankfurt",
-    "country": "Germany",
-    "region": "global",
-    "slug": "frankfurt-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Frankfurt | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Frankfurt-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Frankfurt",
-    "shortHero": "TheEduAssist helps Frankfurt-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Frankfurt. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Frankfurt often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Frankfurt.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Frankfurt.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Frankfurt.",
-    "timezoneCollaborationNote": "We collaborate remotely with Frankfurt clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Frankfurt?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Frankfurt and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Frankfurt businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Frankfurt teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
     "cityName": "Paris",
     "country": "Global",
     "region": "global",
@@ -7321,123 +5917,6 @@ export const cities = [
       {
         "text": "Talk to Sales",
         "link": "/contact/"
-      }
-    ]
-  },
-  {
-    "cityName": "Lyon",
-    "country": "France",
-    "region": "global",
-    "slug": "lyon-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Lyon | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Lyon-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Lyon",
-    "shortHero": "TheEduAssist helps Lyon-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Lyon. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Lyon often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Lyon.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Lyon.",
-    "languageLocalizationNeeds": "French primary with English secondary. Key French search terms: développement eLearning Lyon (eLearning development Lyon), création de cours en ligne (online course creation), formation professionnelle en ligne (professional online training), LMS système.",
-    "timezoneCollaborationNote": "We collaborate remotely with Lyon clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Lyon?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Lyon and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Lyon businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Lyon teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
       }
     ]
   },
@@ -7706,123 +6185,6 @@ export const cities = [
       {
         "text": "Talk to Sales",
         "link": "/contact/"
-      }
-    ]
-  },
-  {
-    "cityName": "Rotterdam",
-    "country": "Netherlands",
-    "region": "global",
-    "slug": "rotterdam-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Rotterdam | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Rotterdam-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Rotterdam",
-    "shortHero": "TheEduAssist helps Rotterdam-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Rotterdam. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Rotterdam often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Rotterdam.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Rotterdam.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Rotterdam.",
-    "timezoneCollaborationNote": "We collaborate remotely with Rotterdam clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Rotterdam?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Rotterdam and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Rotterdam businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Rotterdam teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
       }
     ]
   },
@@ -8859,825 +7221,6 @@ export const cities = [
     ]
   },
   {
-    "cityName": "Bangkok",
-    "country": "Thailand",
-    "region": "global",
-    "slug": "bangkok-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Bangkok | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Bangkok-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Bangkok",
-    "shortHero": "TheEduAssist helps Bangkok-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Bangkok. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Bangkok often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Bangkok.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Bangkok.",
-    "languageLocalizationNeeds": "Thai primary with English secondary. Key Thai search terms: การพัฒนา eLearning กรุงเทพ (eLearning development Bangkok), การสร้างคอร์สออนไลน์ (online course creation), ระบบจัดการการเรียนรู้ (LMS), การฝึกอบรมออนไลน์ (online training).",
-    "timezoneCollaborationNote": "We collaborate remotely with Bangkok clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Bangkok?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Bangkok and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Bangkok businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Bangkok teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Tokyo",
-    "country": "Japan",
-    "region": "global",
-    "slug": "tokyo-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Tokyo | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Tokyo-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Tokyo",
-    "shortHero": "TheEduAssist helps Tokyo-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Tokyo. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Tokyo often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Tokyo.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Tokyo.",
-    "languageLocalizationNeeds": "Japanese primary with English secondary. Key Japanese search terms: eラーニング開発東京 (eLearning development Tokyo), オンラインコース作成 (online course creation), 学習管理システム (LMS), オンライン研修 (online training).",
-    "timezoneCollaborationNote": "We collaborate remotely with Tokyo clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Tokyo?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Tokyo and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Tokyo businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Tokyo teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Seoul",
-    "country": "South Korea",
-    "region": "global",
-    "slug": "seoul-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Seoul | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Seoul-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Seoul",
-    "shortHero": "TheEduAssist helps Seoul-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Seoul. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Seoul often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Seoul.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Seoul.",
-    "languageLocalizationNeeds": "Korean primary with English secondary. Key Korean search terms: 이러닝 개발 서울 (eLearning development Seoul), 온라인 강의 제작 (online course creation), 학습 관리 시스템 (LMS), 온라인 교육 (online training).",
-    "timezoneCollaborationNote": "We collaborate remotely with Seoul clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Seoul?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Seoul and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Seoul businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Seoul teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Hong Kong",
-    "country": "China",
-    "region": "global",
-    "slug": "hong-kong-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Hong Kong | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Hong Kong-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Hong Kong",
-    "shortHero": "TheEduAssist helps Hong Kong-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Hong Kong. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Hong Kong often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Hong Kong.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Hong Kong.",
-    "languageLocalizationNeeds": "English primary, with support for localized languages as needed in Hong Kong.",
-    "timezoneCollaborationNote": "We collaborate remotely with Hong Kong clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Hong Kong?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Hong Kong and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Hong Kong businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Hong Kong teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Manila",
-    "country": "Philippines",
-    "region": "global",
-    "slug": "manila-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Manila | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Manila-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Manila",
-    "shortHero": "TheEduAssist helps Manila-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Manila. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Manila often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Manila.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Manila.",
-    "languageLocalizationNeeds": "Filipino and English primary. Key search terms: eLearning development Manila, online course creation Philippines, learning management system (LMS), online training Philippines, Kajabi platform.",
-    "timezoneCollaborationNote": "We collaborate remotely with Manila clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Manila?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Manila and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Manila businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Manila teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Jakarta",
-    "country": "Indonesia",
-    "region": "global",
-    "slug": "jakarta-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Jakarta | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Jakarta-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Jakarta",
-    "shortHero": "TheEduAssist helps Jakarta-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Jakarta. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Jakarta often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Jakarta.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Jakarta.",
-    "languageLocalizationNeeds": "Indonesian primary with English secondary. Key Indonesian search terms: pengembangan eLearning Jakarta (eLearning development Jakarta), pembuatan kursus online (online course creation), sistem manajemen pembelajaran (LMS), pelatihan online (online training).",
-    "timezoneCollaborationNote": "We collaborate remotely with Jakarta clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Jakarta?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Jakarta and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Jakarta businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Jakarta teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
-    "cityName": "Mexico City",
-    "country": "Mexico",
-    "region": "global",
-    "slug": "mexico-city-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Mexico City | LMS, Kajabi & Course Design | TheEduAssist",
-    "metaDescription": "TheEduAssist helps Mexico City-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, and AI-powered learning content.",
-    "h1": "E-Learning Development Services in Mexico City",
-    "shortHero": "TheEduAssist helps Mexico City-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets. Whether you are launching a creator course, migrating old training content, or building a corporate learning system, we help you create a cleaner learner experience from strategy to launch.",
-    "quickAnswer": "Quick answer: TheEduAssist provides remote eLearning development, Kajabi setup, LMS migration, AI-powered course planning, content conversion, and learner experience support for clients in Mexico City. We help creators, coaches, consultants, training companies, schools, and businesses turn scattered content into structured, platform-ready learning systems.",
-    "primaryIndustries": [
-      "Tech",
-      "Education",
-      "Healthcare",
-      "Consulting"
-    ],
-    "buyerTypes": [
-      "Coaches",
-      "Consultants",
-      "Corporate L&D",
-      "Training Companies"
-    ],
-    "bestServices": [
-      "Course Creation",
-      "Kajabi Setup",
-      "LMS Migration",
-      "AI E-learning"
-    ],
-    "commonTrainingNeeds": "Businesses in Mexico City often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in Mexico City.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in Mexico City.",
-    "languageLocalizationNeeds": "Spanish primary with English secondary. Key Spanish search terms: desarrollo eLearning Ciudad de México (eLearning development Mexico City), creación de cursos en línea (online course creation), sistema de gestión del aprendizaje (LMS), formación empresarial (corporate training).",
-    "timezoneCollaborationNote": "We collaborate remotely with Mexico City clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
-    "creatorCoursePlatforms": [
-      "Kajabi",
-      "Thinkific",
-      "LearnWorlds",
-      "Teachable",
-      "Skool"
-    ],
-    "corporateLMSPlatforms": [
-      "TalentLMS",
-      "Docebo",
-      "Absorb LMS",
-      "LearnUpon",
-      "Litmos",
-      "iSpring Learn"
-    ],
-    "academicLMSPlatforms": [
-      "Moodle",
-      "Canvas",
-      "Blackboard",
-      "Brightspace"
-    ],
-    "authoringTools": [
-      "Articulate 360",
-      "Rise",
-      "Storyline",
-      "iSpring Suite"
-    ],
-    "internalLinks": [
-      "/services/custom-elearning-development/",
-      "/kajabi-services/",
-      "/services/lms-implementation-migration/"
-    ],
-    "relatedBlogs": [],
-    "relatedCaseStudies": [],
-    "faqQuestions": [
-      {
-        "q": "What LMS should I choose for my business?",
-        "a": "The ideal LMS depends on your audience and goals. We frequently recommend Kajabi or LearnWorlds for course creators, and platforms like TalentLMS or Docebo for corporate training."
-      },
-      {
-        "q": "Do I need a full LMS or just a course platform?",
-        "a": "If you are selling courses to the public, a course platform like Thinkific or Kajabi is often best. If you need compliance tracking and detailed reporting, a full LMS is required. TheEduAssist can help you decide."
-      },
-      {
-        "q": "Should I use Kajabi, Thinkific, Teachable, LearnWorlds, Skool, or LearnDash?",
-        "a": "Kajabi is excellent for all-in-one marketing, while LearnWorlds is strong for interactive video. LearnDash is perfect if you want to stay in WordPress. We guide clients to the best fit for their specific needs."
-      },
-      {
-        "q": "What LMS is best for corporate onboarding?",
-        "a": "For corporate onboarding, platforms like TalentLMS, Docebo, and Absorb LMS provide excellent automated workflows, compliance tracking, and integrations with HR systems."
-      },
-      {
-        "q": "What LMS is best for external training or customer education?",
-        "a": "Customer education requires a frictionless user experience. LearnUpon, Docebo, and Kajabi are strong choices for training external partners and customers."
-      },
-      {
-        "q": "Can old PDFs, slides, SOPs, manuals, or videos be converted into LMS training?",
-        "a": "Yes. TheEduAssist specializes in content conversion. We take your raw manuals, presentations, and videos and transform them into structured, engaging eLearning modules."
-      },
-      {
-        "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
-      },
-      {
-        "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
-        "a": "Yes, we develop interactive, SCORM and xAPI-compliant courses using industry-standard authoring tools like Articulate Rise 360, Storyline 360, and iSpring."
-      },
-      {
-        "q": "Who can help with Kajabi setup for coaches in Mexico City?",
-        "a": "TheEduAssist provides comprehensive remote Kajabi setup for coaches in Mexico City and globally. We build your course products, sales pages, checkout funnels, and automated email sequences."
-      },
-      {
-        "q": "Can TheEduAssist migrate old training content into a new LMS for Mexico City businesses?",
-        "a": "Yes, LMS migration is a core service. We safely migrate your users, courses, and data from legacy platforms or scattered files into a modern LMS, supporting remote collaboration with Mexico City teams."
-      },
-      {
-        "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
-      }
-    ]
-  },
-  {
     "cityName": "São Paulo",
     "country": "Global",
     "region": "global",
@@ -9796,967 +7339,1324 @@ export const cities = [
   },
   {
     "cityName": "Miami",
-    "country": "Global",
+    "country": "United States",
     "region": "global",
     "slug": "miami-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Miami | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Miami-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Miami | Bilingual Kajabi & LMS Design | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Miami hospitality, real estate, and international trade businesses build bilingual Kajabi programs, LMS training, and onboarding content.",
     "h1": "E-Learning Development Services in Miami",
-    "shortHero": "TheEduAssist helps Miami-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Miami.",
+    "shortHero": "Miami's economy runs on international trade, tourism, and a fast-growing bilingual professional class. We help Miami-based hospitality groups, real estate teams, and trade businesses build Kajabi programs and LMS training that work in both English and Spanish, from onboarding seasonal hospitality staff to structuring compliance training for import/export teams.",
+    "quickAnswer": "Quick answer: TheEduAssist builds bilingual-ready Kajabi courses, LMS training, and onboarding systems for Miami's hospitality, real estate, and international trade businesses, with English/Spanish content support and remote delivery.",
     "primaryIndustries": [
-      "Various"
+      "Tourism & Hospitality",
+      "Real Estate",
+      "International Trade",
+      "Healthcare"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Hospitality Trainers",
+      "Real Estate Coaches",
+      "Bilingual L&D Teams",
+      "Import/Export Compliance Teams"
     ],
     "bestServices": [
-      "Course Creation"
+      "Bilingual Course Design",
+      "Kajabi Setup",
+      "Hospitality Onboarding",
+      "Compliance Training"
     ],
-    "commonTrainingNeeds": "Miami-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 51.",
+    "commonTrainingNeeds": "Miami businesses in hospitality and real estate often need onboarding systems built for high-turnover, seasonal teams, frequently in both English and Spanish. TheEduAssist supports <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>bilingual course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a> for coaching and real estate programs, and LMS migration for hospitality groups managing multi-property training.",
+    "whatWeHelpBuild": [
+      "Bilingual Kajabi coaching programs",
+      "Hospitality onboarding modules",
+      "Real estate licensing & CE content",
+      "Import/export compliance training"
+    ],
+    "lmsGuidance": "For Miami hospitality groups managing multiple properties, we typically recommend TalentLMS or Litmos for fast, mobile-friendly onboarding. Real estate coaches and consultants tend to do best on Kajabi, which combines course delivery with marketing and sales pages. Import/export and trade businesses needing audit trails often move to Moodle or Docebo.",
+    "languageLocalizationNeeds": "Miami has one of the largest bilingual workforces of any U.S. metro, with the majority of residents speaking Spanish at home. We build course content and LMS interfaces with English/Spanish support as standard, not an add-on, for hospitality, real estate, and trade training.",
+    "commonlyUsedLMSPlatforms": "Miami hospitality groups commonly use TalentLMS and Litmos for multi-property onboarding, real estate coaches and consultants favor Kajabi, and import/export businesses needing audit trails often choose Moodle or Docebo.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Miami?",
-                "a": "Yes, TheEduAssist works remotely with clients in Miami. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Miami and surrounding areas."
+                "q": "Do you build bilingual (English/Spanish) course content for Miami businesses?",
+                "a": "Yes. Most of our Miami clients need training that works in both English and Spanish, so we build bilingual Kajabi courses and LMS content as standard, not as a separate add-on service."
           },
           {
-                "q": "What eLearning services are available in Miami?",
-                "a": "TheEduAssist offers a full range of eLearning services for Miami-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you build onboarding training for seasonal hospitality staff?",
+                "a": "Yes. Miami hospitality groups often need to onboard seasonal or high-turnover staff quickly. We build short, mobile-friendly training modules that get new hires productive within days, not weeks."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Miami clients?",
-                "a": "All projects are delivered remotely. Miami clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you support real estate coaching and continuing-education content?",
+                "a": "Yes. We help Miami real estate coaches and brokerages build Kajabi-based coaching programs, and structure continuing-education content for licensing requirements."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Miami businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Miami clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help import/export or trade companies with compliance training?",
+                "a": "Yes. We build structured LMS training with completion tracking for import/export and cross-border compliance training, common among Miami's international trade businesses."
           },
           {
-                "q": "How long does an eLearning project take for a Miami client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a bilingual course project take?",
+                "a": "A single bilingual course module typically takes 3-5 weeks, including translation and localization review. Full LMS implementations with bilingual content usually take 5-9 weeks."
           }
     ]
   },
   {
     "cityName": "Atlanta",
-    "country": "Global",
+    "country": "United States",
     "region": "global",
     "slug": "atlanta-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Atlanta | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Atlanta-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Atlanta | Enterprise Onboarding & LMS | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Atlanta logistics, fintech, and corporate teams build enterprise-scale LMS onboarding, compliance training, and Kajabi systems.",
     "h1": "E-Learning Development Services in Atlanta",
-    "shortHero": "TheEduAssist helps Atlanta-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Atlanta.",
+    "shortHero": "Atlanta is a logistics and fintech hub with one of the densest concentrations of corporate headquarters in the country. We build LMS rollouts and onboarding systems sized for Atlanta's enterprise teams, from supply-chain training programs to fintech compliance modules and media-production skills training.",
+    "quickAnswer": "Quick answer: TheEduAssist builds enterprise-scale LMS onboarding, compliance training, and Kajabi systems for Atlanta's logistics, fintech, and corporate teams, with remote delivery built for large-team rollouts.",
     "primaryIndustries": [
-      "Various"
+      "Logistics & Supply Chain",
+      "Fintech",
+      "Film & Media",
+      "Healthcare"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Corporate L&D",
+      "HR Onboarding Teams",
+      "Fintech Compliance Teams",
+      "Media Production Trainers"
     ],
     "bestServices": [
+      "Enterprise LMS Rollout",
+      "Onboarding Systems",
+      "Compliance Training",
       "Course Creation"
     ],
-    "commonTrainingNeeds": "Atlanta-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 52.",
+    "commonTrainingNeeds": "Atlanta businesses in logistics and fintech often need onboarding systems that scale to large, distributed teams and support compliance tracking. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>enterprise LMS rollout</a>, structured onboarding design, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a> for existing training materials.",
+    "whatWeHelpBuild": [
+      "Enterprise onboarding rollouts",
+      "Fintech compliance training",
+      "Supply-chain & logistics training",
+      "Media production skills content"
+    ],
+    "lmsGuidance": "Atlanta's larger fintech and logistics employers typically need Docebo, Cornerstone, or Absorb LMS for compliance tracking and reporting at scale. Media production teams and smaller studios often do better with Kajabi for skills-based training and certification.",
+    "languageLocalizationNeeds": "English is the primary language for Atlanta training content, with most projects requiring standard US English only; we can add localization for global teams on request.",
+    "commonlyUsedLMSPlatforms": "Atlanta's enterprise and fintech teams commonly use Docebo, Cornerstone, and Absorb LMS for compliance-heavy onboarding, alongside Kajabi for external customer-education and coaching programs.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Atlanta?",
-                "a": "Yes, TheEduAssist works remotely with clients in Atlanta. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Atlanta and surrounding areas."
+                "q": "Can you build onboarding LMS systems for large corporate teams in Atlanta?",
+                "a": "Yes. We specialize in scaled onboarding rollouts for enterprise teams, including completion tracking and reporting, common requirements for Atlanta's logistics and fintech employers."
           },
           {
-                "q": "What eLearning services are available in Atlanta?",
-                "a": "TheEduAssist offers a full range of eLearning services for Atlanta-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Do you support fintech compliance training?",
+                "a": "Yes. We build structured, auditable LMS training for fintech and financial services compliance requirements, with tracking and reporting built in."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Atlanta clients?",
-                "a": "All projects are delivered remotely. Atlanta clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Can you help logistics companies train distributed teams?",
+                "a": "Yes. We design mobile-friendly training for warehouse, driver, and distributed logistics teams, a common need in Atlanta's supply-chain sector."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Atlanta businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Atlanta clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Do you build training for media and film production teams?",
+                "a": "Yes. Given Atlanta's film and media industry, we build skills-based training and certification content for production crews and studio teams."
           },
           {
-                "q": "How long does an eLearning project take for a Atlanta client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does an enterprise LMS rollout take?",
+                "a": "Enterprise rollouts for larger Atlanta teams typically take 6-10 weeks depending on team size and integration needs. Smaller onboarding modules take 2-4 weeks."
           }
     ]
   },
   {
     "cityName": "Dallas",
-    "country": "Global",
+    "country": "United States",
     "region": "global",
     "slug": "dallas-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Dallas | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Dallas-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Dallas | Compliance-Ready LMS & Course Design | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Dallas energy, financial services, and enterprise tech companies build compliance-ready LMS training, Kajabi systems, and course content.",
     "h1": "E-Learning Development Services in Dallas",
-    "shortHero": "TheEduAssist helps Dallas-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Dallas.",
+    "shortHero": "Dallas's economy is anchored by energy, banking, and enterprise technology, sectors where audit-ready, compliance-heavy training matters as much as course design. We build LMS migrations and structured course content for Dallas energy, financial services, and tech teams that holds up to that scrutiny.",
+    "quickAnswer": "Quick answer: TheEduAssist builds compliance-ready LMS training, Kajabi systems, and structured course content for Dallas energy, financial services, and enterprise technology companies, with remote delivery and audit-ready documentation.",
     "primaryIndustries": [
-      "Various"
+      "Energy",
+      "Financial Services",
+      "Enterprise Technology",
+      "Telecom"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Compliance Training Teams",
+      "Corporate L&D",
+      "Enterprise IT",
+      "Financial Services L&D"
     ],
     "bestServices": [
-      "Course Creation"
+      "Compliance Training",
+      "LMS Migration",
+      "Enterprise Course Development",
+      "Kajabi Setup"
     ],
-    "commonTrainingNeeds": "Dallas-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 53.",
+    "commonTrainingNeeds": "Dallas businesses in energy and financial services often need training systems with strong audit trails and compliance documentation. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS migration</a> for legacy compliance systems, <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>structured course design</a>, and reporting-ready training builds.",
+    "whatWeHelpBuild": [
+      "Compliance-ready LMS training",
+      "Legacy LMS migrations",
+      "Enterprise tech onboarding",
+      "Financial services training content"
+    ],
+    "lmsGuidance": "Dallas energy and financial services companies most often need Cornerstone, SAP Litmos, or Docebo for compliance tracking and audit reporting. Enterprise tech and telecom teams tend to prefer Kajabi or TalentLMS for internal enablement and coaching content.",
+    "languageLocalizationNeeds": "English is the primary language for Dallas training content; most projects require standard US English only, with localization available for multinational teams on request.",
+    "commonlyUsedLMSPlatforms": "Dallas energy and financial services companies commonly use Cornerstone, SAP Litmos, and Docebo for compliance tracking, alongside Kajabi for internal coaching and enablement programs.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Dallas?",
-                "a": "Yes, TheEduAssist works remotely with clients in Dallas. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Dallas and surrounding areas."
+                "q": "Do you build compliance-ready LMS training for financial services or energy companies in Dallas?",
+                "a": "Yes. We design LMS training with completion tracking, audit trails, and reporting suited to regulated industries common in Dallas."
           },
           {
-                "q": "What eLearning services are available in Dallas?",
-                "a": "TheEduAssist offers a full range of eLearning services for Dallas-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you migrate legacy compliance training systems?",
+                "a": "Yes. We handle LMS migrations for Dallas energy and financial services companies moving off outdated or legacy platforms, without losing historical completion records."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Dallas clients?",
-                "a": "All projects are delivered remotely. Dallas clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you support enterprise technology onboarding?",
+                "a": "Yes. We build structured onboarding and product training for Dallas-based enterprise tech and telecom teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Dallas businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Dallas clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can your training support our compliance documentation requirements?",
+                "a": "We structure training content and completion tracking to support your compliance documentation process. Final compliance sign-off remains with your legal or compliance team."
           },
           {
-                "q": "How long does an eLearning project take for a Dallas client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a compliance-focused LMS project take?",
+                "a": "Compliance-focused LMS projects typically take 4-8 weeks depending on tracking and reporting complexity. Standalone course modules take 2-4 weeks."
           }
     ]
   },
   {
     "cityName": "Houston",
-    "country": "Global",
+    "country": "United States",
     "region": "global",
     "slug": "houston-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Houston | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Houston-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Houston | Energy, Healthcare & Compliance Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Houston energy, healthcare, and aerospace organizations build safety-compliant LMS training, onboarding systems, and Kajabi courses.",
     "h1": "E-Learning Development Services in Houston",
-    "shortHero": "TheEduAssist helps Houston-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Houston.",
+    "shortHero": "Houston is home to the global energy industry, the Texas Medical Center, and NASA's Johnson Space Center, making it one of the most technically demanding training markets in the country. We build safety and compliance training for energy companies, onboarding systems for healthcare teams, and technical training for aerospace and engineering organizations.",
+    "quickAnswer": "Quick answer: TheEduAssist builds safety and compliance training, healthcare onboarding, and technical/engineering training content for Houston's energy, medical, and aerospace organizations, with remote delivery and audit-ready tracking.",
     "primaryIndustries": [
-      "Various"
+      "Energy & Oil/Gas",
+      "Healthcare & Medical",
+      "Aerospace & Engineering",
+      "Logistics & Shipping"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Energy & Oil/Gas Training Teams",
+      "Healthcare Training Teams",
+      "Aerospace & Engineering L&D",
+      "Corporate L&D"
     ],
     "bestServices": [
-      "Course Creation"
+      "Safety & Compliance Training",
+      "Healthcare Onboarding",
+      "Technical/Engineering Training",
+      "LMS Migration"
     ],
-    "commonTrainingNeeds": "Houston-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 54.",
+    "commonTrainingNeeds": "Houston businesses in energy and healthcare often need training systems with strong safety-compliance tracking and audit trails. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a> for safety training, <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>technical course design</a>, and structured onboarding for healthcare and engineering teams.",
+    "whatWeHelpBuild": [
+      "Oil & gas safety and compliance training",
+      "Healthcare and medical staff onboarding",
+      "Aerospace and engineering technical training",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Houston's energy and oil & gas employers typically need Cornerstone, SAP Litmos, or Docebo for safety-compliance tracking. Healthcare and medical training teams often use Absorb LMS or TalentLMS for continuing-education tracking, and aerospace/engineering teams tend to need Moodle or Docebo for structured technical certification.",
+    "languageLocalizationNeeds": "Houston has one of the most multicultural workforces in the US, including a large Spanish-speaking population. We can build bilingual English/Spanish training content on request, in addition to standard English-language courses.",
+    "commonlyUsedLMSPlatforms": "Houston's energy sector commonly uses Cornerstone, SAP Litmos, and Docebo for safety-compliance training, healthcare teams favor Absorb LMS and TalentLMS, and aerospace/engineering teams often choose Moodle or Docebo for certification tracking.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Houston?",
-                "a": "Yes, TheEduAssist works remotely with clients in Houston. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Houston and surrounding areas."
+                "q": "Do you build safety and compliance training for oil & gas companies in Houston?",
+                "a": "Yes. We build structured LMS training with completion tracking and audit trails for safety and regulatory compliance, a core need for Houston's energy sector."
           },
           {
-                "q": "What eLearning services are available in Houston?",
-                "a": "TheEduAssist offers a full range of eLearning services for Houston-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support onboarding for healthcare and medical staff?",
+                "a": "Yes. Houston is home to the Texas Medical Center, one of the largest medical complexes in the world, and we build onboarding and continuing-education training for healthcare organizations of that scale and smaller."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Houston clients?",
-                "a": "All projects are delivered remotely. Houston clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build technical training for aerospace or engineering teams?",
+                "a": "Yes. Given Houston's aerospace and engineering presence, including NASA's Johnson Space Center, we build structured technical training and certification content for specialized engineering teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Houston businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Houston clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you build bilingual (English/Spanish) training content for Houston teams?",
+                "a": "Yes. Houston has a large Spanish-speaking workforce, so we can build bilingual course content and LMS interfaces on request."
           },
           {
-                "q": "How long does an eLearning project take for a Houston client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a safety/compliance training project take?",
+                "a": "A single compliance training module typically takes 3-5 weeks. Full LMS implementations with tracking and reporting usually take 5-9 weeks."
           }
     ]
   },
   {
     "cityName": "Boston",
-    "country": "Global",
+    "country": "United States",
     "region": "global",
     "slug": "boston-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Boston | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Boston-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Boston | Biotech, Academic & Financial Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Boston biotech, higher-education, and financial services organizations build compliance-ready LMS training and course content.",
     "h1": "E-Learning Development Services in Boston",
-    "shortHero": "TheEduAssist helps Boston-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Boston.",
+    "shortHero": "Boston's economy is built on biotech and life sciences, a dense concentration of universities and colleges, and financial services and asset management firms. We build compliance-ready training for biotech and pharma teams, course content for academic institutions, and structured onboarding for financial services organizations.",
+    "quickAnswer": "Quick answer: TheEduAssist builds compliance-ready LMS training for Boston's biotech and life-sciences companies, course design support for academic institutions, and onboarding systems for financial services firms.",
     "primaryIndustries": [
-      "Various"
+      "Biotech & Life Sciences",
+      "Higher Education",
+      "Financial Services",
+      "Healthcare"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Biotech & Pharma L&D",
+      "Higher Ed & Academic Teams",
+      "Financial Services L&D",
+      "Healthcare Training Teams"
     ],
     "bestServices": [
-      "Course Creation"
+      "Biotech Compliance Training",
+      "Academic Course Design",
+      "Financial Services Onboarding",
+      "Healthcare Training"
     ],
-    "commonTrainingNeeds": "Boston-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 55.",
+    "commonTrainingNeeds": "Boston businesses in biotech and financial services often need training systems with strong audit trails and compliance documentation. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a> for regulated industries, <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>academic course design</a>, and structured onboarding for financial teams.",
+    "whatWeHelpBuild": [
+      "Biotech and pharma compliance training",
+      "Academic and higher-ed course design",
+      "Financial services onboarding",
+      "Healthcare staff training"
+    ],
+    "lmsGuidance": "Boston's biotech and pharma companies often need Cornerstone, Docebo, or Absorb LMS with strong audit trails for regulatory-adjacent compliance training. Higher-ed and academic teams commonly use Canvas, Moodle, or Brightspace. Financial services firms tend to prefer Cornerstone or SAP Litmos for compliance tracking.",
+    "languageLocalizationNeeds": "English is the primary language for Boston training content; most projects require standard US English only, with localization available for global teams on request.",
+    "commonlyUsedLMSPlatforms": "Boston's biotech and pharma companies commonly use Cornerstone, Docebo, and Absorb LMS for compliance tracking, academic institutions favor Canvas, Moodle, and Brightspace, and financial services firms often choose Cornerstone or SAP Litmos.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Boston?",
-                "a": "Yes, TheEduAssist works remotely with clients in Boston. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Boston and surrounding areas."
+                "q": "Do you build compliance training for biotech or pharma companies in Boston?",
+                "a": "Yes. We build structured, audit-ready LMS training suited to biotech and pharma compliance requirements, common among Boston's life-sciences companies."
           },
           {
-                "q": "What eLearning services are available in Boston?",
-                "a": "TheEduAssist offers a full range of eLearning services for Boston-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you help academic institutions or universities design online courses?",
+                "a": "Yes. Given Boston's dense concentration of colleges and universities, we support academic teams building on Canvas, Moodle, or Brightspace."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Boston clients?",
-                "a": "All projects are delivered remotely. Boston clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you support financial services onboarding and compliance training?",
+                "a": "Yes. We build structured onboarding and compliance-tracked training for Boston's financial services and asset management firms."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Boston businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Boston clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you build training for hospital or healthcare staff?",
+                "a": "Yes. We build onboarding and continuing-education content for healthcare organizations, a significant part of Boston's employer base."
           },
           {
-                "q": "How long does an eLearning project take for a Boston client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a biotech/pharma compliance training project take?",
+                "a": "Compliance-focused training projects typically take 4-8 weeks depending on tracking and audit requirements. Standalone course modules take 2-4 weeks."
           }
     ]
   },
   {
     "cityName": "Seattle",
-    "country": "Global",
+    "country": "United States",
     "region": "global",
     "slug": "seattle-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Seattle | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Seattle-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Seattle | SaaS, Tech & Aerospace Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Seattle SaaS, tech, and aerospace companies build customer education, onboarding, and technical training content.",
     "h1": "E-Learning Development Services in Seattle",
-    "shortHero": "TheEduAssist helps Seattle-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Seattle.",
+    "shortHero": "Seattle is home to a dense cluster of SaaS and enterprise tech companies alongside a major aerospace manufacturing presence. We build customer education and self-serve onboarding for SaaS companies, and technical training for aerospace and manufacturing teams.",
+    "quickAnswer": "Quick answer: TheEduAssist builds SaaS customer education, product onboarding, and aerospace/manufacturing technical training for Seattle-based companies, with remote delivery built for fast-growing teams.",
     "primaryIndustries": [
-      "Various"
+      "SaaS & Enterprise Tech",
+      "Aerospace & Manufacturing",
+      "Cloud & Software",
+      "Retail Technology"
     ],
     "buyerTypes": [
-      "Businesses"
+      "SaaS & Tech L&D",
+      "Aerospace & Manufacturing Training Teams",
+      "Product & Customer Education Teams",
+      "Corporate L&D"
     ],
     "bestServices": [
-      "Course Creation"
+      "SaaS Customer Education",
+      "Aerospace Technical Training",
+      "Product Onboarding",
+      "Kajabi Setup"
     ],
-    "commonTrainingNeeds": "Seattle-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 56.",
+    "commonTrainingNeeds": "Seattle businesses in SaaS and tech often need scalable customer education and self-serve onboarding, while aerospace and manufacturing teams need structured technical certification. TheEduAssist supports <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>customer education design</a>, <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a>, and product onboarding content.",
+    "whatWeHelpBuild": [
+      "SaaS customer education and onboarding",
+      "Aerospace and manufacturing technical training",
+      "Developer and product onboarding",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Seattle's SaaS and tech companies often prefer Kajabi, LearnUpon, or Docebo for customer education and self-serve onboarding. Aerospace and manufacturing teams typically need Cornerstone or Absorb LMS with strong compliance and certification tracking.",
+    "languageLocalizationNeeds": "English is the primary language for Seattle training content; most projects require standard US English only, with localization available for global teams and international customers on request.",
+    "commonlyUsedLMSPlatforms": "Seattle's SaaS and tech companies commonly use Kajabi, LearnUpon, and Docebo for customer education, while aerospace and manufacturing teams favor Cornerstone or Absorb LMS for certification tracking.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Seattle?",
-                "a": "Yes, TheEduAssist works remotely with clients in Seattle. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Seattle and surrounding areas."
+                "q": "Do you build customer education or onboarding content for SaaS companies in Seattle?",
+                "a": "Yes. We build self-serve customer education, product onboarding, and in-app training content designed to scale with fast-growing SaaS teams."
           },
           {
-                "q": "What eLearning services are available in Seattle?",
-                "a": "TheEduAssist offers a full range of eLearning services for Seattle-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support aerospace or manufacturing technical training?",
+                "a": "Yes. Given Seattle's aerospace manufacturing presence, we build structured technical training and certification tracking for engineering and production teams."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Seattle clients?",
-                "a": "All projects are delivered remotely. Seattle clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build developer or product onboarding content?",
+                "a": "Yes. We design onboarding content for technical audiences, including developer documentation-adjacent training and product walkthroughs."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Seattle businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Seattle clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help scale onboarding for fast-growing tech teams?",
+                "a": "Yes. We build onboarding systems designed to handle rapid headcount growth without a proportional increase in manual training overhead."
           },
           {
-                "q": "How long does an eLearning project take for a Seattle client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a SaaS customer education project take?",
+                "a": "A single customer education module typically takes 2-4 weeks. Full onboarding systems with in-app guidance usually take 4-7 weeks."
           }
     ]
   },
   {
     "cityName": "Montreal",
-    "country": "Global",
+    "country": "Canada",
     "region": "global",
     "slug": "montreal-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Montreal | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Montreal-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Montreal | Bilingual Training for Aerospace & Tech | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Montreal aerospace, gaming, and AI companies build bilingual (French/English) LMS training, technical onboarding, and Kajabi courses.",
     "h1": "E-Learning Development Services in Montreal",
-    "shortHero": "TheEduAssist helps Montreal-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Montreal.",
+    "shortHero": "Montreal is a global hub for aerospace engineering, video game development, and AI research, and one of the few major North American cities where training content routinely needs to work in both French and English. We build bilingual technical training for aerospace and engineering teams, and onboarding systems for Montreal's game studios and tech companies.",
+    "quickAnswer": "Quick answer: TheEduAssist builds bilingual (French/English) technical training, aerospace/engineering onboarding, and game-studio onboarding systems for Montreal companies, with remote delivery.",
     "primaryIndustries": [
-      "Various"
+      "Aerospace & Engineering",
+      "Video Game Development",
+      "AI & Tech Research",
+      "Financial Services"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Aerospace & Engineering L&D",
+      "Game Studio Onboarding Teams",
+      "Bilingual L&D Teams",
+      "Corporate L&D"
     ],
     "bestServices": [
-      "Course Creation"
+      "Bilingual Course Design",
+      "Aerospace Technical Training",
+      "Game Studio Onboarding",
+      "LMS Migration"
     ],
-    "commonTrainingNeeds": "Montreal-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 57.",
+    "commonTrainingNeeds": "Montreal businesses in aerospace and technology often need training content that works in both French and English. TheEduAssist supports <a href='/services/course-localization-translation/' class='text-brand-accent font-medium hover:underline'>bilingual course localization</a>, <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>technical course design</a>, and structured onboarding for engineering and creative teams.",
+    "whatWeHelpBuild": [
+      "Bilingual French/English course content",
+      "Aerospace and engineering technical training",
+      "Game studio and creative team onboarding",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Montreal's aerospace and engineering employers typically need Docebo or Cornerstone for structured technical certification. Game studios and tech companies often prefer Kajabi or TalentLMS for faster, less formal onboarding, and bilingual content usually requires an LMS with strong multi-language support such as Docebo or Absorb LMS.",
+    "languageLocalizationNeeds": "Montreal is Canada's largest bilingual city, with French as the primary language of business alongside English. We build course content and LMS interfaces with French/English support as standard, not an add-on.",
+    "commonlyUsedLMSPlatforms": "Montreal's aerospace and engineering companies commonly use Docebo and Cornerstone for technical certification, while game studios and tech companies favor Kajabi and TalentLMS, and bilingual content typically requires Docebo or Absorb LMS for multi-language support.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Montreal?",
-                "a": "Yes, TheEduAssist works remotely with clients in Montreal. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Montreal and surrounding areas."
+                "q": "Do you build bilingual (French/English) course content for Montreal businesses?",
+                "a": "Yes. Montreal is one of the largest bilingual business hubs in North America, so we build French/English course content and LMS interfaces as standard for Montreal clients."
           },
           {
-                "q": "What eLearning services are available in Montreal?",
-                "a": "TheEduAssist offers a full range of eLearning services for Montreal-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you build technical training for aerospace or engineering teams?",
+                "a": "Yes. Given Montreal's aerospace industry, we build structured technical training and certification tracking for engineering teams."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Montreal clients?",
-                "a": "All projects are delivered remotely. Montreal clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you support onboarding for game studios or creative tech companies?",
+                "a": "Yes. We build onboarding systems suited to Montreal's video game and creative tech companies, balancing speed with structure."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Montreal businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Montreal clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help AI or tech research teams with internal training content?",
+                "a": "Yes. We build structured internal training and documentation-style content for tech and research-focused teams."
           },
           {
-                "q": "How long does an eLearning project take for a Montreal client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a bilingual technical training project take?",
+                "a": "A single bilingual technical module typically takes 3-6 weeks including translation review. Full LMS implementations with bilingual content usually take 6-10 weeks."
           }
     ]
   },
   {
     "cityName": "Brisbane",
-    "country": "Global",
+    "country": "Australia",
     "region": "global",
     "slug": "brisbane-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Brisbane | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Brisbane-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Brisbane | Construction & Infrastructure Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Brisbane construction, infrastructure, and healthcare organizations build safety training, onboarding systems, and Kajabi courses.",
     "h1": "E-Learning Development Services in Brisbane",
-    "shortHero": "TheEduAssist helps Brisbane-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Brisbane.",
+    "shortHero": "Brisbane is in the middle of a major infrastructure and construction boom ahead of the 2032 Olympic Games, alongside a growing healthcare and professional services sector. We build safety and compliance training for construction and infrastructure teams, and onboarding systems for Brisbane's healthcare and corporate organizations.",
+    "quickAnswer": "Quick answer: TheEduAssist builds safety and compliance training for Brisbane's construction and infrastructure sector, plus onboarding systems for healthcare and corporate teams, with remote delivery.",
     "primaryIndustries": [
-      "Various"
+      "Construction & Infrastructure",
+      "Healthcare",
+      "Professional Services",
+      "Education"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Construction Safety Training Teams",
+      "Healthcare Training Teams",
+      "Corporate L&D",
+      "Training Companies"
     ],
     "bestServices": [
-      "Course Creation"
+      "Safety & Compliance Training",
+      "Healthcare Onboarding",
+      "Course Creation",
+      "LMS Migration"
     ],
-    "commonTrainingNeeds": "Brisbane-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 58.",
+    "commonTrainingNeeds": "Brisbane businesses in construction and infrastructure often need safety-compliance training with clear completion tracking. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a> for safety training, <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, and structured onboarding for healthcare and corporate teams.",
+    "whatWeHelpBuild": [
+      "Construction and infrastructure safety training",
+      "Healthcare staff onboarding",
+      "Corporate onboarding systems",
+      "Compliance-tracked training content"
+    ],
+    "lmsGuidance": "Brisbane's construction and infrastructure employers typically need TalentLMS or Litmos for site-safety compliance tracking. Healthcare organizations often use Absorb LMS, and corporate teams commonly choose Docebo or Kajabi depending on whether training is internal or customer-facing.",
+    "languageLocalizationNeeds": "English is the primary language for Brisbane training content; most projects require standard Australian English only, with localization available for multicultural teams on request.",
+    "commonlyUsedLMSPlatforms": "Brisbane's construction and infrastructure sector commonly uses TalentLMS and Litmos for safety compliance, healthcare organizations favor Absorb LMS, and corporate teams often choose Docebo or Kajabi.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Brisbane?",
-                "a": "Yes, TheEduAssist works remotely with clients in Brisbane. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Brisbane and surrounding areas."
+                "q": "Do you build safety and compliance training for construction companies in Brisbane?",
+                "a": "Yes. Given Brisbane's construction and infrastructure boom, we build structured safety training with completion tracking suited to site-based teams."
           },
           {
-                "q": "What eLearning services are available in Brisbane?",
-                "a": "TheEduAssist offers a full range of eLearning services for Brisbane-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support onboarding for healthcare organizations?",
+                "a": "Yes. We build onboarding and continuing-education training for Brisbane's healthcare organizations."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Brisbane clients?",
-                "a": "All projects are delivered remotely. Brisbane clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build training for infrastructure projects tied to major public works?",
+                "a": "Yes. We build compliance-tracked training content suited to large infrastructure and public works projects."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Brisbane businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Brisbane clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help corporate teams in Brisbane with onboarding systems?",
+                "a": "Yes. We build structured onboarding systems for Brisbane's growing professional services and corporate sector."
           },
           {
-                "q": "How long does an eLearning project take for a Brisbane client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a construction safety training project take?",
+                "a": "A single safety training module typically takes 2-4 weeks. Larger compliance-tracked LMS implementations take 5-8 weeks."
           }
     ]
   },
   {
     "cityName": "Perth",
-    "country": "Global",
+    "country": "Australia",
     "region": "global",
     "slug": "perth-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Perth | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Perth-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Perth | Mining & Resources Safety Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Perth mining, resources, and FIFO workforce organizations build safety-compliant LMS training and onboarding systems.",
     "h1": "E-Learning Development Services in Perth",
-    "shortHero": "TheEduAssist helps Perth-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Perth.",
+    "shortHero": "Perth is the commercial center of Australia's mining and resources industry, with a large fly-in-fly-out (FIFO) workforce that needs training delivered remotely and consistently across shifts and sites. We build safety and compliance training for mining and resources companies, and onboarding systems designed for distributed, rotating workforces.",
+    "quickAnswer": "Quick answer: TheEduAssist builds safety-compliant LMS training and remote-friendly onboarding systems for Perth's mining, resources, and FIFO workforce organizations.",
     "primaryIndustries": [
-      "Various"
+      "Mining & Resources",
+      "Energy",
+      "Engineering",
+      "Logistics"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Mining & Resources Training Teams",
+      "FIFO Workforce Onboarding",
+      "Safety & Compliance Teams",
+      "Corporate L&D"
     ],
     "bestServices": [
-      "Course Creation"
+      "Mining Safety Training",
+      "FIFO Onboarding Systems",
+      "Compliance Training",
+      "LMS Migration"
     ],
-    "commonTrainingNeeds": "Perth-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 59.",
+    "commonTrainingNeeds": "Perth businesses in mining and resources often need safety-compliance training that works reliably for FIFO and rotating-shift workforces. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a> for site-safety training, structured onboarding, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a> for existing safety manuals.",
+    "whatWeHelpBuild": [
+      "Mining and resources safety training",
+      "FIFO workforce onboarding systems",
+      "Compliance-tracked training content",
+      "Site induction training"
+    ],
+    "lmsGuidance": "Perth's mining and resources companies typically need Cornerstone, SAP Litmos, or Docebo for safety-compliance tracking across large, distributed workforces. FIFO operations often need offline-capable or low-bandwidth-friendly LMS options for remote site access.",
+    "languageLocalizationNeeds": "English is the primary language for Perth training content; most mining and resources projects require standard Australian English, with content often written for varying literacy levels given the range of site-based roles.",
+    "commonlyUsedLMSPlatforms": "Perth's mining and resources sector commonly uses Cornerstone, SAP Litmos, and Docebo for safety-compliance tracking across distributed FIFO workforces.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Perth?",
-                "a": "Yes, TheEduAssist works remotely with clients in Perth. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Perth and surrounding areas."
+                "q": "Do you build safety and compliance training for mining companies in Perth?",
+                "a": "Yes. We build structured LMS training with completion tracking and audit trails suited to mining and resources safety-compliance requirements."
           },
           {
-                "q": "What eLearning services are available in Perth?",
-                "a": "TheEduAssist offers a full range of eLearning services for Perth-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you build onboarding systems for FIFO (fly-in-fly-out) workforces?",
+                "a": "Yes. We design onboarding and induction training that works reliably for rotating-shift and remote-site workforces."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Perth clients?",
-                "a": "All projects are delivered remotely. Perth clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build site induction training?",
+                "a": "Yes. We build structured site induction and safety orientation content for new starters on mining and resources projects."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Perth businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Perth clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can your training work in low-bandwidth or remote site conditions?",
+                "a": "We can design content and recommend LMS platforms suited to lower-bandwidth or offline-capable delivery for remote sites."
           },
           {
-                "q": "How long does an eLearning project take for a Perth client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a mining safety training project take?",
+                "a": "A single safety training module typically takes 2-4 weeks. Larger site-wide compliance implementations take 5-9 weeks."
           }
     ]
   },
   {
     "cityName": "Auckland",
-    "country": "Global",
+    "country": "New Zealand",
     "region": "global",
     "slug": "auckland-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Auckland | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Auckland-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Auckland | Agribusiness & Financial Services Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Auckland financial services, agribusiness, and gateway-tourism businesses build LMS training, onboarding systems, and Kajabi courses.",
     "h1": "E-Learning Development Services in Auckland",
-    "shortHero": "TheEduAssist helps Auckland-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Auckland.",
+    "shortHero": "Auckland is New Zealand's financial and commercial capital and the country's main international gateway, home to major agribusiness exporters like dairy cooperative Fonterra alongside a dense professional services sector. We build onboarding systems for professional services and financial teams, and training content for agribusiness and export-facing companies.",
+    "quickAnswer": "Quick answer: TheEduAssist builds onboarding systems for Auckland's professional services and financial firms, plus training content for agribusiness and export companies, with remote delivery.",
     "primaryIndustries": [
-      "Various"
+      "Financial & Professional Services",
+      "Agribusiness & Dairy Export",
+      "Logistics & Trade",
+      "Tourism Gateway Services"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Professional Services L&D",
+      "Agribusiness Training Teams",
+      "Financial Services L&D",
+      "Corporate L&D"
     ],
     "bestServices": [
+      "Corporate Onboarding",
+      "Agribusiness Training",
+      "Financial Compliance Training",
       "Course Creation"
     ],
-    "commonTrainingNeeds": "Auckland-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 60.",
+    "commonTrainingNeeds": "Auckland businesses in professional services and agribusiness often need structured onboarding and product training systems. TheEduAssist supports <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, and LMS implementation for growing teams.",
+    "whatWeHelpBuild": [
+      "Professional services onboarding",
+      "Agribusiness product and export training",
+      "Financial services compliance training",
+      "Corporate training systems"
+    ],
+    "lmsGuidance": "Auckland's professional services and financial firms often prefer TalentLMS or Docebo for structured onboarding, agribusiness and export companies commonly use Kajabi or LearnUpon for partner and customer education, and gateway-tourism operators tend to favor fast-to-deploy platforms like TalentLMS.",
+    "languageLocalizationNeeds": "English is the primary language for Auckland training content; most projects require standard English only, with localization available for international teams on request.",
+    "commonlyUsedLMSPlatforms": "Auckland's professional services and financial firms commonly use TalentLMS and Docebo, agribusiness and export companies favor Kajabi and LearnUpon for partner education, and gateway-tourism operators often choose fast-to-deploy platforms like TalentLMS.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Auckland?",
-                "a": "Yes, TheEduAssist works remotely with clients in Auckland. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Auckland and surrounding areas."
+                "q": "Do you build onboarding systems for professional services or financial firms in Auckland?",
+                "a": "Yes. We build structured onboarding and compliance-aware training systems for Auckland's professional services and financial teams, New Zealand's commercial hub."
           },
           {
-                "q": "What eLearning services are available in Auckland?",
-                "a": "TheEduAssist offers a full range of eLearning services for Auckland-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support agribusiness or export companies with product or partner training?",
+                "a": "Yes. Auckland is home to major agribusiness exporters, including dairy cooperative Fonterra, and we build product, process, and partner training content suited to export-facing agribusiness teams."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Auckland clients?",
-                "a": "All projects are delivered remotely. Auckland clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build onboarding for tourism operators at New Zealand's main gateway city?",
+                "a": "Yes. As New Zealand's busiest international gateway, Auckland has a significant tourism and hospitality sector, and we build fast, mobile-friendly onboarding training for these teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Auckland businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Auckland clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help financial services firms with compliance training?",
+                "a": "Yes. We build structured, trackable compliance training for financial services teams."
           },
           {
-                "q": "How long does an eLearning project take for a Auckland client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does an onboarding project take for an Auckland client?",
+                "a": "A single onboarding module typically takes 2-4 weeks. Full LMS implementations usually take 4-8 weeks."
           }
     ]
   },
   {
     "cityName": "Munich",
-    "country": "Global",
+    "country": "Germany",
     "region": "global",
     "slug": "munich-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Munich | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Munich-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Munich | Automotive & Insurance Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Munich automotive, insurance, and engineering companies build technical training, compliance content, and LMS systems.",
     "h1": "E-Learning Development Services in Munich",
-    "shortHero": "TheEduAssist helps Munich-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Munich.",
+    "shortHero": "Munich is home to major automotive engineering and insurance/financial companies, alongside a strong technology and engineering sector. We build technical training for automotive and engineering teams, and compliance training for insurance and financial services organizations.",
+    "quickAnswer": "Quick answer: TheEduAssist builds technical training for Munich's automotive and engineering companies, and compliance-tracked training for insurance and financial services teams.",
     "primaryIndustries": [
-      "Various"
+      "Automotive Engineering",
+      "Insurance & Financial Services",
+      "Technology",
+      "Manufacturing"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Automotive Engineering L&D",
+      "Insurance & Financial Compliance Teams",
+      "Corporate L&D",
+      "Manufacturing Training Teams"
     ],
     "bestServices": [
+      "Technical Engineering Training",
+      "Compliance Training",
+      "LMS Migration",
       "Course Creation"
     ],
-    "commonTrainingNeeds": "Munich-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 61.",
+    "commonTrainingNeeds": "Munich businesses in automotive and insurance often need training systems with strong technical accuracy and compliance tracking. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a>, <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>technical course design</a>, and structured compliance training.",
+    "whatWeHelpBuild": [
+      "Automotive engineering technical training",
+      "Insurance and financial compliance training",
+      "Manufacturing process training",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Munich's automotive and engineering employers typically need Docebo or Cornerstone for structured technical certification. Insurance and financial services firms often use Cornerstone or SAP Litmos for compliance tracking and audit reporting.",
+    "languageLocalizationNeeds": "Munich businesses often need training content in both German and English, particularly for multinational engineering and financial teams. We can build bilingual German/English course content on request.",
+    "commonlyUsedLMSPlatforms": "Munich's automotive and engineering companies commonly use Docebo and Cornerstone for technical certification, while insurance and financial services firms favor Cornerstone or SAP Litmos for compliance tracking.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Munich?",
-                "a": "Yes, TheEduAssist works remotely with clients in Munich. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Munich and surrounding areas."
+                "q": "Do you build technical training for automotive engineering teams in Munich?",
+                "a": "Yes. Given Munich's automotive engineering industry, we build structured technical training and certification content for engineering teams."
           },
           {
-                "q": "What eLearning services are available in Munich?",
-                "a": "TheEduAssist offers a full range of eLearning services for Munich-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support compliance training for insurance or financial services companies?",
+                "a": "Yes. We build structured, audit-ready LMS training suited to insurance and financial services compliance requirements."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Munich clients?",
-                "a": "All projects are delivered remotely. Munich clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build bilingual (German/English) training content?",
+                "a": "Yes. We can build bilingual German/English course content for multinational Munich teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Munich businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Munich clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help manufacturing companies with process training?",
+                "a": "Yes. We build structured process and safety training content for manufacturing teams."
           },
           {
-                "q": "How long does an eLearning project take for a Munich client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a technical training project take for a Munich client?",
+                "a": "A single technical training module typically takes 3-5 weeks. Full compliance-tracked LMS implementations take 5-9 weeks."
           }
     ]
   },
   {
     "cityName": "Frankfurt",
-    "country": "Global",
+    "country": "Germany",
     "region": "global",
     "slug": "frankfurt-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Frankfurt | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Frankfurt-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Frankfurt | Banking & Financial Compliance Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Frankfurt banking, financial services, and logistics companies build compliance-ready LMS training and course content.",
     "h1": "E-Learning Development Services in Frankfurt",
-    "shortHero": "TheEduAssist helps Frankfurt-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Frankfurt.",
+    "shortHero": "Frankfurt is the financial capital of continental Europe, home to major banks and the European Central Bank, alongside one of the world's busiest air-cargo hubs. We build compliance-ready training for banking and financial services teams, and logistics/operations training for Frankfurt's aviation and freight sector.",
+    "quickAnswer": "Quick answer: TheEduAssist builds compliance-ready LMS training for Frankfurt's banking and financial services companies, and logistics/operations training for aviation and freight businesses.",
     "primaryIndustries": [
-      "Various"
+      "Banking & Financial Services",
+      "Logistics & Aviation",
+      "Insurance",
+      "Enterprise Technology"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Banking & Financial Compliance Teams",
+      "Logistics & Aviation Training Teams",
+      "Corporate L&D",
+      "Insurance L&D"
     ],
     "bestServices": [
+      "Financial Compliance Training",
+      "Logistics Operations Training",
+      "LMS Migration",
       "Course Creation"
     ],
-    "commonTrainingNeeds": "Frankfurt-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 62.",
+    "commonTrainingNeeds": "Frankfurt businesses in banking and financial services often need training systems with strong audit trails and regulatory documentation. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a> for compliance training, and structured onboarding for logistics and aviation teams.",
+    "whatWeHelpBuild": [
+      "Banking and financial compliance training",
+      "Logistics and aviation operations training",
+      "Insurance compliance content",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Frankfurt's banking and financial services companies typically need Cornerstone, SAP Litmos, or Docebo for regulatory compliance tracking and audit reporting. Logistics and aviation businesses often need training platforms that support shift-based, multi-site delivery.",
+    "languageLocalizationNeeds": "Frankfurt businesses often need training content in both German and English, particularly for international banking and logistics teams. We can build bilingual German/English course content on request.",
+    "commonlyUsedLMSPlatforms": "Frankfurt's banking and financial services companies commonly use Cornerstone, SAP Litmos, and Docebo for compliance tracking, while logistics and aviation businesses favor platforms supporting multi-site, shift-based delivery.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Frankfurt?",
-                "a": "Yes, TheEduAssist works remotely with clients in Frankfurt. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Frankfurt and surrounding areas."
+                "q": "Do you build compliance training for banks or financial services companies in Frankfurt?",
+                "a": "Yes. We build structured, audit-ready LMS training suited to Frankfurt's banking and financial services compliance requirements."
           },
           {
-                "q": "What eLearning services are available in Frankfurt?",
-                "a": "TheEduAssist offers a full range of eLearning services for Frankfurt-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support operations training for logistics or aviation companies?",
+                "a": "Yes. Given Frankfurt's major air-cargo hub, we build structured operations and safety training for logistics and aviation teams."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Frankfurt clients?",
-                "a": "All projects are delivered remotely. Frankfurt clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build bilingual (German/English) financial training content?",
+                "a": "Yes. We can build bilingual German/English compliance training for international Frankfurt teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Frankfurt businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Frankfurt clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help insurance companies with compliance training?",
+                "a": "Yes. We build structured compliance training content for insurance teams."
           },
           {
-                "q": "How long does an eLearning project take for a Frankfurt client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a financial compliance training project take?",
+                "a": "A single compliance training module typically takes 3-5 weeks. Full audit-ready LMS implementations take 5-9 weeks."
           }
     ]
   },
   {
     "cityName": "Lyon",
-    "country": "Global",
+    "country": "France",
     "region": "global",
     "slug": "lyon-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Lyon | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Lyon-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Lyon | Pharma & Hospitality Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Lyon pharmaceutical, biotech, and hospitality businesses build compliance-ready LMS training and course content.",
     "h1": "E-Learning Development Services in Lyon",
-    "shortHero": "TheEduAssist helps Lyon-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Lyon.",
+    "shortHero": "Lyon is one of France's leading centers for pharmaceutical and biotech research, alongside a globally recognized hospitality and gastronomy industry. We build compliance-ready training for pharma and biotech teams, and onboarding content for Lyon's hospitality and culinary businesses.",
+    "quickAnswer": "Quick answer: TheEduAssist builds compliance-ready LMS training for Lyon's pharmaceutical and biotech companies, and onboarding systems for hospitality and culinary businesses.",
     "primaryIndustries": [
-      "Various"
+      "Pharmaceutical & Biotech",
+      "Hospitality & Gastronomy",
+      "Textiles & Manufacturing",
+      "Healthcare"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Pharma & Biotech L&D",
+      "Hospitality Training Teams",
+      "Corporate L&D",
+      "Healthcare Training Teams"
     ],
     "bestServices": [
-      "Course Creation"
+      "Pharma Compliance Training",
+      "Hospitality Onboarding",
+      "Course Creation",
+      "LMS Migration"
     ],
-    "commonTrainingNeeds": "Lyon-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 63.",
+    "commonTrainingNeeds": "Lyon businesses in pharma and biotech often need training systems with strong audit trails and regulatory documentation. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a> for compliance training, and onboarding design for hospitality teams.",
+    "whatWeHelpBuild": [
+      "Pharmaceutical and biotech compliance training",
+      "Hospitality and culinary onboarding",
+      "Healthcare staff training",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Lyon's pharmaceutical and biotech companies typically need Cornerstone, Docebo, or Absorb LMS with strong audit trails for regulatory compliance training. Hospitality businesses often prefer TalentLMS or Litmos for fast, mobile-friendly onboarding.",
+    "languageLocalizationNeeds": "Lyon businesses often need training content in both French and English, particularly for multinational pharma and biotech teams. We can build bilingual French/English course content on request.",
+    "commonlyUsedLMSPlatforms": "Lyon's pharmaceutical and biotech companies commonly use Cornerstone, Docebo, and Absorb LMS for compliance tracking, while hospitality businesses favor TalentLMS or Litmos for fast onboarding.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Lyon?",
-                "a": "Yes, TheEduAssist works remotely with clients in Lyon. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Lyon and surrounding areas."
+                "q": "Do you build compliance training for pharmaceutical or biotech companies in Lyon?",
+                "a": "Yes. Given Lyon's pharmaceutical and biotech industry, we build structured, audit-ready LMS training suited to regulatory compliance requirements."
           },
           {
-                "q": "What eLearning services are available in Lyon?",
-                "a": "TheEduAssist offers a full range of eLearning services for Lyon-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support onboarding for hospitality or culinary businesses?",
+                "a": "Yes. We build fast, mobile-friendly onboarding training for Lyon's hospitality and culinary teams."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Lyon clients?",
-                "a": "All projects are delivered remotely. Lyon clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build bilingual (French/English) training content?",
+                "a": "Yes. We can build bilingual French/English course content for multinational Lyon teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Lyon businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Lyon clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help healthcare organizations with staff training?",
+                "a": "Yes. We build onboarding and continuing-education training for healthcare organizations."
           },
           {
-                "q": "How long does an eLearning project take for a Lyon client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a pharma compliance training project take?",
+                "a": "A single compliance training module typically takes 3-5 weeks. Full audit-ready LMS implementations take 5-9 weeks."
           }
     ]
   },
   {
     "cityName": "Rotterdam",
-    "country": "Global",
+    "country": "Netherlands",
     "region": "global",
     "slug": "rotterdam-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Rotterdam | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Rotterdam-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Rotterdam | Port & Logistics Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Rotterdam maritime, logistics, and energy companies build safety-compliant LMS training and onboarding systems.",
     "h1": "E-Learning Development Services in Rotterdam",
-    "shortHero": "TheEduAssist helps Rotterdam-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Rotterdam.",
+    "shortHero": "Rotterdam is home to the largest port in Europe, making maritime logistics, shipping, and port operations central to the local economy, alongside a growing energy-transition sector. We build safety and operations training for maritime and logistics teams, and compliance training for energy companies.",
+    "quickAnswer": "Quick answer: TheEduAssist builds safety and operations training for Rotterdam's maritime and logistics companies, and compliance training for energy-sector organizations.",
     "primaryIndustries": [
-      "Various"
+      "Maritime & Port Logistics",
+      "Energy",
+      "Shipping & Freight",
+      "Manufacturing"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Maritime & Logistics Training Teams",
+      "Energy Compliance Teams",
+      "Corporate L&D",
+      "Port Operations Teams"
     ],
     "bestServices": [
+      "Port & Logistics Safety Training",
+      "Energy Compliance Training",
+      "LMS Migration",
       "Course Creation"
     ],
-    "commonTrainingNeeds": "Rotterdam-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 64.",
+    "commonTrainingNeeds": "Rotterdam businesses in maritime logistics and energy often need safety-compliance training with strong audit trails. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a> for operations training, and structured compliance content for energy teams.",
+    "whatWeHelpBuild": [
+      "Maritime and port operations safety training",
+      "Energy sector compliance training",
+      "Logistics and freight onboarding",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Rotterdam's maritime and logistics companies typically need Cornerstone or SAP Litmos for safety-compliance tracking across shift-based, multi-site operations. Energy companies often use Docebo or Cornerstone for regulatory compliance and audit reporting.",
+    "languageLocalizationNeeds": "Rotterdam businesses often need training content in both Dutch and English, particularly for international maritime and logistics teams. We can build bilingual Dutch/English course content on request.",
+    "commonlyUsedLMSPlatforms": "Rotterdam's maritime and logistics companies commonly use Cornerstone and SAP Litmos for safety-compliance tracking, while energy companies favor Docebo or Cornerstone for regulatory reporting.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Rotterdam?",
-                "a": "Yes, TheEduAssist works remotely with clients in Rotterdam. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Rotterdam and surrounding areas."
+                "q": "Do you build safety training for maritime or port logistics companies in Rotterdam?",
+                "a": "Yes. Given Rotterdam's position as Europe's largest port, we build structured safety and operations training for maritime and logistics teams."
           },
           {
-                "q": "What eLearning services are available in Rotterdam?",
-                "a": "TheEduAssist offers a full range of eLearning services for Rotterdam-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support compliance training for energy companies?",
+                "a": "Yes. We build structured, audit-ready compliance training for energy-sector organizations."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Rotterdam clients?",
-                "a": "All projects are delivered remotely. Rotterdam clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build bilingual (Dutch/English) training content?",
+                "a": "Yes. We can build bilingual Dutch/English course content for international Rotterdam teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Rotterdam businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Rotterdam clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help logistics and freight companies with onboarding?",
+                "a": "Yes. We build onboarding training suited to shift-based, multi-site logistics operations."
           },
           {
-                "q": "How long does an eLearning project take for a Rotterdam client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a port/logistics safety training project take?",
+                "a": "A single safety training module typically takes 3-5 weeks. Full compliance-tracked LMS implementations take 5-9 weeks."
           }
     ]
   },
   {
     "cityName": "Bangkok",
-    "country": "Global",
+    "country": "Thailand",
     "region": "global",
     "slug": "bangkok-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Bangkok | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Bangkok-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Bangkok | Hospitality & Manufacturing Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Bangkok hospitality, tourism, and automotive manufacturing businesses build onboarding training and LMS systems.",
     "h1": "E-Learning Development Services in Bangkok",
-    "shortHero": "TheEduAssist helps Bangkok-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Bangkok.",
+    "shortHero": "Bangkok is one of the world's leading tourism and hospitality destinations and a major regional hub for automotive manufacturing. We build onboarding training for hospitality and tourism teams, and technical/safety training for Bangkok's manufacturing sector.",
+    "quickAnswer": "Quick answer: TheEduAssist builds onboarding training for Bangkok's hospitality and tourism businesses, and technical/safety training for automotive and manufacturing companies.",
     "primaryIndustries": [
-      "Various"
+      "Tourism & Hospitality",
+      "Automotive Manufacturing",
+      "Retail",
+      "Technology & Startups"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Hospitality & Tourism Trainers",
+      "Manufacturing Training Teams",
+      "Corporate L&D",
+      "Retail Training Teams"
     ],
     "bestServices": [
-      "Course Creation"
+      "Hospitality Onboarding",
+      "Manufacturing Safety Training",
+      "Course Creation",
+      "LMS Migration"
     ],
-    "commonTrainingNeeds": "Bangkok-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 65.",
+    "commonTrainingNeeds": "Bangkok businesses in hospitality and manufacturing often need fast-to-deploy onboarding and safety training. TheEduAssist supports <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a>, and structured onboarding for high-turnover teams.",
+    "whatWeHelpBuild": [
+      "Hospitality and tourism onboarding",
+      "Automotive manufacturing safety training",
+      "Retail staff training",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Bangkok's hospitality and tourism businesses typically need TalentLMS or Litmos for fast, mobile-friendly onboarding of high-turnover teams. Manufacturing companies often use Cornerstone or SAP Litmos for safety-compliance tracking.",
+    "languageLocalizationNeeds": "Bangkok businesses often need training content in both Thai and English, particularly for international hospitality and manufacturing teams. We can build bilingual Thai/English course content on request.",
+    "commonlyUsedLMSPlatforms": "Bangkok's hospitality and tourism sector commonly uses TalentLMS and Litmos for onboarding, while manufacturing companies favor Cornerstone or SAP Litmos for safety-compliance tracking.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Bangkok?",
-                "a": "Yes, TheEduAssist works remotely with clients in Bangkok. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Bangkok and surrounding areas."
+                "q": "Do you build onboarding training for hospitality or tourism businesses in Bangkok?",
+                "a": "Yes. Given Bangkok's tourism industry, we build fast, mobile-friendly onboarding training suited to high-turnover hospitality teams."
           },
           {
-                "q": "What eLearning services are available in Bangkok?",
-                "a": "TheEduAssist offers a full range of eLearning services for Bangkok-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support safety training for automotive manufacturing companies?",
+                "a": "Yes. We build structured safety and technical training with completion tracking for manufacturing teams."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Bangkok clients?",
-                "a": "All projects are delivered remotely. Bangkok clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build bilingual (Thai/English) training content?",
+                "a": "Yes. We can build bilingual Thai/English course content for international Bangkok teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Bangkok businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Bangkok clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help retail businesses with staff training?",
+                "a": "Yes. We build structured retail staff training and onboarding content."
           },
           {
-                "q": "How long does an eLearning project take for a Bangkok client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a hospitality onboarding project take?",
+                "a": "A single onboarding module typically takes 2-4 weeks. Full LMS implementations usually take 4-7 weeks."
           }
     ]
   },
   {
     "cityName": "Tokyo",
-    "country": "Global",
+    "country": "Japan",
     "region": "global",
     "slug": "tokyo-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Tokyo | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Tokyo-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Tokyo | Enterprise Tech & Manufacturing Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Tokyo enterprise technology, manufacturing, and financial services companies build structured LMS training and onboarding.",
     "h1": "E-Learning Development Services in Tokyo",
-    "shortHero": "TheEduAssist helps Tokyo-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Tokyo.",
+    "shortHero": "Tokyo is a global center for enterprise technology, advanced manufacturing, and financial services, with some of the most technically sophisticated corporate training requirements in Asia. We build structured onboarding for enterprise tech companies, and technical training for manufacturing and financial services teams.",
+    "quickAnswer": "Quick answer: TheEduAssist builds structured onboarding and technical training for Tokyo's enterprise technology, manufacturing, and financial services companies, with remote delivery.",
     "primaryIndustries": [
-      "Various"
+      "Enterprise Technology",
+      "Advanced Manufacturing & Robotics",
+      "Financial Services",
+      "Automotive"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Enterprise Tech L&D",
+      "Manufacturing Training Teams",
+      "Financial Services L&D",
+      "Corporate L&D"
     ],
     "bestServices": [
-      "Course Creation"
+      "Enterprise Onboarding",
+      "Manufacturing Technical Training",
+      "Financial Compliance Training",
+      "LMS Migration"
     ],
-    "commonTrainingNeeds": "Tokyo-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 66.",
+    "commonTrainingNeeds": "Tokyo businesses in technology and manufacturing often need highly structured, precisely documented training systems. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a>, <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>technical course design</a>, and structured compliance training.",
+    "whatWeHelpBuild": [
+      "Enterprise technology onboarding",
+      "Advanced manufacturing technical training",
+      "Financial services compliance training",
+      "Automotive engineering training"
+    ],
+    "lmsGuidance": "Tokyo's enterprise technology and manufacturing companies typically need Docebo or Cornerstone for structured technical certification. Financial services firms often use Cornerstone or SAP Litmos for compliance tracking and audit reporting.",
+    "languageLocalizationNeeds": "Tokyo businesses often need training content in both Japanese and English, particularly for multinational technology and financial services teams. We can build bilingual Japanese/English course content on request.",
+    "commonlyUsedLMSPlatforms": "Tokyo's enterprise technology and manufacturing companies commonly use Docebo and Cornerstone for technical certification, while financial services firms favor Cornerstone or SAP Litmos for compliance tracking.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Tokyo?",
-                "a": "Yes, TheEduAssist works remotely with clients in Tokyo. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Tokyo and surrounding areas."
+                "q": "Do you build onboarding systems for enterprise technology companies in Tokyo?",
+                "a": "Yes. We build structured onboarding and technical training suited to Tokyo's enterprise technology sector."
           },
           {
-                "q": "What eLearning services are available in Tokyo?",
-                "a": "TheEduAssist offers a full range of eLearning services for Tokyo-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support technical training for manufacturing or robotics companies?",
+                "a": "Yes. Given Tokyo's advanced manufacturing industry, we build structured technical training and certification content."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Tokyo clients?",
-                "a": "All projects are delivered remotely. Tokyo clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build bilingual (Japanese/English) training content?",
+                "a": "Yes. We can build bilingual Japanese/English course content for multinational Tokyo teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Tokyo businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Tokyo clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help financial services firms with compliance training?",
+                "a": "Yes. We build structured, audit-ready compliance training for financial services teams."
           },
           {
-                "q": "How long does an eLearning project take for a Tokyo client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does an enterprise onboarding project take for a Tokyo client?",
+                "a": "A single onboarding module typically takes 3-5 weeks. Full LMS implementations usually take 5-9 weeks."
           }
     ]
   },
   {
     "cityName": "Seoul",
-    "country": "Global",
+    "country": "South Korea",
     "region": "global",
     "slug": "seoul-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Seoul | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Seoul-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Seoul | Tech & Digital Content Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Seoul electronics, gaming, and digital content companies build onboarding training and LMS systems.",
     "h1": "E-Learning Development Services in Seoul",
-    "shortHero": "TheEduAssist helps Seoul-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Seoul.",
+    "shortHero": "Seoul is a global center for consumer electronics manufacturing, gaming, and digital content production. We build technical and product onboarding for Seoul's electronics and tech companies, and onboarding systems for gaming and digital content studios.",
+    "quickAnswer": "Quick answer: TheEduAssist builds technical and product onboarding for Seoul's electronics and technology companies, and onboarding systems for gaming and digital content studios.",
     "primaryIndustries": [
-      "Various"
+      "Consumer Electronics",
+      "Gaming & Digital Content",
+      "Enterprise Technology",
+      "Manufacturing"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Electronics & Tech L&D",
+      "Gaming Studio Onboarding Teams",
+      "Corporate L&D",
+      "Manufacturing Training Teams"
     ],
     "bestServices": [
-      "Course Creation"
+      "Technical Product Training",
+      "Gaming Studio Onboarding",
+      "Course Creation",
+      "LMS Migration"
     ],
-    "commonTrainingNeeds": "Seoul-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 67.",
+    "commonTrainingNeeds": "Seoul businesses in electronics and gaming often need fast-moving, structured onboarding systems. TheEduAssist supports <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a>, and product training for technical teams.",
+    "whatWeHelpBuild": [
+      "Electronics and tech product training",
+      "Gaming studio onboarding",
+      "Digital content team training",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Seoul's electronics and manufacturing companies typically need Docebo or Cornerstone for structured technical certification. Gaming studios and digital content companies often prefer Kajabi or TalentLMS for faster, less formal onboarding.",
+    "languageLocalizationNeeds": "Seoul businesses often need training content in both Korean and English, particularly for multinational electronics and gaming teams. We can build bilingual Korean/English course content on request.",
+    "commonlyUsedLMSPlatforms": "Seoul's electronics and manufacturing companies commonly use Docebo and Cornerstone for technical certification, while gaming studios and digital content companies favor Kajabi and TalentLMS.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Seoul?",
-                "a": "Yes, TheEduAssist works remotely with clients in Seoul. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Seoul and surrounding areas."
+                "q": "Do you build technical training for electronics manufacturing companies in Seoul?",
+                "a": "Yes. Given Seoul's consumer electronics industry, we build structured technical training and product onboarding content."
           },
           {
-                "q": "What eLearning services are available in Seoul?",
-                "a": "TheEduAssist offers a full range of eLearning services for Seoul-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support onboarding for gaming or digital content studios?",
+                "a": "Yes. We build onboarding systems suited to Seoul's gaming and digital content companies."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Seoul clients?",
-                "a": "All projects are delivered remotely. Seoul clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build bilingual (Korean/English) training content?",
+                "a": "Yes. We can build bilingual Korean/English course content for multinational Seoul teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Seoul businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Seoul clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help manufacturing companies with process training?",
+                "a": "Yes. We build structured process and technical training content for manufacturing teams."
           },
           {
-                "q": "How long does an eLearning project take for a Seoul client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a product onboarding project take for a Seoul client?",
+                "a": "A single onboarding module typically takes 2-4 weeks. Full LMS implementations usually take 4-8 weeks."
           }
     ]
   },
   {
     "cityName": "Hong Kong",
-    "country": "Global",
+    "country": "China",
     "region": "global",
     "slug": "hong-kong-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Hong Kong | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Hong Kong-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Hong Kong | Financial Services & Trade Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Hong Kong financial services, trade, and logistics companies build compliance-ready LMS training and onboarding.",
     "h1": "E-Learning Development Services in Hong Kong",
-    "shortHero": "TheEduAssist helps Hong Kong-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Hong Kong.",
+    "shortHero": "Hong Kong is one of the world's leading financial centers and a key trade and logistics gateway to mainland China. We build compliance-ready training for financial services and banking teams, and trade/logistics training for Hong Kong's import/export businesses.",
+    "quickAnswer": "Quick answer: TheEduAssist builds compliance-ready LMS training for Hong Kong's financial services companies, and trade/logistics training for import/export businesses.",
     "primaryIndustries": [
-      "Various"
+      "Financial Services & Banking",
+      "Trade & Logistics",
+      "Insurance",
+      "Enterprise Technology"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Financial Services Compliance Teams",
+      "Trade & Logistics Training Teams",
+      "Corporate L&D",
+      "Insurance L&D"
     ],
     "bestServices": [
+      "Financial Compliance Training",
+      "Trade & Logistics Training",
+      "LMS Migration",
       "Course Creation"
     ],
-    "commonTrainingNeeds": "Hong Kong-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 68.",
+    "commonTrainingNeeds": "Hong Kong businesses in financial services and trade often need training systems with strong audit trails and multilingual support. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a> for compliance training, and structured training for trade and logistics teams.",
+    "whatWeHelpBuild": [
+      "Financial services compliance training",
+      "Trade and logistics operations training",
+      "Insurance compliance content",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Hong Kong's financial services and banking companies typically need Cornerstone, SAP Litmos, or Docebo for regulatory compliance tracking and audit reporting. Trade and logistics businesses often need training platforms supporting multi-site, multilingual delivery.",
+    "languageLocalizationNeeds": "Hong Kong businesses often need training content in English, Cantonese, and/or Mandarin, particularly for financial services and trade teams. We can build multilingual course content on request.",
+    "commonlyUsedLMSPlatforms": "Hong Kong's financial services and banking companies commonly use Cornerstone, SAP Litmos, and Docebo for compliance tracking, while trade and logistics businesses favor platforms supporting multi-site, multilingual delivery.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Hong Kong?",
-                "a": "Yes, TheEduAssist works remotely with clients in Hong Kong. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Hong Kong and surrounding areas."
+                "q": "Do you build compliance training for banks or financial services companies in Hong Kong?",
+                "a": "Yes. We build structured, audit-ready LMS training suited to Hong Kong's financial services compliance requirements."
           },
           {
-                "q": "What eLearning services are available in Hong Kong?",
-                "a": "TheEduAssist offers a full range of eLearning services for Hong Kong-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support training for trade or logistics companies?",
+                "a": "Yes. Given Hong Kong's role as a trade gateway, we build structured operations training for import/export and logistics teams."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Hong Kong clients?",
-                "a": "All projects are delivered remotely. Hong Kong clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build multilingual (English/Cantonese/Mandarin) training content?",
+                "a": "Yes. We can build multilingual course content for Hong Kong's diverse financial and trade teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Hong Kong businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Hong Kong clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help insurance companies with compliance training?",
+                "a": "Yes. We build structured compliance training content for insurance teams."
           },
           {
-                "q": "How long does an eLearning project take for a Hong Kong client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a financial compliance training project take?",
+                "a": "A single compliance training module typically takes 3-5 weeks. Full audit-ready LMS implementations take 5-9 weeks."
           }
     ]
   },
   {
     "cityName": "Manila",
-    "country": "Global",
+    "country": "Philippines",
     "region": "global",
     "slug": "manila-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Manila | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Manila-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Manila | BPO & Contact Center Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Manila BPO, contact center, and corporate teams build scalable onboarding training and LMS systems.",
     "h1": "E-Learning Development Services in Manila",
-    "shortHero": "TheEduAssist helps Manila-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Manila.",
+    "shortHero": "Manila is one of the world's largest business process outsourcing (BPO) hubs, with a large English-speaking workforce supporting global contact center and back-office operations. We build scalable onboarding and training systems for BPO and contact center teams, sized for rapid hiring and high-volume training needs.",
+    "quickAnswer": "Quick answer: TheEduAssist builds scalable onboarding and training systems for Manila's BPO and contact center industry, designed for rapid hiring and high-volume training needs.",
     "primaryIndustries": [
-      "Various"
+      "BPO & Contact Centers",
+      "Corporate Services",
+      "Financial Services",
+      "Technology"
     ],
     "buyerTypes": [
-      "Businesses"
+      "BPO & Contact Center Training Teams",
+      "HR Onboarding Teams",
+      "Corporate L&D",
+      "Financial Services L&D"
     ],
     "bestServices": [
+      "BPO Onboarding at Scale",
+      "Contact Center Training",
+      "LMS Migration",
       "Course Creation"
     ],
-    "commonTrainingNeeds": "Manila-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 69.",
+    "commonTrainingNeeds": "Manila businesses in BPO and contact centers often need onboarding systems that scale to large, fast-hiring teams. TheEduAssist supports <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a> for high-volume onboarding, and structured training for contact center and corporate teams.",
+    "whatWeHelpBuild": [
+      "BPO and contact center onboarding at scale",
+      "Corporate services training",
+      "Financial services training content",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Manila's BPO and contact center companies typically need TalentLMS, Litmos, or Docebo for scalable onboarding with completion tracking across large, high-turnover teams. Corporate and financial services teams often use Cornerstone for compliance tracking.",
+    "languageLocalizationNeeds": "Manila has one of the largest English-speaking workforces in Asia, so most training content is delivered in standard English, with localization available for regional teams on request.",
+    "commonlyUsedLMSPlatforms": "Manila's BPO and contact center industry commonly uses TalentLMS, Litmos, and Docebo for scalable onboarding, while corporate and financial services teams favor Cornerstone for compliance tracking.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Manila?",
-                "a": "Yes, TheEduAssist works remotely with clients in Manila. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Manila and surrounding areas."
+                "q": "Do you build onboarding systems that scale for BPO or contact center teams in Manila?",
+                "a": "Yes. Given Manila's BPO industry, we build scalable onboarding systems designed for rapid hiring and high-volume training needs."
           },
           {
-                "q": "What eLearning services are available in Manila?",
-                "a": "TheEduAssist offers a full range of eLearning services for Manila-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support training for large, high-turnover teams?",
+                "a": "Yes. We design onboarding content that gets new hires productive quickly, suited to Manila's high-volume contact center environment."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Manila clients?",
-                "a": "All projects are delivered remotely. Manila clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build compliance training for financial services or corporate teams?",
+                "a": "Yes. We build structured, trackable compliance training for financial services and corporate teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Manila businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Manila clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help with rapid rollout of new training content across large teams?",
+                "a": "Yes. We design onboarding systems built for fast rollout and easy updates as processes change."
           },
           {
-                "q": "How long does an eLearning project take for a Manila client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a BPO onboarding project take?",
+                "a": "A single onboarding module typically takes 2-4 weeks. Full scalable LMS implementations usually take 4-7 weeks."
           }
     ]
   },
   {
     "cityName": "Jakarta",
-    "country": "Global",
+    "country": "Indonesia",
     "region": "global",
     "slug": "jakarta-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Jakarta | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Jakarta-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Jakarta | Fintech & Digital Economy Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Jakarta fintech, digital economy, and manufacturing companies build onboarding training and LMS systems.",
     "h1": "E-Learning Development Services in Jakarta",
-    "shortHero": "TheEduAssist helps Jakarta-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Jakarta.",
+    "shortHero": "Jakarta is the commercial center of Southeast Asia's largest economy, with a fast-growing fintech and digital economy sector alongside a significant manufacturing base. We build onboarding and product training for Jakarta's fintech and digital companies, and process training for manufacturing teams.",
+    "quickAnswer": "Quick answer: TheEduAssist builds onboarding and product training for Jakarta's fintech and digital economy companies, and process training for manufacturing teams.",
     "primaryIndustries": [
-      "Various"
+      "Fintech & Digital Economy",
+      "Manufacturing",
+      "Financial Services",
+      "Retail & E-commerce"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Fintech & Digital Economy L&D",
+      "Manufacturing Training Teams",
+      "Corporate L&D",
+      "Financial Services L&D"
     ],
     "bestServices": [
-      "Course Creation"
+      "Fintech Onboarding",
+      "Manufacturing Process Training",
+      "Course Creation",
+      "LMS Migration"
     ],
-    "commonTrainingNeeds": "Jakarta-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 70.",
+    "commonTrainingNeeds": "Jakarta businesses in fintech and digital economy often need fast-moving, scalable onboarding systems. TheEduAssist supports <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a>, and structured process training for manufacturing teams.",
+    "whatWeHelpBuild": [
+      "Fintech and digital economy onboarding",
+      "Manufacturing process training",
+      "E-commerce and retail training",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Jakarta's fintech and digital economy companies typically prefer Kajabi or TalentLMS for fast, scalable onboarding. Manufacturing companies often use Cornerstone or SAP Litmos for process-compliance tracking.",
+    "languageLocalizationNeeds": "Jakarta businesses often need training content in both Bahasa Indonesia and English, particularly for multinational fintech and manufacturing teams. We can build bilingual Bahasa Indonesia/English course content on request.",
+    "commonlyUsedLMSPlatforms": "Jakarta's fintech and digital economy companies commonly use Kajabi and TalentLMS for scalable onboarding, while manufacturing companies favor Cornerstone or SAP Litmos for process-compliance tracking.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Jakarta?",
-                "a": "Yes, TheEduAssist works remotely with clients in Jakarta. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Jakarta and surrounding areas."
+                "q": "Do you build onboarding systems for fintech or digital economy companies in Jakarta?",
+                "a": "Yes. Given Jakarta's fast-growing digital economy, we build scalable onboarding and product training systems."
           },
           {
-                "q": "What eLearning services are available in Jakarta?",
-                "a": "TheEduAssist offers a full range of eLearning services for Jakarta-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support process training for manufacturing companies?",
+                "a": "Yes. We build structured process and compliance training content for manufacturing teams."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Jakarta clients?",
-                "a": "All projects are delivered remotely. Jakarta clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build bilingual (Bahasa Indonesia/English) training content?",
+                "a": "Yes. We can build bilingual Bahasa Indonesia/English course content for multinational Jakarta teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Jakarta businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Jakarta clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help e-commerce or retail companies with staff training?",
+                "a": "Yes. We build structured onboarding and product training for e-commerce and retail teams."
           },
           {
-                "q": "How long does an eLearning project take for a Jakarta client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a fintech onboarding project take?",
+                "a": "A single onboarding module typically takes 2-4 weeks. Full scalable LMS implementations usually take 4-7 weeks."
           }
     ]
   },
   {
     "cityName": "Mexico City",
-    "country": "Global",
+    "country": "Mexico",
     "region": "global",
     "slug": "mexico-city-elearning-development",
     "priorityTier": 2,
     "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Mexico City | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Mexico City-based businesses build online courses, Kajabi systems, and LMS training.",
+    "metaTitle": "E-Learning Development Services in Mexico City | Manufacturing & Nearshoring Training | TheEduAssist",
+    "metaDescription": "TheEduAssist helps Mexico City manufacturing, nearshoring, and financial services companies build bilingual LMS training and onboarding.",
     "h1": "E-Learning Development Services in Mexico City",
-    "shortHero": "TheEduAssist helps Mexico City-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Mexico City.",
+    "shortHero": "Mexico City is at the center of Mexico's manufacturing and nearshoring boom, as companies relocate production closer to North American markets, alongside a large financial services sector. We build bilingual (Spanish/English) training for manufacturing and nearshoring operations, and compliance training for financial services teams.",
+    "quickAnswer": "Quick answer: TheEduAssist builds bilingual (Spanish/English) training for Mexico City's manufacturing and nearshoring operations, and compliance training for financial services teams.",
     "primaryIndustries": [
-      "Various"
+      "Manufacturing & Nearshoring",
+      "Financial Services",
+      "Automotive",
+      "Logistics"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Manufacturing & Nearshoring Training Teams",
+      "Financial Services L&D",
+      "Corporate L&D",
+      "Bilingual L&D Teams"
     ],
     "bestServices": [
+      "Bilingual Manufacturing Training",
+      "Financial Compliance Training",
+      "LMS Migration",
       "Course Creation"
     ],
-    "commonTrainingNeeds": "Mexico City-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 71.",
+    "commonTrainingNeeds": "Mexico City businesses in manufacturing and nearshoring often need training systems that work in both Spanish and English. TheEduAssist supports <a href='/services/course-localization-translation/' class='text-brand-accent font-medium hover:underline'>bilingual course localization</a>, <a href='/services/lms-implementation-migration/' class='text-brand-accent font-medium hover:underline'>LMS implementation</a>, and structured onboarding for manufacturing teams.",
+    "whatWeHelpBuild": [
+      "Bilingual manufacturing and nearshoring training",
+      "Financial services compliance training",
+      "Automotive process training",
+      "Enterprise onboarding systems"
+    ],
+    "lmsGuidance": "Mexico City's manufacturing and nearshoring operations typically need Cornerstone or SAP Litmos for process-compliance tracking across bilingual, multi-site teams. Financial services firms often use Cornerstone or Docebo for regulatory compliance.",
+    "languageLocalizationNeeds": "Mexico City has a large bilingual workforce supporting North American nearshoring operations. We build course content and LMS interfaces with Spanish/English support as standard, not an add-on.",
+    "commonlyUsedLMSPlatforms": "Mexico City's manufacturing and nearshoring operations commonly use Cornerstone and SAP Litmos for process-compliance tracking, while financial services firms favor Cornerstone or Docebo.",
     "faqQuestions":     [
           {
-                "q": "Does TheEduAssist work with clients in Mexico City?",
-                "a": "Yes, TheEduAssist works remotely with clients in Mexico City. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Mexico City and surrounding areas."
+                "q": "Do you build bilingual (Spanish/English) training for manufacturing companies in Mexico City?",
+                "a": "Yes. Given Mexico City's nearshoring boom, we build bilingual training content as standard for manufacturing and production teams."
           },
           {
-                "q": "What eLearning services are available in Mexico City?",
-                "a": "TheEduAssist offers a full range of eLearning services for Mexico City-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
+                "q": "Can you support compliance training for financial services companies?",
+                "a": "Yes. We build structured, audit-ready compliance training for financial services teams."
           },
           {
-                "q": "How does TheEduAssist deliver projects for Mexico City clients?",
-                "a": "All projects are delivered remotely. Mexico City clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
+                "q": "Do you build process training for automotive manufacturing?",
+                "a": "Yes. We build structured process and safety training content for automotive manufacturing teams."
           },
           {
-                "q": "What LMS platforms does TheEduAssist support for Mexico City businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Mexico City clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
+                "q": "Can you help nearshoring operations onboard new production teams quickly?",
+                "a": "Yes. We design onboarding systems built for fast rollout across multi-site, bilingual production teams."
           },
           {
-                "q": "How long does an eLearning project take for a Mexico City client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
+                "q": "How long does a bilingual manufacturing training project take?",
+                "a": "A single bilingual training module typically takes 3-5 weeks including translation review. Full LMS implementations take 5-9 weeks."
           }
     ]
   },
@@ -11908,52 +9808,6 @@ export const cities = [
           },
           {
                 "q": "How long does an eLearning project take for a Vienna client?",
-                "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
-          }
-    ]
-  },
-  {
-    "cityName": "Zurich",
-    "country": "Switzerland",
-    "region": "global",
-    "slug": "zurich-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Zurich | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Zurich-based businesses build online courses, Kajabi systems, and LMS training.",
-    "h1": "E-Learning Development Services in Zurich",
-    "shortHero": "TheEduAssist helps Zurich-based coaches, consultants, companies, academies, and training teams turn raw content into structured online courses, Kajabi programs, LMS modules, and AI-powered learning assets..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Zurich.",
-    "primaryIndustries": [
-      "Various"
-    ],
-    "buyerTypes": [
-      "Businesses"
-    ],
-    "bestServices": [
-      "Course Creation"
-    ],
-    "commonTrainingNeeds": "Zurich-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 97.",
-    "faqQuestions":     [
-          {
-                "q": "Does TheEduAssist work with clients in Zurich?",
-                "a": "Yes, TheEduAssist works remotely with clients in Zurich. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Zurich and surrounding areas."
-          },
-          {
-                "q": "What eLearning services are available in Zurich?",
-                "a": "TheEduAssist offers a full range of eLearning services for Zurich-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
-          },
-          {
-                "q": "How does TheEduAssist deliver projects for Zurich clients?",
-                "a": "All projects are delivered remotely. Zurich clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
-          },
-          {
-                "q": "What LMS platforms does TheEduAssist support for Zurich businesses?",
-                "a": "TheEduAssist supports all major LMS platforms for Zurich clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
-          },
-          {
-                "q": "How long does an eLearning project take for a Zurich client?",
                 "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
           }
     ]
@@ -30707,7 +28561,7 @@ export const cities = [
     "metaTitle": "E-Learning Development Services in Zurich | LMS, Kajabi & Course Design | TheEduAssist",
     "metaDescription": "TheEduAssist helps Zurich-based coaches, consultants, training companies, educators, and corporate teams build online courses, Kajabi systems, LMS training, AI-powered learning content, and structured learner experiences.",
     "h1": "E-Learning Development Services in Zurich",
-    "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, supporting Swiss finance and pharma in Zurich. We help turn scattered materials into structured, platform-ready learning systems.",
+    "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, supporting Zurich's banking, insurance, and wealth management sector. We help turn scattered materials into structured, platform-ready learning systems.",
     "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Zurich. We specialize in converting raw content into engaging online courses, Kajabi sites, and corporate academies.",
     "whatWeHelpBuild": [
       "Online courses",
@@ -30773,23 +28627,17 @@ export const cities = [
       }
     ],
     "lmsGuidance": "Mention Kajabi, LearnWorlds, Thinkific, Moodle, TalentLMS, Docebo, and Articulate as suitable options for local corporate teams, coaches, educators, and training companies.",
-    "localTrainingNeeds": "Zurich features a dynamic learning landscape. High-security banking compliance and precision medical training. We collaborate remotely with Zurich clients to build customized, effective training programs.",
+    "localTrainingNeeds": "Zurich features a dynamic learning landscape. High-security banking compliance and insurance regulatory training. We collaborate remotely with Zurich clients to build customized, effective training programs.",
     "whoWeHelp": [
-      "Coaches",
-      "Consultants",
-      "Creators",
-      "Educators",
-      "Training companies",
-      "Online academies",
-      "Corporate L&D teams",
-      "HR teams",
-      "SaaS companies",
-      "Healthcare educators",
-      "Real estate trainers",
-      "Universities and institutes",
-      "Publishers",
-      "Nonprofits and NGOs",
-      "Internal training departments"
+      "Banking & Financial Services L&D",
+      "Insurance & Wealth Management Teams",
+      "Corporate L&D Teams",
+      "Coaches & Consultants",
+      "Training Companies",
+      "Healthcare Educators",
+      "Universities & Institutes",
+      "HR Teams",
+      "Internal Training Departments"
     ],
     "learningLifecycle": [
       {
@@ -30828,15 +28676,15 @@ export const cities = [
       },
       {
         "q": "What LMS platforms are suitable for companies in Zurich?",
-        "a": "Depending on your use case, companies in Zurich commonly consider TalentLMS, Docebo, Absorb LMS, or LearnUpon for corporate training. We can help you compare and select the best platform for your specific needs."
+        "a": "Depending on your use case, Zurich's banking and financial services firms often need Cornerstone, SAP Litmos, or Docebo for compliance tracking and audit reporting, and Zurich's insurance sector typically has similar audit-ready requirements. We can help you compare and select the best platform for your specific needs."
       },
       {
         "q": "Can TheEduAssist migrate old training content into a new LMS for Zurich teams?",
         "a": "Yes. We frequently assist Zurich-based teams with LMS migration, transferring existing courses, quizzes, and learner data from legacy systems or standard files (PDFs, slides) into a modern LMS platform."
       },
       {
-        "q": "Can Zurich-based clients work with TheEduAssist remotely?",
-        "a": "Absolutely. TheEduAssist is a global remote agency. We collaborate seamlessly with our clients in Zurich using structured project management and communication tools, ensuring a smooth eLearning development process."
+        "q": "Do you build compliance training for Zurich's banking or financial services companies?",
+        "a": "Yes. Given Zurich's position as a major global banking center, we build structured, audit-ready LMS training suited to financial services compliance requirements, with completion tracking and reporting built in."
       },
       {
         "q": "What is the best platform for a course creator in Zurich?",
@@ -30844,7 +28692,7 @@ export const cities = [
       },
       {
         "q": "What is the best LMS for corporate training in Zurich?",
-        "a": "Corporate training teams in Zurich often use TalentLMS, Docebo, or Litmos for employee onboarding and compliance. We help you choose the right LMS based on your scalability, reporting, and integration requirements."
+        "a": "Corporate training teams in Zurich, particularly in banking and insurance, often use Cornerstone, Docebo, or SAP Litmos for employee onboarding and regulatory compliance. We help you choose the right LMS based on your scalability, reporting, and integration requirements."
       },
       {
         "q": "Can you convert PowerPoint, PDF, or video training into an online course?",
@@ -30867,8 +28715,8 @@ export const cities = [
         "a": "The first step is to book a 24-48 Hour Review. We'll audit your current training content, LMS, or course idea and provide actionable recommendations tailored for your Zurich business."
       },
       {
-        "q": "Can TheEduAssist improve an existing online course in Zurich?",
-        "a": "Yes, we can revamp existing courses. We improve the curriculum structure, update the instructional design, redesign learning assets, and optimize the overall learner experience for Zurich training companies."
+        "q": "Do you build compliance training for insurance companies in Zurich?",
+        "a": "Yes. Zurich is home to major global insurance groups, and we build structured, audit-ready compliance training suited to insurance regulatory requirements, alongside similar training for banking and wealth management teams."
       },
       {
         "q": "Can TheEduAssist support SCORM or xAPI-ready eLearning content?",
