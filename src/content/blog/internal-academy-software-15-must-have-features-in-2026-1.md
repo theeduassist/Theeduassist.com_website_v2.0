@@ -1,6 +1,6 @@
 ---
-title: " Internal Academy Software: 15 Must Have Features in 2026"
-slug: internal-academy-software-15-must-have-features-in-2026
+title: Create Wellbeing Product Content for Brands in New York
+slug: create-wellbeing-product-content-for-brands-in-new-york
 featured: false
 excerpt: Learn how brands in New York can create engaging wellbeing product
   content using instructional design, AI personalization, microlearning, and
