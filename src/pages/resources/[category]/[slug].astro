@@ -51,7 +51,7 @@ const actualSlug = resource.data.slug || resource.id.split('/').pop();
 // Breadcrumbs
 schemaData.push(
   breadcrumbSchema([
-    { name: 'Home', item: '/' },
+    { name: 'Home', item: '/home/' },
     { name: 'Resources', item: '/resources/' },
     { name: categoryName, item: `/resources/${data.category}/` },
     { name: data.title, item: `/resources/${data.category}/${actualSlug}/` }

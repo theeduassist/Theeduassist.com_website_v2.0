@@ -1,7 +1,7 @@
 
 export const navigation = {
   header: [
-    { label: 'Home', href: '/' },
+    { label: 'Home', href: '/home/' },
     { label: 'Services', href: '/services/' },
     { label: 'Kajabi Services', href: '/kajabi-services/' },
     { label: 'Case Studies', href: '/case-studies/' },
@@ -10,7 +10,7 @@ export const navigation = {
     { label: 'About Us', href: '/about-us/' },
   ],
   footerCompanyLinks: [
-    { label: 'Home', href: '/' },
+    { label: 'Home', href: '/home/' },
     { label: 'Blogs', href: '/blog/' },
     { label: 'Career', href: '/careers/' },
     { label: 'About Us', href: '/about-us/' },

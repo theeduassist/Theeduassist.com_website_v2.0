@@ -74,7 +74,7 @@ try {
         console.error("Error: Vercel redirect source and destination are the same: " + r.source);
         process.exit(1);
       }
-      if (vFroms.has(r.source)) {
+      if (vFroms.has(r.source + (r.has ? JSON.stringify(r.has) : ""))) {
         console.error("Error: Duplicate Vercel redirect source found: " + r.source);
         process.exit(1);
       }
@@ -82,7 +82,7 @@ try {
         console.error("Error: Unsupported optional trailing slash syntax /? in Vercel redirect source: " + r.source);
         process.exit(1);
       }
-      vFroms.add(r.source);
+      vFroms.add(r.source + (r.has ? JSON.stringify(r.has) : ""));
     }
   }
 } catch (e) {

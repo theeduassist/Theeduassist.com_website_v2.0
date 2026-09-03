@@ -13,7 +13,7 @@ async function validateAnswerReadiness() {
 
     // Check specific important pages
     const importantPages = [
-        'index.html',
+        'home/index.html',
         'services/instructional-design/index.html',
         'enterprise-solutions/index.html'
     ];

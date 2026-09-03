@@ -1,7 +1,7 @@
 import http from 'http';
 
 const ROUTES_TO_TEST = [
-  '/',
+  '/home/',
   '/services/',
   '/blog/',
   '/robots.txt',
