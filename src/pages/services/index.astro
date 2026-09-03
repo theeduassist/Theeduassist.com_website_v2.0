@@ -32,7 +32,7 @@ const faqs = [
 const structuredData = [
   professionalServiceSchema(),
   breadcrumbSchema([
-    { name: 'Home', item: '/' },
+    { name: 'Home', item: '/home/' },
     { name: 'Services', item: '/services/' }
   ]),
   faqPageSchema(faqs.map(f => ({ questionName: f.question, acceptedAnswerText: f.answer })))
