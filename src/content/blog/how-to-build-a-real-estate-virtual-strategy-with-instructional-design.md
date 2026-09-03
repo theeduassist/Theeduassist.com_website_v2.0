@@ -571,7 +571,7 @@ Using instructional‑design and real estate education research, here is a 12‑
 
 - Soft‑launch the **Real Estate Virtual Strategy** as a flagship pathway.
 - Run one cohort fully, then refine modules, assessments, and VR‑experiences.
-- Integrate feedback loops and pathway‑tracking visuals.
+- Integrate feedback loops and pathway‑tracking visuals
 
 ### **Month 10–12: Scale & ProductizeReal Estate Virtual Strategy**
 
