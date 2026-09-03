@@ -40,7 +40,7 @@ secondaryKeywords:
   - VR training for real estate agents
   - virtual real estate learning
   - real estate VR and AR training
-searchIntent: Informational
+searchIntent: "Informational "
 advancedSeo:
   noindex: false
   socialTitle: How to Build a Real Estate Virtual Strategy With Instructional Design
