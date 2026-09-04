@@ -4,7 +4,7 @@
 
 ## Primary Pages
 
-- Homepage: https://www.theeduassist.com/home/
+- Homepage: https://www.theeduassist.com/
 - Services: https://www.theeduassist.com/services/
 - Enterprise Solutions: https://www.theeduassist.com/enterprise-solutions/
 - Kajabi Services: https://www.theeduassist.com/kajabi-services/

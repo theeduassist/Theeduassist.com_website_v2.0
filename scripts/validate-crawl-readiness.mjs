@@ -1,7 +1,7 @@
 import { chromium } from 'playwright';
 
 const ROUTES_TO_TEST = [
-  '/home/',
+  '/',
   '/services/',
   '/blog/',
   '/enterprise-solutions/'

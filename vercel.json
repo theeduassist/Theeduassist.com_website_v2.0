@@ -81,6 +81,16 @@
   ],
   "redirects": [
     {
+      "source": "/home",
+      "destination": "https://www.theeduassist.com/",
+      "permanent": true
+    },
+    {
+      "source": "/home/",
+      "destination": "https://www.theeduassist.com/",
+      "permanent": true
+    },
+    {
       "source": "/",
       "has": [
         {
@@ -88,7 +98,7 @@
           "value": "theeduassist.com"
         }
       ],
-      "destination": "https://www.theeduassist.com/home/",
+      "destination": "https://www.theeduassist.com/",
       "permanent": true
     },
     {
@@ -99,7 +109,7 @@
           "value": "theeduassist.com"
         }
       ],
-      "destination": "https://www.theeduassist.com/home/",
+      "destination": "https://www.theeduassist.com/",
       "permanent": true
     },
     {
@@ -110,18 +120,7 @@
           "value": "theeduassist.com"
         }
       ],
-      "destination": "https://www.theeduassist.com/home/",
-      "permanent": true
-    },
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.theeduassist.com"
-        }
-      ],
-      "destination": "https://www.theeduassist.com/home/",
+      "destination": "https://www.theeduassist.com/",
       "permanent": true
     },
     {

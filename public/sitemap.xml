@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.theeduassist.com/home/</loc>
+    <loc>https://www.theeduassist.com/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -3525,6 +3525,12 @@
   <url>
     <loc>https://www.theeduassist.com/blog/create-leadership-training-program-in-florida-kajabi-2026/</loc>
     <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.theeduassist.com/blog/guide-for-interactive-elearning-course-2026-florida-creators/</loc>
+    <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

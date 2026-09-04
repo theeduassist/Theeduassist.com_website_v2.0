@@ -77,7 +77,7 @@ export const siteNavigation: TopLevelNavigationItem[] = [
   {
     id: "home",
     label: "Home",
-    href: "/home/",
+    href: "/",
     type: "link",
     enabled: true
   },
