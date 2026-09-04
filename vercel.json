@@ -239,6 +239,11 @@
       "source": "/blog/learndash-vs-kajabi/",
       "destination": "/blog/learnworlds-vs-kajabi-lms-which-platform-is-best-for-course-creators-and-learners/",
       "permanent": true
+    },
+    {
+      "source": "/blog/internal-academy-software-15-must-have-features-in-2026/",
+      "destination": "/blog/internal-academy-software-features-2026/",
+      "permanent": true
     }
   ],
   "routes": [

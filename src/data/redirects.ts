@@ -34,6 +34,15 @@ export const redirects: RedirectRule[] = [
     targetExists: true
   },
   {
+    from: "/blog/internal-academy-software-15-must-have-features-in-2026/",
+    to: "/blog/internal-academy-software-features-2026/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Genuine replacement for old blog URL",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
     from: "/kajabi-virtual-assistant-services/",
     to: "/kajabi-services/",
     status: "ready",
