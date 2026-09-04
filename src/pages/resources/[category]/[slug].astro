@@ -51,7 +51,7 @@ const actualSlug = resource.data.slug || resource.id.split('/').pop();
 // Breadcrumbs
 schemaData.push(
   breadcrumbSchema([
-    { name: 'Home', item: '/' },
+    { name: 'Home', item: '/home/' },
     { name: 'Resources', item: '/resources/' },
     { name: categoryName, item: `/resources/${data.category}/` },
     { name: data.title, item: `/resources/${data.category}/${actualSlug}/` }
@@ -117,7 +117,7 @@ if (data.faq && data.faq.length > 0) {
 
         <nav class="flex text-sm text-slate-500 mb-8" aria-label="Breadcrumb">
           <ol class="flex items-center space-x-2 bg-white px-4 py-2 rounded-full border border-slate-200 shadow-sm">
-            <li><a href="/" class="hover:text-brand-primary transition-colors">Home</a></li>
+            <li><a href="/home/" class="hover:text-brand-primary transition-colors">Home</a></li>
             <li><span class="mx-2 text-slate-300">/</span></li>
             <li><a href="/resources/" class="hover:text-brand-primary transition-colors">Resources</a></li>
             <li><span class="mx-2 text-slate-300">/</span></li>
