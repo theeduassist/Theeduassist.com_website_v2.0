@@ -20,7 +20,7 @@ export async function getAllPublicRoutes(): Promise<PublicRoute[]> {
 
   // Core Pages
   routes.push({
-    path: '/home/',
+    path: '/',
     title: 'TheEduAssist | E-Learning Design Agency',
     description: 'E-learning design agency building courses, Kajabi platforms, and LMS setups.',
     pageType: 'home',
@@ -91,7 +91,7 @@ export async function getAllPublicRoutes(): Promise<PublicRoute[]> {
   });
 
   routes.push({
-    path: '/contact/',
+    path: '/contact-us/',
     title: 'Contact | TheEduAssist',
     pageType: 'general',
     indexable: true,

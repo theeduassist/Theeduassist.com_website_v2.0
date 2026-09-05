@@ -77,13 +77,14 @@ export const siteNavigation: TopLevelNavigationItem[] = [
   {
     id: "home",
     label: "Home",
-    href: "/home/",
+    href: "/",
     type: "link",
     enabled: true
   },
   {
     id: "services",
     label: "Services",
+    href: "/services/",
     type: "mega-menu",
     enabled: true,
     groups: [
@@ -168,7 +169,7 @@ export const footerNavigation = {
     { label: "Enterprise Solutions", href: "/enterprise-solutions/" },
     { label: "About Us", href: "/about-us/" },
     { label: "Pricing", href: "/pricing/" },
-    { label: "Contact", href: "/contact/" }
+    { label: "Contact", href: "/contact-us/" }
   ],
   legal: [
     { label: "Trust Centre", href: "/trust-centre/" },

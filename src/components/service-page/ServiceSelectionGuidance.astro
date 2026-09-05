@@ -11,22 +11,22 @@ const guidanceItems = [
   {
     condition: "the audience, curriculum or platform approach is unclear",
     serviceTitle: "Learning Strategy",
-    link: "/contact/" // Link to contact as it's not live yet
+    link: "/contact-us/" // Link to contact as it's not live yet
   },
   {
     condition: "the project requires purpose-built digital learning content",
     serviceTitle: customDev?.title || "Custom eLearning",
-    link: customDev?.status === "live" ? customDev.slug : "/contact/"
+    link: customDev?.status === "live" ? customDev.slug : "/contact-us/"
   },
   {
     condition: "the organization needs platform setup, migration or course organization",
     serviceTitle: lmsImpl?.title || "LMS Implementation",
-    link: lmsImpl?.status === "live" ? lmsImpl.slug : "/contact/"
+    link: lmsImpl?.status === "live" ? lmsImpl.slug : "/contact-us/"
   },
   {
     condition: "valuable source material already exists but is not ready for online learning",
     serviceTitle: contentConv?.title || "Content Conversion",
-    link: contentConv?.status === "live" ? contentConv.slug : "/contact/"
+    link: contentConv?.status === "live" ? contentConv.slug : "/contact-us/"
   },
   {
     condition: "the learning business uses or plans to use Kajabi",
@@ -36,7 +36,7 @@ const guidanceItems = [
   {
     condition: "the system is live but needs updates, QA and continued development",
     serviceTitle: ongoingSupp?.title || "Ongoing Support",
-    link: ongoingSupp?.status === "live" ? ongoingSupp.slug : "/contact/"
+    link: ongoingSupp?.status === "live" ? ongoingSupp.slug : "/contact-us/"
   }
 ];
 ---

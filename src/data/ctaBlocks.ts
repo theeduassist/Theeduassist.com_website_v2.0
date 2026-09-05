@@ -15,6 +15,6 @@ export const ctaBlocks = {
   },
   contact: {
     label: 'Contact Us',
-    href: '/contact/',
+    href: '/contact-us/',
   }
 };

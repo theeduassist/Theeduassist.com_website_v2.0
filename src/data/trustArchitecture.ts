@@ -60,7 +60,7 @@ export const trustPages: readonly TrustPage[] = [
     relatedEnterpriseSolutionIds: [],
     relatedServiceIds: [],
     evidenceStatus: "verified",
-    primaryCta: { label: "Discuss Your Project Requirements", href: "/contact/" },
+    primaryCta: { label: "Discuss Your Project Requirements", href: "/contact-us/" },
     secondaryCta: { label: "Explore Our Delivery Methodology", href: "/trust-centre/delivery-methodology/" }
   },
   {
@@ -78,7 +78,7 @@ export const trustPages: readonly TrustPage[] = [
     relatedEnterpriseSolutionIds: ["workforce-upskilling"],
     relatedServiceIds: ["learning-strategy"],
     evidenceStatus: "verified",
-    primaryCta: { label: "Discuss Delivery Requirements", href: "/contact/" }
+    primaryCta: { label: "Discuss Delivery Requirements", href: "/contact-us/" }
   },
   {
     id: "responsible-ai",
@@ -95,7 +95,7 @@ export const trustPages: readonly TrustPage[] = [
     relatedEnterpriseSolutionIds: ["ai-workforce-readiness"],
     relatedServiceIds: [],
     evidenceStatus: "verified",
-    primaryCta: { label: "Discuss AI Requirements", href: "/contact/" }
+    primaryCta: { label: "Discuss AI Requirements", href: "/contact-us/" }
   },
   {
     id: "accessibility",
@@ -112,7 +112,7 @@ export const trustPages: readonly TrustPage[] = [
     relatedEnterpriseSolutionIds: [],
     relatedServiceIds: ["quality-assurance"],
     evidenceStatus: "verified",
-    primaryCta: { label: "Discuss Accessibility Requirements", href: "/contact/" }
+    primaryCta: { label: "Discuss Accessibility Requirements", href: "/contact-us/" }
   },
   {
     id: "security-privacy",
@@ -129,7 +129,7 @@ export const trustPages: readonly TrustPage[] = [
     relatedEnterpriseSolutionIds: [],
     relatedServiceIds: [],
     evidenceStatus: "verified",
-    primaryCta: { label: "Discuss Security Requirements", href: "/contact/" }
+    primaryCta: { label: "Discuss Security Requirements", href: "/contact-us/" }
   },
   {
     id: "procurement",
@@ -146,6 +146,6 @@ export const trustPages: readonly TrustPage[] = [
     relatedEnterpriseSolutionIds: [],
     relatedServiceIds: [],
     evidenceStatus: "verified",
-    primaryCta: { label: "Discuss Procurement Requirements", href: "/contact/" }
+    primaryCta: { label: "Discuss Procurement Requirements", href: "/contact-us/" }
   }
 ];

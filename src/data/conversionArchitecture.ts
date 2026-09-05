@@ -38,8 +38,8 @@ export const conversionJourneys: ConversionJourney[] = [
   {
     id: "general-contact",
     title: "General Contact",
-    href: "/contact/",
-    canonical: "/contact/",
+    href: "/contact-us/",
+    canonical: "/contact-us/",
     status: "live",
     audience: "general",
     publicVisibility: true,

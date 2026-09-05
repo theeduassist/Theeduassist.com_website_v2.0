@@ -62,11 +62,11 @@ export const redirects: RedirectRule[] = [
   },
 
   {
-    from: "/contact-us/",
-    to: "/contact/",
+    from: "/contact/",
+    to: "/contact-us/",
     status: "ready",
     statusCode: 301,
-    reason: "Old WordPress contact page moved to Astro contact page.",
+    reason: "Legacy contact URL redirect to official contact page.",
     sourceGroup: "oldPage",
     targetExists: true
   },

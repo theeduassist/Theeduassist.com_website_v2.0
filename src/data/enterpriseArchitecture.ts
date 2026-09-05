@@ -61,7 +61,7 @@ export const enterpriseSolutions: EnterpriseSolution[] = [
     relatedCaseStudies: [],
     relatedBlogCategories: ["Workforce Learning"],
     trustRequirements: ["Role-based access", "Content approvals"],
-    CTA: "/contact/",
+    CTA: "/contact-us/",
     claimReviewStatus: "verified",
     plannedPhasePart: "Part 2"
   },
@@ -85,7 +85,7 @@ export const enterpriseSolutions: EnterpriseSolution[] = [
     relatedCaseStudies: ["business-analytics-corporate-training"],
     relatedBlogCategories: ["Workforce Learning"],
     trustRequirements: ["Data privacy", "Accessibility"],
-    CTA: "/contact/",
+    CTA: "/contact-us/",
     claimReviewStatus: "verified",
     plannedPhasePart: "Part 2"
   },
@@ -111,7 +111,7 @@ export const enterpriseSolutions: EnterpriseSolution[] = [
     relatedCaseStudies: [],
     relatedBlogCategories: ["Partner Training"],
     trustRequirements: ["Partner portal access", "Brand alignment"],
-    CTA: "/contact/",
+    CTA: "/contact-us/",
     claimReviewStatus: "verified",
     plannedPhasePart: "Part 2"
   },
@@ -135,7 +135,7 @@ export const enterpriseSolutions: EnterpriseSolution[] = [
     relatedCaseStudies: [],
     relatedBlogCategories: ["Customer Education"],
     trustRequirements: ["Public/external access controls", "Brand alignment"],
-    CTA: "/contact/",
+    CTA: "/contact-us/",
     claimReviewStatus: "verified",
     plannedPhasePart: "Part 2"
   },
@@ -161,7 +161,7 @@ export const enterpriseSolutions: EnterpriseSolution[] = [
     relatedCaseStudies: ["sqa-aligned-vocational-training"],
     relatedBlogCategories: ["Learning Strategy"],
     trustRequirements: ["Content governance", "Access control"],
-    CTA: "/contact/",
+    CTA: "/contact-us/",
     claimReviewStatus: "verified",
     plannedPhasePart: "Part 2"
   },
@@ -212,7 +212,7 @@ export const enterpriseSolutions: EnterpriseSolution[] = [
     relatedCaseStudies: [],
     relatedBlogCategories: ["AI in Learning"],
     trustRequirements: ["Responsible AI", "Data privacy"],
-    CTA: "/contact/",
+    CTA: "/contact-us/",
     claimReviewStatus: "verified",
     plannedPhasePart: "Part 2"
   },

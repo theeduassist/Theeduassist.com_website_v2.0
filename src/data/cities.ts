@@ -263,7 +263,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -531,7 +531,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -799,7 +799,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -1067,7 +1067,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -1335,7 +1335,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -1603,7 +1603,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -1871,7 +1871,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -2129,7 +2129,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -2397,7 +2397,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -2655,7 +2655,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -2923,7 +2923,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -3181,7 +3181,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -3449,7 +3449,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -3717,7 +3717,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -3975,7 +3975,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -4233,7 +4233,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -4490,7 +4490,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -4748,7 +4748,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -5006,7 +5006,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -5264,7 +5264,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -5649,7 +5649,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -5916,7 +5916,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -6184,7 +6184,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -6442,7 +6442,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -6700,7 +6700,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -6958,7 +6958,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -7216,7 +7216,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -28547,7 +28547,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   },
@@ -28750,7 +28750,7 @@ export const cities = [
       },
       {
         "text": "Talk to Sales",
-        "link": "/contact/"
+        "link": "/contact-us/"
       }
     ]
   }

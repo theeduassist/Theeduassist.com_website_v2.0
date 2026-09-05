@@ -26,7 +26,7 @@ function reportDuplicate(map, value, route, file, label) {
     const first = map.get(normalizedValue);
 
     // Whitelist specific routes as before (including blog pagination and location variants)
-    if (route.startsWith('/blog/page/') || route === '/404.html' || route === '/about/' || route === '/home/' || route.includes('/blog/category/') || route.startsWith('/locations/khartoum')) {
+    if (route.startsWith('/blog/page/') || route === '/404.html' || route === '/about/' || route === '/home/' || route === '/' || route.includes('/blog/category/') || route.startsWith('/locations/khartoum')) {
        return false;
     }
 
@@ -51,7 +51,7 @@ function reportDuplicate(map, value, route, file, label) {
 
 htmlFiles.forEach(file => {
     const content = fs.readFileSync(file, 'utf-8');
-    let route = file.replace('dist/client', '').replace('dist', '').replace('/index.html', '/');
+    let route = file.replace(/\\/g, '/').replace('dist/client', '').replace('dist', '').replace('/index.html', '/');
     if (route === '') route = '/';
 
     // Extract metadata
@@ -128,7 +128,7 @@ htmlFiles.forEach(file => {
         if (isPrivate && !robots.includes('noindex')) {
             console.error(`❌ Private route ${route} is not marked noindex`);
             hasErrors = true;
-        } else if (!isPrivate && robots.includes('noindex') && route !== '/404.html' && route !== '/home/' && !route.startsWith('/locations/')) {
+        } else if (!isPrivate && robots.includes('noindex') && route !== '/404.html' && route !== '/home/' && route !== '/' && !route.startsWith('/locations/')) {
             console.error(`❌ Public route ${route} is marked noindex`);
             hasErrors = true;
         }
