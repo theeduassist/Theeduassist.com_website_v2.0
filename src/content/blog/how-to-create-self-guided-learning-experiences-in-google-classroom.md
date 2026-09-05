@@ -69,8 +69,10 @@ faqs:
 
 
 
+      &nbsp;
 
 
+      &nbsp;
 
 
       &nbsp;
@@ -83,13 +85,15 @@ faqs:
       and well-structured. Clear instructions at each step help learners stay
       focused and complete the course.
   - question: What tools help in course creation?
-    answer: >+
+    answer: >-
       Tools such as ChatGPT and Canva can significantly support course creation.
       They help in developing content, designing visuals, and improving overall
       course quality while saving time.
 
 
 
+
+      &nbsp;
   - question: How do I improve engagement in online courses?
     answer: Engagement can be improved by using a mix of videos, assignments, and
       interactive activities. These elements make learning more active and help
@@ -104,13 +108,15 @@ faqs:
       understand what to do next and improves both engagement and course
       completion rates.
   - question: How do I structure Google Classroom effectively?
-    answer: >+
+    answer: >-
       An effective Google Classroom structure uses clear topics and
       well-organized modules. A consistent lesson format helps students navigate
       content easily and reduces confusion.
 
 
 
+
+      &nbsp;
 sources:
   - title: https://edu.google.com/products/classroom/
     url: https://edu.google.com/products/classroom/
