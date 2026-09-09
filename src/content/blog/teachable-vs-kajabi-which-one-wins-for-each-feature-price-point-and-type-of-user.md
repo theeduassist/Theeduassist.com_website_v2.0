@@ -241,10 +241,10 @@ The better platform depends on the creator’s goals and level of experience:
 ## **Teachable: Pros and Cons:**
 
 
-|  |  |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Pros | Cons |
-| Easy to use and beginner-friendlyMore affordable starting priceStrong course creation and student-learning featuresSupports courses, coaching, memberships, and digital products Useful built-in sales tools• Good third-party integrations | Less advanced marketing automation than KajabiSome advanced features require higher-tier plans Less comprehensive for building an entire digital business |
+|  |  |  |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Pros |  | Cons |
+| Easy to use and beginner-friendlyMore affordable starting priceStrong course creation and student-learning featuresSupports courses, coaching, memberships, and digital products Useful built-in sales toolsGood third-party integrations |  | Less advanced marketing automation than KajabiSome advanced features require higher-tier plans Less comprehensive for building an entire digital business |
 
 
 ## **Kajabi: Pros and Cons**
