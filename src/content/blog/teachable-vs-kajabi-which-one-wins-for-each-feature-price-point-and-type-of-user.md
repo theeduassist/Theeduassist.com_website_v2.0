@@ -86,7 +86,7 @@ This article discusses the key differences between two major learning management
 
 
 
-# Quick Verdict: Teachable Vs Kajabi
+## Quick Verdict: Teachable Vs Kajabi
 
 
 
@@ -105,7 +105,7 @@ In short:
 
 The right choice ultimately comes down to whether your priority is selling and delivering courses simply or building a larger digital business around your expertise.
 
-# Teachable vs Kajabi at a Glance:
+## Teachable vs Kajabi at a Glance:
 
 
 
