@@ -53,13 +53,15 @@ keyTakeaways:
     and business needs.
 faqs:
   - question: What payment methods does Kajabi accept?
-    answer: >+
+    answer: >-
       Kajabi supports major credit and debit cards, Apple Pay, Google Pay,
       Afterpay, and Klarna through Kajabi Payments. PayPal and Stripe are also
       supported through integrations.
 
 
 
+
+      &nbsp;
   - question: Does Kajabi accept PayPal?
     answer: Yes. Kajabi supports PayPal integration, allowing customers to use
       PayPal as an alternative payment method where available.
