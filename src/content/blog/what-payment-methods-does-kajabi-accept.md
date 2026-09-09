@@ -21,7 +21,7 @@ tags:
 draft: false
 publishedAt: 2026-09-09
 updatedAt: 2026-09-09
-heroImage: /images/blog/0400ee86-0b99-4dcd-833f-6c58efe5d8f1-5.png
+heroImage: /images/blog/3c64e165-661a-42f1-9287-5091b75d9d1b-1.png
 heroImageAlt: Kajabi payment methods including credit cards, Apple Pay, Google
   Pay, Afterpay, Klarna, PayPal, and Stripe
 heroImageCaption: Kajabi supports multiple payment methods, including cards,
