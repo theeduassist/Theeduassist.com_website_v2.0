@@ -92,7 +92,7 @@ Kajabi is best for coaches, established creators, and businesses that need an al
 
 In short:
 
-- Best for beginners**:** Teachable
+- Best for beginners: Teachable
 - Best for affordable course creation: Teachable 
 - Best for course delivery and student learning: Teachable
 - Best for marketing automation: Kajabi
@@ -120,8 +120,6 @@ The right choice ultimately comes down to whether your priority is selling and d
 | All-in-one business | Kajabi | Combines multiple business and marketing functions in one platform |
 
 
-
-
 **Teachable vs Kajabi: Pricing**
 
 Pricing is one of the major differences between Teachable and Kajabi.
@@ -139,8 +137,6 @@ Kajabi is positioned at a significantly higher price point. Its Basic plan start
 | Monthly Starting Price | $39/Month | $179/Month |
 | Annual discount | 22% | 20% |
 | Best Value for | Course-focused creators | Businesses using multiple built-in tools |
-
-
 
 
 **Which is more affordable?**
