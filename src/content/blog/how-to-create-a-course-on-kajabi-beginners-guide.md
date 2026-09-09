@@ -1,7 +1,7 @@
 ---
 title: "How To Create a Course on kajabi: beginners Guide"
 slug: how-to-create-a-course-on-kajabi-beginners-guide
-featured: false
+featured: true
 excerpt: Learn how to create a course on Kajabi, from planning modules and
   lessons to customizing, testing, pricing, and launching your course.
 aiSummary: This beginner-friendly guide explains how to create a course on
