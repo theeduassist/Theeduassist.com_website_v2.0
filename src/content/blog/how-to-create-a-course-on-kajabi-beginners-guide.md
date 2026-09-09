@@ -96,8 +96,6 @@ editorialManagement:
   lastReviewedDate: 2026-09-08
   nextReviewDate: 2026-09-08
 ---
-
-
 # How to Create a Course on Kajabi: Beginner Guide
 
 ## Introduction
