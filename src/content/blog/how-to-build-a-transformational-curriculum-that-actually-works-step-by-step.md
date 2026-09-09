@@ -54,13 +54,15 @@ keyTakeaways:
     lessons, repetition, and community support.
 faqs:
   - question: What is transformational curriculum design?
-    answer: >+
+    answer: >-
       Transformational curriculum design focuses on changing how learners think
       and act, not just what they know. It uses action, reflection, and
       emotional engagement to create real growth.
 
 
 
+
+      &nbsp;
   - question: How long should lessons be in a transformational course?
     answer: Lessons should be short and focused so learners can stay engaged and
       take action easily. This approach improves understanding and retention.
