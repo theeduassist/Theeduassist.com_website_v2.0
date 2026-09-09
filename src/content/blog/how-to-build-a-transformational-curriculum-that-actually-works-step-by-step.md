@@ -19,9 +19,9 @@ tags:
   - "Instructional Design "
   - Non-Linear Learning
 draft: false
-publishedAt: 2026-09-09
-updatedAt: 2026-09-09
-heroImage: /images/blog/transformational-curriculum-design-1.webp
+publishedAt: 2026-09-10
+updatedAt: 2026-09-10
+heroImage: /images/blog/chatgpt-image-sep-10-2026-122534-am-3.png
 heroImageAlt: Transformational curriculum design workshop showing educators
   developing learner-centered, action-based learning strategies
 heroImageCaption: A collaborative curriculum design workshop focused on active
@@ -44,7 +44,7 @@ advancedSeo:
   socialDescription: Discover practical strategies for designing transformational
     learning experiences with action-based lessons, non-linear modules,
     reflection, and emotional engagement.
-  ogImage: /images/blog/transformational-curriculum-design.webp
+  ogImage: /images/blog/chatgpt-image-sep-10-2026-122534-am-2.png
 keyTakeaways:
   - "Design for transformation, not information by defining clear behavioral and
     mindset outcomes for learners. "
@@ -116,10 +116,10 @@ sources:
     url: https://lnkd.in/p/dV6k9sug?utm_source=chatgpt.com
     accessedAt: 2026-09-10
 editorialManagement:
-  dueDate: 2026-09-09
-  scheduledPublicationDate: 2026-09-09
-  lastReviewedDate: 2026-09-09
-  nextReviewDate: 2026-09-09
+  dueDate: 2026-09-10
+  scheduledPublicationDate: 2026-09-10
+  lastReviewedDate: 2026-09-10
+  nextReviewDate: 2026-09-10
 ---
 Creating a **transformational curriculum** is easier than ever today. However, building a [course](https://medium.com/@hafsazahoor144/skool-vs-learnworlds-which-platform-offers-the-best-value-17157b50430e) that truly changes someone’s life through **personal development and mindset growth** is much harder.  
 Most personal development programs focus only on sharing knowledge. But knowledge alone does not create growth. Real transformation happens when learners apply what they learn, reflect on their experiences, and slowly change their behavior through **emotional intelligence and self-worth development**.  
@@ -197,7 +197,7 @@ An activation can be a journaling prompt, a small challenge, or a behavior pract
 Without activations, your course becomes passive. Learners may understand ideas, but they will not experience real change.  
 This becomes even more effective when combined with [custom eLearning content development](https://theeduassist.com/custom-elearning-content-development/?utm_source=chatgpt.com), where lessons and activities are designed around real learner needs.
 
-![](/images/blog/transfer-economy-png-1024x559.webp)
+![](/images/blog/chatgpt-image-sep-10-2026-122334-am.png)
 
 ## **Step-by-Step Process to Build a Transformational Curriculum**
 
