@@ -126,7 +126,7 @@ The right choice ultimately comes down to whether your priority is selling and d
 | All-in-one business | Kajabi | Combines multiple business and marketing functions in one platform |
 
 
-## **Teachable vs Kajabi: Pricing**
+## Teachable vs Kajabi: Pricing
 
 Pricing is one of the major differences between Teachable and Kajabi.
 
