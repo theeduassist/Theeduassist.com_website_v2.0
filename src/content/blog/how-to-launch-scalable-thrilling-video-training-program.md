@@ -21,7 +21,7 @@ tags:
 draft: false
 publishedAt: 2026-09-10
 updatedAt: 2026-09-10
-heroImage: /images/blog/instructional-design-scalable-video-training-programswebp.png
+heroImage: /images/blog/instructional-design-scalable-video-training-programswebp-1.webp
 heroImageAlt: Instructional design for scalable video training programs
 heroImageCaption: Instructional design helps transform expertise into scalable
   and engaging video training programs.
