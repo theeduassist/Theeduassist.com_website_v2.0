@@ -12,7 +12,7 @@ aiSummary: AI skills gap analysis helps businesses identify the difference
   targeted training programs. It also covers the process, common mistakes, and
   ways businesses can make skills gap analysis faster and more effective.
 author: editorial-team
-category: learning-strategy
+category: enterprise-learning
 tags:
   - AI Skips Gap Analysis
   - "Employee Training "
