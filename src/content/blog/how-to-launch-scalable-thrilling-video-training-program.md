@@ -75,7 +75,7 @@ sources:
     url: https://help.skool.com/article/166-what-is-classroom
     accessedAt: 2026-09-10
 ---
-## **Instructional Design: How to Launch Scalable, Thrilling Video Training Program**
+# Instructional Design: How to Launch Scalable, Thrilling Video Training Program
 
 TheEduAssist provides expert instructional design services to launch scalable video training programs using Kajabi and Skool. Therefore,This approach boosts engagement, completion rates, and ROI through proven frameworks like ADDIE.
 
