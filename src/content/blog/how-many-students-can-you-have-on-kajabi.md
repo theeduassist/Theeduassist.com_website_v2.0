@@ -37,6 +37,7 @@ advancedSeo:
   socialDescription: Wondering how many students Kajabi can handle? Discover
     Kajabi’s current contact limits, compare Basic, Growth, and Pro, and find
     the right plan for your growing online course business.
+  ogImage: /images/blog/305487fa-b384-4f87-b8ff-875f741db04b-1.webp
 keyTakeaways:
   - Kajabi's student capacity is based on contacts, not a fixed number of
     students per course.
@@ -46,16 +47,20 @@ keyTakeaways:
     which Kajabi plan you choose.
 faqs:
   - question: How many students can Kajabi handle?
-    answer: >+
+    answer: >-
       Kajabi can support a large number of students, with current plans
       supporting up to 2,500, 25,000, or 100,000 contacts depending on the plan.
 
 
 
 
+      &nbsp;
 
 
+      &nbsp;
 
+
+      &nbsp;
   - question: What is the Kajabi student limit?
     answer: Kajabi does not currently advertise one universal student limit. Its
       plans are primarily defined by contact capacity.
@@ -102,6 +107,13 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-11
   lastReviewedDate: 2026-09-11
   nextReviewDate: 2026-09-11
+heroImage: /images/blog/305487fa-b384-4f87-b8ff-875f741db04b.webp
+heroImageAlt: Kajabi student capacity dashboard showing Basic, Growth, and Pro
+  contact limits.
+heroImageCaption: Kajabi student capacity varies by plan, with Basic, Growth,
+  and Pro supporting different contact limits for growing online course
+  businesses.
+searchIntent: Informational
 ---
 If you are planning to launch an ++[online course](https://www.linkedin.com/posts/theeduassist_realestate-instructionaldesign-elearning-activity-7501866712150073344-yPd8?utm_source=chatgpt.com)++, one of the first questions you may have is: how many students can you have on Kajabi? The answer is more complicated than a simple maximum number of students because Kajabi currently structures its plans around contacts, rather than giving each plan a universal student-per-course limit.
 
@@ -127,6 +139,8 @@ Your business could have thousands more contacts than actual students. That is w
 ## **How Many Students Can Kajabi Handle?**
 
 So, **how many students can Kajabi handle?** Kajabi's current plans provide a substantial amount of room for ++[online education businesses](https://medium.com/@hafsazahoor144/10-best-learning-management-systems-compared-c4498d4c02f5?sharedUserId=hafsazahoor144)++.
+
+![](/images/blog/14cec93b-1c12-48fd-804f-339a296dc41e-1.webp)
 
 
 |  |  |  |
@@ -187,7 +201,7 @@ Therefore, if you find an older article claiming that a particular Kajabi plan h
 
 ## **How to Add Students to Kajabi**
 
-Learning [++how to create a course on Kajabi++](https://www.theeduassist.com/blog/how-to-create-a-course-on-kajabi-beginners-guide/) is another important consideration once you have selected a plan. Generally, a student needs to exist as a contact and then receive access to the appropriate product or offer. For paid courses, the process can be automated. A customer purchases an offer, and the associated product access can be provided as part of the purchase workflow.
+Learning ++[how to create a course on Kajabi](https://www.theeduassist.com/blog/how-to-create-a-course-on-kajabi-beginners-guide/)++ is another important consideration once you have selected a plan. Generally, a student needs to exist as a contact and then receive access to the appropriate product or offer. For paid courses, the process can be automated. A customer purchases an offer, and the associated product access can be provided as part of the purchase workflow.
 
 One of the benefits of having an integrated platform is this. Rather than having to create a student in one system, collect payment somewhere else, and then send login information to another system, Kajabi integrates vital components of the customer journey. 
 
@@ -244,4 +258,4 @@ The smartest approach is simple: calculate your total contacts, estimate your fu
 
 **Authored by:** Hafsa Zahoor
 
-www.linkedin.com/in/hafsa-zahoor-85b844418
+[www.linkedin.com/in/hafsa-zahoor-85b844418](http://www.linkedin.com/in/hafsa-zahoor-85b844418)
