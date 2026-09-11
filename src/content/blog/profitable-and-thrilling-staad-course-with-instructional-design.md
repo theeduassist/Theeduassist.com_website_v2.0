@@ -58,19 +58,19 @@ faqs:
     answer: Yes! Starts with interface basics, scales to advanced seismic analysis.
       No prior STAAD needed.
   - question: How long until I design profitable projects?
-    answer: >2+
+    answer: |2+
        Module 6 (Week 2) build client-ready reports with built-in profit
       calculators.
 
-        
   - question: Mobile-friendly for Lahore commutes?
     answer: 100%. Kajabi app + 5-min micro-modules work offline.
   - question: Certification included?
-    answer: |+
+    answer: |-
       > Pro plan yes shareable badge for LinkedIn/ résumés
 
 
 
+      &nbsp;
   - question: " Money-back guarantee?"
     answer: 30 days. Design your first frame risk-free.
   - question: Group discounts for teams/institutes?
