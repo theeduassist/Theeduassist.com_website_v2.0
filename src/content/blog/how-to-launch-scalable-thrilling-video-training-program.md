@@ -119,7 +119,7 @@ keyTakeaways:
   - Use Kirkpatrick and Phillips-style evaluation to connect learner engagement
     with behavioral and business outcomes.
 ---
-# How to Launch Scalable, Thrilling Video Training Program
+# **How to Launch Scalable, Thrilling Video Training Program**
 
 TheEduAssist provides expert [instructional design services](https://www.theeduassist.com/blog/category/instructional-design/) to launch scalable video training programs using Kajabi and Skool. Therefore,This approach boosts engagement, completion rates, and ROI through proven frameworks like ADDIE.
 
