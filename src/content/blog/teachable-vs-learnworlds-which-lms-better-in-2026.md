@@ -198,7 +198,7 @@ That scale is worth noting because it shows Teachable is not a niche course-buil
 
 If you want to launch a course without spending weeks figuring out an LMS, Teachable is the more approachable option.
 
-For a beginner walkthrough, you can also read TheEduAssist's ++[How to Use Teachable: Step-by-Step Guide for Beginners++.](https://www.teachable.com/blog/get-started-on-teachable)
+For a beginner walkthrough, you can also read TheEduAssist's ++[How to Use Teachable: Step-by-Step Guide for Beginners++.]([https://www.teachable.com/blog/get-started-on-teachable](https://www.teachable.com/blog/get-started-on-teachable))
 
 ## **What Is LearnWorlds?**
 
@@ -454,7 +454,7 @@ If having a branded mobile learning environment is important to your organizatio
 - Looking for advanced assessments and analytics
 - Building a highly branded learning environment
 
-If you want to compare Teachable with other LMS platforms, TheEduAssist's [++Best Learning Management System (LMS) for 2026++](https://theeduassist.com/blog/best-learning-management-system-lms-for-2026/?utm_source=chatgpt.com) is a useful next resource.
+If you want to compare Teachable with other LMS platforms, TheEduAssist's ++[Best Learning Management System (LMS) for 2026](https://theeduassist.com/blog/best-learning-management-system-lms-for-2026/?utm_source=chatgpt.com)++ is a useful next resource.
 
 # **Pros and Cons**
 
