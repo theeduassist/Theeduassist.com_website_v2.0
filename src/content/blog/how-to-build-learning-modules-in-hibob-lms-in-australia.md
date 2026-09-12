@@ -306,6 +306,15 @@ sources:
       integrations, dashboards).
     url: https://www.youtube.com/watch?v=zgzh9TF1Rd4
     accessedAt: 2026-09-12
+  - title: "Instructional Design in Action: Practical Solutions for Learner Problems"
+    url: https://www.theeduassist.com/blog/instructional-design-in-action-practical-solutions-for-learner-problems/?utm_source=chatgpt.com
+    accessedAt: 2026-09-12
+  - title: How to Create Engaging Educational Content for Online Platform 2026
+    url: https://www.theeduassist.com/blog/how-to-create-engaging-educational-content-for-online-platform-2026/?utm_source=chatgpt.com
+    accessedAt: 2026-09-12
+  - title: LMS Implementation Guide
+    url: https://www.theeduassist.com/blog/lms-implementation-guide/?utm_source=chatgpt.com
+    accessedAt: 2026-09-12
 editorialManagement:
   dueDate: 2026-09-12
   scheduledPublicationDate: 2026-09-12
