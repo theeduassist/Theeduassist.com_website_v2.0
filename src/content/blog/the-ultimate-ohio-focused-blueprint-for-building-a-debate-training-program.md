@@ -86,7 +86,7 @@ faqs:
       &nbsp;
   - question: How can TheEduAssist help design a debate training program?
     answer: Through edu-assist consulting services,
-      [++theeduassist.com++](https://theeduassist.com) supports creators with
+      ++[theeduassist.com](https://theeduassist.com)++ supports creators with
       custom eLearning curriculum design, content development, and LMS
       implementation.
   - question: What skills do learners gain from debate training?
