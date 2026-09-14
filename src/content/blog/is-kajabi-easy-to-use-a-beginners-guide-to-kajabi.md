@@ -1,6 +1,6 @@
 ---
 title: Is Kajabi Easy to Use? A Beginner’s Guide to Kajabi
-slug: is-kajabi-easy-to-use
+slug: is-kajabi-easy-to-use-for-beginner
 featured: false
 excerpt: Kajabi is designed to make online course creation, website building,
   email marketing, and digital product selling easier from one platform. Learn
