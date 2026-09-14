@@ -347,7 +347,7 @@ By combining evidence from educational technology research with practical, perso
 
 [Hug, T. (2007). Microlearning:](https://www.researchgate.net/) A new pedagogical challenge. In T. Hug (Ed.), *Didactics of microlearning: Concepts, discourses and examples* (pp. 3–8). Waxmann. 
 
-Hug, T. (2010). Mobile learning as microlearning: Conceptual considerations and consequences for instructional design. *International Journal of Mobile and [Blended Learning,](https://doi.org/10.4018/jmbl.2010100104) 2*(4), 47–57.[](https://doi.org/10.4018/jmbl.2010100104) 
+Hug, T. (2010). Mobile learning as microlearning: Conceptual considerations and consequences for instructional design. *International Journal of Mobile and [Blended Learning,](https://doi.org/10.4018/jmbl.2010100104) 2*(4), 47–57. 
 
 [Clark, R. C., & Mayer, R. E. (2016).](https://onlinelibrary.wiley.com/) *E-learning and the science of instruction: Proven guidelines for consumers and designers of multimedia learning* (4th ed.). Wiley. 
 
@@ -407,4 +407,3 @@ Microlearning is ideal for skills that can be demonstrated or practiced in small
 
 Yes, microlearning pairs perfectly with workshops, coaching, and eLearning—use it as pre-work, in-session practice, and post-training reinforcement to drive long-term behavior change and ROI.
 
-  
