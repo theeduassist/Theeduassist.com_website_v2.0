@@ -56,6 +56,21 @@ sources:
   - title: Kajabi – How to Create a Blog on a Website
     url: https://www.kajabi.com/blog/create-blog-on-website-guide
     accessedAt: 2026-09-15
+  - title: Kajabi – Kajabi Website Builder
+    url: https://www.kajabi.com/blog/kajabi-website-builder
+    accessedAt: 2026-09-15
+  - title: Kajabi – What Is Kajabi? A Complete Overview for Experts and Creators
+    url: https://www.kajabi.com/blog/what-is-kajabi
+    accessedAt: 2026-09-15
+  - title: Kajabi – Official Blog
+    url: https://www.kajabi.com/blog
+    accessedAt: 2026-09-15
+  - title: Google Search Central – Creating Helpful, Reliable, People-First Content
+    url: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+    accessedAt: 2026-09-15
+  - title: Google Search Central – Search Appearance
+    url: https://developers.google.com/search/docs/appearance?
+    accessedAt: 2026-09-15
 editorialManagement:
   dueDate: 2026-09-15
   scheduledPublicationDate: 2026-09-15
