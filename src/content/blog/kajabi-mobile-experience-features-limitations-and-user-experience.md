@@ -130,7 +130,7 @@ editorialManagement:
   lastReviewedDate: 2026-09-15
   nextReviewDate: 2026-09-15
 ---
-If you sell ++[online courses](https://www.theeduassist.com/blog/how-to-create-a-course-on-kajabi/)++, coaching programs, memberships, or digital products, the mobile experience can make or break customer engagement. People increasingly expect to access what they purchased without sitting at a desk, and that is where the ++[Kajabi mobile app](https://www.kajabi.com/features/branded-app)++ comes in. Kajabi has continued updating its mobile experience, bringing courses, coaching, podcasts, and community features into a more unified mobile environment.  
+If you sell online courses, coaching programs, memberships, or digital products, the mobile experience can make or break customer engagement. People increasingly expect to access what they purchased without sitting at a desk, and that is where the ++[Kajabi mobile app](https://www.kajabi.com/features/branded-app)++ comes in. Kajabi has continued updating its mobile experience, bringing courses, coaching, podcasts, and community features into a more unified mobile environment.  
 But is the app actually good for everyday learning? What can customers do inside it, where does it fall short, and how does it compare with using Kajabi through a website? This guide looks at the Kajabi app, its features, limitations, usability, and the separate Kajabi-branded mobile app option so you can decide whether it fits your business or learning needs.
 
 ## **What Is the Kajabi Mobile App?**
