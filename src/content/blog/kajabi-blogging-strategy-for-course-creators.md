@@ -54,7 +54,7 @@ faqs:
   - {}
 sources:
   - title: Kajabi – How to Create a Blog on a Website
-    url: https://www.kajabi.com/blog/create-blog-on-website-guide?utm_source=chatgpt.co
+    url: https://www.kajabi.com/blog/create-blog-on-website-guide
     accessedAt: 2026-09-15
 editorialManagement:
   dueDate: 2026-09-15
