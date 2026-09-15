@@ -3,7 +3,7 @@ title: "Kajabi Mobile Experience: Features, Limitations, and User Experience"
 slug: kajabi-mobile-app-features-limitations-user-experience
 featured: false
 excerpt: Discover how the Kajabi mobile app works, its key features and
-  limitations, student experience, and how the branded mobile app compares.
+  limitations, student experience, and how the branded mobile app compares
 aiSummary: The Kajabi mobile app provides customers with convenient access to
   courses, communities, podcasts, saved posts, and other educational content
   from mobile devices. This article examines its key features, including
