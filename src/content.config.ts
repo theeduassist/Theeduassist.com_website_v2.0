@@ -30,17 +30,38 @@ const blog = defineCollection({
       ogImage: z.string().optional(),
       twitterCardType: z.string().optional()
     }).optional(),
-    keyTakeaways: z.array(z.string()).optional(),
-    faqs: z.array(z.object({
+    keyTakeaways: z.preprocess((val) => {
+      if (!Array.isArray(val)) return val;
+      return val.filter((item: any) => typeof item === 'string' && item.trim().length > 0);
+    }, z.array(z.string())).optional(),
+    faqs: z.preprocess((val) => {
+      if (!Array.isArray(val)) return val;
+      return val.filter((item: any) =>
+        item &&
+        typeof item === 'object' &&
+        typeof item.question === 'string' &&
+        item.question.trim().length > 0 &&
+        typeof item.answer === 'string' &&
+        item.answer.trim().length > 0
+      );
+    }, z.array(z.object({
       question: z.string(),
       answer: z.string()
-    })).optional(),
-    sources: z.array(z.object({
+    }))).optional(),
+    sources: z.preprocess((val) => {
+      if (!Array.isArray(val)) return val;
+      return val.filter((item: any) =>
+        item &&
+        typeof item === 'object' &&
+        typeof item.title === 'string' &&
+        item.title.trim().length > 0
+      );
+    }, z.array(z.object({
       title: z.string(),
       url: z.string().optional(),
       publisher: z.string().optional(),
       accessedAt: z.union([z.string(), z.date()]).optional()
-    })).optional(),
+    }))).optional(),
     relatedArticles: z.array(z.string()).optional(),
     relatedServices: z.array(z.string()).optional(),
     downloadableResource: z.object({
@@ -121,15 +142,33 @@ const resources = defineCollection({
     relatedResources: z.array(z.string()).optional(),
     relatedPlatforms: z.array(z.string()).optional(),
     relatedTerms: z.array(z.string()).optional(),
-    faq: z.array(z.object({
+    faq: z.preprocess((val) => {
+      if (!Array.isArray(val)) return val;
+      return val.filter((item: any) =>
+        item &&
+        typeof item === 'object' &&
+        typeof item.question === 'string' &&
+        item.question.trim().length > 0 &&
+        typeof item.answer === 'string' &&
+        item.answer.trim().length > 0
+      );
+    }, z.array(z.object({
       question: z.string(),
       answer: z.string()
-    })).optional(),
-    sources: z.array(z.object({
+    }))).optional(),
+    sources: z.preprocess((val) => {
+      if (!Array.isArray(val)) return val;
+      return val.filter((item: any) =>
+        item &&
+        typeof item === 'object' &&
+        typeof item.title === 'string' &&
+        item.title.trim().length > 0
+      );
+    }, z.array(z.object({
       title: z.string(),
       url: z.string().optional(),
       publisher: z.string().optional()
-    })).optional(),
+    }))).optional(),
     canonical: z.string().optional(),
     noindex: z.boolean().optional(),
     featured: z.boolean().optional(),
