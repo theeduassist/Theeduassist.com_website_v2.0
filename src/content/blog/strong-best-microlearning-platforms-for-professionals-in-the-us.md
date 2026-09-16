@@ -27,7 +27,7 @@ tags:
 draft: false
 publishedAt: 2026-09-15
 updatedAt: 2026-09-15
-heroImage: /images/blog/best-microlearning-platforms-for-professionals-in-the-us-1.webp
+heroImage: /images/blog/best-microlearning-platforms-for-professionals-in-the-us-2.webp
 heroImageAlt: Best microlearning platforms for professionals in the US
 heroImageCaption: A comparison of microlearning platforms designed to deliver
   short, engaging, and measurable training for professionals.
