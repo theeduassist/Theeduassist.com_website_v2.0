@@ -15,7 +15,7 @@ category: learning-strategy
 draft: false
 publishedAt: 2026-09-15
 updatedAt: 2026-09-15
-heroImage: /images/blog/screenshot-2026-09-15-093155.webp
+heroImage: /images/blog/screenshot-2026-09-15-093155-picsart-aiimageenhancer.webp
 advancedSeo:
   noindex: false
 faqs:
