@@ -17,7 +17,7 @@ category: lms-learning-technology
 draft: false
 publishedAt: 2026-09-14
 updatedAt: 2026-09-14
-heroImage: /images/blog/screenshot-2026-09-14-100205.webp
+heroImage: /images/blog/screenshot-2026-09-14-100205-picsart-aiimageenhancer.webp
 advancedSeo:
   noindex: false
 faqs:
