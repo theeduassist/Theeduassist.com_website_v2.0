@@ -21,7 +21,7 @@ tags:
 draft: false
 publishedAt: 2026-09-10
 updatedAt: 2026-09-10
-heroImage: /images/blog/screenshot-2026-09-10-105304.webp
+heroImage: /images/blog/screenshot-2026-09-10-105304-picsart-aiimageenhancer.webp
 advancedSeo:
   noindex: false
 faqs:
