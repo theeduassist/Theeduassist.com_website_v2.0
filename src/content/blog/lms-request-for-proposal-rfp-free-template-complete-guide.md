@@ -16,7 +16,7 @@ category: lms-learning-technology
 draft: false
 publishedAt: 2026-09-12
 updatedAt: 2026-09-12
-heroImage: /images/blog/screenshot-2026-09-12-110800-picsart-aiimageenhancer.webp
+heroImage: /images/blog/youcam-photo-enhance-20260916164458.webp
 advancedSeo:
   noindex: false
 faqs:
