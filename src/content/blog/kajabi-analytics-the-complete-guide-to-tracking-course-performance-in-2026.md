@@ -15,7 +15,7 @@ category: kajabi
 draft: false
 publishedAt: 2026-09-16
 updatedAt: 2026-09-16
-heroImage: /images/blog/screenshot-2026-09-16-112758.webp
+heroImage: /images/blog/screenshot-2026-09-16-112758-picsart-aiimageenhancer.webp
 advancedSeo:
   noindex: false
 faqs:
