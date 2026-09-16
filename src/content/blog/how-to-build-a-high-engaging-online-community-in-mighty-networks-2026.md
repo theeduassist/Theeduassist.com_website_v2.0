@@ -234,7 +234,14 @@ LinkedIn reports prioritize belonging in L&D, aligning with Mighty’s model.
 - **Themed Calendars**: Habit + novelty = 59% weekly actives.
 - **Re-engagement**: AI prompts for lapsed members.
 
-MetricTop Mighty CommunitiesBenchmarkWeekly Returns59%Social: <20%Member Content84%Host-only: 100%Retention80%+Avg: 50%Revenue/Member$48/mo+Courses alone: $20
+
+| Metric | Top Mighty Communities | Benchmark |
+| -------------- | ---------------------- | ------------------ |
+| Weekly Returns | 59% | Social: <20% |
+| Member Content | 84% | Host-only: 100% |
+| Retention | 80%+ | Avg: 50% |
+| Revenue/Member | $48/mo+ | Courses alone: $20 |
+
 
 ## Launch Checklist
 
