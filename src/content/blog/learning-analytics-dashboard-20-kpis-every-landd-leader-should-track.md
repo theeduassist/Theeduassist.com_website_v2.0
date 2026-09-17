@@ -18,7 +18,7 @@ category: lms-learning-technology
 draft: false
 publishedAt: 2026-09-11
 updatedAt: 2026-09-11
-heroImage: /images/blog/screenshot-2026-09-11-101633.png
+heroImage: /images/blog/screenshot-2026-09-11-101633-picsart-aiimageenhancer.webp
 advancedSeo:
   noindex: false
 faqs:
@@ -87,6 +87,38 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-11
   lastReviewedDate: 2026-09-11
   nextReviewDate: 2026-09-11
+heroImageAlt: Learning analytics dashboard displaying employee training KPIs
+heroImageCaption: A learning analytics dashboard helps L&D leaders monitor
+  training performance and make data-informed decisions
+seoTitle: "Learning Analytics Dashboard: 20 KPIs for L&D Leaders"
+seoDescription: Discover 20 learning analytics dashboard KPIs for L&D leaders,
+  from course completion and skill growth to training ROI and employee retention
+focusKeyword: Learning analytics dashboard
+secondaryKeywords:
+  - L&D dashboard KPIs
+  - Learning analytics KPIs
+  - Employee training metrics
+  - Learning and development metrics
+searchIntent: Informational with commercial investigation. Readers want to
+  understand learning analytics dashboards, identify useful KPIs, and learn what
+  features to consider when selecting a dashboard tool.
+keyTakeaways:
+  - A learning analytics dashboard brings training, learner activity, and
+    performance data into one view.
+  - The 20 KPIs cover engagement, learning progress, skill development, business
+    impact, and platform effectiveness.
+  - L&D leaders should prioritize metrics that connect training activities to
+    organizational goals.
+  - A successful dashboard requires reliable data integration, clear
+    visualizations, and regular KPI reviews.
+  - Tracking outcomes alongside engagement helps organizations evaluate training
+    effectiveness and identify areas for improvement.
+tags:
+  - Learning Analytics
+  - Learning Analytics Dashboard
+  - Learning and Development
+  - Employee Training
+  - Corporate Training
 ---
 Training budgets keep growing every year. Yet many L&D leaders still cannot answer one simple question. Is the training actually working? A learning analytics dashboard solves this problem. It turns scattered numbers into one clear picture. In this guide, we will walk through what a learning analytics dashboard is, why it matters, and the twenty KPIs you should track in it.
 
