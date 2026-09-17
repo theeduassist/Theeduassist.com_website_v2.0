@@ -23,7 +23,7 @@ tags:
 draft: false
 publishedAt: 2026-09-17
 updatedAt: 2026-09-17
-heroImage: /images/blog/kajabi-advanced-automations-guide-2026.webp
+heroImage: /images/blog/kajabi-advanced-automations-guide-2026-2.webp
 heroImageAlt: Kajabi Advanced Automations A complete 2026 guide to building
   smarter workflows with triggers, conditions, email actions, segmentation, and
   branching logic.
