@@ -46,80 +46,43 @@ if (allFaqs.length === 0) {
 }
 ---
 {allFaqs.length > 0 ? (
-  <div class="my-16">
-    <h2 class="text-3xl font-bold text-slate-800 mb-8 text-center">Frequently Asked Questions</h2>
-    <div class="space-y-4 max-w-3xl mx-auto" data-accordion-group>
+  <section class="mt-16 pt-8 border-t border-slate-200" id="faqs" aria-label="Frequently Asked Questions">
+    <div class="mb-6">
+      <h2 class="text-2xl md:text-3xl font-bold text-slate-800">Frequently Asked Questions</h2>
+    </div>
+    <div class="space-y-4">
       {allFaqs.map((faq, index) => (
-        <div class="border border-slate-200 rounded-lg bg-white overflow-hidden" data-accordion-item>
-          <button
-            type="button"
-            class="flex justify-between items-center w-full px-6 py-4 text-left font-semibold text-slate-800 hover:bg-slate-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-primary)] transition-colors"
-            data-accordion-trigger
-            aria-expanded="false"
-            aria-controls={`faq-answer-${index}`}
-            id={`faq-question-${index}`}
-          >
-            <span>{faq.question}</span>
-            <svg
-              class="w-5 h-5 text-slate-400 transform transition-transform duration-200"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              data-accordion-icon
-            >
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          <div
-            id={`faq-answer-${index}`}
-            role="region"
-            aria-labelledby={`faq-question-${index}`}
-            class="hidden px-6 pb-4 text-slate-600 prose prose-slate max-w-none"
-            data-accordion-content
-          >
+        <details
+          open
+          class="group border border-slate-200 rounded-xl bg-white p-5 md:p-6 transition-all duration-200 hover:border-brand-green/50 shadow-2xs"
+          id={`faq-${index}`}
+        >
+          <summary class="flex justify-between items-center cursor-pointer font-bold text-base md:text-lg text-slate-800 list-none select-none">
+            <span class="pr-4 flex items-start gap-3">
+              <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-emerald-100 text-brand-green font-bold text-xs shrink-0 mt-0.5">Q</span>
+              <span>{faq.question}</span>
+            </span>
+            <span class="w-7 h-7 rounded-full bg-slate-100 group-hover:bg-emerald-50 flex items-center justify-center shrink-0 text-slate-500 group-hover:text-brand-green transition-colors">
+              <svg
+                class="w-4 h-4 transform transition-transform duration-200 group-open:rotate-180"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </span>
+          </summary>
+          <div class="mt-4 pt-4 border-t border-slate-100 text-slate-600 text-sm md:text-base leading-relaxed pl-9">
             {typeof faq.answer === 'string' ? (
-              <p>{faq.answer}</p>
+              <p class="whitespace-pre-line">{faq.answer}</p>
             ) : (
-              <div class="px-6 pb-6 pt-2 text-slate-600 prose prose-sm max-w-none">
-                {typeof faq.answer === 'string' ? <Fragment set:html={faq.answer} /> : <div>FAQ text unable to render properly without </div>}
-              </div>
+              <div>{faq.answer}</div>
             )}
           </div>
-        </div>
+        </details>
       ))}
     </div>
-  </div>
+  </section>
 ) : null}
-
-<script>
-  function setupAccordions() {
-    const triggers = document.querySelectorAll('[data-accordion-trigger]');
-    triggers.forEach(trigger => {
-      const newTrigger = trigger.cloneNode(true) as HTMLElement;
-      if (trigger.parentNode) {
-        trigger.parentNode.replaceChild(newTrigger, trigger);
-      }
-
-      newTrigger.addEventListener('click', () => {
-        const expanded = newTrigger.getAttribute('aria-expanded') === 'true';
-        const contentId = newTrigger.getAttribute('aria-controls');
-        if (!contentId) return;
-        const content = document.getElementById(contentId);
-        const icon = newTrigger.querySelector('[data-accordion-icon]');
-
-        if (expanded) {
-          newTrigger.setAttribute('aria-expanded', 'false');
-          content?.classList.add('hidden');
-          icon?.classList.remove('rotate-180');
-        } else {
-          newTrigger.setAttribute('aria-expanded', 'true');
-          content?.classList.remove('hidden');
-          icon?.classList.add('rotate-180');
-        }
-      });
-    });
-  }
-
-  setupAccordions();
-  document.addEventListener('astro:page-load', setupAccordions);
-</script>

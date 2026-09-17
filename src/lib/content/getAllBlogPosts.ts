@@ -195,6 +195,10 @@ export type NormalizedBlogPost = {
   featured?: boolean;
   keyTakeaways?: string[];
   downloadableResource?: any;
+  canonical?: string;
+  datePublished?: string;
+  dateModified?: string;
+  relatedArticleSlugs?: string[];
 };
 
 
@@ -250,10 +254,13 @@ export async function getFullBlogPostsForAuditOnly(): Promise<NormalizedBlogPost
         keyTakeaways: normalizeStringArray((frontmatter as any).keyTakeaways),
         sources: (frontmatter as any).sources || [],
         relatedPosts: normalizeStringArray((frontmatter as any).relatedArticles),
+        relatedArticleSlugs: normalizeStringArray((frontmatter as any).relatedArticles),
         relatedServices: normalizeStringArray((frontmatter as any).relatedServices),
         downloadableResource: (frontmatter as any).downloadableResource || null,
         endCta: (frontmatter as any).endOfArticleCta || null,
-
+        canonical: frontmatter.advancedSeo?.canonicalOverride || `/blog/${slug}/`,
+        datePublished: frontmatter.publishedAt ? new Date(frontmatter.publishedAt).toISOString() : undefined,
+        dateModified: (frontmatter.updatedAt || frontmatter.publishedAt) ? new Date(frontmatter.updatedAt || frontmatter.publishedAt).toISOString() : undefined,
       } as NormalizedBlogPost;
     });
 

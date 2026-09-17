@@ -87,15 +87,26 @@ const breadcrumbSchema = {
   ]
 };
 
+const canonicalPath = post.canonical
+  ? (post.canonical.startsWith('http') ? new URL(post.canonical).pathname : post.canonical)
+  : `/blog/${post.slug}/`;
+const canonicalFullUrl = `https://www.theeduassist.com${canonicalPath.endsWith('/') ? canonicalPath : `${canonicalPath}/`}`;
+
+const publishedDateIso = post.datePublished || (post.publishedAt ? new Date(post.publishedAt).toISOString() : undefined);
+const modifiedDateIso = post.dateModified || (post.updatedAt ? new Date(post.updatedAt).toISOString() : publishedDateIso);
+
+const rawHeroImage = post.featuredImage || post.heroImage;
+const ogImageFullUrl = rawHeroImage
+  ? (rawHeroImage.startsWith('http') ? rawHeroImage : `https://www.theeduassist.com${rawHeroImage.startsWith('/') ? '' : '/'}${rawHeroImage}`)
+  : undefined;
+
 const schemaData: Record<string, any> = {
   "@context": "https://schema.org",
   "@type": post.contentType === 'press-release' ? "NewsArticle" : "Article",
   "headline": post.title,
-  "description": post.excerpt,
-  "datePublished": post.datePublished,
-  "dateModified": post.dateModified || post.datePublished,
+  "description": post.seoDescription || post.excerpt,
   "author": {
-    "@type": post.author?.schemaType || "Organization",
+    "@type": "Organization",
     "name": "TheEduAssist Editorial Team",
     "url": "https://www.theeduassist.com/authors/editorial-team/"
   },
@@ -109,28 +120,46 @@ const schemaData: Record<string, any> = {
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": `https://www.theeduassist.com${post.canonical}`
+    "@id": canonicalFullUrl
   }
 };
 
-if (post.featuredImage || post.heroImage) {
-    schemaData.image = [post.featuredImage || post.heroImage];
-}
+if (publishedDateIso) schemaData.datePublished = publishedDateIso;
+if (modifiedDateIso) schemaData.dateModified = modifiedDateIso;
+if (ogImageFullUrl) schemaData.image = [ogImageFullUrl];
+
+const validFaqs = (post.blogFaqs || []).filter((f: any) => f && f.question && f.answer);
+const faqSchema = validFaqs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": validFaqs.map((faq: any) => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": typeof faq.answer === 'string' ? faq.answer : (faq.answer?.text || '')
+    }
+  }))
+} : null;
+
+const jsonLdData = [
+  schemaData,
+  breadcrumbSchema,
+  ...(faqSchema ? [faqSchema] : [])
+];
 ---
 
 <BlogArticleLayout
   title={post.seoTitle || `${post.title} | TheEduAssist`}
   description={post.seoDescription || post.excerpt}
-  canonicalPath={post.canonical}
-  image={post.featuredImage || post.heroImage}
+  canonicalPath={canonicalPath}
+  ogImage={ogImageFullUrl}
+  twitterCardType="summary_large_image"
   type="article"
-  publishDate={post.datePublished}
-  modifiedDate={post.dateModified}
-  authorName={post.author?.name}
-  robots={post.robots}
-  jsonLd={[schemaData, breadcrumbSchema]}
+  robots={post.noIndex ? "noindex, nofollow" : undefined}
+  jsonLd={jsonLdData}
 >
-  <main class="w-full flex-grow flex flex-col bg-slate-50 relative pb-20">
+  <div class="w-full flex-grow flex flex-col bg-slate-50 relative pb-20">
     <article class="w-full">
       <!-- Article Header -->
       <header class="w-full bg-white pt-16 pb-12 px-6 md:px-12 border-b border-slate-200">
@@ -243,7 +272,7 @@ if (post.featuredImage || post.heroImage) {
           <!-- Sources -->
           {post.sources && post.sources.length > 0 && (
             <div class="mt-16 pt-8 border-t border-slate-200">
-              <h2 class="text-[32px] font-bold text-slate-800 mb-6 mt-12">Sources & References</h2>
+              <h2 class="text-2xl md:text-3xl font-bold text-slate-800 mb-6 mt-8">Sources & References</h2>
               <ol class="list-decimal list-outside ml-5 space-y-4 text-base text-slate-600">
                 {post.sources.map((source: any) => (
                   <li class="pl-2">
@@ -260,9 +289,14 @@ if (post.featuredImage || post.heroImage) {
             </div>
           )}
 
+          <!-- FAQs (Directly after Sources & References) -->
+          {post.blogFaqs && post.blogFaqs.length > 0 && (
+            <BlogFAQs blogFaqs={post.blogFaqs} />
+          )}
+
           <!-- Share Buttons -->
           <div class="mt-12">
-            <ArticleShareButtons url={`https://www.theeduassist.com/blog/${post.slug}/`} title={post.title} />
+            <ArticleShareButtons url={canonicalFullUrl} title={post.title} />
           </div>
 
           <!-- Reading Progress Bar -->
@@ -277,45 +311,17 @@ if (post.featuredImage || post.heroImage) {
     {post.author && (
       <section class="w-full py-12 px-6 md:px-12 bg-white border-y border-slate-200">
         <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-6">
+          <div class="w-16 h-16 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center shrink-0 overflow-hidden p-2 shadow-2xs">
+            <img src="/brand/theeduassist-logo-official.svg" alt="TheEduAssist Editorial Team" class="w-full h-full object-contain" width="48" height="48" />
+          </div>
           <div class="text-center md:text-left">
-            <h3 class="text-xl font-bold text-brand-blue mb-2">Written by TheEduAssist Editorial Team</h3>
-            <p class="text-slate-600 mb-4">Practical guidance for building and improving learning experiences.</p>
-            <a href="/authors/editorial-team/" class="text-brand-green font-medium hover:underline">View full profile</a>
+            <h3 class="text-xl font-bold text-brand-blue mb-1">Written by TheEduAssist Editorial Team</h3>
+            <p class="text-slate-600 mb-3 text-sm md:text-base">Specialist insights and practical guidance for building, optimizing, and scaling online learning systems.</p>
+            <a href="/authors/editorial-team/" class="text-brand-green font-semibold hover:underline inline-flex items-center gap-1 text-sm">View full profile →</a>
           </div>
         </div>
       </section>
     )}
-
-
-    <!-- FAQs -->
-    {post.blogFaqs && post.blogFaqs.length > 0 && (
-      <div class="px-6 md:px-12 max-w-4xl mx-auto w-full">
-        <BlogFAQs blogFaqs={post.blogFaqs} />
-      </div>
-    )}
-    <!-- Internal Links to City Pages -->
-  <div class="bg-slate-50 border border-slate-200 rounded-xl p-8">
-    <h3 class="text-xl font-bold text-brand-navy mb-4">We Serve Clients Across the Globe</h3>
-    <p class="text-slate-600 mb-6 text-sm">TheEduAssist provides remote eLearning development and LMS implementation for clients in:</p>
-    <div class="flex flex-wrap gap-2">
-      <a href="/locations/dubai-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Dubai</a>
-      <a href="/locations/london-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">London</a>
-      <a href="/locations/new-york-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">New York</a>
-      <a href="/locations/toronto-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Toronto</a>
-      <a href="/locations/sydney-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Sydney</a>
-      <a href="/locations/singapore-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Singapore</a>
-      <a href="/locations/miami-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Miami</a>
-      <a href="/locations/karachi-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Karachi</a>
-      <a href="/locations/lahore-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Lahore</a>
-      <a href="/locations/riyadh-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Riyadh</a>
-      <a href="/locations/paris-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Paris</a>
-      <a href="/locations/berlin-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Berlin</a>
-      <a href="/locations/nairobi-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Nairobi</a>
-      <a href="/locations/mumbai-elearning-development/" class="text-sm bg-white border border-slate-200 px-3 py-1 rounded-full text-brand-accent hover:border-brand-accent transition-colors">Mumbai</a>
-      <a href="/locations/" class="text-sm bg-brand-accent text-white px-3 py-1 rounded-full hover:bg-brand-primary transition-colors">View All Locations →</a>
-    </div>
-  </div>
-</div>
 
     <!-- Previous / Next Navigation -->
     {(prevPost || nextPost) && (
@@ -342,12 +348,48 @@ if (post.featuredImage || post.heroImage) {
       <RelatedArticles currentSlug={post.slug} relatedSlugs={post.relatedArticleSlugs} />
     )}
 
+    <!-- Global Delivery & Regional Consulting (GEO Internal Links) -->
+    <section class="w-full px-6 md:px-12 max-w-4xl mx-auto my-12" aria-label="Global Service Locations">
+      <div class="bg-gradient-to-br from-slate-50 to-white border border-slate-200/90 rounded-2xl p-6 md:p-8 shadow-2xs">
+        <div class="flex items-start sm:items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-xl bg-emerald-50 text-brand-green flex items-center justify-center shrink-0 border border-emerald-100">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" stroke-width="2"></circle>
+              <line x1="2" y1="12" x2="22" y2="12" stroke-width="2"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" stroke-width="2"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 class="text-lg md:text-xl font-bold text-brand-navy">Worldwide eLearning Delivery & Regional Consulting</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mt-0.5">TheEduAssist provides custom instructional design, LMS implementation, and SCORM development for clients in:</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-2 pt-1">
+          <a href="/locations/dubai-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Dubai</a>
+          <a href="/locations/london-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">London</a>
+          <a href="/locations/new-york-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">New York</a>
+          <a href="/locations/toronto-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Toronto</a>
+          <a href="/locations/sydney-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Sydney</a>
+          <a href="/locations/singapore-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Singapore</a>
+          <a href="/locations/miami-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Miami</a>
+          <a href="/locations/karachi-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Karachi</a>
+          <a href="/locations/lahore-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Lahore</a>
+          <a href="/locations/riyadh-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Riyadh</a>
+          <a href="/locations/paris-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Paris</a>
+          <a href="/locations/berlin-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Berlin</a>
+          <a href="/locations/nairobi-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Nairobi</a>
+          <a href="/locations/mumbai-elearning-development/" class="text-xs sm:text-sm bg-white border border-slate-200 px-3.5 py-1.5 rounded-full text-slate-700 hover:text-brand-green hover:border-brand-green transition-colors">Mumbai</a>
+          <a href="/locations/" class="text-xs sm:text-sm bg-brand-primary text-white font-medium px-4 py-1.5 rounded-full hover:bg-brand-accent transition-colors shadow-2xs">View All 70+ Locations →</a>
+        </div>
+      </div>
+    </section>
+
     <!-- Final CTA -->
     <div class="py-16 px-6 md:px-12 max-w-7xl mx-auto w-full">
       <BlogCTA />
     </div>
 
-  </main>
+  </div>
 
   <!-- Back to Top Button -->
   <button 
