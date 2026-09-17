@@ -26,7 +26,7 @@ tags:
 draft: false
 publishedAt: 2026-09-17
 updatedAt: 2026-09-17
-heroImage: /images/blog/screenshot-2026-09-17-105058.png
+heroImage: /images/blog/screenshot-2026-09-17-105058-picsart-aiimageenhancer.webp
 heroImageAlt: LMS migration checklist for moving to a new learning management system
 heroImageCaption: An LMS migration checklist helps organizations plan data
   transfer, content testing, integrations, and training continuity when
@@ -72,7 +72,6 @@ faqs:
       ongoing courses and deadlines. Clear communication before the switch also
       helps employees know what to expect and where to find their training.
 
-        
 editorialManagement:
   dueDate: 2026-09-17
   scheduledPublicationDate: 2026-09-17
@@ -85,7 +84,7 @@ This guide walks you through the most common and costly mistakes. You will also 
 
 ## **Why an LMS Migration Checklist Matters**
 
-Moving from one learning system to another is not just a technical task. It affects your learners, your trainers, and your reports. So, before you start, you need a solid plan. A good [++LMS choice++](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/) at the start often prevents a painful migration later. Therefore, this checklist focuses on real mistakes that companies face during a switch.
+Moving from one learning system to another is not just a technical task. It affects your learners, your trainers, and your reports. So, before you start, you need a solid plan. A good ++[LMS choice](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/)++ at the start often prevents a painful migration later. Therefore, this checklist focuses on real mistakes that companies face during a switch.
 
 ## **15 Costly LMS Migration Mistakes to Avoid**
 
@@ -103,7 +102,7 @@ Learner records, certificates, and scores are valuable. Yet, some companies forg
 
 ### **4. Forgetting About SCORM and xAPI Compatibility**
 
-Your old courses may use SCORM or xAPI standards. However, not every new LMS supports these formats the same way. Check compatibility early. If you use a learning record store, review our guide on [++xAPI and Learning Record Store++](https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/) to understand what to test before launch.
+Your old courses may use SCORM or xAPI standards. However, not every new LMS supports these formats the same way. Check compatibility early. If you use a learning record store, review our guide on ++[xAPI and Learning Record Store](https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/)++ to understand what to test before launch.
 
 ### **5. Underestimating Integration Needs**
 
@@ -115,7 +114,7 @@ Launching a new LMS to everyone at once is risky. Instead, test with a small pil
 
 ### **7. Overlooking Accessibility Standards**
 
-Accessibility is not optional. Every learner, including those with disabilities, should access your courses with ease. Before migration, check that your new LMS meets accessibility rules. Our [++ADA and WCAG compliance checklist++](https://theeduassist.com/blog/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/) offers a simple way to audit your content on your own.
+Accessibility is not optional. Every learner, including those with disabilities, should access your courses with ease. Before migration, check that your new LMS meets accessibility rules. Our ++[ADA and WCAG compliance checklist](https://theeduassist.com/blog/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/)++ offers a simple way to audit your content on your own.
 
 ### **8. Poor Communication With Employees**
 
@@ -135,7 +134,7 @@ Reports help you track learner progress and compliance. Yet many teams forget to
 
 ### **12. Failing to Update Instructional Design**
 
-A migration is the perfect time to refresh weak courses. Sadly, most teams just copy old content as is. Instead, consider modern design methods. Our comparison on [++AI versus traditional instructional design++](https://theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/) shows how smarter design can boost learner results.
+A migration is the perfect time to refresh weak courses. Sadly, most teams just copy old content as is. Instead, consider modern design methods. Our comparison on ++[AI versus traditional instructional design](https://theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/)++ shows how smarter design can boost learner results.
 
 ### **13. Missing Mobile Optimization Checks**
 
@@ -151,13 +150,13 @@ Once the new LMS is live, the work is not done. Many teams skip the final review
 
 ## **Measuring Success After Migration**
 
-A migration is only successful if it improves your training outcomes. So, track key numbers before and after the switch. Compare completion rates, login frequency, and support requests. Our [++corporate training ROI calculator++](https://theeduassist.com/blog/corporate-training-roi-calculator-measuring-learning-effectiveness/) can help you measure learning effectiveness with clear numbers.
+A migration is only successful if it improves your training outcomes. So, track key numbers before and after the switch. Compare completion rates, login frequency, and support requests. Our ++[corporate training ROI calculator](https://theeduassist.com/blog/corporate-training-roi-calculator-measuring-learning-effectiveness/)++ can help you measure learning effectiveness with clear numbers.
 
-Also, consider how artificial intelligence can support your new system going forward. Many organizations now use [++AI-powered learning tools++](https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/) to personalize training and close skill gaps faster.
+Also, consider how artificial intelligence can support your new system going forward. Many organizations now use ++[AI-powered learning tools](https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/)++ to personalize training and close skill gaps faster.
 
 ## **Planning Beyond Migration**
 
-Sometimes, a migration reveals that your company needs more than a basic LMS. If your team wants curated, learner-driven content, you may want to compare an [++LXP versus LMS++](https://theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/) setup before you finalize your new platform.
+Sometimes, a migration reveals that your company needs more than a basic LMS. If your team wants curated, learner-driven content, you may want to compare an ++[LXP versus LMS](https://theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/)++ setup before you finalize your new platform.
 
 ## **Quick LMS Migration Checklist**
 
