@@ -26,7 +26,7 @@ tags:
 draft: false
 publishedAt: 2026-09-17
 updatedAt: 2026-09-17
-heroImage: /images/blog/how-to-create-a-thinkific-course-7-proven-steps.webp
+heroImage: /images/blog/thinkific-course.webp
 heroImageAlt: "How to Create a Thinkific Course: 7 Proven Steps to plan, build,
   launch, and grow an engaging online course."
 heroImageCaption: Thinkific course creation infographic showing seven steps to
