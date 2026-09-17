@@ -95,13 +95,9 @@ editorialManagement:
   lastReviewedDate: 2026-09-17
   nextReviewDate: 2026-09-17
 ---
-# What is a Kajabi Virtual Assistant?
+## What is a Kajabi Virtual Assistant?
 
-
-
-A Kajabi Virtual Assistant (VA) is a remote professional who supports the administrative, creative, or logistical needs of online course creators. A Kajabi VA can handle both technical and administrative tasks, such as setting up and managing online courses, customizing sales pages, automating email funnels, and maintaining website content.
-
-Hiring a Kajabi VA essentially means that you don't need to struggle with managing your online course business all on your own. With the help of a virtual assistant, you can assign certain tasks to them, so that you can focus on what truly matters: creating and delivering value to your learners. 
+A Kajabi Virtual Assistant (VA) is a remote professional who supports the administrative, creative, or logistical needs of online course creators. A Kajabi VA can handle both technical and administrative tasks, such as setting up and managing online courses, customizing sales pages, automating email funnels, and maintaining website content. Hiring a Kajabi VA essentially means that you don't need to struggle with managing your online course business all on your own. With the help of a virtual assistant, you can assign certain tasks to them, so that you can focus on what truly matters: creating and delivering value to your learners. 
 
 ## Kajabi Virtual Assistant Expertise:
 
