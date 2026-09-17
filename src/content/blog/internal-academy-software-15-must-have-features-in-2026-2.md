@@ -27,7 +27,6 @@ faqs:
       creators in the USA and beyond do not need separate software for each
       task.
 
-        
   - question: "Kajabi vs Teachable: Which is better for managing membership
       subscriptions?"
     answer: Kajabi usually offers stronger membership and community tools, since
