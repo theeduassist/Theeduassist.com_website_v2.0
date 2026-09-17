@@ -58,6 +58,39 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-15
   lastReviewedDate: 2026-09-15
   nextReviewDate: 2026-09-15
+tags:
+  - Kajabi
+  - Kajabi Webinar
+  - Webinar Funnel
+  - Sales Funnel
+  - Online Webinars
+  - Lead Generation
+  - Kajabi Funnels
+heroImageAlt: Kajabi webinar funnel showing registration, reminder emails,
+  webinar, and follow-up stages
+heroImageCaption: A Kajabi webinar funnel connects registration, event
+  reminders, webinar attendance, follow-up emails, and post-webinar offers.
+seoTitle: "Kajabi Webinar Funnel: How to Build One Step by Step"
+seoDescription: Learn how to build a Kajabi webinar funnel with registration
+  pages, reminder emails, Zoom, follow-ups, offers, and testing before launch.
+focusKeyword: Kajabi webinar funnel
+secondaryKeywords:
+  - Kajabi webinar
+  - Kajabi webinar funnel tutorial
+  - how to create a Kajabi webinar funnel
+  - Kajabi webinar funnel template
+  - Kajabi webinar funnel setup
+  - Kajabi webinar registration page
+  - Kajabi Zoom webinar
+keyTakeaways:
+  - A Kajabi webinar funnel guides prospects from registration through webinar
+    attendance and post-webinar follow-up.
+  - A typical funnel includes a registration page, confirmation page, reminder
+    emails, webinar, follow-up emails, and sales offer.
+  - Kajabi’s webinar funnel template can help organize event pages and automated
+    emails around the webinar.
+  - Before building the funnel, define the webinar topic, audience, event
+    details, hosting platform, and desired post-webinar action.
 ---
 # What is a Kajabi Webinar funnel:
 
@@ -121,7 +154,7 @@ After you generate your funnel, review the Event section. Kajabi organizes the w
 
 Take some time to edit the default email copy so it matches your webinar and sounds like your brand. You can also adjust the timing of the emails if needed. The goal is to make sure attendees receive the right information at the right time, without having to manually remind each person.
 
-## **Step 3: Customize the Registration Page** 
+## **Step 3: Customize the Registration Page**
 
 After your funnel is ready, the next thing to work on is your registration page. This is the first page people will see when they come across your webinar, so you want it to give them a clear idea of what the webinar is about and why it's worth signing up.
 
@@ -144,7 +177,7 @@ When someone registers through the registration page, Kajabi automatically adds 
 
 The follow-up emails can then direct attendees to your sales page after the webinar. Before sending these emails, go through the template copy and customize it to match your webinar. Make sure the dates, times, webinar details, and messaging are accurate, and avoid leaving any generic template text behind.
 
-## **Step 6: Add a Sales page and offer:** 
+## **Step 6: Add a Sales page and offer:**
 
 Once your reminder emails are set up, it's time to think about what happens after the webinar. If your goal is to sell a course, coaching program, or another product or service, you'll need a sales page and an Offer for attendees to move forward. If you're working with a higher-priced product or service, you can also learn more about ++[building a high-ticket funnel](https://www.theeduassist.com/blog/how-to-build-a-massive-high-ticket-funnel-in-20-days/)++ to understand how different funnel elements work together.
 
