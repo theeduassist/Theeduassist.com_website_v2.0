@@ -14,12 +14,25 @@ import AboutContactCTA from "../../components/about/AboutContactCTA.astro";
 import AboutFAQ from "../../components/about/AboutFAQ.astro";
 import AboutKnowledgeHubCTA from "../../components/about/AboutKnowledgeHubCTA.astro";
 import AboutFinalCTA from "../../components/about/AboutFinalCTA.astro";
+import { breadcrumbSchema, webPageSchema } from "../../lib/seo/schema";
 
+const jsonLd = [
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "About Us", urlPath: "/about-us/" }
+  ]),
+  webPageSchema(
+    "About Us | TheEduAssist",
+    "Learn about TheEduAssist, a multi-platform e-learning design agency.",
+    "/about-us/"
+  )
+];
 ---
 <Layout
   title="About Us | TheEduAssist | E-Learning Design Agency for Courses, Kajabi & LMS Builds"
   description="Learn about TheEduAssist, a multi-platform e-learning design agency helping creators, educators, coaches, consultants, academies, training companies, and businesses build structured online courses, Kajabi systems, LMS experiences, funnels, automations, and launch-ready learning content."
   canonicalPath="/about-us/"
+  jsonLd={jsonLd}
 >
 
   <AboutHero />

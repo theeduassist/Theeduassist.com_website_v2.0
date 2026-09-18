@@ -155,9 +155,18 @@ const faqs = [
   { question: "Do you offer custom pricing?", answer: "Yes. Larger LMS, academy, training company, and multi-course builds are quoted after discovery." }
 ];
 
+import { breadcrumbSchema, faqPageSchema } from "../../lib/seo/schema";
+
+const jsonLd = [
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Pricing", urlPath: "/pricing/" }
+  ]),
+  faqPageSchema(faqs)
+];
 ---
 
-<Layout title={title} description={description} canonicalPath={canonicalPath}>
+<Layout title={title} description={description} canonicalPath="/pricing/" jsonLd={jsonLd}>
   {/* Hero Section */}
   <section class="bg-brand-softBg py-20 pb-12 border-b border-brand-border/30">
     <div class="container mx-auto px-4 max-w-4xl text-center">

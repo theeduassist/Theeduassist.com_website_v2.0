@@ -36,8 +36,22 @@ const allPostsJson = JSON.stringify(allPosts.map(p => ({
 // Unique categories from posts
 const postCategories = activeCategories;
 
+import { collectionPageSchema, breadcrumbSchema } from "../../lib/seo/schema";
+
 const seoTitle = "TheEduAssist Blog | Practical Guidance for Learning Experiences";
 const seoDescription = "Explore research-informed guidance on learning strategy, instructional design, course development, LMS implementation, Kajabi, and enterprise learning.";
+
+const jsonLd = [
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Blog", urlPath: "/blog/" }
+  ]),
+  collectionPageSchema(
+    seoTitle,
+    seoDescription,
+    "/blog/"
+  )
+];
 ---
 
 <Layout
@@ -45,6 +59,7 @@ const seoDescription = "Explore research-informed guidance on learning strategy,
   description={seoDescription}
   canonicalPath="/blog/"
   robots="index, follow"
+  jsonLd={jsonLd}
 >
   <main class="w-full flex-grow flex flex-col bg-slate-50 overflow-hidden">
     <!-- Hero Section -->
