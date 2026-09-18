@@ -200,14 +200,17 @@ const safeLegalPages = legalPages.filter(p => p.path.endsWith('.md') || p.path.e
                                 <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
                                     <h3 class="text-xl font-bold text-brand-navy mb-4 border-b border-slate-100 pb-2">{catName}</h3>
                                     <ul class="space-y-3">
-                                        {catResources.slice(0, 5).map(resource => (
-                                            <li>
-                                                <a href={`/resources/${cat}/${resource.slug}/`} class="text-slate-600 hover:text-brand-primary transition-colors flex items-start">
-                                                    <svg class="w-4 h-4 mt-1 mr-2 text-brand-secondary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
-                                                    <span class="leading-snug">{resource.data.title}</span>
-                                                </a>
-                                            </li>
-                                        ))}
+                                        {catResources.slice(0, 5).map(resource => {
+                                            const rSlug = resource.data?.slug || (resource.id ? resource.id.split('/').pop().replace('.mdx', '').replace('.md', '') : '');
+                                            return (
+                                                <li>
+                                                    <a href={`/resources/${cat}/${rSlug}/`} class="text-slate-600 hover:text-brand-primary transition-colors flex items-start">
+                                                        <svg class="w-4 h-4 mt-1 mr-2 text-brand-secondary flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                                                        <span class="leading-snug">{resource.data.title}</span>
+                                                    </a>
+                                                </li>
+                                            );
+                                        })}
                                         {catResources.length > 5 && (
                                             <li>
                                                 <a href={`/resources/${cat}/`} class="text-brand-primary font-medium text-sm hover:underline mt-2 inline-block">

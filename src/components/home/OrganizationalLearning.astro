@@ -2,15 +2,15 @@
 import { CheckCircle2 } from 'lucide-react';
 
 const needs = [
-  "Employee onboarding",
-  "Workforce upskilling",
-  "Customer education",
-  "Partner training",
-  "Internal academies",
-  "Product and service training",
-  "Content modernization",
-  "LMS implementation",
-  "Learning operations support"
+  { label: "Employee onboarding", href: "/enterprise-solutions/employee-onboarding/" },
+  { label: "Workforce upskilling", href: "/enterprise-solutions/workforce-upskilling/" },
+  { label: "Customer education", href: "/enterprise-solutions/customer-education/" },
+  { label: "Partner training", href: "/enterprise-solutions/partner-training/" },
+  { label: "Internal academies", href: "/enterprise-solutions/internal-learning-academies/" },
+  { label: "Product and service training", href: "/enterprise-solutions/" },
+  { label: "Content modernization", href: "/services/content-conversion/" },
+  { label: "LMS implementation", href: "/services/lms-implementation-migration/" },
+  { label: "Learning operations support", href: "/services/managed-learning/" }
 ];
 ---
 <section class="py-24 bg-white relative overflow-hidden">
@@ -28,10 +28,10 @@ const needs = [
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
           {needs.map(need => (
-            <div class="flex items-start">
-              <CheckCircle2 className="w-5 h-5 text-brand-accent mt-0.5 shrink-0 mr-3" aria-hidden="true" />
-              <span class="text-brand-textMain font-medium">{need}</span>
-            </div>
+            <a href={need.href} class="group flex items-start p-1.5 -m-1.5 rounded-lg hover:bg-slate-50 transition-colors focus-ring">
+              <CheckCircle2 className="w-5 h-5 text-brand-accent mt-0.5 shrink-0 mr-3 group-hover:scale-110 transition-transform" aria-hidden="true" />
+              <span class="text-brand-textMain font-medium group-hover:text-brand-primary transition-colors underline-offset-2 group-hover:underline">{need.label}</span>
+            </a>
           ))}
         </div>
 

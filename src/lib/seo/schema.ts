@@ -13,6 +13,24 @@ export function organizationSchema() {
     "image": `${organizationEntity.url}/og/theeduassist-og-image.png`,
     "email": organizationEntity.contactPoint.email,
     "sameAs": organizationEntity.socialProfiles,
+    "knowsAbout": [
+      "E-Learning Development",
+      "Instructional Design",
+      "Learning Management Systems",
+      "Kajabi Platform Services",
+      "Course & Curriculum Development",
+      "Corporate Training",
+      "Content Conversion & Modernization",
+      "AI in Education"
+    ],
+    "areaServed": [
+      "Worldwide",
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "United Arab Emirates"
+    ],
     "contactPoint": {
       "@type": "ContactPoint",
       "email": organizationEntity.contactPoint.email,
@@ -28,7 +46,15 @@ export function websiteSchema() {
     "name": organizationEntity.name,
     "alternateName": organizationEntity.alternateName,
     "url": organizationEntity.url,
-    "description": organizationEntity.description
+    "description": organizationEntity.description,
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${organizationEntity.url}/blog/?q={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    }
   };
 }
 
@@ -40,7 +66,47 @@ export function professionalServiceSchema() {
     "url": organizationEntity.url,
     "description": organizationEntity.description,
     "image": `${organizationEntity.url}/favicon-512x512.png`,
-    "email": organizationEntity.contactPoint.email
+    "email": organizationEntity.contactPoint.email,
+    "priceRange": "$$",
+    "areaServed": "Worldwide",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "E-Learning & Course Design Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Custom eLearning Development",
+            "url": `${organizationEntity.url}/services/custom-elearning-development/`
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Kajabi Course and Website Systems",
+            "url": `${organizationEntity.url}/kajabi-services/`
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "LMS Implementation and Migration",
+            "url": `${organizationEntity.url}/services/lms-implementation-migration/`
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Instructional Design and Course Planning",
+            "url": `${organizationEntity.url}/services/instructional-design/`
+          }
+        }
+      ]
+    }
   };
 }
 
