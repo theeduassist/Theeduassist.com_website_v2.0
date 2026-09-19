@@ -11,7 +11,7 @@ aiSummary: This beginner's guide explains how to use Teachable to create and
   publishing, and basic course marketing.
 author: editorial-team
 category: learning-strategy
-draft: true
+draft: false
 publishedAt: 2026-09-19
 updatedAt: 2026-09-19
 advancedSeo:
