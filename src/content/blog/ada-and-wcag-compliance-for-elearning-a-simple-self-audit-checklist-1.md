@@ -1,43 +1,43 @@
 ---
-title: "ADA and WCAG Compliance for eLearning: A Simple Self-Audit Checklist"
-slug: ada-wcag-compliance-elearning
+title: "Corporate Training ROI Calculator: How to Measure Learning Effectiveness"
+slug: corporate-training-roi-calculator
 featured: false
-excerpt: Learn how to audit an eLearning course for common ADA and WCAG
-  accessibility issues, including contrast, captions, alt text, keyboard access,
-  and forms.
-aiSummary: This guide explains how to conduct a basic accessibility self-audit
-  for eLearning content using common WCAG considerations. It covers color
-  contrast, keyboard navigation, image alt text, video captions, heading
-  structure, forms, plain language, mobile accessibility, time limits, and LMS
-  settings. It also discusses common accessibility problems, remediation costs,
-  automated tools, and ways to build accessibility into future course
-  development.
+excerpt: Learn how to calculate corporate training ROI, measure learning
+  effectiveness, track business outcomes, and choose the right tools for
+  reliable training analysis.
+aiSummary: This guide explains how to measure corporate training ROI using
+  simple formulas, key performance metrics, and different types of ROI
+  calculators. It covers cost savings, productivity gains, employee retention,
+  revenue impact, and time to competency, along with ways to integrate ROI tools
+  with LMS and other business systems. The article also explains common
+  measurement mistakes and provides a step-by-step process for calculating and
+  reporting training ROI.
 author: editorial-team
-category: lms-learning-technology
+category: learning-strategy
 tags:
-  - ADA Compliance,
-  - WCAG
-  - eLearning
-  - Digital Accessibility
-  - Corporate Training
+  - Corporate training ROI calculator
+  - Training ROI
+  - Training effectiveness
+  - Learning outcomes
+  - Training ROI measurement
 draft: false
 publishedAt: 2026-09-21
 updatedAt: 2026-09-21
-heroImage: /images/blog/untitled-design.webp
-heroImageAlt: ADA and WCAG accessibility checklist for eLearning courses
-heroImageCaption: An eLearning accessibility checklist can help identify common
-  barriers involving navigation, text, images, video, forms, and mobile access.
-seoTitle: "ADA and WCAG Compliance for eLearning: Self-Audit Checklist"
-seoDescription: Use this eLearning accessibility checklist to review WCAG issues
-  including contrast, alt text, captions, keyboard navigation, forms, and mobile
-  access.
-focusKeyword: DA and WCAG compliance for eLearning
+heroImage: /images/blog/75cb37fe-9434-49c5-9297-922892247f45.webp
+heroImageAlt: "Corporate Training ROI Calculator: Measure Learning Effectiveness"
+heroImageCaption: Measure training costs, learning outcomes, and business impact
+  with a corporate training ROI calculator.
+seoTitle: "Corporate Training ROI Calculator: Measure Learning Effectiveness"
+seoDescription: Learn how to calculate corporate training ROI, measure learning
+  outcomes, track business impact, and choose tools that connect training data
+  with business results.
+focusKeyword: Corporate training ROI calculator
 secondaryKeywords:
-  - eLearning accessibility checklist
-  - ADA compliance eLearning
-  - WCAG compliance eLearning
-  - eLearning accessibility audit
-  - online course accessibility
+  - Employee training ROI
+  - Corporate training ROI
+  - How to calculate training ROI
+  - Learning and development metrics
+  - Training performance measurement
 searchIntent: Informational
 advancedSeo:
   noindex: false
@@ -46,195 +46,196 @@ advancedSeo:
     accessibility issues, including contrast, alt text, captions, keyboard
     navigation, forms, and mobile access.
 keyTakeaways:
-  - "ADA and WCAG address different aspects of accessibility: the ADA is a U.S.
-    civil rights law, while WCAG provides technical guidance for making digital
-    content accessible."
-  - An eLearning accessibility audit can identify common barriers involving
-    color contrast, keyboard navigation, alt text, captions, headings, forms,
-    language, mobile access, and time limits.
-  - Automated accessibility tools can help identify some issues, but manual
-    testing and human review are also important.
+  - Training ROI measures the financial return of a training program relative to
+    its total cost.
+  - The basic training ROI formula is (Net Program Benefits ÷ Program Costs) ×
+    100.
+  - Key measurements include cost savings, productivity gains, employee
+    retention, revenue impact, and time to competency.
 faqs:
-  - question: Which WCAG compliance checklist is most reliable for online training
-      content?
-    answer: >+
-      The official WCAG 2.2 checklist from the World Wide Web Consortium remains
-      the most trusted resource. It covers all major accessibility rules in
-      detail. Many eLearning teams in the USA also create shorter internal
-      checklists based on this official version, focused on common issues like
-      contrast, captions, and keyboard access.
-
-        
-  - question: What is the difference between ADA and WCAG compliance?
-    answer: >+
-      ADA is a civil rights law in the USA. It requires equal access for people
-      with disabilities, including in digital spaces. WCAG is a technical
-      standard that explains how to actually build accessible content. In simple
-      terms, ADA tells you what the law expects, while WCAG tells you how to
-      meet that expectation through specific design choices.
-
-        
-  - question: How do you choose an eLearning accessibility audit tool for WCAG standards?
-    answer: >+
-      Look for a tool that checks contrast, alt text, captions, and keyboard
-      navigation automatically. It should also generate a clear report you can
-      share with your team. Free browser extensions work well for quick checks,
-      while paid tools often offer deeper scanning across entire course
-      libraries.
-
-        
-  - question: Which software helps ensure WCAG compliance in corporate training modules?
-    answer: >+
-      Many authoring tools now include built in accessibility checkers. Popular
-      options used across the USA include Articulate 360, Adobe Captivate, and
-      Rise 360. These tools flag issues during the design stage, before the
-      course goes live.
-
-        
-  - question: What are the best free tools for auditing eLearning courses against
-      ADA requirements?
-    answer: >+
-      Free options include the WAVE accessibility checker, axe DevTools, and the
-      Colour Contrast Analyser. These tools scan pages and highlight common
-      problems. They will not catch everything, but they offer a strong starting
-      point before deeper manual testing.
-
-        
-sources:
-  - title: "World Wide Web Consortium. WCAG 2.2 Guidelines. "
-    url: https://www.w3.org/WAI/standards-guidelines/wcag/
-    accessedAt: 2026-09-21
-  - title: ADA.gov. Americans with Disabilities Act Information.
-    url: " https://www.ada.gov/"
-    accessedAt: 2026-09-21
-  - title: WebAIM. Introduction to Web Accessibility.
-    url: https://webaim.org/intro/
-    accessedAt: 2026-09-21
-  - title: Section508.gov. IT Accessibility Laws and Policies
-    url: https://www.section508.gov/
-    accessedAt: 2026-09-21
-  - title: W3C Web Accessibility Initiative. Easy Checks, A First Review of Web
-      Accessibility.
-    url: https://www.w3.org/WAI/test-evaluate/preliminary/
-    accessedAt: 2026-09-21
+  - question: " What should I measure to prove training ROI to my boss"
+    answer: Focus on cost savings, productivity gains, retention rates, revenue
+      impact, and time to competency. These numbers give a clear, simple story
+      that leadership can quickly understand.
+  - question: What is the best corporate training ROI calculator for measuring
+      employee learning outcomes
+    answer: The best calculator depends on your company size. Small teams often do
+      well with spreadsheet based tools. Larger companies usually benefit more
+      from LMS built in analytics or standalone ROI software that connects to
+      multiple data sources.
+  - question: What are some recommendations for corporate training ROI calculators
+      that integrate with LMS platforms
+    answer: Look for calculators that sync automatically with your LMS, support
+      common data standards, offer real time dashboards, and allow flexible cost
+      inputs. This combination reduces manual work and improves accuracy.
+  - question: Which corporate training ROI tool provides the most accurate cost
+      benefit analysis
+    answer: Tools that pull data directly from payroll, HR, and performance systems
+      tend to be the most accurate. They reduce guesswork and manual entry
+      errors compared to tools that rely only on surveys.
+  - question: Corporate training ROI calculator vs employee engagement survey tools,
+      which should I choose
+    answer: Choose an ROI calculator when you need financial proof of training
+      impact. Choose engagement surveys when you want to understand learner
+      experience and morale. For the most complete view, use both together.
 editorialManagement:
   dueDate: 2026-09-21
   scheduledPublicationDate: 2026-09-21
   lastReviewedDate: 2026-09-21
   nextReviewDate: 2026-09-21
 ---
-Online training is growing fast across the USA. Yet many companies still ignore one important question. Can every learner actually use their course? This includes people who are blind, deaf, or have motor or cognitive challenges. If the answer is no, the course is not compliant. It may also break the law.
+Every learning leader hears the same question from leadership. Does training actually work? A corporate training ROI calculator gives you a clear answer. It turns vague feelings about a course into real numbers that finance teams trust. In this article, you will learn what training ROI means, how to calculate it, and which tools help you track it well.
 
-This guide will help you check your own course. You will get a simple self-audit checklist. You will also learn what it usually costs to fix common problems. By the end, you will know exactly where your course stands.
+Companies across the USA spend large budgets on employee development every year. Yet many leaders still cannot say with confidence what that spending returns. This guide fixes that gap. We will walk through simple formulas, useful tools, and practical tips you can apply today.
 
-## **Why ADA and WCAG Compliance Matters in the USA**
+## **What Is Training ROI and Why Does It Matter**
 
-The Americans with Disabilities Act, known as ADA, protects people with disabilities across the USA. Many courts now treat online courses the same way they treat physical buildings. So, a course that blocks access for disabled learners can lead to legal trouble.
+In short, it tells you whether your training budget is paying off. Training ROI is the return on investment of the learning programs. It quantifies the value a training program delivers relative to the cash spent delivering it.
 
-WCAG stands for Web Content Accessibility Guidelines. These are technical standards. They explain exactly how to make digital content accessible. Most legal cases in the USA refer back to WCAG when judging if a course is fair to use.
+This matters because training budgets are not unlimited. Therefore, every dollar needs to show results. When you measure training ROI properly, you gain a few clear benefits.
 
-Together, ADA and WCAG work like two halves of one rule. ADA is the law. WCAG is the technical roadmap that helps you follow that law.
+- Real-world data that justifies your training budget
+- You can tell what programs work and what ones don’t
+- Plan smarter for future training in the US and beyond
+- You develop trust with leadership teams and finance teams
 
-Accessibility is not only about avoiding lawsuits, though. It also widens your audience. More learners can finish your course. Completion rates often rise once barriers are removed. This connects closely with smart [++LMS choices++](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/), since the right platform supports accessible features from day one.
+Without ROI tracking, training is frequently seen as a cost rather than an investment. That view can lead to budget cuts during tough years. To avoid this, it helps first to get the foundation right, starting with the platform that delivers your training. Our guide on [++how to choose the right LMS for your organization++](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/) explains how the right system supports better tracking from day one.
 
-## **The Free Self Audit Checklist**
+## **How a Corporate Training ROI Calculator Works**
 
-Use this checklist to review your course today. You do not need expensive software to start. A few minutes and careful attention can reveal a lot.
+A training ROI calculator uses a simple formula. It takes the net benefit of training and divides it by the cost of training. Then it takes the result and multiplies it by one hundred to get a percentage.
 
-### **1. Check Your Color Contrast**
+The basic formula looks like this.
 
-Open your course and look closely at the text. Ask yourself if the words stand out clearly against the background. WCAG asks for a contrast ratio of at least 4.5 to 1 for normal text. Low contrast makes reading hard for people with low vision.
+Training ROI equals Net Program Benefits divided by Program Costs, multiplied by one hundred.
 
-### **2. Test Keyboard Navigation**
+Measure how training reduces waste, errors, or rework. For example, fewer mistakes on the production line often mean fewer repair costs. The net benefit is thirty thousand dollars. Divide that by the ten thousand dollar cost, and you get a ratio of three. Multiply by one hundred, and your training ROI is three hundred percent.
 
-Put your mouse aside. Try moving through the entire course using only your keyboard. Use the tab key to move forward. Use shift and tab to move back. If you get stuck anywhere, that is a barrier. Many learners with motor disabilities rely fully on keyboards.
+This formula seems simple at first glance. However, the real challenge is figuring out which numbers to plug in. That is where most learning teams struggle.
 
-### **3. Review Alt Text on Images**
+## **What Should You Measure to Prove Training ROI to Your Boss**
 
-Every meaningful image needs alt text. This is a short, written description. Screen readers read this text aloud. Without it, blind learners miss important visual content completely. Check each image one by one. Decorative images can be marked as such, so screen readers skip them.
+Your boss does not want a long story. Instead, they want clear proof. To build that proof, focus on a few key measurements.
 
-### **4. Watch Your Videos With Captions On**
+### **1. Direct Cost Savings**
 
-Turn on captions for every video in your course. Read along as the video plays. Captions should match the spoken words closely. They also need correct timing. Deaf and hard of hearing learners depend on accurate captions to follow along.
+Track how training reduces waste, errors, or rework. For instance, fewer mistakes on the production line often mean lower repair costs.
 
-### **5. Check Heading Structure**
+### **2. Productivity Gains**
 
-Headings are not just for style. They help screen reader users jump through content easily. Make sure your course uses a clear heading order. Headings should not skip levels randomly. For example, do not jump from a main heading straight to a small subheading without anything in between.
+Measure how much faster or better employees perform after training. You can compare output before and after the program.
 
-### **6. Test Form Fields and Buttons**
+### **3. Employee Retention**
 
-If your course has quizzes or sign-up forms, test every field. Each input box should have a clear label attached to it. Buttons should describe their purpose clearly, such as Submit Answer instead of just Click Here.
+Replacing an employee costs far more than training one. As a result, retention numbers often carry a lot of weight in ROI reports.
 
-### **7. Look at Reading Level and Language**
+### **4. Revenue Impact**
 
-Plain language helps everyone. It especially helps learners with cognitive disabilities or those still learning English. Avoid long, complex sentences. Break ideas into smaller chunks. Use short paragraphs throughout your course.
+If the training impacts sales, customer service, or client retention, then tie those numbers directly to the program.
 
-### **8. Confirm Mobile Accessibility**
+### **5. Time to Competency**
 
-Many learners use phones and tablets. Open your course on a smaller screen. Buttons should be large enough to tap easily. Text should resize properly without breaking the layout.
+Monitor how fast new hires come up to speed. A faster ramp-up time is often a sign of a strong training design. When you have these numbers together, you can put them into an easy chart or table.
 
-### **9. Check Time Limits**
+For more on how training design itself can shape these outcomes, take a look at our comparison of [++AI versus traditional instructional design++](https://theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/). It shows how design choices directly affect how fast learners reach competency.
 
-Some quizzes have strict timers. This can disadvantage learners who read slowly or need extra processing time. Where possible, allow extra time or let learners request more time.
+## **Best Corporate Training ROI Calculators for Measuring Learning Outcomes**
 
-### **10. Review Your LMS Settings**
+Many tools today help teams measure learning outcomes without heavy manual work. The best corporate training ROI calculator usually shares a few traits. First, it pulls data automatically from your learning system. Second, it connects training activity to business outcomes. Third, it presents results in a way non-technical leaders can understand.
 
-Your learning platform itself plays a big role here. Some systems support accessibility better than others. If you are still deciding on a platform, this earlier guide on [++choosing the right LMS++](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/) explains what to look for, including accessibility features built into the system.
+Below is a quick comparison of common calculator types used by companies in the USA and worldwide.
 
-## **Common Accessibility Problems Found in eLearning Courses**
+**Spreadsheet-based Calculator**
 
-After running audits across many courses in the USA, certain problems appear again and again.
+- Best For: Small teams and quick estimates
+- Key Strength: Low cost and easy to customize
 
-Missing alt text is extremely common. Many course creators simply forget this step. Poor color contrast also shows up often, especially in courses with bold, modern color schemes that look nice but fail accessibility tests.
+**LMS Built-in Analytics**
 
-Auto-generated captions cause trouble too. They often get words wrong, especially names or technical terms. This confuses learners who depend on captions the most.
+- Best For: Mid-size and large companies
+- Key Strength: Automatic data collection
 
-Keyboard traps are another frequent issue. This happens when a learner gets stuck inside a pop-up or quiz and cannot tab out of it. It feels frustrating for any user, but it is a complete blocker for someone who cannot use a mouse.
+**Standalone ROI Software**
 
-Many of these problems can now be caught earlier through smarter tools. For instance, [++AI-powered learning systems++](https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/) can flag accessibility issues automatically during content creation, saving time later.
+- Best For: Enterprise learning teams
+- Key Strength: Advanced reporting and benchmarks
 
-## **What It Costs to Fix Accessibility Issues**
+**AI-powered Learning Platforms**
 
-Costs vary depending on how big your course library is and how severe the problems are. Still, here is a general breakdown based on typical pricing seen across the USA eLearning industry.
+- Best For: Companies scaling training fast
+- Key Strength: Predictive insights and personalization
 
-### **Small Fixes**
+Spreadsheets are fine for small programs. But with the scale of the training, manual tracking is slow and error prone. That’s why more teams today rely on smarter, connected platforms.. Our article on [++AI-powered learning and how it helps train and upskill employees++](https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/) explains how automation reduces this manual burden while improving accuracy.
 
-Simple issues like fixing alt text or adjusting color contrast usually cost the least. For a single course, expect somewhere between 200 and 800 US dollars if you hire a freelancer or small agency. These fixes do not require deep technical rebuilding.
+## **Recommendations for ROI Calculators That Integrate With LMS Platforms**
 
-### **Medium Fixes**
+If your company already has a learning management system, see if you can find an ROI calculator that integrates directly with it. This integration saves time and reduces the risk of human error. Here are some things to watch for.
 
-Captioning videos accurately, fixing heading structures, and adjusting forms fall into this range. For a mid-sized course with several videos, costs often land between 1,000 and 4,000 US dollars. Professional captioning services charge per minute of video, so longer courses cost more.
+- Automatic data synchronisation between your ROI Tool and your LMS
+- Support for standard data standards for consistent reports
+- Dashboards that refresh in real time, not just at quarter-end
+- Flexible cost inputs, as training costs vary across departments
 
-### **Large Fixes**
+One area that often gets overlooked is data standardization. Without it, reports from different systems do not line up well. If you want to understand how learning data moves between systems cleanly, our guide on [++xAPI and the learning record store++](https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/) breaks down how this works in simple terms.
 
-If your entire course was built without accessibility in mind, a full rebuild may be needed. This often applies to older courses built years ago. Full remediation projects can range from 5,000 to 25,000 US dollars or more, depending on course length and complexity.
+Another growing trend is connecting AI tools directly to your LMS through open protocols. This setup lets ROI calculators pull live data without manual exports. To learn more about this approach, check out our explainer on the [++Model Context Protocol for LMS++](https://theeduassist.com/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know/), which covers how modern systems talk to each other.
 
-### **Ongoing Costs**
+## **Which Corporate Training ROI Tool Provides the Most Accurate Cost-Benefit Analysis**
 
-Accessibility is not a one-time task. New content needs regular checks. Many companies in the USA now budget for ongoing audits every six to twelve months. This keeps courses compliant as content gets updated.
+Accuracy depends less on the tool name and more on the data you feed it. That said, certain tools tend to produce more reliable results because of how they handle data.
 
-Choosing the right tools early can lower these costs significantly over time. Platforms that track learner data through standards like xAPI can also help measure how accessibility improvements affect completion rates. This [++guide on xAPI and Learning Record Stores++](https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/) explains how that tracking works in more detail.
+Tools that connect directly to payroll, sales, and HR systems tend to give more accurate cost-benefit numbers. This is because they avoid manual entry mistakes. On the other hand, tools that rely only on self-reported survey data are often less precise, since people may overestimate or underestimate the impact of training.
 
-## **How AI and Modern Tools Are Changing Accessibility Work**
+For the most accurate analysis, look for a tool that does the following.
 
-Artificial intelligence is reshaping how teams handle accessibility. Instead of manually checking every slide, many teams now use AI-assisted tools to scan content quickly.
+1. Pulls real cost data from finance or HR systems automatically
+2. Tracks performance metrics before and after training, not just after
+3. Allows you to set a clear time frame for measuring results
+4. Lets you separate training impact from other factors, such as market changes
 
-These tools can detect missing alt text, weak color contrast, and caption errors within minutes. This saves time compared to older manual methods. Still, human review remains necessary. AI can miss context that only a real person would catch, especially around tone and meaning.
+No tool is perfect. However, combining automated data with a bit of human judgment usually gives the most balanced and trustworthy picture.
 
-If you want a deeper comparison between automated and human-led design work, this article on [++AI compared to traditional instructional design++](https://theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/) breaks down the strengths and limits of each approach.
+## **Corporate Training ROI Calculator vs Employee Engagement Survey Tools: Which to Choose**
 
-Newer integrations are also emerging through systems like the [++Model Context Protocol for learning platforms++](https://theeduassist.com/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know/). These connections allow learning tools to share data more smoothly, which can support faster accessibility checks across multiple courses at once.
+This is a common question among learning leaders. The honest answer is that these two tools measure different things, so the right choice depends on your goal.
 
-## **Building Accessibility Into Future Courses**
+A training ROI calculator will focus on financial and performance outcomes. It answers the question: did the training pay off in measurable terms? However, an employee engagement survey tool is about feelings, satisfaction, and motivation. It asks a softer, but still important question about how people feel during and after training.
 
-Fixing old courses matters. However, preventing future problems matters even more. Once your team understands WCAG basics, accessibility becomes part of the normal design process rather than an afterthought.
+In most cases, you don’t have to pick just one. Use both, then, for a more complete picture.
 
-Train your content creators early. Teach them to write alt text as they upload images, not months later. Encourage writers to use plain language from the first draft. Choose video tools that support accurate captioning from the start.
+- Use the ROI calculator when you need to justify budget or show financial impact
+- Use engagement surveys to get a sense of learner experience and morale
+- Both from giving a full training report to leadership
 
-Over time, this approach saves money. Fixing problems during creation always costs less than fixing them after launch.
+For example, a course might show strong ROI numbers but low engagement scores. That mismatch could mean employees feel forced into the training, even though it works. Catching that early helps you fix the experience before it affects future results.
 
-## **Final Thoughts**
+## **Common Mistakes to Avoid When Measuring Training ROI**
 
-Accessibility protects your learners and your organization. It also strengthens your reputation across the USA, where legal scrutiny around digital accessibility keeps growing. Use the checklist in this guide as a starting point. Then, plan a realistic budget based on what you find.
+Even with the right calculator, mistakes can throw off your numbers. Here are a few common ones to watch for.
 
-Whether you choose to fix issues yourself or work with eLearning experts, the goal stays the same. Every learner deserves equal access to training, regardless of ability.
+- Counting only direct costs and ignoring time spent away from work
+- Measuring results too soon, before the training impact fully shows
+- Ignoring other factors that could explain performance changes
+- Skipping a baseline measurement before training begins
+
+Avoiding these mistakes takes a bit of discipline. However, the payoff is a report that leadership can actually trust.
+
+## **A Simple Step-by-Step Process to Calculate Training ROI**
+
+If you want a clear path forward, follow these steps.
+
+1. Set a clear goal for the training program before it starts
+2. Measure baseline performance before training begins
+3. Track full training costs, including time, materials, and tools
+4. Measure performance again after training, using the same metrics
+5. Calculate the net benefit by subtracting costs from gains
+6. Divide the net benefit by total costs and multiply by one hundred
+7. Share results clearly, using simple charts where possible
+
+This process works whether you run a small workshop or a large company-wide program across multiple offices in the USA.
+
+## **Final Thoughts on Measuring Training ROI**
+
+Measuring training ROI does not need to feel complicated. With the right calculator and a clear process, you can turn training from a guessing game into a data-backed decision. Start small if needed. Track one program fully, learn from it, then expand your approach across the company.
+
+As your training programs grow, the tools and data behind them matter more than ever. Choosing the right platform, the right data standards, and the right reporting habits will save you time and build trust with leadership for years to come.
