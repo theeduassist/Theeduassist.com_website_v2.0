@@ -7,33 +7,33 @@ City | URL | Index Status | FAQ Count | LMS Section | Local Intro | CTA | Intern
 New York | /locations/new-york-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
 London | /locations/london-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
 Dubai | /locations/dubai-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
-Sydney | /locations/sydney-elearning-development | index | 15 | Yes | Yes | Yes | Yes | ready to index
-Toronto | /locations/toronto-elearning-development | index | 15 | Yes | Yes | Yes | Yes | ready to index
-Singapore | /locations/singapore-elearning-development | index | 15 | Yes | Yes | Yes | Yes | ready to index
-Riyadh | /locations/riyadh-elearning-development | index | 15 | Yes | Yes | Yes | Yes | ready to index
-Los Angeles | /locations/los-angeles-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
-Chicago | /locations/chicago-elearning-development | index | 15 | Yes | Yes | Yes | Yes | ready to index
-Melbourne | /locations/melbourne-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
-San Francisco | /locations/san-francisco-elearning-development | index | 15 | Yes | Yes | Yes | Yes | ready to index
+Sydney | /locations/sydney-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Toronto | /locations/toronto-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Singapore | /locations/singapore-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Riyadh | /locations/riyadh-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Los Angeles | /locations/los-angeles-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Chicago | /locations/chicago-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Melbourne | /locations/melbourne-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+San Francisco | /locations/san-francisco-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
 Vancouver | /locations/vancouver-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
 Doha | /locations/doha-elearning-development | index | 15 | Yes | Yes | Yes | Yes | ready to index
 Abu Dhabi | /locations/abu-dhabi-elearning-development | index | 15 | Yes | Yes | Yes | Yes | ready to index
 Jeddah | /locations/jeddah-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
-Karachi | /locations/karachi-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
-Lahore | /locations/lahore-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
-Islamabad | /locations/islamabad-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
-Mumbai | /locations/mumbai-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
-Berlin | /locations/berlin-elearning-development | index | 15 | Yes | Yes | Yes | Yes | ready to index
-Paris | /locations/paris-elearning-development | index | 15 | Yes | Yes | Yes | Yes | ready to index
-Amsterdam | /locations/amsterdam-elearning-development | index | 15 | Yes | Yes | Yes | Yes | ready to index
+Karachi | /locations/karachi-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Lahore | /locations/lahore-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Islamabad | /locations/islamabad-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Mumbai | /locations/mumbai-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Berlin | /locations/berlin-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Paris | /locations/paris-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Amsterdam | /locations/amsterdam-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
 Dublin | /locations/dublin-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
 Johannesburg | /locations/johannesburg-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
 Cape Town | /locations/cape-town-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
 Kuala Lumpur | /locations/kuala-lumpur-elearning-development | index | 14 | Yes | Yes | Yes | Yes | ready to index
 Tokyo | /locations/tokyo-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
 Seoul | /locations/seoul-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
-Lahore | /locations/lahore-pk-elearning-development | noindex | 5 | Yes | Yes | Yes | Yes | Needs more FAQs (has 5)
-Karachi | /locations/karachi-pk-elearning-development | noindex | 5 | Yes | Yes | Yes | Yes | Needs more FAQs (has 5)
+Lahore | /locations/lahore-pk-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
+Karachi | /locations/karachi-pk-elearning-development | index | 10 | Yes | Yes | Yes | Yes | ready to index
 Manchester | /locations/manchester-elearning-development | noindex | 14 | No | No | Yes | No | Ready but marked noindex
 Zurich | /locations/zurich-elearning-development | index | 15 | No | No | Yes | No | ready to index
 
@@ -112,6 +112,7 @@ Duplicate local needs in Izmir (same as Izmir)
 [Melbourne] contains risky phrase: "Draft"
 [Melbourne] contains risky phrase: "Internal"
 [San Francisco] contains risky phrase: "Draft"
+[San Francisco] contains risky phrase: "Private"
 [San Francisco] contains risky phrase: "Internal"
 [Vancouver] contains risky phrase: "Draft"
 [Vancouver] contains risky phrase: "Internal"
@@ -122,6 +123,7 @@ Duplicate local needs in Izmir (same as Izmir)
 [Jeddah] contains risky phrase: "Draft"
 [Jeddah] contains risky phrase: "Internal"
 [Karachi] contains risky phrase: "Draft"
+[Karachi] contains risky phrase: "Admin"
 [Karachi] contains risky phrase: "Internal"
 [Lahore] contains risky phrase: "Draft"
 [Lahore] contains risky phrase: "Internal"
@@ -155,5 +157,5 @@ Duplicate local needs in Izmir (same as Izmir)
 [Zurich] contains risky phrase: "Draft"
 [Zurich] contains risky phrase: "Internal"
 
-Total Tier 1 Cities ready to index: 30
-Total Tier 1 Cities needing improvement: 2
+Total Tier 1 Cities ready to index: 32
+Total Tier 1 Cities needing improvement: 0
