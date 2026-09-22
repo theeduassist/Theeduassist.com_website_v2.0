@@ -137,7 +137,7 @@ sources:
     url: https://www.w3.org/WAI/test-evaluate/preliminary/
     accessedAt: 2026-09-20
 ---
-# ADA and WCAG Compliance for eLearning: A Simple Self-Audit Checklist
+## ADA and WCAG Compliance for eLearning: A Simple Self-Audit Checklist
 
 Online training is growing fast across the USA. Yet many companies still ignore one important question. Can every learner actually use their course? This includes people who are blind, deaf, or have motor or cognitive challenges. If the answer is no, the course is not compliant. It may also break the law.
 

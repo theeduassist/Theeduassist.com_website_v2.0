@@ -124,7 +124,7 @@ editorialManagement:
   lastReviewedDate: 2026-09-19
   nextReviewDate: 2026-09-19
 ---
-# Choosing Between an LXP and LMS: Everything You Need to Know
+## Choosing Between an LXP and LMS: Everything You Need to Know
 
 Training has changed a lot in the last few years. Companies in the USA and across the world no longer want training that feels like homework. They want learning that feels useful, quick, and personal. This shift has put two platforms at the center of every conversation about workforce training. The first is the Learning Management System, known as [LMS](https://www.theeduassist.com/blog/10-strong-reasons-its-time-to-rethink-how-we-use-the-learning-management-system/). The second is the Learning Experience Platform, known as LXP.
 
