@@ -2,7 +2,7 @@
 title: "ADA and WCAG Compliance for eLearning: A Simple Self-Audit Checklist"
 slug: ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist
 featured: false
-excerpt: Learn how to audit ADA and WCAG compliance in eLearning, identify
+excerpt: Learn how to audit ADA and WCAG accessibility standards in eLearning, identify
   accessibility issues, estimate remediation costs, and improve course
   accessibility.
 aiSummary: This guide explains how to conduct a simple ADA and WCAG self-audit

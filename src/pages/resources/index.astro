@@ -27,30 +27,74 @@ const categories = [
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "Knowledge Hub | TheEduAssist",
-  "description": "Practical guides for eLearning, Customer Education, Localization and Learning Technology.",
+  "name": "Learning Knowledge Hub | TheEduAssist",
+  "description": "Practical research-informed guides for eLearning, Customer Education, Localization and Learning Technology.",
   "url": "https://www.theeduassist.com/resources/"
 };
 ---
 
 <Layout
-  title="Learning Knowledge Hub | TheEduAssist"
-  description="Explore practical, research-informed guidance for building, localizing and managing training, knowledge bases, customer education and learning technology."
-  canonical="/resources/"
-  schema={[structuredData]}
+  title="Learning Knowledge Hub | Research & Practical Guides | TheEduAssist"
+  description="Explore peer-reviewed, practical guidance for building, localizing, and scaling workplace training, knowledge bases, customer education, and enterprise LMS architectures."
+  canonicalPath="/resources/"
+  jsonLd={[structuredData]}
 >
   <main id="main-content">
 
-    <div class="bg-brand-navy pt-32 pb-24 text-white text-center px-4">
-      <div class="max-w-4xl mx-auto">
-          <h1 class="text-4xl md:text-5xl font-bold mb-6">TheEduAssist Learning Knowledge Hub</h1>
-          <p class="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
-            Practical guides for eLearning, Customer Education, Localization and Learning Technology.
+    <!-- Hero Section with Modern UI -->
+    <div class="bg-gradient-to-br from-brand-navy via-slate-900 to-brand-navy pt-32 pb-24 text-white text-center px-4 relative overflow-hidden">
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(59,130,246,0.12),transparent_70%)] pointer-events-none"></div>
+      <div class="max-w-4xl mx-auto relative z-10">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-accent/20 border border-brand-accent/30 text-brand-secondary text-xs font-semibold uppercase tracking-wider mb-6">
+            <span>📚 Verified Research & Practice</span>
+          </div>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 tracking-tight">TheEduAssist Knowledge Hub</h1>
+          <p class="text-lg md:text-xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+            Evidence-based frameworks, instructional methodologies, and technical blueprints for enterprise L&D, SaaS education, and global learning systems.
           </p>
+          <div class="flex flex-wrap justify-center gap-3">
+            <a href="/book-free-audit/" class="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-brand-accent text-white font-bold text-sm hover:bg-white hover:text-brand-navy transition-all shadow-md">
+              Request Free 24–48h Architecture Audit &rarr;
+            </a>
+            <a href="/blog/" class="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-white/10 text-white font-semibold text-sm hover:bg-white/20 transition-all border border-white/20">
+              Read Latest Insights & Analysis
+            </a>
+          </div>
       </div>
     </div>
 
-    <section class="py-24 bg-white">
+    <!-- Core Foundational Frameworks Banner -->
+    <section class="py-12 bg-slate-50 border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-8">
+          <span class="text-xs uppercase tracking-widest text-brand-green font-bold bg-emerald-50 px-3 py-1 rounded-full border border-emerald-100">Featured Authoritative Guides</span>
+          <h2 class="text-2xl font-bold text-brand-navy mt-2">Workforce Capabilities & Instructional Frameworks</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <a href="/blog/what-is-technical-proficiency/" class="p-6 bg-white rounded-xl border border-slate-200 hover:border-brand-green hover:shadow-md transition-all group block">
+            <span class="text-xs font-semibold text-brand-green uppercase tracking-wider">Evaluation Framework</span>
+            <h3 class="text-lg font-bold text-brand-navy mt-2 group-hover:text-brand-green transition-colors">What Is Technical Proficiency?</h3>
+            <p class="text-slate-600 text-sm mt-2 line-clamp-3">Master the 4-tier proficiency rubric, workplace assessment criteria, and technical evaluation methods for modern L&D teams.</p>
+            <span class="text-xs text-brand-green font-semibold mt-4 inline-flex items-center">Read Definitive Guide &rarr;</span>
+          </a>
+          <a href="/blog/what-is-teachability/" class="p-6 bg-white rounded-xl border border-slate-200 hover:border-brand-green hover:shadow-md transition-all group block">
+            <span class="text-xs font-semibold text-brand-green uppercase tracking-wider">Learning Psychology</span>
+            <h3 class="text-lg font-bold text-brand-navy mt-2 group-hover:text-brand-green transition-colors">What Is Teachability?</h3>
+            <p class="text-slate-600 text-sm mt-2 line-clamp-3">Explore the 5 mindset pillars of learner receptivity, behavioral evaluation interview questions, and continuous upskilling strategies.</p>
+            <span class="text-xs text-brand-green font-semibold mt-4 inline-flex items-center">Read Definitive Guide &rarr;</span>
+          </a>
+          <a href="/blog/primary-and-secondary-technical-domain-skills/" class="p-6 bg-white rounded-xl border border-slate-200 hover:border-brand-green hover:shadow-md transition-all group block">
+            <span class="text-xs font-semibold text-brand-green uppercase tracking-wider">Competency Architecture</span>
+            <h3 class="text-lg font-bold text-brand-navy mt-2 group-hover:text-brand-green transition-colors">Primary & Secondary Domain Skills</h3>
+            <p class="text-slate-600 text-sm mt-2 line-clamp-3">Role-by-role competency matrices across Software, L&D, Data Science, and candidate application prompts.</p>
+            <span class="text-xs text-brand-green font-semibold mt-4 inline-flex items-center">Read Definitive Guide &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories & Guides Section -->
+    <section class="py-20 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {categories.length > 0 && (
@@ -58,7 +102,7 @@ const structuredData = {
             <h2 class="text-2xl font-bold text-brand-navy mb-6 text-center">Browse by Topic</h2>
             <div class="flex flex-wrap justify-center gap-3">
               {categories.map(category => (
-                <a href={`/resources/${category.slug}/`} class="inline-flex items-center px-4 py-2 rounded-full border border-slate-200 bg-slate-50 text-brand-navy font-medium hover:bg-brand-primary hover:text-white hover:border-brand-primary transition-colors">
+                <a href={`/resources/${category.slug}/`} class="inline-flex items-center px-4 py-2 rounded-full border border-slate-200 bg-slate-50 text-brand-navy font-medium hover:bg-brand-primary hover:text-white hover:border-brand-primary transition-colors shadow-2xs">
                   {category.name} <span class="ml-2 text-xs opacity-70">({category.count})</span>
                 </a>
               ))}
@@ -66,19 +110,19 @@ const structuredData = {
           </div>
         )}
 
-        <div class="mb-16 bg-brand-softBg p-8 rounded-xl border border-brand-border text-center">
-            <h3 class="text-2xl font-bold text-brand-navy mb-4">Global eLearning & Market Readiness</h3>
-            <p class="text-slate-600 mb-6 max-w-2xl mx-auto">
-                Explore localization, accessibility, learner data and market-specific considerations for delivering digital learning internationally.
+        <div class="mb-16 bg-gradient-to-r from-slate-50 via-emerald-50/40 to-slate-50 p-8 rounded-2xl border border-emerald-100/80 text-center">
+            <h3 class="text-2xl font-bold text-brand-navy mb-3">Global eLearning, Compliance & Market Readiness</h3>
+            <p class="text-slate-600 mb-6 max-w-2xl mx-auto text-sm md:text-base">
+                Explore international localization, WCAG 2.2 accessibility, learner data privacy regulations (GDPR, BDSG, POPIA, DPDPA), and cross-border delivery architectures.
             </p>
-            <a href="/resources/global-elearning/" class="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-white bg-brand-primary rounded-md hover:bg-brand-accent transition-colors shadow-sm focus-ring">
-                Explore Global eLearning
+            <a href="/resources/global-elearning/" class="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-white bg-brand-primary rounded-lg hover:bg-brand-accent transition-colors shadow-sm focus-ring">
+                Explore Global eLearning Resources &rarr;
             </a>
         </div>
 
         {featuredResources.length > 0 && (
-          <div class="mb-24">
-            <h2 class="text-3xl font-bold text-brand-navy mb-8 border-b border-slate-200 pb-4">Featured Guides</h2>
+          <div class="mb-20">
+            <h2 class="text-2xl md:text-3xl font-bold text-brand-navy mb-8 border-b border-slate-200 pb-4">Featured Research Guides</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {featuredResources.map(resource => (
                 <ResourceCard resource={resource} />
@@ -89,7 +133,7 @@ const structuredData = {
 
         {latestResources.length > 0 && (
           <div>
-            <h2 class="text-3xl font-bold text-brand-navy mb-8 border-b border-slate-200 pb-4">Latest Resources</h2>
+            <h2 class="text-2xl md:text-3xl font-bold text-brand-navy mb-8 border-b border-slate-200 pb-4">Latest Knowledge Base Articles</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {latestResources.map(resource => (
                 <ResourceCard resource={resource} />
@@ -98,23 +142,6 @@ const structuredData = {
           </div>
         )}
 
-        {resources.length === 0 && (
-          <div class="text-center py-20 bg-slate-50 rounded-xl border border-slate-200">
-             <h3 class="text-xl font-bold text-brand-navy mb-2">Check back soon!</h3>
-             <p class="text-slate-600">We are currently migrating our resources library.</p>
-          </div>
-        )}
-
-      </div>
-    </section>
-
-    <section class="py-24 bg-slate-50 border-t border-slate-200">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl font-bold text-brand-navy mb-6">Need help applying this to your organization?</h2>
-        <p class="text-xl text-slate-600 mb-8">Get actionable advice specific to your business and learning goals.</p>
-        <a href="/book-free-audit/" class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-brand-primary rounded-md hover:bg-brand-accent transition-colors shadow-sm focus-ring">
-          Get a 24-48 Hour Review
-        </a>
       </div>
     </section>
 

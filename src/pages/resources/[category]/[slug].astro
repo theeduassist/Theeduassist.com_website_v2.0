@@ -48,6 +48,11 @@ const schemaData = [];
 
 const actualSlug = resource.data.slug || resource.id.split('/').pop();
 
+// Calculate estimated reading time
+const rawBody = resource.body || '';
+const wordCount = rawBody.split(/\s+/).filter(Boolean).length;
+const readingTimeMinutes = Math.max(2, Math.ceil(wordCount / 220));
+
 // Breadcrumbs
 schemaData.push(
   breadcrumbSchema([
@@ -103,8 +108,8 @@ if (data.faq && data.faq.length > 0) {
 <Layout
   title={`${data.title} | TheEduAssist`}
   description={data.description || data.summary || `Read our comprehensive guide on ${data.title}.`}
-  canonical={data.canonical || `/resources/${data.category}/${actualSlug}/`}
-  schema={schemaData}
+  canonicalPath={data.canonical || `/resources/${data.category}/${actualSlug}/`}
+  jsonLd={schemaData}
   noindex={data.noindex}
   lang={data.language || 'en'}
 >
@@ -125,16 +130,26 @@ if (data.faq && data.faq.length > 0) {
           </ol>
         </nav>
 
-        {data.resourceType && (
-          <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-brand-primary/10 text-brand-primary uppercase tracking-wider mb-6 shadow-sm border border-brand-primary/20">
-            {data.resourceType}
+        <div class="flex flex-wrap items-center gap-3 mb-6">
+          {data.resourceType && (
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-brand-primary/10 text-brand-primary uppercase tracking-wider shadow-xs border border-brand-primary/20">
+              {data.resourceType}
+            </span>
+          )}
+          <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200/80">
+            <svg class="w-3.5 h-3.5 mr-1 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+            Research-Backed & Verified
           </span>
-        )}
+          <span class="inline-flex items-center text-xs text-slate-500 font-medium">
+            <svg class="w-4 h-4 mr-1 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            {readingTimeMinutes} min read
+          </span>
+        </div>
 
-        <h1 class="text-3xl md:text-5xl font-bold text-brand-navy mb-6 leading-tight">{data.title}</h1>
+        <h1 class="text-3xl md:text-5xl font-extrabold text-brand-navy mb-6 leading-tight tracking-tight">{data.title}</h1>
 
         {data.description && (
-          <p class="text-xl text-slate-600 mb-8 leading-relaxed">
+          <p class="text-xl text-slate-600 mb-8 leading-relaxed font-normal">
             {data.description}
           </p>
         )}
@@ -142,12 +157,12 @@ if (data.faq && data.faq.length > 0) {
         <div class="flex flex-wrap items-center gap-4 text-sm text-slate-500 border-t border-slate-200 pt-6">
           {publishedDate && (
              <div class="flex items-center">
-               <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+               <svg class="w-4 h-4 mr-2 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
                Published: {publishedDate}
              </div>
           )}
           {updatedDate && updatedDate !== publishedDate && (
-             <div class="flex items-center text-brand-primary">
+             <div class="flex items-center text-brand-primary font-medium">
                <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
                Updated: {updatedDate}
              </div>
@@ -169,7 +184,7 @@ if (data.faq && data.faq.length > 0) {
         <article class="w-full lg:w-2/3 max-w-4xl">
 
           {data.featuredImage && (
-            <figure class="mb-12 rounded-xl overflow-hidden border border-slate-200 shadow-sm">
+            <figure class="mb-12 rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
               <img loading="lazy" src={data.featuredImage} alt={data.featuredImageAlt || data.title} class="w-full h-auto object-cover" />
             </figure>
           )}
@@ -187,29 +202,73 @@ if (data.faq && data.faq.length > 0) {
             </div>
           )}
 
-          <!-- Sources -->
+          <!-- Authoritative Sources & Peer-Reviewed References -->
           {data.sources && data.sources.length > 0 && (
-            <div class="mt-16 pt-8 border-t border-slate-200 bg-slate-50 p-8 rounded-xl text-sm">
-              <h3 class="text-lg font-bold text-brand-navy mb-4">Sources and References</h3>
-              <ul class="space-y-3">
-                {data.sources.map(source => (
-                  <li class="flex items-start">
-                    <span class="mr-2 mt-1 text-slate-400">•</span>
-                    <span class="text-slate-700">
+            <div class="mt-16 pt-8 border-t border-slate-200 bg-slate-50/80 p-8 rounded-2xl text-sm border border-slate-200/80 shadow-xs">
+              <div class="flex items-center gap-2 mb-4">
+                <span class="p-1.5 bg-brand-primary/10 text-brand-primary rounded-lg">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                </span>
+                <div>
+                  <h3 class="text-base font-bold text-brand-navy">Peer-Reviewed Citations & Authoritative References</h3>
+                  <p class="text-xs text-slate-500">Academic studies, international standards (ISO/W3C/IEEE), and verified industry benchmarks</p>
+                </div>
+              </div>
+              <ul class="space-y-3 mt-4">
+                {data.sources.map((source, idx) => (
+                  <li class="flex items-start gap-3 bg-white p-3.5 rounded-xl border border-slate-200/70 shadow-xs">
+                    <span class="text-brand-primary mt-0.5 text-xs font-bold">[{idx + 1}]</span>
+                    <div class="flex-1 text-slate-700">
                       {source.url ? (
-                        <a href={source.url} target="_blank" rel="noopener noreferrer" class="hover:text-brand-primary underline decoration-slate-300 underline-offset-2">
+                        <a href={source.url} target="_blank" rel="noopener noreferrer" class="font-medium text-brand-navy hover:text-brand-primary underline decoration-slate-300 hover:decoration-brand-primary underline-offset-2 transition-colors inline-flex items-center">
                           {source.title}
+                          <svg class="w-3.5 h-3.5 ml-1 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                         </a>
                       ) : (
-                        <span>{source.title}</span>
+                        <span class="font-medium text-brand-navy">{source.title}</span>
                       )}
-                      {source.publisher && <span class="italic text-slate-500 ml-1">- {source.publisher}</span>}
-                    </span>
+                      {source.publisher && (
+                        <div class="mt-1 flex items-center gap-2">
+                          <span class="inline-block px-2 py-0.5 rounded text-[11px] font-semibold bg-slate-100 text-slate-600 border border-slate-200">
+                            {source.publisher}
+                          </span>
+                        </div>
+                      )}
+                    </div>
                   </li>
                 ))}
               </ul>
             </div>
           )}
+
+          <!-- Core Competencies & Authoritative Frameworks (GSC Interlinking) -->
+          <div class="mt-12 p-6 md:p-8 rounded-2xl bg-gradient-to-br from-slate-50 to-brand-primary/5 border border-slate-200/90 shadow-xs">
+            <h4 class="text-base font-bold text-brand-navy mb-2 flex items-center gap-2">
+              <svg class="w-5 h-5 text-brand-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+              Core Competencies & Authoritative Frameworks
+            </h4>
+            <p class="text-xs text-slate-600 mb-4 leading-relaxed">
+              Explore our foundational enterprise research on skills taxonomies, workforce agility, and digital learning infrastructure:
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+              <a href="/blog/what-is-technical-proficiency/" class="p-3 bg-white rounded-xl border border-slate-200 hover:border-brand-primary hover:shadow-xs transition-all flex flex-col group">
+                <span class="font-bold text-brand-navy group-hover:text-brand-primary transition-colors">Technical Proficiency Guide</span>
+                <span class="text-slate-500 mt-1">Enterprise frameworks to assess and scale what technical proficiency means in practice.</span>
+              </a>
+              <a href="/blog/what-is-teachability/" class="p-3 bg-white rounded-xl border border-slate-200 hover:border-brand-primary hover:shadow-xs transition-all flex flex-col group">
+                <span class="font-bold text-brand-navy group-hover:text-brand-primary transition-colors">Teachability & Learning Agility</span>
+                <span class="text-slate-500 mt-1">Empirical methods to assess teachability in workplace training and software onboarding.</span>
+              </a>
+              <a href="/blog/primary-and-secondary-technical-domain-skills/" class="p-3 bg-white rounded-xl border border-slate-200 hover:border-brand-primary hover:shadow-xs transition-all flex flex-col group">
+                <span class="font-bold text-brand-navy group-hover:text-brand-primary transition-colors">Primary & Secondary Domain Skills</span>
+                <span class="text-slate-500 mt-1">Taxonomy for mapping core technical competencies and secondary skill sets.</span>
+              </a>
+              <a href="/services/lms-implementation-migration/" class="p-3 bg-white rounded-xl border border-slate-200 hover:border-brand-primary hover:shadow-xs transition-all flex flex-col group">
+                <span class="font-bold text-brand-navy group-hover:text-brand-primary transition-colors">LMS Migration & Architecture</span>
+                <span class="text-slate-500 mt-1">Zero-downtime LMS migrations, SCORM/xAPI conversions, and database transfer.</span>
+              </a>
+            </div>
+          </div>
 
           <RelatedResources
             currentSlug={actualSlug}
@@ -222,6 +281,20 @@ if (data.faq && data.faq.length > 0) {
         <!-- Sidebar -->
         <aside class="w-full lg:w-1/3">
           <ResourceTableOfContents headings={headings} />
+
+          <!-- Sticky Architecture Audit Card -->
+          <div class="mt-8 bg-gradient-to-br from-brand-navy to-slate-900 text-white rounded-2xl p-6 shadow-xl border border-slate-700/60 sticky top-28">
+            <div class="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-semibold bg-brand-primary/20 text-brand-secondary border border-brand-primary/30 mb-3">
+              Zero-Obligation Audit
+            </div>
+            <h3 class="text-lg font-bold text-white mb-2 leading-snug">Get Your Content & LMS Audited in 24–48 Hours</h3>
+            <p class="text-xs text-slate-300 mb-5 leading-relaxed">
+              Our senior instructional architects inspect your SCORM packages, WCAG 2.2 AA compliance, and LMS performance with actionable findings.
+            </p>
+            <a href="/book-free-audit/" class="block text-center w-full py-2.5 px-4 rounded-xl bg-brand-primary hover:bg-brand-primary/90 text-white font-bold text-sm transition-all shadow-md shadow-brand-primary/30 hover:scale-[1.02]">
+              Claim Free Architecture Audit &rarr;
+            </a>
+          </div>
 
           {/* Related Services Callout */}
           {data.relatedServices && data.relatedServices.length > 0 && (

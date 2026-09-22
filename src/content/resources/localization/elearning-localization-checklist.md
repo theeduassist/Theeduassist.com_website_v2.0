@@ -15,64 +15,87 @@ searchIntent: "Informational"
 relatedServices:
   - "course-localization-translation"
   - "elearning-localization-implementation"
+  - "lms-implementation-migration"
+sources:
+  - title: "ISO 17100:2015 Translation Services — Quality Requirements"
+    url: "https://www.iso.org/standard/59149.html"
+    publisher: "International Organization for Standardization (ISO)"
+  - title: "SCORM 2004 4th Edition Conformance and Metadata Standards"
+    url: "https://adlnet.gov/projects/scorm/"
+    publisher: "Advanced Distributed Learning (ADL) Initiative"
+  - title: "XLIFF 2.1 Core Specification & Structural Representation"
+    url: "https://docs.oasis-open.org/xliff/xliff-core/v2.1/xliff-core-v2.1.html"
+    publisher: "OASIS Open Standards"
+  - title: "ISO/IEC 2382-36:2019 Information Technology for Learning, Education and Training"
+    url: "https://www.iso.org/standard/74211.html"
+    publisher: "ISO / IEC"
 ---
 
 ## The Complete eLearning Localization Checklist
 
-Successfully localizing a digital course requires strict process management. Use this checklist to track your project from source preparation to final Learning Management System (LMS) launch.
+Successfully executing a multilingual course localization rollout requires rigorous engineering and quality management. Adhering to international standards such as **ISO 17100:2015** (Translation Services) and **ADL SCORM 2004 4th Edition**, this verification checklist guides enterprise teams from raw asset extraction through Learning Management System (LMS) staging.
+
+For strategic background on linguistic vs. cultural adaptation, consult our comprehensive guide on [what is eLearning localization](/resources/localization/what-is-elearning-localization/).
 
 ---
 
-### Phase 1: Source Preparation & Auditing
+### Phase 1: Source Course Lock & Asset Extraction
 
-Before any translation begins, ensure the English (or source language) course is finalized and ready for the localization workflow.
+Before initiating translation, the master English course must be frozen to prevent version divergence:
 
-*   [ ] **Lock the Source Course:** Ensure all stakeholders have signed off on the source course. No further content changes should be made to the English version.
-*   [ ] **Create the Localization Inventory:** Document everything that needs translating (on-screen text, notes, audio scripts, images with text, UI labels).
-*   [ ] **Extract Text:** Export text from the authoring tool (e.g., XLIFF or Word format).
-*   [ ] **Gather Source Assets:** Collect all original `.psd`, `.ai`, or `.prproj` files for graphics and videos that need adaptation.
-*   [ ] **Create a Pronunciation Glossary:** Document how product names, acronyms, and company jargon should be handled (translated or left in English).
-
----
-
-### Phase 2: Translation & Review
-
-*   [ ] **Provide Context:** Send the exported text, the glossary, and a published version of the source course to the translation team so they understand the context.
-*   [ ] **Linguistic Review (Spreadsheet):** Have an internal Subject Matter Expert (SME) review the translated text *before* it is implemented into the course. Fixing text in a spreadsheet is much cheaper than fixing it in Storyline.
+* [ ] **Source Course Lock:** Secure final stakeholder sign-off on the master English course. Enforce a zero-edit policy on the master module during translation.
+* [ ] **Localization Inventory & Audit:** Catalog every text element, including slide layers, audio transcripts, closed caption files, notes tabs, and system feedback alerts.
+* [ ] **Clean String Extraction (OASIS XLIFF):** Export all translatable strings into standardized **XLIFF 2.1** containers.
+* [ ] **Multimedia Asset Package:** Gather original source project files (`.psd`, `.ai`, `.prproj`, `.aep`) for graphics and embedded video assets that require localized replacement.
+* [ ] **Corporate Lexicon & Pronunciation Glossary:** Standardize non-translatable branded terms, acronyms, and product vocabulary to preserve technical consistency.
 
 ---
 
-### Phase 3: Technical Implementation
+### Phase 2: Translation, Terminology & SME Review
 
-*   [ ] **Duplicate the Course:** Create a clean copy of the `.story` or Rise file for the target language.
-*   [ ] **Import Text:** Import the translated XLIFF/Word file into the duplicated course.
-*   [ ] **Adjust Layouts (Text Expansion):** Review every slide. Adjust font sizes and text boxes to fix overlaps caused by text expansion (or contraction).
-*   [ ] **Translate Player Labels:** Change the authoring tool's built-in player labels (Next, Prev, Submit) to the target language.
-*   [ ] **Update Variables & Triggers:** Ensure any text-based variables or triggers still function correctly with the newly imported text.
+* [ ] **Linguistic Context Package:** Provide linguists with the XLIFF strings, the approved terminology glossary, and a compiled review link of the English course to ensure in-context comprehension.
+* [ ] **Linguistic Pre-Import Validation:** Have a native Subject Matter Expert (SME) validate translations in spreadsheet format before importing back into the authoring environment. Rectifying translation ambiguities in table format saves 70% of engineering rework.
+* [ ] **Domain Skill Terminology Check:** Verify that technical terms reflect local operational standards, ensuring consistency with [primary and secondary technical domain skills](/blog/primary-and-secondary-technical-domain-skills/) across regional subsidiaries.
 
 ---
 
-### Phase 4: Multimedia Adaptation
+### Phase 3: Course Re-Engineering & Layout DTP
 
-*   [ ] **Replace Images:** Swap source images containing English text with localized graphics.
-*   [ ] **Record/Generate Audio:** Produce human voiceover or AI narration using the translated script.
-*   [ ] **Sync Audio:** Import the localized audio and adjust the entrance/exit timings of on-screen animations to match the new audio length.
-*   [ ] **Implement Subtitles:** Upload translated VTT/SRT files to all videos.
-
----
-
-### Phase 5: Multi-Layered Quality Assurance (QA)
-
-*   [ ] **Visual QA:** Check for cut-off text, broken fonts, overlapping elements, and correct right-to-left formatting (if applicable).
-*   [ ] **Functional QA:** Test all interactions—click every button, open every layer, and complete every drag-and-drop.
-*   [ ] **In-Context Linguistic QA:** Have a native speaker review the published course to ensure the translations make sense within the visual context of the slides.
+* [ ] **Course Branching & Clones:** Clone master `.story` or Rise project files into distinct language-specific repositories.
+* [ ] **XLIFF Re-Importation:** Import translated XML/XLIFF files into the cloned authoring course.
+* [ ] **Layout Desktop Publishing (DTP) for Text Expansion:** Review every slide. Expand text box boundaries, re-center graphic callouts, and re-format typography to accommodate 25%–35% text expansion (common in German, French, and Russian).
+* [ ] **Player Profile & Navigation Localization:** Change authoring tool player chrome strings (Next, Previous, Menu, Notes, Resources, Submit) to the target language. For software-specific configuration, review our [Storyline localization guide](/resources/localization/storyline-localization-guide/) and [Rise 360 localization guide](/resources/localization/rise-360-localization-guide/).
+* [ ] **Variable & Trigger Logic Verification:** Inspect numerical, Boolean, and text variables to ensure branching conditions trigger properly under localized strings.
 
 ---
 
-### Phase 6: LMS Publishing & Final Testing
+### Phase 4: Multimedia Adaptation & Audio Syncing
 
-*   [ ] **Publish SCORM/xAPI:** Export the localized course using the correct LMS standard.
-*   [ ] **LMS Testing:** Upload the package to a staging environment in your LMS.
-*   [ ] **Verify Tracking:** Test that the course launches correctly in the target language.
-*   [ ] **Verify Scoring:** Complete a quiz and verify that the correct score and completion status are recorded in the LMS database.
-*   [ ] **Go Live:** Roll the course out to the target audience.
+* [ ] **Localized Asset Injection:** Replace English screenshots and diagrams with localized UI screen captures.
+* [ ] **Voiceover Audio Production:** Record studio talent or synthesize high-fidelity multilingual neural voiceovers using timed scripts.
+* [ ] **Timeline Cue-Point Re-Alignment:** Adjust timeline triggers and slide entrance animations to synchronize with the natural pacing of the localized voiceover.
+* [ ] **Synchronized Subtitles (WebVTT/SRT):** Upload localized `.vtt` caption tracks to all video players to maintain WCAG 2.2 AA accessibility compliance.
+
+---
+
+### Phase 5: Multi-Layer Quality Assurance (QA)
+
+* [ ] **Visual QA Inspection:** Verify that no strings overflow containers, line breaks respect hyphenation rules, and Right-to-Left (RTL) scripts (such as Arabic and Hebrew) mirror correctly.
+* [ ] **Functional QA Testing:** Test all interactive components—click every hotspot, expand accordions, test tab interactions, and verify drag-and-drop operations.
+* [ ] **In-Context Linguistic QA:** A native speaker reviews the compiled module in motion to catch contextual discrepancies, awkward idioms, or misplaced callout tags.
+
+---
+
+### Phase 6: LMS Staging, Telemetry & Launch
+
+* [ ] **SCORM / xAPI Manifest Packaging:** Export packages using the required LMS standard (SCORM 1.2, SCORM 2004, or xAPI/cmi5).
+* [ ] **Sandbox LMS Staging:** Upload the localized zip package into a staging environment within your target Learning Management System.
+* [ ] **Completion & Bookmarking Verification:** Test suspend data, lesson bookmarking, resume states, and multi-session tracking across browsers.
+* [ ] **Gradebook & Assessment Telemetry:** Complete knowledge checks to verify that passing scores and pass/fail statuses transmit accurately to the LMS database.
+* [ ] **Workforce Competency Verification:** Roll out modules to regional teams to accelerate global [technical proficiency](/blog/what-is-technical-proficiency/) and enhance organizational [teachability](/blog/what-is-teachability/).
+
+---
+
+## Enterprise Localization & LMS Engineering
+
+Executing seamless course localizations across dozens of language pairs demands specialized technical tooling and QA. Explore our end-to-end [eLearning localization and translation services](/services/course-localization-translation/) and our specialized [LMS implementation and migration services](/services/lms-implementation-migration/) to ensure global deployment success.
