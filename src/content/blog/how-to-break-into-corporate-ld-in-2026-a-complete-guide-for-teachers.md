@@ -96,7 +96,7 @@ This differs from a classroom setting. It is not about being "nice" or following
 
 ## Resumes Are Not as Important as Portfolios
 
-In corporate L&D, your portfolio speaks louder than your CV. Hiring managers seek problem-solving evidence rather than educational qualifications. Your portfolio should demonstrate:
+In corporate L&D, your portfolio speaks louder than your CV. Hiring managers seek problem-solving evidence and demonstrable [technical proficiency](/blog/what-is-technical-proficiency/) in authoring suites and LMS platforms rather than theoretical qualifications. Your portfolio should articulate your [primary and secondary technical domain skills](/blog/primary-and-secondary-technical-domain-skills/) while proving your personal [teachability and learning agility](/blog/what-is-teachability/) across corporate sprints. Your portfolio should demonstrate:
 
 - Mobile-first design and microlearning
 - Performance tools usable in the flow of work

@@ -188,9 +188,9 @@ The right content reaches learners at the right time, reducing cognitive overloa
 
 ### **2. Skills Intelligence and Skills Based Learning Models**
 
-AI insights help organizations move away from traditional course catalogs toward learning ecosystems built around skills. AI compares current workforce competencies against future job demands to identify gaps.
+AI insights help organizations move away from traditional course catalogs toward learning ecosystems built around skills. AI compares current workforce competencies against future job demands to identify gaps, systematically mapping [primary and secondary technical domain skills](/blog/primary-and-secondary-technical-domain-skills/) across departments.
 
-This insight driven strategy allows L&D teams to focus on high impact skills and design targeted learning interventions aligned with business strategy.
+This insight-driven strategy allows L&D teams to focus on high-impact competencies, objectively [measure technical proficiency levels](/blog/what-is-technical-proficiency/), and foster organizational [teachability and learning agility](/blog/what-is-teachability/) to prepare teams for automated workflows.
 
 ### **3. AI Powered Content Generation and Instructional Design**
 
