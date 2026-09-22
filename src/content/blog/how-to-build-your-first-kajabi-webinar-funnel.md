@@ -92,7 +92,7 @@ keyTakeaways:
   - Before building the funnel, define the webinar topic, audience, event
     details, hosting platform, and desired post-webinar action.
 ---
-# What is a Kajabi Webinar funnel:
+## What is a Kajabi Webinar funnel:
 
 A Kajabi webinar funnel is the journey you create to take someone from discovering your webinar to actually signing up, attending it, and taking the next step afterward. Instead of treating the webinar as a one-time event, the funnel connects each part of the experience—from the registration page and reminder emails to the webinar and follow-up offer.
 

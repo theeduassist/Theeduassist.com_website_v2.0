@@ -43,6 +43,114 @@ export const redirects: RedirectRule[] = [
     targetExists: true
   },
   {
+    from: "/mobile-learning-solutions/",
+    to: "/services/course-development/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy mobile learning URL redirected to course development service",
+    sourceGroup: "oldService",
+    targetExists: true
+  },
+  {
+    from: "/elearninglocalization-services/",
+    to: "/services/course-localization-translation/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy localization URL redirected to localization service",
+    sourceGroup: "oldService",
+    targetExists: true
+  },
+  {
+    from: "/rapid-elearning-development-services/",
+    to: "/services/course-development/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy rapid elearning URL redirected to course development service",
+    sourceGroup: "oldService",
+    targetExists: true
+  },
+  {
+    from: "/off-the-shelf-elearning/",
+    to: "/services/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy off-the-shelf URL redirected to services hub",
+    sourceGroup: "oldService",
+    targetExists: true
+  },
+  {
+    from: "/technical-proficiency-definition/",
+    to: "/blog/what-is-technical-proficiency/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy technical proficiency definition redirected to pillar article",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
+    from: "/what-is-technical-proficiency-and-why-is-it-important/",
+    to: "/blog/what-is-technical-proficiency/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy technical proficiency article redirected to pillar article",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
+    from: "/2025/07/technical-proficiency-definition/",
+    to: "/blog/what-is-technical-proficiency/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy dated technical proficiency URL redirected to pillar article",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
+    from: "/blog/teachability/",
+    to: "/blog/what-is-teachability/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy teachability URL redirected to pillar article",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
+    from: "/2025/07/list-your-primary-and-secondary-technical-domain-skills/",
+    to: "/blog/primary-and-secondary-technical-domain-skills/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy domain skills URL redirected to pillar article",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
+    from: "/technical-skills-for-your-resume/",
+    to: "/blog/primary-and-secondary-technical-domain-skills/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy technical skills resume URL redirected to pillar article",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
+    from: "/mobile-apps-for-math-problem-solving-practice-in-2025/",
+    to: "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy math apps URL redirected to educational content guide",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
+    from: "/2025/07/mobile-apps-for-math-problem-solving-practice/",
+    to: "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Legacy dated math apps URL redirected to educational content guide",
+    sourceGroup: "oldBlog",
+    targetExists: true
+  },
+  {
     from: "/kajabi-virtual-assistant-services/",
     to: "/kajabi-services/",
     status: "ready",

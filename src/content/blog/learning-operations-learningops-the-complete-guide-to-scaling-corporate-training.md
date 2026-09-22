@@ -132,7 +132,7 @@ editorialManagement:
   lastReviewedDate: 2026-09-11
   nextReviewDate: 2026-09-11
 ---
-# Learning Operations (LearningOps): The Complete Guide to Scaling Corporate Training
+## Learning Operations (LearningOps): The Complete Guide to Scaling Corporate Training
 
 ## Learning Operations (LearningOps):
 

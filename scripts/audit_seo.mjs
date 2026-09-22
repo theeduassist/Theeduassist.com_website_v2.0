@@ -52,7 +52,7 @@ async function main() {
   for (const city of cities) {
       if (city.indexStatus === 'index') {
           indexCount++;
-          const faqCount = city.faqs ? city.faqs.length : 0;
+          const faqCount = (city.faqQuestions && city.faqQuestions.length > 0) ? city.faqQuestions.length : (city.faqs ? city.faqs.length : 0);
           if (faqCount < 10) {
              incompleteButIndexed.push(city.cityName);
           }

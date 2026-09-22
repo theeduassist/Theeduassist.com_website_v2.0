@@ -43,7 +43,7 @@ async function main() {
     "Riyadh", "Doha", "Abu Dhabi", "Jeddah", "Manchester", "Vancouver", "Los Angeles",
     "San Francisco", "Chicago", "Dublin", "Berlin", "Amsterdam", "Paris", "Zurich",
     "Kuala Lumpur", "Mumbai", "Bangalore", "Karachi", "Lahore", "Islamabad", "Cape Town",
-    "Johannesburg"
+    "Johannesburg", "Tokyo", "Seoul"
   ];
 
   const duplicateContentRisks = [];
@@ -107,7 +107,7 @@ async function main() {
      if (tier1Cities.includes(name)) {
         let verdict = "ready to index";
         const isIndex = city.indexStatus === "index";
-        const faqCount = city.faqs ? city.faqs.length : 0;
+        const faqCount = (city.faqQuestions && city.faqQuestions.length > 0) ? city.faqQuestions.length : (city.faqs ? city.faqs.length : 0);
         const hasLMS = city.commonlyUsedLMSPlatforms ? "Yes" : "No";
         const hasIntro = city.shortHero ? "Yes" : "No";
         const hasCTA = "Yes"; // assume CTA in template

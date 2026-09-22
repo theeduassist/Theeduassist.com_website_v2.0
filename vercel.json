@@ -221,6 +221,76 @@
       "source": "/blog/internal-academy-software-15-must-have-features-in-2026/",
       "destination": "/blog/internal-academy-software-features-2026/",
       "permanent": true
+    },
+    {
+      "source": "/custom-elearning-content-development/",
+      "destination": "/services/course-development/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-learning-solutions/",
+      "destination": "/services/course-development/",
+      "permanent": true
+    },
+    {
+      "source": "/elearninglocalization-services/",
+      "destination": "/services/course-localization-translation/",
+      "permanent": true
+    },
+    {
+      "source": "/lms-integration-migration-services/",
+      "destination": "/services/lms-implementation-migration/",
+      "permanent": true
+    },
+    {
+      "source": "/rapid-elearning-development-services/",
+      "destination": "/services/course-development/",
+      "permanent": true
+    },
+    {
+      "source": "/off-the-shelf-elearning/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/technical-proficiency-definition/",
+      "destination": "/blog/what-is-technical-proficiency/",
+      "permanent": true
+    },
+    {
+      "source": "/what-is-technical-proficiency-and-why-is-it-important/",
+      "destination": "/blog/what-is-technical-proficiency/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/technical-proficiency-definition/",
+      "destination": "/blog/what-is-technical-proficiency/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/teachability/",
+      "destination": "/blog/what-is-teachability/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/list-your-primary-and-secondary-technical-domain-skills/",
+      "destination": "/blog/primary-and-secondary-technical-domain-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/technical-skills-for-your-resume/",
+      "destination": "/blog/primary-and-secondary-technical-domain-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-apps-for-math-problem-solving-practice-in-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/mobile-apps-for-math-problem-solving-practice/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
     }
   ],
   "routes": [

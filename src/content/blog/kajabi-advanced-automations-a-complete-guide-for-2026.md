@@ -148,7 +148,7 @@ This type of segmentation can be useful for:
 - Training organizations
 - Digital-product businesses
 
-# How Kajabi Advanced Automations Work
+## How Kajabi Advanced Automations Work
 
 A useful automation normally contains several components.
 
@@ -224,7 +224,7 @@ This can be useful for:
 - Delayed offers
 - Drip-style content
 
-# 7 Practical Kajabi Advanced Automation Examples
+## 7 Practical Kajabi Advanced Automation Examples
 
 ## 1. Lead Magnet Welcome Sequence
 
@@ -323,7 +323,7 @@ For example, the message might provide a useful resource, ask for feedback, or e
 
 The exact workflow should depend on why the customer canceled and what products or services you offer.
 
-# How to Create a Kajabi Advanced Automation
+## How to Create a Kajabi Advanced Automation
 
 ## Step 1: Define the Goal
 
@@ -403,7 +403,7 @@ Check:
 
 Testing is especially important when the workflow contains multiple conditions.
 
-# Kajabi Advanced Automation Best Practices
+## Kajabi Advanced Automation Best Practices
 
 ## Keep Your Workflow Organized
 
@@ -450,7 +450,7 @@ Before creating a new automation, check whether an existing workflow already han
 
 This can prevent unnecessary complexity.
 
-# Kajabi Advanced Automations and Sales Funnels
+## Kajabi Advanced Automations and Sales Funnels
 
 Automation works especially well when it is connected to a clear funnel.
 
@@ -462,7 +462,7 @@ For example, TheEduAssist's **[Kajabi Funnel Builder guide](https://chatgpt.com/
 
 You can also explore **[Kajabi sales automation](https://chatgpt.com/blog/kajabi-sales-automation-why-your-sales-funnel-is-broken-and-how-to-fix-it/)** for more information about automated follow-ups and customer journeys.
 
-# Kajabi Automations for SEO and Content Marketing
+## Kajabi Automations for SEO and Content Marketing
 
 Automation and SEO serve different purposes, but they can work together.
 
@@ -482,7 +482,7 @@ This is why content strategy should be connected with your funnel rather than tr
 
 If you're building a content strategy around Kajabi, see our guide to **[Kajabi Blogging Strategy](https://chatgpt.com/blog/kajabi-blogging-strategy/)**.
 
-# Common Kajabi Automation Mistakes
+## Common Kajabi Automation Mistakes
 
 ## Creating Automation Without a Goal
 
@@ -508,7 +508,7 @@ A workflow can work for one customer segment but behave differently for another.
 
 Test each important path before activation.
 
-# Frequently Asked Questions
+## Frequently Asked Questions
 
 ## What are Kajabi Advanced Automations?
 
@@ -534,7 +534,7 @@ Yes. Advanced Automations provide an “Only If” condition that can filter an 
 
 They can be useful when course creators need to personalize communication based on customer actions, conditions, timing, purchases, or engagement.
 
-# Final Thoughts
+## Final Thoughts
 
 Kajabi Advanced Automations can help course creators, coaches, consultants, and membership businesses reduce repetitive manual work and create more structured customer journeys.
 
