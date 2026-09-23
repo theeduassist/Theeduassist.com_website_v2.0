@@ -63,7 +63,7 @@ faqs:
       proficiency measures the depth, speed, autonomy, and accuracy with which
       an individual executes that skill in live professional environments.
   - question: What are the main levels of technical proficiency?
-    answer: >-
+    answer: >+
       Proficiency is typically categorized into four progressive tiers:1.
       **Fundamental / Beginner:** Understands terminology, performs basic tasks
       with step-by-step guidance.
@@ -72,13 +72,12 @@ faqs:
       2. **Intermediate:** Performs standard operational workflows
       independently, troubleshoots common errors.
 
-
       3. **Advanced:** Solves complex, non-routine problems, optimizes
       performance, and mentors others.
 
-
       4. **Expert / Master:** Architects new technical systems, establishes
       enterprise governance, and leads organizational innovation.
+
   - question: How can companies train employees on new technical proficiencies faster?
     answer: By implementing modular microlearning, interactive software simulations,
       real-world sandboxes, and continuous performance support job aids. Explore
