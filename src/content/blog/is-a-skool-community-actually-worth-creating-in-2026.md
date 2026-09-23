@@ -21,8 +21,8 @@ tags:
   - Online Learning
   - LMS
 draft: false
-publishedAt: 2026-09-20
-updatedAt: 2026-09-20
+publishedAt: 2026-09-23
+updatedAt: 2026-09-23
 heroImage: /images/blog/is-a-skool-community-actually-worth-creating-in-2026.webp
 heroImageAlt: Skool community platform with courses, gamification, calendar, and
   online community features
