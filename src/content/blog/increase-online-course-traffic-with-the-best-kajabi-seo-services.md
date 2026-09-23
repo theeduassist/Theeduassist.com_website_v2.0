@@ -22,8 +22,8 @@ tags:
   - Link Building
   - Content Marketing
 draft: false
-publishedAt: 2026-09-21
-updatedAt: 2026-09-21
+publishedAt: 2026-09-23
+updatedAt: 2026-09-23
 heroImage: /images/blog/kajabi-seo-services-guide-2026.webp
 heroImageAlt: Kajabi SEO services guide for online course creators in 2026
 heroImageCaption: Kajabi SEO services and strategies to help course creators
