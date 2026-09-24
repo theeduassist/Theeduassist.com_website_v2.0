@@ -119,7 +119,7 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-21
   lastReviewedDate: 2026-09-21
   nextReviewDate: 2026-09-21
-heroImage: /images/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know-1.webp
+heroImage: /images/blog/model-context-protocol-connecting-ai-agents-with-a-learning-management-system.webp
 tags:
   - MCP
   - LMS
