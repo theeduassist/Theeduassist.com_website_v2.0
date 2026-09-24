@@ -67,7 +67,7 @@ faqs:
       structured content delivery.
   - question: How can TheEduAssist help build a course website?
     answer: Through consulting services and custom eLearning solutions,
-      ++[TheEduAssist.com](https://theeduassist.com)++ helps design structured
+      [TheEduAssist.com](https://theeduassist.com) helps design structured
       course platforms with strong UX and scalable LMS integration.
 sources:
   - title: Digital Solutions Program

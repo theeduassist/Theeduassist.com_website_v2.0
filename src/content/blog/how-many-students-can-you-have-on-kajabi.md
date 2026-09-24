@@ -115,7 +115,7 @@ heroImageCaption: Kajabi student capacity varies by plan, with Basic, Growth,
   businesses.
 searchIntent: Informational
 ---
-If you are planning to launch an ++[online course](https://www.linkedin.com/posts/theeduassist_realestate-instructionaldesign-elearning-activity-7501866712150073344-yPd8?utm_source=chatgpt.com)++, one of the first questions you may have is: how many students can you have on Kajabi? The answer is more complicated than a simple maximum number of students because Kajabi currently structures its plans around contacts, rather than giving each plan a universal student-per-course limit.
+If you are planning to launch an [online course](https://www.linkedin.com/posts/theeduassist_realestate-instructionaldesign-elearning-activity-7501866712150073344-yPd8?utm_source=chatgpt.com), one of the first questions you may have is: how many students can you have on Kajabi? The answer is more complicated than a simple maximum number of students because Kajabi currently structures its plans around contacts, rather than giving each plan a universal student-per-course limit.
 
 According to Kajabi's current pricing information, the Basic plan includes 2,500 contacts, Growth includes 25,000 contacts, and Pro includes 100,000 contacts. The plans also differ in the number of products, websites, communities, and admin users they support.
 
@@ -138,7 +138,7 @@ Your business could have thousands more contacts than actual students. That is w
 
 ## **How Many Students Can Kajabi Handle?**
 
-So, **how many students can Kajabi handle?** Kajabi's current plans provide a substantial amount of room for ++[online education businesses](https://medium.com/@hafsazahoor144/10-best-learning-management-systems-compared-c4498d4c02f5?sharedUserId=hafsazahoor144)++.
+So, **how many students can Kajabi handle?** Kajabi's current plans provide a substantial amount of room for [online education businesses](https://medium.com/@hafsazahoor144/10-best-learning-management-systems-compared-c4498d4c02f5?sharedUserId=hafsazahoor144).
 
 ![](/images/blog/14cec93b-1c12-48fd-804f-339a296dc41e-1.webp)
 
@@ -169,13 +169,13 @@ The current Kajabi Basic plan supports **2,500 contacts** and up to **5 products
 
 For a new course creator, this can be plenty of capacity. Suppose you have one flagship course and expect to build an audience gradually. You might have 300 students, 500 prospects, and another 400 email subscribers. Your total audience would still be comfortably below the 2,500-contact limit.
 
-But you need to consider the future growth prospects, not just the current numbers. Building a database of contacts is easy if you have a ++[successful campaign](https://medium.com/@rimshasshahid/how-to-build-a-massive-high-ticket-funnel-in-20-days-4230dc7923b6?sharedUserId=hafsazahoor144)++ or free lead magnet. 
+But you need to consider the future growth prospects, not just the current numbers. Building a database of contacts is easy if you have a [successful campaign](https://medium.com/@rimshasshahid/how-to-build-a-massive-high-ticket-funnel-in-20-days-4230dc7923b6?sharedUserId=hafsazahoor144) or free lead magnet. 
 
 Basic is therefore best suited to creators who have a relatively focused product catalog and a contact database that comfortably fits within the 2,500 limit.
 
 ## **How Many Students Does Kajabi Allow on Growth?**
 
-The Growth plan increases the contact limit significantly to **25,000 contacts** and supports up to **50 products**. Kajabi currently lists Growth at $249 per month when billed monthly, or $199 per month when billed annually. This makes Growth much more suitable for an established ++[course business](https://www.theeduassist.com/blog/how-to-sell-online-courses-that-actually-convert/?utm_source=chatgpt.com)++.
+The Growth plan increases the contact limit significantly to **25,000 contacts** and supports up to **50 products**. Kajabi currently lists Growth at $249 per month when billed monthly, or $199 per month when billed annually. This makes Growth much more suitable for an established [course business](https://www.theeduassist.com/blog/how-to-sell-online-courses-that-actually-convert/?utm_source=chatgpt.com).
 
 For example, imagine that you have 5,000 students across several courses but another 10,000 people in your marketing database. You could still have substantial room before reaching the 25,000-contact limit.
 
@@ -195,13 +195,13 @@ The key takeaway is that Pro provides a large education enterprise a great deal 
 
 You may also encounter the term Kajabi customer limit when researching this topic. This can create confusion because older Kajabi pricing information and articles may refer to different limits than the current plans.
 
-Kajabi changed its pricing structure and introduced updated plans in January 2026, as part of ++[Kajabi's 2026 pricing changes](https://www.kajabi.com/updates/2025-pricing-updates?utm_source=chatgpt.com)++. The current pricing page prominently lists contact limits of 2,500, 25,000, and 100,000 across Basic, Growth, and Pro.
+Kajabi changed its pricing structure and introduced updated plans in January 2026, as part of [Kajabi's 2026 pricing changes](https://www.kajabi.com/updates/2025-pricing-updates?utm_source=chatgpt.com). The current pricing page prominently lists contact limits of 2,500, 25,000, and 100,000 across Basic, Growth, and Pro.
 
 Therefore, if you find an older article claiming that a particular Kajabi plan has a different customer or active-customer limit, check the date before relying on it. For current planning, the official Kajabi pricing page is the better reference.
 
 ## **How to Add Students to Kajabi**
 
-Learning ++[how to create a course on Kajabi](https://www.theeduassist.com/blog/how-to-create-a-course-on-kajabi-beginners-guide/)++ is another important consideration once you have selected a plan. Generally, a student needs to exist as a contact and then receive access to the appropriate product or offer. For paid courses, the process can be automated. A customer purchases an offer, and the associated product access can be provided as part of the purchase workflow.
+Learning [how to create a course on Kajabi](https://www.theeduassist.com/blog/how-to-create-a-course-on-kajabi-beginners-guide/) is another important consideration once you have selected a plan. Generally, a student needs to exist as a contact and then receive access to the appropriate product or offer. For paid courses, the process can be automated. A customer purchases an offer, and the associated product access can be provided as part of the purchase workflow.
 
 One of the benefits of having an integrated platform is this. Rather than having to create a student in one system, collect payment somewhere else, and then send login information to another system, Kajabi integrates vital components of the customer journey. 
 
@@ -209,7 +209,7 @@ An alternative option for complimentary students, beta testers, award recipients
 
 ## **Kajabi Pricing Plans and Student Capacity**
 
-When comparing ++[Kajabi pricing plans](https://www.kajabi.com/pricing?utm_source=chatgpt.com)++, student capacity should be only one part of the decision.
+When comparing [Kajabi pricing plans](https://www.kajabi.com/pricing?utm_source=chatgpt.com), student capacity should be only one part of the decision.
 
 
 |  |  |  |  |  |
@@ -228,9 +228,9 @@ A creator with 1,000 students and one course may have very different requirement
 
 Yes. Kajabi's current contact limits make it capable of supporting businesses with thousands of learners. The Growth plan provides capacity for up to 25,000 contacts, while Pro provides up to 100,000. But technical capacity is only one part of scaling an online course.
 
-With thousands of students in your hands, you need to have effective onboarding, automated communication, organized course content, customer support, ++[payment processing](https://www.theeduassist.com/blog/what-payment-methods-does-kajabi-accept/?utm_source=chatgpt.com)++, and a clear student experience. You can have a platform that can hold a ton of people, but to sustain your business operations, you need to grow with the platform. 
+With thousands of students in your hands, you need to have effective onboarding, automated communication, organized course content, customer support, [payment processing](https://www.theeduassist.com/blog/what-payment-methods-does-kajabi-accept/?utm_source=chatgpt.com), and a clear student experience. You can have a platform that can hold a ton of people, but to sustain your business operations, you need to grow with the platform. 
 
-This is where Kajabi's broader platform approach can be useful. ++[Kajabi for educators](https://www.kajabi.com/for/educators?utm_source=chatgpt.com)++ can be especially relevant for creators who want to manage their educational content, students, and online business from one platform. Learn more about ++[Kajabi online courses](https://www.kajabi.com/product/online-courses?utm_source=chatgpt.com)++ to see how the platform supports course creators and educators. 
+This is where Kajabi's broader platform approach can be useful. [Kajabi for educators](https://www.kajabi.com/for/educators?utm_source=chatgpt.com) can be especially relevant for creators who want to manage their educational content, students, and online business from one platform. Learn more about [Kajabi online courses](https://www.kajabi.com/product/online-courses?utm_source=chatgpt.com) to see how the platform supports course creators and educators. 
 
 ## **What Happens When You Reach Your Kajabi Contact Limit?**
 

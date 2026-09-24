@@ -216,7 +216,7 @@ Digital Product Strategists will play an increasingly important role in building
 
 ## **How TheEduAssist Helps Solve These Challenges**
 
-++[TheEduAssist](https://www.theeduassist.com)++ focuses on building and refining digital learning ecosystems centered on clarity, engagement, and measurable outcomes.
+[TheEduAssist](https://www.theeduassist.com) focuses on building and refining digital learning ecosystems centered on clarity, engagement, and measurable outcomes.
 
 TheEduAssist helps by:
 

@@ -244,7 +244,7 @@ Well designed courses:
 
 ## **How TheEduAssist Supports Instructors and Training Providers**
 
-++[TheEduAssist](https://www.theeduassist.com)++ supports instructors and organizations by improving learning quality, content clarity, and learner engagement, rather than relying on shortcuts or aggressive selling.
+[TheEduAssist](https://www.theeduassist.com) supports instructors and organizations by improving learning quality, content clarity, and learner engagement, rather than relying on shortcuts or aggressive selling.
 
 TheEduAssist helps with:
 
@@ -284,7 +284,7 @@ Udemy is a valuable platform for both learners and educators, but it is not an a
 
 Long term success on Udemy requires understanding how the platform works, recognizing the challenges users face, and prioritizing course quality at every stage.
 
-++[TheEduAssist](https://www.theeduassist.com)++ helps instructors and organizations build effective, engaging, and learner centered Udemy courses that do more than drive enrollments, they deliver real, lasting results.
+[TheEduAssist](https://www.theeduassist.com) helps instructors and organizations build effective, engaging, and learner centered Udemy courses that do more than drive enrollments, they deliver real, lasting results.
 
 ## **Frequently Asked Questions**
 

@@ -142,7 +142,7 @@ Google’s AI ecosystem is transforming how organizations research, create conte
 
 However, effective AI training requires more than software tutorials. Learners need to understand which tool fits a specific task, how to combine tools into workflows, and how to evaluate AI-generated results.
 
-For organizations and training providers across the United States, including Orlando, Florida, ++[Google AI training](https://grow.google/ai?srsltid=AfmBOoqCEW7RDfImPbhxqKy01bc_MV0ALXhs0iGtX41iaqu9RfznsOue)++ course development should focus on practical skills, measurable outcomes, hands-on activities, and maintainable content.
+For organizations and training providers across the United States, including Orlando, Florida, [Google AI training](https://grow.google/ai?srsltid=AfmBOoqCEW7RDfImPbhxqKy01bc_MV0ALXhs0iGtX41iaqu9RfznsOue) course development should focus on practical skills, measurable outcomes, hands-on activities, and maintainable content.
 
 A successful course should turn complex AI capabilities into a clear learning journey that beginners can follow and intermediate learners can apply.
 
@@ -174,7 +174,7 @@ This shifts the focus from learning a tool to solving a problem with AI.
 
 Google offers AI tools for different audiences and use cases. Introducing too many at once can overwhelm beginners.
 
-A better progression is to start with accessible tools such as Gemini, NotebookLM, and Google Workspace AI features. Intermediate learners can then explore Google AI Studio, ++[Google Colab](https://colab.research.google.com/)++, or Vertex AI when these tools support their learning objectives.
+A better progression is to start with accessible tools such as Gemini, NotebookLM, and Google Workspace AI features. Intermediate learners can then explore Google AI Studio, [Google Colab](https://colab.research.google.com/), or Vertex AI when these tools support their learning objectives.
 
 The goal is not to teach every product. It is to teach learners how to choose the right AI tool for the right task.
 
@@ -184,19 +184,19 @@ A strong course should combine AI fundamentals, practical tool use, business app
 
 ### **Beginner-Level Google AI Tools**
 
-++[Gemini](https://edu.google.com/intl/ALL_us/ai/gemini-for-education/?utm_source=chatgpt.com)++ can introduce prompting, brainstorming, research, content creation, and everyday AI assistance. A Google Gemini training course can help learners build confidence before they move to more complex workflows.
+[Gemini](https://edu.google.com/intl/ALL_us/ai/gemini-for-education/?utm_source=chatgpt.com) can introduce prompting, brainstorming, research, content creation, and everyday AI assistance. A Google Gemini training course can help learners build confidence before they move to more complex workflows.
 
-++[NotebookLM](https://workspace.google.com/intl/en/products/gemini-notebook/?utm_source=chatgpt.com)++ can develop source-based research skills through document analysis, summarization, and information discovery. This makes a NotebookLM training course useful for researchers, educators, and knowledge workers.
+[NotebookLM](https://workspace.google.com/intl/en/products/gemini-notebook/?utm_source=chatgpt.com) can develop source-based research skills through document analysis, summarization, and information discovery. This makes a NotebookLM training course useful for researchers, educators, and knowledge workers.
 
 Google Workspace AI features can connect AI training to familiar workplace tasks involving documents, communication, presentations, and productivity.
 
 ### **Intermediate-Level Google AI Tools**
 
-++[Google AI Studio](https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwjpv5mP_ZyWAxVNGAYAHbBCG_wYACICCAEQABoCd3M&co=1&ase=2&gclid=CjwKCAjws_DTBhB_EiwAXZknGagFq0mvoigpvG6S1fUz3DulxapTDa5AG6ctKpJyfWjWmjGdZw-I3hoCJa4QAvD_BwE&cid=CAASugHkaEu7KXJNhk8-nL67WeU6Q7byPnw05_py_UNpBbEZZPt2Ir3sxHx9x2Defv2GNB2qMrCII0lnb-WBJzlXwJVJCWDlxvPkjdxAw2PyKSwpmfHBtYtf-KwNwKiMXUruQSAai98Z8FwDnWEVkaM1fKVVzfokftGLo_PDzd1EkRSXjzeTTnYTBIdUHkiDLieerpRLF6-7JPg5npGzQQBLV6lk6bfAggM26nyhU1h-See2WixfUWZefyzx9G0&cce=2&category=acrcp_v1_32&sig=AOD64_3NguOCHC5COdwdRlkuBnMCnjVMaw&q&nis=4&adurl=https://aistudio.google.com/managed-agents?utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DCloud-SS-DR-AIS-FY26-global-gsem-1713578%26utm_content%3Dtext-ad%26utm_term%3DKW_ai%2520studio%2520agents%26gad_source%3D1%26gad_campaignid%3D23417416052%26gbraid%3D0AAAAACn9t64o-86B1wEIizpirXd8m5TCY%26gclid%3DCjwKCAjws_DTBhB_EiwAXZknGagFq0mvoigpvG6S1fUz3DulxapTDa5AG6ctKpJyfWjWmjGdZw-I3hoCJa4QAvD_BwE&ved=2ahUKEwioiZSP_ZyWAxUvUaQEHVP7KrAQ0Qx6BAgZEAE)++ can introduce prompt experimentation and more advanced AI applications. This provides a strong foundation for focused Google AI Studio training.
+[Google AI Studio](https://www.google.com/aclk?sa=L&pf=1&ai=DChsSEwjpv5mP_ZyWAxVNGAYAHbBCG_wYACICCAEQABoCd3M&co=1&ase=2&gclid=CjwKCAjws_DTBhB_EiwAXZknGagFq0mvoigpvG6S1fUz3DulxapTDa5AG6ctKpJyfWjWmjGdZw-I3hoCJa4QAvD_BwE&cid=CAASugHkaEu7KXJNhk8-nL67WeU6Q7byPnw05_py_UNpBbEZZPt2Ir3sxHx9x2Defv2GNB2qMrCII0lnb-WBJzlXwJVJCWDlxvPkjdxAw2PyKSwpmfHBtYtf-KwNwKiMXUruQSAai98Z8FwDnWEVkaM1fKVVzfokftGLo_PDzd1EkRSXjzeTTnYTBIdUHkiDLieerpRLF6-7JPg5npGzQQBLV6lk6bfAggM26nyhU1h-See2WixfUWZefyzx9G0&cce=2&category=acrcp_v1_32&sig=AOD64_3NguOCHC5COdwdRlkuBnMCnjVMaw&q&nis=4&adurl=https://aistudio.google.com/managed-agents?utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DCloud-SS-DR-AIS-FY26-global-gsem-1713578%26utm_content%3Dtext-ad%26utm_term%3DKW_ai%2520studio%2520agents%26gad_source%3D1%26gad_campaignid%3D23417416052%26gbraid%3D0AAAAACn9t64o-86B1wEIizpirXd8m5TCY%26gclid%3DCjwKCAjws_DTBhB_EiwAXZknGagFq0mvoigpvG6S1fUz3DulxapTDa5AG6ctKpJyfWjWmjGdZw-I3hoCJa4QAvD_BwE&ved=2ahUKEwioiZSP_ZyWAxUvUaQEHVP7KrAQ0Qx6BAgZEAE) can introduce prompt experimentation and more advanced AI applications. This provides a strong foundation for focused Google AI Studio training.
 
 Google Colab can support data analysis, coding, and technical exercises for learners who need greater technical depth.
 
-++[Vertex AI](https://cloud.google.com/products/gemini-enterprise-agent-platform)++ can introduce enterprise AI concepts and application-development workflows for more technical learners. This creates opportunities for specialized Vertex AI course development for technical and enterprise learners..
+[Vertex AI](https://cloud.google.com/products/gemini-enterprise-agent-platform) can introduce enterprise AI concepts and application-development workflows for more technical learners. This creates opportunities for specialized Vertex AI course development for technical and enterprise learners..
 
 ### **Creative and Emerging Google AI Tools**
 
@@ -222,7 +222,7 @@ The first module can cover:
 - Prompting fundamentals
 - Output evaluation
 - Accuracy and verification
-- ++[Responsible AI practices](https://cloud.google.com/responsible-ai)++
+- [Responsible AI practices](https://cloud.google.com/responsible-ai)
 
 The purpose is not to turn beginners into AI specialists. It is to give them enough knowledge to use AI confidently and responsibly.
 
@@ -232,7 +232,7 @@ Learners should gradually move from individual tasks to multi-step workflows. Fo
 
 Research → Analyze → Organize → Create → Review
 
-A learner might use NotebookLM to examine source material, Gemini to organize findings, and ++[Google Workspace](https://edu.google.com/gemini-built-for-education-higher-ed/?utm_source=chatgpt.com)++ tools to create a report or presentation.
+A learner might use NotebookLM to examine source material, Gemini to organize findings, and [Google Workspace](https://edu.google.com/gemini-built-for-education-higher-ed/?utm_source=chatgpt.com) tools to create a report or presentation.
 
 This progression helps learners understand how different AI capabilities can work together to achieve a specific outcome.
 
@@ -338,7 +338,7 @@ AI skills cannot be developed through passive tutorials alone. Learners need opp
 
 Instead of asking learners to simply practice Gemini, create a realistic scenario:
 
-A marketing team needs a research brief before launching a campaign. Use appropriate ++[Google AI tools](https://edu.google.com/ai/education/?utm_source=chatgpt.com)++ to analyze the available information and prepare a concise brief.
+A marketing team needs a research brief before launching a campaign. Use appropriate [Google AI tools](https://edu.google.com/ai/education/?utm_source=chatgpt.com) to analyze the available information and prepare a concise brief.
 
 This gives learners a clear objective and makes the technology part of the solution.
 
@@ -578,7 +578,7 @@ For organizations moving existing training content, course migration can involve
 
 ### **Course Updates and Ongoing Learning-Content Support**
 
-++[AI training](https://edu.google.com/ai/education/?utm_source=chatgpt.com)++ requires continuous maintenance. As Google's products evolve, organizations may need to update demonstrations, screenshots, scripts, exercises, quizzes, and examples.
+[AI training](https://edu.google.com/ai/education/?utm_source=chatgpt.com) requires continuous maintenance. As Google's products evolve, organizations may need to update demonstrations, screenshots, scripts, exercises, quizzes, and examples.
 
 TheEduAssist can provide ongoing learning-content support to help keep courses accurate, relevant, and maintainable. This positions TheEduAssist as a learning-content and eLearning development partner for organizations building and maintaining AI training programs in the United States.
 

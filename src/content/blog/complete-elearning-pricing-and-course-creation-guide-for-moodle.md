@@ -253,8 +253,8 @@ A hybrid system (Moodle + eCommerce tools) unlocks scalable course selling, bett
 
 ## **References**
 
-- ++[https://link.springer.com/chapter/10.1007/978-3-031-11578-3_4](https://link.springer.com/chapter/10.1007/978-3-031-11578-3_4)++
-- ++[https://www.sciencedirect.com/science/article/abs/pii/S0747563219303802](https://www.sciencedirect.com/science/article/abs/pii/S0747563219303802)++
+- [https://link.springer.com/chapter/10.1007/978-3-031-11578-3_4](https://link.springer.com/chapter/10.1007/978-3-031-11578-3_4)
+- [https://www.sciencedirect.com/science/article/abs/pii/S0747563219303802](https://www.sciencedirect.com/science/article/abs/pii/S0747563219303802)
 - [https://www.researchgate.net/publication/368414517_Canadian_E-learning_platform_Using_Moodle_for_Course_Creation](https://www.researchgate.net/publication/368414517_Canadian_E-learning_platform_Using_Moodle_for_Course_Creation)
 
 ### **FAQs**

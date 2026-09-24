@@ -144,7 +144,7 @@ Not every course creator needs SCORM Cloud. However, certain situations make it 
 
 On the other hand, if you already run full corporate training programs with an established LMS, you may only need SCORM Cloud occasionally for testing. Meanwhile, larger teams with ongoing content development often keep it as a permanent part of their workflow.
 
-If you are working with authoring tools and thinking about how AI fits into course production, our guide on ++[AI versus traditional instructional design](https://theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/)++ walks through how modern teams are adjusting their build process. This pairs well with SCORM testing, since better built content usually means fewer tracking errors later.
+If you are working with authoring tools and thinking about how AI fits into course production, our guide on [AI versus traditional instructional design](https://theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/) walks through how modern teams are adjusting their build process. This pairs well with SCORM testing, since better built content usually means fewer tracking errors later.
 
 ## **SCORM Cloud LMS Explained**
 
@@ -154,7 +154,7 @@ A traditional LMS usually includes user management, course catalogs, certificate
 
 Still, most companies treat SCORM Cloud LMS features as a supplement rather than a full replacement. For instance, they might host their main training in a dedicated LMS, while using SCORM Cloud specifically for quality assurance testing.
 
-If your training programs rely heavily on automated workflows, it also helps to understand how automation supports learner engagement. Our article on ++[automation workflows](https://theeduassist.com/blog/kajabi-automation-workflows/)++ covers similar automation concepts that many teams apply when scaling their course delivery.
+If your training programs rely heavily on automated workflows, it also helps to understand how automation supports learner engagement. Our article on [automation workflows](https://theeduassist.com/blog/kajabi-automation-workflows/) covers similar automation concepts that many teams apply when scaling their course delivery.
 
 ## **Who Typically Uses SCORM Cloud**
 
@@ -182,5 +182,5 @@ SCORM Cloud plays an important role in the eLearning world. It helps teams test 
 
 If you regularly create courses or work with multiple LMS platforms, SCORM Cloud is worth adding to your toolkit. However, if you only publish content occasionally, you might just need it for quick testing rather than daily use.
 
-For teams also refining their broader course strategy, our resource on ++[digital product creation](https://theeduassist.com/blog/kajabi-digital-product-creation/)++ offers additional context on building and organizing learning content from start to finish.
+For teams also refining their broader course strategy, our resource on [digital product creation](https://theeduassist.com/blog/kajabi-digital-product-creation/) offers additional context on building and organizing learning content from start to finish.
 

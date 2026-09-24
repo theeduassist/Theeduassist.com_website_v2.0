@@ -138,7 +138,7 @@ Many creators feel Kajabi is more powerful for scaling, while Teachable is easie
 
 ## **How to Create an Account on Teachable**
 
-**Step 1:** Visit ++[teachable.com](https://teachable.com/)++ and click “Start free trial” for a 7-day no-risk test.
+**Step 1:** Visit [teachable.com](https://teachable.com/) and click “Start free trial” for a 7-day no-risk test.
 
 **Step 2:** Enter your name, email, and password. Confirm via email.
 

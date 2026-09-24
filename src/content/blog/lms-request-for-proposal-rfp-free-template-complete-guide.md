@@ -133,7 +133,7 @@ First, it forces your team to define what you actually need. Many buyers skip th
 
 Finally, a well-built RFP uncovers hidden gaps early. For example, you might learn that a vendor cannot support your compliance tracking needs. It is far better to find that out on paper than after you sign a two-year contract.
 
-If your team is also thinking about how a new system will connect to your existing tools, our guide on ++[LMS integration and the most important systems to connect to your LMS](https://theeduassist.com/blog/lms-integration-the-most-important-systems-to-connect-to-your-lms/)++ is a helpful next read.
+If your team is also thinking about how a new system will connect to your existing tools, our guide on [LMS integration and the most important systems to connect to your LMS](https://theeduassist.com/blog/lms-integration-the-most-important-systems-to-connect-to-your-lms/) is a helpful next read.
 
 ## **Key Sections Every LMS RFP Should Include**
 
@@ -227,7 +227,7 @@ Ideally, use both together. Send your RFP first, review the written proposals, t
 
 ## **How TheEduAssist Can Help**
 
-Choosing the right LMS is rarely simple. There are dozens of platforms, each with different strengths. If you would like expert guidance during your selection or migration process, our team offers full support. Learn more about our ++[LMS integration and migration services](https://theeduassist.com/lms-integration-migration-services/)++ or explore our complete ++[service offerings](https://theeduassist.com/services/)++ to see how we help organizations move forward with confidence.
+Choosing the right LMS is rarely simple. There are dozens of platforms, each with different strengths. If you would like expert guidance during your selection or migration process, our team offers full support. Learn more about our [LMS integration and migration services](https://theeduassist.com/lms-integration-migration-services/) or explore our complete [service offerings](https://theeduassist.com/services/) to see how we help organizations move forward with confidence.
 
 ## **Final Thoughts**
 

@@ -213,7 +213,7 @@ Well designed continuing education is built around how adults actually learn and
 
 ## **How TheEduAssist Supports Continuing Education Creation**
 
-++[TheEduAssist](https://www.theeduassist.com)++ helps organizations and trainers design and structure continuing education programs that genuinely work.
+[TheEduAssist](https://www.theeduassist.com) helps organizations and trainers design and structure continuing education programs that genuinely work.
 
 Rather than focusing on promotion, TheEduAssist contributes by:
 

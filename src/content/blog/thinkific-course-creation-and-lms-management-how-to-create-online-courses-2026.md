@@ -274,7 +274,7 @@ Without clear learning goals, structured content, and genuine learner empathy, a
 
 ## **How TheEduAssist Improves Thinkific Course Design and LMS Strategy**
 
-++[TheEduAssist](https://www.theeduassist.com)++ takes a problem solving approach to instructional design specifically for Thinkific LMS challenges.
+[TheEduAssist](https://www.theeduassist.com) takes a problem solving approach to instructional design specifically for Thinkific LMS challenges.
 
 Rather than focusing on platform features, TheEduAssist looks at:
 
@@ -333,7 +333,7 @@ By applying instructional design principles to build outcome driven, learner cen
 
 If your Thinkific courses feel disorganized, underperforming, or overwhelming, the issue likely comes down to learning design or LMS strategy, not the platform itself.
 
-++[TheEduAssist](https://www.theeduassist.com)++ helps turn scattered content into coherent, engaging, and meaningful learning experiences that learners actually complete and apply in real life.
+[TheEduAssist](https://www.theeduassist.com) helps turn scattered content into coherent, engaging, and meaningful learning experiences that learners actually complete and apply in real life.
 
 Explore how to improve your learning outcomes with TheEduAssist through thoughtful [++Thinkific Course Creation and LMS Management++](https://www.theeduassist.com).
 

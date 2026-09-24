@@ -107,11 +107,11 @@ editorialManagement:
   lastReviewedDate: 2026-09-09
   nextReviewDate: 2026-09-09
 ---
-If you are planning to ++[sell online courses](https://www.theeduassist.com/blog/how-to-sell-online-courses-that-actually-convert/?utm_source=chatgpt.com)++, memberships, coaching programs, or digital products through Kajabi, your checkout experience deserves just as much attention as your sales page. Customers want a payment process that feels familiar, secure, and convenient. If their preferred payment option is missing, even an interested buyer may leave before completing the purchase.
+If you are planning to [sell online courses](https://www.theeduassist.com/blog/how-to-sell-online-courses-that-actually-convert/?utm_source=chatgpt.com), memberships, coaching programs, or digital products through Kajabi, your checkout experience deserves just as much attention as your sales page. Customers want a payment process that feels familiar, secure, and convenient. If their preferred payment option is missing, even an interested buyer may leave before completing the purchase.
 
 So, **what payment methods does Kajabi accept?** Kajabi supports several options through its payment infrastructure, including major credit and debit cards, Apple Pay, Google Pay, Afterpay, and Klarna through Kajabi Payments. Sellers can also connect payment services such as PayPal and Stripe, depending on their location, account configuration, and business needs.
 
-Understanding the available ++[Kajabi payment](https://www.kajabi.com/features/payments?utm_source=chatgpt.com)++ methods can help you choose a checkout setup that fits your audience. Whether you sell a $30 digital product or a high-ticket coaching program, offering appropriate payment options can make the buying process much easier.
+Understanding the available [Kajabi payment](https://www.kajabi.com/features/payments?utm_source=chatgpt.com) methods can help you choose a checkout setup that fits your audience. Whether you sell a $30 digital product or a high-ticket coaching program, offering appropriate payment options can make the buying process much easier.
 
 ## **Kajabi Payment Methods at a Glance**
 
@@ -151,7 +151,7 @@ When installing Kajabi for the first time, one of the things you should look int
 
 Yes. **Kajabi Apple Pay** and **Kajabi Google Pay** are available through Kajabi Payments, giving customers convenient digital-wallet alternatives.
 
-Digital wallets can be particularly useful for mobile shoppers. Creators who enable Apple Pay and ++[Google Pay](https://pay.google.com/)++ see up to 30% higher conversion at checkout on Kajabi Payments.
+Digital wallets can be particularly useful for mobile shoppers. Creators who enable Apple Pay and [Google Pay](https://pay.google.com/) see up to 30% higher conversion at checkout on Kajabi Payments.
 
 ![](/images/blog/d99f980d-d6f0-429d-8729-261744c1f2ae.png)
 
@@ -167,7 +167,7 @@ For creators with a mobile-heavy audience, enabling available wallet options is 
 
 Yes. **Kajabi Afterpay** and **Kajabi Klarna** are available through Kajabi Payments as buy-now-pay-later options where applicable.
 
-These services can be especially relevant for higher-priced offers. Imagine selling a ++[professional course](https://www.theeduassist.com/blog/how-to-create-a-course-on-kajabi-beginners-guide/?utm_source=chatgpt.com)++ for $500 or a coaching package for $1,500. A potential customer may want the product but hesitate at the idea of paying the full amount immediately.
+These services can be especially relevant for higher-priced offers. Imagine selling a [professional course](https://www.theeduassist.com/blog/how-to-create-a-course-on-kajabi-beginners-guide/?utm_source=chatgpt.com) for $500 or a coaching package for $1,500. A potential customer may want the product but hesitate at the idea of paying the full amount immediately.
 
 Buy-now-pay-later services can give eligible customers another way to manage the purchase. That flexibility may be particularly valuable for education, professional development, coaching, and other higher-ticket digital offers.
 
@@ -177,7 +177,7 @@ For that reason, Afterpay and Klarna should be viewed as additional checkout fle
 
 ## **Does Kajabi Accept PayPal?**
 
-Yes. **Kajabi PayPal** functionality is available through a supported ++[PayPal integration.](https://www.kajabi.com/integrations/paypal?utm_source=chatgpt.com)++
+Yes. **Kajabi PayPal** functionality is available through a supported [PayPal integration.](https://www.kajabi.com/integrations/paypal?utm_source=chatgpt.com)
 
 PayPal can be valuable because many online shoppers already have an account with their preferred payment information stored there. Instead of entering card details manually, a customer can use their PayPal account where the option is available.
 
@@ -189,7 +189,7 @@ If you are deciding whether to add PayPal, consider your audience's preferences 
 
 ## **Can You Use Stripe With Kajabi?**
 
-Yes. Kajabi ++[Stripe integration](https://www.kajabi.com/integrations/stripe?utm_source=chatgpt.com)++ allows businesses to connect Stripe for payment processing.
+Yes. Kajabi [Stripe integration](https://www.kajabi.com/integrations/stripe?utm_source=chatgpt.com) allows businesses to connect Stripe for payment processing.
 
 Stripe is often attractive to businesses that already use the platform for other online payments. If your accounting, reporting, or business operations are already organized around Stripe, maintaining that ecosystem can make sense.
 
@@ -210,7 +210,7 @@ Each payment solution serves a slightly different purpose.
 | **PayPal** | Familiar alternative checkout option | Customers who prefer PayPal |
 
 
-For many creators, Kajabi Payments is the simplest place to start because it is designed to work directly with the ++[Kajabi platform](https://www.theeduassist.com/blog/learnworlds-vs-kajabi/?utm_source=chatgpt.com)++. It supports cards and additional options such as digital wallets and buy-now-pay-later services where available.
+For many creators, Kajabi Payments is the simplest place to start because it is designed to work directly with the [Kajabi platform](https://www.theeduassist.com/blog/learnworlds-vs-kajabi/?utm_source=chatgpt.com). It supports cards and additional options such as digital wallets and buy-now-pay-later services where available.
 
 Stripe may be preferable if you already depend heavily on its infrastructure. PayPal can be useful when customer familiarity with PayPal is important.
 
@@ -248,7 +248,7 @@ This is especially crucial when you are selling overseas. When designing the che
 
 It is also smart to test your checkout before launch. Note that views of customers may not match those reflected in your account. The payment methods may vary based on the buyer's situation and location. 
 
-## **How to Choose the ++[Best Kajabi Payment](https://www.kajabi.com/learn/kajabi-payments-setup?utm_source=chatgpt.com)++ Method**
+## **How to Choose the [Best Kajabi Payment](https://www.kajabi.com/learn/kajabi-payments-setup?utm_source=chatgpt.com) Method**
 
 Choosing the right setup starts with your customers.
 

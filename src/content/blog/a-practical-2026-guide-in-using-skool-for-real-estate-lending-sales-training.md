@@ -220,7 +220,7 @@ This approach ensures sales reps are not just completing courses, they are genui
 - Better alignment with real world sales behavior
 - Less resistance compared to rigid corporate LMS platforms
 
-Skool functions less like a system and more like a full learning ecosystem, something TheEduAsisst's ++[instructional design team](https://www.theeduassist.com)++ frequently helps organizations build from the ground up.
+Skool functions less like a system and more like a full learning ecosystem, something TheEduAsisst's [instructional design team](https://www.theeduassist.com) frequently helps organizations build from the ground up.
 
 ## **Future scope: Where This Model Is Headed**
 

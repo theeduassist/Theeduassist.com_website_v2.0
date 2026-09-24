@@ -123,7 +123,7 @@ Education is changing radically. The old system of classrooms, fixed time schedu
 
 MOOCs offer a viable solution to one of the biggest challenges of our time: the growing gap between required skills and available talent. This article covers everything you need to know about MOOCs, what they are, why we need them, where and how they apply, their importance, their challenges, and how they will shape the future of learners.
 
-If you are exploring how to build a sustainable learning routine, our guide to starting ++[your learning journey with TheEduAssist](https://www.theeduassist.com)++ is a great place to begin.
+If you are exploring how to build a sustainable learning routine, our guide to starting [your learning journey with TheEduAssist](https://www.theeduassist.com) is a great place to begin.
 
 ## **What Are MOOCs?**
 

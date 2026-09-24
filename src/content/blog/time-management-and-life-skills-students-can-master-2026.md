@@ -207,7 +207,7 @@ Trainers can share simple, effective tips to help students build life skills, in
 
 ## **How TheEduAssist Supports Trainers and Students**
 
-++[TheEduAssist](https://www.theeduassist.com)++ does not just sell materials, it provides real guidance. Our goal is to help trainers develop and deliver life skills training that genuinely benefits students.
+[TheEduAssist](https://www.theeduassist.com) does not just sell materials, it provides real guidance. Our goal is to help trainers develop and deliver life skills training that genuinely benefits students.
 
 We help students:
 

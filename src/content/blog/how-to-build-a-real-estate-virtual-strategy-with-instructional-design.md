@@ -245,7 +245,7 @@ Collaborate with developers and subject-matter experts:
 
 - Create assets: Photorealistic 3D scans, interactive hotspots, AI-driven avatars for guided tours.
 - Integrate interactivity: Clickable elements for property details, virtual staging, or simulation of renovations.
-- Author in compliant formats: Use tools supporting SCORM/xAPI for tracking in ++[LMS platforms](https://www.theeduassist.com/blog/best-learning-management-systems/)++.
+- Author in compliant formats: Use tools supporting SCORM/xAPI for tracking in [LMS platforms](https://www.theeduassist.com/blog/best-learning-management-systems/).
 
 Iterative prototyping with user testing prevents common issues like VR discomfort. TheEduAssist’s rapid eLearning and AI-powered development accelerate this while maintaining quality.
 
@@ -326,7 +326,7 @@ For TheEduAssist, a **Real Estate Virtual Strategy** should therefore be defined
 
 ## **2. Aligning with Instructional‑Design Principles:**
 
-Instructional‑design research in educational ++[technology](https://www.theeduassist.com/blog/employee-training-lms-technology/)++ repeatedly emphasizes three core principles: **analysis, design, and evaluation** (ADDIE‑style cycles), plus **learner‑activity balance** and **authentic practice**. For a **Real Estate Virtual Strategy**, you can translate these into:
+Instructional‑design research in educational [technology](https://www.theeduassist.com/blog/employee-training-lms-technology/) repeatedly emphasizes three core principles: **analysis, design, and evaluation** (ADDIE‑style cycles), plus **learner‑activity balance** and **authentic practice**. For a **Real Estate Virtual Strategy**, you can translate these into:
 
 ### **2.1 Start with a Backward‑Design Approach**
 
@@ -407,7 +407,7 @@ Click “basement” → see demo of zoning issues.
 - **Virtual “deal rooms”**
 - A browser‑based dashboard where learners assemble financing terms, rent assumptions, and rehab costs, then compare their virtual deal with a benchmark portfolio.
 
-For TheEduAssist, this means integrating VR‑style widgets inside your Kajabi or ++[Skool](https://www.theeduassist.com/blog/skool-vs-learnworlds/)++ course dashboards, not just posting external links.
+For TheEduAssist, this means integrating VR‑style widgets inside your Kajabi or [Skool](https://www.theeduassist.com/blog/skool-vs-learnworlds/) course dashboards, not just posting external links.
 
 ### **5.2 Simulate Open Houses and Negotiations for Real Estate Virtual Strategy:**
 

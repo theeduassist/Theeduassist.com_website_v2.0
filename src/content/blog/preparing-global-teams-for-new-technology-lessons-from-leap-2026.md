@@ -135,7 +135,7 @@ This is especially important for companies with offices in different countries. 
 
 ## **What Is LEAP 2026?**
 
-LEAP is a global technology event held annually in Riyadh, Saudi Arabia. The 2026 edition is taking place from **31 August to 3 September at the Riyadh Exhibition & Convention Centre in Malham**. (++[One Giant Leap](https://onegiantleap.com/?utm_source=chatgpt.com)++)
+LEAP is a global technology event held annually in Riyadh, Saudi Arabia. The 2026 edition is taking place from **31 August to 3 September at the Riyadh Exhibition & Convention Centre in Malham**. ([One Giant Leap](https://onegiantleap.com/?utm_source=chatgpt.com))
 
 The event brings together technology companies, startups, investors, speakers, and organizations working across different industries.
 
@@ -145,9 +145,9 @@ According to LEAP's official information, the 2026 event includes:
 - **1,000+ speakers**
 - **600+ startups**
 - **201,000+ attendees**
-- **1,900+ investors** (++[One Giant Leap](https://onegiantleap.com/?utm_source=chatgpt.com)++)
+- **1,900+ investors** ([One Giant Leap](https://onegiantleap.com/?utm_source=chatgpt.com))
 
-LEAP covers areas including artificial intelligence, cloud and data infrastructure, cybersecurity, fintech, health technology, smart cities, climate and energy technologies, space, gaming, sports technology, and digital commerce. (++[One Giant Leap](https://onegiantleap.com/about-us/key-information?utm_source=chatgpt.com)++)
+LEAP covers areas including artificial intelligence, cloud and data infrastructure, cybersecurity, fintech, health technology, smart cities, climate and energy technologies, space, gaming, sports technology, and digital commerce. ([One Giant Leap](https://onegiantleap.com/about-us/key-information?utm_source=chatgpt.com))
 
 ## **The Challenge of Training International Teams**
 
@@ -185,7 +185,7 @@ Useful approaches include:
 - **Workplace Scenarios:** Hands-on activities based on realistic tasks can help employees understand how the technology applies to their roles.
 - **Global Adaptability:** Well-structured modules can be adapted for different offices, roles, and regional requirements.
 
-Microlearning and just-in-time training are also discussed as emerging approaches to workplace learning and skills development. (++[TheEduAssist](https://theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com)++)
+Microlearning and just-in-time training are also discussed as emerging approaches to workplace learning and skills development. ([TheEduAssist](https://theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com))
 
 ## **Turn Existing Company Knowledge into Digital Assets**
 
@@ -197,7 +197,7 @@ For organizations exploring this approach, [instructional design and digital lea
 
 ## **Build AI Literacy with Confidence**
 
-AI is an important part of the LEAP ecosystem. DeepFest, which is co-located with LEAP, focuses specifically on artificial intelligence, including applied AI, data, governance, and enterprise adoption. (++[One Giant Leap](https://onegiantleap.com/about-us/key-information?utm_source=chatgpt.com)++)
+AI is an important part of the LEAP ecosystem. DeepFest, which is co-located with LEAP, focuses specifically on artificial intelligence, including applied AI, data, governance, and enterprise adoption. ([One Giant Leap](https://onegiantleap.com/about-us/key-information?utm_source=chatgpt.com))
 
 Introducing AI tools requires more than simply giving employees access to them. Training can help employees understand how to use AI responsibly within their roles.
 
@@ -208,7 +208,7 @@ Important areas can include:
 - **Human Oversight:** Employees should understand when human judgement is still required.
 - **Responsible Use:** Organizations can establish clear expectations around privacy, accuracy, and appropriate AI use.
 
-AI is also being explored within learning and development through personalized learning paths, skills mapping, content development, learning analytics, and microlearning. (++[TheEduAssist](https://theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com)++)
+AI is also being explored within learning and development through personalized learning paths, skills mapping, content development, learning analytics, and microlearning. ([TheEduAssist](https://theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com))
 
 ## **A Simple Process for Better Training**
 
@@ -234,7 +234,7 @@ TheEduAssist can support organizations in connecting technology with structured 
 - **Employee Training:** Creating learning experiences for onboarding, upskilling, and technology adoption.
 - **Software Rollout Support:** Developing step-by-step training resources that help employees understand new systems.
 
-Organizations can learn more about [AI-powered skills-based learning and professional development] and how digital learning approaches can support changing workforce requirements. (++[TheEduAssist](https://theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com)++)
+Organizations can learn more about [AI-powered skills-based learning and professional development] and how digital learning approaches can support changing workforce requirements. ([TheEduAssist](https://theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com))
 
 A technology strategy determines which tools an organization introduces. A practical training strategy helps ensure that employees understand how to use those tools effectively.
 
@@ -255,7 +255,7 @@ This does not mean every office needs a completely different training program. I
 
 ## **What LEAP Can Teach Organizations About Workforce Readiness**
 
-LEAP's focus extends across technology, investment, and real-world technology adoption. Its 2026 programme includes more than 14 stages and 20 tracks, with content exploring how technology is reshaping industries and society. (++[One Giant Leap](https://onegiantleap.com/leap-stages-2026?utm_source=chatgpt.com)++)
+LEAP's focus extends across technology, investment, and real-world technology adoption. Its 2026 programme includes more than 14 stages and 20 tracks, with content exploring how technology is reshaping industries and society. ([One Giant Leap](https://onegiantleap.com/leap-stages-2026?utm_source=chatgpt.com))
 
 For organizations, this creates a useful connection between technology adoption and workforce development.
 

@@ -298,13 +298,13 @@ Also, most of these tools offer a free trial. So you can try them before you pay
 
 So your funnel is live and getting results. Now it is time to grow. First, put some of your earnings back into paid ads. Second, add a webinar or video sales letter to your funnel. This helps you close more sales on autopilot. Third, build a referral system. Ask happy clients to send you new ones.
 
-Also, for more tips on how to sell your online courses and grow your digital business, read our detailed guide on ++[How to Sell Online Courses That Actually Convert](https://theeduassist.com/blog/how-to-sell-online-courses-that-actually-convert/)++. It covers funnels, email sequences, and proven strategies to help you turn your knowledge into consistent income.
+Also, for more tips on how to sell your online courses and grow your digital business, read our detailed guide on [How to Sell Online Courses That Actually Convert](https://theeduassist.com/blog/how-to-sell-online-courses-that-actually-convert/). It covers funnels, email sequences, and proven strategies to help you turn your knowledge into consistent income.
 
 ## References
 
-- ++[Neil Patel Sales Funnel Guide](https://neilpatel.com/blog/how-marketing-funnels-work/)++
-- ++[HubSpot What Is a Sales Funnel](https://blog.hubspot.com/sales/sales-funnel)++
-- ++[Entrepreneur How to Build a High-Ticket Funnel](https://www.entrepreneur.com/growing-a-business/how-to-build-a-high-ticket-sales-funnel)++
+- [Neil Patel Sales Funnel Guide](https://neilpatel.com/blog/how-marketing-funnels-work/)
+- [HubSpot What Is a Sales Funnel](https://blog.hubspot.com/sales/sales-funnel)
+- [Entrepreneur How to Build a High-Ticket Funnel](https://www.entrepreneur.com/growing-a-business/how-to-build-a-high-ticket-sales-funnel)
 
 ## Conclusion
 

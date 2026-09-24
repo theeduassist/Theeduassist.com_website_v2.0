@@ -125,7 +125,7 @@ In this guide, you will learn step by step how to create better video seminars. 
 
 Video seminars make learning easy. They help students understand topics faster.
 
-They can also support ++[audio, video, and workbook-based eLearning courses](https://www.theeduassist.com/blog/creating-an-audio-video-and-workbook-based-lifestyle-elearning-course/)++ by making lessons more visual and engaging.
+They can also support [audio, video, and workbook-based eLearning courses](https://www.theeduassist.com/blog/creating-an-audio-video-and-workbook-based-lifestyle-elearning-course/) by making lessons more visual and engaging.
 
 Moreover, Spotlightr provides secure and smooth video hosting. This improves the overall experience.
 
@@ -173,7 +173,7 @@ This keeps your content focused.
 
 ## **Step 2: Plan Your Video Structure**
 
-Next, organize your content in a clear way. A strong structure helps you create ++[engaging educational content for online platforms](https://www.theeduassist.com/blog/how-to-create-engaging-educational-content-for-online-platform-2026/)++.
+Next, organize your content in a clear way. A strong structure helps you create [engaging educational content for online platforms](https://www.theeduassist.com/blog/how-to-create-engaging-educational-content-for-online-platform-2026/).
 
 ### **Simple Structure**
 
@@ -187,7 +187,7 @@ This helps students follow each step easily.
 
 ## **Step 3: Use Simple Instructional Design**
 
-++[Instructional design](https://www.theeduassist.com/blog/instructional-design-in-action-practical-solutions-for-learner-problems/)++ means teaching clearly. Good design helps solve common learner problems and keeps lessons focused.
+[Instructional design](https://www.theeduassist.com/blog/instructional-design-in-action-practical-solutions-for-learner-problems/) means teaching clearly. Good design helps solve common learner problems and keeps lessons focused.
 
 However, keep everything simple.
 
@@ -198,7 +198,7 @@ However, keep everything simple.
 - Use real examples
 - Ask simple questions
 
-Learn more: ++[https://theeduassist.com/instructional-design-basics](https://theeduassist.com/instructional-design-basics)++
+Learn more: [https://theeduassist.com/instructional-design-basics](https://theeduassist.com/instructional-design-basics)
 
 ## **Step 4: Write Easy Scripts**
 
@@ -246,9 +246,9 @@ This keeps videos clear and engaging.
 
 ## **Step 7: Upload Video Seminars on Spotlightr**
 
-Now upload your videos. Spotlightr can also be used alongside course platforms such as ++[Kajabi](https://www.theeduassist.com/blog/learnworlds-vs-kajabi/)++ when building and delivering online courses.
+Now upload your videos. Spotlightr can also be used alongside course platforms such as [Kajabi](https://www.theeduassist.com/blog/learnworlds-vs-kajabi/) when building and delivering online courses.
 
-Once your videos are ready, you can use them as part of a structured course when you ++[create online courses.](https://www.theeduassist.com/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/)++ 
+Once your videos are ready, you can use them as part of a structured course when you [create online courses.](https://www.theeduassist.com/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/) 
 
 ### **Steps to Follow**
 
@@ -271,7 +271,7 @@ Engagement is very important. Therefore, add interactive features.
 - Email forms
 - Quiz links
 
-This keeps users active. If you plan to monetize your content, strong engagement can also help you ++[sell online courses](https://www.theeduassist.com/blog/how-to-sell-online-courses-that-actually-convert/)++ more effectively.
+This keeps users active. If you plan to monetize your content, strong engagement can also help you [sell online courses](https://www.theeduassist.com/blog/how-to-sell-online-courses-that-actually-convert/) more effectively.
 
 ## **Step 9: Optimize SEO for Video Seminars on Spotlightr**
 
@@ -292,11 +292,11 @@ SEO helps your content rank on Google.
 - create online courses
 - video marketing
 
-Learn more: ++[https://theeduassist.com/seo-writing-tips](https://theeduassist.com/seo-writing-tips)++
+Learn more: [https://theeduassist.com/seo-writing-tips](https://theeduassist.com/seo-writing-tips)
 
 ## **Step 10: Improve User Experience**
 
-User experience is very important when choosing and using ++[learning management systems](https://www.theeduassist.com/blog/best-learning-management-systems/)++. If your course is hard to navigate, users may leave.
+User experience is very important when choosing and using [learning management systems](https://www.theeduassist.com/blog/best-learning-management-systems/). If your course is hard to navigate, users may leave.
 
 ### **UX Tips**
 
@@ -307,7 +307,7 @@ User experience is very important when choosing and using ++[learning management
 
 ## **Step 11: Use AI for Faster Work**
 
-AI tools can save time. You can use AI to develop lesson ideas, scripts, activities, and other parts of an ++[AI training course](https://www.theeduassist.com/blog/google-ai-training-course/)++. 
+AI tools can save time. You can use AI to develop lesson ideas, scripts, activities, and other parts of an [AI training course](https://www.theeduassist.com/blog/google-ai-training-course/). 
 
 However, always review your content.
 

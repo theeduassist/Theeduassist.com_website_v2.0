@@ -145,7 +145,7 @@ EdApp leads for US pros seeking fun, flow-state learning. Its AI-powered “micr
 - Creators: Export to Kajabi; solo creators double enrollments with gamified hooks.
 - Decision-Makers: WCAG-compliant; pilots for 5K+ users at Fortune 500 firms.
 
-**Pricing**: Free for basics; $2.95/user/month enterprise.**Research Nod**: *Journal of Research on Technology in Education* praises gamification in micro formats (2024).++[Try EdApp](https://www.edapp.com/)++
+**Pricing**: Free for basics; $2.95/user/month enterprise.**Research Nod**: *Journal of Research on Technology in Education* praises gamification in micro formats (2024).[Try EdApp](https://www.edapp.com/)
 
 Example: A US pharma rep learns compliance in 7 minutes daily retention up 25% (Degreed Resources).
 
@@ -167,7 +167,7 @@ Example: A US pharma rep learns compliance in 7 minutes daily retention up 25% (
 - Creators: Mobile-friendly for Mighty Networks; reduces refunds via daily nudges.
 - Decision-Makers: Scales to enterprises; Brandon Hall Group benchmark: 62% engagement boost.
 
-**Pricing**: $5/user/month.**Research**: *Educational Technology & Society* links short bursts to long-term recall (2023).++[Explore 7taps](https://7taps.com/)++
+**Pricing**: $5/user/month.**Research**: *Educational Technology & Society* links short bursts to long-term recall (2023).[Explore 7taps](https://7taps.com/)
 
 ## **3. Qstream: Data-Driven Microlearning Mastery**
 
@@ -186,7 +186,7 @@ Qstream blends **microlearning** with adaptive testing for US knowledge workers.
 - Trainers: Simulations for soft skills (“Handle objections live”).
 - Creators: White-label for Skool communities.
 - Decision-Makers: Compliance tracking; Gartner Magic Quadrant leader.
-- ++[Visit Qstream](https://www.qstream.com/)++
+- [Visit Qstream](https://www.qstream.com/)
 
 Case: US bank reduced errors 30% via daily micros (LinkedIn Report).
 
@@ -208,7 +208,7 @@ OttoLearn uses AI to tailor **microlearning** journeys, adapting to user pace gr
 - Creators: Kajabi embeds; creators report 2x retention.
 - Decision-Makers: Scales globally; HR compliance audits.
 
-**Pricing**: Custom, from $8/user.**Research**: SpringerLink meta-analysis: Personalization lifts outcomes 28% (2024).++[Check OttoLearn](https://www.ottolearn.com/)++
+**Pricing**: Custom, from $8/user.**Research**: SpringerLink meta-analysis: Personalization lifts outcomes 28% (2024).[Check OttoLearn](https://www.ottolearn.com/)
 
 ## **5. Gnowbe: Collaborative Microlearning Hubs**
 
@@ -228,7 +228,7 @@ Gnowbe turns **microlearning** social US pros collaborate in “cards” like Sl
 - Creators: Sell decks on WordPress.
 - Decision-Makers: Enterprise-grade; pilot-tested at scale.
 
-**Pricing**: $9/user/month.**Research**: *British Journal of Educational Technology* on social micro (2026).++[See Gnowbe](https://www.gnowbe.com/)++
+**Pricing**: $9/user/month.**Research**: *British Journal of Educational Technology* on social micro (2026).[See Gnowbe](https://www.gnowbe.com/)
 
 ## **Honorable Mentions for Niche Needs**
 

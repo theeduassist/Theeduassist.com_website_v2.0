@@ -104,7 +104,7 @@ editorialManagement:
 ---
 Creating your first online course can feel overwhelming. The challenge isn't just uploading content to LearnWorlds. It's turning your expertise into a clear learning experience that learners can actually complete.
 
-++[LearnWorlds](https://www.learnworlds.com/?utm_source=chatgpt.com)++ provides tools to organize lessons, add activities, assess learners, customize your course, and prepare it for launch. But the platform is only part of the process.
+[LearnWorlds](https://www.learnworlds.com/?utm_source=chatgpt.com) provides tools to organize lessons, add activities, assess learners, customize your course, and prepare it for launch. But the platform is only part of the process.
 
 Here's how to create your first LearnWorlds course without overcomplicating it.
 
@@ -157,7 +157,7 @@ Each module should move learners closer to the outcome. Don't create lessons sim
 
 ## **3. Create Your Course in LearnWorlds**
 
-LearnWorlds lets you create courses through its ++[Course Creation Wizard](https://www.google.com/aclk?sa=L&ai=DChsSEwjp3N2ioZ2WAxVFFAYAHS1nFF0YACICCAEQABoCd3M&ae=2&aspm=1&co=1&ase=2&gclid=CjwKCAjw1vXTBhB-EiwAEKr_k-Frj22uC-Qt50Y2-UeuJm0_UOLwalnpoLLc019w80wAMFt1Kf60jRoCLmEQAvD_BwE&cid=CAASugHkaCRc3hOj-1CbBbqwyHFCLTIBWkGk2MFmjxPZauERqiQn0lKnwLuyS8v26T1PwkeUkkJn6mEd9yG5aF9D8Rc8lMf_y3SidIjZ7gdTPDlzaXuzzR12RHSs30-zSCzzqIziNPmCTHTbsogNO8pa0CRDKQGY-BmZLKbbWSR75cVTFGJFKei8Y55V1PHxVYPzLQXOlWnQ33CevQ8CM8fR6poIiiJ5WfS04Pe_N_v7-qy_mR7Oh8k_jRLxEtQ&cce=2&category=acrcp_v1_35&sig=AOD64_2Rc_VXwt3Wokxrsq5o5VWfwSPuyQ&q&nis=4&adurl&ved=2ahUKEwjRstiioZ2WAxXZVaQEHYCpOocQ0Qx6BAgWEAE)++. You can build from scratch, use AI to help create an outline, import an existing course, or use content available through Course Hub.
+LearnWorlds lets you create courses through its [Course Creation Wizard](https://www.google.com/aclk?sa=L&ai=DChsSEwjp3N2ioZ2WAxVFFAYAHS1nFF0YACICCAEQABoCd3M&ae=2&aspm=1&co=1&ase=2&gclid=CjwKCAjw1vXTBhB-EiwAEKr_k-Frj22uC-Qt50Y2-UeuJm0_UOLwalnpoLLc019w80wAMFt1Kf60jRoCLmEQAvD_BwE&cid=CAASugHkaCRc3hOj-1CbBbqwyHFCLTIBWkGk2MFmjxPZauERqiQn0lKnwLuyS8v26T1PwkeUkkJn6mEd9yG5aF9D8Rc8lMf_y3SidIjZ7gdTPDlzaXuzzR12RHSs30-zSCzzqIziNPmCTHTbsogNO8pa0CRDKQGY-BmZLKbbWSR75cVTFGJFKei8Y55V1PHxVYPzLQXOlWnQ33CevQ8CM8fR6poIiiJ5WfS04Pe_N_v7-qy_mR7Oh8k_jRLxEtQ&cce=2&category=acrcp_v1_35&sig=AOD64_2Rc_VXwt3Wokxrsq5o5VWfwSPuyQ&q&nis=4&adurl&ved=2ahUKEwjRstiioZ2WAxXZVaQEHYCpOocQ0Qx6BAgWEAE). You can build from scratch, use AI to help create an outline, import an existing course, or use content available through Course Hub.
 
 For a first course, starting from scratch can give you greater control over the learning experience.
 
@@ -232,7 +232,7 @@ If learners can reach the goal in 10 focused lessons, don't create 30. Longer do
 
 ## **7. Add the Right Learning Content**
 
-LearnWorlds supports ++[different learning activities](https://multimedia.ucsd.edu/best-practices/multimedia-learning.html?utm_source=chatgpt.com)++ and formats, including videos, PDFs, ebooks, quizzes, assessments, interactive content, SCORM/HTML5 content, and live sessions.
+LearnWorlds supports [different learning activities](https://multimedia.ucsd.edu/best-practices/multimedia-learning.html?utm_source=chatgpt.com) and formats, including videos, PDFs, ebooks, quizzes, assessments, interactive content, SCORM/HTML5 content, and live sessions.
 
 Don't use every format simply because it's available.
 
@@ -268,7 +268,7 @@ For example:
 - Give them a real-world content planning task.
 - Add short knowledge checks after key concepts.
 
-LearnWorlds also supports ++[interactive video](https://support.learnworlds.com/support/solutions/12000004745?utm_source=chatgpt.com)++ features that can add questions and other interactions.
+LearnWorlds also supports [interactive video](https://support.learnworlds.com/support/solutions/12000004745?utm_source=chatgpt.com) features that can add questions and other interactions.
 
 Use them when they improve the learning experience.
 
@@ -276,7 +276,7 @@ Make activities purposeful, not decorative.
 
 ## **9. Add Quizzes and Assessments**
 
-Assessments should show whether learners understand and can apply the material. Match each assessment to its ++[learning objective](https://www.qualitymatters.org/qa-resources/rubric-standards/higher-ed-rubric?utm_source=chatgpt.com)++.
+Assessments should show whether learners understand and can apply the material. Match each assessment to its [learning objective](https://www.qualitymatters.org/qa-resources/rubric-standards/higher-ed-rubric?utm_source=chatgpt.com).
 
 If you're teaching SEO, don't only ask:
 
@@ -291,7 +291,7 @@ Good content can still feel difficult when a course is confusing or poorly organ
 Pay attention to:
 
 - Lesson order
-- ++[Navigation](https://support.learnworlds.com/support/solutions/articles/12000105854-quick-start-guide-4-create-your-first-course?utm_source=chatgpt.com)++
+- [Navigation](https://support.learnworlds.com/support/solutions/articles/12000105854-quick-start-guide-4-create-your-first-course?utm_source=chatgpt.com)
 - Branding
 - Course images
 - Instructions

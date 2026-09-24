@@ -94,7 +94,7 @@ editorialManagement:
   lastReviewedDate: 2026-08-17
   nextReviewDate: 2026-08-17
 ---
-If you already have SCORM courses, you do not need to rebuild them from scratch to use them in LearnWorlds. ++[LearnWorlds supports compatible SCORM packages](https://support.learnworlds.com/support/solutions/articles/12000052986-how-to-upload-scorm-files-and-html5-packages-to-your-courses?utm_source=chatgpt.com)++, allowing you to bring existing e-learning content into your courses. 
+If you already have SCORM courses, you do not need to rebuild them from scratch to use them in LearnWorlds. [LearnWorlds supports compatible SCORM packages](https://support.learnworlds.com/support/solutions/articles/12000052986-how-to-upload-scorm-files-and-html5-packages-to-your-courses?utm_source=chatgpt.com), allowing you to bring existing e-learning content into your courses. 
 
 You can upload SCORM packages, track learner completion and time, and collect assessment results with graded SCORM. However, compatibility, file size, plan limits, and tracking requirements can affect how your content works after import.
 
@@ -102,7 +102,7 @@ This guide explains how LearnWorlds SCORM support works, which formats it suppor
 
 ## **What Is SCORM?**
 
-++[SCORM](https://scorm.com/)++ stands for Shareable Content Object Reference Model. It is a set of ++[technical standards](https://scorm.com/scorm-explained/technical-scorm/)++ that helps e-learning content work with compatible learning management systems.
+[SCORM](https://scorm.com/) stands for Shareable Content Object Reference Model. It is a set of [technical standards](https://scorm.com/scorm-explained/technical-scorm/) that helps e-learning content work with compatible learning management systems.
 
 A SCORM course is usually packaged as a ZIP file. It contains the files needed to run the course and an XML manifest that describes the course structure. This format is useful when content is created in an authoring tool and then delivered through an LMS.
 
@@ -112,11 +112,11 @@ For instance, a company can develop an employee safety course by employing an e-
 
 ## **Does LearnWorlds Support SCORM?**
 
-Yes. LearnWorlds supports SCORM packages as learning activities. According to the ++[LearnWorlds Help Center's SCORM upload guide](https://support.learnworlds.com/support/solutions/articles/12000052986-how-to-upload-scorm-files-and-html5-packages-to-your-courses)++, supported formats include:
+Yes. LearnWorlds supports SCORM packages as learning activities. According to the [LearnWorlds Help Center's SCORM upload guide](https://support.learnworlds.com/support/solutions/articles/12000052986-how-to-upload-scorm-files-and-html5-packages-to-your-courses), supported formats include:
 
 - SCORM 1.2
 - SCORM 2004 3rd Edition
-- ++[SCORM 2004](https://scholar.google.com.pk/scholar?q=Advanced+Distributed+Learning+(ADL).+%E2%80%9CSCORM+2004.%E2%80%9D&hl=en&as_sdt=0&as_vis=1&oi=scholart)++ 4th Edition
+- [SCORM 2004](https://scholar.google.com.pk/scholar?q=Advanced+Distributed+Learning+(ADL).+%E2%80%9CSCORM+2004.%E2%80%9D&hl=en&as_sdt=0&as_vis=1&oi=scholart) 4th Edition
 - Captivate CAM 1.3 ZIP packages
 - HTML5 packages
 
@@ -161,7 +161,7 @@ Each SCORM package can be up to 400 MB. If you have a larger package, check the 
 
 ### **Test the original package**
 
-Before uploading, open the course in the ++[authoring tool](https://scorm.com/scorm-explained/scorm-resources/scorm-authoring-tools/%5C)++ where it was created. Check:
+Before uploading, open the course in the [authoring tool](https://scorm.com/scorm-explained/scorm-resources/scorm-authoring-tools/%5C) where it was created. Check:
 
 - Navigation
 - Videos
@@ -244,7 +244,7 @@ A failed upload does not always mean the SCORM package is broken. Start by check
 - Is your LearnWorlds plan suitable for the number of packages?
 - Are there custom-domain or Cloudflare settings affecting the upload?
 
-LearnWorlds specifically notes that Cloudflare can interfere with large SCORM uploads on custom domains. If this happens, disabling the Cloudflare proxy and switching to DNS-only mode may resolve the issue.  ++[Testing](https://rusticisoftware.com/products/scorm-cloud/)++ the package before troubleshooting the LMS can also save time.
+LearnWorlds specifically notes that Cloudflare can interfere with large SCORM uploads on custom domains. If this happens, disabling the Cloudflare proxy and switching to DNS-only mode may resolve the issue.  [Testing](https://rusticisoftware.com/products/scorm-cloud/) the package before troubleshooting the LMS can also save time.
 
 ## **When Should You Use SCORM in LearnWorlds?**
 

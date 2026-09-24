@@ -219,6 +219,8 @@ Automate registrations, replays, and sequences for 24/7 performance.
 
 ### **Step 8: Improve Conversion Rates**
 
+Once your reminder emails are set up, it's time to think about what happens after the webinar. If your goal is to sell a course, coaching program, or another product or service, you'll need a sales page and an Offer for attendees to move forward. If you're working with a higher-priced product or service, you can also learn more about [building a high-ticket funnel](https://www.theeduassist.com/blog/how-to-build-a-massive-high-ticket-funnel-in-20-days/) to understand how different funnel elements work together.
+
 - Strong outcome-focused headlines
 - Reduce form fields
 - Add social proof

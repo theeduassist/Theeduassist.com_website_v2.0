@@ -130,7 +130,7 @@ editorialManagement:
 
 What Is an Instructional Designer, and Why Does Learning Need One?
 
-Struggling with disorganized courses, poor participation, or ineffective learning? Understand why instructional design matters, how it addresses the real problems learners face, and how ++[TheEduAssist](https://www.theeduassist.com)++ helps make learning genuinely meaningful.
+Struggling with disorganized courses, poor participation, or ineffective learning? Understand why instructional design matters, how it addresses the real problems learners face, and how [TheEduAssist](https://www.theeduassist.com) helps make learning genuinely meaningful.
 
 ## **What Is an Instructional Designer?**
 
@@ -151,7 +151,7 @@ Common issues include:
 - A focus on theory instead of real world application
 - No clear direction or learning path
 
-Without instructional design, learning quickly becomes stressful instead of supportive. This is exactly why instructional designers play such a critical role in building effective learning programs, and it is a core focus of ++[TheEduAssist's instructional design work](https://www.theeduassist.com)++.
+Without instructional design, learning quickly becomes stressful instead of supportive. This is exactly why instructional designers play such a critical role in building effective learning programs, and it is a core focus of [TheEduAssist's instructional design work](https://www.theeduassist.com).
 
 ## **The Real Problems Learners Face Today**
 
@@ -206,7 +206,7 @@ The future of learning is changing quickly. Learning is becoming:
 - Personalized and flexible
 - Continuous rather than one time
 
-Instructional Designers will play a key role in shaping online and blended learning relationships, modular courses and microlearning, adaptive and AI assisted learning, and lifelong reskilling. As learning continues to evolve, instructional design ensures that technology supports learners instead of confusing them, something organizations increasingly rely on ++[TheEduAssist](https://www.theeduassist.com)++ to help navigate.
+Instructional Designers will play a key role in shaping online and blended learning relationships, modular courses and microlearning, adaptive and AI assisted learning, and lifelong reskilling. As learning continues to evolve, instructional design ensures that technology supports learners instead of confusing them, something organizations increasingly rely on [TheEduAssist](https://www.theeduassist.com) to help navigate.
 
 ## **Why Instructional Design Matters More Than Technology**
 
@@ -233,7 +233,7 @@ When instructional design is implemented well, learners stop feeling stuck and s
 
 ## **How TheEduAssist Supports Learning as a Trusted Partner**
 
-++[TheEduAssist](https://www.theeduassist.com)++ believes learning should feel supportive, not stressful. Behind every course or training program are real people trying to grow, learn, and succeed.
+[TheEduAssist](https://www.theeduassist.com) believes learning should feel supportive, not stressful. Behind every course or training program are real people trying to grow, learn, and succeed.
 
 TheEduAssist supports learning by:
 
@@ -254,7 +254,7 @@ With thoughtful instructional design and support from TheEduAssist, learning bec
 
 ## **Call to Action**
 
-If learning feels confusing, overwhelming, or ineffective, you are not alone. ++[TheEduAssist](https://www.theeduassist.com)++ is here to help design learning that is built around clarity, understanding, and real progress.
+If learning feels confusing, overwhelming, or ineffective, you are not alone. [TheEduAssist](https://www.theeduassist.com) is here to help design learning that is built around clarity, understanding, and real progress.
 
 ## **Frequently Asked Questions**
 

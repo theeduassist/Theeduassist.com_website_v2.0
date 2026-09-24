@@ -57,7 +57,7 @@ keyTakeaways:
 faqs:
   - question: How fast can we launch a pilot Leadership Training System?
     answer: |2+
-       90 days from stakeholder buy-in. Week 1-2: competency heatmap. Week 3-6: prototype 3 modules. Week 9: 12-leader pilot launch. Full enterprise rollout: 6 months. Proven with NYC/Columbia model. ++[TheEduAssist](https://theeduassist.com/blog/instructional-design-for-leadership-training-programs-in-new-york/)++
+       90 days from stakeholder buy-in. Week 1-2: competency heatmap. Week 3-6: prototype 3 modules. Week 9: 12-leader pilot launch. Full enterprise rollout: 6 months. Proven with NYC/Columbia model. [TheEduAssist](https://theeduassist.com/blog/instructional-design-for-leadership-training-programs-in-new-york/)
 
   - question: What’s the minimum budget for a 12-person Leadership Training System pilot?
     answer: "$25K total ($2K/head). Breakdown: $8K content, $5K platforms (your
@@ -85,7 +85,7 @@ faqs:
       - **20%**: Bi-weekly accountability pods (3×3)
       - **10%**: Weekly AI nudges + live modules
 
-      Result: 67% behavior change vs. industry 15%. ++[egrove.olemiss](https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=3870&context=hon_thesis)++
+      Result: 67% behavior change vs. industry 15%. [egrove.olemiss](https://egrove.olemiss.edu/cgi/viewcontent.cgi?article=3870&context=hon_thesis)
   - question: What are the top 3 Leadership Training System modules for 2026?
     answer: |+
       1. Hybrid Team Crisis: VR negotiation under tariff pressure
@@ -116,7 +116,7 @@ faqs:
     answer: >-
       No transfer support. Solution: accountability pods + AI nudges + real
       projects. Spaced repetition + social learning = 60% retention lift.
-      ++[ddi](https://www.ddi.com/blog/instructional-design-principles)++
+      [ddi](https://www.ddi.com/blog/instructional-design-principles)
 
 
 

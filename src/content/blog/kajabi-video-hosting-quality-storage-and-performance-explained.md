@@ -149,7 +149,7 @@ When using presentations, use text that is large enough to be read easily. Incre
 
 This includes audio, which also needs to be considered. Students will allow minor discrepancies in visuals but poor or inconsistent sound will make the rest of an otherwise great lesson hard to follow. 
 
-Accessibility is another part of quality. The ++[W3C guidance on captions and subtitles](https://www.w3.org/WAI/media/av/captions/)++ explains when captions are needed for prerecorded video with meaningful audio content under WCAG. Adding accurate captions can make educational content more accessible while also giving students another way to review important information.
+Accessibility is another part of quality. The [W3C guidance on captions and subtitles](https://www.w3.org/WAI/media/av/captions/) explains when captions are needed for prerecorded video with meaningful audio content under WCAG. Adding accurate captions can make educational content more accessible while also giving students another way to review important information.
 
 ## **Kajabi Video Hosting Performance**
 
@@ -195,7 +195,7 @@ To optimize videos for Kajabi, focus on the balance between quality and file siz
 
 Screen recordings deserve particular attention because small text can become difficult to read after compression. Increase the size of important interface elements before recording rather than expecting compression to preserve tiny details.
 
-Your export settings should also be consistent. Google's current ++[YouTube recommended upload encoding settings](https://support.google.com/youtube/answer/1722171)++ use MP4 as a container and H.264 for video, with AAC-LC among the supported audio options. These are YouTube's recommendations rather than Kajabi requirements, but they provide a useful reference point for creating broadly compatible online-video files.
+Your export settings should also be consistent. Google's current [YouTube recommended upload encoding settings](https://support.google.com/youtube/answer/1722171) use MP4 as a container and H.264 for video, with AAC-LC among the supported audio options. These are YouTube's recommendations rather than Kajabi requirements, but they provide a useful reference point for creating broadly compatible online-video files.
 
 A practical workflow looks like this:
 
@@ -239,7 +239,7 @@ If your priority is an integrated course business, keeping video close to the co
 
 ## **Don't Forget Video Accessibility**
 
-Technical performance is only one part of a high-quality online course. Accessibility should be considered when preparing video lessons. The ++[W3C Web Accessibility Initiative's captions guidance](https://www.w3.org/WAI/media/av/captions/)++ explains that captions are needed for prerecorded synchronized media when meaningful audio content needs to be accessible to people who are deaf or hard of hearing under WCAG Level A.
+Technical performance is only one part of a high-quality online course. Accessibility should be considered when preparing video lessons. The [W3C Web Accessibility Initiative's captions guidance](https://www.w3.org/WAI/media/av/captions/) explains that captions are needed for prerecorded synchronized media when meaningful audio content needs to be accessible to people who are deaf or hard of hearing under WCAG Level A.
 
 For course creators, accurate captions and transcripts can make lessons easier to consume, review, and understand. They can also help students who prefer reading along with a lesson or need to review a particular explanation without replaying the entire video. Video accessibility should therefore be treated as part of course quality, not as an optional technical extra.
 
@@ -259,7 +259,7 @@ Kajabi video hosting provides course creators with an integrated approach to del
 
 A reliable workflow starts with good source recordings and sensible export settings. Keep original masters backed up, avoid unnecessarily large delivery files, upload lessons before launch deadlines, and always inspect processed videos from the student's perspective.
 
-For technical guidance, authoritative resources such as ++[YouTube's video encoding documentation](https://support.google.com/youtube/answer/1722171)++, ++[Cloudflare's video-streaming documentation](https://developers.cloudflare.com/stream/)++, and ++[W3C's accessibility guidance](https://www.w3.org/WAI/media/av/captions/)++ can provide useful industry context.
+For technical guidance, authoritative resources such as [YouTube's video encoding documentation](https://support.google.com/youtube/answer/1722171), [Cloudflare's video-streaming documentation](https://developers.cloudflare.com/stream/), and [W3C's accessibility guidance](https://www.w3.org/WAI/media/av/captions/) can provide useful industry context.
 
 When video infrastructure works well, students don't think about codecs, bitrate, processing queues, or streaming protocols. They simply press play and focus on learning. That's exactly what a good course-video workflow should achieve.
 

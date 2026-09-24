@@ -265,9 +265,9 @@ Also, for more tips on how to sell your online courses and grow your digital bus
 
 ## **References**
 
-- ++[Neil Patel Sales Funnel Guide](https://neilpatel.com/blog/how-marketing-funnels-work/)++
-- ++[HubSpot What Is a Sales Funnel](https://blog.hubspot.com/sales/sales-funnel)++
-- ++[Entrepreneur How to Build a High-Ticket Funnel](https://www.entrepreneur.com/growing-a-business/how-to-build-a-high-ticket-sales-funnel)++
+- [Neil Patel Sales Funnel Guide](https://neilpatel.com/blog/how-marketing-funnels-work/)
+- [HubSpot What Is a Sales Funnel](https://blog.hubspot.com/sales/sales-funnel)
+- [Entrepreneur How to Build a High-Ticket Funnel](https://www.entrepreneur.com/growing-a-business/how-to-build-a-high-ticket-sales-funnel)
 
 ## Conclusion
 

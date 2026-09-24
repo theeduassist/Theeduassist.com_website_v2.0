@@ -591,5 +591,5 @@ By following this research‑informed, practice‑grounded approach, Australian 
 Building effective learning modules in **HiBob LMS** in Australia is not just about uploading content—it is about aligning **local compliance, instructional‑design research, and in‑flow‑of‑work learning** into a coherent strategy. By leveraging HiBob’s integrated **Bob Learning** module, AI‑assisted course generation, role‑based assignments, and analytics, Australian HR and L&D teams can create short, engaging, and measurable learning experiences that support Fair Work obligations, WHS requirements, DEI goals, and national digital‑education priorities.  
 When modules are designed with clear outcomes, micro‑lessons, multiple media formats, and data‑driven iteration, HiBob LMS becomes a scalable engine for **continuous employee development, compliance assurance, and organisational performance**. This positions Australian organisations to meet global workforce‑trends expectations around skills‑based hiring, psychological safety, and lifelong learning, all within a single, HR‑linked platform.
 
-**Authored By** : Atiqa Sajid ++[http://www.linkedin.com/in/atiqa-sajid-747b57137](http://www.linkedin.com/in/atiqa-sajid-747b57137)++
+**Authored By** : Atiqa Sajid [http://www.linkedin.com/in/atiqa-sajid-747b57137](http://www.linkedin.com/in/atiqa-sajid-747b57137)
 

@@ -135,7 +135,7 @@ editorialManagement:
   lastReviewedDate: 2026-09-22
   nextReviewDate: 2026-09-22
 ---
-# XAPI Learning Record Store (LRS): Everything You Need to Know in 2026
+## XAPI Learning Record Store (LRS): Everything You Need to Know in 2026
 
 Training teams across the USA are collecting more learner data than ever before. Yet much of that data still lives inside separate tools that never share information with each other. An employee might finish a course inside an LMS, practice a skill inside a simulation, and complete a certification on a mobile app, all without those three systems ever talking to one another. This gap is exactly where a learning record store becomes useful.
 

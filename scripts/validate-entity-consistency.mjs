@@ -11,7 +11,9 @@ async function validateEntityConsistency() {
     let hasErrors = false;
 
     // Check Organization Schema on Homepage
-    const homeHtmlPath = path.join(distDir, 'home/index.html');
+    const homeHtmlPath = fs.existsSync(path.join(distDir, 'index.html'))
+        ? path.join(distDir, 'index.html')
+        : path.join(distDir, 'home/index.html');
     if (!fs.existsSync(homeHtmlPath)) {
         console.error(`Homepage HTML not found at ${homeHtmlPath}`);
         process.exit(1);

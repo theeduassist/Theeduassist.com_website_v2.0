@@ -1,39 +1,46 @@
 # TheEduAssist
 
-> TheEduAssist is an e-learning design agency helping organizations, training teams, academies and course creators design, build, migrate and improve digital learning experiences.
+> TheEduAssist is an enterprise e-learning design agency and technical learning consultancy helping organizations, SaaS companies, corporate training teams, academies, and course creators design, build, migrate, and optimize digital learning experiences.
 
-## Primary Pages
+## Primary Hubs & Inquiries
 
-- Homepage: https://www.theeduassist.com/
-- Services: https://www.theeduassist.com/services/
-- Enterprise Solutions: https://www.theeduassist.com/enterprise-solutions/
-- Kajabi Services: https://www.theeduassist.com/kajabi-services/
-- Case Studies: https://www.theeduassist.com/case-studies/
-- Pricing: https://www.theeduassist.com/pricing/
-- Blog: https://www.theeduassist.com/blog/
-- Contact Us: https://www.theeduassist.com/contact-us/
+- [Home](https://www.theeduassist.com/): Enterprise instructional design and digital learning architecture.
+- [Services Hub](https://www.theeduassist.com/services/): Comprehensive e-learning development, migration, and learning technology services.
+- [Free Architecture Audit](https://www.theeduassist.com/book-free-audit/): Zero-obligation 24–48 hour technical audit of LMS infrastructure, SCORM packages, and WCAG accessibility.
+- [Knowledge Hub (Resources)](https://www.theeduassist.com/resources/): In-depth technical guides, checklists, and compliance frameworks for modern learning systems.
+- [Enterprise Solutions](https://www.theeduassist.com/enterprise-solutions/): Scaled learning infrastructure for enterprise workforces.
+- [Kajabi Platform Services](https://www.theeduassist.com/kajabi-services/): Custom Kajabi course builds, webinar funnels, and checkout optimization.
+- [Case Studies](https://www.theeduassist.com/case-studies/): Verified client implementations, migrations, and measurable learning ROI.
+- [Pricing](https://www.theeduassist.com/pricing/): Transparent scoping for custom course development and LMS engineering.
+- [Technical Blog](https://www.theeduassist.com/blog/): Actionable analysis on instructional design, LMS migrations, xAPI, and learning technology.
+- [Contact Us](https://www.theeduassist.com/contact-us/): Direct consultation and project intake.
 
-## Expertise
+## Core Services & Capabilities
 
-- Customer Education
-- Knowledge Bases
-- SaaS Training
-- Technical Documentation
-- Learning Strategy
-- Instructional Design
-- Course Development
-- LMS Implementation & Migration
-- Kajabi
-- Enterprise Learning
-- Accessibility & Quality
-- AI-Supported Learning
-- Localization
-- Managed Learning
+- [Instructional Design Services](https://www.theeduassist.com/services/instructional-design/): ADDIE, backward design, and scenario-based workplace learning.
+- [LMS Implementation & Migration](https://www.theeduassist.com/services/lms-implementation-migration/): Zero-downtime LMS migrations, SCORM/xAPI transfer, and database migration.
+- [Custom eLearning Development](https://www.theeduassist.com/services/custom-elearning-development/): Interactive Articulate 360, Rise, Captivate, and HTML5 courses.
+- [Course Localization & Translation](https://www.theeduassist.com/services/course-localization-translation/): Multi-language e-learning adaptation, RTL support, and cultural validation.
+- [AI-Powered eLearning Development](https://www.theeduassist.com/services/ai-powered-elearning/): AI tutors, adaptive learning pathways, and automated knowledge checks.
+- [AI Ethics & Corporate Training](https://www.theeduassist.com/services/ai-ethics-corporate-training/): Enterprise governance, compliance, and responsible AI training.
+- [Quality Assurance & Compliance](https://www.theeduassist.com/services/quality-assurance/): Section 508, WCAG 2.2 AA validation, and cross-browser LMS testing.
+- [Assessment Design](https://www.theeduassist.com/services/assessment-design/): Psychometrically validated quizzes, diagnostic assessments, and certification pathways.
+- [Content Conversion](https://www.theeduassist.com/services/content-conversion/): Legacy PPT, PDF, and video conversion into modern interactive SCORM/cmi5 modules.
+- [Funnels & Automation](https://www.theeduassist.com/services/funnels-automation/): Learner onboarding automation, CRM integrations, and high-ticket education funnels.
 
-## Editorial
+## Knowledge Hub Guides
 
-- Blog
-- Editorial Team
-- Editorial Policy
-- Trust Centre
+- [eLearning Accessibility (WCAG 2.2 AA)](https://www.theeduassist.com/resources/accessibility/elearning-accessibility-wcag/): Technical standards, screen reader compatibility, and contrast compliance.
+- [eLearning Localization Checklist](https://www.theeduassist.com/resources/localization/elearning-localization-checklist/): End-to-end framework for global multilingual course rollouts.
+- [SaaS Customer Onboarding & Training](https://www.theeduassist.com/resources/saas-training/saas-customer-onboarding/): Curriculum frameworks to accelerate product adoption and reduce churn.
+- [Customer Education Strategy Guide](https://www.theeduassist.com/resources/customer-education/customer-education-strategy/): Scaling academy programs from pilot to enterprise maturity.
+- [Building an Enterprise Knowledge Base](https://www.theeduassist.com/resources/knowledge-bases/how-to-build-a-knowledge-base/): Information architecture, taxonomy design, and self-service search optimization.
 
+## Trust & Governance Architecture
+
+- [Trust Centre Overview](https://www.theeduassist.com/trust-centre/): Quality standards, data security, and procurement readiness.
+- [Security & Data Privacy](https://www.theeduassist.com/trust-centre/security-privacy/): Learner data protection, SOC 2 compliance, and GDPR alignment.
+- [Accessibility Commitment](https://www.theeduassist.com/trust-centre/accessibility/): Conformance with WCAG 2.2 AA and international accessibility standards.
+- [Responsible AI Principles](https://www.theeduassist.com/trust-centre/responsible-ai/): Algorithmic transparency, human oversight, and data provenance in learning AI.
+- [Delivery Methodology](https://www.theeduassist.com/trust-centre/delivery-methodology/): Phased milestones, quality gates, and enterprise QA governance.
+- [Procurement & Vendor Readiness](https://www.theeduassist.com/trust-centre/procurement/): Enterprise procurement checklist, MSA terms, and security questionnaires.

@@ -130,7 +130,7 @@ This guide is written for L&D managers, training directors, and HR leaders who w
 
 A learning analytics dashboard is a single screen that pulls data from your training tools. It shows course completions, quiz scores, login patterns, and skill growth in one place. Instead of checking five different reports, you check one dashboard. As a result, you save time and make faster decisions.
 
-Most modern platforms build this dashboard on top of your LMS or LXP. If you are still deciding between the two, this guide on ++[LXP vs LMS](https://theeduassist.com/services/lms-implementation-migration/)++ can help you pick the right base for your data.
+Most modern platforms build this dashboard on top of your LMS or LXP. If you are still deciding between the two, this guide on [LXP vs LMS](https://theeduassist.com/services/lms-implementation-migration/) can help you pick the right base for your data.
 
 ## **Why L&D Leaders in the USA Need a Learning Analytics Dashboard**
 
@@ -154,7 +154,7 @@ We have grouped these twenty KPIs into five simple categories. This way, you can
 
 ### **Progress and Adoption KPIs**
 
-**5. Enrollment Rate:** This tracks how many eligible employees actually sign up for a course. A low enrollment rate often points to poor communication or unclear value. Once you fix onboarding, enrollment usually climbs on its own. For proven ways to boost this number, see our guide on ++[LMS user adoption strategies](https://theeduassist.com/blog/lms-user-adoption-15-proven-ways-to-increase-employee-engagement/)++.
+**5. Enrollment Rate:** This tracks how many eligible employees actually sign up for a course. A low enrollment rate often points to poor communication or unclear value. Once you fix onboarding, enrollment usually climbs on its own. For proven ways to boost this number, see our guide on [LMS user adoption strategies](https://theeduassist.com/blog/lms-user-adoption-15-proven-ways-to-increase-employee-engagement/).
 
 **6. Learning Path Progress:** This shows how far learners move through a multi-step path. It helps you spot exactly where people slow down or quit. Then, you can redesign that specific step instead of the whole path.
 
@@ -174,7 +174,7 @@ We have grouped these twenty KPIs into five simple categories. This way, you can
 
 ### **Business Impact KPIs**
 
-**13. Training ROI:** This compares the cost of training against the value it creates, such as fewer errors or faster output. It is often the single number that leadership cares about most. For a full walkthrough, our guide on ++[measuring corporate training effectiveness](https://theeduassist.com/blog/lms-user-adoption-15-proven-ways-to-increase-employee-engagement/)++ breaks this down step by step.
+**13. Training ROI:** This compares the cost of training against the value it creates, such as fewer errors or faster output. It is often the single number that leadership cares about most. For a full walkthrough, our guide on [measuring corporate training effectiveness](https://theeduassist.com/blog/lms-user-adoption-15-proven-ways-to-increase-employee-engagement/) breaks this down step by step.
 
 **14. Time to Competency:** This measures how long it takes a new hire to reach full performance. Shorter times mean faster productivity and lower onboarding costs. It is one of the clearest ROI signals available.
 
@@ -190,7 +190,7 @@ We have grouped these twenty KPIs into five simple categories. This way, you can
 
 **19. Mobile Learning Usage:** This tracks what share of learning happens on phones or tablets. As more teams work remotely or on the move, this number keeps growing across firms in the USA.
 
-**20. LMS or LXP Adoption Rate:** This measures how much of your total workforce actively uses the platform, not just the training department. Low adoption here usually points back to setup, design, or communication issues. If your current system integrates poorly with your other tools, this guide on ++[LMS integration with HR and CRM software](https://theeduassist.com/services/)++ can help you plan a smoother setup.
+**20. LMS or LXP Adoption Rate:** This measures how much of your total workforce actively uses the platform, not just the training department. Low adoption here usually points back to setup, design, or communication issues. If your current system integrates poorly with your other tools, this guide on [LMS integration with HR and CRM software](https://theeduassist.com/services/) can help you plan a smoother setup.
 
 ## **How to Build a Learning Analytics Dashboard That Works**
 

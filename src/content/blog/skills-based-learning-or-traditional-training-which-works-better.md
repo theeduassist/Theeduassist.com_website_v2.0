@@ -157,21 +157,21 @@ In addition, this method supports fairness. Everyone gets a chance to grow based
 
 Moving to skills-based learning takes planning. Most companies follow a few clear steps. First, they list the skills needed for each role. Next, they check what employees already know. Then, they build short and focused lessons to close each gap. Finally, they test real performance to confirm the skill was learned.
 
-Technology plays a big role in this shift. Many businesses choose a modern learning platform to track skill growth in real time. Picking the right system matters a great deal, and our guide on ++[how to choose the right LMS for your organization](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/)++ can help leaders compare their options.
+Technology plays a big role in this shift. Many businesses choose a modern learning platform to track skill growth in real time. Picking the right system matters a great deal, and our guide on [how to choose the right LMS for your organization](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/) can help leaders compare their options.
 
-Some companies also compare a learning experience platform against a standard LMS before making a final choice. Our article on ++[LXP vs LMS](https://theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/)++ explains the difference in simple terms.
+Some companies also compare a learning experience platform against a standard LMS before making a final choice. Our article on [LXP vs LMS](https://theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/) explains the difference in simple terms.
 
-Once a company picks a new system, the next step is moving old data over safely. A clear plan matters here too. Our ++[LMS migration checklist](https://theeduassist.com/blog/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/)++ walks through this process step by step.
+Once a company picks a new system, the next step is moving old data over safely. A clear plan matters here too. Our [LMS migration checklist](https://theeduassist.com/blog/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/) walks through this process step by step.
 
 ## **The Role of Technology in Skills Based Learning**
 
 Modern tools make skills-based learning much easier to run. Artificial intelligence, for instance, can spot skill gaps faster than a manual review. It can also suggest the right lesson for each worker.
 
-This kind of smart support is explored in our piece on ++[AI-powered learning](https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/)++, which looks at how automation is changing employee training.
+This kind of smart support is explored in our piece on [AI-powered learning](https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/), which looks at how automation is changing employee training.
 
-For teams comparing older design methods with newer ones, our article on ++[AI versus traditional instructional design](https://theeduassist.com/blog/ai-vs-traditional-instructional-design/)++ offers a clear side-by-side view. Behind the scenes, many platforms now rely on shared data standards so systems can talk to each other.
+For teams comparing older design methods with newer ones, our article on [AI versus traditional instructional design](https://theeduassist.com/blog/ai-vs-traditional-instructional-design/) offers a clear side-by-side view. Behind the scenes, many platforms now rely on shared data standards so systems can talk to each other.
 
-Tracking learning data closely also depends on strong record-keeping. Our explainer on the ++[xAPI learning record store](https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/)++ shows how companies capture detailed skill data across many tools.
+Tracking learning data closely also depends on strong record-keeping. Our explainer on the [xAPI learning record store](https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/) shows how companies capture detailed skill data across many tools.
 
 ## **Measuring Success and Staying Compliant**
 

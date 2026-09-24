@@ -70,7 +70,7 @@ faqs:
     answer: Platforms like Kajabi, Thinkific, and Teachable are popular choices.
   - question: How can TheEduAssist help launch a 6-week course?
     answer: Through edu-assist consulting services,
-      ++[TheEduAssist.com](https://theeduassist.com)++ helps creators design
+      [TheEduAssist.com](https://theeduassist.com) helps creators design
       custom eLearning programs, LMS setup, and structured content development
       for scalable courses.
 sources:
@@ -160,7 +160,7 @@ This leads to:
 - Learner confusion
 - Poor engagement
 
-The missing element is ++[structured curriculum design](https://www.theeduassist.com/blog/study-e-learning-design-mistakes-that-prevents-retention-rate-of-the-learner/)++ and LMS strategy.
+The missing element is [structured curriculum design](https://www.theeduassist.com/blog/study-e-learning-design-mistakes-that-prevents-retention-rate-of-the-learner/) and LMS strategy.
 
 ## **Step 1: Define the 6-Week Transformation**
 
@@ -176,7 +176,7 @@ Define: **“What transformation will learners achieve in 6 weeks?”**
 - Week 3–4 → Skill development
 - Week 5–6 → Application and mastery
 
-This aligns with ++[instructional design best practices](https://www.theeduassist.com/blog/instructional-design-in-action-practical-solutions-for-learner-problems/)++ and ensures logical progression.
+This aligns with [instructional design best practices](https://www.theeduassist.com/blog/instructional-design-in-action-practical-solutions-for-learner-problems/) and ensures logical progression.
 
 ## **Step 2: Structure Weekly Modules (The 6-Week Framework)**
 
@@ -196,19 +196,19 @@ Each week should include:
 - Assignments
 - Feedback loops
 
-This supports microlearning and ++[structured content development](https://www.theeduassist.com/blog/want-to-airbnb-skills-start-with-this-course-framework/)++.
+This supports microlearning and [structured content development](https://www.theeduassist.com/blog/want-to-airbnb-skills-start-with-this-course-framework/).
 
 ## **Step 3: Choose the Right LMS Platform**
 
 Your LMS determines how learners experience your course.
 
-++[Popular platforms](https://www.theeduassist.com/blog/best-learning-management-systems/)++ include:
+[Popular platforms](https://www.theeduassist.com/blog/best-learning-management-systems/) include:
 
 - **Kajabi**
 - **Thinkific**
 - **Teachable**
 
-++[These platforms allow you](https://www.theeduassist.com/blog/lms-implementation-guide/)++ to:
+[These platforms allow you](https://www.theeduassist.com/blog/lms-implementation-guide/) to:
 
 - Organize weekly modules
 - Drip content over 6 weeks
@@ -231,7 +231,7 @@ Research shows that sequential content delivery improves engagement and completi
 
 This approach is essential for 6-week programs.
 
-## **Step 5: Build ++[Interactive Learning Experiences](https://www.theeduassist.com/blog/thrilling-thinkific-courses-that-learners-of-us-actually-complete/)++**
+## **Step 5: Build [Interactive Learning Experiences](https://www.theeduassist.com/blog/thrilling-thinkific-courses-that-learners-of-us-actually-complete/)**
 
 To increase engagement, include:
 
@@ -246,9 +246,9 @@ Interactive elements help learners:
 - Stay engaged
 - Retain information
 
-These activities should be built into well-structured ++[eLearning modules](https://www.theeduassist.com/blog/stop-ineffective-training-how-to-build-uplifting-elearning-modules/)++ to support consistent learner engagement. 
+These activities should be built into well-structured [eLearning modules](https://www.theeduassist.com/blog/stop-ineffective-training-how-to-build-uplifting-elearning-modules/) to support consistent learner engagement. 
 
-This is a core part of ++[custom eLearning](https://www.theeduassist.com/blog/how-to-create-engaging-educational-content-for-online-platform-2026/)++ and modern L&D strategies.
+This is a core part of [custom eLearning](https://www.theeduassist.com/blog/how-to-create-engaging-educational-content-for-online-platform-2026/) and modern L&D strategies.
 
 ## **Step 6: Combine Live + Self-Paced Learning**
 
@@ -257,7 +257,7 @@ A high-performing 6-week course uses a **blended learning model**:
 - Self-paced lessons (videos + modules)
 - Live sessions (Q&A, coaching, feedback)
 
-You can also explore how ++[audio, video, and workbook-based learning](https://www.theeduassist.com/blog/creating-an-audio-video-and-workbook-based-lifestyle-elearning-course/)++ can create a richer online learning experience.
+You can also explore how [audio, video, and workbook-based learning](https://www.theeduassist.com/blog/creating-an-audio-video-and-workbook-based-lifestyle-elearning-course/) can create a richer online learning experience.
 
 Research shows that combining synchronous and asynchronous learning improves outcomes and learner satisfaction.
 

@@ -230,8 +230,8 @@ There is no one-size-fits-all answer.
 
 ## **References**
 
-- ++[Comparative Analysis of E-Learning Platforms](https://ieeexplore.ieee.org/abstract/document/8679004)++
-- ++[Comparison of E-learning Authoring Tools](https://ieeexplore.ieee.org/abstract/document/8679004)++
+- [Comparative Analysis of E-Learning Platforms](https://ieeexplore.ieee.org/abstract/document/8679004)
+- [Comparison of E-learning Authoring Tools](https://ieeexplore.ieee.org/abstract/document/8679004)
 
 ### **FAQs**
 
