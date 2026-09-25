@@ -75,7 +75,6 @@ faqs:
       on the specific situation, so it is best to ask support rather than assume
       the content can be restored.
 
-        
 sources:
   - title: Contact Kajabi Support
     url: https://help.kajabi.com/articles/resources/support/how-to-contact-kajabi-support
@@ -93,6 +92,8 @@ editorialManagement:
   nextReviewDate: 2026-09-24
 ---
 # Why Kajabi Support?
+
+
 
 An online business is like an adventure: you have moments when you win and times when you lose. It comes with its highs and lows. Whether you're building a course, setting up marketing automation, or launching an email campaign, issues will arise.
 
@@ -113,7 +114,7 @@ It can be helpful when you need quick answers to problems that may seem out of t
 
 ### Live Chat Support
 
-For real-time assistance, you can use Kajabi's [++Live Chat Support++](https://help.kajabi.com/articles/resources/support/how-to-contact-kajabi-support). You can access support through the “Help & Feedback” tab inside your Kajabi dashboard. You may also be able to share your screen to help the support team understand the issue more clearly.
+For real-time assistance, you can use Kajabi's ++[Live Chat Support](https://help.kajabi.com/articles/resources/support/how-to-contact-kajabi-support)++. You can access support through the “Help & Feedback” tab inside your Kajabi dashboard. You may also be able to share your screen to help the support team understand the issue more clearly.
 
 ### Email Support
 
@@ -137,7 +138,7 @@ You can also join Kajabi's Facebook community to ask questions, network, and get
 
 ## Common Issues: How to handle them:
 
-### Checkout & Payment Errors: 
+### Checkout & Payment Errors:
 
 Checkout errors can typically happen due to a couple of reasons:
 
@@ -158,13 +159,13 @@ To resolve this issue from your end, you can:
 3. Check for any compliance notices in your payment processor dashboard.
 4. Contact your payment processor's support team for specific guidance.
 
-### Customer Login and Course Access Issues 
+### Customer Login and Course Access Issues
 
 Sometimes, one of the most common issues you can face with your Kajabi platform is customers not being able to access the library or their purchased products.
 
 Ensure that your customers' email addresses match the email associated with their account. If it's a password problem, they can reset their password and log in with their new credentials. If the customer is having trouble logging in from a different browser, they may also want to try clearing their browser cache.
 
-### Email Delivery Problems 
+### Email Delivery Problems
 
 Occasionally, emails may not be sent to some of your learners, causing them to miss important updates or reminders. To make sure this doesn't occur, here's how you can handle it:
 
