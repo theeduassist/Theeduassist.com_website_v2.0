@@ -52,6 +52,32 @@ faqs:
     answer: Choose Kajabi if you sell courses or memberships with a short, simple
       buying journey. Choose a traditional CRM like Salesforce or HubSpot if you
       run a sales team handling long, multi step deals.
+  - question: Can You Use Kajabi as a CRM?
+    answer: >+
+      Yes. Kajabi includes built in contact management, tagging, purchase
+      history, and automation triggers. It works well for course based
+      businesses, though it lacks advanced pipeline and lead scoring tools.
+
+  - question: What is the best CRM for managing Kajabi leads and students without
+      extra software?
+    answer: >
+      Kajabi’s own built in CRM, since it is already connected to your courses,
+      emails, and checkout pages. No extra software is required.  
+  - question: Kajabi CRM vs HubSpot CRM for online course creators, which is better?
+    answer: HubSpot offers more advanced features like lead scoring and pipeline
+      stages. Kajabi offers simpler, fully integrated contact management. Simple
+      sales cycles usually suit Kajabi, while complex B2B sales often suit
+      HubSpot.
+  - question: Is Kajabi’s built in CRM enough for managing student enrollments and leads?
+    answer: For most solo creators and small teams, yes. It tracks enrollments,
+      purchases, and engagement automatically. Larger businesses with complex
+      lists may eventually need more advanced tools.
+  - question: Does Kajabi CRM support SMS or text marketing?
+    answer: No. Kajabi focuses on email as its primary channel. SMS marketing
+      requires a separate third party integration.
+  - question: How many contacts can I store in Kajabi?
+    answer: This depends on your plan. Lower tiers support a few thousand contacts,
+      while Pro supports up to 100,000.
 sources:
   - title: SupplyGem — Can You Use Kajabi as a CRM?
     url: https://supplygem.com/kajabi-crm/
@@ -59,6 +85,10 @@ sources:
   - title: Capterra — Kajabi Software Pricing, Alternatives & More
     url: "[Capterra — **Kajabi Software Pricing, Alternatives &
       More**](https://www.capterra.com/p/154682/Kajabi/)"
+    accessedAt: 2026-09-21
+  - title: "[Williams Advice — **Is Kajabi Worth It? An Honest and Detailed Kajabi
+      Review**](https://williamsadvice.com/is-kajabi-worth-it-an-honest-kijabi-\
+      review-2026/)"
     accessedAt: 2026-09-21
 editorialManagement:
   dueDate: 2026-09-21
