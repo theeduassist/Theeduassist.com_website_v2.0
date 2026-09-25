@@ -65,6 +65,48 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-21
   lastReviewedDate: 2026-09-21
   nextReviewDate: 2026-09-21
+faqs:
+  - question: Are there eLearning conversion services that support both SCORM and
+      xAPI standards?
+    answer: >+
+      Yes, and you want a provider that supports both. A solid eLearning
+      conversion service should support SCORM 1.2, SCORM 2004, and xAPI (Tin Can
+      API), since different LMS platforms expect different tracking standards.
+      TheEduAssist converts legacy content to whichever standard your LMS
+      requires. We also implement xAPI for richer reporting through our
+      [++Dashboards and Analytics
+      solutions++](https://theeduassist.com/dashboard-and-analytics/).
+
+        
+  - question: What are affordable legacy training content modernization solutions
+      for small businesses?
+    answer: >+
+      Small businesses in the USA do not need to modernize an entire training
+      library all at once. A phased approach, starting with compliance and
+      onboarding content, keeps costs predictable. Partnering with an agency
+      like TheEduAssist, which offers per-course or phased pricing, is often
+      more cost-effective than buying an authoring tool and trying to convert
+      content in-house without instructional design experience.
+
+        
+  - question: How long does legacy eLearning conversion usually take?
+    answer: Timelines vary based on how many courses you have, how complex they are,
+      and whether a rebuild is needed alongside the conversion. A
+      straightforward HTML5 conversion of a standard thirty-minute SCORM course
+      can often be done in one to two weeks. Larger libraries are best handled
+      through a phased schedule. TheEduAssist also offers rapid timelines for
+      organizations facing urgent compliance deadlines.
+  - question: Will converted eLearning content actually work on mobile devices?
+    answer: Yes, as long as the conversion includes a mobile-first redesign pass.
+      Simply exporting an old Flash course to HTML5 will not automatically make
+      it mobile-friendly. A proper conversion reformats layouts, adjusts
+      navigation for touch screens, and resizes media assets.
+  - question: Do I need to replace all my legacy content at once?
+    answer: No, and most U.S. organizations do not. Prioritize content by compliance
+      risk, enrollment volume, and business impact, then convert in batches.
+      TheEduAssist can help you build a conversion roadmap that fits your
+      timeline and budget, without overwhelming your L&D team or disrupting
+      active training programs.
 ---
 Is your company still running training on old Flash modules? Maybe it is clunky PowerPoint decks, or PDF manuals nobody reads anymore. If so, you are not alone. Across the United States, thousands of organizations are sitting on piles of legacy training content. Much of it no longer loads on modern browsers. Some of it does not work on phones at all. And most of it fails to engage today’s workforce.
 
