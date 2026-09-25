@@ -12,8 +12,8 @@ aiSummary: This guide explains how Kajabi CRM works for online course creators,
 author: editorial-team
 category: kajabi
 draft: false
-publishedAt: 2026-09-21
-updatedAt: 2026-09-21
+publishedAt: 2026-09-25
+updatedAt: 2026-09-25
 heroImage: /images/blog/kajabi-crm-course-creatorsjpg.webp
 heroImageAlt: Kajabi CRM contact management dashboard for online course creators
 heroImageCaption: Kajabi CRM helps course creators manage contacts, leads,
@@ -60,9 +60,8 @@ faqs:
 
   - question: What is the best CRM for managing Kajabi leads and students without
       extra software?
-    answer: >
-      Kajabi’s own built in CRM, since it is already connected to your courses,
-      emails, and checkout pages. No extra software is required.  
+    answer: "Kajabi’s own built in CRM, since it is already connected to your
+      courses, emails, and checkout pages. No extra software is required.  "
   - question: Kajabi CRM vs HubSpot CRM for online course creators, which is better?
     answer: HubSpot offers more advanced features like lead scoring and pipeline
       stages. Kajabi offers simpler, fully integrated contact management. Simple
