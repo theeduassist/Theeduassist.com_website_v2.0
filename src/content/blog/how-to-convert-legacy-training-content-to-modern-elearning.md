@@ -57,7 +57,8 @@ sources:
   - title: WCAG 2.1 Accessibility Guidelines
     url: https://www.w3.org/TR/WCAG21/
     accessedAt: 2026-09-21
-  - title: "- ++[Section 508 Compliance Standards for U.S. Organizations"
+  - title: Section 508 Compliance Standards for U.S. Organizations
+    url: https://www.section508.gov/
     accessedAt: 2026-09-21
 editorialManagement:
   dueDate: 2026-09-21
