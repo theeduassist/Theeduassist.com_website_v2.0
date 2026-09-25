@@ -96,6 +96,16 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-21
   lastReviewedDate: 2026-09-21
   nextReviewDate: 2026-09-21
+tags:
+  - Kajabi CRM
+  - Online Courses
+  - Course Creation
+  - Lead Management
+  - Contact Management
+  - Customer Management
+  - CRM
+  - Kajabi
+  - Online Course Creators
 ---
 Running an online course business in the USA usually means juggling a dozen tools. One app for email. Another for student logins. A third just to keep leads organized. It gets messy fast, and it gets expensive too.
 
