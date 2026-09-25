@@ -54,8 +54,11 @@ faqs:
       run a sales team handling long, multi step deals.
 sources:
   - title: SupplyGem — Can You Use Kajabi as a CRM?
-    url: "[SupplyGem — **Can You Use Kajabi as a
-      CRM?**](https://supplygem.com/kajabi-crm/)"
+    url: https://supplygem.com/kajabi-crm/
+    accessedAt: 2026-09-21
+  - title: Capterra — Kajabi Software Pricing, Alternatives & More
+    url: "[Capterra — **Kajabi Software Pricing, Alternatives &
+      More**](https://www.capterra.com/p/154682/Kajabi/)"
     accessedAt: 2026-09-21
 editorialManagement:
   dueDate: 2026-09-21
