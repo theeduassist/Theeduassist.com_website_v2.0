@@ -60,7 +60,6 @@ faqs:
       simulations, and offline activities, then sends that data to a Learning
       Record Store for deeper analysis.
 
-        
   - question: Will my LMS work with xAPI or just SCORM?
     answer: >+
       Most LMS platforms support SCORM by default since it has been the industry
@@ -69,7 +68,6 @@ faqs:
       standalone LRS such as SCORM Cloud or Watershed. Always check your LMS
       documentation before assuming support either way.
 
-        
   - question: Should I choose xAPI or SCORM for tracking learner progress in my LMS?
     answer: >+
       If your training is simple, LMS based, and compliance focused, SCORM is
@@ -78,7 +76,6 @@ faqs:
       organizations use both together for different parts of their training
       program.
 
-        
   - question: "xAPI vs SCORM: which one offers better analytics for employee training?"
     answer: xAPI offers far richer analytics. It captures detailed statements about
       learner behavior, not just pass or fail results. This helps L&D teams
@@ -195,7 +192,7 @@ If your organization is also exploring how artificial intelligence fits into tra
 
 So, which should you pick? In short, there is no single right answer for every organization. Instead, the answer depends on three things: where your learning happens, how deep your reporting needs to be, and how much technical support you have on hand.
 
-If your training stays inside one LMS and focuses on compliance, SCORM remains a smart, low cost choice. If your learning spans multiple platforms, devices, and real world tasks, xAPI gives you the visibility you need. And if you want the best of both, a hybrid setup, or even cmi5 down the road, may serve you well.
+If your training stays inside one LMS and focuses on compliance, SCORM remains a smart, low-cost choice. If your learning spans multiple platforms, devices, and real-world tasks, xAPI gives you the visibility you need. And if you want the best of both, a hybrid setup, or even cmi5 down the road, may serve you well.
 
 Either way, take time to map out your current and future training needs before committing. The right eLearning standard should support your goals, not limit them.
 
