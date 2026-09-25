@@ -86,9 +86,11 @@ sources:
     url: "[Capterra — **Kajabi Software Pricing, Alternatives &
       More**](https://www.capterra.com/p/154682/Kajabi/)"
     accessedAt: 2026-09-21
-  - title: "[Williams Advice — **Is Kajabi Worth It? An Honest and Detailed Kajabi
-      Review**](https://williamsadvice.com/is-kajabi-worth-it-an-honest-kijabi-\
-      review-2026/)"
+  - title: Williams Advice — Is Kajabi Worth It? An Honest and Detailed Kajabi Review
+    url: https://williamsadvice.com/is-kajabi-worth-it-an-honest-kijabi-review-2026/
+    accessedAt: 2026-09-21
+  - title: "Mihael Cacic — Ontraport vs Kajabi: A Personal Review"
+    url: https://www.mihaelcacic.com/comparison/ontraport-vs-kajabi/
     accessedAt: 2026-09-21
 editorialManagement:
   dueDate: 2026-09-21
