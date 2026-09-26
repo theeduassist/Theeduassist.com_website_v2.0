@@ -1,39 +1,39 @@
 ---
-title: "Kajabi CRM: How to Manage Leads and Students in One Place"
-slug: kajabi-crm-how-to-manage-leads-and-students-in-one-place
+title: "Kajabi Email Strategy: How to Use Broadcasts and Sequences Effectively"
+slug: kajabi-email-strategy-how-to-use-broadcasts-and-sequences-effectively
 featured: false
-excerpt: Learn how Kajabi CRM helps manage leads and students, organize
-  contacts, automate emails, segment audiences, and improve course business
-  management.
-aiSummary: This article explain how Kajabi CRM helps course creators manage
-  leads, students, contacts, offers, and customer communication in one place.
-  This guide explains Kajabi contact management, segmentation, email marketing,
-  automation, and practical ways to organize your audience.
+excerpt: Learn how to use Kajabi email broadcasts and sequences effectively to
+  engage subscribers, nurture leads, onboard students, and support course
+  launches.
+aiSummary: This guide explains how Kajabi email broadcasts and sequences work,
+  their key differences, common use cases, and how course creators can combine
+  both tools for effective email marketing. It covers broadcasts for
+  time-sensitive announcements, promotions, newsletters, and launches, while
+  sequences are used for automated welcome, onboarding, nurture, and
+  post-purchase campaigns.
 author: editorial-team
 category: kajabi
 tags:
   - Kajabi
-  - Kajabi CRM
   - Course Creation
-  - CRM
+  - Kajabi Email
   - Online Courses
   - Email Marketing
-  - Lead Management
-  - Student Management
-  - Marketing Automation
-  - E-Learning
+  - Email Sequences
+  - Email Broadcasts
+  - Digital Marketing
+  - Email Automation
 draft: false
 publishedAt: 2026-09-21
 updatedAt: 2026-09-21
 heroImage: /images/blog/kajabi-crm-helps-course-creators-organize-leads-students-contacts-and-customer-communication.webp
-heroImageAlt: Kajabi CRM dashboard for managing leads and students
-heroImageCaption: Kajabi CRM helps course creators organize leads, students,
-  contacts, and customer communication.
-seoTitle: "Kajabi CRM: How to Manage Leads and Students in One Place"
-seoDescription: Learn how Kajabi CRM helps manage leads and students, organize
-  contacts, automate emails, segment audiences, and improve course business
-  management.
-focusKeyword: Kajabi CRM
+heroImageAlt: Kajabi email strategy showing broadcasts and automated email sequences
+heroImageCaption: "Kajabi Email Strategy: Using Broadcasts and Sequences Effectively"
+seoTitle: "Kajabi Email Strategy: How to Use Broadcasts and Sequences Effectively"
+seoDescription: Learn how to use Kajabi email broadcasts and sequences
+  effectively to engage subscribers, nurture leads, onboard students, and
+  support course launches.
+focusKeyword: Kajabi Email Strategy
 secondaryKeywords:
   - Kajabi email marketing strategy
   - Kajabi nurture sequence
