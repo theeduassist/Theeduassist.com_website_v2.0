@@ -1,5 +1,5 @@
 ---
-title: " Kajabi CRM: How to Manage Leads and Students in One Place"
+title: "Kajabi CRM: How to Manage Leads and Students in One Place"
 slug: kajabi-crm-how-to-manage-leads-and-students-in-one-place
 featured: false
 excerpt: Learn how Kajabi CRM helps course creators manage leads, students,
