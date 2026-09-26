@@ -53,6 +53,60 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-21
   lastReviewedDate: 2026-09-21
   nextReviewDate: 2026-09-21
+faqs:
+  - question: Can I convert a broadcast into a sequence email?
+    answer: You can repurpose the content of a broadcast for a sequence email.
+      However, you should review the message first because a broadcast may
+      contain date-specific information that would not make sense in an
+      automated sequence.
+  - question: How many emails should a welcome sequence have?
+    answer: A practical starting point is **3–5 emails over approximately 7–10
+      days**. You can adjust the number and timing based on your audience and
+      results.A basic welcome sequence can introduce your brand, deliver the
+      promised resource, provide useful information, and introduce the next
+      relevant step.
+  - question: Does Kajabi support conditional logic in sequences?
+    answer: Kajabi provides automation capabilities that can help you create
+      different actions based on subscriber activity. For more complex
+      workflows, review the platform's current automation capabilities and
+      structure your tags, offers, and sequences carefully.
+  - question: " What is a good open rate for Kajabi emails?"
+    answer: There is no single open-rate benchmark that applies to every Kajabi
+      business. Results can vary based on audience quality, industry, list age,
+      subject lines, email frequency, and whether the email is automated or
+      broadcast.Rather than focusing on one universal number, compare your own
+      campaigns over time.
+  - question: Should I use Kajabi Email or a separate tool like ConvertKit?
+    answer: For many Kajabi users, the built-in email features can be sufficient,
+      particularly when you want your course, contacts, offers, and email
+      workflows in one [platform.As](http://platform.As) your business becomes
+      more complex, you can compare Kajabi with dedicated email marketing
+      platforms and choose based on the features your workflow actually
+      requires.If you're still evaluating Kajabi's usability, you can also read
+      [Is Kajabi Easy to
+      Use?]([https://www.theeduassist.com/blog/is-kajabi-easy-to-use/](https://www.theeduassist.com/blog/is-kajabi-easy-to-use/))
+      for a beginner-focused overview.
+  - question: Can sequences and broadcasts be sent to the same subscriber?
+    answer: Yes. A subscriber can receive both automated sequence emails and manual
+      broadcasts.However, pay attention to email frequency. Sending too many
+      messages within a short period can create a poor subscriber experience and
+      increase unsubscribes.
+sources:
+  - title: Kajabi Help Center Email Broadcasts Overview.
+    url: https://help.kajabi.com/hc/en-us/articles/360044526192
+    accessedAt: 2026-09-21
+  - title: Kajabi Help Center Creating Email Sequences
+    url: https://help.kajabi.com/hc/en-us/articles/360043981271
+    accessedAt: 2026-09-21
+  - title: Mailchimp Email Automation Best Practices
+    url: https://mailchimp.com/resources/email-automation/
+    accessedAt: 2026-09-21
+  - title: Campaign Monitor Email Marketing Benchmarks
+    url: https://www.campaignmonitor.com/resources/guides/email-marketing-benchmarks/
+    accessedAt: 2026-09-21
+  - title: HubSpot Blog Email Marketing Statistics
+    url: https://blog.hubspot.com/marketing/email-marketing-stats
+    accessedAt: 2026-09-21
 ---
 # Kajabi Email Broadcast vs. Sequence: Which Should You Use?
 
