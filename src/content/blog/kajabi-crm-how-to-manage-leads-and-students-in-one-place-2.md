@@ -24,8 +24,8 @@ tags:
   - Digital Marketing
   - Email Automation
 draft: false
-publishedAt: 2026-09-21
-updatedAt: 2026-09-21
+publishedAt: 2026-09-26
+updatedAt: 2026-09-26
 heroImage: /images/blog/kajabi-crm-helps-course-creators-organize-leads-students-contacts-and-customer-communication.webp
 heroImageAlt: Kajabi email strategy showing broadcasts and automated email sequences
 heroImageCaption: "Kajabi Email Strategy: Using Broadcasts and Sequences Effectively"
