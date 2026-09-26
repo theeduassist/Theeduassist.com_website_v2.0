@@ -108,8 +108,6 @@ sources:
     url: https://blog.hubspot.com/marketing/email-marketing-stats
     accessedAt: 2026-09-21
 ---
-# Kajabi Email Broadcast vs. Sequence: Which Should You Use?
-
 If you’ve been inside your Kajabi dashboard staring at the Email section, you’ve probably asked yourself: **Should I send a broadcast or set up a sequence?**
 
 It’s one of the most common questions course creators, coaches, and online educators face. Choosing the wrong option can lead to poorly timed emails, inconsistent communication, and lower engagement.
