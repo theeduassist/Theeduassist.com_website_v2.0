@@ -88,6 +88,7 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-25
   lastReviewedDate: 2026-09-25
   nextReviewDate: 2026-09-25
+heroImage: /images/blog/657cb086-8c18-4666-9208-98e2c60458f5.png
 ---
 # Proven Kajabi Conversion Optimization Best Practices
 
