@@ -8,15 +8,15 @@ import { organizationEntity } from '../../data/organizationEntity';
 const site = { name: organizationEntity.name, email: organizationEntity.contactPoint.email, social: {} };
 
 ---
-<header class="bg-white/90 backdrop-blur-md border-b border-brand-border/50 relative z-50 sticky top-0 shadow-sm transition-all duration-300">
-    <div class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-        <a href="/" class="flex items-center space-x-3 focus-ring rounded-sm group shrink-0 min-w-0" aria-label="TheEduAssist Home">
-            <div class="h-11 w-11 md:h-12 md:w-12 rounded-full overflow-hidden shrink-0 min-w-0 flex items-center justify-center">
+<header id="site-header" class="bg-white/90 backdrop-blur-md border-b border-brand-border/50 relative z-50 sticky top-0 shadow-sm transition-all duration-300">
+    <div id="header-inner" class="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 py-3.5 md:py-4 flex justify-between items-center transition-all duration-300">
+        <a href="/" class="flex items-center space-x-2.5 md:space-x-3 focus-ring rounded-sm group shrink-0 min-w-0" aria-label="TheEduAssist Home">
+            <div id="header-logo-container" class="h-10 w-10 md:h-12 md:w-12 rounded-full overflow-hidden shrink-0 min-w-0 flex items-center justify-center transition-all duration-300">
                 <BrandLogo size="w-full h-full object-contain" decorative={false} priority="eager" />
             </div>
             <div class="hidden md:flex flex-col">
-                <span class="font-bold text-brand-primary text-xl leading-tight group-hover:text-brand-accent transition-colors duration-300">TheEduAssist</span>
-                <span class="text-xs text-brand-textMuted font-medium uppercase tracking-wider">E-Learning Design Agency</span>
+                <span id="header-title" class="font-bold text-brand-primary text-lg md:text-xl leading-tight group-hover:text-brand-accent transition-all duration-300">TheEduAssist</span>
+                <span id="header-subtitle" class="text-[11px] md:text-xs text-brand-textMuted font-medium uppercase tracking-wider transition-all duration-300">E-Learning Design Agency</span>
             </div>
         </a>
         <nav class="hidden xl:flex gap-1.5 items-center relative" aria-label="Main Navigation">
@@ -80,7 +80,7 @@ const site = { name: organizationEntity.name, email: organizationEntity.contactP
             ))}
 
             <div class="flex items-center ml-0.5 pl-1.5 border-l border-brand-border/60 gap-2">
-                <a href="/book-free-audit/" class="bg-brand-accent text-white px-2.5 py-2 rounded-md font-semibold hover-lift click-press focus-ring transition-all duration-300 hover:bg-brand-primary shadow hover:shadow-md whitespace-nowrap">Get a 24–48 Hour Review</a>
+                <a id="header-cta-audit" href="/book-free-audit/" class="bg-brand-accent text-white px-2.5 py-2 rounded-md font-semibold hover-lift click-press focus-ring transition-all duration-300 hover:bg-brand-primary shadow hover:shadow-md whitespace-nowrap text-xs md:text-sm">Get a 24–48 Hour Review</a>
                 <a href="https://calendly.com/eduassist-talk/30min" target="_blank" rel="noopener noreferrer" class="hidden 2xl:inline-flex bg-transparent border-2 border-brand-primary text-brand-primary px-4 py-2 rounded-md font-semibold hover-lift click-press focus-ring transition-all duration-300 hover:bg-brand-softBg whitespace-nowrap">Book a Call / Demo</a>
             </div>
         </nav>
@@ -193,6 +193,45 @@ const site = { name: organizationEntity.name, email: organizationEntity.contactP
           dropdown.dispatchEvent(new CustomEvent('close-dropdown'));
         }
       });
+    }, { passive: true });
+
+    // Dynamic compact sticky header on scroll to maximize viewport reading height
+    const header = document.getElementById('site-header');
+    const headerInner = document.getElementById('header-inner');
+    const logoContainer = document.getElementById('header-logo-container');
+    const headerTitle = document.getElementById('header-title');
+    const headerSubtitle = document.getElementById('header-subtitle');
+    const headerCta = document.getElementById('header-cta-audit');
+
+    let isCompact = false;
+    window.addEventListener('scroll', () => {
+      const shouldCompact = window.scrollY > 30;
+      if (shouldCompact !== isCompact) {
+        isCompact = shouldCompact;
+        if (isCompact) {
+          header?.classList.add('bg-white/98', 'shadow-md');
+          headerInner?.classList.remove('py-3.5', 'md:py-4');
+          headerInner?.classList.add('py-1.5', 'md:py-2');
+          logoContainer?.classList.remove('h-10', 'w-10', 'md:h-12', 'md:w-12');
+          logoContainer?.classList.add('h-7', 'w-7', 'md:h-8', 'md:w-8');
+          headerTitle?.classList.remove('text-lg', 'md:text-xl');
+          headerTitle?.classList.add('text-base', 'md:text-lg');
+          headerSubtitle?.classList.add('hidden');
+          headerCta?.classList.remove('py-2', 'px-2.5');
+          headerCta?.classList.add('py-1', 'px-2', 'text-xs');
+        } else {
+          header?.classList.remove('bg-white/98', 'shadow-md');
+          headerInner?.classList.remove('py-1.5', 'md:py-2');
+          headerInner?.classList.add('py-3.5', 'md:py-4');
+          logoContainer?.classList.remove('h-7', 'w-7', 'md:h-8', 'md:w-8');
+          logoContainer?.classList.add('h-10', 'w-10', 'md:h-12', 'md:w-12');
+          headerTitle?.classList.remove('text-base', 'md:text-lg');
+          headerTitle?.classList.add('text-lg', 'md:text-xl');
+          headerSubtitle?.classList.remove('hidden');
+          headerCta?.classList.remove('py-1', 'px-2', 'text-xs');
+          headerCta?.classList.add('py-2', 'px-2.5');
+        }
+      }
     }, { passive: true });
   });
 </script>
