@@ -1,0 +1,42 @@
+---
+// src/components/partners/AgencyPartnerFAQ.astro
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+export interface Props {
+  faqs: FAQItem[];
+}
+
+const { faqs } = Astro.props;
+---
+<section class="py-20 bg-slate-50 border-b border-slate-200">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-xs font-bold uppercase tracking-widest text-brand-primary mb-3">Agency FAQs</h2>
+      <h3 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight mb-4">
+        Frequently Asked Questions by Agency Partners
+      </h3>
+      <p class="text-base text-slate-600 leading-relaxed">
+        Everything you need to know about partnering with TheEduAssist as your white-label delivery engine.
+      </p>
+    </div>
+
+    <div class="space-y-4">
+      {faqs.map((faq, idx) => (
+        <details class="group bg-white rounded-2xl border border-slate-200/90 shadow-2xs overflow-hidden transition-all duration-200 open:border-brand-primary/40 open:shadow-xs">
+          <summary class="flex justify-between items-center p-6 cursor-pointer list-none select-none font-bold text-base text-brand-navy hover:text-brand-primary transition-colors">
+            <span class="pr-6">{faq.question}</span>
+            <span class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center shrink-0 group-open:rotate-180 group-open:bg-brand-primary group-open:text-white transition-all duration-200 text-slate-500">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+            </span>
+          </summary>
+          <div class="px-6 pb-6 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
+            {faq.answer}
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,180 @@
+---
+// src/components/partners/AgencyPartnerCTA.astro
+---
+<section id="partner-intake" class="py-20 bg-gradient-to-b from-brand-navy to-slate-900 text-white relative overflow-hidden">
+  <!-- Decorative background lighting -->
+  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-primary/20 rounded-full blur-3xl pointer-events-none"></div>
+
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="text-center mb-12">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-white/10 text-brand-secondary border border-white/15 mb-4">
+        Direct Agency Intake
+      </div>
+      <h3 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4">
+        Ready to Expand Your Agency’s Delivery Capacity?
+      </h3>
+      <p class="text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
+        Let’s schedule a confidential discovery call or start with a single pilot project. Contact our partnership desk directly or submit your agency details below.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+      <!-- Left Column: Direct Contact Info Card -->
+      <div class="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xs flex flex-col justify-between h-full">
+        <div>
+          <h4 class="text-lg font-bold text-white mb-2">Direct Partner Contact</h4>
+          <p class="text-xs text-slate-300 mb-6 leading-relaxed">
+            Need an immediate NDA signed or have an active RFP with a tight deadline? Email our partnerships desk directly:
+          </p>
+
+          <div class="space-y-4 text-xs">
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+              <span class="text-slate-400 block mb-1">Partnership Desk Email</span>
+              <a
+                href="mailto:info@theeduassist.com?subject=Agency%20Partnership%20Inquiry"
+                class="font-bold text-brand-secondary hover:text-white transition-colors text-sm break-all inline-flex items-center gap-1.5"
+              >
+                <span>info@theeduassist.com</span>
+                <svg class="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              </a>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+              <span class="text-slate-400 block mb-1">Turnaround SLA</span>
+              <span class="font-semibold text-white">Initial response within 4 hours (Mon–Fri)</span>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+              <span class="text-slate-400 block mb-1">NDA Protocol</span>
+              <span class="font-semibold text-white">Mutual NDA provided or we sign yours</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-6 border-t border-white/10 mt-6 text-[11px] text-slate-400">
+          📍 Servicing agency partners across North America, Europe, Australia, and the Middle East.
+        </div>
+      </div>
+
+      <!-- Right Column: Agency Intake Form -->
+      <div class="md:col-span-2 p-8 md:p-10 rounded-3xl bg-white text-slate-800 shadow-2xl border border-slate-100">
+        <h4 class="text-xl font-bold text-brand-navy mb-2">Agency Partnership Inquiry</h4>
+        <p class="text-xs text-slate-500 mb-6">
+          Share your agency's current focus and expected volume. We will review your requirements under strict confidentiality.
+        </p>
+
+        <form
+          action="mailto:info@theeduassist.com"
+          method="POST"
+          enctype="text/plain"
+          class="space-y-4"
+        >
+          <input type="hidden" name="subject" value="Agency Partnership Application - TheEduAssist" />
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="agency-name" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Agency Name *</label>
+              <input
+                type="text"
+                id="agency-name"
+                name="Agency Name"
+                required
+                placeholder="e.g. Apex Growth Studio"
+                class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors"
+              />
+            </div>
+            <div>
+              <label for="website" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Agency Website *</label>
+              <input
+                type="url"
+                id="website"
+                name="Agency Website"
+                required
+                placeholder="https://youragency.com"
+                class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors"
+              />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="contact-name" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Your Name & Title *</label>
+              <input
+                type="text"
+                id="contact-name"
+                name="Contact Name"
+                required
+                placeholder="Jane Doe, Founder & CEO"
+                class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors"
+              />
+            </div>
+            <div>
+              <label for="contact-email" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Work Email *</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="Contact Email"
+                required
+                placeholder="jane@youragency.com"
+                class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors"
+              />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="platform-focus" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Primary Platform / Need</label>
+              <select
+                id="platform-focus"
+                name="Primary Platform"
+                class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors bg-white text-slate-700"
+              >
+                <option value="Kajabi Ecosystems">Kajabi Ecosystems & Funnels</option>
+                <option value="Instructional Design">Instructional Design & Course Authoring</option>
+                <option value="LMS Migrations">LMS Re-Platforming & Migrations</option>
+                <option value="SCORM / WCAG Compliance">SCORM / xAPI / WCAG Accessibility</option>
+                <option value="Multiple / General White-Label">Multiple / Full White-Label Retainer</option>
+              </select>
+            </div>
+            <div>
+              <label for="expected-volume" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Expected Client Volume</label>
+              <select
+                id="expected-volume"
+                name="Expected Volume"
+                class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors bg-white text-slate-700"
+              >
+                <option value="1 active project now">I have 1 active project ready now</option>
+                <option value="1-3 projects per month">1–3 client projects per month</option>
+                <option value="3-5+ projects per month">3–5+ projects per month (Dedicated Retainer)</option>
+                <option value="Exploring partnership for future overflow">Exploring for future overflow capacity</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="details" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1">Project Details or Partnership Goals</label>
+            <textarea
+              id="details"
+              name="Project Details"
+              rows="3"
+              placeholder="Tell us about your upcoming client project, current bottlenecks, or what deliverables you need off your plate..."
+              class="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm focus:border-brand-primary focus:ring-1 focus:ring-brand-primary outline-none transition-colors resize-none"
+            ></textarea>
+          </div>
+
+          <div class="pt-2">
+            <button
+              type="submit"
+              class="w-full py-3.5 px-6 rounded-xl bg-brand-primary hover:bg-brand-primary/90 text-white font-bold text-sm transition-all shadow-md shadow-brand-primary/20 hover:scale-[1.01] focus-ring cursor-pointer"
+            >
+              Submit Partnership Inquiry &rarr;
+            </button>
+            <p class="text-center text-[11px] text-slate-400 mt-2">
+              🔒 Protected by 100% mutual confidentiality. We will never contact your clients.
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

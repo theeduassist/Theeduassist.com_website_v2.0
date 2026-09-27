@@ -167,6 +167,7 @@ export const footerNavigation = {
   ],
   company: [
     { label: "Enterprise Solutions", href: "/enterprise-solutions/" },
+    { label: "Partner With Us", href: "/partner-with-us/" },
     { label: "About Us", href: "/about-us/" },
     { label: "Pricing", href: "/pricing/" },
     { label: "Contact", href: "/contact-us/" }

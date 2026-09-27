@@ -1,0 +1,132 @@
+---
+// src/components/partners/AgencyValueComparison.astro
+---
+<section id="comparison-matrix" class="py-20 bg-slate-50 border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-16">
+      <h2 class="text-xs font-bold uppercase tracking-widest text-brand-primary mb-3">Strategic Comparison</h2>
+      <h3 class="text-3xl sm:text-4xl font-extrabold text-brand-navy tracking-tight mb-4">
+        Specialized E-Learning Delivery vs. Generalist Virtual Assistants
+      </h3>
+      <p class="text-base text-slate-600 leading-relaxed">
+        Many growing agencies start by hiring generalist offshore virtual assistants or task-based freelancers. But as client demands increase, the cost of micromanagement, rework, and technical limitations quickly erodes your margins.
+      </p>
+    </div>
+
+    <!-- Comparison Table Card -->
+    <div class="bg-white rounded-3xl border border-slate-200/90 shadow-sm overflow-hidden">
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse min-w-[640px]">
+          <thead>
+            <tr class="border-b border-slate-200 bg-slate-100/70 text-sm">
+              <th class="py-5 px-6 font-bold text-slate-700 w-1/4">Delivery Capability</th>
+              <th class="py-5 px-6 font-semibold text-slate-500 w-3/8">Generalist Offshore VAs & Freelance Teams</th>
+              <th class="py-5 px-6 font-bold text-brand-navy bg-brand-primary/5 border-l border-brand-primary/10 w-3/8">
+                <span class="flex items-center gap-1.5 text-brand-primary">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                  TheEduAssist Agency Partnership
+                </span>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100 text-sm">
+            <!-- Row 1: Instructional Design -->
+            <tr class="hover:bg-slate-50/50 transition-colors">
+              <td class="py-5 px-6 font-bold text-brand-navy align-top">
+                Instructional Design Rigor
+              </td>
+              <td class="py-5 px-6 text-slate-600 align-top">
+                <div class="flex items-start gap-2">
+                  <span class="text-rose-500 font-bold shrink-0">&times;</span>
+                  <span><strong>Task execution only.</strong> Requires the agency owner to write every outline, script every video, and outline every activity slide by slide.</span>
+                </div>
+              </td>
+              <td class="py-5 px-6 text-slate-700 bg-brand-primary/5 border-l border-brand-primary/10 align-top">
+                <div class="flex items-start gap-2">
+                  <span class="text-emerald-600 font-bold shrink-0">&check;</span>
+                  <span><strong>Full curriculum architecture.</strong> We take raw SME interviews, PDFs, or unorganized slide decks and build complete, pedagogically sound, interactive courses (Bloom's taxonomy, ADDIE).</span>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Row 2: Kajabi Platform Depth -->
+            <tr class="hover:bg-slate-50/50 transition-colors">
+              <td class="py-5 px-6 font-bold text-brand-navy align-top">
+                Kajabi Technical Depth
+              </td>
+              <td class="py-5 px-6 text-slate-600 align-top">
+                <div class="flex items-start gap-2">
+                  <span class="text-rose-500 font-bold shrink-0">&times;</span>
+                  <span><strong>Basic click-and-drag.</strong> Limited to out-of-the-box standard template settings and basic video uploading.</span>
+                </div>
+              </td>
+              <td class="py-5 px-6 text-slate-700 bg-brand-primary/5 border-l border-brand-primary/10 align-top">
+                <div class="flex items-start gap-2">
+                  <span class="text-emerald-600 font-bold shrink-0">&check;</span>
+                  <span><strong>Advanced ecosystem engineering.</strong> Custom Liquid/CSS layouts, complex multi-offer checkout funnels, automated webhook pipelines, and responsive community portals.</span>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Row 3: Enterprise LMS & SCORM/xAPI -->
+            <tr class="hover:bg-slate-50/50 transition-colors">
+              <td class="py-5 px-6 font-bold text-brand-navy align-top">
+                SCORM, xAPI & LMS Migration
+              </td>
+              <td class="py-5 px-6 text-slate-600 align-top">
+                <div class="flex items-start gap-2">
+                  <span class="text-rose-500 font-bold shrink-0">&times;</span>
+                  <span><strong>Incompatible.</strong> Generalist virtual assistants cannot handle SCORM packaging, cmi5, xAPI statements, or database-level LMS migrations.</span>
+                </div>
+              </td>
+              <td class="py-5 px-6 text-slate-700 bg-brand-primary/5 border-l border-brand-primary/10 align-top">
+                <div class="flex items-start gap-2">
+                  <span class="text-emerald-600 font-bold shrink-0">&check;</span>
+                  <span><strong>Enterprise standard compliance.</strong> Full Articulate Rise/Storyline packaging, SCORM 1.2/2004, cmi5, and zero-downtime migrations between Moodle, Canvas, LearnWorlds, and Kajabi.</span>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Row 4: QA & Rework -->
+            <tr class="hover:bg-slate-50/50 transition-colors">
+              <td class="py-5 px-6 font-bold text-brand-navy align-top">
+                Quality Assurance & Rework
+              </td>
+              <td class="py-5 px-6 text-slate-600 align-top">
+                <div class="flex items-start gap-2">
+                  <span class="text-rose-500 font-bold shrink-0">&times;</span>
+                  <span><strong>High management burden.</strong> The agency owner acts as the primary QA tester, spending hours reviewing, finding typos, and correcting broken links.</span>
+                </div>
+              </td>
+              <td class="py-5 px-6 text-slate-700 bg-brand-primary/5 border-l border-brand-primary/10 align-top">
+                <div class="flex items-start gap-2">
+                  <span class="text-emerald-600 font-bold shrink-0">&check;</span>
+                  <span><strong>3-Tier internal QA.</strong> Every deliverable undergoes cross-browser, cross-device, and WCAG 2.2 AA accessibility checks before reaching your desk. Zero rework needed.</span>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Row 5: Agency Client Protection -->
+            <tr class="hover:bg-slate-50/50 transition-colors">
+              <td class="py-5 px-6 font-bold text-brand-navy align-top">
+                Brand Protection & Discretion
+              </td>
+              <td class="py-5 px-6 text-slate-600 align-top">
+                <div class="flex items-start gap-2">
+                  <span class="text-amber-500 font-bold shrink-0">&sim;</span>
+                  <span><strong>Inconsistent confidentiality.</strong> Work may be shared on personal portfolios or freelancer profiles without prior authorization.</span>
+                </div>
+              </td>
+              <td class="py-5 px-6 text-slate-700 bg-brand-primary/5 border-l border-brand-primary/10 align-top">
+                <div class="flex items-start gap-2">
+                  <span class="text-emerald-600 font-bold shrink-0">&check;</span>
+                  <span><strong>100% Bilateral NDA.</strong> We never contact your clients, never pitch them, and never publish your client deliverables. We operate completely invisibly as your internal team.</span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>

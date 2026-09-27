@@ -1,0 +1,74 @@
+---
+// src/pages/partner-with-us/index.astro
+import Layout from "../../layouts/Layout.astro";
+import AgencyPartnerHero from "../../components/partners/AgencyPartnerHero.astro";
+import AgencyValueComparison from "../../components/partners/AgencyValueComparison.astro";
+import AgencyCapabilities from "../../components/partners/AgencyCapabilities.astro";
+import AgencyEngagementModels from "../../components/partners/AgencyEngagementModels.astro";
+import AgencyNDAProtocol from "../../components/partners/AgencyNDAProtocol.astro";
+import AgencyPartnerFAQ from "../../components/partners/AgencyPartnerFAQ.astro";
+import AgencyPartnerCTA from "../../components/partners/AgencyPartnerCTA.astro";
+
+import { serviceSchema, faqPageSchema, breadcrumbSchema } from "../../lib/seo/schema";
+
+const pageTitle = "Partner With Us | Agency White-Label & Subcontracting Services | TheEduAssist";
+const pageDescription = "Scale your agency's Kajabi and LMS delivery without adding payroll. TheEduAssist provides senior instructional design, technical course development, and white-label execution for US and global agencies.";
+const canonicalPath = "/partner-with-us/";
+
+const agencyFaqs = [
+  {
+    question: "How does white-labeling work in practice?",
+    answer: "We operate completely behind the scenes under your agency's brand. You manage the client relationship, strategy, and billing. We execute the curriculum architecture, Kajabi development, or LMS migration. When client-facing communication is necessary, we can integrate directly into your agency Slack or use an agency email address as your specialized technical division."
+  },
+  {
+    question: "How do your wholesale agency rates work?",
+    answer: "We offer discounted wholesale partner pricing for digital agencies, consultants, and marketing firms. Our pricing is structured to ensure your agency maintains healthy gross margins between 45% and 65% on client retainers and project deliverables."
+  },
+  {
+    question: "Can we start with a small pilot project before committing to a retainer?",
+    answer: "Yes, absolutely. Most of our long-term agency partners started with a single discrete project—such as auditing an existing Kajabi portal, migrating a course from Teachable, or building a 5-module SCORM package. Once you experience our zero-rework delivery and QA standards, we can transition to a recurring sprint model."
+  },
+  {
+    question: "How do you enforce non-disclosure and client non-compete?",
+    answer: "Before any client files or briefs are exchanged, we sign a comprehensive bilateral Non-Disclosure Agreement (NDA) with strict non-solicitation and non-compete clauses. We never claim credit for your client work, never publish deliverables in our public portfolio without written permission, and never solicit your clients."
+  },
+  {
+    question: "What platforms do you support for agency clients?",
+    answer: "We specialize deeply in Kajabi (custom Liquid, pages, offers, automations, and communities), Articulate 360 (Rise 360 and Storyline), and enterprise LMS platforms including Canvas, Moodle, LearnWorlds, Thinkific, Teachable, and Docebo. We also engineer SCORM 1.2, SCORM 2004, and cmi5 compliant packages."
+  },
+  {
+    question: "What is your typical turnaround time on client deliverables?",
+    answer: "Turnaround depends on project scope, but typical turnaround benchmarks are: Kajabi funnel/portal builds in 7–14 business days; LMS migrations in 10–20 business days; and dedicated sprint retainers operate on weekly agile delivery cycles."
+  }
+];
+
+const jsonLd = [
+  serviceSchema(
+    "Agency White-Label E-Learning Development & Subcontracting",
+    pageDescription,
+    canonicalPath
+  ),
+  faqPageSchema(agencyFaqs),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Partner With Us", urlPath: canonicalPath }
+  ])
+];
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  canonicalPath={canonicalPath}
+  jsonLd={jsonLd}
+>
+  <main>
+    <AgencyPartnerHero />
+    <AgencyValueComparison />
+    <AgencyCapabilities />
+    <AgencyEngagementModels />
+    <AgencyNDAProtocol />
+    <AgencyPartnerFAQ faqs={agencyFaqs} />
+    <AgencyPartnerCTA />
+  </main>
+</Layout>

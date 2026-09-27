@@ -33,6 +33,7 @@ const coreUrls = [
   'https://www.theeduassist.com/case-studies/',
   'https://www.theeduassist.com/blog/',
   'https://www.theeduassist.com/about-us/',
+  'https://www.theeduassist.com/partner-with-us/',
 
   'https://www.theeduassist.com/book-free-audit/',
   'https://www.theeduassist.com/book-free-kajabi-audit/',
@@ -306,6 +307,7 @@ async function generateSitemap() {
 - [Services Hub](https://www.theeduassist.com/services/): Comprehensive e-learning development, migration, and learning technology services.
 - [Free Architecture Audit](https://www.theeduassist.com/book-free-audit/): Zero-obligation 24–48 hour technical audit of LMS infrastructure, SCORM packages, and WCAG accessibility.
 - [Knowledge Hub (Resources)](https://www.theeduassist.com/resources/): In-depth technical guides, checklists, and compliance frameworks for modern learning systems.
+- [Partner With Us (Agency White-Label)](https://www.theeduassist.com/partner-with-us/): White-label instructional design, Kajabi ecosystems, and technical LMS subcontracting for agencies.
 - [Enterprise Solutions](https://www.theeduassist.com/enterprise-solutions/): Scaled learning infrastructure for enterprise workforces.
 - [Kajabi Platform Services](https://www.theeduassist.com/kajabi-services/): Custom Kajabi course builds, webinar funnels, and checkout optimization.
 - [Case Studies](https://www.theeduassist.com/case-studies/): Verified client implementations, migrations, and measurable learning ROI.
