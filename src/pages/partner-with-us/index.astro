@@ -3,6 +3,7 @@
 import Layout from "../../layouts/Layout.astro";
 import AgencyPartnerHero from "../../components/partners/AgencyPartnerHero.astro";
 import AgencyValueComparison from "../../components/partners/AgencyValueComparison.astro";
+import CourseVAModels from "../../components/partners/CourseVAModels.astro";
 import AgencyCapabilities from "../../components/partners/AgencyCapabilities.astro";
 import AgencyEngagementModels from "../../components/partners/AgencyEngagementModels.astro";
 import AgencyNDAProtocol from "../../components/partners/AgencyNDAProtocol.astro";
@@ -11,11 +12,19 @@ import AgencyPartnerCTA from "../../components/partners/AgencyPartnerCTA.astro";
 
 import { serviceSchema, faqPageSchema, breadcrumbSchema } from "../../lib/seo/schema";
 
-const pageTitle = "Partner With Us | Agency White-Label & Subcontracting Services | TheEduAssist";
-const pageDescription = "Scale your agency's Kajabi and LMS delivery without adding payroll. TheEduAssist provides senior instructional design, technical course development, and white-label execution for US and global agencies.";
+const pageTitle = "Partner With Us | Hire Course VA (Full/Half-Time) & Pay-As-You-Go Team | TheEduAssist";
+const pageDescription = "Hire dedicated full-time or half-time e-learning virtual assistants for your course website, or tap our multidisciplinary squad on pay-as-you-go. Zero training lag, Kajabi certified, and 100% white-label agency execution.";
 const canonicalPath = "/partner-with-us/";
 
 const agencyFaqs = [
+  {
+    question: "Can I hire a full-time or half-time VA specifically for my course website?",
+    answer: "Yes. You can hire a dedicated course virtual specialist for 40 hours/week (full-time) or 20 hours/week (half-time). Unlike generalist VAs from overseas marketplaces, our specialists are pre-trained in Kajabi, Thinkific, Teachable, LearnWorlds, and Skool. They integrate into your Slack or Teams for daily task execution, community moderation, student support, and course uploads—backed by our senior engineers for any custom code."
+  },
+  {
+    question: "How does the pay-as-you-go team model work?",
+    answer: "If you don't need a monthly recurring retainer or payroll commitment, our pay-as-you-go model allows you to purchase flexible sprint hour blocks (10, 25, or 50 hours) or pay per discrete milestone. Your hour pool gives you on-demand access to our entire multidisciplinary team—senior developers, instructional architects, graphic designers, and QA testers. Pre-paid hours remain valid for 6 months and roll over automatically."
+  },
   {
     question: "How does white-labeling work in practice?",
     answer: "We operate completely behind the scenes under your agency's brand. You manage the client relationship, strategy, and billing. We execute the curriculum architecture, Kajabi development, or LMS migration. When client-facing communication is necessary, we can integrate directly into your agency Slack or use an agency email address as your specialized technical division."
@@ -44,7 +53,7 @@ const agencyFaqs = [
 
 const jsonLd = [
   serviceSchema(
-    "Agency White-Label E-Learning Development & Subcontracting",
+    "Agency White-Label E-Learning Development & Course Staffing",
     pageDescription,
     canonicalPath
   ),
@@ -65,6 +74,7 @@ const jsonLd = [
   <main>
     <AgencyPartnerHero />
     <AgencyValueComparison />
+    <CourseVAModels />
     <AgencyCapabilities />
     <AgencyEngagementModels />
     <AgencyNDAProtocol />

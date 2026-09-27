@@ -91,7 +91,7 @@ editorialManagement:
   lastReviewedDate: 2026-09-24
   nextReviewDate: 2026-09-24
 ---
-# Why Kajabi Support?
+## Why Kajabi Support?
 
 
 

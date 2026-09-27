@@ -90,7 +90,7 @@ editorialManagement:
   nextReviewDate: 2026-09-25
 heroImage: /images/blog/657cb086-8c18-4666-9208-98e2c60458f5.png
 ---
-# Proven Kajabi Conversion Optimization Best Practices
+## Proven Kajabi Conversion Optimization Best Practices
 
 Kajabi conversion optimization is the process of turning visitors into paying customers. However, many creators focus only on traffic. As a result, they fail to increase real sales.
 
