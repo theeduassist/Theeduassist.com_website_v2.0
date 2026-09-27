@@ -96,7 +96,7 @@ editorialManagement:
   lastReviewedDate: 2026-09-27
   nextReviewDate: 2026-09-27
 ---
-# Kajabi Sales Automation: Why Your Sales Funnel Is Broken and How to Fix It?
+## Kajabi Sales Automation: Why Your Sales Funnel Is Broken and How to Fix It?
 
 A lot of people who make courses have this problem. They do not get sales even when a lot of people are looking at their website. Most of the time, Kajabi sales automation can help with this. It makes lead nurturing and follow-ups better. It helps with customer journeys.
 
