@@ -23,7 +23,7 @@ tags:
   - Learning and Development
   - LMS
   - Workplace Learning
-draft: true
+draft: false
 publishedAt: 2026-09-28
 updatedAt: 2026-09-28
 heroImageAlt: AI-powered eLearning for employee training and upskilling
@@ -88,7 +88,7 @@ faqs:
       An AI-powered platform *adapts*, analyzing individual learner behavior and
       dynamically changing what content is shown, in what format, and at what
       pace. TheEduAssist offers [LMS integration
-      services]([https://theeduassist.com/lms-integration-migration-services/)](https://theeduassist.com/lms-integration-migration-services/)++)
+      services]([https://theeduassist.com/lms-integration-migration-services/)]([https://theeduassist.com/lms-integration-migration-services/)++](https://theeduassist.com/lms-integration-migration-services/)++))
       that can layer AI capabilities onto your existing systems.
   - question: Which companies use AI-powered eLearning?
     answer: Major companies like Walmart, Accenture, IBM, Unilever, and Deloitte
