@@ -1,0 +1,322 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { downloadAssets, type DownloadAsset } from '../../data/downloads';
+import { organizationEntity } from '../../data/organizationEntity';
+
+export async function getStaticPaths() {
+  return downloadAssets.map((asset) => ({
+    params: { slug: asset.slug },
+    props: { asset }
+  }));
+}
+
+interface Props {
+  asset: DownloadAsset;
+}
+
+const { asset } = Astro.props;
+
+// Other downloads for cross-linking
+const otherAssets = downloadAssets.filter(a => a.slug !== asset.slug).slice(0, 3);
+
+// DigitalDocument Schema
+const documentSchema = {
+  "@context": "https://schema.org",
+  "@type": "DigitalDocument",
+  "name": asset.title,
+  "description": asset.description,
+  "encodingFormat": "application/pdf",
+  "url": `https://www.theeduassist.com/downloads/${asset.slug}/`,
+  "inLanguage": "en",
+  "datePublished": "2026-01-15",
+  "author": {
+    "@type": "Organization",
+    "name": organizationEntity.name,
+    "url": organizationEntity.url
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": organizationEntity.name,
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.theeduassist.com/brand/theeduassist-logo-official.png"
+    }
+  }
+};
+---
+
+<Layout
+  title={`${asset.title} | TheEduAssist Official Resources`}
+  description={asset.seoDescription}
+  canonicalPath={`/downloads/${asset.slug}/`}
+  jsonLd={[documentSchema]}
+>
+  <main class="flex-auto">
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-b from-brand-navy via-slate-900 to-slate-950 text-white py-16 sm:py-24 overflow-hidden border-b border-slate-800">
+      <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#27496D_1px,transparent_1px)] [background-size:16px_16px] pointer-events-none"></div>
+
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Breadcrumb -->
+        <nav class="flex items-center gap-2 text-xs text-slate-400 mb-6 font-medium">
+          <a href="/" class="hover:text-white transition-colors">Home</a>
+          <span>&rsaquo;</span>
+          <a href="/resources/" class="hover:text-white transition-colors">Resources</a>
+          <span>&rsaquo;</span>
+          <a href="/downloads/" class="hover:text-white transition-colors">Downloads</a>
+          <span>&rsaquo;</span>
+          <span class="text-slate-200 truncate">{asset.shortTitle}</span>
+        </nav>
+
+        <!-- Badge & Eyebrow -->
+        <div class="flex flex-wrap items-center gap-2 mb-4">
+          <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-green/20 text-brand-green border border-brand-green/30">
+            {asset.badge}
+          </span>
+          <span class="text-xs text-slate-400 font-medium">
+            &bull; {asset.eyebrow}
+          </span>
+        </div>
+
+        <!-- Title & Subtitle -->
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight mb-6">
+          {asset.title}
+        </h1>
+
+        <p class="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-3xl mb-8">
+          {asset.description}
+        </p>
+
+        <!-- Metadata Strip -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 bg-white/5 border border-white/10 rounded-xl p-4 mb-8 text-xs backdrop-blur-sm">
+          <div>
+            <span class="text-slate-400 block uppercase tracking-wider font-semibold">Format</span>
+            <span class="text-white font-bold">{asset.technicalSpecs.format}</span>
+          </div>
+          <div>
+            <span class="text-slate-400 block uppercase tracking-wider font-semibold">Document Length</span>
+            <span class="text-white font-bold">{asset.technicalSpecs.pageCount}</span>
+          </div>
+          <div>
+            <span class="text-slate-400 block uppercase tracking-wider font-semibold">Release Version</span>
+            <span class="text-white font-bold">{asset.technicalSpecs.version}</span>
+          </div>
+          <div>
+            <span class="text-slate-400 block uppercase tracking-wider font-semibold">Access Level</span>
+            <span class="text-brand-green font-bold">{asset.technicalSpecs.accessType}</span>
+          </div>
+        </div>
+
+        <!-- Download & Access CTAs -->
+        <div class="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center">
+          <a
+            href={asset.driveUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex justify-center items-center gap-3 px-8 py-4 rounded-xl bg-brand-green text-brand-navy font-extrabold text-base hover:bg-green-400 transition-all shadow-lg hover:shadow-green-500/20 text-center"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+            </svg>
+            Download PDF Now (Direct Access)
+          </a>
+
+          <a
+            href="#document-preview"
+            class="inline-flex justify-center items-center gap-2 px-6 py-4 rounded-xl bg-white/10 text-white font-semibold text-sm hover:bg-white/20 border border-white/20 transition-all text-center"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+            </svg>
+            Preview Document Below
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content & Detailed Breakdown -->
+    <section class="py-16 bg-white border-b border-slate-200">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          
+          <!-- Left 2 Cols: Detailed Overview & Topics -->
+          <div class="lg:col-span-2 space-y-10">
+            <div>
+              <h2 class="text-2xl font-bold text-brand-navy mb-4">Executive Document Overview</h2>
+              <p class="text-slate-700 leading-relaxed text-base">
+                {asset.detailedOverview}
+              </p>
+            </div>
+
+            <!-- Key Topics Covered -->
+            <div>
+              <h3 class="text-xl font-bold text-brand-navy mb-4 flex items-center gap-2">
+                <svg class="w-5 h-5 text-brand-green" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                Key Methodologies & Frameworks Included
+              </h3>
+              <ul class="space-y-3">
+                {asset.keyTopics.map((topic) => (
+                  <li class="flex items-start gap-3 text-slate-700 text-sm">
+                    <svg class="w-5 h-5 text-brand-green shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span>{topic}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <!-- Target Audience -->
+            <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200">
+              <h3 class="text-lg font-bold text-brand-navy mb-3">Intended Audience</h3>
+              <ul class="space-y-2">
+                {asset.targetAudience.map((aud) => (
+                  <li class="flex items-center gap-2 text-slate-600 text-sm">
+                    <span class="w-1.5 h-1.5 rounded-full bg-brand-primary"></span>
+                    <span>{aud}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <!-- Right Col: Procurement & Consultation Sidebar -->
+          <div class="space-y-6">
+            <div class="bg-slate-900 text-white rounded-2xl p-6 border border-slate-800 shadow-md">
+              <span class="inline-block px-2.5 py-0.5 rounded text-[11px] font-bold uppercase tracking-wider bg-brand-green/20 text-brand-green border border-brand-green/30 mb-3">
+                Executive Support
+              </span>
+              <h3 class="text-lg font-bold text-white mb-2">Have a Project SOW or RFP?</h3>
+              <p class="text-xs text-slate-300 leading-relaxed mb-6">
+                Our solutions architecture team provides formal technical reviews, capability confirmations, and milestone estimates within 24–48 business hours under bilateral NDA.
+              </p>
+              <a
+                href="/trust-centre/procurement/"
+                class="block w-full text-center px-4 py-3 rounded-lg bg-brand-green text-brand-navy font-bold text-xs uppercase tracking-wider hover:bg-green-400 transition-all mb-3"
+              >
+                Submit RFP Scope &rarr;
+              </a>
+              <a
+                href="/contact-us/"
+                class="block w-full text-center px-4 py-2.5 rounded-lg bg-white/10 text-white font-semibold text-xs hover:bg-white/20 transition-all border border-white/10"
+              >
+                Book Discovery Sprint
+              </a>
+            </div>
+
+            <!-- Related Service Link -->
+            <div class="bg-brand-softBg rounded-2xl p-6 border border-brand-border/60">
+              <span class="text-[11px] font-bold text-brand-navy/60 uppercase tracking-wider block mb-1">Related Service Capability</span>
+              <h4 class="text-base font-bold text-brand-navy mb-2">{asset.relatedServiceLabel}</h4>
+              <p class="text-xs text-slate-600 mb-4 leading-relaxed">
+                Explore our full service scope, deliverables, and turnkey sprint delivery models.
+              </p>
+              <a
+                href={asset.relatedServiceUrl}
+                class="text-xs font-bold text-brand-primary hover:text-brand-accent transition-colors flex items-center gap-1"
+              >
+                View Full Service Architecture &rarr;
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Document Interactive Previewer Section -->
+    <section id="document-preview" class="py-16 bg-slate-950 text-white border-b border-slate-800">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-8">
+          <span class="inline-block px-3 py-1 rounded text-xs font-bold uppercase tracking-wider bg-white/10 text-slate-300 mb-2">Live Document Reader</span>
+          <h2 class="text-2xl sm:text-3xl font-bold text-white">Interactive Document Preview</h2>
+          <p class="text-slate-400 text-sm max-w-xl mx-auto mt-2">
+            Read directly in your browser or download the full resolution PDF file for offline evaluation.
+          </p>
+        </div>
+
+        <div class="bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden shadow-2xl">
+          <div class="p-3 bg-slate-900 border-b border-slate-800 flex items-center justify-between">
+            <span class="text-xs text-slate-400 font-mono flex items-center gap-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-brand-green"></span>
+              {asset.shortTitle}.pdf
+            </span>
+            <a
+              href={asset.driveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-xs text-brand-green font-bold hover:underline flex items-center gap-1"
+            >
+              Open Fullscreen in Google Drive &rarr;
+            </a>
+          </div>
+
+          <div class="relative w-full h-[600px] sm:h-[750px] bg-slate-900">
+            <iframe
+              src={asset.driveEmbedUrl}
+              title={`${asset.title} Preview`}
+              class="w-full h-full border-0"
+              loading="lazy"
+              allow="autoplay"
+            ></iframe>
+          </div>
+
+          <div class="p-4 bg-slate-900 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+            <span>Powered by TheEduAssist Google Drive Cloud Distribution (Feather-Light Storage)</span>
+            <a
+              href={asset.driveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-4 py-2 rounded-lg bg-brand-green text-brand-navy font-bold hover:bg-green-400 transition-all text-center"
+            >
+              Download PDF Directly &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- More Executive Resources Grid -->
+    <section class="py-16 bg-slate-50">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between mb-8">
+          <div>
+            <h2 class="text-2xl font-bold text-brand-navy">More Executive Toolkits & Frameworks</h2>
+            <p class="text-sm text-slate-600 mt-1">Explore additional blueprints engineered for high-impact learning systems.</p>
+          </div>
+          <a href="/downloads/" class="text-sm font-bold text-brand-primary hover:text-brand-accent transition-colors hidden sm:block">
+            View All Downloads &rarr;
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {otherAssets.map((other) => (
+            <div class="bg-white rounded-xl border border-slate-200 p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+              <div>
+                <span class="inline-block px-2.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-brand-navy/10 text-brand-navy mb-3">
+                  {other.badge}
+                </span>
+                <h3 class="text-base font-bold text-brand-navy mb-2 line-clamp-2">
+                  {other.shortTitle}
+                </h3>
+                <p class="text-xs text-slate-600 line-clamp-3 mb-4 leading-relaxed">
+                  {other.description}
+                </p>
+              </div>
+              <a
+                href={`/downloads/${other.slug}/`}
+                class="pt-3 border-t border-slate-100 text-xs font-bold text-brand-primary hover:text-brand-accent flex items-center justify-between transition-colors"
+              >
+                <span>View & Download</span>
+                <span>&rarr;</span>
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

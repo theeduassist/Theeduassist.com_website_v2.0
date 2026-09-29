@@ -61,7 +61,15 @@ const coreUrls = [
   'https://www.theeduassist.com/trust-centre/delivery-methodology/',
   'https://www.theeduassist.com/trust-centre/procurement/',
   'https://www.theeduassist.com/trust-centre/responsible-ai/',
-  'https://www.theeduassist.com/trust-centre/security-privacy/'
+  'https://www.theeduassist.com/trust-centre/security-privacy/',
+
+  'https://www.theeduassist.com/enterprise-solutions/government-and-public-sector-training/',
+  'https://www.theeduassist.com/downloads/',
+  'https://www.theeduassist.com/downloads/enterprise-capability-statement/',
+  'https://www.theeduassist.com/downloads/7-figure-course-blueprint/',
+  'https://www.theeduassist.com/downloads/enterprise-ld-roi-playbook/',
+  'https://www.theeduassist.com/downloads/procurement-rfp-evaluation-matrix/',
+  'https://www.theeduassist.com/downloads/rapid-storyboarding-toolkit/'
 ];
 
 // Generates individual url XML blocks

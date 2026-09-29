@@ -1,0 +1,180 @@
+---
+interface Props {
+  headline?: string;
+  subheadline?: string;
+  audienceType?: "enterprise" | "creator" | "all";
+}
+
+const {
+  headline = "See the Transformation: From Boring Slides to High-Impact Learning",
+  subheadline = "Clients choose TheEduAssist because we don't just dump text into an LMS. We transform raw documents and outdated training into engaging, high-retention learning experiences.",
+  audienceType = "all"
+} = Astro.props;
+---
+
+<section class="py-16 md:py-24 bg-slate-900 text-white relative overflow-hidden" aria-labelledby="showcase-heading">
+  <!-- Glow highlight -->
+  <div class="absolute -top-32 -left-32 w-80 h-80 bg-brand-green/10 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute -bottom-32 -right-32 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="max-w-3xl mx-auto text-center mb-16">
+      <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-green/20 text-brand-green text-xs font-bold uppercase tracking-wider mb-4 border border-brand-green/30">
+        ✨ Visual Craftsmanship & Instructional Rigor
+      </span>
+      <h2 id="showcase-heading" class="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight">
+        {headline}
+      </h2>
+      <p class="text-slate-300 text-base md:text-lg mt-4 leading-relaxed">
+        {subheadline}
+      </p>
+    </div>
+
+    <!-- The Before vs. After Comparison Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
+      
+      <!-- The Old Way (Before) -->
+      <div class="bg-white/5 border border-red-500/20 rounded-2xl p-6 sm:p-8 flex flex-col justify-between relative overflow-hidden">
+        <div class="absolute top-0 right-0 bg-red-500/20 border-b border-l border-red-500/30 text-red-300 text-xs font-bold px-3 py-1 rounded-bl-lg uppercase tracking-wider">
+          ✕ The Legacy / Outdated Way
+        </div>
+        
+        <div>
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-lg bg-red-500/20 flex items-center justify-center text-red-400 font-bold">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold text-slate-200">60-Slide Text Dumps</h3>
+              <p class="text-xs text-slate-400">Passive reading with zero behavioral transfer</p>
+            </div>
+          </div>
+
+          <!-- Mock Visual: Outdated Slide -->
+          <div class="bg-slate-950 border border-slate-800 rounded-xl p-5 mb-6 font-mono text-xs text-slate-400 space-y-2 opacity-80 select-none">
+            <div class="text-slate-300 font-bold border-b border-slate-800 pb-2 flex justify-between">
+              <span>SLIDE 34 OF 78: COMPLIANCE OVERVIEW</span>
+              <span class="text-red-400 font-sans text-2xs uppercase">Drop-off Rate: 84%</span>
+            </div>
+            <p class="pt-2 text-slate-400">Section 4.1.3: It is mandatory that all staff members strictly observe statutory guidelines pursuant to regulation 42A-1...</p>
+            <ul class="list-disc pl-5 space-y-1 text-slate-500">
+              <li>Read all 14 bullet points thoroughly before clicking next.</li>
+              <li>Failure to memorize subsection B leads to mandatory re-examination.</li>
+              <li>Click the tiny next button to continue to slide 35...</li>
+            </ul>
+          </div>
+
+          <ul class="space-y-2.5 text-sm text-slate-300">
+            <li class="flex items-start gap-2">
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span>Learners click "Next" rapidly without reading or retaining information.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span>Average completion rate hovers at 4%–15% across self-paced programs.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-red-400 font-bold shrink-0">✕</span>
+              <span>Zero proof of business ROI or on-the-job competency.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- The TheEduAssist Way (After) -->
+      <div class="bg-gradient-to-br from-brand-navy to-slate-900 border border-brand-green/40 rounded-2xl p-6 sm:p-8 flex flex-col justify-between relative shadow-xl shadow-brand-green/5">
+        <div class="absolute top-0 right-0 bg-brand-green/20 border-b border-l border-brand-green/40 text-brand-green text-xs font-bold px-3 py-1 rounded-bl-lg uppercase tracking-wider">
+          ✓ The TheEduAssist Standard
+        </div>
+
+        <div>
+          <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-lg bg-brand-green/20 flex items-center justify-center text-brand-green font-bold">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold text-white">Interactive Microlearning & Simulation</h3>
+              <p class="text-xs text-brand-green font-medium">Bite-sized modules, decision trees & active practice</p>
+            </div>
+          </div>
+
+          <!-- Mock Visual: Modern Interactive Module -->
+          <div class="bg-slate-950/80 border border-brand-green/30 rounded-xl p-5 mb-6 text-xs text-slate-300 space-y-3 shadow-inner">
+            <div class="flex justify-between items-center border-b border-slate-800 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-brand-green animate-pulse"></span>
+                <span class="font-bold text-white">SCENARIO: FRONT-LINE WORKPLACE CHALLENGE</span>
+              </div>
+              <span class="text-brand-green font-bold text-2xs uppercase tracking-wide">Completion: 96.4%</span>
+            </div>
+            <p class="text-slate-200 font-medium">"A client demands immediate exception to policy. What is your tactical response?"</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+              <div class="p-2.5 rounded-lg bg-white/5 border border-white/10 hover:border-brand-green/50 text-slate-300 cursor-pointer text-2xs flex items-center gap-2">
+                <span class="w-4 h-4 rounded bg-brand-green/20 text-brand-green flex items-center justify-center font-bold">A</span>
+                <span>De-escalate & offer approved alternative</span>
+              </div>
+              <div class="p-2.5 rounded-lg bg-white/5 border border-white/10 hover:border-brand-green/50 text-slate-300 cursor-pointer text-2xs flex items-center gap-2">
+                <span class="w-4 h-4 rounded bg-white/10 text-slate-400 flex items-center justify-center font-bold">B</span>
+                <span>Transfer call directly to supervisor</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="space-y-2.5 text-sm text-slate-200">
+            <li class="flex items-start gap-2">
+              <span class="text-brand-green font-bold shrink-0">✓</span>
+              <span><strong>4–8 Minute Micro-Lessons:</strong> Designed for cognitive retention on mobile or desktop.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-brand-green font-bold shrink-0">✓</span>
+              <span><strong>Branching Scenarios:</strong> Learners practice real-world decision making in a risk-free environment.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-brand-green font-bold shrink-0">✓</span>
+              <span><strong>Verifiable ROI:</strong> 42% reduction in seat-time while improving test mastery scores.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- The 4 Core Deliverables Every Client Receives -->
+    <div class="border-t border-slate-800 pt-12">
+      <h3 class="text-2xl font-bold text-center text-white mb-8">What You Receive in Every TheEduAssist Build</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white/5 border border-white/10 rounded-xl p-5 hover:border-brand-green/30 transition-all">
+          <div class="text-brand-green font-mono font-bold text-lg mb-2">01. Curriculum Map</div>
+          <p class="text-sm font-semibold text-white mb-1">Bloom's Scaffolding</p>
+          <p class="text-xs text-slate-400">Structured lessons engineered around measurable behavioral outcomes, eliminating 40% fluff.</p>
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-5 hover:border-brand-green/30 transition-all">
+          <div class="text-brand-green font-mono font-bold text-lg mb-2">02. Visual Lessons</div>
+          <p class="text-sm font-semibold text-white mb-1">Interactive SCORM / Video</p>
+          <p class="text-xs text-slate-400">Polished presentations, motion graphics, audio scripts, and scenario branching compatible with any LMS.</p>
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-5 hover:border-brand-green/30 transition-all">
+          <div class="text-brand-green font-mono font-bold text-lg mb-2">03. Action Workbooks</div>
+          <p class="text-sm font-semibold text-white mb-1">Fillable PDF Toolkits</p>
+          <p class="text-xs text-slate-400">Step-by-step student exercises, checklists, and templates that turn theory into on-the-job execution.</p>
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-5 hover:border-brand-green/30 transition-all">
+          <div class="text-brand-green font-mono font-bold text-lg mb-2">04. LMS Deployment</div>
+          <p class="text-sm font-semibold text-white mb-1">Turnkey Upload & QA</p>
+          <p class="text-xs text-slate-400">Direct configuration in Kajabi, Canvas, Docebo, or Moodle with automated progress and completion tracking.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-10">
+        <a href="/downloads/7-figure-course-blueprint/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-brand-green font-semibold text-sm hover:text-green-300 underline underline-offset-4">
+          Download The 7-Figure Course Architecture Blueprint (PDF) &rarr;
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>

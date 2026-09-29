@@ -12,6 +12,7 @@ import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRela
 import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
 import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
 import ServiceRelatedSolutions from "../../components/service-page/ServiceRelatedSolutions.astro";
+import CourseTransformationShowcase from "../../components/services/CourseTransformationShowcase.astro";
 import { professionalServiceSchema, breadcrumbSchema } from '../../lib/seo/schema';
 
 const audience = [
@@ -73,29 +74,35 @@ const jsonLd = [
 ---
 
 <Layout
-  title="Course and Curriculum Development | TheEduAssist"
-  description="Develop a course structure learners can follow. We transform expertise into structured curriculums with clear modules and activities."
+  title="Done For You Course Creation & Curriculum Development | TheEduAssist"
+  description="Done-for-you online course creation and curriculum design agency. We transform your expertise into high-retention video lessons, fillable workbooks, and platform-ready digital academies."
   canonicalPath="/services/course-development/"
   jsonLd={jsonLd}
 >
   <ServiceHero
-    eyebrow="Course and Curriculum Development"
-    title="Develop a Course Structure Learners Can Follow and Use"
-    description="TheEduAssist helps transform expertise, source content and training goals into a structured curriculum with clear modules, lessons, activities, assessments and supporting resources."
+    eyebrow="Done For You Course Creation Services"
+    title="Turn Your Expertise Into a High-Converting Flagship Course"
+    description="TheEduAssist takes the chaos out of course building. We design the full curriculum, script your video lessons, build fillable student workbooks, and upload everything directly to your LMS."
     primaryCtaLabel="Discuss Your Course"
     primaryCtaLink="/contact-us/"
-    secondaryCtaLabel="Get a 24–48 Hour Review"
-    secondaryCtaLink="/book-free-audit/"
+    secondaryCtaLabel="Download 7-Figure Blueprint (PDF)"
+    secondaryCtaLink="/downloads/7-figure-course-blueprint/"
   />
 
   <ServiceShortAnswer
-    heading="What Is Course and Curriculum Development?"
-    answer="Course and curriculum development defines what learners should achieve, which content is required, how topics should be sequenced and how learning should be taught, practiced and assessed."
+    heading="What Is Done-For-You Course Development?"
+    answer="TheEduAssist provides turnkey, done-for-you course creation and curriculum architecture for subject matter experts, corporations, and digital academies. From Bloom's Taxonomy learning blueprints and video lesson scripting to fillable student workbooks and platform staging on Kajabi, Skool, Teachable, or custom LMSs, our team executes 100% of the instructional and multimedia build."
   />
 
   <ServiceAudience audience={audience} />
 
   <ServiceProblems problems={problems} />
+
+  <CourseTransformationShowcase
+    headline="High-Retention Course Design That Sells"
+    subheadline="Stop losing students to 5% completion rates. We turn passive lectures into engaging, actionable lessons students complete, love, and recommend."
+    audienceType="creator"
+  />
 
   <ServiceDeliverables
     deliverables={deliverables}

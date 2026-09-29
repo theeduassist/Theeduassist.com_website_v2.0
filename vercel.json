@@ -291,6 +291,181 @@
       "source": "/2025/07/mobile-apps-for-math-problem-solving-practice/",
       "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
       "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-launch-strategy/",
+      "destination": "/services/funnels-automation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-email-strategy-how-to-use-broadcasts-and-sequences-effectively/",
+      "destination": "/services/funnels-automation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-emails-campaigns/",
+      "destination": "/services/funnels-automation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/blog-ai-vs-traditional-instructional-design/",
+      "destination": "/services/instructional-design/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-pipeline-setup/",
+      "destination": "/services/funnels-automation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-choose-the-right-lms-for-your-organization-in-2026/",
+      "destination": "/services/lms-implementation-migration/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-run-kajabi-email-campaigns-successfully/",
+      "destination": "/services/funnels-automation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-automation-workflows/",
+      "destination": "/services/funnels-automation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-vs-clickfunnels/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/increase-online-course-traffic-with-the-best-kajabi-seo-services/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-crm-integration/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/online-learning/how-to-use-ai-tools-for-course-design-without-losing-quality-in-2026/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/franchise-training/",
+      "destination": "/enterprise-solutions/partner-training/",
+      "permanent": true
+    },
+    {
+      "source": "/sales-training/",
+      "destination": "/enterprise-solutions/workforce-upskilling/",
+      "permanent": true
+    },
+    {
+      "source": "/customer-service-training/",
+      "destination": "/enterprise-solutions/customer-education/",
+      "permanent": true
+    },
+    {
+      "source": "/training-solutions/",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/field-frontline-staff-training/",
+      "destination": "/enterprise-solutions/employee-onboarding/",
+      "permanent": true
+    },
+    {
+      "source": "/scenario-based-learning/",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/microlearning-microsimulations/",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/ld-consulting-advisory/",
+      "destination": "/services/learning-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/instructional-ui-ux-design/",
+      "destination": "/services/instructional-design/",
+      "permanent": true
+    },
+    {
+      "source": "/k-12-education-services/",
+      "destination": "/services/course-development/",
+      "permanent": true
+    },
+    {
+      "source": "/terms-conditions/",
+      "destination": "/terms-and-conditions/",
+      "permanent": true
+    },
+    {
+      "source": "/kajabi-funnel-setup-services/",
+      "destination": "/services/funnels-automation/",
+      "permanent": true
+    },
+    {
+      "source": "/kajabi-course-setup-services/",
+      "destination": "/services/course-development/",
+      "permanent": true
+    },
+    {
+      "source": "/kajabi-course-upload-services/",
+      "destination": "/services/course-development/",
+      "permanent": true
+    },
+    {
+      "source": "/kajabi-migration-services/",
+      "destination": "/services/lms-implementation-migration/",
+      "permanent": true
+    },
+    {
+      "source": "/kajabi-virtual-assistant-services/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/download/enterprise-capability-statement/",
+      "destination": "/downloads/enterprise-capability-statement/",
+      "permanent": true
+    },
+    {
+      "source": "/download/7-figure-course-blueprint/",
+      "destination": "/downloads/7-figure-course-blueprint/",
+      "permanent": true
+    },
+    {
+      "source": "/download/enterprise-ld-roi-playbook/",
+      "destination": "/downloads/enterprise-ld-roi-playbook/",
+      "permanent": true
+    },
+    {
+      "source": "/download/procurement-rfp-evaluation-matrix/",
+      "destination": "/downloads/procurement-rfp-evaluation-matrix/",
+      "permanent": true
+    },
+    {
+      "source": "/download/rapid-storyboarding-toolkit/",
+      "destination": "/downloads/rapid-storyboarding-toolkit/",
+      "permanent": true
+    },
+    {
+      "source": "/download/",
+      "destination": "/downloads/",
+      "permanent": true
     }
   ],
   "routes": [

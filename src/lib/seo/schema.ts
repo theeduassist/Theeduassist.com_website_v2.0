@@ -1,4 +1,4 @@
-import { site, buildCanonicalUrl } from '../seo';
+import { buildCanonicalUrl } from '../seo';
 import { organizationEntity } from '../../data/organizationEntity';
 
 export function organizationSchema() {
@@ -14,14 +14,22 @@ export function organizationSchema() {
     "email": organizationEntity.contactPoint.email,
     "sameAs": organizationEntity.socialProfiles,
     "knowsAbout": [
-      "E-Learning Development",
-      "Instructional Design",
-      "Learning Management Systems",
-      "Kajabi Platform Services",
-      "Course & Curriculum Development",
-      "Corporate Training",
-      "Content Conversion & Modernization",
-      "AI in Education"
+      "Custom eLearning Development",
+      "Instructional Design and Curriculum Architecture",
+      "Section 508 Accessibility Compliance",
+      "WCAG 2.1 AA Digital Standards",
+      "SCORM 1.2 and SCORM 2004 4th Edition",
+      "xAPI and Experience API Interoperability",
+      "cmi5 Standard",
+      "Learning Management Systems Implementation and Migration",
+      "Kajabi Platform Architecture and Optimization",
+      "Kirkpatrick Training Evaluation Model (Levels 1-4)",
+      "ADDIE Instructional Design Framework",
+      "Cathy Moore Action Mapping",
+      "Government and Public Sector Training Solutions",
+      "Corporate Workforce Upskilling",
+      "Content Conversion and Flash to HTML5 Modernization",
+      "AI in Education and Microlearning"
     ],
     "areaServed": [
       "Worldwide",
@@ -67,8 +75,15 @@ export function professionalServiceSchema() {
     "description": organizationEntity.description,
     "image": `${organizationEntity.url}/favicon-512x512.png`,
     "email": organizationEntity.contactPoint.email,
-    "priceRange": "$$",
+    "priceRange": "$$$",
     "areaServed": "Worldwide",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "48",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "E-Learning & Course Design Services",
@@ -79,6 +94,14 @@ export function professionalServiceSchema() {
             "@type": "Service",
             "name": "Custom eLearning Development",
             "url": `${organizationEntity.url}/services/custom-elearning-development/`
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Government & Public Sector Training Solutions",
+            "url": `${organizationEntity.url}/enterprise-solutions/government-and-public-sector-training/`
           }
         },
         {
@@ -175,5 +198,58 @@ export function collectionPageSchema(name: string, description: string, urlPath:
     "name": name,
     "description": description,
     "url": buildCanonicalUrl(urlPath)
+  };
+}
+
+export function governmentServiceSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "GovernmentService",
+    "name": "Government & Public Sector Digital Training Development",
+    "serviceType": "Public Sector Custom eLearning & Accessibility Compliance",
+    "provider": {
+      "@type": "Organization",
+      "name": organizationEntity.name,
+      "url": organizationEntity.url
+    },
+    "description": "Section 508 and WCAG 2.1 AA-compliant custom eLearning, workforce upskilling, and regulatory compliance training development for federal, state, and municipal public sector agencies.",
+    "areaServed": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Canada",
+      "Worldwide"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Public Sector Learning Capabilities",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Section 508 & WCAG 2.1 AA eLearning Remediation",
+            "description": "Auditing and engineering digital learning assets to meet federal accessibility mandates."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Public Workforce Compliance Training",
+            "description": "Scenario-based ethics, regulatory, and technical workforce training for public sector personnel."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "SCORM & xAPI Interoperable Learning Packages",
+            "description": "Multi-agency SCORM 2004 4th Edition and xAPI module builds with auditable completion tracking."
+          }
+        }
+      ]
+    },
+    "url": `${organizationEntity.url}/enterprise-solutions/government-and-public-sector-training/`
   };
 }

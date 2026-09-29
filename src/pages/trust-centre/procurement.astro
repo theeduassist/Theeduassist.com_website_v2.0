@@ -96,13 +96,13 @@ const jsonLd = {
   "@type": "WebPage",
   "name": title,
   "description": description,
-  "url": `https://theeduassist.com${canonicalPath}`,
+  "url": `https://www.theeduassist.com${canonicalPath}`,
   "publisher": {
     "@type": "Organization",
     "name": "TheEduAssist",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://theeduassist.com/brand/theeduassist-logo-official.png"
+      "url": "https://www.theeduassist.com/brand/theeduassist-logo-official.png"
     }
   }
 };
@@ -246,7 +246,13 @@ const jsonLd = {
               </li>
             </ul>
           </div>
-          <a href="/contact-us/" class="text-[#77BA55] font-bold hover:underline">Discuss Procurement Requirements →</a>
+          <div class="flex flex-wrap items-center gap-4">
+            <a href="/contact-us/" class="text-[#77BA55] font-bold hover:underline">Discuss Procurement Requirements →</a>
+            <span class="text-gray-300">|</span>
+            <a href="/downloads/enterprise-capability-statement/" target="_blank" rel="noopener noreferrer" class="text-[#27496D] font-bold hover:underline">Download Capability Statement (PDF) →</a>
+            <span class="text-gray-300">|</span>
+            <a href="/downloads/procurement-rfp-evaluation-matrix/" target="_blank" rel="noopener noreferrer" class="text-[#27496D] font-bold hover:underline">Download RFP Evaluation Matrix (PDF) →</a>
+          </div>
         </div>
 
         <!-- Procurement Document Status -->

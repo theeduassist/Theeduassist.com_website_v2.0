@@ -12,6 +12,7 @@ import ServiceRelatedCaseStudies from "../../components/service-page/ServiceRela
 import ServiceFAQ from "../../components/service-page/ServiceFAQ.astro";
 import ServiceFinalCTA from "../../components/service-page/ServiceFinalCTA.astro";
 import ServiceRelatedSolutions from "../../components/service-page/ServiceRelatedSolutions.astro";
+import CourseTransformationShowcase from "../../components/services/CourseTransformationShowcase.astro";
 
 import { professionalServiceSchema, breadcrumbSchema } from '../../lib/seo/schema';
 
@@ -77,30 +78,36 @@ const jsonLd = [
 ];
 ---
 <Layout
-  title="Course Creation & Curriculum Design Services | TheEduAssist"
-  description="TheEduAssist helps creators, coaches, educators, consultants, academies, training companies, and businesses turn raw ideas, PDFs, slides, videos, workshops, and expertise into structured online courses, curriculum maps, lesson plans, worksheets, quizzes, and platform-ready learning systems."
+  title="Custom eLearning Development Company | TheEduAssist"
+  description="TheEduAssist is a custom eLearning development company building interactive SCORM/xAPI courses, microlearning modules, and enterprise training for businesses, government, and academies."
   canonicalPath="/services/custom-elearning-development/"
   jsonLd={jsonLd}
 >
 
   <ServiceHero
-    eyebrow="Custom eLearning Development"
-    title="Engaging Digital Learning Built for Your Audience"
-    description="We design and develop custom eLearning courses that are interactive, accessible, and aligned with your specific business goals and technical requirements."
+    eyebrow="Custom eLearning Development Company"
+    title="Custom Digital Learning & SCORM Modules Built for Real Impact"
+    description="We design and develop custom eLearning courses that are interactive, WCAG 2.1 AA accessible, and certified to run seamlessly across all enterprise LMS platforms."
     primaryCtaLabel="Discuss Your eLearning Project"
     primaryCtaLink="/contact-us/"
-    secondaryCtaLabel="Review Your Existing Content"
-    secondaryCtaLink="/book-free-audit/"
+    secondaryCtaLabel="Download RFP Evaluation Matrix (PDF)"
+    secondaryCtaLink="/downloads/procurement-rfp-evaluation-matrix/"
   />
 
   <ServiceShortAnswer
     heading="What is Custom eLearning Development?"
-    answer="It's the process of building digital learning content specifically for your organization, rather than buying off-the-shelf courses. This ensures the training exactly matches your processes, brand, and learner needs."
+    answer="TheEduAssist is a custom eLearning development agency providing Section 508 and WCAG 2.1 AA-compliant training solutions for government agencies, enterprise L&D teams, and digital academies. We design, author, and package interactive SCORM (1.2 / 2004 4th Edition), xAPI, and cmi5 learning modules built in Articulate Storyline, Rise 360, and custom HTML5—delivering measurable learning impact with 4 to 8-week agile sprint turnarounds."
   />
 
   <ServiceAudience audience={audience} />
 
   <ServiceProblems problems={problems} />
+
+  <CourseTransformationShowcase
+    headline="From Static PowerPoint Dumps to Immersive Learning"
+    subheadline="See how TheEduAssist transforms dry compliance and workforce slides into interactive, scenario-based digital learning modules with measurable completion rates."
+    audienceType="enterprise"
+  />
 
   <section class="py-12 bg-white">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
