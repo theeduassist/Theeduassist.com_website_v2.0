@@ -27,7 +27,7 @@ const jsonLd = [
     <!-- Hero Section -->
     <section class="bg-gradient-to-b from-brand-navy via-slate-900 to-slate-950 text-white py-16 sm:py-20 border-b border-slate-800">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-green/20 text-brand-green border border-brand-green/30 mb-4">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-accent/20 text-brand-accent border border-brand-accent/30 mb-4">
           Verified Enterprise & Public Sector Assets
         </span>
         <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
@@ -69,7 +69,7 @@ const jsonLd = [
                   <ul class="space-y-1.5">
                     {asset.keyTopics.slice(0, 3).map((topic) => (
                       <li class="flex items-start gap-2 text-xs text-slate-700">
-                        <svg class="w-4 h-4 text-brand-green shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-4 h-4 text-brand-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
                         </svg>
                         <span>{topic}</span>
@@ -90,7 +90,7 @@ const jsonLd = [
                   href={asset.driveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex-1 text-center px-5 py-3 rounded-lg bg-brand-green text-brand-navy font-bold text-xs uppercase tracking-wider hover:bg-green-400 transition-all shadow-sm"
+                  class="flex-1 text-center px-5 py-3 rounded-lg bg-brand-accent text-white font-bold text-xs uppercase tracking-wider hover:bg-green-600 transition-all shadow-sm"
                 >
                   Download PDF &darr;
                 </a>
