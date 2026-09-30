@@ -270,7 +270,7 @@ You do not need expensive gear to create high-quality content. The right tools, 
 - **ClickFunnels**: connects your course directly to a high-converting sales funnel
 - **Descript:** edit video like editing a text document, saving hours of production time
 
-If you are ready to launch, check out our [digital product launch guide](https://theeduassist.com/blog/how-to-win-at-digital-product-creation-in-2026/) to connect your content strategy with your sales plan.
+If you are ready to launch, check out our [digital product launch guide](https://www.theeduassist.com/blog/how-to-win-at-digital-product-creation-in-2026/) to connect your content strategy with your sales plan.
 
 ## **Conclusion**
 

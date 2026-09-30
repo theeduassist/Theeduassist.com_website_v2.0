@@ -222,7 +222,7 @@ Because of its simplicity, it is one of the fastest-growing platforms in 2026. M
 - Best for: Group coaching and membership communities
 - 2026 update: Affiliate programme and paid events now live
 
-[→ The Ultimate Skool Community Setup Guide for Course Creators](https://theeduassist.com/blog/how-to-build-and-manage-a-high-engagement-skool-community-complete-2026-blueprint/)
+[→ The Ultimate Skool Community Setup Guide for Course Creators](https://www.theeduassist.com/blog/how-to-build-and-manage-a-high-engagement-skool-community-complete-2026-blueprint/)
 
 ### **ThriveCart: Best for Maximising Sales Revenue**
 

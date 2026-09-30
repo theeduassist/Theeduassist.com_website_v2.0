@@ -162,7 +162,7 @@ Look at your course curriculum and identify:
 
 Turn these areas into potential blog topics.
 
-For creators who are still planning or improving their course structure, this **[Kajabi course design guide](https://theeduassist.com/blog/kajabi-course-design-explained-how-to-create-online-course-in-2026/)** can provide additional guidance on creating a structured learning experience. ([TheEduAssist](https://theeduassist.com/blog/kajabi-course-design-explained-how-to-create-online-course-in-2026/embed/?utm_source=chatgpt.com "Kajabi Course Design Explained: How to Create Online course in 2026 - TheEduassist"))
+For creators who are still planning or improving their course structure, this **[Kajabi course design guide](https://www.theeduassist.com/blog/kajabi-course-design-explained-how-to-create-online-course-in-2026/)** can provide additional guidance on creating a structured learning experience. ([TheEduAssist](https://www.theeduassist.com/blog/kajabi-course-design-explained-how-to-create-online-course-in-2026/embed/?utm_source=chatgpt.com "Kajabi Course Design Explained: How to Create Online course in 2026 - TheEduassist"))
 
 ### Example: Online Photography Course
 
@@ -443,7 +443,7 @@ A simple funnel could look like this:
 
 **Student**
 
-If you use webinars as part of this funnel, a **[Kajabi webinar funnel](https://theeduassist.com/blog/how-to-build-your-first-kajabi-webinar-funnel/)** can help connect registration, promotion, attendee engagement, and follow-up offers. TheEduAssist's Kajabi category currently features this guide as a related resource. ([TheEduAssist](https://www.theeduassist.com/blog/category/kajabi/ "Kajabi Guides and Articles | TheEduAssist"))
+If you use webinars as part of this funnel, a **[Kajabi webinar funnel](https://www.theeduassist.com/blog/how-to-build-your-first-kajabi-webinar-funnel/)** can help connect registration, promotion, attendee engagement, and follow-up offers. TheEduAssist's Kajabi category currently features this guide as a related resource. ([TheEduAssist](https://www.theeduassist.com/blog/category/kajabi/ "Kajabi Guides and Articles | TheEduAssist"))
 
 Not every visitor will move through every stage immediately.
 
@@ -575,13 +575,13 @@ A blog post that attracts 300 highly relevant visitors may be more valuable than
 
 Getting someone to your blog is only the first step. Your course page and checkout experience also need to make the next action easy.
 
-For creators who are already receiving traffic but want to improve conversions, **[Kajabi checkout optimization](https://theeduassist.com/blog/kajabi-checkout-optimization-increase-course-sales-without-more-traffic/)** is another useful area to consider. It focuses on reducing purchase friction, improving trust, and making better use of Kajabi's checkout features. ([TheEduAssist](https://www.theeduassist.com/blog/category/kajabi/ "Kajabi Guides and Articles | TheEduAssist"))
+For creators who are already receiving traffic but want to improve conversions, **[Kajabi checkout optimization](https://www.theeduassist.com/blog/kajabi-checkout-optimization-increase-course-sales-without-more-traffic/)** is another useful area to consider. It focuses on reducing purchase friction, improving trust, and making better use of Kajabi's checkout features. ([TheEduAssist](https://www.theeduassist.com/blog/category/kajabi/ "Kajabi Guides and Articles | TheEduAssist"))
 
 ## Plan for Growth as Your Audience Increases
 
 A successful blog can gradually bring more visitors, subscribers, and students into your Kajabi ecosystem.
 
-As your audience grows, it is useful to understand how Kajabi handles contacts and students. TheEduAssist's guide on **[Kajabi student capacity](https://theeduassist.com/blog/how-many-students-can-you-have-on-kajabi/)** explains why Kajabi's capacity is tied to total contacts rather than a single universal student limit. ([TheEduAssist](https://www.theeduassist.com/blog/category/kajabi/ "Kajabi Guides and Articles | TheEduAssist"))
+As your audience grows, it is useful to understand how Kajabi handles contacts and students. TheEduAssist's guide on **[Kajabi student capacity](https://www.theeduassist.com/blog/how-many-students-can-you-have-on-kajabi/)** explains why Kajabi's capacity is tied to total contacts rather than a single universal student limit. ([TheEduAssist](https://www.theeduassist.com/blog/category/kajabi/ "Kajabi Guides and Articles | TheEduAssist"))
 
 Planning ahead can help you avoid treating growth as a technical problem after it happens.
 
@@ -633,7 +633,7 @@ A Kajabi blogging strategy is a planned system for creating and optimizing blog 
 
 Kajabi can be a convenient option for course creators who want their website, content, marketing, email, and courses managed within the same ecosystem. The success of a blog still depends on content quality, SEO, audience research, and consistent optimization.
 
-If you're new to the platform, you can also read **[Is Kajabi easy to use?](https://theeduassist.com/blog/is-kajabi-easy-to-use-a-beginners-guide-to-kajabi/)** to understand Kajabi's learning curve and its main tools for creating and selling digital products. The article is currently listed in TheEduAssist's Kajabi category. ([TheEduAssist](https://www.theeduassist.com/blog/category/kajabi/ "Kajabi Guides and Articles | TheEduAssist"))
+If you're new to the platform, you can also read **[Is Kajabi easy to use?](https://www.theeduassist.com/blog/is-kajabi-easy-to-use-a-beginners-guide-to-kajabi/)** to understand Kajabi's learning curve and its main tools for creating and selling digital products. The article is currently listed in TheEduAssist's Kajabi category. ([TheEduAssist](https://www.theeduassist.com/blog/category/kajabi/ "Kajabi Guides and Articles | TheEduAssist"))
 
 ### Can a Kajabi blog help attract course students?
 

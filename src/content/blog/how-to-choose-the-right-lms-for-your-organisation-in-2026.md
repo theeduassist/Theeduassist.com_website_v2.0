@@ -393,7 +393,7 @@ Best for customer and partner training. Its standout feature is strong commerce 
 **Degreed**  
 Best for organizations focused on a skills-based learning strategy. Its standout feature combines learning experience with skill tracking. Pricing is custom.
 
-For help evaluating which of these fits your specific setup, TheEduAssist’s LMS consulting services provide independent guidance with no vendor bias. For more information and concerns, read: [https://theeduassist.com/blog/best-learning-management-system-lms-for-2026/](https://theeduassist.com/blog/best-learning-management-system-lms-for-2026/)
+For help evaluating which of these fits your specific setup, TheEduAssist’s LMS consulting services provide independent guidance with no vendor bias. For more information and concerns, read: [https://www.theeduassist.com/blog/best-learning-management-system-lms-for-2026/](https://www.theeduassist.com/blog/best-learning-management-system-lms-for-2026/)
 
 ## LMS Red Flags: When to Walk Away From a Vendor
 
@@ -461,7 +461,7 @@ TalentLMS, Docebo, and SC Training lead for remote teams, reducing costs, boosti
 The following sources were used in the research and development of this article:
 
 - [LinkedIn Workplace Learning Report 2025](https://learning.linkedin.com/resources/workplace-learning-report)
-- [TheEduAssist: AI vs. Traditional Instructional Design: What’s Actually Better for Learners?](https://theeduassist.com/)
+- [TheEduAssist: AI vs. Traditional Instructional Design: What’s Actually Better for Learners?](https://www.theeduassist.com/)
 - [MarketsandMarkets: LMS Market Size, Share & Trends 2026](https://www.marketsandmarkets.com/Market-Reports/learning-management-systems-market-1266.html)
 - [Brandon Hall Group: Learning Technology Study 2025](https://brandonhall.com/learning-technology-study)
 - [Docebo: 2025 Learning & Development Benchmark Report](https://www.docebo.com/resource/learning-development-benchmark-report)

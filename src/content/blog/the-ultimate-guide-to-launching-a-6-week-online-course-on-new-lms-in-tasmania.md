@@ -70,7 +70,7 @@ faqs:
     answer: Platforms like Kajabi, Thinkific, and Teachable are popular choices.
   - question: How can TheEduAssist help launch a 6-week course?
     answer: Through edu-assist consulting services,
-      [TheEduAssist.com](https://theeduassist.com) helps creators design
+      [TheEduAssist.com](https://www.theeduassist.com) helps creators design
       custom eLearning programs, LMS setup, and structured content development
       for scalable courses.
 sources:

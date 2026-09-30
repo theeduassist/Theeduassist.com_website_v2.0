@@ -227,7 +227,7 @@ High-performing enterprises realize that training specialists solely in one isol
 
 You can also explore **[Best Learning Management Systems](https://www.theeduassist.com/blog/best-learning-management-systems/)** for more information about LMS platforms and their role in enterprise learning.
 
-For organizations using **[microlearning for employee training](https://theeduassist.com/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/)**, short, focused learning modules can complement broader technical development programs.
+For organizations using **[microlearning for employee training](https://www.theeduassist.com/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/)**, short, focused learning modules can complement broader technical development programs.
 
 ---
 

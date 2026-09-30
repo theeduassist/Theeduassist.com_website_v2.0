@@ -143,7 +143,7 @@ Each lesson should focus on one idea only.
 
 Short lessons are better for **interactive LearnDash Courses**.
 
-Explore more about [creating elearning course](https://theeduassist.com/blog/guide-for-interactive-elearning-course-2026-florida-creators/)
+Explore more about [creating elearning course](https://www.theeduassist.com/blog/guide-for-interactive-elearning-course-2026-florida-creators/)
 
 ## **Step 2: Use Short Lessons**
 

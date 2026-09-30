@@ -26,8 +26,8 @@ async function validatePhase6Complete() {
     console.log("Installing Playwright browsers...");
     execSync('npx playwright install chromium', { stdio: 'inherit' });
 
-    console.log("Starting dev server for validation...");
-    const serverProcess = spawn('npm', ['run', 'dev'], { detached: true, stdio: 'ignore' });
+    console.log("Starting preview server for validation...");
+    const serverProcess = spawn('npm', ['run', 'preview'], { stdio: 'ignore', shell: true });
 
     try {
         await waitForServer('http://localhost:4321');
@@ -36,7 +36,11 @@ async function validatePhase6Complete() {
         console.error("Failed to start preview server.");
         if (serverProcess.pid) {
             try {
-                process.kill(-serverProcess.pid);
+                if (process.platform === 'win32') {
+                    execSync(`taskkill /pid ${serverProcess.pid} /T /F`, { stdio: 'ignore' });
+                } else {
+                    process.kill(-serverProcess.pid);
+                }
             } catch (e) {}
         }
         process.exit(1);
@@ -74,7 +78,11 @@ async function validatePhase6Complete() {
 
     if (serverProcess.pid) {
         try {
-            process.kill(-serverProcess.pid);
+            if (process.platform === 'win32') {
+                execSync(`taskkill /pid ${serverProcess.pid} /T /F`, { stdio: 'ignore' });
+            } else {
+                process.kill(-serverProcess.pid);
+            }
         } catch (e) {}
     }
 

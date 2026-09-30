@@ -296,7 +296,7 @@ Additionally, here are the most effective strategies for building your community
 
 In summary, a well-managed community does not just support your course. It becomes the most transformational part of the entire student experience.
 
-Learn more about **[Transforming Passive Lessons into Interactive Experiences](https://theeduassist.com/blog/how-to-transform-passive-lessons-into-interactive-learndash-courses/)** to keep your completion rates high
+Learn more about **[Transforming Passive Lessons into Interactive Experiences](https://www.theeduassist.com/blog/how-to-transform-passive-lessons-into-interactive-learndash-courses/)** to keep your completion rates high
 
 ## **Conclusion**
 
@@ -308,6 +308,6 @@ So, start with your promise. Then, build your course around it. Next, pick the r
 
 Therefore, your spiritual awakening online course can guide real and lasting change.
 
-Ready to turn your vision into a reality? Follow our [How to Create an Online Course From Scratch Step-by-Step Guide](https://www.google.com/search?q=https://theeduassist.com/how-to-create-an-online-course-from-scratch-step-by-step-guide&sei=7pPoaby2FJrdruEPvr2UsAQ) to get started today.
+Ready to turn your vision into a reality? Follow our [How to Create an Online Course From Scratch Step-by-Step Guide](https://www.google.com/search?q=https://www.theeduassist.com/how-to-create-an-online-course-from-scratch-step-by-step-guide&sei=7pPoaby2FJrdruEPvr2UsAQ) to get started today.
 
 **Authored by**: Laiba Ayaz

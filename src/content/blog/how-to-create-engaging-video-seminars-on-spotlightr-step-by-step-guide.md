@@ -89,7 +89,7 @@ sources:
     url: https://www.theeduassist.com/blog/how-to-create-engaging-educational-content-for-online-platform-2026/
     accessedAt: 2026-08-29
   - title: "Instructional Design in Action: Practical Solutions for Learner Problems"
-    url: http://theeduassist.com/blog/instructional-design-in-action-practical-solutions-for-learner-problems/
+    url: https://www.theeduassist.com/blog/instructional-design-in-action-practical-solutions-for-learner-problems/
     accessedAt: 2026-08-29
   - title: "10 Best Learning Management Systems Compared "
     url: https://www.theeduassist.com/blog/best-learning-management-systems/
@@ -198,7 +198,7 @@ However, keep everything simple.
 - Use real examples
 - Ask simple questions
 
-Learn more: [https://theeduassist.com/instructional-design-basics](https://theeduassist.com/instructional-design-basics)
+Learn more: [https://www.theeduassist.com/instructional-design-basics](https://www.theeduassist.com/instructional-design-basics)
 
 ## **Step 4: Write Easy Scripts**
 
@@ -292,7 +292,7 @@ SEO helps your content rank on Google.
 - create online courses
 - video marketing
 
-Learn more: [https://theeduassist.com/seo-writing-tips](https://theeduassist.com/seo-writing-tips)
+Learn more: [https://www.theeduassist.com/seo-writing-tips](https://www.theeduassist.com/seo-writing-tips)
 
 ## **Step 10: Improve User Experience**
 

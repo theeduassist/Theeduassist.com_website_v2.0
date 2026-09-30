@@ -138,7 +138,7 @@ Use action words when you write your goal. Words like apply, identify, create, o
 - **Weak goal:** Understand Microsoft 365
 - **Strong goal:** Use Word Outline View to map a guide in under 10 minutes
 
-See the difference? The strong goal tells the learner exactly what they will walk away with.*“If you want to go deeper on writing goals, also read our guide on [instructional design services and learning outcomes](https://theeduassist.com/blog/instructional-design-services-for-custom-elearning-development-better-learning-outcomes/)*.”
+See the difference? The strong goal tells the learner exactly what they will walk away with.*“If you want to go deeper on writing goals, also read our guide on [instructional design services and learning outcomes](https://www.theeduassist.com/blog/instructional-design-services-for-custom-elearning-development-better-learning-outcomes/)*.”
 
 ## **Step 2: Plan Your Training Guides With Microsoft 365 Outline View**
 

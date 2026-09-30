@@ -129,7 +129,7 @@ This is where **transformational curriculum design** and strong **[instructional
 
 Transformational curriculum design is an approach that focuses on changing the learner’s mindset, emotions, and actions. Instead of only delivering lessons, it creates experiences that help learners grow personally.  
 This method is based on adult [learning principles](https://lnkd.in/p/dV6k9sug). Adults learn better when they see relevance, practice what they learn, and connect it to real situations. Because of this, transformational programs focus on action, reflection, and emotional engagement.  
-If you want to improve your structure further, you can explore [curriculum design and overhaul strategies](https://theeduassist.com/service-section/curriculum-design-overhaul/?utm_source=chatgpt.com) to create more engaging learning experiences.
+If you want to improve your structure further, you can explore [curriculum design and overhaul strategies](https://www.theeduassist.com/service-section/curriculum-design-overhaul/?utm_source=chatgpt.com) to create more engaging learning experiences.
 
 ## **Why Transformational Learning Matters in Personal Development**
 
@@ -195,7 +195,7 @@ This flexible structure makes learning feel natural and reduces pressure. Learne
 Activations are one of the most important parts of transformational curriculum design. They turn knowledge into action.  
 An activation can be a journaling prompt, a small challenge, or a behavior practice. These activities help learners apply concepts immediately in their daily lives.  
 Without activations, your course becomes passive. Learners may understand ideas, but they will not experience real change.  
-This becomes even more effective when combined with [custom eLearning content development](https://theeduassist.com/custom-elearning-content-development/?utm_source=chatgpt.com), where lessons and activities are designed around real learner needs.
+This becomes even more effective when combined with [custom eLearning content development](https://www.theeduassist.com/custom-elearning-content-development/?utm_source=chatgpt.com), where lessons and activities are designed around real learner needs.
 
 ![](/images/blog/chatgpt-image-sep-10-2026-122334-am.png)
 

@@ -76,7 +76,7 @@ faqs:
     answer: Platforms like Kajabi, Thinkific, and Teachable are commonly used.
   - question: How can TheEduAssist help design an AI course?
     answer: Through consulting services and custom eLearning solutions,
-      [TheEduAssist.com](http://theeduassist.com) helps create structured AI
+      [TheEduAssist.com](https://www.theeduassist.com) helps create structured AI
       learning programs with strong instructional design and content
       development.
 sources:
@@ -297,5 +297,5 @@ you can create a course that is:
 - Practical
 - Scalable
 
-Platforms like [TheEduAssist.com](http://theeduassist.com) support creators through TheEduAssist consulting services, helping design structured AI courses with strong learning outcomes.
+Platforms like [TheEduAssist.com](https://www.theeduassist.com) support creators through TheEduAssist consulting services, helping design structured AI courses with strong learning outcomes.
 

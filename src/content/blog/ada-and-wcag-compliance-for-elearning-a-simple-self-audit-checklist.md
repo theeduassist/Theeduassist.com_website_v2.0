@@ -151,7 +151,7 @@ WCAG stands for Web Content Accessibility Guidelines. These are technical standa
 
 Together, ADA and WCAG work like two halves of one rule. ADA is the law. WCAG is the technical roadmap that helps you follow that law.
 
-Accessibility is not only about avoiding lawsuits, though. It also widens your audience. More learners can finish your course. Completion rates often rise once barriers are removed. This connects closely with smart [LMS choices](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/), since the right platform supports accessible features from day one. You can also explore [best learning management systems](https://www.theeduassist.com/blog/best-learning-management-systems/) when evaluating platforms for accessibility and training needs.
+Accessibility is not only about avoiding lawsuits, though. It also widens your audience. More learners can finish your course. Completion rates often rise once barriers are removed. This connects closely with smart [LMS choices](https://www.theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/), since the right platform supports accessible features from day one. You can also explore [best learning management systems](https://www.theeduassist.com/blog/best-learning-management-systems/) when evaluating platforms for accessibility and training needs.
 
 ## The Free Self Audit Checklist
 
@@ -197,7 +197,7 @@ Some quizzes have strict timers. This can disadvantage learners who read slowly 
 
 ### 10. Review Your LMS Settings
 
-Your learning platform itself plays a big role here. Some systems support accessibility better than others. If you are still deciding on a platform, this earlier guide on [choosing the right LMS](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/) explains what to look for, including accessibility features built into the system.
+Your learning platform itself plays a big role here. Some systems support accessibility better than others. If you are still deciding on a platform, this earlier guide on [choosing the right LMS](https://www.theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/) explains what to look for, including accessibility features built into the system.
 
 You can also explore [employee training LMS technology](https://www.theeduassist.com/blog/employee-training-lms-technology/) to understand how LMS technology can support modern training environments.
 
@@ -211,7 +211,7 @@ Auto generated captions cause trouble too. They often get words wrong, especiall
 
 Keyboard traps are another frequent issue. This happens when a learner gets stuck inside a pop up or quiz and cannot tab out of it. It feels frustrating for any user, but it is a complete blocker for someone who cannot use a mouse.
 
-Many of these problems can now be caught earlier through smarter tools. For instance, [AI powered learning systems](https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/) can flag accessibility issues automatically during content creation, saving time later.
+Many of these problems can now be caught earlier through smarter tools. For instance, [AI powered learning systems](https://www.theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/) can flag accessibility issues automatically during content creation, saving time later.
 
 ## What It Costs to Fix Accessibility Issues
 
@@ -233,7 +233,7 @@ If your entire course was built without accessibility in mind, a full rebuild ma
 
 Accessibility is not a one time task. New content needs regular checks. Many companies in the USA now budget for ongoing audits every six to twelve months. This keeps courses compliant as content gets updated.
 
-Choosing the right tools early can lower these costs significantly over time. Platforms that track learner data through standards like xAPI can also help measure how accessibility improvements affect completion rates. This [guide on xAPI and Learning Record Stores](https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/) explains how that tracking works in more detail.
+Choosing the right tools early can lower these costs significantly over time. Platforms that track learner data through standards like xAPI can also help measure how accessibility improvements affect completion rates. This [guide on xAPI and Learning Record Stores](https://www.theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/) explains how that tracking works in more detail.
 
 ## How AI and Modern Tools Are Changing Accessibility Work
 
@@ -241,9 +241,9 @@ Artificial intelligence is reshaping how teams handle accessibility. Instead of 
 
 These tools can detect missing alt text, weak color contrast, and caption errors within minutes. This saves time compared to older manual methods. Still, human review remains necessary. AI can miss context that only a real person would catch, especially around tone and meaning.
 
-If you want a deeper comparison between automated and human led design work, this article on [AI compared to traditional instructional design](https://theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/) breaks down the strengths and limits of each approach.
+If you want a deeper comparison between automated and human led design work, this article on [AI compared to traditional instructional design](https://www.theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/) breaks down the strengths and limits of each approach.
 
-Newer integrations are also emerging through systems like the [Model Context Protocol for learning platforms](https://theeduassist.com/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know/). These connections allow learning tools to share data more smoothly, which can support faster accessibility checks across multiple courses at once.
+Newer integrations are also emerging through systems like the [Model Context Protocol for learning platforms](https://www.theeduassist.com/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know/). These connections allow learning tools to share data more smoothly, which can support faster accessibility checks across multiple courses at once.
 
 ## Building Accessibility Into Future Courses
 

@@ -121,14 +121,14 @@ sources:
     accessedAt: 2026-09-15
   - title: TheEduAssist. (2026). Kajabi Email Marketing Funnels for Better Course
       Sales.
-    url: https://theeduassist.com/blog/kajabi-email-marketing-funnels/
+    url: https://www.theeduassist.com/blog/kajabi-email-marketing-funnels/
     accessedAt: 2026-09-15
 ---
 ## Kajabi Automation Workflows: How to Scale Smarter and Sell More Courses in 2026
 
 Most Kajabi creators build their [course](https://www.theeduassist.com/blog/how-to-create-a-course-on-kajabi-beginners-guide/), set up a basic welcome email, and call it done. Then they wonder why growth feels like pushing a boulder uphill. The honest answer is usually this: they are doing manually what a well-built automation system should be doing for them.  
 Kajabi’s automation tools are genuinely powerful, but only when they are wired together with intention. This guide walks you through the highest-impact Kajabi automation workflows that help you scale your revenue, reclaim your time, and give every subscriber a consistent, personalized experience, without burning yourself out in the process.  
-If you are just getting started with email in Kajabi, it is worth reading our guide on [Kajabi Email Campaigns: A Practical Guide to Boosting Opens, Clicks and Course Sales](https://theeduassist.com/blog/kajabi-email-campaigns/) first. This article builds on those foundations.image
+If you are just getting started with email in Kajabi, it is worth reading our guide on [Kajabi Email Campaigns: A Practical Guide to Boosting Opens, Clicks and Course Sales](https://www.theeduassist.com/blog/kajabi-email-campaigns/) first. This article builds on those foundations.image
 
 ## 1. Kajabi Automations: What They Are & Why They Matter
 
@@ -178,7 +178,7 @@ Build your onboarding automation like this:
 - Delay: 2 days
 - Action: Enrol in onboarding drip sequence
 
-Your onboarding sequence should guide students through their first week: where to start, what to expect, how to get the most from the programme, and ideally a quick win in the first 48 hours. For more detail on building this kind of email system, see our article on [Kajabi Email Marketing Funnels for Better Course Sales](https://theeduassist.com/blog/kajabi-email-marketing-funnels/).
+Your onboarding sequence should guide students through their first week: where to start, what to expect, how to get the most from the programme, and ideally a quick win in the first 48 hours. For more detail on building this kind of email system, see our article on [Kajabi Email Marketing Funnels for Better Course Sales](https://www.theeduassist.com/blog/kajabi-email-marketing-funnels/).
 
 ### C. The Re-Engagement Workflow
 
@@ -264,7 +264,7 @@ Kajabi handles most of what a course creator needs natively. But for creators ru
 - **Segment or ConvertKit** if you are running email marketing across multiple platforms, tools like these can centralise your contact data. That said, for most Kajabi creators, staying entirely within Kajabi is simpler and more effective.
 - **Loom or Vidyard** embedding short personalised video messages in key automation emails (especially your welcome and onboarding emails) consistently lifts open and engagement rates.
 
-For a broader look at how email and automation fit inside a complete Kajabi sales system, our guide on [Kajabi Sales Funnel Strategy for 2026 Growth](https://theeduassist.com/blog/kajabi-sales-funnel-strategy/) covers the full funnel architecture from first click to course completion.
+For a broader look at how email and automation fit inside a complete Kajabi sales system, our guide on [Kajabi Sales Funnel Strategy for 2026 Growth](https://www.theeduassist.com/blog/kajabi-sales-funnel-strategy/) covers the full funnel architecture from first click to course completion.
 
 ## Final Thoughts
 
@@ -292,6 +292,6 @@ Zapier is worth adding if you need to connect Kajabi to tools outside its ecosys
 [Kajabi Blog. (2026). How to Build an Online Course on Kajabi.](https://www.kajabi.com/blog/kajabi-tutorial-for-beginners)  
 [Mailchimp. (2026). Email Marketing Benchmarks and Statistics.](https://mailchimp.com/resources/email-marketing-benchmarks/)  
 [Business Wire. (2025). Kajabi Unveils Largest Ever Product Upgrade.](https://www.businesswire.com/news/home/20250916760140/en/Kajabi-Unveils-Companys-Largest-Ever-Product-Upgrade-to-Empower-Next-Generation-of-Creators-Entrepreneurs)  
-[TheEduAssist. (2026). Kajabi Email Marketing Funnels for Better Course Sales.](https://theeduassist.com/blog/kajabi-email-marketing-funnels/)  
+[TheEduAssist. (2026). Kajabi Email Marketing Funnels for Better Course Sales.](https://www.theeduassist.com/blog/kajabi-email-marketing-funnels/)  
 **Authorized By**  
 Hifza Naeem

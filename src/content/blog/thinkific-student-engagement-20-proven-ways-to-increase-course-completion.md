@@ -138,7 +138,7 @@ Worksheets, checklists, and templates give learners practical tools outside the 
 
 ### 13. Track Data and Learning Analytics
 
-You cannot improve what you do not measure. Thinkific provides analytics on lesson completion and drop-off points, and pairing this with a deeper measurement approach, similar to the framework in our [corporate training ROI calculator guide](https://theeduassist.com/blog/corporate-training-roi-calculator-measuring-learning-effectiveness/) and proven tracking metrics by following our [7 thrilling ways to measure training ROI](https://www.theeduassist.com/blog/7-thrilling-proven-ways-to-measure-training-roi-theeduassist/) helps you understand exactly where learners lose interest.
+You cannot improve what you do not measure. Thinkific provides analytics on lesson completion and drop-off points, and pairing this with a deeper measurement approach, similar to the framework in our [corporate training ROI calculator guide](https://www.theeduassist.com/blog/corporate-training-roi-calculator-measuring-learning-effectiveness/) and proven tracking metrics by following our [7 thrilling ways to measure training ROI](https://www.theeduassist.com/blog/7-thrilling-proven-ways-to-measure-training-roi-theeduassist/) helps you understand exactly where learners lose interest.
 
 ### 14. Segment Students by Behavior
 
@@ -178,7 +178,7 @@ Improving Thinkific student engagement is not about applying one single trick. I
 
 Many course creators also compare platforms before deciding where to scale their next program. If you are evaluating options across the market, check our top recommendations in the [10 best learning management systems compared](https://www.theeduassist.com/blog/best-learning-management-systems/) or read our direct [LearnWorlds vs Thinkific comparison](https://www.theeduassist.com/blog/learnworlds-vs-thinkific/). If you are looking to monetize your authority directly, follow our guide on [how to sell online courses that actually convert](https://www.theeduassist.com/blog/how-to-sell-online-courses-that-actually-convert/).
 
-For a broader view of platform strategy, our guide on [LXP versus LMS and which one your business needs](https://theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/) offers useful context for anyone rethinking their learning technology stack.
+For a broader view of platform strategy, our guide on [LXP versus LMS and which one your business needs](https://www.theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/) offers useful context for anyone rethinking their learning technology stack.
 
 ## Frequently Asked Questions
 
@@ -204,12 +204,12 @@ Popular options include tools for email automation, gamification, and advanced a
 
 ## References
 
-1. [TheEduAssist Blog](https://theeduassist.com/blog/skills-based-learning-or-traditional-training/)
-2. [TheEduAssist Blog on LMS User Adoption](https://theeduassist.com/blog/lms-user-adoption-15-proven-ways-to-increase-employee-engagement/)
-3. [TheEduAssist Blog on LMS Integration](https://theeduassist.com/blog/lms-integration-guide-hris-crm-collaboration-tools/)
-4. [TheEduAssist Blog on LXP vs LMS](https://theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/)
-5. [TheEduAssist Blog on Corporate Training ROI](https://theeduassist.com/blog/corporate-training-roi-calculator-measuring-learning-effectiveness/)
-6. [TheEduAssist Blog on xAPI Learning Record Store](https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/)
-7. [TheEduAssist Blog on xAPI vs SCORM](https://theeduassist.com/blog/xapi-vs-scorm-best-lms-in-2026/)
-8. [TheEduAssist Blog on Creating SCORM Courses++]([https://theeduassist.com/blog/how-to-create-a-scorm-course-without-coding/](https://theeduassist.com/blog/how-to-create-a-scorm-course-without-coding/))
+1. [TheEduAssist Blog](https://www.theeduassist.com/blog/skills-based-learning-or-traditional-training/)
+2. [TheEduAssist Blog on LMS User Adoption](https://www.theeduassist.com/blog/lms-user-adoption-15-proven-ways-to-increase-employee-engagement/)
+3. [TheEduAssist Blog on LMS Integration](https://www.theeduassist.com/blog/lms-integration-guide-hris-crm-collaboration-tools/)
+4. [TheEduAssist Blog on LXP vs LMS](https://www.theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/)
+5. [TheEduAssist Blog on Corporate Training ROI](https://www.theeduassist.com/blog/corporate-training-roi-calculator-measuring-learning-effectiveness/)
+6. [TheEduAssist Blog on xAPI Learning Record Store](https://www.theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/)
+7. [TheEduAssist Blog on xAPI vs SCORM](https://www.theeduassist.com/blog/xapi-vs-scorm-best-lms-in-2026/)
+8. [TheEduAssist Blog on Creating SCORM Courses++]([https://www.theeduassist.com/blog/how-to-create-a-scorm-course-without-coding/](https://www.theeduassist.com/blog/how-to-create-a-scorm-course-without-coding/))
 

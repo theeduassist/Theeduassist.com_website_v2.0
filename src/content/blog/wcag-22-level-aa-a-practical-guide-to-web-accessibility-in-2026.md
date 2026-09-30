@@ -445,7 +445,7 @@ Review:
 - Error messages
 - Downloadable documents
 
-Content teams can also review instructional design practices. For example, TheEduAssist's guide on [Instructional Designer vs Developer](https://theeduassist.com/blog/instructional-designer-vs-developer/?utm_source=chatgpt.com) explains how instructional design and course development responsibilities differ.
+Content teams can also review instructional design practices. For example, TheEduAssist's guide on [Instructional Designer vs Developer](https://www.theeduassist.com/blog/instructional-designer-vs-developer/?utm_source=chatgpt.com) explains how instructional design and course development responsibilities differ.
 
 ### Step 6: Fix and Retest
 
@@ -475,9 +475,9 @@ At each stage, ask:
 
 This approach can reveal accessibility problems that may be missed when individual pages are tested separately.
 
-For example, structured LMS onboarding should also consider how learners access instructions, navigate modules, complete activities, and understand the learning path. TheEduAssist's guide to [structured TalentLMS onboarding](https://theeduassist.com/blog/ultimate-talentlms-onboarding-framework-for-elearning-creators-in-ohio/?utm_source=chatgpt.com) provides an example of how onboarding can be organized into a structured learning journey.
+For example, structured LMS onboarding should also consider how learners access instructions, navigate modules, complete activities, and understand the learning path. TheEduAssist's guide to [structured TalentLMS onboarding](https://www.theeduassist.com/blog/ultimate-talentlms-onboarding-framework-for-elearning-creators-in-ohio/?utm_source=chatgpt.com) provides an example of how onboarding can be organized into a structured learning journey.
 
-Similarly, when designing shorter digital learning experiences, accessibility should be considered alongside course structure and interaction. TheEduAssist's guide on [designing microlearning courses with LearnWorlds](https://theeduassist.com/blog/ultimate-learnworlds-lms-guide-how-elearning-businesses-in-chicago-can-design-microlearning-courses/?utm_source=chatgpt.com) discusses learning architecture, interactive features, and the mobile learning experience.
+Similarly, when designing shorter digital learning experiences, accessibility should be considered alongside course structure and interaction. TheEduAssist's guide on [designing microlearning courses with LearnWorlds](https://www.theeduassist.com/blog/ultimate-learnworlds-lms-guide-how-elearning-businesses-in-chicago-can-design-microlearning-courses/?utm_source=chatgpt.com) discusses learning architecture, interactive features, and the mobile learning experience.
 
 ## How TheEduAssist Can Help With Quality Assurance and Accessibility
 

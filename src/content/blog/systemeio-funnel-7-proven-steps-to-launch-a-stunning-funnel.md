@@ -161,7 +161,7 @@ Your landing page is the first thing visitors see. Because of this, it has the b
 
 Additionally, you can use the editor to add social proof or countdown timers. Since these elements build trust quickly, they are very effective. For this reason, your opt-in rate can increase significantly with just a few small additions. Ultimately, these simple tweaks turn more visitors into leads.
 
-> Want to learn more about designing effective online learning pages? Read this guide: [Instructional Design Services for Custom eLearning Development at TheEduAssist](https://theeduassist.com/blog/instructional-design-services-for-custom-elearning-development-better-learning-outcomes/). It covers how strong design directly improves learner engagement and outcomes.
+> Want to learn more about designing effective online learning pages? Read this guide: [Instructional Design Services for Custom eLearning Development at TheEduAssist](https://www.theeduassist.com/blog/instructional-design-services-for-custom-elearning-development-better-learning-outcomes/). It covers how strong design directly improves learner engagement and outcomes.
 
 ### **[Systeme.io](http://Systeme.io) Funnel Plans vs. ClickFunnels**
 
@@ -217,7 +217,7 @@ Your funnel needs a way to collect money. Luckily, the platform supports Stripe,
 
 After connecting, do one final check. Make sure your product is linked and the price is right. Since small errors can stop sales, testing your checkout is a step you should never skip.
 
-> Need help structuring your course content before you sell it through a funnel? Read this practical guide: [How to Create Self-Guided Learning Experiences with TheEduAssist](https://theeduassist.com/blog/how-to-create-self-guided-learning-experiences-in-google-classroom/). It explains how to build structured, self-paced learning paths your students will love.
+> Need help structuring your course content before you sell it through a funnel? Read this practical guide: [How to Create Self-Guided Learning Experiences with TheEduAssist](https://www.theeduassist.com/blog/how-to-create-self-guided-learning-experiences-in-google-classroom/). It explains how to build structured, self-paced learning paths your students will love.
 
 ## **Step 7: Test, Launch, and Optimize**
 

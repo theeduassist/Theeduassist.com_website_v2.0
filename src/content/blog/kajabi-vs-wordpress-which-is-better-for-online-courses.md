@@ -193,7 +193,7 @@ For example, a course creator might use Kajabi to manage:
 - Payments
 - Customer contacts
 
-If you are also exploring the design side of Kajabi, you can learn more about **Kajabi templates** here: [Kajabi templates](https://theeduassist.com/blog/kajabi-templates/?utm_source=chatgpt.com)
+If you are also exploring the design side of Kajabi, you can learn more about **Kajabi templates** here: [Kajabi templates](https://www.theeduassist.com/blog/kajabi-templates/?utm_source=chatgpt.com)
 
 The tradeoff is that you are working within Kajabi's platform and its available customization options. You get a more integrated environment, but you do not have the same underlying technical freedom that comes with an open-source CMS.
 
@@ -323,7 +323,7 @@ Likewise, simply publishing a blog on Kajabi will not automatically generate org
 
 The strategy matters more than the platform alone.
 
-If you are planning a content-led Kajabi strategy, our guide to **Kajabi blogging strategy** can provide additional guidance: [Kajabi blogging strategy](https://theeduassist.com/blog/kajabi-blogging-strategy/?utm_source=chatgpt.com)
+If you are planning a content-led Kajabi strategy, our guide to **Kajabi blogging strategy** can provide additional guidance: [Kajabi blogging strategy](https://www.theeduassist.com/blog/kajabi-blogging-strategy/?utm_source=chatgpt.com)
 
 ## Which Is Better for Blogging?
 
@@ -364,7 +364,7 @@ With WordPress, you can build the same journey, but you may need several plugins
 
 That gives you more choice but also introduces more configuration and maintenance.
 
-If you want to understand how these components can work together, see our guide to **Kajabi sales funnel setup**: [Kajabi sales funnel setup](https://theeduassist.com/blog/kajabi-sales-funnel-setup/?utm_source=chatgpt.com)
+If you want to understand how these components can work together, see our guide to **Kajabi sales funnel setup**: [Kajabi sales funnel setup](https://www.theeduassist.com/blog/kajabi-sales-funnel-setup/?utm_source=chatgpt.com)
 
 ## Kajabi vs WordPress for Email Marketing
 
@@ -492,7 +492,7 @@ That means you generally spend less time thinking about server-level maintenance
 
 For a non-technical course creator, that difference can be significant.
 
-If website performance is an important part of your Kajabi setup, you can also explore **Kajabi website speed optimization** for additional guidance: [Kajabi website speed optimization](https://theeduassist.com/blog/kajabi-website-speed-optimization/?utm_source=chatgpt.com)
+If website performance is an important part of your Kajabi setup, you can also explore **Kajabi website speed optimization** for additional guidance: [Kajabi website speed optimization](https://www.theeduassist.com/blog/kajabi-website-speed-optimization/?utm_source=chatgpt.com)
 
 ## Data and Ownership
 

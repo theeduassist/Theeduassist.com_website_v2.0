@@ -185,7 +185,7 @@ Useful approaches include:
 - **Workplace Scenarios:** Hands-on activities based on realistic tasks can help employees understand how the technology applies to their roles.
 - **Global Adaptability:** Well-structured modules can be adapted for different offices, roles, and regional requirements.
 
-Microlearning and just-in-time training are also discussed as emerging approaches to workplace learning and skills development. ([TheEduAssist](https://theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com))
+Microlearning and just-in-time training are also discussed as emerging approaches to workplace learning and skills development. ([TheEduAssist](https://www.theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com))
 
 ## **Turn Existing Company Knowledge into Digital Assets**
 
@@ -208,7 +208,7 @@ Important areas can include:
 - **Human Oversight:** Employees should understand when human judgement is still required.
 - **Responsible Use:** Organizations can establish clear expectations around privacy, accuracy, and appropriate AI use.
 
-AI is also being explored within learning and development through personalized learning paths, skills mapping, content development, learning analytics, and microlearning. ([TheEduAssist](https://theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com))
+AI is also being explored within learning and development through personalized learning paths, skills mapping, content development, learning analytics, and microlearning. ([TheEduAssist](https://www.theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com))
 
 ## **A Simple Process for Better Training**
 
@@ -234,7 +234,7 @@ TheEduAssist can support organizations in connecting technology with structured 
 - **Employee Training:** Creating learning experiences for onboarding, upskilling, and technology adoption.
 - **Software Rollout Support:** Developing step-by-step training resources that help employees understand new systems.
 
-Organizations can learn more about [AI-powered skills-based learning and professional development] and how digital learning approaches can support changing workforce requirements. ([TheEduAssist](https://theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com))
+Organizations can learn more about [AI-powered skills-based learning and professional development] and how digital learning approaches can support changing workforce requirements. ([TheEduAssist](https://www.theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com))
 
 A technology strategy determines which tools an organization introduces. A practical training strategy helps ensure that employees understand how to use those tools effectively.
 
@@ -299,7 +299,7 @@ TheEduAssist provides services including instructional design, custom eLearning,
 - **LEAP 2026 Key Information:** Official details about the event's programme, technology focus, DeepFest, startups, and organization. [++LEAP 2026 Key Information++](https://onegiantleap.com/about-us/key-information?utm_source=chatgpt.com)
 - **LEAP 2026 Stages:** Information about the event's stages and tracks. [++LEAP 2026 Stages++](https://onegiantleap.com/leap-stages-2026?utm_source=chatgpt.com)
 - **DeepFest:** Official information about LEAP's dedicated AI programme. [++DeepFest at LEAP 2026++](https://onegiantleap.com/deepfest-stage?utm_source=chatgpt.com)
-- **TheEduAssist — AI Insights and Skills-Based Learning:** Related resource on AI, skills-based learning, personalization, analytics, and workforce development. [++AI Insights Powering Skills-Based Learning and Professional Growth in 2026++](https://theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com)
-- **TheEduAssist — Learning & Development:** Additional resources covering learning and development, digital learning, instructional design, AI, and workforce training. [++TheEduAssist Learning & Development Resources++](https://theeduassist.com/tag/learning-development/?utm_source=chatgpt.com)
+- **TheEduAssist — AI Insights and Skills-Based Learning:** Related resource on AI, skills-based learning, personalization, analytics, and workforce development. [++AI Insights Powering Skills-Based Learning and Professional Growth in 2026++](https://www.theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/?utm_source=chatgpt.com)
+- **TheEduAssist — Learning & Development:** Additional resources covering learning and development, digital learning, instructional design, AI, and workforce training. [++TheEduAssist Learning & Development Resources++](https://www.theeduassist.com/tag/learning-development/?utm_source=chatgpt.com)
 
   

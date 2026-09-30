@@ -73,7 +73,7 @@ faqs:
     answer: Tools like Articulate Storyline and Articulate Rise 360 are widely used.
   - question: How can TheEduAssist help create interactive courses?
     answer: Through edu-assist consulting services,
-      [theeduassist.com](https://theeduassist.com) helps creators build
+      [theeduassist.com](https://www.theeduassist.com) helps creators build
       custom eLearning solutions with structured curriculum, interactive
       content, and LMS integration.
 sources:
@@ -304,7 +304,7 @@ tend to:
 - Improve learner satisfaction
 - Generate better reviews and sales
 
-For platforms like **[TheEduAssist.com](http://theeduassist.com)**, building interactive learning systems is key to delivering high-impact educational experiences at scale.
+For platforms like **[TheEduAssist.com](https://www.theeduassist.com)**, building interactive learning systems is key to delivering high-impact educational experiences at scale.
 
 ## **Final Thoughts**
 

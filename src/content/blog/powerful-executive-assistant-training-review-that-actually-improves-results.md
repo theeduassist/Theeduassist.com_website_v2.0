@@ -217,7 +217,7 @@ The research is clear—powerful **Executive Assistant Training** that is intera
 
 **TheEduAssist** offers custom, AI-enhanced **Executive Assistant Training** grounded in the latest academic and industry insights from the sources reviewed. Whether you need full program development, targeted modules, or scalable eLearning content, our solutions help your EAs—and your organization—thrive.
 
-Ready to invest in training that actually improves results? Visit [TheEduAssist.com](http://theeduassist.com) to request a consultation, demo, or custom needs assessment. Equip your executive assistants with the skills they need to excel in the AI era and deliver lasting value to your leadership team.
+Ready to invest in training that actually improves results? Visit [TheEduAssist.com](https://www.theeduassist.com) to request a consultation, demo, or custom needs assessment. Equip your executive assistants with the skills they need to excel in the AI era and deliver lasting value to your leadership team.
 
 Here is the **marked down** (condensed, tighter, and more concise) version of the full blog post.
 

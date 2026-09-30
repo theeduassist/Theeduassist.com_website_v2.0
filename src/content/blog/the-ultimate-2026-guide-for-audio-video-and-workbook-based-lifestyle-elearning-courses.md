@@ -286,7 +286,7 @@ This means your course must:
 - Feel cohesive
 - Deliver practical value
 
-For platforms like [theeduassist.com](http://theeduassist.com), this involves combining content development, custom eLearning, and visual design expertise.
+For platforms like [theeduassist.com](https://www.theeduassist.com), this involves combining content development, custom eLearning, and visual design expertise.
 
 ## **Final Thoughts**
 

@@ -198,7 +198,7 @@ A great course still requires a smart launch plan to succeed. For instance, Kaja
 - Gather feedback from beta students before going live
 - Set up email sequences to answer common questions
 
-Read our [AI HR training guide at TheEduAssist](https://theeduassist.com/blog/ai-hr-training-programs-with-360learning-a-practical-guide/)
+Read our [AI HR training guide at TheEduAssist](https://www.theeduassist.com/blog/ai-hr-training-programs-with-360learning-a-practical-guide/)
 
 ![](/images/blog/7-steps-to-design-an-agentic-ai-curriculum-1024x559.webp)
 

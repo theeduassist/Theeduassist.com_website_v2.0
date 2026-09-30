@@ -135,7 +135,7 @@ Before you record a single video, you must validate your idea. Most creators fai
 
 In addition, look for market gaps where competitors are being too general. By being specific, you position your offer as the only logical solution, making it much easier to sell online courses in a crowded niche.
 
-For a practical example of market-aligned design, see our guide on building a [high-value digital marketing curriculum](https://theeduassist.com/uncategorized/digital-marketing-curriculum-on-skool-how-to-build-high-value/).
+For a practical example of market-aligned design, see our guide on building a [high-value digital marketing curriculum](https://www.theeduassist.com/uncategorized/digital-marketing-curriculum-on-skool-how-to-build-high-value/).
 
 ### **Step 2: Define a Clear Transformation to Sell Online Courses Faster**
 
@@ -160,7 +160,7 @@ Most instructors treat curriculum design as an academic exercise. However, in th
 
 Because each section delivers a tangible achievement, your students become your best advocates. Moreover, their success stories provide the social proof you need to **sell online courses** to skeptics later on.
 
-To ensure your students get the results you promised, learn how to [turn passive lessons into interactive experiences](https://theeduassist.com/blog/how-to-transform-passive-lessons-into-interactive-learndash-courses/).
+To ensure your students get the results you promised, learn how to [turn passive lessons into interactive experiences](https://www.theeduassist.com/blog/how-to-transform-passive-lessons-into-interactive-learndash-courses/).
 
 ![](/images/blog/how-to-create-online-courses-1024x573.webp)
 

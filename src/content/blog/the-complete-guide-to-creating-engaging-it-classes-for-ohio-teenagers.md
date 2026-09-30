@@ -329,7 +329,7 @@ By combining:
 
 you can build a program that teenagers enjoy and that parents trust.
 
-Platforms like [theeduassist.com](http://theeduassist.com) and expert theeduassist consulting services can also help schools and creators structure scalable custom eLearning IT programs built for 2026 learners.
+Platforms like [theeduassist.com](https://www.theeduassist.com) and expert theeduassist consulting services can also help schools and creators structure scalable custom eLearning IT programs built for 2026 learners.
 
 ## References
 

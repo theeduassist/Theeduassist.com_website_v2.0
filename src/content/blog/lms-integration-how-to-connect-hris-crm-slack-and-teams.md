@@ -172,7 +172,7 @@ In this guide, we will explain what LMS integration means. We will also show why
 
 LMS integration is the process of connecting your learning management system with other business software. This includes HR systems, customer relationship management tools, and team collaboration apps like Slack or Microsoft Teams.  
 Instead of treating your LMS as a standalone island, integration turns it into part of a larger digital ecosystem. Data flows automatically between systems. New hires get enrolled in training the moment HR adds them to payroll. Sales reps get notified about new courses right inside their CRM dashboard. Nothing requires manual entry.  
-Still researching platforms? Our guide on [how to choose the right LMS for your organization](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/) is a good place to start.
+Still researching platforms? Our guide on [how to choose the right LMS for your organization](https://www.theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/) is a good place to start.
 
 ## Why LMS Integration Matters for Your Business
 
@@ -192,7 +192,7 @@ Here is how a typical HRIS and LMS integration works. First, the LMS connects to
 - Compliance teams get accurate, real time completion records.
 - HR teams save hours each week on data entry.
 
-Does your training need to stay compliant too? Our [ADA and WCAG compliance self audit checklist for eLearning](https://theeduassist.com/blog/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/) can confirm your content meets accessibility standards.
+Does your training need to stay compliant too? Our [ADA and WCAG compliance self audit checklist for eLearning](https://www.theeduassist.com/blog/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/) can confirm your content meets accessibility standards.
 
 ## Connecting Your LMS with CRM Platforms
 
@@ -220,7 +220,7 @@ With the right integration, learners can receive course reminders directly insid
 - Single sign on so learners do not need separate logins.
 - Two way sync, so course completions show up in both systems.
 
-Many smarter LMS platforms now rely on newer standards for this. Our guide on [Model Context Protocol for LMS](https://theeduassist.com/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know/) explains this emerging protocol in plain terms.
+Many smarter LMS platforms now rely on newer standards for this. Our guide on [Model Context Protocol for LMS](https://www.theeduassist.com/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know/) explains this emerging protocol in plain terms.
 
 ## How to Plan a Successful LMS Integration
 
@@ -245,24 +245,24 @@ Always test with sample data first. Confirm that employee records sync correctly
 ### Step 5: Train Your Team and Monitor Results
 
 Finally, train your HR, sales, and L&D teams on the new workflow. Then monitor performance for the first few weeks. Most integration issues appear early, so quick attention keeps things running smoothly.image  
-Are you moving from an older platform too? Our [complete LMS migration checklist](https://theeduassist.com/blog/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/) walks through the full process step by step.
+Are you moving from an older platform too? Our [complete LMS migration checklist](https://www.theeduassist.com/blog/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/) walks through the full process step by step.
 
 ## Measuring the Impact of LMS Integration
 
 Once your integrations are live, measurement becomes essential. Otherwise, you will not know if the investment paid off. Track metrics such as time saved on manual data entry, training completion rates, and accuracy of compliance records.  
-Want to measure outcomes too? Our[ [corporate training](https://www.theeduassist.com/blog/corporate-training-software/) ROI calculator guide]([https://theeduassist.com/%5Cblog/corporate-training-roi-calculator-measuring-learning-effectiveness/](https://theeduassist.com/%5Cblog/corporate-training-roi-calculator-measuring-learning-effectiveness/)) connects training data with real business results.  
+Want to measure outcomes too? Our[ [corporate training](https://www.theeduassist.com/blog/corporate-training-software/) ROI calculator guide]([https://www.theeduassist.com/%5Cblog/corporate-training-roi-calculator-measuring-learning-effectiveness/](https://www.theeduassist.com/%5Cblog/corporate-training-roi-calculator-measuring-learning-effectiveness/)) connects training data with real business results.  
 It also helps to track learning data using standards like xAPI, since this format captures detailed learner activity across multiple systems.  
-Curious how this works in practice? Read our breakdown of the [xAPI Learning Record Store](https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/) for more detail on integrated learning ecosystems.
+Curious how this works in practice? Read our breakdown of the [xAPI Learning Record Store](https://www.theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/) for more detail on integrated learning ecosystems.
 
 ## Choosing Between an LMS and LXP for Integration Needs
 
 Sometimes, businesses wonder whether they need a traditional LMS or a more flexible LXP. The answer depends on how your organization plans to use integrations. An LXP often focuses on personalized content discovery, while an LMS focuses on structured tracking and compliance.  
-Our comparison guide on [LXP versus LMS](https://theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/) breaks down which option fits your needs. This matters most when HRIS and CRM integration is a top priority.
+Our comparison guide on [LXP versus LMS](https://www.theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/) breaks down which option fits your needs. This matters most when HRIS and CRM integration is a top priority.
 
 ## The Role of AI in Modern LMS Integration
 
 AI is changing how integrated systems behave. Instead of simple data syncing, AI powered LMS platforms can do more. They can predict which employees need specific training. This prediction often comes from CRM activity or HR performance data. As a result, integration becomes a smart, responsive system instead of a basic connection.  
-To explore this shift, read our article on [AI powered learning for employee upskilling](https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/). You can also check our comparison of [AI versus traditional instructional design](https://theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/) for more context.
+To explore this shift, read our article on [AI powered learning for employee upskilling](https://www.theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/). You can also check our comparison of [AI versus traditional instructional design](https://www.theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/) for more context.
 
 ## Common Mistakes to Avoid
 
@@ -295,14 +295,14 @@ LMS integration connects your learning platform with other business systems such
 
 ## References
 
-How to Choose the Right LMS for Your Organization: [https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/](https://theeduassist.com/uncategorized/how-to-choose-the-right-lms-for-your-organization-in-2026/)  
-AI vs Traditional Instructional Design: [https://theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/](https://theeduassist.com/uncategorized/blog-ai-vs-traditional-instructional-design/)  
-AI-Powered Learning: A Smarter Way to Train and Upskill Employees: [https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/](https://theeduassist.com/uncategorized/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/)  
-Model Context Protocol (MCP) for LMS: [https://theeduassist.com/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know/](https://theeduassist.com/uncategorized/model-context-protocol-mcp-for-lms-everything-you-need-to-know/)  
-xAPI Learning Record Store (LRS): [https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/](https://theeduassist.com/uncategorized/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/)  
-ADA and WCAG Compliance for eLearning: [https://theeduassist.com/blog/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/](https://theeduassist.com/uncategorized/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/)  
-Corporate Training ROI Calculator: [https://theeduassist.com/blog/corporate-training-roi-calculator-measuring-learning-effectiveness/](https://theeduassist.com/uncategorized/corporate-training-roi-calculator-measuring-learning-effectiveness/)  
-LXP vs LMS: Which One Does Your Business Need: [https://theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/](https://theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/)  
-How to Migrate to a New LMS: A Complete Checklist: [https://theeduassist.com/blog/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/](https://theeduassist.com/blog/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/)  
+How to Choose the Right LMS for Your Organization: [https://www.theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/](https://www.theeduassist.com/uncategorized/how-to-choose-the-right-lms-for-your-organization-in-2026/)  
+AI vs Traditional Instructional Design: [https://www.theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/](https://www.theeduassist.com/uncategorized/blog-ai-vs-traditional-instructional-design/)  
+AI-Powered Learning: A Smarter Way to Train and Upskill Employees: [https://www.theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/](https://www.theeduassist.com/uncategorized/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/)  
+Model Context Protocol (MCP) for LMS: [https://www.theeduassist.com/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know/](https://www.theeduassist.com/uncategorized/model-context-protocol-mcp-for-lms-everything-you-need-to-know/)  
+xAPI Learning Record Store (LRS): [https://www.theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/](https://www.theeduassist.com/uncategorized/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/)  
+ADA and WCAG Compliance for eLearning: [https://www.theeduassist.com/blog/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/](https://www.theeduassist.com/uncategorized/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/)  
+Corporate Training ROI Calculator: [https://www.theeduassist.com/blog/corporate-training-roi-calculator-measuring-learning-effectiveness/](https://www.theeduassist.com/uncategorized/corporate-training-roi-calculator-measuring-learning-effectiveness/)  
+LXP vs LMS: Which One Does Your Business Need: [https://www.theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/](https://www.theeduassist.com/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/)  
+How to Migrate to a New LMS: A Complete Checklist: [https://www.theeduassist.com/blog/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/](https://www.theeduassist.com/blog/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/)  
 **Authorized By**  
 Hifza Naeem

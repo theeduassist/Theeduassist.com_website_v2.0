@@ -166,7 +166,7 @@ Every training program needs rules. Governance sets the standards for how course
 
 ### 2. Technology and Tools
 
-This pillar covers the platforms that deliver and support learning. It includes your learning management system, authoring tools, video hosting, and reporting dashboards. Connecting these tools properly is essential. If you want to understand how to link your systems together, our guide on [LMS integration](https://theeduassist.com/blog/lms-integration-the-most-important-systems-to-connect-to-your-lms/) and the most important systems to connect walks through the process step by step.
+This pillar covers the platforms that deliver and support learning. It includes your learning management system, authoring tools, video hosting, and reporting dashboards. Connecting these tools properly is essential. If you want to understand how to link your systems together, our guide on [LMS integration](https://www.theeduassist.com/blog/lms-integration-the-most-important-systems-to-connect-to-your-lms/) and the most important systems to connect walks through the process step by step.
 
 ### 3. Content Lifecycle Management
 
@@ -188,13 +188,13 @@ Once you understand the framework, the next step is turning it into a working le
 
 **Set clear goals.** Decide what success looks like. Maybe it is faster onboarding. Maybe it is lower compliance risk. Whatever it is, write it down and share it with stakeholders.
 
-**Map your tech stack.** Identify which systems talk to each other and which ones do not. If your HR software, your LMS, and your communication tools operate in silos, you are losing valuable time and data. Automating these connections is one of the fastest ways to reduce manual admin work, similar to how [kajabi automation workflows](https://theeduassist.com/blog/kajabi-automation-workflows/) save hours for teams managing digital platforms.
+**Map your tech stack.** Identify which systems talk to each other and which ones do not. If your HR software, your LMS, and your communication tools operate in silos, you are losing valuable time and data. Automating these connections is one of the fastest ways to reduce manual admin work, similar to how [kajabi automation workflows](https://www.theeduassist.com/blog/kajabi-automation-workflows/) save hours for teams managing digital platforms.
 
-**Centralize learner data.** When learner records live in one place, reporting becomes far easier. This is where thinking about your data the way a strong CRM approach handles leads and customers can help. Our article on [managing leads and students in one place](https://theeduassist.com/uncategorized/kajabi-crm-how-to-manage-leads-and-students-in-one-place/) explains this concept in more depth, and the same logic applies to managing learners.
+**Centralize learner data.** When learner records live in one place, reporting becomes far easier. This is where thinking about your data the way a strong CRM approach handles leads and customers can help. Our article on [managing leads and students in one place](https://www.theeduassist.com/uncategorized/kajabi-crm-how-to-manage-leads-and-students-in-one-place/) explains this concept in more depth, and the same logic applies to managing learners.
 
 **Build feedback loops.** Ask learners and managers what is working and what is not. Then, actually use that feedback to revise courses.
 
-**Communicate consistently.** Training only works if people know it exists and understand why it matters. Consistent, well timed messaging plays a big role here. If you want ideas on structuring ongoing communication to your audience, our guide [running successful email campaigns](https://theeduassist.com/uncategorized/how-to-run-kajabi-email-campaigns-successfully/) offers useful principles that translate well into internal learner communications too.
+**Communicate consistently.** Training only works if people know it exists and understand why it matters. Consistent, well timed messaging plays a big role here. If you want ideas on structuring ongoing communication to your audience, our guide [running successful email campaigns](https://www.theeduassist.com/uncategorized/how-to-run-kajabi-email-campaigns-successfully/) offers useful principles that translate well into internal learner communications too.
 
 By following these steps in order, most teams can move from chaos to a clear, repeatable system within a few months.
 
@@ -229,7 +229,7 @@ When evaluating a platform, consider these factors:
 - Does it offer strong analytics out of the box?
 - Is it accessible for learners with different needs?
 
-If you are unsure where to start, our detailed breakdown of [lms integration migration services](https://theeduassist.com/lms-integration-migration-services/) covers the practical side of connecting systems without disrupting existing training programs. Getting this right early saves significant time later.
+If you are unsure where to start, our detailed breakdown of [lms integration migration services](https://www.theeduassist.com/lms-integration-migration-services/) covers the practical side of connecting systems without disrupting existing training programs. Getting this right early saves significant time later.
 
 ## Automation: The Secret Weapon of Modern LearningOps
 
@@ -237,7 +237,7 @@ Automation has quietly become one of the biggest advantages in Learning Operatio
 
 For example, when a new employee joins, automation can instantly assign onboarding courses, notify their manager, and schedule follow up check ins. Similarly, automated reminders can nudge learners who have not completed mandatory compliance training.
 
-This is where lessons from other industries apply surprisingly well. Businesses that rely heavily on automated workflows, such as those described in our piece on [kajabi automation workflow.](https://theeduassist.com/blog/kajabi-automation-workflows/)
+This is where lessons from other industries apply surprisingly well. Businesses that rely heavily on automated workflows, such as those described in our piece on [kajabi automation workflow.](https://www.theeduassist.com/blog/kajabi-automation-workflows/)
 
 ## Measuring the Impact of Corporate Training
 
@@ -312,11 +312,11 @@ Choose a system that supports automated enrollment, digital checklists, and asyn
 
 ## References
 
-1. TheEduAssist. [LMS Integration: The Most Important Systems to Connect to Your LMS](https://theeduassist.com/blog/lms-integration-the-most-important-systems-to-connect-to-your-lms/)
-2. TheEduAssist. [LMS Integration and Migration Services](https://theeduassist.com/lms-integration-migration-services/)
-3. TheEduAssist. [Kajabi Automation Workflows](https://theeduassist.com/blog/kajabi-automation-workflows)
-4. TheEduAssist. [Kajabi CRM: How to Manage Leads and Students in One Place](https://theeduassist.com/uncategorized/kajabi-crm-how-to-manage-leads-and-students-in-one-place/)
-5. TheEduAssist. [How to Run Kajabi Email Campaigns Successfully](https://theeduassist.com/uncategorized/how-to-run-kajabi-email-campaigns-successfully/)
-6. TheEduAssist. [Kajabi Online Course Setup](https://theeduassist.com/blog/kajabi-online-course-setup/)
-7. TheEduAssist. [Kajabi Website Speed Optimization](https://theeduassist.com/blog/kajabi-website-speed-optimization/)
+1. TheEduAssist. [LMS Integration: The Most Important Systems to Connect to Your LMS](https://www.theeduassist.com/blog/lms-integration-the-most-important-systems-to-connect-to-your-lms/)
+2. TheEduAssist. [LMS Integration and Migration Services](https://www.theeduassist.com/lms-integration-migration-services/)
+3. TheEduAssist. [Kajabi Automation Workflows](https://www.theeduassist.com/blog/kajabi-automation-workflows)
+4. TheEduAssist. [Kajabi CRM: How to Manage Leads and Students in One Place](https://www.theeduassist.com/uncategorized/kajabi-crm-how-to-manage-leads-and-students-in-one-place/)
+5. TheEduAssist. [How to Run Kajabi Email Campaigns Successfully](https://www.theeduassist.com/uncategorized/how-to-run-kajabi-email-campaigns-successfully/)
+6. TheEduAssist. [Kajabi Online Course Setup](https://www.theeduassist.com/blog/kajabi-online-course-setup/)
+7. TheEduAssist. [Kajabi Website Speed Optimization](https://www.theeduassist.com/blog/kajabi-website-speed-optimization/)
 

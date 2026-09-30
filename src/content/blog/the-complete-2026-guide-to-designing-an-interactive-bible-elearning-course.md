@@ -66,7 +66,7 @@ faqs:
       learning outcomes.
   - question: How can TheEduAssist help create an interactive Bible course?
     answer: Through consulting services and custom eLearning solutions,
-      [TheEduAssist.com](http://theeduassist.com) helps design structured,
+      [TheEduAssist.com](https://www.theeduassist.com) helps design structured,
       engaging, and scalable spiritual learning programs.
 sources:
   - title: Development of an interactive e-learning model for an instructional
@@ -320,4 +320,4 @@ You can build a course that is:
 - Meaningful
 - Scalable
 
-Platforms like [T++heEduAssist.com++](https://theeduassist.com/contact-us/) support creators through TheEduAssist consulting services, helping design custom eLearning programs with strong content development and learner engagement strategies.
+Platforms like [T++heEduAssist.com++](https://www.theeduassist.com/contact-us/) support creators through TheEduAssist consulting services, helping design custom eLearning programs with strong content development and learner engagement strategies.

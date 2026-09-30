@@ -60,7 +60,7 @@ faqs:
       with modules, assignments, and quizzes.
   - question: How can TheEduAssist help build Google Classroom training?
     answer: Through edu-assist consulting services,
-      [++theeduassist.com++](https://theeduassist.com) helps businesses convert
+      [++theeduassist.com++](https://www.theeduassist.com) helps businesses convert
       SOPs into custom eLearning systems with structured curriculum and
       LMS-ready content.
   - question: How long does it take to build a Google Classroom training program?

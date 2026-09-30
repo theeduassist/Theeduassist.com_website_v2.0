@@ -67,7 +67,7 @@ faqs:
     answer: Yes. Strategic in-course upsells can convert highly engaged learners
       into premium clients.
   - question: How can TheEduAssist help build this system?
-    answer: Through [++theeduassist.com++](https://theeduassist.com), creators can
+    answer: Through [++theeduassist.com++](https://www.theeduassist.com), creators can
       get help with custom eLearning, funnel builds, content development,
       curriculum design, and consulting services.
 sources:
@@ -315,6 +315,6 @@ By combining:
 
 you can build a funnel that both changes lives and grows revenue.
 
-Platforms like [theeduassist.com](http://theeduassist.com) support creators with eLearning systems, content development, and launch consulting services for modern course businesses.
+Platforms like [theeduassist.com](https://www.theeduassist.com) support creators with eLearning systems, content development, and launch consulting services for modern course businesses.
 
 **Authored By:** Sofia Arif ([https://www.linkedin.com/in/sofia-arif-47b5a0197/](https://www.linkedin.com/in/sofia-arif-47b5a0197/))

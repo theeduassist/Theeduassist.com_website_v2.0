@@ -162,7 +162,7 @@ Kajabi combines content delivery with marketing and sales tools, allowing busine
 - Affiliate programs on eligible plans
 - Advanced business features on eligible plans
 
-Businesses looking to build a structured learning portal can also explore [How to Create a Portal in Kajabi Training Platform](https://theeduassist.com/blog/how-to-create-a-kajabi-training-platform/).
+Businesses looking to build a structured learning portal can also explore [How to Create a Portal in Kajabi Training Platform](https://www.theeduassist.com/blog/how-to-create-a-kajabi-training-platform/).
 
 ## Podia vs Kajabi Pricing in September 2026
 
@@ -311,7 +311,7 @@ Kajabi supports online courses, coaching programs, and digital products. Its cou
 
 This can be useful for creators who want to develop a structured marketing and enrollment process around their educational products.
 
-For additional course development guidance, explore [How to Maximize Course Success Using the Kajabi Platform](https://theeduassist.com/blog/__trashed/).
+For additional course development guidance, explore [How to Maximize Course Success Using the Kajabi Platform](https://www.theeduassist.com/blog/__trashed/).
 
 ## Email Marketing and Automation
 
@@ -331,7 +331,7 @@ Kajabi provides email marketing, landing pages, sales funnels, and automation fe
 
 These tools can help businesses organize marketing workflows around lead generation, product promotion, and customer communication.
 
-If you're interested in learning more about funnels, read [Kajabi Email Marketing Funnels for Better Course Sales](https://theeduassist.com/blog/kajabi-email-marketing-funnels/).
+If you're interested in learning more about funnels, read [Kajabi Email Marketing Funnels for Better Course Sales](https://www.theeduassist.com/blog/kajabi-email-marketing-funnels/).
 
 ### What Should You Compare?
 
@@ -364,7 +364,7 @@ Kajabi provides website and landing-page tools, with additional customization fe
 
 Businesses should evaluate design flexibility, branding requirements, integrations, and technical customization before selecting a plan.
 
-For website design inspiration and course templates, explore [Best Free and Paid Kajabi Course Templates & Themes for 2026](https://theeduassist.com/blog/kajabi-course-templates/).
+For website design inspiration and course templates, explore [Best Free and Paid Kajabi Course Templates & Themes for 2026](https://www.theeduassist.com/blog/kajabi-course-templates/).
 
 ## Community and Membership Features
 

@@ -454,7 +454,7 @@ If having a branded mobile learning environment is important to your organizatio
 - Looking for advanced assessments and analytics
 - Building a highly branded learning environment
 
-If you want to compare Teachable with other LMS platforms, TheEduAssist's [Best Learning Management System (LMS) for 2026](https://theeduassist.com/blog/best-learning-management-system-lms-for-2026/?utm_source=chatgpt.com) is a useful next resource.
+If you want to compare Teachable with other LMS platforms, TheEduAssist's [Best Learning Management System (LMS) for 2026](https://www.theeduassist.com/blog/best-learning-management-system-lms-for-2026/?utm_source=chatgpt.com) is a useful next resource.
 
 ## **Pros and Cons**
 

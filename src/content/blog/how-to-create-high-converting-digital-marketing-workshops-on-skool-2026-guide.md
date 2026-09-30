@@ -105,7 +105,7 @@ sources:
     url: http://canva.com
     accessedAt: 2026-09-14
   - title: Corporate Training & Digital Learning Solutions
-    url: https://theeduassist.com
+    url: https://www.theeduassist.com
     accessedAt: 2026-09-14
   - title: SEO Analyzer
     url: https://neilpatel.com/seo-analyzer
@@ -247,7 +247,7 @@ This approach aligns with modern learning practices used in professional trainin
 
 When presenting your offer, clearly explain what they will get and how it will help them. You can also add a limited-time bonus or special discount to increase conversions.  
 **Example:** If you are teaching social media marketing, show how a beginner can grow an Instagram page step-by-step. Then offer your full course with advanced strategies and monetization methods.  
-For advanced users or businesses, you can also introduce services like: [Corporate Training & Digital Learning Solutions](https://theeduassist.com?utm_source=chatgpt.com)
+For advanced users or businesses, you can also introduce services like: [Corporate Training & Digital Learning Solutions](https://www.theeduassist.com?utm_source=chatgpt.com)
 
 ## **Step 8: Repurpose Your Workshop Content**
 

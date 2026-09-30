@@ -75,7 +75,7 @@ editorialManagement:
   lastReviewedDate: 2026-09-18
   nextReviewDate: 2026-09-18
 ---
-If you’re planning to [launch an online course](https://theeduassist.com/blog/), you’ve likely searched for Udemy vs Teachable, and found conflicting advice everywhere.
+If you’re planning to [launch an online course](https://www.theeduassist.com/blog/), you’ve likely searched for Udemy vs Teachable, and found conflicting advice everywhere.
 
 The real issue isn’t just which platform is better, but which one aligns with your business model, audience, and long-term goals.
 

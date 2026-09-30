@@ -283,4 +283,4 @@ If you’re exploring:
 
 choosing the right strategy matters just as much for you as the platform itself.
 
-At [TheEduAssist](https://theeduassist.com/contact-us/), we help creators and EdTech businesses build high-retention learning ecosystems using modern tools, instructional design strategies, and audience-focused engagement models.
+At [TheEduAssist](https://www.theeduassist.com/contact-us/), we help creators and EdTech businesses build high-retention learning ecosystems using modern tools, instructional design strategies, and audience-focused engagement models.

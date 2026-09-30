@@ -74,7 +74,7 @@ faqs:
     answer: Most programs take 4–8 weeks depending on complexity and content readiness.
   - question: How can TheEduAssist help create leadership training programs?
     answer: Through TheEduAssist consulting services,
-      [TheEduAssist.com](http://theeduassist.com) helps creators design custom
+      [TheEduAssist.com](https://www.theeduassist.com) helps creators design custom
       eLearning leadership programs, structured curriculum, and LMS-ready course
       content.
 sources:
@@ -257,7 +257,7 @@ It is evolving into:
 - Hybrid learning programs
 - Cohort-based training
 
-For platforms like [theeduassist.com](http://theeduassist.com), this shift represents an opportunity to build custom eLearning solutions that combine leadership theory with real-world application.
+For platforms like [theeduassist.com](https://www.theeduassist.com), this shift represents an opportunity to build custom eLearning solutions that combine leadership theory with real-world application.
 
 ## **Final Thoughts**
 

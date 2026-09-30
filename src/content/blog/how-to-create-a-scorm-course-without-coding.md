@@ -127,7 +127,7 @@ Your LMS needs SCORM because it acts as a universal language between your course
 
 Most LMS platforms today support SCORM 1.2 or SCORM 2004. Some newer systems also support xAPI, which we will explain shortly. Before you choose an LMS, it helps to understand which standards it supports. For more guidance on this, check out our detailed breakdown on
 
-++[how to choose the right LMS for your organization](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/)++, which covers compatibility, pricing, and scalability.
+++[how to choose the right LMS for your organization](https://www.theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/)++, which covers compatibility, pricing, and scalability.
 
 ## **Step by Step: How to Create a SCORM Course Without Coding**
 
@@ -187,7 +187,7 @@ However, if you want to track learning across multiple platforms, mobile apps, o
 
 If you are unsure which path fits your organization, our article on
 
-++[AI vs traditional instructional design](https://theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/)++ explains how modern design approaches affect tracking and course structure decisions.
+++[AI vs traditional instructional design](https://www.theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/)++ explains how modern design approaches affect tracking and course structure decisions.
 
 ## **Which SCORM Authoring Tool Is Easiest for Beginners?**
 
@@ -215,7 +215,7 @@ This is where TheEduAssist can help. Our team builds custom SCORM and xAPI cours
 
 If you want to explore how artificial intelligence is shaping modern training programs, take a look at our article on
 
-++[AI-powered learning and smarter ways to train and upskill employees](https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/)++. It explains how AI tools are changing the way teams design and deliver training.
+++[AI-powered learning and smarter ways to train and upskill employees](https://www.theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/)++. It explains how AI tools are changing the way teams design and deliver training.
 
 ## **Final Thoughts**
 

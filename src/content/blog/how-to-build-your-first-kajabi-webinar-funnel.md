@@ -105,7 +105,7 @@ Many creators struggle with:
 
 This guide explains how to build a complete Kajabi webinar funnel step by step. You’ll also learn how to optimize funnel performance, choose the best webinar strategy, and avoid common mistakes that reduce conversions.
 
-If you are planning a complete Kajabi website and marketing ecosystem, this guide pairs well with this additional resource on [++Kajabi Website & Funnel Services++](https://theeduassist.com/blog/kajabi-website-funnel-services/). Give it a read!
+If you are planning a complete Kajabi website and marketing ecosystem, this guide pairs well with this additional resource on [++Kajabi Website & Funnel Services++](https://www.theeduassist.com/blog/kajabi-website-funnel-services/). Give it a read!
 
 ## **Why Webinar Funnels Still Work in 2026**
 

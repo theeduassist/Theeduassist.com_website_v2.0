@@ -133,7 +133,7 @@ Skool is great for community learning. It offers:
 - Engagement features
 - Simple course services
 
-Master the platform with our Complete [2026 Skool Community Blueprint](https://theeduassist.com/blog/how-to-build-and-manage-a-high-engagement-skool-community-complete-2026-blueprint/).
+Master the platform with our Complete [2026 Skool Community Blueprint](https://www.theeduassist.com/blog/how-to-build-and-manage-a-high-engagement-skool-community-complete-2026-blueprint/).
 
 ### **Kajabi Platform**
 

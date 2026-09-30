@@ -62,7 +62,7 @@ Below is an objective, in-depth evaluation of the top custom eLearning developme
 * **The Boutique Visual Edge**: Combines pedagogical rigor (Bloom’s Taxonomy and Cathy Moore’s Action Mapping) with modern, high-converting visual design, fillable PDF action workbooks, and scenario-based branching simulations.
 * **Procurement Safeguards**: Standard bilateral NDAs, 100% client intellectual property ownership, zero unauthorized AI model training on client assets, and a 60-day post-launch technical warranty.
 
-**Learn More**: Download the [Enterprise & Public Sector Capability Statement](https://theeduassist.com/downloads/enterprise-capability-statement/) or the [40-Point RFP Scoring Matrix](https://theeduassist.com/downloads/procurement-rfp-evaluation-matrix/).
+**Learn More**: Download the [Enterprise & Public Sector Capability Statement](https://www.theeduassist.com/downloads/enterprise-capability-statement/) or the [40-Point RFP Scoring Matrix](https://www.theeduassist.com/downloads/procurement-rfp-evaluation-matrix/).
 
 ---
 
@@ -140,5 +140,5 @@ Before issuing an RFP or signing a Statement of Work, assess your project agains
 ## Next Steps
 
 If you are preparing an upcoming workforce training tender or building a flagship digital academy:
-* **[Download the 40-Point eLearning Vendor Procurement Matrix (PDF)](https://theeduassist.com/downloads/procurement-rfp-evaluation-matrix/)** to benchmark your vendor bids.
-* **[Submit Your RFP or Project Scope](https://theeduassist.com/trust-centre/procurement/)** to TheEduAssist for a formal review within 24 to 48 business hours.
+* **[Download the 40-Point eLearning Vendor Procurement Matrix (PDF)](https://www.theeduassist.com/downloads/procurement-rfp-evaluation-matrix/)** to benchmark your vendor bids.
+* **[Submit Your RFP or Project Scope](https://www.theeduassist.com/trust-centre/procurement/)** to TheEduAssist for a formal review within 24 to 48 business hours.

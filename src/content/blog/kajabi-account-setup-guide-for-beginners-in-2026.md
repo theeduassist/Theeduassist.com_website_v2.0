@@ -420,7 +420,7 @@ For example, an online course business about digital marketing could publish con
 
 Kajabi's Help Center explains that its blog includes SEO and sharing settings for the blog and individual posts.
 
-TheEduAssist also has a detailed resource on [Kajabi Blogging Strategy for Course Creators]. [Kajabi Blogging Strategy for Course Creators](https://theeduassist.com/blog/kajabi-blogging-strategy/?utm_source=chatgpt.com)
+TheEduAssist also has a detailed resource on [Kajabi Blogging Strategy for Course Creators]. [Kajabi Blogging Strategy for Course Creators](https://www.theeduassist.com/blog/kajabi-blogging-strategy/?utm_source=chatgpt.com)
 
 A useful blog strategy should connect educational content with relevant products and resources without forcing promotional messages into every article.
 

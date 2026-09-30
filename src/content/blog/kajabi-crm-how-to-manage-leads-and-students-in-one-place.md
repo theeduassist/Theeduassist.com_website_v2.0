@@ -156,7 +156,7 @@ Yes, and many creators use Kajabi this way. It makes managing contacts faster an
 
 For example, you can automate the delivery of a free bonus to each person who attends your webinar, so that no one gets missed.
 
-That said, there are limits worth knowing first. Kajabi’s main way of communicating with contacts is through email, and nurturing leads can be managed through broadcasts and automated sequences. If you want to improve this part of your strategy, our guide on **[Kajabi email strategy using broadcasts and sequences](https://theeduassist.com/blog/kajabi-email-strategy-how-to-use-broadcasts-and-sequences-effectively/)** explains how to turn your contact list into ongoing engagement.
+That said, there are limits worth knowing first. Kajabi’s main way of communicating with contacts is through email, and nurturing leads can be managed through broadcasts and automated sequences. If you want to improve this part of your strategy, our guide on **[Kajabi email strategy using broadcasts and sequences](https://www.theeduassist.com/blog/kajabi-email-strategy-how-to-use-broadcasts-and-sequences-effectively/)** explains how to turn your contact list into ongoing engagement.
 
 However, there is no dedicated pipeline feature that visually maps where leads sit in your customer journey.
 

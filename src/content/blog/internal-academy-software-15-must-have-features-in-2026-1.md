@@ -93,7 +93,7 @@ faqs:
     answer: Short lessons fit busy schedules and help users apply small habits
       consistently over time.
   - question: How can TheEduAssist help brands build wellbeing content?
-    answer: Through [theeduassist.com](http://theeduassist.com) consulting services,
+    answer: Through [theeduassist.com](https://www.theeduassist.com) consulting services,
       TheEduAssist supports brands with custom eLearning, instructional design,
       content development, and scalable digital wellbeing learning systems.
 sources:
@@ -364,4 +364,4 @@ Short lessons fit busy schedules and help users apply small habits consistently 
 
 **How can TheEduAssist help brands build wellbeing content?**
 
-Through [theeduassist.com](http://theeduassist.com) consulting services, TheEduAssist supports brands with custom eLearning, instructional design, content development, and scalable digital wellbeing learning systems.
+Through [theeduassist.com](https://www.theeduassist.com) consulting services, TheEduAssist supports brands with custom eLearning, instructional design, content development, and scalable digital wellbeing learning systems.

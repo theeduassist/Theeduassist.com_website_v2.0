@@ -29,6 +29,8 @@ draft: false
 publishedAt: 2026-09-05
 updatedAt: 2026-09-05
 heroImage: /images/blog/self-guided-learning-hub.png
+heroImageAlt: Step-by-step instructional design framework for creating structured self-guided learning experiences in Google Classroom
+heroImageCaption: Complete guide to designing self-guided learning experiences in Google Classroom with structured topics and progress tracking.
 seoTitle: How to Create Self-Guided Learning in Google Classroom
 seoDescription: Learn how to create self-guided learning experiences in Google
   Classroom with structured topics, clear outcomes, multimedia, assignments, and
@@ -140,13 +142,13 @@ sources:
     url: https://www.theeduassist.com/blog/create-google-classroom-training-in-2026-in-miami/
     accessedAt: 2026-09-05
   - title: Content Creation Guide
-    url: https://theeduassist.com/content-creation-guide
+    url: https://www.theeduassist.com/content-creation-guide
     accessedAt: 2026-09-05
   - title: eLearning Solutions
-    url: https://theeduassist.com/elearning-solutions
+    url: https://www.theeduassist.com/elearning-solutions
     accessedAt: 2026-09-05
   - title: Learning Outcomes Guide
-    url: https://theeduassist.com/learning-outcomes-guide
+    url: https://www.theeduassist.com/learning-outcomes-guide
     accessedAt: 2026-09-05
 editorialManagement:
   dueDate: 2026-09-05
@@ -180,7 +182,7 @@ As a result, students become more confident and self-motivated.
 - Storage support via Google Drive
 - Simple access across mobile and desktop devices
 
-For more structured learning systems, you can explore:[https://theeduassist.com/elearning-solutions](https://theeduassist.com/elearning-solutions)
+For more structured learning systems, you can explore:[https://www.theeduassist.com/elearning-solutions](https://www.theeduassist.com/elearning-solutions)
 
 ## **Step-by-Step Guide to Create Self-Guided Learning Experiences in Google Classroom**
 
@@ -193,7 +195,7 @@ Examples:
 - Apply knowledge in practical tasks
 - Develop independent learning skills
 
-You can also explore instructional planning here:[https://theeduassist.com/learning-outcomes-guide](https://theeduassist.com/learning-outcomes-guide)
+You can also explore instructional planning here:[https://www.theeduassist.com/learning-outcomes-guide](https://www.theeduassist.com/learning-outcomes-guide)
 
 ### **Step 2: Understand Your Learners**
 
@@ -249,7 +251,7 @@ To improve engagement, include different formats:
 - Downloadable worksheets
 
 This makes learning more interactive and effective.  
-Learn more here:[https://theeduassist.com/content-creation-guide](https://theeduassist.com/content-creation-guide)
+Learn more here:[https://www.theeduassist.com/content-creation-guide](https://www.theeduassist.com/content-creation-guide)
 
 ### **Step 7: Create Practical Assignments**
 

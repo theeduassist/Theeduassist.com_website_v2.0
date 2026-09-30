@@ -134,7 +134,7 @@ sources:
     accessedAt: 2026-08-25
   - title: "TheEduAssist Core Guide: Applies above journals to Thinkific Courses LMS
       management."
-    url: https://theeduassist.com/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/
+    url: https://www.theeduassist.com/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/
     accessedAt: 2026-08-25
 editorialManagement:
   dueDate: 2026-08-25

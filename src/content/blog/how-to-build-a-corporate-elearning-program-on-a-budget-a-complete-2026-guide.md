@@ -60,7 +60,7 @@ faqs:
       depends on your team size, content format needs, and whether you need
       mobile access. For teams that want a custom-built solution without the
       enterprise price tag, [++TheEduAssist offers flexible development and LMS
-      setup support++](https://theeduassist.com/service-section/) tailored to
+      setup support++](https://www.theeduassist.com/service-section/) tailored to
       your budget.
   - question: What are the top corporate eLearning solutions with no upfront setup fees?
     answer: >+
@@ -99,7 +99,7 @@ faqs:
       quality and learner outcomes.
 sources:
   - title: TheEduAssist Custom eLearning Development Services
-    url: https://theeduassist.com/
+    url: https://www.theeduassist.com/
     accessedAt: 2026-09-28
   - title: Association for Talent Development (ATD) – State of the Industry Report
     url: https://www.td.org/search/research/state-of-the-industry
@@ -126,7 +126,7 @@ Many American businesses fall into the same trap: they invest heavily in learnin
 
 The result is bloated spending with disappointing outcomes. According to industry research, a large portion of corporate training spending in the U.S. goes to content and platforms that employees either skip or forget within days. The problem is not the budget. The problem is the strategy.
 
-At [++TheEduAssist++](https://theeduassist.com), we work with businesses of all sizes to build smarter, leaner eLearning programs that are designed around real learner needs, not just vendor feature lists.
+At [++TheEduAssist++](https://www.theeduassist.com), we work with businesses of all sizes to build smarter, leaner eLearning programs that are designed around real learner needs, not just vendor feature lists.
 
 ## **Step 1: Start With a Skills Gap Analysis**
 
@@ -141,7 +141,7 @@ Here is how to run one without a consultant:
 
 Once you have this information, you can build a training roadmap that actually targets what matters. This focused approach saves money because you only create or buy content that solves a real problem.
 
-Our team at [++TheEduAssist++](https://theeduassist.com/training-solutions/) regularly helps U.S. businesses run structured needs assessments before designing a single module. It is the single most important step you can take before investing in any eLearning solution.
+Our team at [++TheEduAssist++](https://www.theeduassist.com/training-solutions/) regularly helps U.S. businesses run structured needs assessments before designing a single module. It is the single most important step you can take before investing in any eLearning solution.
 
 ## **Step 2: Define Clear Learning Objectives Per Role**
 
@@ -170,13 +170,13 @@ Look for platforms that offer:
 - Basic reporting on completion rates and quiz scores.
 - Mobile-friendly access for remote or field-based employees.
 
-Our [++LMS implementation and migration services++](https://theeduassist.com/service-section/) help businesses across the U.S. select, set up, and migrate to the right system without downtime or overspending.
+Our [++LMS implementation and migration services++](https://www.theeduassist.com/service-section/) help businesses across the U.S. select, set up, and migrate to the right system without downtime or overspending.
 
 ### **Content Authoring Tools**
 
 If you want to create your own training content, authoring tools let you build slides, videos, and quizzes without hiring a full design team. Many affordable options exist for American businesses that need professional-looking content on a modest budget.
 
-If creating content in-house feels overwhelming, consider partnering with [++TheEduAssist’s custom eLearning development team++](https://theeduassist.com/). We build custom modules faster and more affordably than most in-house teams, especially for organizations that need multilingual support, compliance training, or branded experiences.
+If creating content in-house feels overwhelming, consider partnering with [++TheEduAssist’s custom eLearning development team++](https://www.theeduassist.com/). We build custom modules faster and more affordably than most in-house teams, especially for organizations that need multilingual support, compliance training, or branded experiences.
 
 ## **Step 4: Build or Source Your Content Strategically**
 
@@ -186,7 +186,7 @@ Building your own content takes more time upfront but produces training that is 
 
 Pre-made course libraries are faster to deploy and can work well for general skills like communication, leadership, or workplace safety. However, off-the-shelf content often fails to reflect the real situations your employees face.
 
-A blended approach works best for most U.S. small businesses: use pre-made content for broad soft skills and build custom modules for role-specific or company-specific knowledge. Our [++microlearning and microsimulation services++](https://theeduassist.com/service-section/) are designed specifically for companies that want custom content without the high cost of traditional eLearning development.
+A blended approach works best for most U.S. small businesses: use pre-made content for broad soft skills and build custom modules for role-specific or company-specific knowledge. Our [++microlearning and microsimulation services++](https://www.theeduassist.com/service-section/) are designed specifically for companies that want custom content without the high cost of traditional eLearning development.
 
 ## **Step 5: Launch and Get Employee Buy-In**
 
@@ -199,7 +199,7 @@ Here is how to launch your program in a way that earns genuine participation:
 - Involve team leads and managers. When supervisors participate in the same training, employees take it more seriously.
 - Recognize and reward completion publicly. A simple shoutout in a team meeting goes a long way.
 
-Our [++gamified learning solutions++](https://theeduassist.com/service-section/) can help transform what feels like a chore into something employees actually look forward to completing, without adding significant cost to your program.
+Our [++gamified learning solutions++](https://www.theeduassist.com/service-section/) can help transform what feels like a chore into something employees actually look forward to completing, without adding significant cost to your program.
 
 ## **Step 6: Measure Results Without Expensive Analytics Tools**
 
@@ -212,10 +212,10 @@ You do not need a sophisticated analytics dashboard to know if your training is 
 
 As your program matures, you can invest in more detailed analytics. But in the early stages, these four data points will tell you most of what you need to know about whether your training investment is paying off.
 
-For organizations ready to scale, [++TheEduAssist’s dashboard and analytics services++](https://theeduassist.com/service-section/) provide deeper visibility into learner performance across your entire workforce.
+For organizations ready to scale, [++TheEduAssist’s dashboard and analytics services++](https://www.theeduassist.com/service-section/) provide deeper visibility into learner performance across your entire workforce.
 
 ## **When to Bring in an eLearning Agency**
 
 There comes a point in every organization’s growth where the in-house approach hits a ceiling. If you are spending more time managing your eLearning program than running your business, or if your training needs have expanded across multiple departments or locations, it may be time to bring in a professional partner.
 
-At [++TheEduAssist++](https://theeduassist.com), we work with U.S. businesses to scale their eLearning programs without losing the custom feel that makes training effective. Whether you need rapid eLearning development, legacy content conversion, or AR and VR training experiences, our team can build and manage it for you.
+At [++TheEduAssist++](https://www.theeduassist.com), we work with U.S. businesses to scale their eLearning programs without losing the custom feel that makes training effective. Whether you need rapid eLearning development, legacy content conversion, or AR and VR training experiences, our team can build and manage it for you.

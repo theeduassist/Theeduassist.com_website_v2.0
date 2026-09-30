@@ -688,7 +688,7 @@ However, xAPI is not automatically the right choice for every learning project. 
 
 For simple LMS-based courses, traditional standards such as SCORM may still meet the requirement. For organizations tracking learning across multiple platforms, devices, simulations, and workplace environments, xAPI can provide a broader framework.
 
-As modern eLearning continues to move beyond the traditional LMS, understanding xAPI can help instructional designers, L&D teams, and course developers prepare for more connected and data-driven learning environments. You can find more eLearning and instructional design resources on [theeduassist.com](http://theeduassist.com).
+As modern eLearning continues to move beyond the traditional LMS, understanding xAPI can help instructional designers, L&D teams, and course developers prepare for more connected and data-driven learning environments. You can find more eLearning and instructional design resources on [theeduassist.com](https://www.theeduassist.com).
 
 ## Frequently Asked Questions
 

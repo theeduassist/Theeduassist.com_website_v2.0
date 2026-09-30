@@ -208,7 +208,7 @@ Many companies in the USA are now combining both systems. They use an LMS for co
 
 AI has quietly become the deciding factor in many LXP versus LMS conversations. Modern platforms now use AI to recommend content, predict skill gaps, and personalize learning paths automatically. This blurs the line between the two systems, since some LMS platforms now offer LXP like personalization features.
 
-If your organization is exploring how AI fits into course design, our piece on [AI versus traditional instructional design](https://theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/) walks through the tradeoffs.
+If your organization is exploring how AI fits into course design, our piece on [AI versus traditional instructional design](https://www.theeduassist.com/blog/blog-ai-vs-traditional-instructional-design/) walks through the tradeoffs.
 
 You can also explore [AI insights powering skills based learning and professional growth in 2026](https://www.theeduassist.com/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/) for more on AI and learning.
 
@@ -265,11 +265,11 @@ Look for platforms that offer ready made integrations or open APIs for HRIS syst
 4. eLearning Industry. LMS and LXP Software Directory.  
 [https://elearningindustry.com](https://elearningindustry.com)
 5. TheEduAssist. How to Choose the Right LMS for Your Organization in 2026.  
-[https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/](https://theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/)
+[https://www.theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/](https://www.theeduassist.com/blog/how-to-choose-the-right-lms-for-your-organization-in-2026/)
 6. TheEduAssist. AI Powered Learning: A Smarter Way to Train and Upskill Employees.  
-[https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/](https://theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/)
+[https://www.theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/](https://www.theeduassist.com/blog/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/)
 7. TheEduAssist. xAPI Learning Record Store (LRS): Everything You Need to Know in 2026.  
-[https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/](https://theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/)
+[https://www.theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/](https://www.theeduassist.com/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/)
 
 Authorised By  
 Hifza Naeem

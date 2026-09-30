@@ -82,10 +82,10 @@ sources:
     url: https://help.kajabi.com/articles/marketing/automations/how-to-use-a-wait-node-with-automations?utm_source=chatgpt.com
     accessedAt: 2026-09-17
   - title: TheEduAssist – Kajabi Sales Funnel Setup
-    url: https://theeduassist.com/blog/kajabi-sales-funnel-setup-5-proven-ways-to-grow-enrollments/
+    url: https://www.theeduassist.com/blog/kajabi-sales-funnel-setup-5-proven-ways-to-grow-enrollments/
     accessedAt: 2026-09-17
   - title: TheEduAssist – Kajabi Funnel Builder
-    url: https://theeduassist.com/blog/kajabi-funnel-builder/
+    url: https://www.theeduassist.com/blog/kajabi-funnel-builder/
     accessedAt: 2026-09-17
 editorialManagement:
   dueDate: 2026-09-17

@@ -88,7 +88,7 @@ editorialManagement:
 ---
 So, you built a great Kajabi course. But nobody finds it on Google. That happens because most creators skip **Kajabi keyword research**. As a result, their pages stay buried under competitors’
 
-Fortunately, this guide solves that problem. It walks you through Kajabi keyword research from start to finish. If you want a team to handle this work for you, you can use professional [++Kajabi SEO services to grow organic traffic++](https://theeduassist.com/uncategorized/increase-online-course-traffic-with-the-best-kajabi-seo-services/) for your business.
+Fortunately, this guide solves that problem. It walks you through Kajabi keyword research from start to finish. If you want a team to handle this work for you, you can use professional [++Kajabi SEO services to grow organic traffic++](https://www.theeduassist.com/uncategorized/increase-online-course-traffic-with-the-best-kajabi-seo-services/) for your business.
 
 ## **What Is Kajabi Keyword Research and Why Does It Matter?**
 
@@ -106,7 +106,7 @@ Moreover, good keyword research builds trust with Google over time. In other wor
 
 Yes, but first, you need to know both its strengths and limits.
 
-So, Kajabi works well for niche course topics. To master all the basic settings, read our complete [++Kajabi SEO optimization guide for beginners++](https://theeduassist.com/blog/discover-kajabi-the-most-popular-platform-of-elearning-world/). With a solid plan, page-one rankings are totally within reach.
+So, Kajabi works well for niche course topics. To master all the basic settings, read our complete [++Kajabi SEO optimization guide for beginners++](https://www.theeduassist.com/blog/discover-kajabi-the-most-popular-platform-of-elearning-world/). With a solid plan, page-one rankings are totally within reach.
 
 ## **Step-by-Step Kajabi Keyword Research Process**
 
@@ -141,11 +141,11 @@ So, which tools should you use? Here are the top four:
 
 ## **How to Optimize Keywords on Your Kajabi Site**
 
-Once your Kajabi keyword research is done, placement matters just as much. You should also follow smart [++Kajabi website speed optimization tips++](https://theeduassist.com/blog/kajabi-blogging-strategy/) to keep your pages fast and responsive. Then, use this table as your guide:
+Once your Kajabi keyword research is done, placement matters just as much. You should also follow smart [++Kajabi website speed optimization tips++](https://www.theeduassist.com/blog/kajabi-blogging-strategy/) to keep your pages fast and responsive. Then, use this table as your guide:
 
 ## **Kajabi Blogging: Your Biggest SEO Lever**
 
-Above all, do not ignore the Kajabi blog. Yet, most creators never use it for SEO. However, establishing a structured [++Kajabi blogging strategy++](https://theeduassist.com/blog/kajabi-blogging-strategy/) is the fastest way to build topical authority and group your posts into high-ranking content clusters.
+Above all, do not ignore the Kajabi blog. Yet, most creators never use it for SEO. However, establishing a structured [++Kajabi blogging strategy++](https://www.theeduassist.com/blog/kajabi-blogging-strategy/) is the fastest way to build topical authority and group your posts into high-ranking content clusters.
 
 **So, here is what to do:**
 
