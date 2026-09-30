@@ -17,7 +17,7 @@ advancedSeo:
   socialDescription: Hire an expert to create an entrepreneurship training program
     in Florida. Get custom eLearning, LMS setup, and scalable course solutions.
 featured: false
-heroImage: /images/blog/entrepreneurshiptrainingprogramheader.webp
+heroImage: /images/blog/screenshot-2026-09-30-113005.webp
 heroImageAlt: Illustration of entrepreneurship training program design showing
   business model roadmaps, pitch deck modules, and startup growth frameworks.
 heroImageCaption: Entrepreneurship curriculum development framework featuring
