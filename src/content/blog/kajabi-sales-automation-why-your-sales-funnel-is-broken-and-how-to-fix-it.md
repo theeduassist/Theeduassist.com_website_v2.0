@@ -95,6 +95,7 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-27
   lastReviewedDate: 2026-09-27
   nextReviewDate: 2026-09-27
+heroImage: /images/blog/screenshot-2026-09-30-103507.png
 ---
 ## Kajabi Sales Automation: Why Your Sales Funnel Is Broken and How to Fix It?
 
