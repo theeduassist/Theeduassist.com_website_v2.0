@@ -23,8 +23,8 @@ tags:
   - AI in Learning
   - eLearning
 draft: false
-publishedAt: 2026-09-30
-updatedAt: 2026-09-30
+publishedAt: 2026-09-29
+updatedAt: 2026-09-29
 heroImage: /images/blog/ai-vs-traditional-instructional-design.webp
 heroImageAlt: AI vs traditional instructional design for modern learning
 heroImageCaption: AI-powered and traditional instructional design working
