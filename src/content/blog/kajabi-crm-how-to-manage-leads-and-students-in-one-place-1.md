@@ -111,6 +111,12 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-25
   lastReviewedDate: 2026-09-25
   nextReviewDate: 2026-09-25
+heroImage: /images/blog/screenshot-2026-09-30-105324.png
+heroImageAlt: Visual comparison illustrating curriculum development blueprints
+  alongside interactive instructional design components.
+heroImageCaption: Architectural curriculum frameworks paired with interactive
+  learning modules, representing the structural "what" and experiential "how" of
+  modern learning design
 ---
 ## Instructional Designer vs Curriculum Developer: Key Differences and How They Work Together
 
