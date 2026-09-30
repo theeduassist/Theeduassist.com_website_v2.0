@@ -22,7 +22,7 @@ advancedSeo:
     Courses are designed as a compilation of topics, rather than an intentional
     way of learning.
 featured: false
-heroImage: /images/blog/screenshot-2026-09-30-111758.png
+heroImage: /images/blog/screenshot-2026-09-30-111758.webp
 heroImageAlt: Illustration of a Curriculum Development Centre featuring
   interconnected curriculum blueprints, textbook publishing icons, and teacher
   training roadmaps
