@@ -1,0 +1,79 @@
+---
+// src/components/ui/TrustBadgesStrip.astro
+// Displays verified enterprise trust signals, cross-border compliance, and IP guarantees
+interface Props {
+  variant?: 'light' | 'dark';
+  class?: string;
+}
+
+const { variant = 'light', class: className = '' } = Astro.props;
+const isDark = variant === 'dark';
+---
+
+<div class={`w-full py-6 px-4 ${isDark ? 'bg-slate-900/60 border-y border-slate-800' : 'bg-slate-100/80 border-y border-slate-200'} ${className}`}>
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-3">
+      <span class={`text-[11px] font-black uppercase tracking-wider ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>
+        Enterprise Verification & Cross-Border Delivery Guarantee
+      </span>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
+      
+      <!-- Badge 1: IRS W-8BEN-E -->
+      <div class={`p-3 rounded-xl border flex items-center gap-2.5 transition-all hover:-translate-y-0.5 ${isDark ? 'bg-slate-800/80 border-slate-700/80 text-slate-200' : 'bg-white border-slate-200 shadow-xs text-slate-800'}`}>
+        <div class="p-2 rounded-lg bg-emerald-500/10 text-emerald-600 shrink-0">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        </div>
+        <div class="min-w-0">
+          <div class="text-xs font-bold leading-snug truncate">IRS W-8BEN-E Ready</div>
+          <div class="text-[10px] text-slate-400 truncate">0% US Withholding Tax</div>
+        </div>
+      </div>
+
+      <!-- Badge 2: 100% IP Transfer -->
+      <div class={`p-3 rounded-xl border flex items-center gap-2.5 transition-all hover:-translate-y-0.5 ${isDark ? 'bg-slate-800/80 border-slate-700/80 text-slate-200' : 'bg-white border-slate-200 shadow-xs text-slate-800'}`}>
+        <div class="p-2 rounded-lg bg-blue-500/10 text-blue-600 shrink-0">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+        </div>
+        <div class="min-w-0">
+          <div class="text-xs font-bold leading-snug truncate">100% IP Transfer</div>
+          <div class="text-[10px] text-slate-400 truncate">Work-For-Hire Assignment</div>
+        </div>
+      </div>
+
+      <!-- Badge 3: Mutual NDA -->
+      <div class={`p-3 rounded-xl border flex items-center gap-2.5 transition-all hover:-translate-y-0.5 ${isDark ? 'bg-slate-800/80 border-slate-700/80 text-slate-200' : 'bg-white border-slate-200 shadow-xs text-slate-800'}`}>
+        <div class="p-2 rounded-lg bg-indigo-500/10 text-indigo-600 shrink-0">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+        </div>
+        <div class="min-w-0">
+          <div class="text-xs font-bold leading-snug truncate">Enforceable NDAs</div>
+          <div class="text-[10px] text-slate-400 truncate">US, UK or Client Law</div>
+        </div>
+      </div>
+
+      <!-- Badge 4: Zero PII / GDPR -->
+      <div class={`p-3 rounded-xl border flex items-center gap-2.5 transition-all hover:-translate-y-0.5 ${isDark ? 'bg-slate-800/80 border-slate-700/80 text-slate-200' : 'bg-white border-slate-200 shadow-xs text-slate-800'}`}>
+        <div class="p-2 rounded-lg bg-amber-500/10 text-amber-600 shrink-0">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 004.07 7.07"></path></svg>
+        </div>
+        <div class="min-w-0">
+          <div class="text-xs font-bold leading-snug truncate">Zero PII Retained</div>
+          <div class="text-[10px] text-slate-400 truncate">GDPR & FERPA Aligned</div>
+        </div>
+      </div>
+
+      <!-- Badge 5: WCAG 2.2 AA -->
+      <div class={`p-3 rounded-xl border flex items-center gap-2.5 transition-all hover:-translate-y-0.5 col-span-2 sm:col-span-1 lg:col-span-1 ${isDark ? 'bg-slate-800/80 border-slate-700/80 text-slate-200' : 'bg-white border-slate-200 shadow-xs text-slate-800'}`}>
+        <div class="p-2 rounded-lg bg-teal-500/10 text-teal-600 shrink-0">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+        </div>
+        <div class="min-w-0">
+          <div class="text-xs font-bold leading-snug truncate">WCAG 2.2 Level AA</div>
+          <div class="text-[10px] text-slate-400 truncate">Section 508 / ADA Title III</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

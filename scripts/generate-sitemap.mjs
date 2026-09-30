@@ -64,6 +64,8 @@ const coreUrls = [
   'https://www.theeduassist.com/trust-centre/security-privacy/',
 
   'https://www.theeduassist.com/enterprise-solutions/government-and-public-sector-training/',
+  'https://www.theeduassist.com/enterprise-solutions/higher-education-and-universities/',
+  'https://www.theeduassist.com/enterprise-solutions/middle-east-corporate-training/',
   'https://www.theeduassist.com/downloads/',
   'https://www.theeduassist.com/downloads/enterprise-capability-statement/',
   'https://www.theeduassist.com/downloads/7-figure-course-blueprint/',

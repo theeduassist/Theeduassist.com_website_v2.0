@@ -1,6 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { trustPages } from '../../data/trustArchitecture';
+import GlobalProcurementChecker from '../../components/trust/GlobalProcurementChecker.astro';
+import TrustBadgesStrip from '../../components/ui/TrustBadgesStrip.astro';
 
 const pageData = trustPages.find(p => p.id === 'procurement');
 if (!pageData) {
@@ -139,6 +141,9 @@ const jsonLd = {
       </div>
     </section>
 
+    <!-- Verified Enterprise Trust & Cross-Border Guarantee Strip -->
+    <TrustBadgesStrip variant="light" />
+
     <!-- Breadcrumb -->
     <div class="bg-gray-100 py-3 px-4 border-b border-gray-200">
       <div class="max-w-6xl mx-auto text-sm text-gray-600">
@@ -153,6 +158,8 @@ const jsonLd = {
     <!-- Content Sections -->
     <section class="py-16 px-4">
       <div class="max-w-4xl mx-auto space-y-16">
+        <!-- Cross-Border & Global Delivery Compliance Interactive Checker -->
+        <GlobalProcurementChecker />
 
         <!-- Procurement Information Areas -->
         <div>

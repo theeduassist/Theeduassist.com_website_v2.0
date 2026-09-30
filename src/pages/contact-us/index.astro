@@ -4,6 +4,7 @@ import ContactHero from "../../components/contact/ContactHero.astro";
 import ContactOptions from "../../components/contact/ContactOptions.astro";
 import ContactFAQ from "../../components/contact/ContactFAQ.astro";
 import AIAnswerBlock from "../../components/ai/AIAnswerBlock.astro";
+import TrustBadgesStrip from "../../components/ui/TrustBadgesStrip.astro";
 import { webPageSchema, breadcrumbSchema } from '../../lib/seo/schema';
 
 const aiAnswers = [
@@ -50,6 +51,9 @@ const trustChips = [
   />
 
   <ContactOptions email="Info@theeduassist.com" />
+
+  <!-- Enterprise Verification & Cross-Border Delivery Guarantee -->
+  <TrustBadgesStrip variant="light" />
 
   <!-- Form Section -->
   <section class="py-12 md:py-16 bg-slate-50 border-t border-slate-200" id="review-form">

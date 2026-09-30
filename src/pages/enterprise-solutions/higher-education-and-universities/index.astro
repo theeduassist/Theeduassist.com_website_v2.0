@@ -1,0 +1,293 @@
+---
+// src/pages/enterprise-solutions/higher-education-and-universities/index.astro
+import Layout from '../../../layouts/Layout.astro';
+import EnterpriseSolutionHero from '../../../components/enterprise-solution/EnterpriseSolutionHero.astro';
+import EnterpriseSolutionShortAnswer from '../../../components/enterprise-solution/EnterpriseSolutionShortAnswer.astro';
+import EnterpriseSolutionAudience from '../../../components/enterprise-solution/EnterpriseSolutionAudience.astro';
+import EnterpriseSolutionChallenges from '../../../components/enterprise-solution/EnterpriseSolutionChallenges.astro';
+import EnterpriseSolutionScope from '../../../components/enterprise-solution/EnterpriseSolutionScope.astro';
+import EnterpriseSolutionPathway from '../../../components/enterprise-solution/EnterpriseSolutionPathway.astro';
+import EnterpriseSolutionProcess from '../../../components/enterprise-solution/EnterpriseSolutionProcess.astro';
+import EnterpriseSolutionDeliverables from '../../../components/enterprise-solution/EnterpriseSolutionDeliverables.astro';
+import EnterpriseSolutionLimitations from '../../../components/enterprise-solution/EnterpriseSolutionLimitations.astro';
+import EnterpriseSolutionRelatedServices from '../../../components/enterprise-solution/EnterpriseSolutionRelatedServices.astro';
+import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
+import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
+import TrustBadgesStrip from '../../../components/ui/TrustBadgesStrip.astro';
+import { higherEducationServiceSchema, faqPageSchema } from '../../../lib/seo/schema';
+
+const audience = [
+  "University Provosts & Academic Affairs Directors",
+  "College Deans & Academic Department Chairs",
+  "Tenured Faculty & University Course Directors",
+  "University Instructional Design & Academic Technology Teams",
+  "Continuing Education & Professional Studies Divisions",
+  "Public & Private Universities (US, UK, Australia, Singapore, Malaysia)",
+  "Community College Systems & Polytechnic Institutes",
+  "University Procurement & Accounts Payable Offices"
+];
+
+const challenges = [
+  "Overburdened faculty lacking instructional design bandwidth to digitize academic syllabi",
+  "High student attrition in passive, 60-minute video lecture recordings",
+  "Strict Section 508 and ADA Title III legal accessibility mandates (WCAG 2.2 AA)",
+  "Meeting rigorous Quality Matters (QM) and regional accreditation standards",
+  "Complex LMS course migration (e.g. migrating Blackboard legacy archives to Canvas LMS)",
+  "Inconsistent rubric alignment and formative assessment design across multi-section courses",
+  "Foreign vendor procurement concerns, tax withholding (W-8BEN-E), and institutional purchasing approvals",
+  "Tight semester launch deadlines requiring scalable external development capacity"
+];
+
+const scope = [
+  "Faculty syllabus and lecture slide conversion into interactive asynchronous modules",
+  "Canvas LMS, Blackboard Learn, Brightspace D2L, and Moodle master course shell development",
+  "Quality Matters (QM) rubric mapping, alignment verification, and course auditing",
+  "Full Section 508 & WCAG 2.2 Level AA accessibility engineering (captions, transcripts, alt text)",
+  "Interactive formative assessments, scenario-based knowledge checks, and rubric integrations",
+  "SCORM 2004 4th Edition, xAPI, and LTI compliant learning module packaging",
+  "Custom academic multimedia: diagrams, animated explainers, and interactive slide modules",
+  "University procurement support: IRS Form W-8BEN-E (0% US withholding), Net-30 PO terms, and NDA execution"
+];
+
+const stages = [
+  {
+    step: "01",
+    title: "Syllabus Deconstruction & Alignment",
+    description: "Our instructional designers review the academic syllabus, weekly learning objectives, readings, and lecture slides to build an accredited course blueprint."
+  },
+  {
+    step: "02",
+    title: "QM & Pedagogical Storyboarding",
+    description: "We map learning activities to Bloom's Taxonomy and Quality Matters standards, creating engaging storyboards with frequent formative knowledge checks."
+  },
+  {
+    step: "03",
+    title: "Multimedia & Interactive Development",
+    description: "We develop interactive modules in Articulate Storyline/Rise, record/edit professional voiceovers, and generate closed captions and screen-reader transcripts."
+  },
+  {
+    step: "04",
+    title: "LMS Shell Engineering & Testing",
+    description: "We build and test the full course shell inside your institutional Canvas, Blackboard, or Moodle instance, testing gradebook passback and Section 508 compliance."
+  },
+  {
+    step: "05",
+    title: "Faculty Handover & 100% IP Transfer",
+    description: "Final course walkthrough with department faculty, full source file transfer (.story, Figma, SCORM, video masters), and milestone sign-off."
+  }
+];
+
+const processSteps = [
+  {
+    step: "Week 1",
+    title: "Academic Scoping & Faculty Discovery",
+    description: "Review syllabus materials, select target LMS platform (Canvas/Blackboard), and confirm institutional QM and accessibility guidelines."
+  },
+  {
+    step: "Week 2-3",
+    title: "Module Prototyping & Storyboard Sign-off",
+    description: "Design the first master module for faculty feedback, establishing visual branding, interaction patterns, and rubric alignments."
+  },
+  {
+    step: "Week 4-5",
+    title: "Full Course Build & Accessibility Audit",
+    description: "Scale development across all curriculum modules, generating complete WCAG 2.2 AA captions, transcripts, and keyboard navigation."
+  },
+  {
+    step: "Week 6",
+    title: "LMS Deployment & Verification",
+    description: "Upload and verify packages inside your university LMS sandbox, conduct end-to-end learner simulation, and complete IP transfer."
+  }
+];
+
+const deliverables = [
+  "Turnkey Canvas LMS, Blackboard, or Moodle Master Course Shell",
+  "Fully editable Articulate Storyline 360 / Rise source files (.story)",
+  "Quality Matters (QM) alignment matrix and audit report",
+  "WCAG 2.2 Level AA / Section 508 Accessibility Compliance Verification Sheet",
+  "Interactive formative assessments with automated gradebook passback",
+  "Professional video captions (.vtt / .srt) and synchronized text transcripts",
+  "100% IP assignment documentation and source asset repository",
+  "Completed IRS Form W-8BEN-E and institutional vendor onboarding packet"
+];
+
+const limitations = [
+  "We do not replace academic faculty; subject matter expertise and core syllabi are provided by university department faculty.",
+  "We do not provide proctoring software licenses; we engineer exams to integrate with your existing institutional tools (e.g. Respondus, Honorlock).",
+  "We do not host student grade databases; all grades and learner records remain 100% secured inside your university-controlled LMS."
+];
+
+const relatedServices = [
+  {
+    title: "Instructional Design Services",
+    description: "Outcome-driven learning architecture and syllabus modernization for academic programs.",
+    link: "/services/instructional-design/"
+  },
+  {
+    title: "LMS Implementation & Migration",
+    description: "Expert course migration from legacy Blackboard to modern Canvas or Moodle instances.",
+    link: "/services/lms-implementation-migration/"
+  },
+  {
+    title: "Content Conversion & Digitization",
+    description: "Transforming legacy PPT lectures, textbooks, and PDF notes into interactive digital learning modules.",
+    link: "/services/content-conversion/"
+  },
+  {
+    title: "Procurement & Trust Centre",
+    description: "Review our security protocols, W-8BEN-E documentation, and university purchasing guidance.",
+    link: "/trust-centre/procurement/"
+  }
+];
+
+const faqs = [
+  {
+    question: "Can our university hire TheEduAssist if your delivery center is outside our country?",
+    answer: "Yes, easily. Universities across the US, UK, Australia, Singapore, and Canada hire TheEduAssist directly. For US institutions, we provide IRS Form W-8BEN-E claiming 0% US withholding tax under the US-PK bilateral tax treaty. For UK/AU/Singapore institutions, services are billed as cross-border GST/VAT exempt. We accept standard university Purchase Orders (POs) on Net-30 terms."
+  },
+  {
+    question: "Which academic LMS platforms do you support?",
+    answer: "We have deep expertise engineering master course shells for Canvas LMS by Instructure, Blackboard Learn Ultra, D2L Brightspace, Moodle, and Open edX, with full support for SCORM 1.2, SCORM 2004, xAPI, and LTI 1.3 integrations."
+  },
+  {
+    question: "Do you design courses to meet Quality Matters (QM) standards?",
+    answer: "Yes. All our higher education course shells are mapped against the Quality Matters Higher Education Rubric (7th Edition), ensuring clear alignment between course objectives, module activities, assessments, and accessible learner support materials."
+  },
+  {
+    question: "How do you ensure Section 508 and ADA accessibility compliance?",
+    answer: "Every digital asset undergoes rigorous accessibility verification meeting WCAG 2.2 Level AA and Section 508 guidelines: high-contrast color palettes (>= 4.5:1 ratio), synchronized closed captions, screen-reader optimized navigation, and alternative text on all diagrams and figures."
+  },
+  {
+    question: "Does the university retain 100% ownership of course materials?",
+    answer: "Yes. 100% of all intellectual property, including editable Articulate Storyline source files, graphics, audio masters, and question banks, are assigned irrevocably to the university upon milestone delivery. We never reuse your proprietary curriculum or research."
+  },
+  {
+    question: "Can professors and departments purchase via micro-purchase or credit card?",
+    answer: "Yes. Department chairs and principal investigators often engage us directly under university micro-purchase thresholds ($10,000 to $50,000) using institutional P-Cards (procurement cards) or departmental Purchase Orders without requiring long tender cycles."
+  }
+];
+
+const jsonLd = [
+  higherEducationServiceSchema(),
+  faqPageSchema(faqs)
+];
+---
+
+<Layout
+  title="Higher Education & University Digital Learning Architecture | TheEduAssist"
+  description="Specialized instructional design, Canvas/Blackboard LMS master course development, Quality Matters (QM) alignment, and syllabus conversion for universities and colleges."
+  canonicalPath="/enterprise-solutions/higher-education-and-universities/"
+  jsonLd={jsonLd}
+>
+  <main class="flex-auto">
+    <EnterpriseSolutionHero
+      eyebrow="Higher Education & University Solutions"
+      title="Accredited Digital Course Development & LMS Engineering for Universities"
+      body="TheEduAssist partners with academic deans, faculty, and university procurement to transform syllabi into interactive online master courses, engineer Canvas & Blackboard shells, and guarantee 100% Quality Matters (QM) and Section 508 compliance."
+      primaryCtaLabel="Submit University RFP / Procurement Desk"
+      primaryCtaLink="/trust-centre/procurement/"
+      secondaryCtaLabel="Download 2026 Capability Statement (PDF)"
+      secondaryCtaLink="/downloads/enterprise-capability-statement/"
+    />
+
+    <!-- Verified Enterprise Trust & Delivery Guarantee Strip -->
+    <TrustBadgesStrip variant="light" />
+
+    <EnterpriseSolutionShortAnswer
+      heading="What Is Higher Education Digital Course Engineering?"
+      answer="It is the specialized discipline of translating academic syllabi, faculty lectures, and university curriculum into interactive, accredited digital learning experiences optimized for institutional LMS platforms (Canvas, Blackboard, Moodle, D2L) while upholding rigorous pedagogical standards (Quality Matters) and statutory accessibility mandates (WCAG 2.2 AA / Section 508)."
+    />
+
+    <!-- University Purchasing & Procurement Path Banner -->
+    <section class="py-12 bg-slate-900 text-white border-y border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gradient-to-r from-[#27496D] via-slate-800 to-[#27496D] rounded-2xl p-8 border border-[#77BA55]/30 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="max-w-2xl">
+            <span class="inline-block px-3 py-1 rounded text-xs font-bold tracking-wider uppercase bg-[#77BA55]/20 text-[#77BA55] border border-[#77BA55]/30 mb-2">University Procurement Fast-Track</span>
+            <h3 class="text-2xl font-bold text-white">Need a Foreign Vendor Packet for University Accounts Payable?</h3>
+            <p class="text-slate-300 text-sm mt-2">
+              We provide completed IRS Form W-8BEN-E (0% US withholding tax), university Net-30 PO acceptance, institutional NDAs, and rapid 48-hour RFP turnaround for universities across the US, UK, Australia, Singapore, and Canada.
+            </p>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-3 shrink-0">
+            <a href="/trust-centre/procurement/" class="px-6 py-3 rounded-lg bg-[#77BA55] text-slate-950 font-black text-sm hover:brightness-105 transition-all text-center shadow-lg">
+              Check University Eligibility &rarr;
+            </a>
+            <a href="/downloads/enterprise-capability-statement/" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-lg bg-white/10 text-white font-semibold text-sm hover:bg-white/20 border border-white/20 transition-all text-center">
+              Capability Statement (PDF)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <EnterpriseSolutionAudience audience={audience} />
+
+    <EnterpriseSolutionChallenges challenges={challenges} />
+
+    <EnterpriseSolutionScope scope={scope} />
+
+    <EnterpriseSolutionPathway
+      title="The Higher Education Course Development Pathway"
+      description="A collaborative, faculty-respecting instructional model moving from academic syllabus to accredited master course shell."
+      stages={stages}
+    />
+
+    <EnterpriseSolutionProcess steps={processSteps} />
+
+    <EnterpriseSolutionDeliverables deliverables={deliverables} />
+
+    <!-- Quality Matters & Section 508 Verification Feature -->
+    <section class="py-16 bg-slate-50 border-y border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-md p-8 md:p-10 flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div class="max-w-2xl">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-navy/10 text-brand-navy">Academic Quality Guarantee</span>
+              <span class="text-xs text-slate-500 font-medium">Quality Matters &bull; Section 508 &bull; WCAG 2.2 AA</span>
+            </div>
+            <h3 class="text-2xl md:text-3xl font-bold text-brand-navy">Designed to Pass University Accreditation & Accessibility Audits</h3>
+            <p class="text-slate-600 text-base mt-3 leading-relaxed">
+              Every course shell engineered by TheEduAssist is audited against the Quality Matters Higher Education Rubric and Section 508 standards before deployment. Faculty receive turn-key, tested modules with complete closed captions, descriptive transcripts, and accessible color contrast.
+            </p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-6">
+              <div class="border-l-2 border-brand-green pl-3">
+                <div class="text-lg font-bold text-brand-navy">100% QM</div>
+                <div class="text-xs text-slate-500">Standard Alignment</div>
+              </div>
+              <div class="border-l-2 border-brand-green pl-3">
+                <div class="text-lg font-bold text-brand-navy">WCAG 2.2 AA</div>
+                <div class="text-xs text-slate-500">Verified Accessible</div>
+              </div>
+              <div class="border-l-2 border-brand-green pl-3">
+                <div class="text-lg font-bold text-brand-navy">Canvas/D2L</div>
+                <div class="text-xs text-slate-500">Native Shell Delivery</div>
+              </div>
+            </div>
+          </div>
+          <div class="shrink-0 flex flex-col gap-3 w-full sm:w-auto">
+            <a href="/contact-us/?subject=University+Course+Consultation" class="px-8 py-3.5 rounded-lg bg-brand-primary text-white font-bold text-sm hover:bg-brand-navy transition-all text-center shadow-lg">
+              Book Faculty Consultation &rarr;
+            </a>
+            <a href="/trust-centre/procurement/" class="px-8 py-3 rounded-lg bg-slate-100 text-slate-700 font-bold text-sm hover:bg-slate-200 transition-all text-center border border-slate-300">
+              Procurement Portal & RFP Desk
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <EnterpriseSolutionLimitations limitations={limitations} />
+
+    <EnterpriseSolutionRelatedServices services={relatedServices} />
+
+    <ServiceFAQ faqs={faqs} />
+
+    <ServiceFinalCTA
+      heading="Ready to Build Accredited University Courses at Scale?"
+      subheading="Share your syllabus, course list, or RFP requirements. Our academic instructional design team will review your project and provide a detailed scope blueprint within 48 hours."
+      ctaLabel="Schedule University Consultation"
+      ctaLink="/contact-us/?subject=University+Course+Inquiry"
+    />
+  </main>
+</Layout>

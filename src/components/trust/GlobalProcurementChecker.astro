@@ -1,0 +1,405 @@
+---
+// src/components/trust/GlobalProcurementChecker.astro
+// Interactive Cross-Border & Global Delivery Compliance Tool for TheEduAssist
+---
+
+<div class="bg-white rounded-2xl border border-slate-200/80 shadow-xl overflow-hidden my-12" id="global-procurement-checker">
+  <!-- Header -->
+  <div class="bg-gradient-to-r from-[#27496D] to-slate-900 text-white p-6 sm:p-8">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#77BA55]/20 border border-[#77BA55]/40 text-[#77BA55] text-xs font-bold uppercase tracking-wider mb-3">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+      Cross-Border Procurement & Delivery Framework
+    </div>
+    <h3 class="text-2xl sm:text-3xl font-extrabold text-white mb-2">
+      Contracting With TheEduAssist Outside Pakistan?
+    </h3>
+    <p class="text-slate-300 text-sm sm:text-base max-w-2xl">
+      Select your jurisdiction below to review our verified compliance playbook: tax treaties (W-8BEN-E / Reverse Charge), intellectual property assignment, data privacy standards, and public sector engagement paths.
+    </p>
+
+    <!-- Region Selector Tabs -->
+    <div class="flex flex-wrap gap-2 mt-6 pt-4 border-t border-white/10" role="tablist" aria-label="Jurisdiction Selector">
+      <button
+        type="button"
+        role="tab"
+        aria-selected="true"
+        aria-controls="panel-us"
+        id="tab-us"
+        data-region="us"
+        class="region-tab px-4 py-2 rounded-lg font-bold text-xs sm:text-sm transition-all bg-[#77BA55] text-slate-950 shadow-md cursor-pointer flex items-center gap-1.5"
+      >
+        <span>🇺🇸</span> United States
+      </button>
+      <button
+        type="button"
+        role="tab"
+        aria-selected="false"
+        aria-controls="panel-uk"
+        id="tab-uk"
+        data-region="uk"
+        class="region-tab px-4 py-2 rounded-lg font-bold text-xs sm:text-sm transition-all bg-white/10 hover:bg-white/20 text-white cursor-pointer flex items-center gap-1.5"
+      >
+        <span>🇬🇧</span> United Kingdom
+      </button>
+      <button
+        type="button"
+        role="tab"
+        aria-selected="false"
+        aria-controls="panel-au"
+        id="tab-au"
+        data-region="au"
+        class="region-tab px-4 py-2 rounded-lg font-bold text-xs sm:text-sm transition-all bg-white/10 hover:bg-white/20 text-white cursor-pointer flex items-center gap-1.5"
+      >
+        <span>🇦🇺</span> Australia / NZ
+      </button>
+      <button
+        type="button"
+        role="tab"
+        aria-selected="false"
+        aria-controls="panel-eu"
+        id="tab-eu"
+        data-region="eu"
+        class="region-tab px-4 py-2 rounded-lg font-bold text-xs sm:text-sm transition-all bg-white/10 hover:bg-white/20 text-white cursor-pointer flex items-center gap-1.5"
+      >
+        <span>🇪🇺</span> European Union
+      </button>
+      <button
+        type="button"
+        role="tab"
+        aria-selected="false"
+        aria-controls="panel-ca"
+        id="tab-ca"
+        data-region="ca"
+        class="region-tab px-4 py-2 rounded-lg font-bold text-xs sm:text-sm transition-all bg-white/10 hover:bg-white/20 text-white cursor-pointer flex items-center gap-1.5"
+      >
+        <span>🇨🇦</span> Canada
+      </button>
+      <button
+        type="button"
+        role="tab"
+        aria-selected="false"
+        aria-controls="panel-gcc"
+        id="tab-gcc"
+        data-region="gcc"
+        class="region-tab px-4 py-2 rounded-lg font-bold text-xs sm:text-sm transition-all bg-white/10 hover:bg-white/20 text-white cursor-pointer flex items-center gap-1.5"
+      >
+        <span>🇦🇪</span> GCC / UAE
+      </button>
+    </div>
+  </div>
+
+  <!-- Dynamic Content Panels Container -->
+  <div class="p-6 sm:p-8 bg-slate-50/50">
+
+    <!-- Panel 1: United States (Default Active) -->
+    <div id="panel-us" role="tabpanel" aria-labelledby="tab-us" class="region-panel space-y-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Tax & Invoicing -->
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-emerald-50 text-emerald-700 font-bold text-sm">IRS</span>
+            <h4 class="font-extrabold text-slate-900 text-base">Tax Withholding & Invoicing</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>0% US Withholding Tax:</strong> TheEduAssist provides completed IRS Form <strong>W-8BEN-E</strong> claiming tax treaty benefits under the US-Pakistan Bilateral Income Tax Convention (Article III, Business Profits).</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>100% Deductible:</strong> Payments qualify as ordinary foreign independent contractor business expenses. No 1099-NEC required for foreign corporations.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>US Currency Rails:</strong> Invoiced in USD. Settled via US domestic ACH, Fedwire, JPMorgan routing, Wise Business, or Stripe Corporate Card.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Legal & IP Ownership -->
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-blue-50 text-blue-700 font-bold text-sm">LEGAL</span>
+            <h4 class="font-extrabold text-slate-900 text-base">Intellectual Property & NDAs</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>100% Work-For-Hire Transfer:</strong> All source files (.story, .cpt, Figma, SVGs, audio tracks, and raw SCORM/xAPI packages) transfer irrevocably to client ownership upon milestone sign-off.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>US Jurisdiction NDA:</strong> Mutual Non-Disclosure Agreements governed under State of Delaware or State of New York law.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>Accessibility Alignment:</strong> Section 508 and ADA Title III compliant deliverables (WCAG 2.2 Level AA).</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Public Sector & Government RFP Engagement -->
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm md:col-span-2">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-amber-50 text-amber-700 font-bold text-sm">GOV RFP</span>
+            <h4 class="font-extrabold text-slate-900 text-base">US Public Sector & Government Contracting Paths</h4>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-slate-700">
+            <div class="p-3.5 bg-slate-50 rounded-lg border border-slate-200">
+              <div class="font-bold text-slate-900 mb-1">Path A: Direct Commercial & Micro-Purchase Orders</div>
+              <p class="text-xs text-slate-600">For engagements within FAR simplified acquisition / micro-purchase thresholds ($10k-$50k), federal, municipal, and university departments can engage directly via standard Purchase Orders or corporate procurement cards without multi-month open tender cycles.</p>
+            </div>
+            <div class="p-3.5 bg-slate-50 rounded-lg border border-slate-200">
+              <div class="font-bold text-slate-900 mb-1">Path B: Specialized Technical Delivery Partner to Prime</div>
+              <p class="text-xs text-slate-600">Where domestic prime contractor mandates apply (e.g., 8(a), SDVOSB, or HubZone), TheEduAssist operates as the specialized instructional design and SCORM engineering delivery partner to the domestic prime contractor, providing scalable technical capacity and high cost-efficiency under your prime vehicle.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 2: United Kingdom -->
+    <div id="panel-uk" role="tabpanel" aria-labelledby="tab-uk" class="region-panel space-y-6 hidden">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-emerald-50 text-emerald-700 font-bold text-sm">HMRC</span>
+            <h4 class="font-extrabold text-slate-900 text-base">HMRC VAT & Invoicing Rules</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>0% UK VAT (Reverse Charge):</strong> Under Section 8 of the UK Value Added Tax Act 1994, B2B cross-border professional digital services are treated under the Reverse Charge mechanism. 0% VAT charged on our invoices.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>GBP Currency Rails:</strong> Invoiced in Pounds Sterling (£ GBP). Supported via UK Sort Code/Account Number (BACS, Faster Payments) or international IBAN.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-blue-50 text-blue-700 font-bold text-sm">LEGAL</span>
+            <h4 class="font-extrabold text-slate-900 text-base">UK Legal & Data Protection</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>English Law Enforceable:</strong> Contracts and Mutual NDAs governed by the laws of England and Wales.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>UK GDPR Compliant:</strong> Zero persistent PII hosting. Development executed inside client-authorized sandboxes. Aligned with UK Public Sector Equality Duty.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 3: Australia & NZ -->
+    <div id="panel-au" role="tabpanel" aria-labelledby="tab-au" class="region-panel space-y-6 hidden">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-emerald-50 text-emerald-700 font-bold text-sm">ATO</span>
+            <h4 class="font-extrabold text-slate-900 text-base">Australian Tax Office (ATO) Compliance</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>GST-Free Export:</strong> Under Division 38 of the Australian GST Act, services supplied to Australian businesses by a non-resident entity for use outside Australia are GST-Free supplies.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>AUD Domestic Wire:</strong> Settled in Australian Dollars (AUD) via Australian BSB and Account Number or SWIFT.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-blue-50 text-blue-700 font-bold text-sm">STANDARDS</span>
+            <h4 class="font-extrabold text-slate-900 text-base">Education Standards & Privacy</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>Disability Standards for Education 2005:</strong> All interactive content complies with WCAG 2.2 AA accessibility mandates.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>Australian Privacy Principles (APPs):</strong> Compliant data processing with zero personal data leakage.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 4: European Union -->
+    <div id="panel-eu" role="tabpanel" aria-labelledby="tab-eu" class="region-panel space-y-6 hidden">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-emerald-50 text-emerald-700 font-bold text-sm">EU VAT</span>
+            <h4 class="font-extrabold text-slate-900 text-base">Article 44 VAT Directive (B2B Reverse Charge)</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>0% VAT Charged:</strong> Cross-border digital services are billed under the Reverse Charge mechanism. The client accounts for VAT under their local tax return.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>EUR SEPA Invoicing:</strong> Settled directly in Euros via European SEPA/IBAN bank transfers.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-blue-50 text-blue-700 font-bold text-sm">GDPR</span>
+            <h4 class="font-extrabold text-slate-900 text-base">EU GDPR Chapter V & Accessibility</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>Standard Contractual Clauses (SCCs):</strong> Execution of EU-approved SCCs ensuring compliant cross-border data handling with zero local learner data retention.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>European Accessibility Act (EAA 2025):</strong> Full alignment with EN 301 549 and WCAG 2.2 standards.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 5: Canada -->
+    <div id="panel-ca" role="tabpanel" aria-labelledby="tab-ca" class="region-panel space-y-6 hidden">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-emerald-50 text-emerald-700 font-bold text-sm">CRA</span>
+            <h4 class="font-extrabold text-slate-900 text-base">Canada Revenue Agency (CRA) Rules</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>0% GST/HST:</strong> Digital instructional design services rendered from abroad are zero-rated exported supplies under the Excise Tax Act.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>CAD Invoicing:</strong> Settled in Canadian Dollars via Canadian EFT / Interac or SWIFT.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-blue-50 text-blue-700 font-bold text-sm">PIPEDA</span>
+            <h4 class="font-extrabold text-slate-900 text-base">Privacy & Provincial Accessibility</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>PIPEDA Compliant:</strong> strict adhere to federal and provincial personal information protection acts.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>AODA & Accessible Canada Act:</strong> Full WCAG 2.2 Level AA compliance for Ontario and federal institutions.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 6: GCC / UAE -->
+    <div id="panel-gcc" role="tabpanel" aria-labelledby="tab-gcc" class="region-panel space-y-6 hidden">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-emerald-50 text-emerald-700 font-bold text-sm">GCC</span>
+            <h4 class="font-extrabold text-slate-900 text-base">UAE & Saudi Arabia (KSA) Procurement</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>Free Zone & Direct Corporate Contracting:</strong> Compliant with UAE Corporate Tax cross-border rules and KSA ZATCA withholding tax exemptions for foreign technical services.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>AED / USD Banking:</strong> Invoiced in USD or UAE Dirhams (AED) with direct international wire.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+          <div class="flex items-center gap-3 mb-3">
+            <span class="p-2 rounded-lg bg-blue-50 text-blue-700 font-bold text-sm">L&D</span>
+            <h4 class="font-extrabold text-slate-900 text-base">Bilingual & Vision 2030 Alignment</h4>
+          </div>
+          <ul class="text-sm text-slate-700 space-y-2">
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>Arabic/English Dual Track:</strong> Native Right-to-Left (RTL) LMS authoring, Articulate Storyline localization, and bilingual video production.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <svg class="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span><strong>Nationalization Frameworks:</strong> Custom curriculum designed for Emiratization & Saudi Vision 2030 corporate upskilling programs.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Action CTA -->
+    <div class="mt-8 pt-6 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <div class="text-sm font-bold text-slate-900">Need our complete Vendor Registration Packet?</div>
+        <div class="text-xs text-slate-500">Includes Form W-8BEN-E, Mutual NDA template, banking verification, and IT security questionnaire.</div>
+      </div>
+      <a
+        href="/contact-us/?subject=Vendor+Onboarding+Packet+Request"
+        class="shrink-0 bg-[#77BA55] text-slate-950 font-black px-6 py-2.5 rounded-lg text-xs sm:text-sm hover:brightness-105 transition-all shadow-md flex items-center gap-2 cursor-pointer"
+      >
+        <span>Request Vendor Packet</span>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabs = document.querySelectorAll('.region-tab');
+    const panels = document.querySelectorAll('.region-panel');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const region = tab.getAttribute('data-region');
+
+        // Update active tab styles
+        tabs.forEach(t => {
+          t.setAttribute('aria-selected', 'false');
+          t.classList.remove('bg-[#77BA55]', 'text-slate-950', 'shadow-md');
+          t.classList.add('bg-white/10', 'text-white');
+        });
+
+        tab.setAttribute('aria-selected', 'true');
+        tab.classList.remove('bg-white/10', 'text-white');
+        tab.classList.add('bg-[#77BA55]', 'text-slate-950', 'shadow-md');
+
+        // Switch panels
+        panels.forEach(p => {
+          if (p.id === `panel-${region}`) {
+            p.classList.remove('hidden');
+          } else {
+            p.classList.add('hidden');
+          }
+        });
+      });
+    });
+  });
+</script>

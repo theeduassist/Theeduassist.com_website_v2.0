@@ -253,3 +253,114 @@ export function governmentServiceSchema() {
     "url": `${organizationEntity.url}/enterprise-solutions/government-and-public-sector-training/`
   };
 }
+
+export function higherEducationServiceSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Higher Education & University Digital Learning Architecture",
+    "serviceType": "University Course Development & LMS Engineering",
+    "provider": {
+      "@type": "Organization",
+      "name": organizationEntity.name,
+      "url": organizationEntity.url
+    },
+    "description": "Specialized instructional design, Canvas/Blackboard LMS development, Quality Matters (QM) rubric alignment, and syllabus-to-online master course conversion for universities and higher education institutions.",
+    "areaServed": [
+      "United States",
+      "United Kingdom",
+      "Australia",
+      "Singapore",
+      "Malaysia",
+      "Canada",
+      "Worldwide"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Higher Education Solutions",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Canvas & Blackboard Master Course Development",
+            "description": "Structured academic course shell engineering with rubrics, modular progression, and gradebook integration."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Faculty Syllabus-to-Online Course Conversion",
+            "description": "Transforming academic professor syllabi and lecture slides into engaging, accessible asynchronous digital modules."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Quality Matters & Section 508 Accessibility Audit",
+            "description": "Academic quality assurance, QM standard mapping, and WCAG 2.2 AA digital accessibility compliance."
+          }
+        }
+      ]
+    },
+    "url": `${organizationEntity.url}/enterprise-solutions/higher-education-and-universities/`
+  };
+}
+
+export function gccEnterpriseTrainingSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Middle East & GCC Corporate Training Solutions",
+    "serviceType": "Enterprise Industrial Training & Bilingual Arabic/English L&D",
+    "provider": {
+      "@type": "Organization",
+      "name": organizationEntity.name,
+      "url": organizationEntity.url
+    },
+    "description": "Bilingual (Arabic/English) custom eLearning, OSHA/NEBOSH HSE safety training, and technical workforce upskilling aligned with Saudi Vision 2030 and GCC industrial contractor requirements.",
+    "areaServed": [
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Qatar",
+      "Kuwait",
+      "Oman",
+      "Bahrain",
+      "Worldwide"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "GCC Corporate Capabilities",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "HSE & Industrial Safety Interactive Courseware",
+            "description": "High-impact microlearning modules for site safety, hazard identification, and OSHA compliance in English, Arabic, and Urdu."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Bilingual Arabic & English RTL Course Engineering",
+            "description": "Native Right-to-Left (RTL) Articulate Storyline authoring with authentic cultural localization and bilingual voiceover."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Saudi Vision 2030 Workforce Upskilling Architecture",
+            "description": "Saudization training pipelines converting complex engineering SOPs into measurable digital academies."
+          }
+        }
+      ]
+    },
+    "url": `${organizationEntity.url}/enterprise-solutions/middle-east-corporate-training/`
+  };
+}
+

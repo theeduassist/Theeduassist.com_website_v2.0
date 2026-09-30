@@ -12,6 +12,7 @@ import EnterpriseSolutionLimitations from '../../../components/enterprise-soluti
 import EnterpriseSolutionRelatedServices from '../../../components/enterprise-solution/EnterpriseSolutionRelatedServices.astro';
 import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
 import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
+import TrustBadgesStrip from '../../../components/ui/TrustBadgesStrip.astro';
 import { governmentServiceSchema, faqPageSchema } from '../../../lib/seo/schema';
 
 const audience = [
@@ -178,6 +179,9 @@ const faqs = [
       secondaryCtaLabel="Download 2026 Capability Statement (PDF)"
       secondaryCtaLink="/downloads/enterprise-capability-statement/"
     />
+
+    <!-- Verified Enterprise Trust & Delivery Guarantee Strip -->
+    <TrustBadgesStrip variant="light" />
 
     <EnterpriseSolutionShortAnswer
       heading="What Is Public Sector Digital Learning Architecture?"

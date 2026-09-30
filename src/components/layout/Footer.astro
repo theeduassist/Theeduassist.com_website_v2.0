@@ -3,6 +3,7 @@ import { footerNavigation } from '../../data/siteNavigation';
 import { trustPages } from '../../data/trustArchitecture';
 import { organizationEntity } from '../../data/organizationEntity';
 import BrandLogo from '../ui/BrandLogo.astro';
+import AIFooterStrip from '../ai/AIFooterStrip.astro';
 
 const site = { name: organizationEntity.name, email: organizationEntity.contactPoint.email, social: {} };
 ---
@@ -71,6 +72,8 @@ const site = { name: organizationEntity.name, email: organizationEntity.contactP
             <h4 class="text-white font-bold mb-6 tracking-wider uppercase text-sm">Solutions</h4>
             <ul class="space-y-3 text-sm">
                 <li><a href="/enterprise-solutions/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Enterprise Solutions</a></li>
+                <li><a href="/enterprise-solutions/higher-education-and-universities/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Higher Education & Universities</a></li>
+                <li><a href="/enterprise-solutions/middle-east-corporate-training/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Middle East & GCC Training</a></li>
                 <li><a href="/kajabi-services/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Kajabi Services</a></li>
                 <li><a href="/case-studies/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Case Studies</a></li>
                 <li><a href="/pricing/" class="text-slate-400 hover:text-brand-accent transition-colors focus-ring inline-block">Pricing</a></li>
@@ -103,6 +106,9 @@ const site = { name: organizationEntity.name, email: organizationEntity.contactP
             </ul>
         </div>
     </div>
+
+    <!-- Explore with Preferred AI Assistant Strip -->
+    <AIFooterStrip />
 
     <!-- Bottom Copyright and Social Links -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

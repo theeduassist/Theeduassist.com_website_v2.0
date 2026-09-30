@@ -85,7 +85,8 @@ const primaryAssistants = aiAssistants.filter(ai => primaryAIs.includes(ai.id));
         data-ai-name={ai.name}
         data-ai-url={ai.baseUrl}
       >
-        {ai.shortLabel}
+        <span class="sm:hidden">{ai.shortLabel}</span>
+        <span class="hidden sm:inline">{ai.name}</span>
       </button>
     ))}
   </div>

@@ -1,0 +1,293 @@
+---
+// src/pages/enterprise-solutions/middle-east-corporate-training/index.astro
+import Layout from '../../../layouts/Layout.astro';
+import EnterpriseSolutionHero from '../../../components/enterprise-solution/EnterpriseSolutionHero.astro';
+import EnterpriseSolutionShortAnswer from '../../../components/enterprise-solution/EnterpriseSolutionShortAnswer.astro';
+import EnterpriseSolutionAudience from '../../../components/enterprise-solution/EnterpriseSolutionAudience.astro';
+import EnterpriseSolutionChallenges from '../../../components/enterprise-solution/EnterpriseSolutionChallenges.astro';
+import EnterpriseSolutionScope from '../../../components/enterprise-solution/EnterpriseSolutionScope.astro';
+import EnterpriseSolutionPathway from '../../../components/enterprise-solution/EnterpriseSolutionPathway.astro';
+import EnterpriseSolutionProcess from '../../../components/enterprise-solution/EnterpriseSolutionProcess.astro';
+import EnterpriseSolutionDeliverables from '../../../components/enterprise-solution/EnterpriseSolutionDeliverables.astro';
+import EnterpriseSolutionLimitations from '../../../components/enterprise-solution/EnterpriseSolutionLimitations.astro';
+import EnterpriseSolutionRelatedServices from '../../../components/enterprise-solution/EnterpriseSolutionRelatedServices.astro';
+import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
+import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
+import TrustBadgesStrip from '../../../components/ui/TrustBadgesStrip.astro';
+import { gccEnterpriseTrainingSchema, faqPageSchema } from '../../../lib/seo/schema';
+
+const audience = [
+  "Saudi & GCC Industrial Conglomerates (Construction, EPC, Energy, Logistics)",
+  "L&D Directors & Corporate Training Academies (e.g. Nesma Training Institute partners)",
+  "Health, Safety & Environment (HSE) Directors & Compliance Officers",
+  "Saudization (Nitaqat) & Emiratization Workforce Development Teams",
+  "Tier-1 Contractors for Saudi Giga-Projects (NEOM, Red Sea Global, Qiddiya, ROSHN)",
+  "Enterprise HR & Operational Leadership in Saudi Arabia, UAE, Qatar, and Kuwait",
+  "Corporate Procurement & Vendor Management Offices (SAP Ariba / Oracle Supplier Portals)",
+  "Multinational Joint Ventures Operating in the GCC Region"
+];
+
+const challenges = [
+  "High operational risk demanding mandatory, auditable HSE safety training across job sites",
+  "Multinational workforce requiring multilingual training in Arabic, English, and Urdu/Hindi",
+  "Broken Right-to-Left (RTL) Arabic typography and unnatural translations in Western eLearning tools",
+  "Meeting aggressive nationalization (Saudization Vision 2030) technical onboarding mandates",
+  "Dense 300-page engineering and procedural SOPs leading to low field retention and high error rates",
+  "Need for mobile-accessible microlearning modules for field engineers and on-site crews",
+  "Foreign vendor procurement verification, ZATCA tax withholding, and vendor registration hurdles",
+  "Legacy LMS systems requiring verified SCORM 1.2 / 2004 multi-language interoperability"
+];
+
+const scope = [
+  "Bilingual (Arabic & English) native Right-to-Left (RTL) Articulate Storyline 360 and Rise development",
+  "Interactive HSE & OSHA/NEBOSH safety microlearning (Fall Protection, Confined Space, Electrical, Crane Safety)",
+  "Engineering and operational SOP digitization into structured, interactive digital academies",
+  "Multilingual voiceover production with professional native Arabic and English narrators",
+  "Saudization and technical apprenticeship onboarding pipelines aligned with Vision 2030 objectives",
+  "SCORM 1.2, SCORM 2004 4th Edition, and xAPI packages tested on SAP SuccessFactors, Oracle LMS, and Cornerstone",
+  "Bilateral Non-Disclosure Agreements (NDAs) and full source file handover (.story, Figma, audio masters)",
+  "Vendor prequalification support: ZATCA tax treaty compliance, SAP Ariba registration, and Net-30 enterprise invoicing"
+];
+
+const stages = [
+  {
+    step: "01",
+    title: "SOP & Regulatory Requirement Analysis",
+    description: "We review your engineering manuals, site safety protocols, and corporate compliance standards to map key risk factors and learning competencies."
+  },
+  {
+    step: "02",
+    title: "Bilingual Storyboarding & RTL Typography",
+    description: "Our instructional designers craft parallel Arabic and English storyboards with authentic cultural localization and engineered Right-to-Left layouts."
+  },
+  {
+    step: "03",
+    title: "Interactive Development & Audio Narration",
+    description: "We build interactive scenario-based modules in Articulate Storyline, incorporating site-specific 3D visuals, simulations, and native Arabic voiceovers."
+  },
+  {
+    step: "04",
+    title: "Enterprise LMS Sandbox Verification",
+    description: "Full end-to-end testing in your corporate LMS (SuccessFactors, Oracle, Moodle) to guarantee 100% completion tracking and assessment score passback."
+  },
+  {
+    step: "05",
+    title: "100% Source Handover & Rollout Support",
+    description: "Irrevocable assignment of all source files (.story, graphics, audio, SCORM), followed by rollout assistance and vendor onboarding documentation."
+  }
+];
+
+const processSteps = [
+  {
+    step: "Sprint 1",
+    title: "Vendor Onboarding & Scope Architecture",
+    description: "Execute bilateral NDAs, submit vendor registration packets, review source SOPs, and define bilingual curriculum milestones."
+  },
+  {
+    step: "Sprint 2",
+    title: "Bilingual Prototype & Arabic RTL Sign-off",
+    description: "Deliver a pilot safety module in both Arabic and English to validate instructional tone, visual design, and RTL typography."
+  },
+  {
+    step: "Sprint 3",
+    title: "Full Course Production & Voiceover",
+    description: "Produce all curriculum modules, record professional studio voiceovers, and build interactive hazard-identification exercises."
+  },
+  {
+    step: "Sprint 4",
+    title: "Enterprise LMS Verification & Delivery",
+    description: "Conduct multi-device QA, test LMS SCORM tracking, transfer all editable source files, and close project milestone."
+  }
+];
+
+const deliverables = [
+  "Turnkey SCORM 1.2 & SCORM 2004 packages with dual Arabic/English language toggle",
+  "Fully editable Articulate Storyline 360 source files (.story) with native RTL support",
+  "Professional studio audio narration files (Arabic and English WAV/MP3 masters)",
+  "HSE Competency Assessment Question Banks with randomized knowledge checks",
+  "Mobile-first microlearning modules optimized for low-bandwidth field deployment",
+  "Comprehensive SCORM tracking matrix and assessment score passback verification",
+  "100% Intellectual Property Assignment certificate and source code repository",
+  "Complete corporate vendor documentation (tax treaty exemption, bank verification, NDA)"
+];
+
+const limitations = [
+  "We do not conduct physical on-site equipment inspections; technical safety standards and site guidelines are provided by your corporate HSE leadership.",
+  "We do not supply corporate LMS software licenses; we engineer content to run natively within your existing LMS (SAP, Oracle, Cornerstone, Moodle).",
+  "We do not retain corporate employee training records; all learner completion records are logged directly inside your secure corporate database."
+];
+
+const relatedServices = [
+  {
+    title: "Custom eLearning Development",
+    description: "Bespoke instructional design and interactive module development for enterprise teams.",
+    link: "/services/custom-elearning-development/"
+  },
+  {
+    title: "Course Localization & Translation",
+    description: "Specialized Arabic/English localization and cultural adaptation for Middle Eastern audiences.",
+    link: "/services/course-localization-translation/"
+  },
+  {
+    title: "Content Conversion & Digitization",
+    description: "Converting legacy technical manuals, SOPs, and PowerPoint decks into interactive digital training.",
+    link: "/services/content-conversion/"
+  },
+  {
+    title: "Procurement & Trust Centre",
+    description: "Review our international procurement pathways, tax treaty compliance, and vendor registration details.",
+    link: "/trust-centre/procurement/"
+  }
+];
+
+const faqs = [
+  {
+    question: "Can Saudi and GCC enterprises hire TheEduAssist as an international vendor?",
+    answer: "Yes. Leading enterprises across Saudi Arabia, UAE, Qatar, and Kuwait engage TheEduAssist directly. We provide complete vendor prequalification documentation, execute bilateral NDAs governed under Saudi, English, or client choice of law, and support corporate procurement invoicing in USD, AED, or SAR with compliant tax treaty withholding documentation."
+  },
+  {
+    question: "How do you handle Arabic Right-to-Left (RTL) formatting in eLearning?",
+    answer: "Arabic is not just translation; it requires dedicated Right-to-Left (RTL) visual engineering. We design courseware with native RTL layout hierarchies, authentic Arabic typography (such as GE SS or Noto Kufi), culturally aligned graphics, and dual-track bilingual interfaces that allow learners to switch between Arabic and English seamlessly."
+  },
+  {
+    question: "Can you build HSE training for multinational field crews who speak Urdu or Hindi?",
+    answer: "Yes. For large infrastructure and construction contractors (such as NESMA, Aramco suppliers, and EPC joint ventures), we frequently produce trilingual training: Arabic for national staff, English for supervisors/engineers, and Urdu/Hindi for multinational job-site trades and technical crews."
+  },
+  {
+    question: "Which enterprise LMS platforms do your SCORM packages support?",
+    answer: "Our modules are tested and validated across all enterprise learning platforms utilized in the GCC, including SAP SuccessFactors, Oracle Fusion Learning, Cornerstone OnDemand, Docebo, Blackboard, and custom open-source Moodle instances."
+  },
+  {
+    question: "How are intellectual property and corporate confidentiality protected?",
+    answer: "We sign strict bilateral Non-Disclosure Agreements (NDAs) before receiving any proprietary engineering drawings or SOPs. Upon project completion, 100% of all intellectual property—including editable Articulate Storyline source files, audio masters, and graphics—is transferred irrevocably to your enterprise."
+  },
+  {
+    question: "Can TheEduAssist register on our corporate vendor portal (e.g. SAP Ariba)?",
+    answer: "Yes. Our procurement operations team regularly completes supplier onboarding registrations on SAP Ariba, Oracle Supplier Network, and proprietary corporate procurement portals for GCC enterprises."
+  }
+];
+
+const jsonLd = [
+  gccEnterpriseTrainingSchema(),
+  faqPageSchema(faqs)
+];
+---
+
+<Layout
+  title="Middle East & GCC Corporate Training Solutions | TheEduAssist"
+  description="Bilingual Arabic/English custom eLearning, HSE industrial safety training, and workforce upskilling aligned with Saudi Vision 2030 and GCC enterprise standards."
+  canonicalPath="/enterprise-solutions/middle-east-corporate-training/"
+  jsonLd={jsonLd}
+>
+  <main class="flex-auto">
+    <EnterpriseSolutionHero
+      eyebrow="Middle East & GCC Corporate Solutions"
+      title="Bilingual HSE Safety, Industrial Training & Workforce Upskilling for GCC Enterprises"
+      body="Custom, SCORM-compliant digital learning engineered for Saudi Vision 2030 and GCC industrial contractors. We specialize in bilingual Arabic/English Right-to-Left (RTL) Storyline authoring, mandatory HSE site compliance, and technical workforce onboarding."
+      primaryCtaLabel="Submit RFP / Procurement Desk"
+      primaryCtaLink="/trust-centre/procurement/"
+      secondaryCtaLabel="Download 2026 Capability Statement (PDF)"
+      secondaryCtaLink="/downloads/enterprise-capability-statement/"
+    />
+
+    <!-- Verified Enterprise Trust & Delivery Guarantee Strip -->
+    <TrustBadgesStrip variant="light" />
+
+    <EnterpriseSolutionShortAnswer
+      heading="What Is GCC Enterprise Digital Training Architecture?"
+      answer="It is the specialized development of high-impact, bilingual (Arabic & English) interactive training modules engineered for large infrastructure, energy, and construction enterprises across Saudi Arabia (KSA) and the UAE. It bridges statutory Health, Safety & Environment (HSE) mandates, native Right-to-Left (RTL) LMS authoring, and national workforce development goals (Saudization / Emiratization) under strict vendor procurement compliance."
+    />
+
+    <!-- GCC Vendor Registration & Procurement Banner -->
+    <section class="py-12 bg-slate-900 text-white border-y border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gradient-to-r from-[#27496D] via-slate-800 to-[#27496D] rounded-2xl p-8 border border-[#77BA55]/30 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="max-w-2xl">
+            <span class="inline-block px-3 py-1 rounded text-xs font-bold tracking-wider uppercase bg-[#77BA55]/20 text-[#77BA55] border border-[#77BA55]/30 mb-2">GCC Vendor Prequalification</span>
+            <h3 class="text-2xl font-bold text-white">Registering TheEduAssist on Your SAP Ariba or Supplier Portal?</h3>
+            <p class="text-slate-300 text-sm mt-2">
+              We provide complete international vendor registration packets, bilateral NDAs under Saudi or English law, ZATCA tax treaty documentation, and banking details for direct corporate contracting across KSA, UAE, and Qatar.
+            </p>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-3 shrink-0">
+            <a href="/trust-centre/procurement/" class="px-6 py-3 rounded-lg bg-[#77BA55] text-slate-950 font-black text-sm hover:brightness-105 transition-all text-center shadow-lg">
+              Check GCC Procurement Eligibility &rarr;
+            </a>
+            <a href="/downloads/enterprise-capability-statement/" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-lg bg-white/10 text-white font-semibold text-sm hover:bg-white/20 border border-white/20 transition-all text-center">
+              Capability Statement (PDF)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <EnterpriseSolutionAudience audience={audience} />
+
+    <EnterpriseSolutionChallenges challenges={challenges} />
+
+    <EnterpriseSolutionScope scope={scope} />
+
+    <EnterpriseSolutionPathway
+      title="The GCC Enterprise Training Delivery Pathway"
+      description="A structured, risk-mitigated delivery process designed for bilingual accuracy, cultural localization, and LMS interoperability."
+      stages={stages}
+    />
+
+    <EnterpriseSolutionProcess steps={processSteps} />
+
+    <EnterpriseSolutionDeliverables deliverables={deliverables} />
+
+    <!-- Bilingual RTL & HSE Safety Feature Showcase -->
+    <section class="py-16 bg-slate-50 border-y border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-2xl border border-slate-200 shadow-md p-8 md:p-10 flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div class="max-w-2xl">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-brand-navy/10 text-brand-navy">Industrial Compliance Standard</span>
+              <span class="text-xs text-slate-500 font-medium">Arabic RTL &bull; OSHA / NEBOSH &bull; Vision 2030</span>
+            </div>
+            <h3 class="text-2xl md:text-3xl font-bold text-brand-navy">Bilingual Arabic & English Interactive Training for Field Operations</h3>
+            <p class="text-slate-600 text-base mt-3 leading-relaxed">
+              Every industrial module is engineered with true Right-to-Left (RTL) Arabic typography, authentic local imagery, and synchronized professional narration. Field workers, engineers, and safety inspectors can toggle between languages instantly, ensuring zero comprehension loss on critical job-site safety rules.
+            </p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-6">
+              <div class="border-l-2 border-brand-green pl-3">
+                <div class="text-lg font-bold text-brand-navy">True RTL</div>
+                <div class="text-xs text-slate-500">Native Arabic Flow</div>
+              </div>
+              <div class="border-l-2 border-brand-green pl-3">
+                <div class="text-lg font-bold text-brand-navy">OSHA/NEBOSH</div>
+                <div class="text-xs text-slate-500">HSE Aligned</div>
+              </div>
+              <div class="border-l-2 border-brand-green pl-3">
+                <div class="text-lg font-bold text-brand-navy">SAP/Oracle</div>
+                <div class="text-xs text-slate-500">Enterprise SCORM</div>
+              </div>
+            </div>
+          </div>
+          <div class="shrink-0 flex flex-col gap-3 w-full sm:w-auto">
+            <a href="/contact-us/?subject=GCC+Corporate+Training+Inquiry" class="px-8 py-3.5 rounded-lg bg-brand-primary text-white font-bold text-sm hover:bg-brand-navy transition-all text-center shadow-lg">
+              Discuss Corporate Project &rarr;
+            </a>
+            <a href="/trust-centre/procurement/" class="px-8 py-3 rounded-lg bg-slate-100 text-slate-700 font-bold text-sm hover:bg-slate-200 transition-all text-center border border-slate-300">
+              Procurement & Vendor Portal
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <EnterpriseSolutionLimitations limitations={limitations} />
+
+    <EnterpriseSolutionRelatedServices services={relatedServices} />
+
+    <ServiceFAQ faqs={faqs} />
+
+    <ServiceFinalCTA
+      heading="Need Scalable Training for Your Middle East Workforce?"
+      subheading="Share your HSE guidelines, technical manuals, or supplier RFP requirements. Our enterprise delivery team will review your specifications and provide a comprehensive proposal within 48 to 72 hours."
+      ctaLabel="Schedule GCC Project Discovery"
+      ctaLink="/contact-us/?subject=Middle+East+Training+Discovery"
+    />
+  </main>
+</Layout>
