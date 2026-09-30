@@ -100,6 +100,7 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-28
   lastReviewedDate: 2026-09-28
   nextReviewDate: 2026-09-28
+heroImage: /images/blog/screenshot-2026-09-29-113316.png
 ---
 # How to Choose the Right LMS for Your Organisation in 2026: The No-Fluff Buyer’s Guide That Actually Saves You Time and Money
 
