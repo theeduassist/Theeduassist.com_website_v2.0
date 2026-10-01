@@ -89,6 +89,24 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-30
   lastReviewedDate: 2026-09-30
   nextReviewDate: 2026-09-30
+heroImage: /images/blog/scorm-dispatch-lms-course-delivery.webp
+sources:
+  - title: " Rustici Software. Getting Started: Creating a Dispatch."
+    url: https://support.scorm.com/hc/en-us/articles/206164116-Getting-started-Creating-a-Dispatch
+    accessedAt: 2026-10-01
+  - title: SCORM Cloud Documentation. Getting Started.
+    url: https://cloud.scorm.com/docs/user-guide/getting-started/
+    accessedAt: 2026-10-01
+  - title: Rustici Software. Dispatch Documentation
+    url: Rustici Software. Dispatch Documentation
+    accessedAt: 2026-10-01
+  - title: Advanced Distributed Learning (ADL). Sharable Content Object Reference
+      Model (SCORM).
+    url: https://adlnet.gov/projects/scorm/
+    accessedAt: 2026-10-01
+  - title: 1EdTech Consortium. Learning Tools Interoperability (LTI).
+    url: https://www.1edtech.org/standards/lti
+    accessedAt: 2026-10-01
 ---
 **SCORM Dispatch** is a way to deliver eLearning content to another LMS while keeping the original course hosted and managed separately. It is especially useful for course publishers, training providers, and organizations that need to distribute the same content across multiple learning platforms.
 
