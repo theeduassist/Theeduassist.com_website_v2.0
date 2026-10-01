@@ -33,6 +33,8 @@ const coreUrls = [
   'https://www.theeduassist.com/case-studies/',
   'https://www.theeduassist.com/blog/',
   'https://www.theeduassist.com/about-us/',
+  'https://www.theeduassist.com/social-impact/',
+  'https://www.theeduassist.com/social-impact/heartsync/',
   'https://www.theeduassist.com/partner-with-us/',
 
   'https://www.theeduassist.com/book-free-audit/',

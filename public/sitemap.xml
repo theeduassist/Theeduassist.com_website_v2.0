@@ -67,6 +67,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.theeduassist.com/social-impact/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.theeduassist.com/social-impact/heartsync/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.theeduassist.com/partner-with-us/</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -3607,6 +3619,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.theeduassist.com/blog/how-to-run-kajabi-email-campaigns-successfully/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.theeduassist.com/blog/how-to-sell-online-courses-that-actually-convert/</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
@@ -3927,6 +3945,12 @@
   <url>
     <loc>https://www.theeduassist.com/blog/scorm-cloud-explained-what-it-is-and-when-you-need-it/</loc>
     <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.theeduassist.com/blog/scorm-dispatch/</loc>
+    <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

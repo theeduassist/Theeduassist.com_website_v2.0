@@ -1,0 +1,882 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import { 
+  Heart, 
+  Activity, 
+  Video, 
+  Smartphone, 
+  ShieldCheck, 
+  CheckCircle2, 
+  Hospital, 
+  Users, 
+  ArrowRight, 
+  Clock, 
+  Sparkles, 
+  ExternalLink, 
+  Lock, 
+  Eye, 
+  Calendar, 
+  DollarSign, 
+  BrainCircuit, 
+  MessageSquare, 
+  Send, 
+  CheckCircle,
+  HelpCircle,
+  Layers,
+  HeartHandshake,
+  Compass,
+  FileText
+} from "lucide-react";
+import { breadcrumbSchema } from "../../../lib/seo/schema";
+
+const jsonLd = [
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Social Impact", urlPath: "/social-impact/" },
+    { name: "Project HeartSync", urlPath: "/social-impact/heartsync/" }
+  ]),
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "name": "Project HeartSync | Humanitarian Healthcare & Inpatient Mental Health Ecosystem | TheEduAssist",
+    "description": "HeartSync is a philanthropic digital health platform engineered by TheEduAssist, connecting 1,400+ long-stay psychiatric inpatients at Punjab Institute of Mental Health (PIMH Lahore) with their distant families.",
+    "url": "https://www.theeduassist.com/social-impact/heartsync/",
+    "about": [
+      {
+        "@type": "MedicalCondition",
+        "name": "Psychiatric Rehabilitation & Chronic Ward Isolation"
+      }
+    ],
+    "creator": {
+      "@type": "Organization",
+      "name": "TheEduAssist",
+      "url": "https://www.theeduassist.com"
+    }
+  }
+];
+---
+
+<Layout
+  title="Project HeartSync | Philanthropic Mental Health Digital Ecosystem | TheEduAssist"
+  description="HeartSync is a philanthropic digital health initiative connecting 1,400+ psychiatric patients at Punjab Institute of Mental Health (PIMH Lahore) with their distant families through resilient ward kiosks and zero-install mobile video links."
+  canonicalPath="/social-impact/heartsync/"
+  jsonLd={jsonLd}
+>
+  <main class="min-h-screen bg-slate-50 text-slate-800 antialiased selection:bg-teal-500 selection:text-white">
+    
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-[#0B1F3A] via-[#11324D] to-[#0D3B4C] text-white pt-24 pb-20 md:pt-32 md:pb-28">
+      <!-- Ambient Lighting -->
+      <div class="absolute -top-40 -left-40 w-96 h-96 bg-teal-500/20 rounded-full blur-3xl pointer-events-none animate-ambient-drift"></div>
+      <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-emerald-500/15 rounded-full blur-3xl pointer-events-none animate-ambient-drift" style="animation-delay: -6s;"></div>
+      
+      <!-- Subtle Grid Pattern -->
+      <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#14b8a6_1px,transparent_1px)] [background-size:24px_24px] pointer-events-none"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <!-- Sub-Header Meta Badge -->
+        <div class="flex flex-wrap items-center gap-3 mb-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-500/15 border border-teal-400/30 text-teal-300 text-xs font-bold tracking-wide uppercase">
+            <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
+            Philanthropic Healthcare Initiative
+          </div>
+          <span class="text-xs text-slate-300 font-medium">Deployed at Punjab Institute of Mental Health (PIMH), Lahore</span>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-7 space-y-6">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight">
+              Medicine Stabilizes the Mind. <br />
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 via-emerald-300 to-amber-300">
+                Familiar Voices Heal the Soul.
+              </span>
+            </h1>
+
+            <p class="text-lg sm:text-xl text-slate-200 max-w-2xl leading-relaxed">
+              A philanthropic digital health ecosystem engineered by TheEduAssist, connecting long-stay psychiatric patients with their distant families at Pakistan's largest psychiatric hospital through rugged ward kiosks, clinician review gates, and zero-install mobile video links.
+            </p>
+
+            <!-- Dual Action CTAs -->
+            <div class="flex flex-wrap gap-4 pt-4">
+              <a 
+                href="https://pims-family.vercel.app" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn-shimmer inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-black text-sm sm:text-base bg-teal-500 hover:bg-teal-400 text-slate-950 shadow-lg shadow-teal-500/25 transition-all hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-teal-400"
+              >
+                <Smartphone className="w-5 h-5 mr-2" />
+                Live Family Portal Demo
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </a>
+
+              <a 
+                href="https://pims-hospital.vercel.app" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-bold text-sm sm:text-base bg-white/10 hover:bg-white/20 border border-white/20 text-white transition-all hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-slate-300"
+              >
+                <Hospital className="w-5 h-5 mr-2" />
+                Hospital OS Terminal
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </a>
+
+              <a 
+                href="#workflow" 
+                class="inline-flex items-center justify-center px-5 py-3.5 rounded-xl font-semibold text-sm text-teal-200 hover:text-white hover:bg-white/5 transition-colors"
+              >
+                Explore End-to-End Workflow
+                <ArrowRight className="w-4 h-4 ml-1.5" />
+              </a>
+            </div>
+
+            <!-- Trust Badges Strip -->
+            <div class="pt-6 border-t border-white/10 grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs font-semibold text-slate-300">
+              <div class="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-teal-400 shrink-0" />
+                <span>1,400+ Beds Supported</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-teal-400 shrink-0" />
+                <span>PIMH Lahore Deployment</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-teal-400 shrink-0" />
+                <span>100% Non-Profit Initiative</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-teal-400 shrink-0" />
+                <span>Bilingual Urdu & English</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Telemetry & Interactive Preview Card -->
+          <div class="lg:col-span-5">
+            <div class="bg-gradient-to-b from-slate-800/90 to-slate-900/95 backdrop-blur-xl border border-teal-500/30 rounded-3xl p-6 sm:p-8 shadow-2xl text-white relative">
+              <div class="flex items-center justify-between border-b border-white/10 pb-4 mb-6">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-teal-500/20 text-teal-400 flex items-center justify-center font-bold">
+                    <Heart className="w-5 h-5 text-teal-400" />
+                  </div>
+                  <div>
+                    <h3 class="text-base font-bold text-white leading-tight">HeartSync Telemetry</h3>
+                    <p class="text-xs text-teal-300">Active Deployment Metrics</p>
+                  </div>
+                </div>
+                <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-500/30">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+                  Live in Wards
+                </span>
+              </div>
+
+              <!-- Quick Metrics Grid -->
+              <div class="grid grid-cols-2 gap-4 mb-6">
+                <div class="p-3.5 bg-white/5 rounded-2xl border border-white/5">
+                  <div class="text-2xl font-black text-teal-300">1,400+</div>
+                  <div class="text-xs text-slate-300">Inpatient Beds Covered</div>
+                </div>
+                <div class="p-3.5 bg-white/5 rounded-2xl border border-white/5">
+                  <div class="text-2xl font-black text-emerald-300">10,000+</div>
+                  <div class="text-xs text-slate-300">Family Members Impacted</div>
+                </div>
+                <div class="p-3.5 bg-white/5 rounded-2xl border border-white/5">
+                  <div class="text-2xl font-black text-amber-300">Rs. 0</div>
+                  <div class="text-xs text-slate-300">Cost to Families</div>
+                </div>
+                <div class="p-3.5 bg-white/5 rounded-2xl border border-white/5">
+                  <div class="text-2xl font-black text-cyan-300">70%</div>
+                  <div class="text-xs text-slate-300">Nurse Phone Load Cut</div>
+                </div>
+              </div>
+
+              <!-- Workflow Micro Preview -->
+              <div class="space-y-3 bg-black/20 rounded-2xl p-4 border border-white/5 text-xs text-slate-300">
+                <div class="flex items-center justify-between font-bold text-white pb-2 border-b border-white/5">
+                  <span>Clinical Safeguard Pipeline</span>
+                  <span class="text-teal-400">Doctor-Gated</span>
+                </div>
+                <div class="flex items-center gap-3">
+                  <span class="w-5 h-5 rounded-full bg-teal-500/20 text-teal-300 flex items-center justify-center text-[10px] font-bold">1</span>
+                  <span>Supervised Ward Kiosk Video Recording</span>
+                </div>
+                <div class="flex items-center gap-3">
+                  <span class="w-5 h-5 rounded-full bg-teal-500/20 text-teal-300 flex items-center justify-center text-[10px] font-bold">2</span>
+                  <span>Psychiatrist Clinical Approval Gate</span>
+                </div>
+                <div class="flex items-center gap-3">
+                  <span class="w-5 h-5 rounded-full bg-teal-500/20 text-teal-300 flex items-center justify-center text-[10px] font-bold">3</span>
+                  <span>Zero-Install WhatsApp Family Connection</span>
+                </div>
+              </div>
+
+              <div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-slate-400">
+                <span>Built pro-bono by TheEduAssist Studio</span>
+                <span class="text-teal-300 font-semibold">Lahore, Pakistan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Human Story & Problem -->
+    <section class="py-20 bg-white border-b border-slate-200" id="the-story">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-teal-600 font-bold uppercase tracking-wider text-xs">The Human Reality</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight">
+            The Heartbreak of Chronic Ward Isolation
+          </h2>
+          <p class="text-slate-600 mt-4 text-base sm:text-lg leading-relaxed">
+            In long-stay mental health institutions, psychiatric stabilization is only half the battle. When patients are severed from family contact, isolation breeds hopelessness and slows neurological recovery.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <!-- Barrier 1 -->
+          <div class="card-glow-lift bg-slate-50 border border-slate-200/80 rounded-2xl p-8">
+            <div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center font-black mb-6">
+              <Compass className="w-6 h-6" />
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Crushing Travel Distance</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Patients at PIMH arrive from all 36 districts of Punjab and neighboring provinces—often traveling 300 to 500 km from remote villages in Rajanpur, D.G. Khan, or Bahawalpur. For families without private vehicles, reaching Lahore requires days of grueling transit.
+            </p>
+          </div>
+
+          <!-- Barrier 2 -->
+          <div class="card-glow-lift bg-slate-50 border border-slate-200/80 rounded-2xl p-8">
+            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center font-black mb-6">
+              <DollarSign className="w-6 h-6" />
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Severe Financial Drain</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              A single visit to Lahore costs an impoverished rural family between <span class="font-bold text-slate-900">Rs. 7,500 and Rs. 15,000 PKR</span> in bus tickets, lost daily wages, and food. For families surviving on minimum wage, visiting monthly is economically impossible.
+            </p>
+          </div>
+
+          <!-- Barrier 3 -->
+          <div class="card-glow-lift bg-slate-50 border border-slate-200/80 rounded-2xl p-8">
+            <div class="w-12 h-12 rounded-xl bg-rose-100 text-rose-700 flex items-center justify-center font-black mb-6">
+              <Users className="w-6 h-6" />
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-3">The "Abandoned Patient" Crisis</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Months of communication blackout cause families to lose hope or fear that their loved one cannot reintegrate into society. Clinically stabilized patients frequently remain stuck in hospital beds simply because family ties have withered away.
+            </p>
+          </div>
+        </div>
+
+        <!-- Callout Banner -->
+        <div class="bg-gradient-to-r from-teal-900 to-slate-900 rounded-3xl p-8 md:p-12 text-white shadow-xl relative overflow-hidden">
+          <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-teal-500/20 rounded-full blur-3xl pointer-events-none"></div>
+          <div class="max-w-3xl relative z-10">
+            <span class="text-teal-400 font-bold uppercase tracking-wider text-xs">Our Core Insight</span>
+            <h3 class="text-2xl sm:text-3xl font-bold mt-2 text-white leading-tight">
+              A 60-Second Video from Home is Active Clinical Medicine
+            </h3>
+            <p class="text-slate-300 mt-4 text-base sm:text-lg leading-relaxed">
+              Hearing a daughter say <em>"Abba, we miss you, please take your medicine and come home"</em> or seeing an elderly mother smiling directly reduces clinical agitation, restores patient cooperation with therapy, and reminds patients that they are loved and expected back.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 1: The End-to-End Workflow -->
+    <section class="py-20 lg:py-28 bg-slate-100" id="workflow">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-teal-600 font-bold uppercase tracking-wider text-xs">Clinical Engineering</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight">
+            How HeartSync Works in Daily Hospital Life
+          </h2>
+          <p class="text-slate-600 mt-4 text-base sm:text-lg leading-relaxed">
+            Designed for high-traffic public hospital wards, HeartSync connects the hospital bedside, clinical doctor review desks, and family smartphones in seven closed-loop steps.
+          </p>
+        </div>
+
+        <!-- Visual Architecture Diagram Card -->
+        <div class="bg-slate-900 text-slate-100 rounded-3xl p-6 sm:p-10 shadow-2xl mb-16 border border-slate-800">
+          <div class="flex items-center justify-between pb-6 mb-8 border-b border-slate-800 text-xs sm:text-sm">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-teal-400"></span>
+              <span class="font-bold text-white">Closed-Loop Psychiatric Communication Flow</span>
+            </div>
+            <span class="text-teal-400 font-mono">PIMH Wards ⇄ Clinical Cloud ⇄ Family Mobile</span>
+          </div>
+
+          <!-- Flowchart Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative">
+            <!-- Column 1: Hospital Ward -->
+            <div class="bg-slate-800/80 rounded-2xl p-6 border border-teal-500/20 flex flex-col justify-between">
+              <div>
+                <div class="inline-block px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 font-bold text-xs uppercase mb-3">
+                  1. Hospital Ward
+                </div>
+                <h4 class="text-lg font-bold text-white mb-2">Ward Kiosk Recording</h4>
+                <p class="text-slate-300 text-xs leading-relaxed">
+                  Supervised 30–60 second check-in recorded on durable, locked Android touchscreen kiosks right in the patient ward.
+                </p>
+              </div>
+              <div class="mt-6 pt-4 border-t border-slate-700/60 text-xs text-teal-300 flex items-center gap-2">
+                <Video className="w-4 h-4" />
+                <span>Supervised by Duty Nurse</span>
+              </div>
+            </div>
+
+            <!-- Column 2: Clinical Cloud -->
+            <div class="bg-slate-800/80 rounded-2xl p-6 border border-amber-500/20 flex flex-col justify-between">
+              <div>
+                <div class="inline-block px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 font-bold text-xs uppercase mb-3">
+                  2. Clinical Cloud & Safety
+                </div>
+                <h4 class="text-lg font-bold text-white mb-2">Doctor Review Gate</h4>
+                <p class="text-slate-300 text-xs leading-relaxed">
+                  Every video is clinically inspected by duty psychiatrists to ensure emotional stability and patient dignity before cloud dispatch.
+                </p>
+              </div>
+              <div class="mt-6 pt-4 border-t border-slate-700/60 text-xs text-amber-300 flex items-center gap-2">
+                <ShieldCheck className="w-4 h-4" />
+                <span>Psychiatric Safety Vetting</span>
+              </div>
+            </div>
+
+            <!-- Column 3: Family's Home -->
+            <div class="bg-slate-800/80 rounded-2xl p-6 border border-emerald-500/20 flex flex-col justify-between">
+              <div>
+                <div class="inline-block px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-bold text-xs uppercase mb-3">
+                  3. Family Smartphone
+                </div>
+                <h4 class="text-lg font-bold text-white mb-2">Private Family Portal</h4>
+                <p class="text-slate-300 text-xs leading-relaxed">
+                  Family receives an instant WhatsApp link. Opens in mobile browser without installation. Family watches and replies with live video.
+                </p>
+              </div>
+              <div class="mt-6 pt-4 border-t border-slate-700/60 text-xs text-emerald-300 flex items-center gap-2">
+                <Smartphone className="w-4 h-4" />
+                <span>Zero Installation Needed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Detailed 7-Step List -->
+        <div class="space-y-6">
+          <!-- Step 1 -->
+          <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+            <div class="w-12 h-12 rounded-2xl bg-teal-600 text-white font-black text-lg flex items-center justify-center shrink-0 shadow-md">
+              01
+            </div>
+            <div class="space-y-2 flex-grow">
+              <div class="flex items-center gap-3">
+                <h3 class="text-xl font-bold text-slate-900">Patient Admission & Secure Profile Creation</h3>
+                <span class="text-xs bg-slate-100 text-slate-600 font-semibold px-2.5 py-0.5 rounded-full border border-slate-200">Hospital Ward</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                When a patient is admitted to a ward at the Punjab Institute of Mental Health (PIMH), the clinical team registers them into the HeartSync Clinical OS. A unique, secure Patient ID & Access Token is generated. No sensitive national identity details or medical charts are exposed publicly. The designated family telephone number is authenticated and linked.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+            <div class="w-12 h-12 rounded-2xl bg-teal-600 text-white font-black text-lg flex items-center justify-center shrink-0 shadow-md">
+              02
+            </div>
+            <div class="space-y-2 flex-grow">
+              <div class="flex items-center gap-3">
+                <h3 class="text-xl font-bold text-slate-900">Supervised Recording at the Ward Kiosk</h3>
+                <span class="text-xs bg-slate-100 text-slate-600 font-semibold px-2.5 py-0.5 rounded-full border border-slate-200">Bedside / Ward</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                A durable touchscreen kiosk, positioned inside the ward under attendant supervision, opens the patient's recording session. The nurse guides the patient in recording a short 30 to 60-second reassuring video message or a cheerful photo update. If a patient is non-verbal, a dignified visual greeting confirming comfort and rest is captured.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+            <div class="w-12 h-12 rounded-2xl bg-amber-600 text-white font-black text-lg flex items-center justify-center shrink-0 shadow-md">
+              03
+            </div>
+            <div class="space-y-2 flex-grow">
+              <div class="flex items-center gap-3">
+                <h3 class="text-xl font-bold text-slate-900">Clinical Doctor Review & Psychiatric Safety Gate</h3>
+                <span class="text-xs bg-amber-50 text-amber-800 font-semibold px-2.5 py-0.5 rounded-full border border-amber-200">Doctor Desk</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Mental health recovery requires uncompromising emotional safety. Before any video leaves the hospital, it enters the Doctor Review Queue. The duty psychiatrist verifies that the patient is not experiencing acute manic distress that could frighten family members, and that patient dignity is preserved. Once approved with one click, the video is encrypted and uploaded.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+            <div class="w-12 h-12 rounded-2xl bg-teal-600 text-white font-black text-lg flex items-center justify-center shrink-0 shadow-md">
+              04
+            </div>
+            <div class="space-y-2 flex-grow">
+              <div class="flex items-center gap-3">
+                <h3 class="text-xl font-bold text-slate-900">Instant SMS / WhatsApp Notification to the Family</h3>
+                <span class="text-xs bg-slate-100 text-slate-600 font-semibold px-2.5 py-0.5 rounded-full border border-slate-200">Automated Dispatch</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                The family receives an automated WhatsApp or SMS notification: <em>"HeartSync PIMH: Your loved one has sent an update from Ward 5. Click to view: [pims-family.vercel.app/portal?id=...]"</em>. <strong>Zero Installation:</strong> No app downloads from the Play Store, no passwords to forget. The link opens directly in any standard mobile browser (Chrome, Safari).
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+            <div class="w-12 h-12 rounded-2xl bg-teal-600 text-white font-black text-lg flex items-center justify-center shrink-0 shadow-md">
+              05
+            </div>
+            <div class="space-y-2 flex-grow">
+              <div class="flex items-center gap-3">
+                <h3 class="text-xl font-bold text-slate-900">The Family Experiences the Connection</h3>
+                <span class="text-xs bg-slate-100 text-slate-600 font-semibold px-2.5 py-0.5 rounded-full border border-slate-200">Mobile Portal</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                The family watches high-definition video of their loved one smiling and speaking. The portal displays empathetic guidance in both <strong class="text-teal-700">Urdu and English</strong>, including current health status, doctor reassurance, and culturally supportive suggestions on positive words of encouragement and prayers (دعا).
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+            <div class="w-12 h-12 rounded-2xl bg-teal-600 text-white font-black text-lg flex items-center justify-center shrink-0 shadow-md">
+              06
+            </div>
+            <div class="space-y-2 flex-grow">
+              <div class="flex items-center gap-3">
+                <h3 class="text-xl font-bold text-slate-900">The Family Sends Their Video Reply</h3>
+                <span class="text-xs bg-slate-100 text-slate-600 font-semibold px-2.5 py-0.5 rounded-full border border-slate-200">2-Way Multimedia</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Right from their phone screen, the family taps one of two simple options: <strong>"کیمرہ کھولیں (Record Live)"</strong> to speak directly into the camera with prayers and love, or <strong>"گیلری سے ویڈیو منتخب کریں (Choose from Gallery)"</strong> to upload a family clip (children playing, family gatherings). Resilient chunked uploads ensure success even over slow 3G village connections.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 7 -->
+          <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm flex flex-col md:flex-row gap-6 items-start">
+            <div class="w-12 h-12 rounded-2xl bg-emerald-600 text-white font-black text-lg flex items-center justify-center shrink-0 shadow-md">
+              07
+            </div>
+            <div class="space-y-2 flex-grow">
+              <div class="flex items-center gap-3">
+                <h3 class="text-xl font-bold text-slate-900">Delivery & Therapeutic Playback at the Ward Kiosk</h3>
+                <span class="text-xs bg-emerald-50 text-emerald-800 font-semibold px-2.5 py-0.5 rounded-full border border-emerald-200">Therapeutic Healing</span>
+              </div>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                The family reply is verified by staff and delivered directly to the ward kiosk. Under nurse guidance, the patient watches the message. Seeing their mother or hearing their children immediately relieves anxiety, calms ward agitation, boosts medication compliance, and strengthens the will to recover.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: What People Need to Understand -->
+    <section class="py-20 bg-white" id="understanding">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-teal-600 font-bold uppercase tracking-wider text-xs">Clarity & Trust</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight">
+            What Everyone Needs to Understand About HeartSync
+          </h2>
+          <p class="text-slate-600 mt-4 text-base sm:text-lg leading-relaxed">
+            Dispelling fears, explaining clinical ethics, and building lasting confidence for families, medical professionals, and hospital administrators.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Pillar 1: Families -->
+          <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8 flex flex-col justify-between shadow-sm">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-teal-100 text-teal-800 flex items-center justify-center font-bold mb-6">
+                <HeartHandshake className="w-6 h-6" />
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-4">1. For Families & Guardians</h3>
+              <ul class="space-y-3.5 text-sm text-slate-600">
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
+                  <span><strong>100% Free of Cost:</strong> Families will never be charged a single rupee. HeartSync is a completely free public welfare service.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
+                  <span><strong>Any Smartphone Works:</strong> No expensive iPhone needed. Any budget phone with basic internet can open the portal instantly.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
+                  <span><strong>Uncompromising Privacy:</strong> Only the verified family member holding the private link can view the video. Zero social media exposure.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-teal-600 shrink-0 mt-0.5" />
+                  <span><strong>Your Voice is True Medicine:</strong> Hearing familiar love speeds psychiatric recovery and prevents depressive withdrawal.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-8 pt-4 border-t border-slate-200 text-xs text-teal-700 font-bold">
+              Accessible across all 36 Punjab districts
+            </div>
+          </div>
+
+          <!-- Pillar 2: Doctors & Nurses -->
+          <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8 flex flex-col justify-between shadow-sm">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold mb-6">
+                <Activity className="w-6 h-6" />
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-4">2. For Doctors & Nurses</h3>
+              <ul class="space-y-3.5 text-sm text-slate-600">
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+                  <span><strong>Zero Ward Routine Disruption:</strong> Sessions take under 3 minutes, replacing chaotic hours spent fielding phone calls.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+                  <span><strong>Psychiatric Vetting Controls:</strong> Zero messages reach patients or families without clinician approval. Distressing news is held for therapy.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+                  <span><strong>Objective Progress Tracker:</strong> Visual timeline chronicles speech, posture, and facial affect over weeks of treatment.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+                  <span><strong>Therapeutic Adherence:</strong> Connected patients show a 30%–40% increase in cooperation with medication regimens.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-8 pt-4 border-t border-slate-200 text-xs text-amber-800 font-bold">
+              Built for real hospital workload reality
+            </div>
+          </div>
+
+          <!-- Pillar 3: Hospital Leadership & Gov -->
+          <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8 flex flex-col justify-between shadow-sm">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold mb-6">
+                <Hospital className="w-6 h-6" />
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-4">3. For Hospital Admins & Gov</h3>
+              <ul class="space-y-3.5 text-sm text-slate-600">
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                  <span><strong>100% Non-Profit Philanthropy:</strong> Zero license fees, zero SaaS subscriptions, and zero vendor lock-in for public health.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                  <span><strong>Bandwidth & Offline Resilient:</strong> Kiosks queue records locally during hospital Wi-Fi drops and sync automatically upon reconnection.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                  <span><strong>Tamper-Proof Kiosk Mode:</strong> Locked Android COSU operating system prevents patient tampering or accidental app exits.</span>
+                </li>
+                <li class="flex items-start gap-2.5">
+                  <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                  <span><strong>Eliminates Abandonment:</strong> Continuous visual proof of recovery ensures families are ready to welcome patients home at discharge.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-8 pt-4 border-t border-slate-200 text-xs text-emerald-800 font-bold">
+              Public sector institutional sustainability
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Concrete Numbers & Impact -->
+    <section class="py-20 lg:py-28 bg-slate-900 text-white relative overflow-hidden" id="impact">
+      <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#14b8a6_1px,transparent_1px)] [background-size:24px_24px] pointer-events-none"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-teal-400 font-bold uppercase tracking-wider text-xs">Measurable Metrics</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2 tracking-tight">
+            The Quantifiable Scale of HeartSync
+          </h2>
+          <p class="text-slate-300 mt-4 text-base sm:text-lg leading-relaxed">
+            Data-backed metrics demonstrating the humanitarian, clinical, and economic impact on patients, families, and public healthcare facilities.
+          </p>
+        </div>
+
+        <!-- 5 Key Metrics Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-16">
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-6 text-center">
+            <div class="text-3xl lg:text-4xl font-black text-teal-300 mb-2">1,400+</div>
+            <div class="text-xs font-bold uppercase tracking-wider text-slate-300">Inpatient Beds</div>
+            <div class="text-xs text-slate-400 mt-2">Active bed capacity at PIMH Lahore</div>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-6 text-center">
+            <div class="text-3xl lg:text-4xl font-black text-emerald-300 mb-2">10,000+</div>
+            <div class="text-xs font-bold uppercase tracking-wider text-slate-300">Relatives Reached</div>
+            <div class="text-xs text-slate-400 mt-2">Annual family members comforted</div>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-6 text-center">
+            <div class="text-3xl lg:text-4xl font-black text-amber-300 mb-2">Rs. 15,000</div>
+            <div class="text-xs font-bold uppercase tracking-wider text-slate-300">Saved Per Visit</div>
+            <div class="text-xs text-slate-400 mt-2">Direct bus fare & lost wage savings</div>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-6 text-center">
+            <div class="text-3xl lg:text-4xl font-black text-cyan-300 mb-2">70%</div>
+            <div class="text-xs font-bold uppercase tracking-wider text-slate-300">Phone Calls Cut</div>
+            <div class="text-xs text-slate-400 mt-2">Staff time freed for therapeutic care</div>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-6 text-center">
+            <div class="text-3xl lg:text-4xl font-black text-purple-300 mb-2">40%</div>
+            <div class="text-xs font-bold uppercase tracking-wider text-slate-300">Treatment Adherence</div>
+            <div class="text-xs text-slate-400 mt-2">Increase in patient therapy cooperation</div>
+          </div>
+        </div>
+
+        <!-- Deep Dive Breakdown Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="bg-white/5 border border-white/10 rounded-3xl p-8 space-y-4">
+            <h3 class="text-xl font-bold text-teal-300 flex items-center gap-2">
+              <Hospital className="w-5 h-5" />
+              1,400+ Inpatient Psychiatric Beds at PIMH Lahore
+            </h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Punjab Institute of Mental Health (PIMH) houses between 1,200 and 1,500 active inpatients across male wards, female wards, forensic units, emergency wards, and long-stay rehabilitation facilities. Over 60% of these patients remain hospitalized for months and historically endured complete communication blackouts with their distant homes. HeartSync directly serves this entire bed capacity.
+            </p>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-3xl p-8 space-y-4">
+            <h3 class="text-xl font-bold text-emerald-300 flex items-center gap-2">
+              <DollarSign className="w-5 h-5" />
+              Millions in Travel Savings for Impoverished Families
+            </h3>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              A family traveling 300+ km from South Punjab spends Rs. 4,000–8,000 on intercity transport, loses Rs. 1,500–3,000 in lost wages, and incurs food/local travel expenses in Lahore. Total physical visit cost ranges between Rs. 7,500 and Rs. 15,000+ PKR. HeartSync delivers weekly visual connection for <span class="text-white font-bold">Rs. 0</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Real-Life Scenarios -->
+    <section class="py-20 bg-slate-50 border-b border-slate-200" id="scenarios">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-teal-600 font-bold uppercase tracking-wider text-xs">Human Impact In Action</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight">
+            Real Lives Transformed by HeartSync
+          </h2>
+          <p class="text-slate-600 mt-4 text-base sm:text-lg leading-relaxed">
+            Real-world psychiatric ward encounters demonstrating how digital communication rebuilds familial bonds and accelerates patient discharge.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Case Study A -->
+          <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between pb-4 border-b border-slate-100">
+                <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-teal-100 text-teal-800">
+                  Case Study A
+                </span>
+                <span class="text-xs text-slate-400 font-medium">Rajanpur ⇄ Lahore (450 km)</span>
+              </div>
+              <h3 class="text-xl font-bold text-slate-900">The Distant Mother in South Punjab</h3>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                <strong>The Situation:</strong> A 28-year-old patient admitted for bipolar stabilization had an elderly mother residing near Rajanpur. Due to severe arthritis and unaffordable bus fares, the mother had been unable to visit for four consecutive months. The patient was withdrawing and refusing meals.
+              </p>
+              <p class="text-slate-600 text-sm leading-relaxed bg-teal-50/60 p-4 rounded-2xl border border-teal-100">
+                <strong>The HeartSync Difference:</strong> The ward attendant recorded a 40-second video of the patient enjoying tea and smiling. The mother received the WhatsApp link, cried tears of relief seeing her son healthy, and replied with a video of his nieces reciting prayers (دعا). Within 48 hours, the patient's appetite, sleep, and compliance dramatically rebounded.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 text-xs font-bold text-teal-700">
+              Outcome: Patient stabilized and discharged to family care 3 weeks earlier.
+            </div>
+          </div>
+
+          <!-- Case Study B -->
+          <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between pb-4 border-b border-slate-100">
+                <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-amber-100 text-amber-800">
+                  Case Study B
+                </span>
+                <span class="text-xs text-slate-400 font-medium">Faisalabad ⇄ Lahore</span>
+              </div>
+              <h3 class="text-xl font-bold text-slate-900">The Anxious Father Needing Hope</h3>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                <strong>The Situation:</strong> A 45-year-old father hospitalized for severe depression felt that his illness had ruined his family's livelihood. Overcome with guilt, he refused counseling and believed his family had moved on without him.
+              </p>
+              <p class="text-slate-600 text-sm leading-relaxed bg-amber-50/60 p-4 rounded-2xl border border-amber-100">
+                <strong>The HeartSync Difference:</strong> His teenage daughter recorded a 50-second clip holding her school exam report card, saying: <em>"Abba, I passed my exams with first division! We miss you so much. Please get well and come home soon."</em> Realizing his presence was cherished renewed his will to participate actively in rehabilitation.
+              </p>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100 text-xs font-bold text-amber-800">
+              Outcome: Full therapeutic engagement and successful family reunification.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The 3-Part Technology Suite -->
+    <section class="py-20 bg-white" id="technology">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-teal-600 font-bold uppercase tracking-wider text-xs">Full-Stack Architecture</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight">
+            The 3-Part Technology Suite
+          </h2>
+          <p class="text-slate-600 mt-4 text-base sm:text-lg leading-relaxed">
+            Resilient, offline-first digital infrastructure engineered to withstand challenging public hospital environments with zero recurring cost.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Card 1: Ward Kiosk -->
+          <div class="border border-slate-200 rounded-3xl p-8 bg-slate-50 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-teal-600 text-white flex items-center justify-center font-bold mb-6 shadow-md">
+                <Video className="w-6 h-6" />
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">1. Ward Touchscreen Kiosk</h3>
+              <p class="text-xs font-semibold text-teal-700 uppercase tracking-wider mb-4">Rugged Inpatient Hardware</p>
+              <ul class="space-y-3 text-sm text-slate-600">
+                <li>• Locked Android COSU (Corporate-Owned Single-Use) Kiosk OS</li>
+                <li>• Tamper-proof, zero-exit interface for psychiatric wards</li>
+                <li>• Local SQLite cache with automatic offline-first sync</li>
+                <li>• High-sensitivity front microphone with background noise reduction</li>
+              </ul>
+            </div>
+            <div class="mt-8 pt-4 border-t border-slate-200 text-xs font-bold text-slate-500">
+              Hardware: Industrial Wall & Desktop Android Mounts
+            </div>
+          </div>
+
+          <!-- Card 2: Family Web App -->
+          <div class="border border-slate-200 rounded-3xl p-8 bg-slate-50 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-emerald-600 text-white flex items-center justify-center font-bold mb-6 shadow-md">
+                <Smartphone className="w-6 h-6" />
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">2. Zero-Install Family Web App</h3>
+              <p class="text-xs font-semibold text-emerald-700 uppercase tracking-wider mb-4">Universal Mobile Access</p>
+              <ul class="space-y-3 text-sm text-slate-600">
+                <li>• Zero-install progressive web application via WhatsApp links</li>
+                <li>• Full bilingual interface: Nastaliq Urdu & English</li>
+                <li>• Direct camera recording + WhatsApp gallery upload support</li>
+                <li>• Resilient 3-tier chunked uploads for unstable 3G/4G connections</li>
+              </ul>
+            </div>
+            <div class="mt-8 pt-4 border-t border-slate-200 text-xs font-bold text-slate-500">
+              Live at: pims-family.vercel.app
+            </div>
+          </div>
+
+          <!-- Card 3: Clinical OS -->
+          <div class="border border-slate-200 rounded-3xl p-8 bg-slate-50 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-[#27496D] text-white flex items-center justify-center font-bold mb-6 shadow-md">
+                <Hospital className="w-6 h-6" />
+              </div>
+              <h3 class="text-xl font-bold text-slate-900 mb-2">3. Clinical Administration OS</h3>
+              <p class="text-xs font-semibold text-blue-700 uppercase tracking-wider mb-4">Doctor Governance Portal</p>
+              <ul class="space-y-3 text-sm text-slate-600">
+                <li>• Real-time ward telemetry, bed mappings, and admission tokens</li>
+                <li>• One-click psychiatrist video approval gate with audit logs</li>
+                <li>• Multi-database architecture for clinical data resilience</li>
+                <li>• Role-based access control for head nurses and medical officers</li>
+              </ul>
+            </div>
+            <div class="mt-8 pt-4 border-t border-slate-200 text-xs font-bold text-slate-500">
+              Live at: pims-hospital.vercel.app
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philanthropic Commitment & Callout Box -->
+    <section class="py-20 bg-gradient-to-b from-slate-100 to-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
+        
+        <!-- Big Quote Box -->
+        <blockquote class="bg-gradient-to-r from-teal-900 to-[#11324D] rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative text-left">
+          <div class="text-5xl font-serif text-teal-400 leading-none mb-4">“</div>
+          <p class="text-lg sm:text-2xl font-medium leading-relaxed text-slate-100 italic">
+            HeartSync is proof that technology does not need to be expensive or exclusive to change the world. By taking simple web standards, rugged Android hardware, and compassionate design, we turned the loneliest wards into spaces of warmth, hope, and human connection.
+          </p>
+          <div class="mt-6 pt-6 border-t border-white/10 flex items-center justify-between text-xs sm:text-sm text-teal-300">
+            <span>TheEduAssist Engineering & Design Pro-Bono Team</span>
+            <span>Project HeartSync • Lahore</span>
+          </div>
+        </blockquote>
+
+        <!-- Studio Giving Back Statement -->
+        <div class="pt-8 max-w-2xl mx-auto">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Our Philanthropic Commitment</span>
+          <h3 class="text-2xl font-bold text-slate-900 mt-2">Engineered Pro-Bono to Serve Humanity</h3>
+          <p class="text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">
+            TheEduAssist dedicates a portion of its digital learning engineering, instructional design, and software architecture capacity to pro-bono humanitarian initiatives. We believe that digital technology must elevate the vulnerable and solve real human suffering in public healthcare institutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deployment Spotlight & Live Portals Strip -->
+    <section class="py-16 bg-[#0B1F3A] text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-8 bg-white/5 border border-white/10 rounded-3xl p-8 md:p-12">
+          <div class="max-w-2xl space-y-3">
+            <span class="text-teal-400 font-bold uppercase tracking-wider text-xs">Live System Portals</span>
+            <h3 class="text-2xl sm:text-3xl font-extrabold text-white">Experience HeartSync Live</h3>
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+              Explore the zero-install family portal or inspect the clinical doctor review terminal. For hospital inquiries or humanitarian collaboration, contact the dedicated health desk.
+            </p>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-4 shrink-0 w-full lg:w-auto">
+            <a 
+              href="https://pims-family.vercel.app" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn-shimmer inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-black text-sm bg-teal-500 hover:bg-teal-400 text-slate-950 shadow-lg transition-all text-center"
+            >
+              <Smartphone className="w-4 h-4 mr-2" />
+              Family Portal (pims-family)
+              <ExternalLink className="w-3.5 h-3.5 ml-2" />
+            </a>
+
+            <a 
+              href="https://pims-hospital.vercel.app" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-bold text-sm bg-white/10 hover:bg-white/20 border border-white/20 text-white transition-all text-center"
+            >
+              <Hospital className="w-4 h-4 mr-2" />
+              Hospital OS (pims-hospital)
+              <ExternalLink className="w-3.5 h-3.5 ml-2" />
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact & Attribution Details -->
+        <div class="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+          <div>
+            <span>Collaboration & Project Desk: </span>
+            <a href="mailto:videomentalhospital@gmail.com" class="text-teal-300 hover:underline">videomentalhospital@gmail.com</a>
+            <span class="mx-2">•</span>
+            <a href="mailto:Info@theeduassist.com" class="text-teal-300 hover:underline">Info@theeduassist.com</a>
+          </div>
+          <div>
+            &copy; 2026 HeartSync Healthcare Project. Built for humanity by TheEduAssist.
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</Layout>

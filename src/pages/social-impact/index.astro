@@ -1,0 +1,185 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { Heart, Activity, Hospital, ArrowRight, ShieldCheck, Users, Sparkles, ExternalLink } from "lucide-react";
+import { breadcrumbSchema, webPageSchema } from "../../lib/seo/schema";
+
+const jsonLd = [
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Social Impact", urlPath: "/social-impact/" }
+  ]),
+  webPageSchema(
+    "Social Impact & Pro-Bono Initiatives | TheEduAssist",
+    "Discover how TheEduAssist dedicates engineering and design capacity to humanitarian health and open community initiatives, including Project HeartSync at Punjab Institute of Mental Health.",
+    "/social-impact/"
+  )
+];
+---
+
+<Layout
+  title="Social Impact & Pro-Bono Initiatives | TheEduAssist"
+  description="Discover how TheEduAssist commits digital learning engineering, instructional design, and software systems to humanitarian health, including Project HeartSync at Punjab Institute of Mental Health."
+  canonicalPath="/social-impact/"
+  jsonLd={jsonLd}
+>
+  <main class="min-h-screen bg-slate-50 text-slate-800 antialiased">
+    
+    <!-- Hero Section -->
+    <section class="relative bg-brand-navy text-white overflow-hidden py-20 lg:py-28">
+      <div class="absolute -top-40 -left-40 w-96 h-96 bg-teal-500/20 rounded-full blur-3xl pointer-events-none animate-ambient-drift"></div>
+      <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-emerald-500/20 rounded-full blur-3xl pointer-events-none animate-ambient-drift" style="animation-delay: -6s;"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center max-w-4xl mx-auto space-y-6">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-500/15 border border-teal-400/30 text-teal-300 text-xs font-bold tracking-wide uppercase">
+          <Heart className="w-3.5 h-3.5 text-teal-400" />
+          TheEduAssist Corporate Social Responsibility & Philanthropy
+        </div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight">
+          Technology with a Soul: Pro-Bono Engineering for Human Good
+        </h1>
+        <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
+          We believe world-class instructional design and software engineering should not be confined to commercial enterprises. We pledge studio resources to build free, transformative systems for public health and vulnerable communities.
+        </p>
+      </div>
+    </section>
+
+    <!-- Flagship Initiative Card: HeartSync -->
+    <section class="py-16 md:py-24 bg-white border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-gradient-to-br from-slate-900 via-[#11324D] to-[#0D3B4C] text-white rounded-3xl p-8 sm:p-12 lg:p-16 shadow-2xl relative overflow-hidden">
+          <div class="absolute right-0 top-0 w-96 h-96 bg-teal-500/15 rounded-full blur-3xl pointer-events-none"></div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+            <div class="lg:col-span-7 space-y-6">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-400/20 text-teal-300 border border-teal-400/30 text-xs font-bold uppercase">
+                <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
+                Flagship Deployment
+              </div>
+              <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+                Project HeartSync: Connecting 1,400+ Inpatients with Distant Families
+              </h2>
+              <p class="text-slate-200 text-base sm:text-lg leading-relaxed">
+                Deployed at the Punjab Institute of Mental Health (PIMH) in Lahore, HeartSync is a 100% free public welfare platform bridging the communication divide between hospitalized psychiatric patients and their families across Pakistan through rugged ward kiosks and zero-install video portals.
+              </p>
+
+              <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-2">
+                <div class="p-3 bg-white/5 rounded-xl border border-white/10">
+                  <div class="text-2xl font-black text-teal-300">1,400+</div>
+                  <div class="text-xs text-slate-300">Beds Supported</div>
+                </div>
+                <div class="p-3 bg-white/5 rounded-xl border border-white/10">
+                  <div class="text-2xl font-black text-emerald-300">10,000+</div>
+                  <div class="text-xs text-slate-300">Families Comforted</div>
+                </div>
+                <div class="p-3 bg-white/5 rounded-xl border border-white/10">
+                  <div class="text-2xl font-black text-amber-300">100% Free</div>
+                  <div class="text-xs text-slate-300">Pro-Bono Gift</div>
+                </div>
+              </div>
+
+              <div class="flex flex-wrap gap-4 pt-4">
+                <a 
+                  href="/social-impact/heartsync/" 
+                  class="btn-shimmer inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-black text-sm sm:text-base bg-teal-500 hover:bg-teal-400 text-slate-950 shadow-lg transition-all hover:-translate-y-0.5"
+                >
+                  Read Full HeartSync Showcase & Architecture
+                  <ArrowRight className="w-5 h-5 ml-2" />
+                </a>
+                <a 
+                  href="https://pims-family.vercel.app" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-bold text-sm bg-white/10 hover:bg-white/20 border border-white/20 text-white transition-all"
+                >
+                  Live Family Portal Demo
+                  <ExternalLink className="w-4 h-4 ml-2" />
+                </a>
+              </div>
+            </div>
+
+            <div class="lg:col-span-5">
+              <div class="bg-black/30 border border-white/10 rounded-2xl p-6 sm:p-8 space-y-4">
+                <h3 class="text-lg font-bold text-white border-b border-white/10 pb-3 flex items-center gap-2">
+                  <ShieldCheck className="w-5 h-5 text-teal-400" />
+                  Clinical & Systems Rigor
+                </h3>
+                <p class="text-xs text-slate-300 leading-relaxed">
+                  HeartSync was developed using the same strict standards we apply to enterprise learning systems:
+                </p>
+                <ul class="text-xs text-slate-300 space-y-2.5">
+                  <li class="flex items-center gap-2">
+                    <span class="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
+                    <span>Locked Android COSU ward kiosk mode</span>
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
+                    <span>Role-based psychiatrist safety approval gates</span>
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
+                    <span>Bandwidth-resilient 3G/4G chunked upload pipeline</span>
+                  </li>
+                  <li class="flex items-center gap-2">
+                    <span class="w-1.5 h-1.5 rounded-full bg-teal-400"></span>
+                    <span>Bilingual Nastaliq Urdu & English accessibility</span>
+                  </li>
+                </ul>
+                <div class="pt-4 border-t border-white/10 text-xs text-teal-300 font-semibold">
+                  A gift from TheEduAssist to public healthcare
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Impact Pillars -->
+    <section class="py-16 md:py-24 bg-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-brand-primary font-bold uppercase tracking-wider text-xs">Our Philanthropic Framework</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2">
+            How TheEduAssist Gives Back
+          </h2>
+          <p class="text-slate-600 mt-4 text-base leading-relaxed">
+            Inspired by global design and technology leaders like IDEO.org and SweetRush Cares, our social impact commitment is embedded directly into our operations.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white p-8 rounded-2xl border border-slate-200 card-glow-lift">
+            <div class="w-12 h-12 rounded-xl bg-teal-50 text-teal-700 flex items-center justify-center font-bold mb-6">
+              <Hospital className="w-6 h-6" />
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Public Health Tech</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              We design and deploy offline-first digital tools that connect isolated hospital patients with their support systems, improving clinical outcomes without straining public budgets.
+            </p>
+          </div>
+
+          <div class="bg-white p-8 rounded-2xl border border-slate-200 card-glow-lift">
+            <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-700 flex items-center justify-center font-bold mb-6">
+              <Users className="w-6 h-6" />
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Open Educational Access</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              We support non-profit educational institutions and community skill centers with pro-bono instructional frameworks, digital literacy templates, and accessibility audits.
+            </p>
+          </div>
+
+          <div class="bg-white p-8 rounded-2xl border border-slate-200 card-glow-lift">
+            <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center font-bold mb-6">
+              <Sparkles className="w-6 h-6" />
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Sustainable Stewardship</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Every system we build for community impact is 100% free of licensing fees, subscriptions, and vendor lock-in, ensuring public institutions can run them indefinitely.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</Layout>
