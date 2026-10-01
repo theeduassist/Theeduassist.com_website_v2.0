@@ -28,22 +28,23 @@ const engagementModels = [
     ctaLink: "/book-free-audit/"
   },
   {
-    title: "Flagship Academy & Turnkey DFY Build",
+    title: "Flagship Academy & Turnkey Multi-LMS Build",
     model: "Turnkey Milestone SOW",
-    bestFor: "High-ticket coaches, founders, and academies seeking an end-to-end Done-For-You (DFY) digital academy that drives retention and revenue.",
-    desc: "Complete end-to-end design and build: from scriptwriting and motion slide decks to fillable student workbooks, Kajabi/LMS configuration, and launch funnels.",
+    bestFor: "Academies, founders, high-growth institutions, and training providers deploying a bespoke, turnkey learning ecosystem across Kajabi, LearnWorlds, Thinkific, Skool, or Canvas LMS.",
+    desc: "Complete end-to-end design and build: from Bloom's Taxonomy curriculum scripting and motion slide decks to fillable student workbooks, custom multi-platform LMS engineering, automated student funnels, and checkout architecture.",
     features: [
       "Full instructional curriculum design & lesson scripting",
-      "High-retention visual slide decks & graphic assets",
+      "High-retention visual slide decks & branded motion assets",
       "Interactive fillable PDF student workbooks & action guides",
-      "Turnkey Kajabi or LearnWorlds platform build & styling",
-      "Automated student onboarding & milestone email sequences",
-      "Multi-device responsive QA & launch support",
-      "60-day post-launch warranty"
+      "Turnkey platform deployment (Kajabi, LearnWorlds, Thinkific, Skool, Canvas)",
+      "Custom theme styling, checkout gates & student community setup",
+      "Automated student onboarding & milestone email nurture sequences",
+      "Multi-device responsive QA & cross-browser validation",
+      "60-day post-launch warranty with dedicated technical support"
     ],
     timeline: "4–8 Weeks",
     badge: "Most Popular Flagship",
-    ctaText: "Discuss Turnkey Build",
+    ctaText: "Discuss Turnkey LMS Build",
     ctaLink: "/book-free-audit/"
   },
   {
@@ -109,7 +110,7 @@ const faqs = [
   { question: "How quickly do you provide formal SOW proposals or RFP responses?", answer: "Our solutions architecture team reviews requests and returns formal Statements of Work, milestone timelines, and RFP capability matrices within 24 to 48 business hours." },
   { question: "Can you execute bilateral Non-Disclosure Agreements (NDAs)?", answer: "Yes. We routinely work under strict bilateral NDAs with corporate leaders and public agencies before reviewing proprietary documentation or internal SOPs." },
   { question: "Do you offer post-launch warranties?", answer: "Yes. All bespoke course development and LMS builds include a 60-day post-launch warranty covering any LMS compatibility bug fixes and technical adjustments." },
-  { question: "Can you build exclusively on Kajabi?", answer: "Yes. TheEduAssist is an expert Kajabi solutions partner, providing custom website styling, product architecture, offer checkouts, email automation, and student onboarding." }
+  { question: "Can you build exclusively on Kajabi, and which other LMS platforms do you support?", answer: "Yes. TheEduAssist is an expert Kajabi solutions partner, providing custom website styling, product architecture, offer checkouts, email automation, and student onboarding. In addition to Kajabi, our engineering team regularly builds, migrates, and integrates courses across Thinkific, LearnWorlds, Skool, Canvas LMS, Blackboard Learn, Moodle, Docebo, and TalentLMS. Whatever platform your organization runs on, we engineer native, production-ready modules." }
 ];
 
 import { breadcrumbSchema, faqPageSchema } from "../../lib/seo/schema";
@@ -207,6 +208,160 @@ const jsonLd = [
             </div>
           </div>
         ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Multi-LMS Platform Coverage Matrix -->
+  <section class="py-20 bg-white border-b border-slate-200" aria-labelledby="multi-lms-heading">
+    <div class="container mx-auto px-4 max-w-7xl">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs font-bold text-teal-700 uppercase tracking-wider bg-teal-50 px-3 py-1 rounded-full border border-teal-200">
+          Cross-Platform Compatibility
+        </span>
+        <h2 id="multi-lms-heading" class="text-3xl md:text-4xl font-extrabold text-brand-navy mt-3 mb-4">
+          Universal LMS & Learning Platform Coverage
+        </h2>
+        <p class="text-slate-600 text-base md:text-lg">
+          Whether you run an all-in-one creator funnel, an accredited university master shell, or an enterprise compliance portal, TheEduAssist engineers native, production-tested course modules.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1: Creator & All-in-One LMS -->
+        <div class="card-glow-lift bg-slate-50 rounded-2xl p-8 border border-slate-200 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-blue-100 text-blue-800">
+                Creator & Academy
+              </span>
+              <span class="text-xs text-slate-500 font-medium">Turnkey Funnels</span>
+            </div>
+            <h3 class="text-xl font-bold text-brand-navy mb-3">All-in-One Creator Platforms</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mb-6 leading-relaxed">
+              Complete course portals with integrated marketing funnels, checkout offer pages, and gamified student communities.
+            </p>
+            <div class="space-y-3 mb-6">
+              <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Supported Platforms:</div>
+              <div class="flex flex-wrap gap-1.5">
+                {['Kajabi', 'Thinkific', 'LearnWorlds', 'Skool', 'Teachable', 'Circle.so', 'Mighty Networks'].map(platform => (
+                  <span class="px-2.5 py-1 bg-white border border-slate-200 rounded-lg text-xs font-semibold text-slate-800 shadow-2xs">
+                    {platform}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <ul class="space-y-2 text-xs text-slate-700 border-t border-slate-200 pt-4">
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#77BA55]"></span>
+                <span>Custom Liquid theme & CSS styling</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#77BA55]"></span>
+                <span>Checkout bumps & 1-click upsells</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#77BA55]"></span>
+                <span>Automated student onboarding sequences</span>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200">
+            <a href="/kajabi-services/" class="text-xs font-bold text-[#27496D] hover:text-[#77BA55] inline-flex items-center">
+              Explore Creator Services &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2: Academic & Higher Education LMS -->
+        <div class="card-glow-lift bg-slate-50 rounded-2xl p-8 border border-slate-200 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-purple-100 text-purple-800">
+                Academic & Higher Ed
+              </span>
+              <span class="text-xs text-slate-500 font-medium">QM Accredited</span>
+            </div>
+            <h3 class="text-xl font-bold text-brand-navy mb-3">Colleges & Universities</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mb-6 leading-relaxed">
+              Curriculum conversions that meet collegiate accreditation, pedagogical alignment, and statutory disability compliance.
+            </p>
+            <div class="space-y-3 mb-6">
+              <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Supported Platforms:</div>
+              <div class="flex flex-wrap gap-1.5">
+                {['Canvas LMS', 'Blackboard Learn', 'Moodle', 'Brightspace (D2L)', 'Open edX'].map(platform => (
+                  <span class="px-2.5 py-1 bg-white border border-slate-200 rounded-lg text-xs font-semibold text-slate-800 shadow-2xs">
+                    {platform}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <ul class="space-y-2 text-xs text-slate-700 border-t border-slate-200 pt-4">
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#77BA55]"></span>
+                <span>Quality Matters (QM) rubric mapping</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#77BA55]"></span>
+                <span>Section 508 & WCAG 2.1 AA screen reader checks</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#77BA55]"></span>
+                <span>Master syllabus conversion into LMS modules</span>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200">
+            <a href="/enterprise-solutions/higher-education-and-universities/" class="text-xs font-bold text-[#27496D] hover:text-[#77BA55] inline-flex items-center">
+              Explore Higher Ed Solutions &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3: Corporate Enterprise & Workforce LMS -->
+        <div class="card-glow-lift bg-slate-50 rounded-2xl p-8 border border-slate-200 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-teal-100 text-teal-800">
+                Corporate & Enterprise
+              </span>
+              <span class="text-xs text-slate-500 font-medium">Auditable Compliance</span>
+            </div>
+            <h3 class="text-xl font-bold text-brand-navy mb-3">Enterprise Workforce Training</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mb-6 leading-relaxed">
+              Standard-compliant training packages engineered for Fortune 500, government departments, and multinational workforces.
+            </p>
+            <div class="space-y-3 mb-6">
+              <div class="text-xs font-bold text-slate-400 uppercase tracking-wider">Supported Platforms:</div>
+              <div class="flex flex-wrap gap-1.5">
+                {['Docebo', 'TalentLMS', 'Cornerstone', 'SAP SuccessFactors', 'Workday', '360Learning'].map(platform => (
+                  <span class="px-2.5 py-1 bg-white border border-slate-200 rounded-lg text-xs font-semibold text-slate-800 shadow-2xs">
+                    {platform}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <ul class="space-y-2 text-xs text-slate-700 border-t border-slate-200 pt-4">
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#77BA55]"></span>
+                <span>SCORM 1.2, SCORM 2004 4th Ed & xAPI CMI5</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#77BA55]"></span>
+                <span>HRIS automated employee onboarding tracks</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#77BA55]"></span>
+                <span>Auditable statutory compliance logging & reporting</span>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-6 pt-4 border-t border-slate-200">
+            <a href="/enterprise-solutions/" class="text-xs font-bold text-[#27496D] hover:text-[#77BA55] inline-flex items-center">
+              Explore Enterprise Solutions &rarr;
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
