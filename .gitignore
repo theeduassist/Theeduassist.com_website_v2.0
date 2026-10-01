@@ -31,4 +31,5 @@
 .vercel
 .astro
 .env.production
-.env.production
+*.docx
+*.xlsx

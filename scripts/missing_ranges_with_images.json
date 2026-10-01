@@ -1,0 +1,774 @@
+[
+  {
+    "index": 34,
+    "num": 35,
+    "title": "Kajabi Google Analytics Integration Guide: GA4 Setup & Tracking",
+    "candidate_slug": "kajabi-google-analytics-integration-guide-ga4-setup-tracking",
+    "status": "MISSING",
+    "start_p": 3499,
+    "end_p": 3642,
+    "images": []
+  },
+  {
+    "index": 35,
+    "num": 36,
+    "title": "From Classroom to eLearning: How to Design Effective Online Courses",
+    "candidate_slug": "from-classroom-to-elearning-how-to-design-effective-online-courses",
+    "status": "MISSING",
+    "start_p": 3642,
+    "end_p": 3811,
+    "images": []
+  },
+  {
+    "index": 36,
+    "num": 37,
+    "title": "How to Integrate AI Tools with Your Existing LMS?",
+    "candidate_slug": "how-to-integrate-ai-tools-with-your-existing-lms",
+    "status": "MISSING",
+    "start_p": 3811,
+    "end_p": 3912,
+    "images": []
+  },
+  {
+    "index": 37,
+    "num": 38,
+    "title": "Build Your Online Course Yourself or Hire Course Creation Experts?",
+    "candidate_slug": "build-your-online-course-yourself-or-hire-course-creation-experts",
+    "status": "MISSING",
+    "start_p": 3912,
+    "end_p": 4064,
+    "images": []
+  },
+  {
+    "index": 38,
+    "num": 39,
+    "title": "Best Teachable Alternatives: Compare the Top LMS Platforms (2026)",
+    "candidate_slug": "best-teachable-alternatives-compare-the-top-lms-platforms-2026",
+    "status": "MISSING",
+    "start_p": 4064,
+    "end_p": 4216,
+    "images": []
+  },
+  {
+    "index": 39,
+    "num": 40,
+    "title": "LMS vs LXP: A Complete Comparison for L&D Professionals",
+    "candidate_slug": "lms-vs-lxp-a-complete-comparison-for-l-d-professionals",
+    "status": "MISSING",
+    "start_p": 4216,
+    "end_p": 4318,
+    "images": [
+      "media/image38.png"
+    ]
+  },
+  {
+    "index": 41,
+    "num": 42,
+    "title": "AI in eLearning: The Complete Guide to Smarter Digital Learning",
+    "candidate_slug": "ai-in-elearning-the-complete-guide-to-smarter-digital-learning",
+    "status": "MISSING",
+    "start_p": 4428,
+    "end_p": 4563,
+    "images": []
+  },
+  {
+    "index": 42,
+    "num": 43,
+    "title": "How to Use LearnDash SCORM for Enterprise Tracking",
+    "candidate_slug": "how-to-use-learndash-scorm-for-enterprise-tracking",
+    "status": "MISSING",
+    "start_p": 4563,
+    "end_p": 4637,
+    "images": []
+  },
+  {
+    "index": 43,
+    "num": 44,
+    "title": "ICTLE Conference 2026: Everything You need to Know",
+    "candidate_slug": "ictle-conference-2026-everything-you-need-to-know",
+    "status": "MISSING",
+    "start_p": 4637,
+    "end_p": 4708,
+    "images": []
+  },
+  {
+    "index": 44,
+    "num": 45,
+    "title": "How to Migrate Teachable to LearnDash: A Step-by-Step Guide",
+    "candidate_slug": "how-to-migrate-teachable-to-learndash-a-step-by-step-guide",
+    "status": "MISSING",
+    "start_p": 4708,
+    "end_p": 4946,
+    "images": []
+  },
+  {
+    "index": 45,
+    "num": 46,
+    "title": "How to Grow Organic Traffic on Kajabi?",
+    "candidate_slug": "how-to-grow-organic-traffic-on-kajabi",
+    "status": "MISSING",
+    "start_p": 4946,
+    "end_p": 5071,
+    "images": []
+  },
+  {
+    "index": 47,
+    "num": 48,
+    "title": "7 Powerful Reasons Why Microlearning Is the Future of Employee Training",
+    "candidate_slug": "7-powerful-reasons-why-microlearning-is-the-future-of-employee-training",
+    "status": "MISSING",
+    "start_p": 5155,
+    "end_p": 5313,
+    "images": []
+  },
+  {
+    "index": 48,
+    "num": 49,
+    "title": "Professional Video Workshops for Kajabi, Skool & Funnels in Australia",
+    "candidate_slug": "professional-video-workshops-for-kajabi-skool-funnels-in-australia",
+    "status": "MISSING",
+    "start_p": 5313,
+    "end_p": 5481,
+    "images": []
+  },
+  {
+    "index": 49,
+    "num": 50,
+    "title": "VR Training Costs: The Complete Guide for L&D Teams",
+    "candidate_slug": "vr-training-costs-the-complete-guide-for-l-d-teams",
+    "status": "MISSING",
+    "start_p": 5481,
+    "end_p": 5615,
+    "images": []
+  },
+  {
+    "index": 50,
+    "num": 51,
+    "title": "The Ultimate Guide to AR and VR in Online Learning in 2026",
+    "candidate_slug": "the-ultimate-guide-to-ar-and-vr-in-online-learning-in-2026",
+    "status": "MISSING",
+    "start_p": 5615,
+    "end_p": 5762,
+    "images": []
+  },
+  {
+    "index": 51,
+    "num": 52,
+    "title": "LearnDash vs Kajabi: Which Platform Should You Choose?",
+    "candidate_slug": "learndash-vs-kajabi-which-platform-should-you-choose",
+    "status": "MISSING",
+    "start_p": 5762,
+    "end_p": 5907,
+    "images": []
+  },
+  {
+    "index": 52,
+    "num": 53,
+    "title": "Is It Worth Hiring an In-House Instructional Designer for Your Company?",
+    "candidate_slug": "is-it-worth-hiring-an-in-house-instructional-designer-for-your-company",
+    "status": "MISSING",
+    "start_p": 5907,
+    "end_p": 6033,
+    "images": []
+  },
+  {
+    "index": 53,
+    "num": 54,
+    "title": "How to Master LMS VR Integration: A Proven Roadmap",
+    "candidate_slug": "how-to-master-lms-vr-integration-a-proven-roadmap",
+    "status": "MISSING",
+    "start_p": 6033,
+    "end_p": 6221,
+    "images": []
+  },
+  {
+    "index": 55,
+    "num": 56,
+    "title": "Kajabi AI Features in 2026: What\u2019s New and How They Improve Course Creation",
+    "candidate_slug": "kajabi-ai-features-in-2026-what-s-new-and-how-they-improve-course-creation",
+    "status": "MISSING",
+    "start_p": 6314,
+    "end_p": 6477,
+    "images": []
+  },
+  {
+    "index": 56,
+    "num": 57,
+    "title": "Kajabi Website Speed Optimization: Strong Tips by The EduAssist",
+    "candidate_slug": "kajabi-website-speed-optimization-strong-tips-by-the-eduassist",
+    "status": "MISSING",
+    "start_p": 6477,
+    "end_p": 6594,
+    "images": []
+  },
+  {
+    "index": 57,
+    "num": 58,
+    "title": "Kajabi Major Updates 2026: AI Cofounder, Expert Agents, Amplify & More",
+    "candidate_slug": "kajabi-major-updates-2026-ai-cofounder-expert-agents-amplify-more",
+    "status": "MISSING",
+    "start_p": 6594,
+    "end_p": 6807,
+    "images": []
+  },
+  {
+    "index": 59,
+    "num": 60,
+    "title": "Kajabi Templates Explained: Types, Benefits, Uses, and How to Choose the Right One",
+    "candidate_slug": "kajabi-templates-explained-types-benefits-uses-and-how-to-choose-the-right-one",
+    "status": "MISSING",
+    "start_p": 6955,
+    "end_p": 7126,
+    "images": []
+  },
+  {
+    "index": 60,
+    "num": 61,
+    "title": "How to launch your Kajabi course without the Stress",
+    "candidate_slug": "how-to-launch-your-kajabi-course-without-the-stress",
+    "status": "MISSING",
+    "start_p": 7126,
+    "end_p": 7259,
+    "images": []
+  },
+  {
+    "index": 61,
+    "num": 62,
+    "title": "7 Common Mistakes In Kajabi Course Uploading To Avoid",
+    "candidate_slug": "7-common-mistakes-in-kajabi-course-uploading-to-avoid",
+    "status": "MISSING",
+    "start_p": 7259,
+    "end_p": 7446,
+    "images": []
+  },
+  {
+    "index": 62,
+    "num": 63,
+    "title": "Best Kajabi Website and Funnel Setup Services for 2026 Growth",
+    "candidate_slug": "best-kajabi-website-and-funnel-setup-services-for-2026-growth",
+    "status": "MISSING",
+    "start_p": 7446,
+    "end_p": 7643,
+    "images": []
+  },
+  {
+    "index": 63,
+    "num": 64,
+    "title": "Your guide to Kajabi emails that people love to read",
+    "candidate_slug": "your-guide-to-kajabi-emails-that-people-love-to-read",
+    "status": "MISSING",
+    "start_p": 7643,
+    "end_p": 7910,
+    "images": []
+  },
+  {
+    "index": 64,
+    "num": 65,
+    "title": "The Simple Way to Automate Your Sales With Kajabi Pipelines",
+    "candidate_slug": "the-simple-way-to-automate-your-sales-with-kajabi-pipelines",
+    "status": "MISSING",
+    "start_p": 7910,
+    "end_p": 8032,
+    "images": []
+  },
+  {
+    "index": 65,
+    "num": 66,
+    "title": "Instructional Designer vs Developer: The Best Choice for Your Course",
+    "candidate_slug": "instructional-designer-vs-developer-the-best-choice-for-your-course",
+    "status": "MISSING",
+    "start_p": 8032,
+    "end_p": 8145,
+    "images": []
+  },
+  {
+    "index": 66,
+    "num": 67,
+    "title": "How to Build a Future-Proof AI Upskilling Strategy In 2026",
+    "candidate_slug": "how-to-build-a-future-proof-ai-upskilling-strategy-in-2026",
+    "status": "MISSING",
+    "start_p": 8145,
+    "end_p": 8296,
+    "images": []
+  },
+  {
+    "index": 67,
+    "num": 68,
+    "title": "How to Create Online Courses with LifterLMS",
+    "candidate_slug": "how-to-create-online-courses-with-lifterlms",
+    "status": "MISSING",
+    "start_p": 8296,
+    "end_p": 8462,
+    "images": []
+  },
+  {
+    "index": 68,
+    "num": 69,
+    "title": "Is Absorb LMS right for small business?The strong EduAssist Guide",
+    "candidate_slug": "is-absorb-lms-right-for-small-business-the-strong-eduassist-guide",
+    "status": "MISSING",
+    "start_p": 8462,
+    "end_p": 8555,
+    "images": []
+  },
+  {
+    "index": 69,
+    "num": 70,
+    "title": "Can AR and VR Really Improve Learning Outcomes?",
+    "candidate_slug": "can-ar-and-vr-really-improve-learning-outcomes",
+    "status": "MISSING",
+    "start_p": 8555,
+    "end_p": 8644,
+    "images": []
+  },
+  {
+    "index": 70,
+    "num": 71,
+    "title": "How to Use Kajabi Gamification in 2026: Boost Learner Motivation and Community Engagement Fast",
+    "candidate_slug": "how-to-use-kajabi-gamification-in-2026-boost-learner-motivation-and-community-engagement-fast",
+    "status": "MISSING",
+    "start_p": 8644,
+    "end_p": 8795,
+    "images": []
+  },
+  {
+    "index": 71,
+    "num": 72,
+    "title": "Why You Should Switch to Kajabi: The Ultimate Website Migration Guide",
+    "candidate_slug": "why-you-should-switch-to-kajabi-the-ultimate-website-migration-guide",
+    "status": "MISSING",
+    "start_p": 8795,
+    "end_p": 8937,
+    "images": []
+  },
+  {
+    "index": 72,
+    "num": 73,
+    "title": "Make More Money While you sleep with Kajabi Email Automation",
+    "candidate_slug": "make-more-money-while-you-sleep-with-kajabi-email-automation",
+    "status": "MISSING",
+    "start_p": 8937,
+    "end_p": 9196,
+    "images": []
+  },
+  {
+    "index": 74,
+    "num": 75,
+    "title": "The easy guide to finding your first Kajabi affiliates",
+    "candidate_slug": "the-easy-guide-to-finding-your-first-kajabi-affiliates",
+    "status": "MISSING",
+    "start_p": 9483,
+    "end_p": 9594,
+    "images": []
+  },
+  {
+    "index": 75,
+    "num": 76,
+    "title": "Podia vs Teachable: Which Platform Should You Choose in 2026?",
+    "candidate_slug": "podia-vs-teachable-which-platform-should-you-choose-in-2026",
+    "status": "MISSING",
+    "start_p": 9594,
+    "end_p": 9691,
+    "images": []
+  },
+  {
+    "index": 76,
+    "num": 77,
+    "title": "Is Podia Good for Beginners Starting an Online Business: Assessing Ease of Use for New Users",
+    "candidate_slug": "is-podia-good-for-beginners-starting-an-online-business-assessing-ease-of-use-for-new-users",
+    "status": "MISSING",
+    "start_p": 9691,
+    "end_p": 9931,
+    "images": []
+  },
+  {
+    "index": 77,
+    "num": 78,
+    "title": "Best ways to link your CRM to Kajabi right now",
+    "candidate_slug": "best-ways-to-link-your-crm-to-kajabi-right-now",
+    "status": "MISSING",
+    "start_p": 9931,
+    "end_p": 10059,
+    "images": []
+  },
+  {
+    "index": 78,
+    "num": 79,
+    "title": "Best Kajabi Website Templates for Online Businesses in 2026",
+    "candidate_slug": "best-kajabi-website-templates-for-online-businesses-in-2026",
+    "status": "MISSING",
+    "start_p": 10059,
+    "end_p": 10256,
+    "images": []
+  },
+  {
+    "index": 79,
+    "num": 80,
+    "title": "How to Build a LifterLMS Employee Training Portal",
+    "candidate_slug": "how-to-build-a-lifterlms-employee-training-portal",
+    "status": "MISSING",
+    "start_p": 10256,
+    "end_p": 10400,
+    "images": []
+  },
+  {
+    "index": 80,
+    "num": 81,
+    "title": "How to find the best Kajabi marketing pros?",
+    "candidate_slug": "how-to-find-the-best-kajabi-marketing-pros",
+    "status": "MISSING",
+    "start_p": 10400,
+    "end_p": 10654,
+    "images": []
+  },
+  {
+    "index": 81,
+    "num": 82,
+    "title": "Microlearning: The Ultimate Guide of TheEduAssist",
+    "candidate_slug": "microlearning-the-ultimate-guide-of-theeduassist",
+    "status": "MISSING",
+    "start_p": 10654,
+    "end_p": 10908,
+    "images": []
+  },
+  {
+    "index": 82,
+    "num": 83,
+    "title": "Kajabi Lead Generation Funnels That Convert Better",
+    "candidate_slug": "kajabi-lead-generation-funnels-that-convert-better",
+    "status": "MISSING",
+    "start_p": 10908,
+    "end_p": 10984,
+    "images": []
+  },
+  {
+    "index": 83,
+    "num": 84,
+    "title": "Employee Development Programs for Better ROI & Growth",
+    "candidate_slug": "employee-development-programs-for-better-roi-growth",
+    "status": "MISSING",
+    "start_p": 10984,
+    "end_p": 11107,
+    "images": []
+  },
+  {
+    "index": 84,
+    "num": 85,
+    "title": "Kajabi Email Marketing Funnels For Better Course Sales",
+    "candidate_slug": "kajabi-email-marketing-funnels-for-better-course-sales",
+    "status": "MISSING",
+    "start_p": 11107,
+    "end_p": 11382,
+    "images": []
+  },
+  {
+    "index": 85,
+    "num": 87,
+    "title": "How Can Corporate Training Actually Improve Employee Engagement?",
+    "candidate_slug": "how-can-corporate-training-actually-improve-employee-engagement",
+    "status": "MISSING",
+    "start_p": 11382,
+    "end_p": 11504,
+    "images": []
+  },
+  {
+    "index": 86,
+    "num": 87,
+    "title": "Is Teachable the best platform for offering online courses?",
+    "candidate_slug": "is-teachable-the-best-platform-for-offering-online-courses",
+    "status": "MISSING",
+    "start_p": 11504,
+    "end_p": 11685,
+    "images": []
+  },
+  {
+    "index": 87,
+    "num": 88,
+    "title": "How to Maximize Your Sales with the Kajabi Funnel Builder",
+    "candidate_slug": "how-to-maximize-your-sales-with-the-kajabi-funnel-builder",
+    "status": "MISSING",
+    "start_p": 11685,
+    "end_p": 11844,
+    "images": []
+  },
+  {
+    "index": 89,
+    "num": 90,
+    "title": "How to Optimize Your Kajabi Landing Page for Conversions?",
+    "candidate_slug": "how-to-optimize-your-kajabi-landing-page-for-conversions",
+    "status": "MISSING",
+    "start_p": 11994,
+    "end_p": 12241,
+    "images": []
+  },
+  {
+    "index": 90,
+    "num": 91,
+    "title": "A Step-by-Step Guide to Finding the Best Kajabi Design Services",
+    "candidate_slug": "a-step-by-step-guide-to-finding-the-best-kajabi-design-services",
+    "status": "MISSING",
+    "start_p": 12241,
+    "end_p": 12328,
+    "images": []
+  },
+  {
+    "index": 91,
+    "num": 92,
+    "title": "The Future Of Sales With Kajabi Funnels: Leveraging Kajabi For Growth",
+    "candidate_slug": "the-future-of-sales-with-kajabi-funnels-leveraging-kajabi-for-growth",
+    "status": "MISSING",
+    "start_p": 12328,
+    "end_p": 12436,
+    "images": []
+  },
+  {
+    "index": 92,
+    "num": 93,
+    "title": "How to Create a Portal in Kajabi Training Platform",
+    "candidate_slug": "how-to-create-a-portal-in-kajabi-training-platform",
+    "status": "MISSING",
+    "start_p": 12436,
+    "end_p": 12573,
+    "images": []
+  },
+  {
+    "index": 93,
+    "num": 94,
+    "title": "Best Free and Paid Kajabi Course Templates & Themes for 2026",
+    "candidate_slug": "best-free-and-paid-kajabi-course-templates-themes-for-2026",
+    "status": "MISSING",
+    "start_p": 12573,
+    "end_p": 12688,
+    "images": []
+  },
+  {
+    "index": 94,
+    "num": 95,
+    "title": "7 Common Mistakes In Kajabi Course Uploading To Avoid",
+    "candidate_slug": "7-common-mistakes-in-kajabi-course-uploading-to-avoid",
+    "status": "MISSING",
+    "start_p": 12688,
+    "end_p": 12876,
+    "images": []
+  },
+  {
+    "index": 95,
+    "num": 96,
+    "title": "What Are the Best Practices for Kajabi Drip Course Setup?",
+    "candidate_slug": "what-are-the-best-practices-for-kajabi-drip-course-setup",
+    "status": "MISSING",
+    "start_p": 12876,
+    "end_p": 13006,
+    "images": []
+  },
+  {
+    "index": 96,
+    "num": 97,
+    "title": "How to Create Digital Products with Kajabi?",
+    "candidate_slug": "how-to-create-digital-products-with-kajabi",
+    "status": "MISSING",
+    "start_p": 13006,
+    "end_p": 13271,
+    "images": []
+  },
+  {
+    "index": 97,
+    "num": 98,
+    "title": "Quick Tips for Setting Up Kajabi Coaching Program",
+    "candidate_slug": "quick-tips-for-setting-up-kajabi-coaching-program",
+    "status": "MISSING",
+    "start_p": 13271,
+    "end_p": 13424,
+    "images": []
+  },
+  {
+    "index": 98,
+    "num": 99,
+    "title": "Kajabi Membership Sites: What Are the Best Practices?",
+    "candidate_slug": "kajabi-membership-sites-what-are-the-best-practices",
+    "status": "MISSING",
+    "start_p": 13424,
+    "end_p": 13746,
+    "images": []
+  },
+  {
+    "index": 99,
+    "num": 100,
+    "title": "7 Powerful Kajabi Course Creation Services That Skyrocket Sales",
+    "candidate_slug": "7-powerful-kajabi-course-creation-services-that-skyrocket-sales",
+    "status": "MISSING",
+    "start_p": 13746,
+    "end_p": 13989,
+    "images": []
+  },
+  {
+    "index": 100,
+    "num": 101,
+    "title": "Kajabi: How to Set Up a Strong Online Course?",
+    "candidate_slug": "kajabi-how-to-set-up-a-strong-online-course",
+    "status": "MISSING",
+    "start_p": 13989,
+    "end_p": 14135,
+    "images": []
+  },
+  {
+    "index": 101,
+    "num": 102,
+    "title": "LMS Integration: The Most Important Systems to Connect to Your LMS",
+    "candidate_slug": "lms-integration-the-most-important-systems-to-connect-to-your-lms",
+    "status": "MISSING",
+    "start_p": 14135,
+    "end_p": 14278,
+    "images": []
+  },
+  {
+    "index": 102,
+    "num": 103,
+    "title": "Discover Kajabi: The Most Popular Platform of eLearning world",
+    "candidate_slug": "discover-kajabi-the-most-popular-platform-of-elearning-world",
+    "status": "MISSING",
+    "start_p": 14278,
+    "end_p": 14436,
+    "images": []
+  },
+  {
+    "index": 103,
+    "num": 104,
+    "title": "Is Adobe Captivate Worth the Cost? Full Pricing & Alternatives Breakdown",
+    "candidate_slug": "is-adobe-captivate-worth-the-cost-full-pricing-alternatives-breakdown",
+    "status": "MISSING",
+    "start_p": 14436,
+    "end_p": 14625,
+    "images": []
+  },
+  {
+    "index": 104,
+    "num": 105,
+    "title": "LifterLMS: Is It Still the Best WordPress LMS ?",
+    "candidate_slug": "lifterlms-is-it-still-the-best-wordpress-lms",
+    "status": "MISSING",
+    "start_p": 14625,
+    "end_p": 14760,
+    "images": []
+  },
+  {
+    "index": 105,
+    "num": 106,
+    "title": "Zero Downtime LMS Migration: The Ultimate Guide to No-Disruption Transition",
+    "candidate_slug": "zero-downtime-lms-migration-the-ultimate-guide-to-no-disruption-transition",
+    "status": "MISSING",
+    "start_p": 14760,
+    "end_p": 14878,
+    "images": []
+  },
+  {
+    "index": 106,
+    "num": 107,
+    "title": "LMS Migration Cost Guide for Enterprises: Budget Planning Made Simple",
+    "candidate_slug": "lms-migration-cost-guide-for-enterprises-budget-planning-made-simple",
+    "status": "MISSING",
+    "start_p": 14878,
+    "end_p": 15037,
+    "images": []
+  },
+  {
+    "index": 107,
+    "num": 108,
+    "title": "Can Synthesia Replace Your Video Production Team in 2026? Ultimate Guide",
+    "candidate_slug": "can-synthesia-replace-your-video-production-team-in-2026-ultimate-guide",
+    "status": "MISSING",
+    "start_p": 15037,
+    "end_p": 15217,
+    "images": []
+  },
+  {
+    "index": 108,
+    "num": 109,
+    "title": "Moodle: eLearning With The Best Online Learning Management System",
+    "candidate_slug": "moodle-elearning-with-the-best-online-learning-management-system",
+    "status": "MISSING",
+    "start_p": 15217,
+    "end_p": 15351,
+    "images": []
+  },
+  {
+    "index": 109,
+    "num": 110,
+    "title": "The Ultimate LMS Migration Timeline for a Smooth Platform Transition",
+    "candidate_slug": "the-ultimate-lms-migration-timeline-for-a-smooth-platform-transition",
+    "status": "MISSING",
+    "start_p": 15351,
+    "end_p": 15465,
+    "images": []
+  },
+  {
+    "index": 110,
+    "num": 111,
+    "title": "Is Synthesia Worth It In 2026: ROI, Costs & Genuine Verdict",
+    "candidate_slug": "is-synthesia-worth-it-in-2026-roi-costs-genuine-verdict",
+    "status": "MISSING",
+    "start_p": 15465,
+    "end_p": 15664,
+    "images": []
+  },
+  {
+    "index": 111,
+    "num": 112,
+    "title": "Is Podia worth the Money? Discover its strong features",
+    "candidate_slug": "is-podia-worth-the-money-discover-its-strong-features",
+    "status": "MISSING",
+    "start_p": 15664,
+    "end_p": 15975,
+    "images": []
+  },
+  {
+    "index": 112,
+    "num": 113,
+    "title": "Easy LMS Migration: Best Practices for Moving Data Safely",
+    "candidate_slug": "easy-lms-migration-best-practices-for-moving-data-safely",
+    "status": "MISSING",
+    "start_p": 15975,
+    "end_p": 16132,
+    "images": []
+  },
+  {
+    "index": 113,
+    "num": 114,
+    "title": "9 Best Online Learning Platforms (Tried and Tested 2026)",
+    "candidate_slug": "9-best-online-learning-platforms-tried-and-tested-2026",
+    "status": "MISSING",
+    "start_p": 16132,
+    "end_p": 16634,
+    "images": []
+  },
+  {
+    "index": 114,
+    "num": 116,
+    "title": "Kajabi vs Teachable: Which One is better for Your Business?",
+    "candidate_slug": "kajabi-vs-teachable-which-one-is-better-for-your-business",
+    "status": "MISSING",
+    "start_p": 16634,
+    "end_p": 16706,
+    "images": []
+  },
+  {
+    "index": 115,
+    "num": 117,
+    "title": "LMS Migration Checklist: Simple Steps for a Smooth Switch",
+    "candidate_slug": "lms-migration-checklist-simple-steps-for-a-smooth-switch",
+    "status": "MISSING",
+    "start_p": 16706,
+    "end_p": 16842,
+    "images": []
+  },
+  {
+    "index": 129,
+    "num": 131,
+    "title": "From Completion Rates to Strong Behavior:What eLearning Success Really Means?",
+    "candidate_slug": "from-completion-rates-to-strong-behavior-what-elearning-success-really-means",
+    "status": "MISSING",
+    "start_p": 18628,
+    "end_p": 18754,
+    "images": []
+  }
+]

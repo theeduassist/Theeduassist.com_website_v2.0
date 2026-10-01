@@ -1,0 +1,137 @@
+TOTAL HEADINGS IN DOCX: 135
+
+  1. #  1 [EXACT_SLUG_MATCH  ] Internal Academy Software: 15 Must Have Features in 2026 -> internal-academy-software-15-must-have-features-in-2026
+  2. #  2 [EXACT_SLUG_MATCH  ] Thinkific Student Engagement: 20 Proven Ways to Increase Course Completion -> thinkific-student-engagement-20-proven-ways-to-increase-course-completion
+  3. #  3 [EXACT_SLUG_MATCH  ] AI Skills Gap Analysis: How to Identify Employee Training Needs -> ai-skills-gap-analysis-how-to-identify-employee-training-needs
+  4. #  4 [TITLE_MATCH       ] Learning Analytics Dashboard: 20 KPIs Every L&D Leader Should Track -> learning-analytics-dashboard-20-kpis-every-landd-leader-should-track
+  5. #  5 [EXACT_SLUG_MATCH  ] Kajabi Checkout Optimization: Increase Course Sales Without More Traffic -> kajabi-checkout-optimization-increase-course-sales-without-more-traffic
+  6. #  6 [EXACT_SLUG_MATCH  ] Learning Operations (LearningOps): The Complete Guide to Scaling Corporate Training -> learning-operations-learningops-the-complete-guide-to-scaling-corporate-training
+  7. #  7 [EXACT_SLUG_MATCH  ] SCORM Cloud Explained: What It Is and When You Need It -> scorm-cloud-explained-what-it-is-and-when-you-need-it
+  8. #  8 [EXACT_SLUG_MATCH  ] How to Create an AI Tutor Inside Your LMS -> how-to-create-an-ai-tutor-inside-your-lms
+  9. #  9 [EXACT_SLUG_MATCH  ] LMS Request for Proposal (RFP): Free Template + Complete Guide -> lms-request-for-proposal-rfp-free-template-complete-guide
+ 10. # 10 [EXACT_SLUG_MATCH  ] Skills-Based Learning or Traditional Training? Which Works Better? -> skills-based-learning-or-traditional-training-which-works-better
+ 11. # 11 [EXACT_SLUG_MATCH  ] LMS User Adoption: 15 Proven Ways to Increase Employee Engagement -> lms-user-adoption-15-proven-ways-to-increase-employee-engagement
+ 12. # 12 [TITLE_MATCH       ] LMS Integration: How to Connect HRIS, CRM, Slack & Teams -> lms-integration-how-to-connect-hris-crm-slack-and-teams
+ 13. # 13 [EXACT_SLUG_MATCH  ] Kajabi Analytics: The Complete Guide to Tracking Course Performance in 2026 -> kajabi-analytics-the-complete-guide-to-tracking-course-performance-in-2026
+ 14. # 14 [TITLE_MATCH       ] Kajabi Membership Site Guide 2026 -> internal-academy-software-15-must-have-features-in-2026-2
+ 15. # 15 [EXACT_SLUG_MATCH  ] How to Migrate to a New LMS: A Complete Checklist for 2026 -> how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026
+ 16. # 16 [EXACT_SLUG_MATCH  ] Choosing Between an LXP and LMS: Everything You Need to Know -> choosing-between-an-lxp-and-lms-everything-you-need-to-know
+ 17. # 17 [EXACT_SLUG_MATCH  ] ADA and WCAG Compliance for eLearning: A Simple Self-Audit Checklist -> ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist
+ 18. # 18 [TITLE_MATCH       ] Corporate Training ROI Calculator: How to Measure Learning Effectiveness -> ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist-1
+ 19. # 19 [EXACT_SLUG_MATCH  ] xAPI Learning Record Store (LRS): Everything You Need to Know in 2026 -> xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026
+ 20. # 20 [EXACT_SLUG_MATCH  ] Model Context Protocol (MCP) for LMS: Everything You Need to Know -> model-context-protocol-mcp-for-lms-everything-you-need-to-know
+ 21. # 21 [EXACT_SLUG_MATCH  ] How to Create a SCORM Course Without Coding -> how-to-create-a-scorm-course-without-coding
+ 22. # 22 [TITLE_MATCH       ] xAPI vs SCORM: Everything You Need to Know Before Choosing an LMS in 2026 -> scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd
+ 23. # 23 [EXACT_SLUG_MATCH  ] Kajabi CRM: How to Manage Leads and Students in One Place -> kajabi-crm-how-to-manage-leads-and-students-in-one-place
+ 24. # 24 [EXACT_SLUG_MATCH  ] How to Convert Legacy Training Content to Modern eLearning -> how-to-convert-legacy-training-content-to-modern-elearning
+ 25. # 25 [EXACT_SLUG_MATCH  ] How to Build a Corporate eLearning Program on a Budget: A Complete 2026 Guide -> how-to-build-a-corporate-elearning-program-on-a-budget-a-complete-2026-guide
+ 26. # 26 [TITLE_MATCH       ] Kajabi Email Strategy: How to Use Broadcasts and Sequences Effectively -> kajabi-crm-how-to-manage-leads-and-students-in-one-place-2
+ 27. # 27 [EXACT_SLUG_MATCH  ] AI-Powered Learning: A Smarter Way to Train and Upskill Employees -> ai-powered-learning-a-smarter-way-to-train-and-upskill-employees
+ 28. # 28 [EXACT_SLUG_MATCH  ] AI vs. Traditional Instructional Design: Which Delivers Better Learning Outcomes? -> ai-vs-traditional-instructional-design-which-delivers-better-learning-outcomes
+ 29. # 29 [EXACT_SLUG_MATCH  ] How to Choose the Right LMS for Your Organisation in 2026: -> how-to-choose-the-right-lms-for-your-organisation-in-2026
+ 30. # 30 [EXACT_SLUG_MATCH  ] How to Run Kajabi Email Campaigns Successfully -> how-to-run-kajabi-email-campaigns-successfully
+ 31. # 31 [EXACT_SLUG_MATCH  ] Kajabi Automation Workflows: How to Scale Smarter and Sell More Courses in 2026 -> kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026
+ 32. # 32 [EXACT_SLUG_MATCH  ] Kajabi vs ClickFunnels: The Best Platform for Creators in 2026 -> kajabi-vs-clickfunnels-the-best-platform-for-creators-in-2026
+ 33. # 33 [EXACT_SLUG_MATCH  ] Increase Online Course Traffic with the Best Kajabi SEO Services -> increase-online-course-traffic-with-the-best-kajabi-seo-services
+ 34. # 34 [TITLE_MATCH       ] Instructional Designer vs Curriculum Developer: Key Differences and How They Work Together -> kajabi-crm-how-to-manage-leads-and-students-in-one-place-1
+ 35. # 35 [MISSING           ] Kajabi Google Analytics Integration Guide: GA4 Setup & Tracking 
+ 36. # 36 [MISSING           ] From Classroom to eLearning: How to Design Effective Online Courses 
+ 37. # 37 [MISSING           ] How to Integrate AI Tools with Your Existing LMS? 
+ 38. # 38 [MISSING           ] Build Your Online Course Yourself or Hire Course Creation Experts? 
+ 39. # 39 [MISSING           ] Best Teachable Alternatives: Compare the Top LMS Platforms (2026) 
+ 40. # 40 [MISSING           ] LMS vs LXP: A Complete Comparison for L&D Professionals 
+ 41. # 41 [EXACT_SLUG_MATCH  ] Proven Kajabi Conversion Optimization Best Practices -> proven-kajabi-conversion-optimization-best-practices
+ 42. # 42 [MISSING           ] AI in eLearning: The Complete Guide to Smarter Digital Learning 
+ 43. # 43 [MISSING           ] How to Use LearnDash SCORM for Enterprise Tracking 
+ 44. # 44 [MISSING           ] ICTLE Conference 2026: Everything You need to Know 
+ 45. # 45 [MISSING           ] How to Migrate Teachable to LearnDash: A Step-by-Step Guide 
+ 46. # 46 [MISSING           ] How to Grow Organic Traffic on Kajabi? 
+ 47. # 47 [EXACT_SLUG_MATCH  ] How to Master Kajabi Keyword Research for Higher Rankings -> how-to-master-kajabi-keyword-research-for-higher-rankings
+ 48. # 48 [MISSING           ] 7 Powerful Reasons Why Microlearning Is the Future of Employee Training 
+ 49. # 49 [MISSING           ] Professional Video Workshops for Kajabi, Skool & Funnels in Australia 
+ 50. # 50 [MISSING           ] VR Training Costs: The Complete Guide for L&D Teams 
+ 51. # 51 [MISSING           ] The Ultimate Guide to AR and VR in Online Learning in 2026 
+ 52. # 52 [MISSING           ] LearnDash vs Kajabi: Which Platform Should You Choose? 
+ 53. # 53 [MISSING           ] Is It Worth Hiring an In-House Instructional Designer for Your Company? 
+ 54. # 54 [MISSING           ] How to Master LMS VR Integration: A Proven Roadmap 
+ 55. # 55 [MISSING           ] Kajabi Blogging Strategy: A Complete Guide for Course Creators 
+ 56. # 56 [MISSING           ] Kajabi AI Features in 2026: What’s New and How They Improve Course Creation 
+ 57. # 57 [MISSING           ] Kajabi Website Speed Optimization: Strong Tips by The EduAssist 
+ 58. # 58 [MISSING           ] Kajabi Major Updates 2026: AI Cofounder, Expert Agents, Amplify & More 
+ 59. # 59 [EXACT_SLUG_MATCH  ] Kajabi Sales Automation: Why Your Sales Funnel Is Broken and How to Fix It? -> kajabi-sales-automation-why-your-sales-funnel-is-broken-and-how-to-fix-it
+ 60. # 60 [MISSING           ] Kajabi Templates Explained: Types, Benefits, Uses, and How to Choose the Right One 
+ 61. # 61 [MISSING           ] How to launch your Kajabi course without the Stress 
+ 62. # 62 [MISSING           ] 7 Common Mistakes In Kajabi Course Uploading To Avoid 
+ 63. # 63 [MISSING           ] Best Kajabi Website and Funnel Setup Services for 2026 Growth 
+ 64. # 64 [MISSING           ] Your guide to Kajabi emails that people love to read 
+ 65. # 65 [MISSING           ] The Simple Way to Automate Your Sales With Kajabi Pipelines 
+ 66. # 66 [MISSING           ] Instructional Designer vs Developer: The Best Choice for Your Course 
+ 67. # 67 [MISSING           ] How to Build a Future-Proof AI Upskilling Strategy In 2026 
+ 68. # 68 [MISSING           ] How to Create Online Courses with LifterLMS 
+ 69. # 69 [MISSING           ] Is Absorb LMS right for small business?The strong EduAssist Guide 
+ 70. # 70 [MISSING           ] Can AR and VR Really Improve Learning Outcomes? 
+ 71. # 71 [MISSING           ] How to Use Kajabi Gamification in 2026: Boost Learner Motivation and Community Engagement Fast 
+ 72. # 72 [MISSING           ] Why You Should Switch to Kajabi: The Ultimate Website Migration Guide 
+ 73. # 73 [MISSING           ] Make More Money While you sleep with Kajabi Email Automation 
+ 74. # 74 [MISSING           ] Best Learning Management System (LMS) for 2026 
+ 75. # 75 [MISSING           ] The easy guide to finding your first Kajabi affiliates 
+ 76. # 76 [MISSING           ] Podia vs Teachable: Which Platform Should You Choose in 2026? 
+ 77. # 77 [MISSING           ] Is Podia Good for Beginners Starting an Online Business: Assessing Ease of Use for New Users 
+ 78. # 78 [MISSING           ] Best ways to link your CRM to Kajabi right now 
+ 79. # 79 [MISSING           ] Best Kajabi Website Templates for Online Businesses in 2026 
+ 80. # 80 [MISSING           ] How to Build a LifterLMS Employee Training Portal 
+ 81. # 81 [MISSING           ] How to find the best Kajabi marketing pros? 
+ 82. # 82 [MISSING           ] Microlearning: The Ultimate Guide of TheEduAssist 
+ 83. # 83 [MISSING           ] Kajabi Lead Generation Funnels That Convert Better 
+ 84. # 84 [MISSING           ] Employee Development Programs for Better ROI & Growth 
+ 85. # 85 [MISSING           ] Kajabi Email Marketing Funnels For Better Course Sales 
+ 86. # 87 [MISSING           ] How Can Corporate Training Actually Improve Employee Engagement? 
+ 87. # 87 [MISSING           ] Is Teachable the best platform for offering online courses? 
+ 88. # 88 [MISSING           ] How to Maximize Your Sales with the Kajabi Funnel Builder 
+ 89. # 89 [TITLE_MATCH       ] How to Build a Kajabi Webinar Funnel (Step-by-Step Guide for 2026) -> how-to-build-your-first-kajabi-webinar-funnel
+ 90. # 90 [MISSING           ] How to Optimize Your Kajabi Landing Page for Conversions? 
+ 91. # 91 [MISSING           ] A Step-by-Step Guide to Finding the Best Kajabi Design Services 
+ 92. # 92 [MISSING           ] The Future Of Sales With Kajabi Funnels: Leveraging Kajabi For Growth 
+ 93. # 93 [MISSING           ] How to Create a Portal in Kajabi Training Platform 
+ 94. # 94 [MISSING           ] Best Free and Paid Kajabi Course Templates & Themes for 2026 
+ 95. # 95 [MISSING           ] 7 Common Mistakes In Kajabi Course Uploading To Avoid 
+ 96. # 96 [MISSING           ] What Are the Best Practices for Kajabi Drip Course Setup? 
+ 97. # 97 [MISSING           ] How to Create Digital Products with Kajabi? 
+ 98. # 98 [MISSING           ] Quick Tips for Setting Up Kajabi Coaching Program 
+ 99. # 99 [MISSING           ] Kajabi Membership Sites: What Are the Best Practices? 
+100. #100 [MISSING           ] 7 Powerful Kajabi Course Creation Services That Skyrocket Sales 
+101. #101 [MISSING           ] Kajabi: How to Set Up a Strong Online Course? 
+102. #102 [MISSING           ] LMS Integration: The Most Important Systems to Connect to Your LMS 
+103. #103 [MISSING           ] Discover Kajabi: The Most Popular Platform of eLearning world 
+104. #104 [MISSING           ] Is Adobe Captivate Worth the Cost? Full Pricing & Alternatives Breakdown 
+105. #105 [MISSING           ] LifterLMS: Is It Still the Best WordPress LMS ? 
+106. #106 [MISSING           ] Zero Downtime LMS Migration: The Ultimate Guide to No-Disruption Transition 
+107. #107 [MISSING           ] LMS Migration Cost Guide for Enterprises: Budget Planning Made Simple 
+108. #108 [MISSING           ] Can Synthesia Replace Your Video Production Team in 2026? Ultimate Guide 
+109. #109 [MISSING           ] Moodle: eLearning With The Best Online Learning Management System 
+110. #110 [MISSING           ] The Ultimate LMS Migration Timeline for a Smooth Platform Transition 
+111. #111 [MISSING           ] Is Synthesia Worth It In 2026: ROI, Costs & Genuine Verdict 
+112. #112 [MISSING           ] Is Podia worth the Money? Discover its strong features 
+113. #113 [MISSING           ] Easy LMS Migration: Best Practices for Moving Data Safely 
+114. #114 [MISSING           ] 9 Best Online Learning Platforms (Tried and Tested 2026) 
+115. #116 [MISSING           ] Kajabi vs Teachable: Which One is better for Your Business? 
+116. #117 [MISSING           ] LMS Migration Checklist: Simple Steps for a Smooth Switch 
+117. #118 [EXACT_SLUG_MATCH  ] Is a Skool Community Actually Worth Creating in 2026? -> is-a-skool-community-actually-worth-creating-in-2026
+118. #119 [EXACT_SLUG_MATCH  ] How to Use Teachable?(Step-by-Step Guide for Beginners) -> how-to-use-teachable-step-by-step-guide-for-beginners
+119. #120 [EXACT_SLUG_MATCH  ] Udemy vs Teachable: The Ultimate Guide for Course Creators in 2026 -> udemy-vs-teachable-the-ultimate-guide-for-course-creators-in-2026
+120. #121 [EXACT_SLUG_MATCH  ] Strong Best Microlearning Platforms for Professionals in the US -> strong-best-microlearning-platforms-for-professionals-in-the-us
+121. #122 [EXACT_SLUG_MATCH  ] “How to Create a Thinkific Course: 7 Proven Steps” -> how-to-create-a-thinkific-course-7-proven-steps
+122. #123 [EXACT_SLUG_MATCH  ] 2026 Best Non-Technical SCORM Course Creation Tools: Easy No-Code Guide -> 2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide
+123. #124 [EXACT_SLUG_MATCH  ] In-House vs Outsourcing eLearning Development: Which Is Really Better? -> in-house-vs-outsourcing-elearning-development-which-is-really-better
+124. #125 [EXACT_SLUG_MATCH  ] Complete eLearning Pricing and Course Creation Guide for Moodle -> complete-elearning-pricing-and-course-creation-guide-for-moodle
+125. #126 [EXACT_SLUG_MATCH  ] 5 Strong Massive Benefits of Microlearning for Employee Training -> 5-strong-massive-benefits-of-microlearning-for-employee-training
+126. #127 [EXACT_SLUG_MATCH  ] Profitable and Thrilling STAAD Course with Instructional Design -> profitable-and-thrilling-staad-course-with-instructional-design
+127. #128 [EXACT_SLUG_MATCH  ] Thinkific Courses that Learners of US Actually Complete -> thinkific-courses-that-learners-of-us-actually-complete
+128. #129 [CLOSE_SLUG_MATCH  ] Instructional Design: How to Launch Scalable, Thrilling Video Training Program -> how-to-launch-scalable-thrilling-video-training-program
+129. #130 [EXACT_SLUG_MATCH  ] How to Build a Massive High-Ticket Funnel in 20 Days -> how-to-build-a-massive-high-ticket-funnel-in-20-days
+130. #131 [MISSING           ] From Completion Rates to Strong Behavior:What eLearning Success Really Means? 
+131. #132 [EXACT_SLUG_MATCH  ] The Complete Guide to Creating Engaging IT Classes for Ohio Teenagers -> the-complete-guide-to-creating-engaging-it-classes-for-ohio-teenagers
+132. #133 [EXACT_SLUG_MATCH  ] 10 Strong Competitor Analysis Tools To Benchmark Your eLearning -> 10-strong-competitor-analysis-tools-to-benchmark-your-elearning
+133. #134 [EXACT_SLUG_MATCH  ] How to Build a 15 Hour Financial Literacy Program -> how-to-build-a-15-hour-financial-literacy-program
+134. #135 [TITLE_MATCH       ] Create Wellbeing Product Content for Brands in New York -> internal-academy-software-15-must-have-features-in-2026-1
+135. #136 [EXACT_SLUG_MATCH  ] 7 Thrilling Proven Ways to Measure Training ROI: TheEduAssist -> 7-thrilling-proven-ways-to-measure-training-roi-theeduassist
