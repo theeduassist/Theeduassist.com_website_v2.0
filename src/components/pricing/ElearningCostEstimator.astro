@@ -1,0 +1,354 @@
+---
+import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, CheckCircle2, Layers } from "lucide-react";
+---
+
+<div class="bg-white rounded-3xl border border-slate-200 shadow-xl overflow-hidden" id="estimator">
+  <div class="bg-gradient-to-r from-[#0B1F3A] via-[#11324D] to-[#27496D] text-white p-6 sm:p-8">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/20 text-teal-300 border border-teal-400/30 text-xs font-bold uppercase mb-2">
+          <Calculator className="w-3.5 h-3.5" />
+          Interactive Scoping Tool
+        </div>
+        <h3 class="text-2xl sm:text-3xl font-extrabold text-white">eLearning Project Cost & Timeline Estimator</h3>
+        <p class="text-slate-300 text-sm mt-1 max-w-xl">
+          Configure your course scope, authoring tool, and interactivity requirements to calculate an immediate budget range and sprint timeline.
+        </p>
+      </div>
+      <div class="hidden sm:block text-right">
+        <span class="text-xs text-slate-400 block">Pricing Model</span>
+        <span class="text-sm font-bold text-teal-300">Milestone SOW • Zero Hidden Fees</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-6 sm:p-8 lg:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <!-- Controls (Left 7 Cols) -->
+    <div class="lg:col-span-7 space-y-6">
+      
+      <!-- Step 1: Format & Authoring Stack -->
+      <div>
+        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2.5">
+          Step 1: Authoring Stack & Format
+        </label>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="format-options">
+          <button type="button" data-format="storyline" class="format-btn active text-left p-3.5 rounded-xl border-2 border-teal-600 bg-teal-50/50 transition-all">
+            <div class="font-bold text-slate-900 text-sm">Articulate Storyline 360</div>
+            <div class="text-xs text-slate-500 mt-0.5">Custom SCORM/xAPI, branching & triggers</div>
+          </button>
+          <button type="button" data-format="rise" class="format-btn text-left p-3.5 rounded-xl border border-slate-200 hover:border-slate-300 bg-slate-50 transition-all">
+            <div class="font-bold text-slate-900 text-sm">Articulate Rise 360</div>
+            <div class="text-xs text-slate-500 mt-0.5">Rapid, responsive mobile microlearning</div>
+          </button>
+          <button type="button" data-format="kajabi" class="format-btn text-left p-3.5 rounded-xl border border-slate-200 hover:border-slate-300 bg-slate-50 transition-all">
+            <div class="font-bold text-slate-900 text-sm">Turnkey Kajabi Academy</div>
+            <div class="text-xs text-slate-500 mt-0.5">Funnels, portals, checkout & community</div>
+          </button>
+          <button type="button" data-format="canvas" class="format-btn text-left p-3.5 rounded-xl border border-slate-200 hover:border-slate-300 bg-slate-50 transition-all">
+            <div class="font-bold text-slate-900 text-sm">Higher Ed / Canvas Shell</div>
+            <div class="text-xs text-slate-500 mt-0.5">QM-aligned university course modules</div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Step 2: Course Volume / Number of Modules -->
+      <div>
+        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2.5">
+          Step 2: Number of Modules / Scope
+        </label>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5" id="volume-options">
+          <button type="button" data-volume="1" class="volume-btn text-center p-3 rounded-xl border border-slate-200 hover:border-slate-300 bg-slate-50 transition-all">
+            <div class="font-bold text-slate-900 text-sm">1 Module</div>
+            <div class="text-[11px] text-slate-500">Pilot / Rapid SOW</div>
+          </button>
+          <button type="button" data-volume="3" class="volume-btn active text-center p-3 rounded-xl border-2 border-teal-600 bg-teal-50/50 transition-all">
+            <div class="font-bold text-slate-900 text-sm">3–5 Modules</div>
+            <div class="text-[11px] text-slate-500">Standard Course</div>
+          </button>
+          <button type="button" data-volume="8" class="volume-btn text-center p-3 rounded-xl border border-slate-200 hover:border-slate-300 bg-slate-50 transition-all">
+            <div class="font-bold text-slate-900 text-sm">6–10 Modules</div>
+            <div class="text-[11px] text-slate-500">Flagship Program</div>
+          </button>
+          <button type="button" data-volume="15" class="volume-btn text-center p-3 rounded-xl border border-slate-200 hover:border-slate-300 bg-slate-50 transition-all">
+            <div class="font-bold text-slate-900 text-sm">10+ Modules</div>
+            <div class="text-[11px] text-slate-500">Full Academy</div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Step 3: Interactivity Level -->
+      <div>
+        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2.5">
+          Step 3: Interactivity & Pedagogy Level
+        </label>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3" id="level-options">
+          <button type="button" data-level="1" class="level-btn text-left p-3 rounded-xl border border-slate-200 hover:border-slate-300 bg-slate-50 transition-all">
+            <div class="font-bold text-slate-900 text-xs">Level 1: Passive/Linear</div>
+            <div class="text-[11px] text-slate-500 mt-1">Slides, narration, knowledge checks</div>
+          </button>
+          <button type="button" data-level="2" class="level-btn active text-left p-3 rounded-xl border-2 border-teal-600 bg-teal-50/50 transition-all">
+            <div class="font-bold text-slate-900 text-xs">Level 2: Applied Interactivity</div>
+            <div class="text-[11px] text-slate-500 mt-1">Branching scenarios, exercises, drag-and-drop</div>
+          </button>
+          <button type="button" data-level="3" class="level-btn text-left p-3 rounded-xl border border-slate-200 hover:border-slate-300 bg-slate-50 transition-all">
+            <div class="font-bold text-slate-900 text-xs">Level 3: Advanced Simulations</div>
+            <div class="text-[11px] text-slate-500 mt-1">Complex gamification, multi-path logic</div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Step 4: Optional Enterprise Add-ons -->
+      <div>
+        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2.5">
+          Step 4: Specialized Enterprise Add-Ons
+        </label>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="addon-options">
+          <label class="flex items-center gap-3 p-3 rounded-xl border border-slate-200 hover:bg-slate-50 cursor-pointer">
+            <input type="checkbox" id="addon-wcag" class="w-4 h-4 text-teal-600 rounded focus:ring-teal-500 border-slate-300" />
+            <div>
+              <div class="text-xs font-bold text-slate-900">Section 508 & WCAG 2.1 AA VPAT</div>
+              <div class="text-[11px] text-slate-500">Screen reader & keyboard navigation audit</div>
+            </div>
+          </label>
+
+          <label class="flex items-center gap-3 p-3 rounded-xl border border-slate-200 hover:bg-slate-50 cursor-pointer">
+            <input type="checkbox" id="addon-bilingual" class="w-4 h-4 text-teal-600 rounded focus:ring-teal-500 border-slate-300" />
+            <div>
+              <div class="text-xs font-bold text-slate-900">Bilingual Arabic/English RTL</div>
+              <div class="text-[11px] text-slate-500">GCC HSE safety & cultural localization</div>
+            </div>
+          </label>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Live Calculation Output (Right 5 Cols) -->
+    <div class="lg:col-span-5 flex flex-col justify-between bg-slate-900 text-white rounded-2xl p-6 sm:p-8 border border-slate-800 shadow-lg">
+      <div class="space-y-6">
+        <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+          <div>
+            <span class="text-xs text-teal-400 font-bold uppercase tracking-wider">Estimated Project Scope</span>
+            <h4 class="text-lg font-bold text-white mt-0.5" id="estimate-headline">Standard Course Sprint</h4>
+          </div>
+          <span class="px-2.5 py-1 rounded-full bg-teal-500/20 text-teal-300 text-xs font-bold border border-teal-500/30">
+            Fixed SOW
+          </span>
+        </div>
+
+        <!-- Investment Range Display -->
+        <div class="space-y-2">
+          <div class="text-xs text-slate-400 font-medium">Estimated TheEduAssist Investment:</div>
+          <div class="text-3xl sm:text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-teal-300 via-emerald-300 to-amber-300" id="price-range">
+            $2,800 – $4,200 USD
+          </div>
+          <div class="flex items-center gap-2 text-xs text-slate-400 pt-1">
+            <span class="line-through text-slate-500" id="western-agency-price">US/UK Agency: $7,500 – $12,000</span>
+            <span class="text-emerald-400 font-bold" id="savings-badge">Save ~60%</span>
+          </div>
+        </div>
+
+        <!-- Estimated Timeline -->
+        <div class="p-4 bg-white/5 rounded-xl border border-white/10 space-y-1">
+          <div class="flex items-center justify-between text-xs text-slate-300">
+            <span class="flex items-center gap-1.5">
+              <Clock className="w-3.5 h-3.5 text-teal-400" />
+              Estimated Production Timeline:
+            </span>
+            <span class="font-bold text-white" id="timeline-display">3–4 Weeks</span>
+          </div>
+          <div class="text-[11px] text-slate-400">
+            Weekly sprint syncs • 24–48h draft review turnaround
+          </div>
+        </div>
+
+        <!-- Deliverables Summary -->
+        <div class="space-y-2 text-xs text-slate-300">
+          <div class="font-bold text-white text-xs uppercase tracking-wider">What's Included:</div>
+          <ul class="space-y-1.5" id="deliverables-list">
+            <li class="flex items-center gap-2">
+              <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+              <span>Full Bloom's Taxonomy Curriculum Blueprint</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+              <span>Interactive Storyline 360 / SCORM Packages</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+              <span>Full Raw Source Files & IP Assignment</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <CheckCircle2 className="w-3.5 h-3.5 text-teal-400 shrink-0" />
+              <span>60-Day Post-Launch Bug Warranty</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Action Button -->
+      <div class="mt-8 pt-6 border-t border-slate-800 space-y-3">
+        <a 
+          href="/book-free-audit/" 
+          id="estimator-cta"
+          class="btn-shimmer w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-black text-sm bg-teal-500 hover:bg-teal-400 text-slate-950 shadow-lg shadow-teal-500/25 transition-all text-center"
+        >
+          Book Free Review With This Scope
+          <ArrowRight className="w-4 h-4 ml-2" />
+        </a>
+        <p class="text-[11px] text-slate-400 text-center">
+          Transparent SOW agreement • Non-disclosure agreement (NDA) signed upon request.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function initEstimator() {
+    const formatBtns = document.querySelectorAll('#format-options .format-btn');
+    const volumeBtns = document.querySelectorAll('#volume-options .volume-btn');
+    const levelBtns = document.querySelectorAll('#level-options .level-btn');
+    const wcagAddon = document.getElementById('addon-wcag') as HTMLInputElement | null;
+    const bilingualAddon = document.getElementById('addon-bilingual') as HTMLInputElement | null;
+
+    const headlineEl = document.getElementById('estimate-headline');
+    const priceRangeEl = document.getElementById('price-range');
+    const westernPriceEl = document.getElementById('western-agency-price');
+    const savingsEl = document.getElementById('savings-badge');
+    const timelineEl = document.getElementById('timeline-display');
+    const ctaEl = document.getElementById('estimator-cta') as HTMLAnchorElement | null;
+
+    let selectedFormat = 'storyline';
+    let selectedVolume = 3;
+    let selectedLevel = 2;
+
+    function recalculate() {
+      // Base per module calculation
+      let baseMinPerMod = 600;
+      let baseMaxPerMod = 900;
+      let weeks = 3;
+
+      if (selectedFormat === 'rise') {
+        baseMinPerMod = 450;
+        baseMaxPerMod = 650;
+      } else if (selectedFormat === 'kajabi') {
+        baseMinPerMod = 500;
+        baseMaxPerMod = 800;
+      } else if (selectedFormat === 'canvas') {
+        baseMinPerMod = 700;
+        baseMaxPerMod = 1100;
+      }
+
+      // Interactivity multiplier
+      if (selectedLevel === 1) {
+        baseMinPerMod *= 0.85;
+        baseMaxPerMod *= 0.85;
+      } else if (selectedLevel === 3) {
+        baseMinPerMod *= 1.35;
+        baseMaxPerMod *= 1.45;
+      }
+
+      // Add-ons
+      let addonCost = 0;
+      if (wcagAddon?.checked) addonCost += 600;
+      if (bilingualAddon?.checked) addonCost += 800;
+
+      let totalMin = Math.round((baseMinPerMod * selectedVolume) + addonCost);
+      let totalMax = Math.round((baseMaxPerMod * selectedVolume) + (addonCost * 1.25));
+
+      // Calculate timeline
+      if (selectedVolume === 1) {
+        weeks = 1;
+      } else if (selectedVolume === 3) {
+        weeks = 3;
+      } else if (selectedVolume === 8) {
+        weeks = 5;
+      } else {
+        weeks = 8;
+      }
+
+      if (selectedLevel === 3 || wcagAddon?.checked) {
+        weeks += 1;
+      }
+
+      // Western agency comparison (~2.5x to 3x)
+      let westernMin = Math.round(totalMin * 2.6);
+      let westernMax = Math.round(totalMax * 2.8);
+
+      if (priceRangeEl) {
+        priceRangeEl.textContent = `$${totalMin.toLocaleString()} – $${totalMax.toLocaleString()} USD`;
+      }
+      if (westernPriceEl) {
+        westernPriceEl.textContent = `US/UK Agency: $${westernMin.toLocaleString()} – $${westernMax.toLocaleString()}`;
+      }
+      if (savingsEl) {
+        savingsEl.textContent = `Save ~60%`;
+      }
+      if (timelineEl) {
+        timelineEl.textContent = `${weeks}–${weeks + 1} Weeks`;
+      }
+      if (headlineEl) {
+        if (selectedVolume === 1) headlineEl.textContent = "Rapid Pilot Sprint";
+        else if (selectedVolume === 3) headlineEl.textContent = "Standard Course Sprint";
+        else if (selectedVolume === 8) headlineEl.textContent = "Flagship Curriculum Sprint";
+        else headlineEl.textContent = "Enterprise Academy Program";
+      }
+
+      if (ctaEl) {
+        ctaEl.href = `/book-free-audit/?format=${selectedFormat}&volume=${selectedVolume}&level=${selectedLevel}`;
+      }
+    }
+
+    formatBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        formatBtns.forEach(b => {
+          b.classList.remove('active', 'border-teal-600', 'bg-teal-50/50', 'border-2');
+          b.classList.add('border-slate-200', 'bg-slate-50', 'border');
+        });
+        btn.classList.add('active', 'border-teal-600', 'bg-teal-50/50', 'border-2');
+        btn.classList.remove('border-slate-200', 'bg-slate-50', 'border');
+        selectedFormat = btn.getAttribute('data-format') || 'storyline';
+        recalculate();
+      });
+    });
+
+    volumeBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        volumeBtns.forEach(b => {
+          b.classList.remove('active', 'border-teal-600', 'bg-teal-50/50', 'border-2');
+          b.classList.add('border-slate-200', 'bg-slate-50', 'border');
+        });
+        btn.classList.add('active', 'border-teal-600', 'bg-teal-50/50', 'border-2');
+        btn.classList.remove('border-slate-200', 'bg-slate-50', 'border');
+        selectedVolume = parseInt(btn.getAttribute('data-volume') || '3', 10);
+        recalculate();
+      });
+    });
+
+    levelBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        levelBtns.forEach(b => {
+          b.classList.remove('active', 'border-teal-600', 'bg-teal-50/50', 'border-2');
+          b.classList.add('border-slate-200', 'bg-slate-50', 'border');
+        });
+        btn.classList.add('active', 'border-teal-600', 'bg-teal-50/50', 'border-2');
+        btn.classList.remove('border-slate-200', 'bg-slate-50', 'border');
+        selectedLevel = parseInt(btn.getAttribute('data-level') || '2', 10);
+        recalculate();
+      });
+    });
+
+    wcagAddon?.addEventListener('change', recalculate);
+    bilingualAddon?.addEventListener('change', recalculate);
+
+    recalculate();
+  }
+
+  // Initialize on load
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initEstimator);
+  } else {
+    initEstimator();
+  }
+</script>
