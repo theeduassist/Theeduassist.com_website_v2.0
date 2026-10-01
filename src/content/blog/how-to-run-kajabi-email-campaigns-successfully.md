@@ -66,6 +66,37 @@ editorialManagement:
   scheduledPublicationDate: 2026-10-01
   lastReviewedDate: 2026-10-01
   nextReviewDate: 2026-10-01
+keyTakeaways:
+  - Segment your email list to send relevant content to the right audience.
+  - Use Broadcasts and Sequences for one-time emails and automated campaigns.
+  - Build welcome, nurture, and launch sequences to guide subscribers through
+    the customer journey.
+  - Connect email campaigns with Kajabi Automations to save time and personalize
+    communication.
+  - Track performance and improve continuously using opens, clicks,
+    unsubscribes, and sequence analytics.
+faqs:
+  - question: How Do I Set Up My First Email Campaign in Kajabi?
+    answer: Go to Marketing → Email Campaigns → New Broadcast, choose your audience
+      segment, write your email, and schedule or send it. For automated
+      sequences, go to Marketing → Sequences → New Sequence, set a trigger (like
+      a tag or purchase), add your emails with delays between them, and
+      activate.
+  - question: Can I Use Kajabi to Collect Emails With a Lead Magnet?
+    answer: Kajabi lets you easily build custom opt-in landing pages and pop-ups
+      specifically designed to deliver a lead magnet (like a free PDF or video)
+      to subscribers. Once they enter their email, Kajabi automatically adds
+      them to your contact list and can immediately trigger an automated email
+      with their download link
+  - question: " What’s the Best Way to Turn Email Subscribers Into Customers?"
+    answer: The best way to turn email subscribers into customers is by delivering
+      valuable, personalized content that builds trust and addresses their
+      needs. Pair engaging emails with clear calls-to-action and relevant offers
+      to guide subscribers toward making a purchase
+  - question: Can I A/B test emails in Kajabi?
+    answer: Yes. Kajabi’s Broadcast feature supports A/B subject line testing. You
+      send two versions to a portion of your list and Kajabi automatically sends
+      the winning version to the remainder.
 ---
 ## 1. Understanding Kajabi’s Email Marketing System
 
