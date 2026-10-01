@@ -39,6 +39,12 @@ export function organizationSchema() {
       "Australia",
       "United Arab Emirates"
     ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "PK",
+      "addressLocality": "Global Remote Delivery Center",
+      "description": "Borderless Global Remote Learning Studio with core delivery operations in Pakistan."
+    },
     "contactPoint": {
       "@type": "ContactPoint",
       "email": organizationEntity.contactPoint.email,

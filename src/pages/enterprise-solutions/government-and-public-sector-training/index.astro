@@ -13,7 +13,7 @@ import EnterpriseSolutionRelatedServices from '../../../components/enterprise-so
 import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
 import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
 import TrustBadgesStrip from '../../../components/ui/TrustBadgesStrip.astro';
-import { governmentServiceSchema, faqPageSchema } from '../../../lib/seo/schema';
+import { governmentServiceSchema, faqPageSchema, breadcrumbSchema } from '../../../lib/seo/schema';
 
 const audience = [
   "Federal, State, and Municipal Government Agencies",
@@ -167,7 +167,15 @@ const faqs = [
   title="Government & Public Sector Training Solutions | Section 508 & WCAG | TheEduAssist"
   description="Section 508 and WCAG 2.1 AA-compliant custom eLearning, workforce upskilling, and regulatory training development for federal, state, and municipal public sector agencies."
   canonicalPath="/enterprise-solutions/government-and-public-sector-training/"
-  jsonLd={[governmentServiceSchema(), faqPageSchema(faqs)]}
+  jsonLd={[
+    governmentServiceSchema(),
+    faqPageSchema(faqs),
+    breadcrumbSchema([
+      { name: "Home", urlPath: "/" },
+      { name: "Enterprise Solutions", urlPath: "/enterprise-solutions/" },
+      { name: "Government & Public Sector Training", urlPath: "/enterprise-solutions/government-and-public-sector-training/" }
+    ])
+  ]}
 >
   <main class="flex-auto">
     <EnterpriseSolutionHero

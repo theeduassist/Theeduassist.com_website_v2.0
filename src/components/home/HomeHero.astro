@@ -20,8 +20,8 @@ const { isReferenceHome = false } = Astro.props;
   </div>
 
   <!-- Glowing background gradient highlight -->
-  <div class="absolute -top-40 -left-40 w-96 h-96 bg-brand-green/15 rounded-full blur-3xl pointer-events-none"></div>
-  <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-blue-500/15 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute -top-40 -left-40 w-96 h-96 bg-brand-green/20 rounded-full blur-3xl pointer-events-none animate-ambient-drift"></div>
+  <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl pointer-events-none animate-ambient-drift" style="animation-delay: -6s;"></div>
 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
     <div class="w-full lg:w-1/2 space-y-8">
@@ -35,7 +35,7 @@ const { isReferenceHome = false } = Astro.props;
       <!-- Dual-Funnel Routing CTAs -->
       <div class="space-y-4 pt-4">
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href="/trust-centre/procurement/" class="inline-flex justify-center items-center px-6 py-3.5 border border-transparent text-base font-black rounded-lg text-slate-950 bg-[#77BA55] hover:bg-white hover:text-brand-navy transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#77BA55] focus:ring-offset-brand-navy">
+          <a href="/trust-centre/procurement/" class="btn-shimmer inline-flex justify-center items-center px-6 py-3.5 border border-transparent text-base font-black rounded-lg text-slate-950 bg-[#77BA55] hover:bg-white hover:text-brand-navy transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#77BA55] focus:ring-offset-brand-navy">
             Enterprise & Gov RFP Desk
             <ArrowRight className="ml-2 -mr-1 w-5 h-5 transition-transform group-hover:translate-x-1" />
           </a>

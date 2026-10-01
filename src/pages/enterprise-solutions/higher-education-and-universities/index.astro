@@ -14,7 +14,7 @@ import EnterpriseSolutionRelatedServices from '../../../components/enterprise-so
 import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
 import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
 import TrustBadgesStrip from '../../../components/ui/TrustBadgesStrip.astro';
-import { higherEducationServiceSchema, faqPageSchema } from '../../../lib/seo/schema';
+import { higherEducationServiceSchema, faqPageSchema, breadcrumbSchema } from '../../../lib/seo/schema';
 
 const audience = [
   "University Provosts & Academic Affairs Directors",
@@ -169,7 +169,12 @@ const faqs = [
 
 const jsonLd = [
   higherEducationServiceSchema(),
-  faqPageSchema(faqs)
+  faqPageSchema(faqs),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Enterprise Solutions", urlPath: "/enterprise-solutions/" },
+    { name: "Higher Education & Universities", urlPath: "/enterprise-solutions/higher-education-and-universities/" }
+  ])
 ];
 ---
 

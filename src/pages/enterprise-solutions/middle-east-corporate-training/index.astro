@@ -14,7 +14,7 @@ import EnterpriseSolutionRelatedServices from '../../../components/enterprise-so
 import ServiceFAQ from '../../../components/service-page/ServiceFAQ.astro';
 import ServiceFinalCTA from '../../../components/service-page/ServiceFinalCTA.astro';
 import TrustBadgesStrip from '../../../components/ui/TrustBadgesStrip.astro';
-import { gccEnterpriseTrainingSchema, faqPageSchema } from '../../../lib/seo/schema';
+import { gccEnterpriseTrainingSchema, faqPageSchema, breadcrumbSchema } from '../../../lib/seo/schema';
 
 const audience = [
   "Saudi & GCC Industrial Conglomerates (Construction, EPC, Energy, Logistics)",
@@ -169,7 +169,12 @@ const faqs = [
 
 const jsonLd = [
   gccEnterpriseTrainingSchema(),
-  faqPageSchema(faqs)
+  faqPageSchema(faqs),
+  breadcrumbSchema([
+    { name: "Home", urlPath: "/" },
+    { name: "Enterprise Solutions", urlPath: "/enterprise-solutions/" },
+    { name: "Middle East & GCC Corporate Training", urlPath: "/enterprise-solutions/middle-east-corporate-training/" }
+  ])
 ];
 ---
 

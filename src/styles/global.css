@@ -116,6 +116,62 @@
   animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
+/* Ambient Drift Animation for Hero Lighting */
+@keyframes ambientDrift {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.16;
+  }
+  50% {
+    transform: translate(20px, -15px) scale(1.12);
+    opacity: 0.26;
+  }
+}
+
+.animate-ambient-drift {
+  animation: ambientDrift 12s ease-in-out infinite alternate;
+  will-change: transform, opacity;
+}
+
+/* Button Shimmer Effect for Primary CTAs */
+.btn-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-shimmer::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    transparent 20%,
+    rgba(255, 255, 255, 0.28) 50%,
+    transparent 80%
+  );
+  transform: translateX(-100%) rotate(25deg);
+  transition: transform 0.75s ease;
+  pointer-events: none;
+}
+
+.btn-shimmer:hover::after {
+  transform: translateX(100%) rotate(25deg);
+}
+
+/* Card Glow Lift Utility */
+.card-glow-lift {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+}
+
+.card-glow-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -15px rgba(39, 73, 109, 0.18), 0 0 20px -5px rgba(119, 186, 85, 0.25);
+  border-color: rgba(119, 186, 85, 0.45);
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.001ms !important;

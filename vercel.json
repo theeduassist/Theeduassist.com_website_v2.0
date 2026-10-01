@@ -133,6 +133,41 @@
       "permanent": true
     },
     {
+      "source": "/newsletter",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/newsletter/(.*)",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/social",
+      "destination": "/contact-us/",
+      "permanent": true
+    },
+    {
+      "source": "/accounts(.*)",
+      "destination": "/contact-us/",
+      "permanent": true
+    },
+    {
+      "source": "/users(.*)",
+      "destination": "/contact-us/",
+      "permanent": true
+    },
+    {
+      "source": "/email/(.*)",
+      "destination": "/contact-us/",
+      "permanent": true
+    },
+    {
+      "source": "/preview/about-us-train-me-rto-organization",
+      "destination": "/case-studies/",
+      "permanent": true
+    },
+    {
       "source": "/wp-admin(.*)",
       "destination": "/404",
       "permanent": false
