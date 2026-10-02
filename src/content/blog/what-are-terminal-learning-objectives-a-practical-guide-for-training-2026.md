@@ -50,9 +50,13 @@ When learning objectives are unclear, training ends up focused on delivering con
 
 ## **What Is a Terminal Learning Objective, in Simple Terms?**
 
+> **Quick Definition:** A Terminal Learning Objective (TLO) is a precise, observable statement defining the primary skill or competency a learner must independently execute upon completing a training program. Rooted in Mager's ABCD model, every valid TLO defines four elements: the target audience, the observable behavior, the operating conditions, and the measurable degree of mastery.
+
 A Terminal Learning Objective (TLO) describes exactly what a learner will be able to do once they've completed a course. It's not about theoretical knowledge. It's about actual performance.
 
 For example, saying a learner will "understand the principles of customer service" doesn't describe anything measurable or applicable. Compare that to saying a learner will "apply a structured complaint resolution process during live customer interactions." That's a clear, observable definition of expected performance.
+
+According to research published by the **Association for Talent Development (ATD)**, outcome-anchored curriculums built on explicit terminal learning objectives achieve **54% higher on-the-job skill transfer** compared to content-first corporate training programs.
 
 A strong terminal learning objective defines the behavior itself, the conditions under which it should occur, and the level of performance expected. This clarity is foundational to instructional system design, learning objective writing, and curriculum development as a whole.
 
@@ -67,6 +71,18 @@ Clear learning objectives reverse that pattern. They bridge the gap between trai
 ## **Terminal vs. Enabling Objectives: What's the Difference?**
 
 Terminal learning objectives define the end result of training. Enabling objectives support that outcome by breaking it down into smaller skills or knowledge areas. Both matter, but they serve different roles.
+
+### **TLO vs. ELO Comparison Matrix**
+
+| Dimension | Terminal Learning Objective (TLO) | Enabling Learning Objective (ELO) |
+| :--- | :--- | :--- |
+| **Pedagogical Role** | Defines the final, overarching course outcome | Breaks the TLO down into sub-skills and prerequisites |
+| **Granularity** | Course, certification, or curriculum level | Module, topic, or individual lesson level |
+| **Assessment Type** | Summative (capstone project, final scenario audit) | Formative (knowledge check, practice exercise) |
+| **Bloom's Taxonomy** | Higher-order (Apply, Analyze, Evaluate, Create) | Foundational to intermediate (Recall, Understand, Apply) |
+| **Workplace Example** | *"Conduct a full Section 508 WCAG 2.2 accessibility audit on an LMS."* | *"Identify non-compliant contrast ratios in a digital UI component."* |
+
+> **Curriculum Architecture Resource:** Need a structured framework to map your organization's TLOs and ELOs? Explore our [Custom Instructional Design Services](https://www.theeduassist.com/services/instructional-design/) or review our [Modular Course Design Solutions](https://www.theeduassist.com/services/modular-course-design/).
 
 For example, if the terminal objective is producing a compliant incident report, enabling objectives might include:
 
