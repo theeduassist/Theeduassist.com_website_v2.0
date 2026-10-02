@@ -185,18 +185,97 @@ On the horizon for late 2026 and 2027, Teachable’s product team has flagged:
 
 With these updates in place, is Teachable the right platform for your organization?
 
-```mermaid
-flowchart TD
-    Start["Evaluating Your Course Platform Needs"] --> B2B{"Selling B2B Team Seats or Global Video Courses?"}
-    B2B -- Yes --> Comm{"Do You Need a Native, Built-in Social Community?"}
-    B2B -- No --> Micro{"Need Simple Creator Hosting?"}
-    
-    Comm -- "No / Using Circle/Slack" --> TeachableFit["Teachable Is a Top Choice: Strong B2B, 35+ Payments & Mobile"]
-    Comm -- "Yes, Built-in Required" --> LWFit["Consider LearnWorlds or Kajabi for Native Social Networks"]
-    
-    Micro -- Yes --> TeachableFit
-    Micro -- No --> Alt["Explore Custom LMS or WordPress LearnDash"]
-```
+<div class="my-8 grid grid-cols-1 md:grid-cols-3 gap-6 not-prose">
+  <!-- Card 1: Teachable Best Fit -->
+  <div class="bg-gradient-to-br from-emerald-50 to-white border-2 border-emerald-500/30 rounded-2xl p-6 shadow-sm flex flex-col justify-between relative">
+    <div class="absolute -top-3 right-4 bg-emerald-600 text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full shadow-xs">
+      Recommended Fit
+    </div>
+    <div>
+      <div class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-xl mb-4">
+        ✓
+      </div>
+      <h3 class="text-xl font-bold text-slate-900 mb-2">Build on Teachable</h3>
+      <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+        Ideal for organizations, B2B training providers, and creators prioritizing international sales, offline mobile access, and bulk corporate licensing.
+      </p>
+      <ul class="text-xs text-slate-700 space-y-2 border-t border-emerald-100 pt-3">
+        <li class="flex items-center gap-2">
+          <span class="text-emerald-600 font-bold">✔</span> Selling B2B seat packages to corporate clients
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="text-emerald-600 font-bold">✔</span> 35+ local payment methods &amp; BNPL checkout
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="text-emerald-600 font-bold">✔</span> Deskless learners needing offline mobile access
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="text-emerald-600 font-bold">✔</span> Using external communities (Circle, Skool, Slack)
+        </li>
+      </ul>
+    </div>
+    <div class="mt-6 pt-4 border-t border-slate-100">
+      <span class="text-xs font-semibold text-emerald-800 uppercase tracking-wider block mb-1">Decision Verdict:</span>
+      <span class="text-xs text-slate-600">Top choice for scalable video academies &amp; B2B licensing.</span>
+    </div>
+  </div>
+
+  <!-- Card 2: LearnWorlds / Kajabi -->
+  <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col justify-between hover:border-slate-300 transition-colors">
+    <div>
+      <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-xl mb-4">
+        👥
+      </div>
+      <h3 class="text-xl font-bold text-slate-900 mb-2">Choose LearnWorlds or Kajabi</h3>
+      <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+        Required if you demand a fully native, deeply integrated social community without third-party tool subscriptions.
+      </p>
+      <ul class="text-xs text-slate-700 space-y-2 border-t border-slate-100 pt-3">
+        <li class="flex items-center gap-2">
+          <span class="text-blue-600 font-bold">✔</span> Built-in social network, user profiles &amp; feeds
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="text-blue-600 font-bold">✔</span> Advanced SCORM interactive widgets (LearnWorlds)
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="text-blue-600 font-bold">✔</span> Native podcasting, email &amp; funnel builder (Kajabi)
+        </li>
+      </ul>
+    </div>
+    <div class="mt-6 pt-4 border-t border-slate-100">
+      <span class="text-xs font-semibold text-blue-800 uppercase tracking-wider block mb-1">Decision Verdict:</span>
+      <span class="text-xs text-slate-600">Superior when community is your core value proposition.</span>
+    </div>
+  </div>
+
+  <!-- Card 3: Custom LMS / LearnDash -->
+  <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col justify-between hover:border-slate-300 transition-colors">
+    <div>
+      <div class="w-12 h-12 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center font-bold text-xl mb-4">
+        🔒
+      </div>
+      <h3 class="text-xl font-bold text-slate-900 mb-2">Build on Custom / LearnDash</h3>
+      <p class="text-sm text-slate-600 mb-4 leading-relaxed">
+        Best for regulated enterprises requiring complete self-hosted data ownership and open-source database control.
+      </p>
+      <ul class="text-xs text-slate-700 space-y-2 border-t border-slate-100 pt-3">
+        <li class="flex items-center gap-2">
+          <span class="text-purple-600 font-bold">✔</span> 100% data sovereignty &amp; on-premises hosting
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="text-purple-600 font-bold">✔</span> Custom ERP, xAPI, &amp; custom LRS architectures
+        </li>
+        <li class="flex items-center gap-2">
+          <span class="text-purple-600 font-bold">✔</span> Zero transaction fees or SaaS vendor lock-in
+        </li>
+      </ul>
+    </div>
+    <div class="mt-6 pt-4 border-t border-slate-100">
+      <span class="text-xs font-semibold text-purple-800 uppercase tracking-wider block mb-1">Decision Verdict:</span>
+      <span class="text-xs text-slate-600">Required for institutional governance &amp; custom security.</span>
+    </div>
+  </div>
+</div>
 
 * **Choose Teachable in 2026–2027 If:**
   * You sell courses internationally and need localized payment methods, Apple Pay, and BNPL.

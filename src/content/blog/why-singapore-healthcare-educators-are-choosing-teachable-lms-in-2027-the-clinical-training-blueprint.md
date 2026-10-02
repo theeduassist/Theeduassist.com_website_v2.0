@@ -153,12 +153,28 @@ Setting up a professional medical academy requires balancing clinical authentici
 
 ### **Our 4-Stage Healthcare Implementation Framework:**
 
-```mermaid
-flowchart LR
-    A["1. Clinical Strategy & Syllabus Mapping"] --> B["2. Interactive Asset & Video Production"]
-    B --> C["3. Teachable Architecture & PDPA Setup"]
-    C --> D["4. Verifiable CME Certification & Launch"]
-```
+<div class="my-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 not-prose">
+  <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-xs relative">
+    <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center text-sm mb-3">1</div>
+    <h4 class="font-bold text-slate-900 text-base mb-1">Clinical Strategy</h4>
+    <p class="text-xs text-slate-600 leading-relaxed">Syllabus mapping, Bloom's Taxonomy scaffolding, and CME/CPE credit accreditation planning.</p>
+  </div>
+  <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-xs relative">
+    <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center text-sm mb-3">2</div>
+    <h4 class="font-bold text-slate-900 text-base mb-1">Asset &amp; Video Production</h4>
+    <p class="text-xs text-slate-600 leading-relaxed">High-yield procedural filming, branching diagnostic dilemmas, and downloadable clinical calculators.</p>
+  </div>
+  <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-xs relative">
+    <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center text-sm mb-3">3</div>
+    <h4 class="font-bold text-slate-900 text-base mb-1">PDPA Architecture</h4>
+    <p class="text-xs text-slate-600 leading-relaxed">PHI de-identification, gated clinical cohort permissions, and encrypted video streaming setup.</p>
+  </div>
+  <div class="bg-white border border-slate-200 rounded-xl p-5 shadow-xs relative">
+    <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-800 font-bold flex items-center justify-center text-sm mb-3">4</div>
+    <h4 class="font-bold text-slate-900 text-base mb-1">Verifiable Launch</h4>
+    <p class="text-xs text-slate-600 leading-relaxed">Automated serialized certificate generation, Singapore statutory audit logs, and rollout.</p>
+  </div>
+</div>
 
 1. **Clinical Strategy & Syllabus Mapping:** We partner with your Subject Matter Experts (SMEs) to translate dense clinical guidelines into an engaging curriculum map using our proven [learning strategy](https://www.theeduassist.com/services/learning-strategy/) methodologies.
 2. **Interactive Asset & Simulation Production:** We produce clean medical graphics, animated anatomical diagrams, downloadable dosage calculators, and video walk-throughs that elevate your training above ordinary slide presentations.
