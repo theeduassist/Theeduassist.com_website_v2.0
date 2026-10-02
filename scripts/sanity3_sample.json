@@ -1,0 +1,264 @@
+{
+  "large_paras": [
+    {
+      "p_idx": 0,
+      "sz": "50",
+      "style": "Heading2",
+      "text": "277. MOOCs and IT Education: A Practical Guide for Learners in 2026"
+    },
+    {
+      "p_idx": 114,
+      "sz": "50",
+      "style": "Heading2",
+      "text": "278. Why Learners Skip Pop-Ups and How Better Design Changes That"
+    },
+    {
+      "p_idx": 283,
+      "sz": "50",
+      "style": "Heading2",
+      "text": "279. A Practical 2026 Guide in Using Skool for Real Estate Lending Sales Training"
+    },
+    {
+      "p_idx": 416,
+      "sz": "50",
+      "style": "Heading2",
+      "text": "280. Strategic Digital Product Architecture for Wealth Systems: A Simple Guide"
+    },
+    {
+      "p_idx": 545,
+      "sz": "50",
+      "style": "Heading2",
+      "text": "281. Udemy Made Simple: How the Platform Works for Learners and Instructors"
+    },
+    {
+      "p_idx": 677,
+      "sz": "50",
+      "style": "Heading2",
+      "text": "282. AI Insights Powering Skills-Based Learning and Professional Growth in 2026"
+    },
+    {
+      "p_idx": 800,
+      "sz": "50",
+      "style": "Heading2",
+      "text": "283. Thinkific Course Creation and LMS Management: How to Create Online Courses 2026"
+    },
+    {
+      "p_idx": 948,
+      "sz": "50",
+      "style": "Heading2",
+      "text": "284. Instructional Design in Action: Practical Solutions for Learner Problems"
+    },
+    {
+      "p_idx": 1059,
+      "sz": "50",
+      "style": "Heading2",
+      "text": "285. Continuing Education Creation: How to Develop Effective Programs for Professionals 2026"
+    },
+    {
+      "p_idx": 1158,
+      "sz": "50",
+      "style": "Heading2",
+      "text": "286. Complete Guide to SaaS Curriculum Development and Training Best Practices"
+    },
+    {
+      "p_idx": 1235,
+      "sz": "50",
+      "style": "Heading2",
+      "text": "287. Time Management and life Skills students can Master 2026"
+    }
+  ],
+  "numbered_paras": [
+    {
+      "p_idx": 0,
+      "num": 277,
+      "sz": "50",
+      "style": "Heading2",
+      "title": "MOOCs and IT Education: A Practical Guide for Learners in 2026",
+      "raw": "277. MOOCs and IT Education: A Practical Guide for Learners in 2026"
+    },
+    {
+      "p_idx": 114,
+      "num": 278,
+      "sz": "50",
+      "style": "Heading2",
+      "title": "Why Learners Skip Pop-Ups and How Better Design Changes That",
+      "raw": "278. Why Learners Skip Pop-Ups and How Better Design Changes That"
+    },
+    {
+      "p_idx": 283,
+      "num": 279,
+      "sz": "50",
+      "style": "Heading2",
+      "title": "A Practical 2026 Guide in Using Skool for Real Estate Lending Sales Training",
+      "raw": "279. A Practical 2026 Guide in Using Skool for Real Estate Lending Sales Training"
+    },
+    {
+      "p_idx": 416,
+      "num": 280,
+      "sz": "50",
+      "style": "Heading2",
+      "title": "Strategic Digital Product Architecture for Wealth Systems: A Simple Guide",
+      "raw": "280. Strategic Digital Product Architecture for Wealth Systems: A Simple Guide"
+    },
+    {
+      "p_idx": 545,
+      "num": 281,
+      "sz": "50",
+      "style": "Heading2",
+      "title": "Udemy Made Simple: How the Platform Works for Learners and Instructors",
+      "raw": "281. Udemy Made Simple: How the Platform Works for Learners and Instructors"
+    },
+    {
+      "p_idx": 677,
+      "num": 282,
+      "sz": "50",
+      "style": "Heading2",
+      "title": "AI Insights Powering Skills-Based Learning and Professional Growth in 2026",
+      "raw": "282. AI Insights Powering Skills-Based Learning and Professional Growth in 2026"
+    },
+    {
+      "p_idx": 678,
+      "num": 7,
+      "sz": "34",
+      "style": "Heading2",
+      "title": "AI Insights Shaping Learning and Development in 2026",
+      "raw": "7 AI Insights Shaping Learning and Development in 2026"
+    },
+    {
+      "p_idx": 704,
+      "num": 1,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "AI Powered Individualized Learning Paths",
+      "raw": "1. AI Powered Individualized Learning Paths"
+    },
+    {
+      "p_idx": 707,
+      "num": 2,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "Skills Intelligence and Skills Based Learning Models",
+      "raw": "2. Skills Intelligence and Skills Based Learning Models"
+    },
+    {
+      "p_idx": 710,
+      "num": 3,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "AI Powered Content Generation and Instructional Design",
+      "raw": "3. AI Powered Content Generation and Instructional Design"
+    },
+    {
+      "p_idx": 713,
+      "num": 4,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "Predictive Learning Analytics and Performance Insights",
+      "raw": "4. Predictive Learning Analytics and Performance Insights"
+    },
+    {
+      "p_idx": 716,
+      "num": 5,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "Virtual Coaches and Intelligent Learning Assistants",
+      "raw": "5. Virtual Coaches and Intelligent Learning Assistants"
+    },
+    {
+      "p_idx": 728,
+      "num": 1,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "AI Powered Individualized Learning Paths",
+      "raw": "1. AI Powered Individualized Learning Paths"
+    },
+    {
+      "p_idx": 731,
+      "num": 2,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "Skills Intelligence and Skills Based Learning Models",
+      "raw": "2. Skills Intelligence and Skills Based Learning Models"
+    },
+    {
+      "p_idx": 734,
+      "num": 3,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "AI Powered Content Generation and Instructional Design",
+      "raw": "3. AI Powered Content Generation and Instructional Design"
+    },
+    {
+      "p_idx": 737,
+      "num": 4,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "Predictive Learning Analytics and Performance Insights",
+      "raw": "4. Predictive Learning Analytics and Performance Insights"
+    },
+    {
+      "p_idx": 740,
+      "num": 5,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "Virtual Coaches and Intelligent Learning Assistants",
+      "raw": "5. Virtual Coaches and Intelligent Learning Assistants"
+    },
+    {
+      "p_idx": 743,
+      "num": 6,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "Microlearning and Just In Time Training Optimization",
+      "raw": "6. Microlearning and Just In Time Training Optimization"
+    },
+    {
+      "p_idx": 746,
+      "num": 7,
+      "sz": "26",
+      "style": "Heading3",
+      "title": "Future Skills Forecasting and Strategic Workforce Planning",
+      "raw": "7. Future Skills Forecasting and Strategic Workforce Planning"
+    },
+    {
+      "p_idx": 800,
+      "num": 283,
+      "sz": "50",
+      "style": "Heading2",
+      "title": "Thinkific Course Creation and LMS Management: How to Create Online Courses 2026",
+      "raw": "283. Thinkific Course Creation and LMS Management: How to Create Online Courses 2026"
+    },
+    {
+      "p_idx": 948,
+      "num": 284,
+      "sz": "50",
+      "style": "Heading2",
+      "title": "Instructional Design in Action: Practical Solutions for Learner Problems",
+      "raw": "284. Instructional Design in Action: Practical Solutions for Learner Problems"
+    },
+    {
+      "p_idx": 1059,
+      "num": 285,
+      "sz": "50",
+      "style": "Heading2",
+      "title": "Continuing Education Creation: How to Develop Effective Programs for Professionals 2026",
+      "raw": "285. Continuing Education Creation: How to Develop Effective Programs for Professionals 2026"
+    },
+    {
+      "p_idx": 1158,
+      "num": 286,
+      "sz": "50",
+      "style": "Heading2",
+      "title": "Complete Guide to SaaS Curriculum Development and Training Best Practices",
+      "raw": "286. Complete Guide to SaaS Curriculum Development and Training Best Practices"
+    },
+    {
+      "p_idx": 1235,
+      "num": 287,
+      "sz": "50",
+      "style": "Heading2",
+      "title": "Time Management and life Skills students can Master 2026",
+      "raw": "287. Time Management and life Skills students can Master 2026"
+    }
+  ]
+}
