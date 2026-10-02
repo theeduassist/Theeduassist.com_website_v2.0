@@ -73,11 +73,15 @@ const jsonLd = [
       <p class="text-lg md:text-xl text-slate-700 max-w-3xl mb-8">
         Explore research-informed guidance on learning strategy, instructional design, course development, LMS implementation, Kajabi, enterprise learning, responsible AI, accessibility and global delivery.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="#latest-articles" class="px-8 py-3 bg-brand-blue text-white font-semibold rounded-md shadow-sm hover:bg-slate-800 active:bg-slate-900 active:text-white transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-brand-green focus:outline-none">
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <button id="view-all-hero-btn" type="button" class="w-full sm:w-auto px-8 py-3 bg-brand-green text-white font-semibold rounded-md shadow-sm hover:bg-emerald-600 active:bg-emerald-700 transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-brand-green focus:outline-none flex items-center justify-center gap-2 cursor-pointer">
+          <span>Read All Articles</span>
+          <span class="bg-white/20 text-white text-xs px-2.5 py-0.5 rounded-full font-bold">{allPosts.length}</span>
+        </button>
+        <a href="#latest-articles" class="w-full sm:w-auto px-8 py-3 bg-brand-blue text-white font-semibold rounded-md shadow-sm hover:bg-slate-800 active:bg-slate-900 active:text-white transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-brand-green focus:outline-none text-center">
           Browse Latest Articles
         </a>
-        <a href="/services/" class="px-8 py-3 bg-white text-brand-blue font-semibold rounded-md shadow-sm border border-slate-200 hover:bg-slate-50 active:bg-slate-100 active:text-brand-blue transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-brand-blue focus:outline-none">
+        <a href="/services/" class="w-full sm:w-auto px-8 py-3 bg-white text-brand-blue font-semibold rounded-md shadow-sm border border-slate-200 hover:bg-slate-50 active:bg-slate-100 active:text-brand-blue transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-brand-blue focus:outline-none text-center">
           Explore Services
         </a>
       </div>
@@ -156,11 +160,11 @@ const jsonLd = [
           id="search-input"
           type="text"
           placeholder="Search articles..."
-          class="w-full md:w-1/2 px-4 py-3 rounded-lg border border-slate-200 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-green text-slate-700"
+          class="w-full md:w-5/12 px-4 py-3 rounded-lg border border-slate-200 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-green text-slate-700"
         />
         <select
           id="category-filter"
-          class="w-full md:w-1/4 px-4 py-3 rounded-lg border border-slate-200 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-green text-slate-700"
+          class="w-full md:w-3/12 px-4 py-3 rounded-lg border border-slate-200 bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-green text-slate-700"
         >
           <option value="">All Categories</option>
           {postCategories.map(cat => (
@@ -168,18 +172,56 @@ const jsonLd = [
           ))}
         </select>
         <button
+          id="view-all-filter-btn"
+          type="button"
+          class="w-full md:w-auto px-6 py-3 bg-brand-green text-white font-medium rounded-lg shadow-sm hover:bg-emerald-600 transition-colors whitespace-nowrap flex items-center justify-center gap-2 cursor-pointer"
+        >
+          <span>All Articles</span>
+          <span class="bg-white/20 text-white text-xs px-2 py-0.5 rounded-full font-bold">{allPosts.length}</span>
+        </button>
+        <button
           id="clear-filters"
-          class="px-6 py-3 bg-slate-100 text-brand-blue font-medium rounded-lg border border-slate-200 hover:bg-slate-200 transition-colors"
+          type="button"
+          class="w-full md:w-auto px-6 py-3 bg-slate-100 text-brand-blue font-medium rounded-lg border border-slate-200 hover:bg-slate-200 transition-colors"
         >
           Clear
         </button>
       </div>
     </section>
 
-    <!-- Search Results -->
-    <section id="search-results" class="w-full px-6 md:px-12 max-w-7xl mx-auto mb-16 hidden">
-      <h2 class="text-2xl font-bold text-brand-blue mb-6">Search Results</h2>
+    <!-- Search / All Results -->
+    <section id="search-results" class="w-full px-6 md:px-12 max-w-7xl mx-auto mb-16 hidden scroll-mt-24">
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8 pb-4 border-b border-slate-200">
+        <div>
+          <h2 id="results-heading" class="text-2xl md:text-3xl font-bold text-brand-blue">All Articles</h2>
+          <p id="results-count" class="text-sm text-slate-500 mt-1"></p>
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="/blog/page/1/" class="text-sm font-semibold text-brand-green hover:underline flex items-center gap-1">
+            <span>Browse Paginated Archives →</span>
+          </a>
+        </div>
+      </div>
       <div id="search-results-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+      
+      <!-- Load More / Show All Controls -->
+      <div id="load-more-container" class="mt-12 text-center hidden flex flex-col sm:flex-row justify-center items-center gap-4">
+        <button
+          id="load-more-btn"
+          type="button"
+          class="w-full sm:w-auto px-8 py-3.5 bg-brand-blue text-white font-semibold rounded-xl shadow-md hover:bg-slate-800 transition-all duration-300 cursor-pointer"
+        >
+          Load More Articles
+        </button>
+        <button
+          id="show-all-remaining-btn"
+          type="button"
+          class="w-full sm:w-auto px-6 py-3.5 bg-white text-brand-blue font-medium rounded-xl border border-slate-200 shadow-sm hover:bg-slate-50 transition-all duration-300 cursor-pointer"
+        >
+          Show All at Once
+        </button>
+      </div>
+
       <p id="no-results" class="text-slate-500 text-center py-12 hidden">No articles found. Try a different search term.</p>
     </section>
 
@@ -217,6 +259,13 @@ const jsonLd = [
               tags={post.tags}
             />
           ))}
+        </div>
+        <div class="mt-12 text-center">
+          <button id="view-all-latest-btn" type="button" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-blue text-white font-semibold text-base md:text-lg rounded-xl shadow-md hover:bg-emerald-600 hover:shadow-lg transition-all duration-300 cursor-pointer">
+            <span>Explore All {allPosts.length} Articles</span>
+            <span class="bg-white/20 text-white text-xs px-2.5 py-1 rounded-full font-bold">{allPosts.length}</span>
+            <svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </button>
         </div>
       </section>
     )}
@@ -298,9 +347,22 @@ const jsonLd = [
   const clearBtn = document.getElementById('clear-filters');
   const searchResults = document.getElementById('search-results');
   const searchResultsGrid = document.getElementById('search-results-grid');
+  const resultsHeading = document.getElementById('results-heading');
+  const resultsCount = document.getElementById('results-count');
   const noResults = document.getElementById('no-results');
   const browseSection = document.getElementById('browse-section');
   const latestArticles = document.getElementById('latest-articles');
+  const loadMoreContainer = document.getElementById('load-more-container');
+  const loadMoreBtn = document.getElementById('load-more-btn');
+  const showAllRemainingBtn = document.getElementById('show-all-remaining-btn');
+
+  const viewAllHeroBtn = document.getElementById('view-all-hero-btn');
+  const viewAllFilterBtn = document.getElementById('view-all-filter-btn');
+  const viewAllLatestBtn = document.getElementById('view-all-latest-btn');
+
+  const PAGE_SIZE = 18;
+  let currentlyRendered = 0;
+  let currentActiveList = [];
 
   function renderCard(post) {
     return `
@@ -344,12 +406,48 @@ const jsonLd = [
     `;
   }
 
+  function showArticlesBatch(posts, reset = true) {
+    if (reset) {
+      currentActiveList = posts;
+      currentlyRendered = 0;
+      searchResultsGrid.innerHTML = '';
+    }
+    
+    const nextBatch = currentActiveList.slice(currentlyRendered, currentlyRendered + PAGE_SIZE);
+    searchResultsGrid.insertAdjacentHTML('beforeend', nextBatch.map(renderCard).join(''));
+    currentlyRendered += nextBatch.length;
+    
+    if (resultsCount) {
+      resultsCount.textContent = `Showing ${currentlyRendered} of ${currentActiveList.length} articles`;
+    }
+    
+    if (currentlyRendered < currentActiveList.length) {
+      loadMoreContainer.classList.remove('hidden');
+      loadMoreBtn.textContent = `Load More Articles (${currentActiveList.length - currentlyRendered} remaining)`;
+    } else {
+      loadMoreContainer.classList.add('hidden');
+    }
+  }
+
+  function displayAllArticles() {
+    searchInput.value = '';
+    categoryFilter.value = '';
+    if (resultsHeading) resultsHeading.textContent = `All Articles (${allPosts.length})`;
+    searchResults.classList.remove('hidden');
+    noResults.classList.add('hidden');
+    if (browseSection) browseSection.classList.add('hidden');
+    if (latestArticles) latestArticles.classList.add('hidden');
+    showArticlesBatch(allPosts, true);
+    searchResults.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
   function filterPosts() {
     const query = searchInput.value.toLowerCase().trim();
     const category = categoryFilter.value.toLowerCase();
 
     if (!query && !category) {
       searchResults.classList.add('hidden');
+      loadMoreContainer.classList.add('hidden');
       if (browseSection) browseSection.classList.remove('hidden');
       if (latestArticles) latestArticles.classList.remove('hidden');
       return;
@@ -368,14 +466,49 @@ const jsonLd = [
     if (browseSection) browseSection.classList.add('hidden');
     if (latestArticles) latestArticles.classList.add('hidden');
 
+    if (resultsHeading) {
+      if (query && category) {
+        resultsHeading.textContent = `Search results for "${query}" in ${category}`;
+      } else if (query) {
+        resultsHeading.textContent = `Search results for "${query}"`;
+      } else {
+        const catObj = postCategories.find(c => c.id === category);
+        resultsHeading.textContent = catObj ? catObj.title : `Articles`;
+      }
+    }
+
     if (filtered.length === 0) {
       searchResultsGrid.innerHTML = '';
+      loadMoreContainer.classList.add('hidden');
+      if (resultsCount) resultsCount.textContent = '';
       noResults.classList.remove('hidden');
     } else {
       noResults.classList.add('hidden');
-      searchResultsGrid.innerHTML = filtered.map(renderCard).join('');
+      showArticlesBatch(filtered, true);
     }
   }
+
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+      showArticlesBatch(currentActiveList, false);
+    });
+  }
+
+  if (showAllRemainingBtn) {
+    showAllRemainingBtn.addEventListener('click', () => {
+      const remaining = currentActiveList.slice(currentlyRendered);
+      searchResultsGrid.insertAdjacentHTML('beforeend', remaining.map(renderCard).join(''));
+      currentlyRendered = currentActiveList.length;
+      if (resultsCount) {
+        resultsCount.textContent = `Showing all ${currentActiveList.length} articles`;
+      }
+      loadMoreContainer.classList.add('hidden');
+    });
+  }
+
+  if (viewAllHeroBtn) viewAllHeroBtn.addEventListener('click', displayAllArticles);
+  if (viewAllFilterBtn) viewAllFilterBtn.addEventListener('click', displayAllArticles);
+  if (viewAllLatestBtn) viewAllLatestBtn.addEventListener('click', displayAllArticles);
 
   searchInput.addEventListener('input', filterPosts);
   categoryFilter.addEventListener('change', filterPosts);
