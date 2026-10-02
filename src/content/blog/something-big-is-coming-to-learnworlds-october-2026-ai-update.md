@@ -46,7 +46,9 @@ faqs:
     answer: "The update introduces a connected lifecycle that decouples course access from compliance timing, automating deadlines, completion verification, periodic retraining, and automated recertification nudges."
 ---
 
-On October 2, 2026, LearnWorlds hosted an exclusive executive preview with top platform leaders to unveil their most ambitious release to date. The core theme of the announcement was clear and provocative: **“Your academy is about to get to work.”**
+On October 2, 2026, LearnWorlds hosted an exclusive partner preview led by CEO and Co-Founder **Panos Siozos** alongside Chief Product Officer (CPO) and Co-Founder **George Palaigeorgiou**. Designed as an early, under-the-hood briefing for partners, digital academies, and enterprise training leaders before the wider public product launch, the session provided a deep dive into upcoming LearnWorlds features—spanning AI course creation, interactive learner experiences, autonomous learner and management agents, compliance retraining workflows, and flexible multi-tier pricing. 
+
+The core message shared by Siozos and Palaigeorgiou was clear and provocative: **“Your academy is about to get to work.”**
 
 For over a decade, learning management systems have essentially operated as digital filing cabinets. You upload video files, configure quizzes, paste copy, and leave the platform to passively deliver content to self-directed students. LearnWorlds is breaking that mold. 
 
@@ -56,7 +58,7 @@ In this comprehensive briefing, we dissect everything announced in the October 2
 
 ## **What Is the October 2026 LearnWorlds AI & Agentic Update?**
 
-> **Quick Answer:** The October 2026 LearnWorlds platform release transforms the LMS into an autonomous, agentic learning ecosystem. Key features include an end-to-end AI Creation Suite, conversational course and website editing, personalized 1-on-1 Learner Agents (tutors, coaches, examiners), administrative Copilot and Management Agents, and native Model Context Protocol (MCP) support.
+> **Quick Answer:** The October 2026 LearnWorlds platform release transforms the LMS into an autonomous, agentic learning ecosystem. Unveiled by CEO Panos Siozos and CPO George Palaigeorgiou, key features include an end-to-end AI Creation Suite, conversational course and website editing, personalized 1-on-1 Learner Agents (tutors, coaches, examiners), administrative Copilot and Management Agents, and native Model Context Protocol (MCP) support.
 
 Rather than bolting on a superficial ChatGPT wrapper, LearnWorlds has re-engineered their underlying architecture to connect data, curriculum creation, administrative workflows, and learner interaction into a unified intelligence layer.
 
@@ -83,6 +85,17 @@ The cornerstone of the authoring overhaul is the **AI Creation Suite**. Instead 
 * **End-to-End Course Generation:** LearnWorlds analyzes your slide decks, PDFs, video transcripts, or technical documentation and automatically generates the complete course structure, interactive lesson content, diagnostic assessments, and the promotional sales website around it.
 * **Conversational Multi-Course Editing:** Updating content across large academies has traditionally been a logistical nightmare. With conversational editing, administrators can update a policy, rephrase terminology, or refresh learning outcomes across an entire course—or across twenty courses simultaneously—using a single conversational prompt.
 * **Intelligent Website Builder:** Give the system your project brief, brand style guide, and source files, and it generates a cohesive academy website with structured layouts, tailored typography, and compelling marketing copy that you can fine-tune in real time.
+
+### **"AI Under Human-Directed Guidance": The Creator Stays in the Driver's Seat**
+
+During the partner preview, CEO Panos Siozos and CPO George Palaigeorgiou emphasized a defining pedagogical principle behind the platform's AI suite: **creating courses with AI under human-directed guidance—where the human is the one directing it.**
+
+> *"The future of online learning isn't hands-off, auto-generated noise. It is creator courses built with AI under human-directed guidance—the human is the one directing it, curating the vision, and setting the standard."*
+
+In LearnWorlds' agentic framework, AI is not replacing the instructional designer, educator, or subject matter expert. Instead, the creator functions as the director of an intelligent production studio:
+* **The Human Directs the Vision:** You define the pedagogical goals, determine the depth of instruction, maintain brand authenticity, and provide the authoritative source material.
+* **The AI Executes the Heavy Lifting:** The system handles the time-consuming tasks of scaffolding lesson outlines, authoring initial draft units, generating quiz variants, and coding interactive elements.
+* **Continuous Human Oversight:** Every generated element remains fully editable via conversational prompts or direct WYSIWYG adjustments, ensuring zero drift from the instructor's core intentions.
 
 ---
 

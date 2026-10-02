@@ -29,6 +29,8 @@ faqs:
     answer: "Evaluators use a 40-point rubric assessing: technical interoperability (SCORM 1.2/2004, xAPI), legal accessibility compliance (WCAG 2.1 AA / Section 508), pedagogical scaffolding (Bloom's Taxonomy), and post-launch SLAs."
 ---
 
+> **Editorial Transparency & Methodology Disclosure:** TheEduAssist is an independent e-learning design agency and technical consultancy. While we proudly include ourselves in this industry benchmark based on our agile delivery speed and verified Section 508 / WCAG 2.1 AA audits, we have evaluated every company (including our own) against the exact same 40-point rubric spanning technical compliance, scoping transparency, and instructional rigor. Below, we candidly outline the specific project profiles where our agile model excels—as well as the enterprise scenarios where legacy consulting conglomerates are the superior fit.
+
 Selecting the right **custom eLearning development company** is one of the most critical decisions a Chief Learning Officer, government procurement director, or academy founder can make. 
 
 The corporate learning landscape in 2026 has shifted dramatically. Off-the-shelf catalog courses suffer from sub-15% completion rates because they fail to address organization-specific workflows. Meanwhile, organizations are demanding measurable business impact (Kirkpatrick Levels 3 and 4), strict legal accessibility compliance (**WCAG 2.1 AA and Section 508**), and mobile-responsive microlearning.
@@ -56,11 +58,9 @@ Below is an objective, in-depth evaluation of the top custom eLearning developme
 
 [TheEduAssist](https://www.theeduassist.com) has established itself as the modern, high-agility alternative to legacy corporate training giants. While traditional L&D consultancies require months of bureaucratic onboarding, TheEduAssist operates on rapid, milestone-driven sprints with a guaranteed **24 to 48-hour SLA** on scoping reviews and RFP evaluations.
 
-### Core Strengths:
-* **Government & Public Sector Compliance**: Built from the ground up to meet **Section 508 and WCAG 2.1 Level AA** mandates. All deliverables include screen-reader verification (NVDA/JAWS), closed-captioning (.vtt), and downloadable Voluntary Product Accessibility Templates (VPAT 2.4).
-* **Technical Interoperability**: 100% certified exports across SCORM 1.2, SCORM 2004 4th Edition, xAPI (Tin Can), and cmi5, verified across platforms like Canvas, Blackboard, Moodle, Cornerstone OnDemand, Docebo, and Kajabi.
-* **The Boutique Visual Edge**: Combines pedagogical rigor (Bloom’s Taxonomy and Cathy Moore’s Action Mapping) with modern, high-converting visual design, fillable PDF action workbooks, and scenario-based branching simulations.
-* **Procurement Safeguards**: Standard bilateral NDAs, 100% client intellectual property ownership, zero unauthorized AI model training on client assets, and a 60-day post-launch technical warranty.
+### Strengths & Considerations:
+* **Strengths**: Built from the ground up to meet **Section 508 and WCAG 2.1 Level AA** accessibility mandates with screen-reader verification (NVDA/JAWS) and VPAT 2.4 documentation. Delivers 100% certified exports across SCORM 1.2, SCORM 2004 4th Edition, xAPI, and cmi5, backed by fixed-milestone Statements of Work, zero-cost revisions, and a 60-day post-launch technical warranty.
+* **Considerations**: TheEduAssist is intentionally architected as an agile boutique agency focused on digital learning modules, microlearning sprints, and platform builds. Organizations seeking multi-year global staff augmentation with hundreds of on-site international classroom facilitators across 30+ physical facilities will find multinational integrators like GP Strategies better structured for large-scale physical staffing.
 
 **Learn More**: Download the [Enterprise & Public Sector Capability Statement](https://www.theeduassist.com/downloads/enterprise-capability-statement/) or the [40-Point RFP Scoring Matrix](https://www.theeduassist.com/downloads/procurement-rfp-evaluation-matrix/).
 
