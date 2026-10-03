@@ -56,14 +56,63 @@ editorialManagement:
   scheduledPublicationDate: 2026-10-02
   lastReviewedDate: 2026-10-02
   nextReviewDate: 2026-10-02
+heroImage: /images/blog/kajabi-api-complete-guide-api-access-integrationwebp.webp
+faqs:
+  - question: " Does Kajabi have an API?"
+    answer: Yes. Kajabi provides a Public API for building custom integrations and
+      automating workflows. Access depends on the Kajabi plan and account
+      configuration.
+  - question: How do I get Kajabi API access?
+    answer: For the current Public API, go to **Settings > Public API** in the
+      Kajabi Dashboard if your account has access. Owners and Subowners can
+      create API keys.dentials with sufficient access may be able to interact
+      with the connected Kajabi account.
+  - question: Is the Kajabi Public API the same as the API Key and API Secret used
+      by Zapier?
+    answer: " No. Kajabi specifically states that Public API credentials are
+      different from the API Key and API Secret used for Zapier and other native
+      integrations."
+  - question: " What is the Kajabi API used for?"
+    answer: The Public API can be used for custom integrations, supported data
+      access, automation, and custom applications. The exact capabilities depend
+      on the current API reference and permissions.
+  - question: " Should I use the Kajabi API or webhooks?"
+    answer: Use the API when your application needs to programmatically access
+      supported resources. Use webhooks when you need to react to supported
+      events. In some integrations, using both together can make sense.
+  - question: " Can I access everything in Kajabi through the API?"
+    answer: No. Kajabi states that not all information visible in the dashboard is
+      available through the Public API. Check the current API reference for the
+      specific data you need.
+  - question: Are Kajabi API credentials sensitive?
+    answer: Yes. API credentials should be protected and should not be shared
+      publicly. Anyone who obtains credentials with sufficient access may be
+      able to interact with the connected Kajabi account.
+sources:
+  - title: Kajabi Public API Help Center
+    url: https://help.kajabi.com/en/articles/17175718-use-kajabi-s-public-api
+    accessedAt: 2026-10-02
+  - title: Kajabi Public API Reference
+    url: https://help.kajabi.com/api-reference/
+    accessedAt: 2026-10-02
+  - title: Kajabi Webhooks
+    url: https://help.kajabi.com/en/articles/17175720-use-webhooks-with-kajabi
+    accessedAt: 2026-10-02
+  - title: Kajabi + Zapier
+    url: https://help.kajabi.com/en/articles/17175727-use-zapier-with-kajabi
+    accessedAt: 2026-10-02
+  - title: Kajabi API Credentials
+    url: https://help.kajabi.com/en/articles/17174352-change-account-details
+    accessedAt: 2026-10-02
+  - title: Kajabi API Purchases Endpoint
+    url: https://help.kajabi.com/api-reference/purchases/list-purchases
+    accessedAt: 2026-10-02
 ---
-
-
 If you want to connect Kajabi with a custom application, automate data workflows, or move information between Kajabi and another system, the **Kajabi API** can give your development team a more flexible way to build that connection.
 
 Kajabi's Public API is designed for custom integrations and programmatic workflows. However, it is important to understand the difference between the **Public API**, **API Key and API Secret used for some third-party integrations**, and **webhooks**. They serve different purposes and should not be treated as the same thing.
 
-This guide from **TheEduAssist** explains Kajabi API access, authentication, API keys, endpoints, pagination, webhooks, Zapier, common use cases, security practices, and troubleshooting.
+This guide from [**TheEduAssist**](https://www.theeduassist.com/blog/) explains Kajabi API access, authentication, API keys, endpoints, pagination, webhooks, Zapier, common use cases, security practices, and troubleshooting.
 
 ## Key Takeaways
 
@@ -94,7 +143,7 @@ For example, a development team might want to:
 
 The important point is that the Public API does not automatically expose everything available inside the Kajabi dashboard. Kajabi states that some dashboard data is not currently available through the Public API.
 
-If you are working with leads and customer information, you can also explore **TheEduAssist's guide, [Kajabi CRM: How to Manage Leads and Students in One Place](https://www.theeduassist.com/kajabi-crm-how-to-manage-leads-and-students-in-one-place/)** for additional information about managing Kajabi contacts and students.
+If you are working with leads and customer information, you can also explore **[TheEduAssist's](https://www.theeduassist.com) guide, [Kajabi CRM: How to Manage Leads and Students in One Place](https://www.theeduassist.com/kajabi-crm-how-to-manage-leads-and-students-in-one-place/)** for additional information about managing Kajabi contacts and students.
 
 ## Kajabi Public API vs API Key and API Secret
 
@@ -598,7 +647,7 @@ However, choosing the right integration method is important. The Public API, web
 
 Before developing an integration, check Kajabi's current API documentation, confirm that the required data is exposed, select appropriate permissions, and design the integration with security and error handling in mind.
 
-For more educational resources about Kajabi, LMS platforms, online learning technology, and related topics, explore **TheEduAssist**.
+For more educational resources about Kajabi, LMS platforms, online learning technology, and related topics, [explore **TheEduAssist**.](https://www.theeduassist.com/blog/)
 
 ## Official References and Sources
 
