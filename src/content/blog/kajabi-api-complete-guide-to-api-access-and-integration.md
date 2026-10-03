@@ -649,12 +649,4 @@ Before developing an integration, check Kajabi's current API documentation, conf
 
 For more educational resources about Kajabi, LMS platforms, online learning technology, and related topics, [explore **TheEduAssist**.](https://www.theeduassist.com/blog/)
 
-## Official References and Sources
-
-- [Kajabi Public API Help Center](https://help.kajabi.com/en/articles/17175718-use-kajabi-s-public-api)
-- [Kajabi Public API Reference](https://help.kajabi.com/api-reference/)
-- [Kajabi Webhooks](https://help.kajabi.com/en/articles/17175720-use-webhooks-with-kajabi)
-- [Kajabi + Zapier](https://help.kajabi.com/en/articles/17175727-use-zapier-with-kajabi)
-- [Kajabi API Credentials](https://help.kajabi.com/en/articles/17174352-change-account-details)
-- [Kajabi API Purchases Endpoint](https://help.kajabi.com/api-reference/purchases/list-purchases)
-
+Author [Rimsha Shahid](https://www.linkedin.com/in/rimsha-shahid-379635429/)
