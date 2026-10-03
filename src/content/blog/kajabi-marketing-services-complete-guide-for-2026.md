@@ -19,8 +19,8 @@ tags:
   - Marketing Automation
   - Online Courses
 draft: false
-publishedAt: 2026-10-02
-updatedAt: 2026-10-02
+publishedAt: 2026-10-03
+updatedAt: 2026-10-03
 heroImageAlt: Kajabi marketing services for online businesses
 heroImageCaption: Kajabi marketing services for email, funnels, automation, SEO,
   and online business growth
@@ -58,10 +58,10 @@ keyTakeaways:
   - A Kajabi specialist can help businesses save time and improve their
     marketing process.
 editorialManagement:
-  dueDate: 2026-10-02
-  scheduledPublicationDate: 2026-10-02
-  lastReviewedDate: 2026-10-02
-  nextReviewDate: 2026-10-02
+  dueDate: 2026-10-03
+  scheduledPublicationDate: 2026-10-03
+  lastReviewedDate: 2026-10-03
+  nextReviewDate: 2026-10-03
 ---
 If you use Kajabi to sell online courses, coaching programs, memberships, digital products, or other online learning products, having the platform is only the beginning. You also need a clear marketing strategy to attract the right audience, generate leads, nurture prospects, and turn them into customers.
 
