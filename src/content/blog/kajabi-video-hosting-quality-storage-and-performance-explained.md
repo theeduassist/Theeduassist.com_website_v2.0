@@ -26,7 +26,7 @@ heroImageAlt: Kajabi video hosting featured image showing online course video
   quality, storage, performance, and course content on a laptop
 heroImageCaption: "Kajabi Video Hosting: Explore quality, storage, performance,
   and the key features that shape a smooth online course video experience."
-seoTitle: "Kajabi Video Hosting vs External Video Hosting: Which Is Better?"
+seoTitle: "Kajabi Video Hosting vs External Hosts Compared"
 seoDescription: Compare Kajabi video hosting vs external video hosting,
   including course integration, media management, technical setup, student
   access, and video tools.

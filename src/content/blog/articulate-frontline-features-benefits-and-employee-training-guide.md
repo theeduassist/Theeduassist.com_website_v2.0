@@ -32,7 +32,7 @@ heroImageAlt: Articulate Frontline AI employee training platform features and be
 heroImageCaption: Articulate Frontline helps businesses create AI-guided
   employee training with connected learning formats, analytics, and workplace
   distribution.
-seoTitle: "Articulate Frontline: Features, Benefits & Employee Training Guide"
+seoTitle: "Articulate Frontline: Features & Training Guide"
 seoDescription: Explore Articulate Frontline features, pricing, AI capabilities,
   benefits, and use cases for creating modern employee training and eLearning.
 focusKeyword: Articulate Frontline

@@ -41,7 +41,7 @@ editorialManagement:
   scheduledPublicationDate: 2026-09-21
   lastReviewedDate: 2026-09-21
   nextReviewDate: 2026-09-21
-seoTitle: "AI-Powered Learning: A Smarter Way to Train and Upskill Employees"
+seoTitle: "AI-Powered Learning: Smarter Employee Training Guide"
 seoDescription: Discover how AI-powered eLearning personalizes employee
   training, identifies skill gaps, improves learning outcomes, and helps
   businesses upskill their workforce.

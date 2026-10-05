@@ -32,7 +32,7 @@ heroImage: /images/blog/whatsapp-image-2026-09-01-at-65552-pm-edited-1.jpg
 heroImageAlt: LEAP 2026 technology event exhibition floor in Riyadh with LEAP branding
 heroImageCaption: LEAP 2026 brings global technology companies, innovators, and
   professionals together in Riyadh.
-seoTitle: "Preparing Global Teams for New Technology: Lessons from LEAP 2026"
+seoTitle: "Prepare Global Teams for Tech: Lessons from LEAP"
 seoDescription: Preparing global teams for new technology with practical,
   localized training strategies inspired by LEAP 2026.
 focusKeyword: global workforce training

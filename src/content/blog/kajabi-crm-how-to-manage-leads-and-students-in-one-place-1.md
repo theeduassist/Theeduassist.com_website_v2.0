@@ -33,8 +33,7 @@ tags:
 draft: false
 publishedAt: 2026-09-25
 updatedAt: 2026-09-25
-seoTitle: "Instructional Designer vs Curriculum Developer: Key Differences and
-  How They Work Together"
+seoTitle: "Instructional Designer vs Curriculum Developer Guide"
 seoDescription: Learn the key differences between instructional designers and
   curriculum developers, including their roles, responsibilities, and impact on
   effective learning programs.

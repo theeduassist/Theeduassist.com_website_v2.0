@@ -19,7 +19,7 @@ heroImage: "/images/blog/ai-for-everyone-course-creation-2.webp"
 heroImageAlt: "Busy E-Learning Teams in New York: How AI Video Creation Can Speed Up Their Training Module Production overview and actionable framework"
 heroImageCaption: "Implementation guide and core takeaways for Busy E-Learning Teams in New York: How AI Video Creation Can Speed Up Their Training Module Production."
 seoTitle: "Busy E-Learning Teams in New York: How AI Video Creatio..."
-seoDescription: "Across industries in New York\u2014from finance and healthcare to technology and retail\u2014corporate training demands are increasing rapidly. Organizations are..."
+seoDescription: "How New York corporate training teams use AI video creation to accelerate module production across finance, tech, and healthcare organizations."
 focusKeyword: "Busy E-Learning Teams in New York"
 secondaryKeywords:
   - "AI in Education"

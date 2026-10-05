@@ -18,7 +18,7 @@ updatedAt: "2026-09-22"
 heroImage: "/images/blog/image68.webp"
 heroImageAlt: "Education Data Privacy Laws: FERPA\u2019s Role in a Data-Driven World overview and actionable framework"
 heroImageCaption: "Implementation guide and core takeaways for Education Data Privacy Laws: FERPA\u2019s Role in a Data-Driven World."
-seoTitle: "Education Data Privacy Laws: FERPA\u2019s Role in a Data-Dri..."
+seoTitle: "FERPA and Education Data Privacy Laws Explained"
 seoDescription: "FERPA Compliance: What Every Educational Institution Needs to Know With the rise of digital learning and data driven education, protecting student infor..."
 focusKeyword: "Education Data Privacy Laws"
 secondaryKeywords:

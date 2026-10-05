@@ -29,8 +29,7 @@ heroImage: /images/blog/ai-vs-traditional-instructional-design.webp
 heroImageAlt: AI vs traditional instructional design for modern learning
 heroImageCaption: AI-powered and traditional instructional design working
   together to create better learning experiences.
-seoTitle: "AI vs. Traditional Instructional Design: Which Delivers Better
-  Learning Outcomes?"
+seoTitle: "AI vs Traditional Instructional Design Outcomes"
 seoDescription: Compare AI vs. traditional instructional design, including
   benefits, limitations, learner outcomes, personalization, scalability, and why
   combining both approaches may work best.

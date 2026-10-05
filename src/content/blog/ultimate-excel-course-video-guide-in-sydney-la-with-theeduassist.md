@@ -20,7 +20,7 @@ heroImage: "/images/blog/image13.webp"
 heroImageAlt: "Ultimate Excel Course Video Guide in Sydney, LA with TheEduAssist overview and actionable framework"
 heroImageCaption: "Implementation guide and core takeaways for Ultimate Excel Course Video Guide in Sydney, LA with TheEduAssist."
 seoTitle: "Ultimate Excel Course Video Guide in Sydney, LA with Th..."
-seoDescription: "In today\u2019s data-driven world, mastering Microsoft Excel remains one of the most valuable skills for career growth. Whether you\u2019re analyzing sales report..."
+seoDescription: "Master Microsoft Excel course creation with video production, instructional design, and scalable delivery strategies for corporate teams in Sydney and LA."
 focusKeyword: "Ultimate Excel Course Video Guide in Sydney, LA with TheEduAssist"
 secondaryKeywords:
   - "Corporate Training"

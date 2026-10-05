@@ -134,7 +134,7 @@ tags:
 heroImageAlt: Model Context Protocol connecting AI agents with a learning management system
 heroImageCaption: Model Context Protocol can connect AI agents with LMS data,
   tools, and learning workflows.
-seoTitle: "Model Context Protocol (MCP) for LMS: Everything You Need to Know"
+seoTitle: "Model Context Protocol (MCP) for LMS Platforms"
 seoDescription: Learn how Model Context Protocol (MCP) is changing LMS
   integrations, AI agents, conversational learning, SCORM, xAPI, and corporate
   training.

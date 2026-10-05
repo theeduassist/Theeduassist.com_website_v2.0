@@ -33,7 +33,7 @@ heroImageAlt: Competitor analysis tools for benchmarking eLearning businesses,
   including SEO, traffic, content, and learner engagement.
 heroImageCaption: Competitor analysis tools help eLearning businesses benchmark
   SEO, traffic, content, and learner engagement.
-seoTitle: " 10 Strong Competitor Analysis Tools To Benchmark Your eLearning"
+seoTitle: "10 Competitor Analysis Tools to Benchmark eLearning"
 seoDescription: 10 strong competitor analysis tools for eLearning businesses to
   benchmark SEO, content, traffic, engagement, and course performance.
 secondaryKeywords:

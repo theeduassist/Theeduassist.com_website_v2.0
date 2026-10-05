@@ -36,7 +36,7 @@ heroImageAlt: LMS vs LXP comparison showing structured training, personalized
   learning, AI, reporting, and employee engagement.
 heroImageCaption: LMS vs LXP comparison showing how structured training and
   personalized learning support modern workplace learning.
-seoTitle: " Choosing Between an LXP and LMS: Everything You Need to Know"
+seoTitle: "LXP vs LMS: Key Differences and Selection Guide"
 seoDescription: Compare LMS and LXP platforms in 2026, including their
   differences, use cases, personalization, reporting, AI, accessibility, and
   training ROI.

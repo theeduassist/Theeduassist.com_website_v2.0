@@ -35,8 +35,7 @@ heroImageAlt: Learning Operations framework for scaling corporate training
   through technology, automation, analytics, and governance
 heroImageCaption: Learning Operations connects corporate training, technology,
   automation, analytics, and processes to support scalable employee learning.
-seoTitle: " Learning Operations (LearningOps): The Complete Guide to Scaling
-  Corporate Training"
+seoTitle: "LearningOps: Guide to Scaling Corporate Training"
 seoDescription: Learn how Learning Operations helps companies scale corporate
   training through governance, technology, automation, analytics, and better
   processes.

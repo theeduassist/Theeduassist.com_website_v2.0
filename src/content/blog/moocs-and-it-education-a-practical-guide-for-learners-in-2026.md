@@ -31,7 +31,7 @@ heroImageAlt: MOOCs and IT education concept showing online learning, digital
   courses, technology skills, and career development in 2026
 heroImageCaption: MOOCs are transforming IT education by providing flexible,
   accessible, and career-focused learning opportunities for learners worldwide.
-seoTitle: "MOOCs and IT Education in 2026: A Practical Guide for Learners"
+seoTitle: "MOOCs and IT Education: Guide for Modern Learners"
 seoDescription: Discover how MOOCs are transforming IT education in 2026. Learn
   about their benefits, challenges, career impact, and role in building
   future-ready technology skills.

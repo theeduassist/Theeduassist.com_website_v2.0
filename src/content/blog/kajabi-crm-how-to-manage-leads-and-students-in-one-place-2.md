@@ -29,7 +29,7 @@ updatedAt: 2026-09-26
 heroImage: /images/blog/kajabi-crm-helps-course-creators-organize-leads-students-contacts-and-customer-communication.webp
 heroImageAlt: Kajabi email strategy showing broadcasts and automated email sequences
 heroImageCaption: "Kajabi Email Strategy: Using Broadcasts and Sequences Effectively"
-seoTitle: "Kajabi Email Strategy: How to Use Broadcasts and Sequences Effectively"
+seoTitle: "Kajabi Email Strategy: Broadcasts and Sequences"
 seoDescription: Learn how to use Kajabi email broadcasts and sequences
   effectively to engage subscribers, nurture leads, onboard students, and
   support course launches.

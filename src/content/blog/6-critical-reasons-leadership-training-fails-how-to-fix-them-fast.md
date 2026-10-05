@@ -28,7 +28,7 @@ heroImageAlt: Split-screen illustration showing the challenges and success of
 heroImageCaption: >
   6 critical reasons leadership training fails and practical ways to fix them
   fast.
-seoTitle: "6 Critical Reasons Leadership Training Fails: How to Fix Them Fast?"
+seoTitle: "6 Reasons Leadership Training Fails and How to Fix It"
 seoDescription: Discover 6 critical reasons leadership training fails and learn
   practical, research-backed ways to improve alignment, engagement, learning
   transfer, and ROI.

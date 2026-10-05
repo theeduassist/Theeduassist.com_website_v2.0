@@ -30,8 +30,7 @@ heroImage: /images/blog/primary-secondary-technical-domain-skills-guide.webp
 heroImageAlt: Primary and secondary technical domain skills guide for job applicants
 heroImageCaption: Primary and secondary technical domain skills explained with
   practical examples for professionals.
-seoTitle: "Primary and Secondary Technical Domain Skills: Complete Guide &
-  Examples [2026]"
+seoTitle: "Technical Domain Skills: Primary and Secondary Guide"
 seoDescription: Learn how to identify and list primary and secondary technical
   domain skills with examples, frameworks, and job application tips.
 focusKeyword: Primary and Secondary Technical Domain Skills

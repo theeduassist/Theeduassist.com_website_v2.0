@@ -43,7 +43,7 @@ heroImageCaption: Thinkific student engagement gap analysis illustrating the
   transition from passive, disengaged dropouts to active course completers
   through structure, motivation, and community.
 heroImageCredit: Custom infographic designed for TheEduAssist course creator guides.
-seoTitle: "Thinkific Student Engagement: 20 Proven Ways to Boost Completion"
+seoTitle: "Thinkific Student Engagement: 20 Proven Strategies"
 seoDescription: Discover 20 proven strategies to boost Thinkific student
   engagement, eliminate dropouts, and drive course completion rates for your
   online academy.

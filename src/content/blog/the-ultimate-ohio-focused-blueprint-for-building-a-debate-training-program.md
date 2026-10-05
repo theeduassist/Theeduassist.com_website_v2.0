@@ -30,7 +30,7 @@ heroImageAlt: Debate training program blueprint showing five steps for Ohio
 heroImageCaption: A practical five-step blueprint for Ohio creators to design,
   deliver, and scale an engaging debate training program using instructional
   design and LMS-based learning.
-seoTitle: "How to Build a Debate Training Program in Ohio: 2026 Blueprint"
+seoTitle: "Build a Debate Training Program in Ohio: Blueprint"
 seoDescription: Learn how to build a scalable debate training program in Ohio
   using instructional design, structured curriculum, interactive practice,
   microlearning, and LMS delivery.

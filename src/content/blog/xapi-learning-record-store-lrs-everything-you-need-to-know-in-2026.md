@@ -33,7 +33,7 @@ heroImageAlt: xAPI Learning Record Store (LRS) showing how learning data is
   collected, stored, and shared across LMS platforms and other learning systems.
 heroImageCaption: How an xAPI Learning Record Store collects and manages
   learning data across different systems.
-seoTitle: "XAPI Learning Record Store (LRS): Everything You Need to Know in 2026"
+seoTitle: "xAPI & Learning Record Store (LRS) Complete Guide"
 seoDescription: Learn how xAPI Learning Record Stores work, their key features,
   types, benefits, and how they compare with LMS platforms in 2026.
 focusKeyword: learning record store

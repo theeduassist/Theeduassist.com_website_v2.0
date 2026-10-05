@@ -29,7 +29,7 @@ heroImageAlt: Professional split-screen educational graphic comparing slides and
 heroImageCaption: Slides or screen recordings—which format supports better
   learning? Explore how instructional design, content type, learner needs, and
   thoughtful implementation can shape the learning experience.
-seoTitle: "Slides vs Screen Recordings: Which Is Better for Effective Learning?"
+seoTitle: "Slides vs Screen Recordings for Effective Learning"
 seoDescription: Compare slides vs screen recordings for effective learning.
   Explore research, cognitive load, engagement, retention, accessibility, and
   instructional design.

@@ -27,7 +27,7 @@ heroImage: /images/blog/75cb37fe-9434-49c5-9297-922892247f45.webp
 heroImageAlt: "Corporate Training ROI Calculator: Measure Learning Effectiveness"
 heroImageCaption: Measure training costs, learning outcomes, and business impact
   with a corporate training ROI calculator.
-seoTitle: "Corporate Training ROI Calculator: Measure Learning Effectiveness"
+seoTitle: "Corporate Training ROI: Measure Learning Impact"
 seoDescription: Learn how to calculate corporate training ROI, measure learning
   outcomes, track business impact, and choose tools that connect training data
   with business results.

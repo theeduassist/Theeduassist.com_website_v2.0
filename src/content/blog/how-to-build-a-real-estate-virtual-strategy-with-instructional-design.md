@@ -29,7 +29,7 @@ heroImageAlt: Real estate virtual strategy with instructional design, showing VR
 heroImageCaption: "Real Estate Virtual Strategy: Use instructional design, VR,
   AR, and e-learning to create engaging property training and virtual learning
   experiences."
-seoTitle: "Real Estate Virtual Strategy: Build It With Instructional Design"
+seoTitle: "Real Estate Virtual Training: Instructional Design"
 seoDescription: Learn how to build a real estate virtual strategy using
   instructional design, VR, AR, micro-learning, ADDIE, and measurable learning
   outcomes.

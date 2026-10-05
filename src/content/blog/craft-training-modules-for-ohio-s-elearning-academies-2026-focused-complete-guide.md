@@ -19,7 +19,7 @@ updatedAt: "2026-09-22"
 heroImage: "/images/blog/ai-powered-learning-employee-training.webp"
 heroImageAlt: "Craft Training Modules for Ohio\u2019s eLearning Academies: 2026 Focused Complete Guide overview and actionable framework"
 heroImageCaption: "Implementation guide and core takeaways for Craft Training Modules for Ohio\u2019s eLearning Academies: 2026 Focused Complete Guide."
-seoTitle: "Craft Training Modules for Ohio\u2019s eLearning Academies:..."
+seoTitle: "Craft Training Modules for Ohio eLearning Academies"
 seoDescription: "As digital learning expands across industries, many training academies and EdTech startups in Ohio are building structured online learning programs. Fro..."
 focusKeyword: "Craft Training Modules for Ohio\u2019s eLearning Academies"
 secondaryKeywords:

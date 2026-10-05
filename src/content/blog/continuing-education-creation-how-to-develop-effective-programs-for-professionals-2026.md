@@ -38,8 +38,7 @@ heroImageAlt: Continuing education program showing professional learning,
 heroImageCaption: Effective continuing education helps professionals update
   their skills, meet changing workplace requirements, and apply knowledge with
   greater confidence.
-seoTitle: "Continuing Education Creation: How to Develop Effective Programs for
-  Professionals 2026"
+seoTitle: "Continuing Education: Develop Professional Programs"
 seoDescription: Learn how to create effective continuing education programs for
   professionals in 2026, with practical, flexible, and workplace-focused
   learning strategies.

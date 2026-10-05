@@ -18,7 +18,7 @@ updatedAt: "2026-09-22"
 heroImage: "/images/blog/image2.webp"
 heroImageAlt: "\u201cHow to Produce 20\u201340 Minute Coaching Videos from Long Scripts\u201d overview and actionable framework"
 heroImageCaption: "Implementation guide and core takeaways for \u201cHow to Produce 20\u201340 Minute Coaching Videos from Long Scripts\u201d."
-seoTitle: "\u201cHow to Produce 20\u201340 Minute Coaching Videos from Long..."
+seoTitle: "Produce 20-40 Minute Coaching Videos from Scripts"
 seoDescription: "In the fast-evolving world of online education, coaching videos have become one of the most powerful tools for delivering deep transformation and buildi..."
 focusKeyword: "\u201cHow to Produce 20\u201340 Minute Coaching Videos from Long Scripts\u201d"
 secondaryKeywords:

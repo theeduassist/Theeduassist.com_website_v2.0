@@ -31,7 +31,7 @@ heroImageCaption: >-
 
   Compare pricing, branding, marketing, and revenue models to choose the right
   platform for your online course business.
-seoTitle: "Udemy vs Teachable: The Ultimate Guide for Course Creators in 2026"
+seoTitle: "Udemy vs Teachable: Guide for Course Creators"
 seoDescription: Udemy vs Teachable explained for course creators in 2026.
   Compare pricing, branding, marketing, audience reach, revenue models, and ease
   of use.

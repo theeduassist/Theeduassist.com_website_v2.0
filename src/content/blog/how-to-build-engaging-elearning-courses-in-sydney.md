@@ -20,7 +20,7 @@ heroImage: "/images/blog/image30.webp"
 heroImageAlt: "How to Build Engaging eLearning Courses in Sydney overview and actionable framework"
 heroImageCaption: "Implementation guide and core takeaways for How to Build Engaging eLearning Courses in Sydney."
 seoTitle: "How to Build Engaging eLearning Courses in Sydney"
-seoDescription: "In Sydney\u2019s fast-paced business and education landscape, demand for high-quality eLearning courses has never been stronger. Australia\u2019s e-learning marke..."
+seoDescription: "Build engaging eLearning courses in Sydney. Explore instructional design frameworks, local compliance, and authoring tools for Australian organizations."
 focusKeyword: "How to Build Engaging eLearning Courses in Sydney"
 secondaryKeywords:
   - "Corporate Training"

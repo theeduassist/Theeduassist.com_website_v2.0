@@ -37,8 +37,7 @@ heroImageAlt: Thinkific course creation and LMS management showing structured
   online courses, learner progress, assessments, and learning analytics
 heroImageCaption: Thinkific course creation and LMS management help transform
   online content into structured, engaging, and measurable learning experiences.
-seoTitle: "Thinkific Course Creation and LMS Management: How to Create Online
-  Courses 2026"
+seoTitle: "Thinkific Course Creation and LMS Management Guide"
 seoDescription: Learn how Thinkific course creation and LMS management can
   organize online learning, improve learner engagement, track progress, and
   support better learning outcomes in 2026.

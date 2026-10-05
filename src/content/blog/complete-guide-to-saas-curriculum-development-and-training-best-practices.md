@@ -34,7 +34,7 @@ heroImageAlt: SaaS curriculum development infographic showing structured
 heroImageCaption: Effective SaaS curriculum development combines structured
   learning paths, practical training, microlearning, and assessments to improve
   user adoption and learning outcomes.
-seoTitle: " Complete Guide to SaaS Curriculum Development and Training Best Practices"
+seoTitle: "SaaS Curriculum Development & Training Best Practices"
 seoDescription: Learn how SaaS curriculum development creates effective training
   through role-based learning, microlearning, simulations, and practical
   training strategies.

@@ -101,8 +101,7 @@ heroImageAlt: Kajabi automation workflows for course creators showing email,
   onboarding, re-engagement, upselling, and sales automation
 heroImageCaption: Kajabi automation workflows connect marketing, onboarding,
   re-engagement, course completion, and sales processes.
-seoTitle: "Kajabi Automation Workflows: How to Scale Smarter and Sell More
-  Courses in 2026"
+seoTitle: "Kajabi Automation Workflows: Scale and Sell Courses"
 seoDescription: Learn how Kajabi automation workflows can help course creators
   save time, improve student experiences, and scale their online course
   business.

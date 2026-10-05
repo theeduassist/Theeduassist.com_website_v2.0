@@ -29,7 +29,7 @@ heroImageAlt: Podia vs Kajabi comparison showing online course platform features
   and pricing in 2026
 heroImageCaption: "Podia vs Kajabi: Compare pricing and features for online
   course creators in 2026."
-seoTitle: "Podia vs Kajabi: Which Online Course Platform Is Right for You in 2026?"
+seoTitle: "Podia vs Kajabi: Course Platform Comparison 2026"
 seoDescription: Compare Podia vs Kajabi in 2026, including pricing, features,
   email marketing, courses, and which platform fits your online business.
 focusKeyword: Podia vs Kajabi

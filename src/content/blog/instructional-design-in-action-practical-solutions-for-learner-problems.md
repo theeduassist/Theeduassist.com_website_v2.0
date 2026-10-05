@@ -39,7 +39,7 @@ heroImageAlt: Instructional design process showing learner needs, structured
   outcomes
 heroImageCaption: Instructional design transforms learner challenges into clear,
   structured, engaging, and practical learning experiences.
-seoTitle: "Instructional Design in Action: Practical Solutions for Learner Problems"
+seoTitle: "Instructional Design in Action: Practical Solutions"
 seoDescription: Learn how instructional design solves common learner problems
   through clear structure, practical learning, better engagement, and
   learner-centered experiences.

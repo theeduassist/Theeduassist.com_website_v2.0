@@ -33,7 +33,7 @@ heroImageAlt: Strategic digital product architecture for wealth education
 heroImageCaption: A well-designed digital architecture helps wealth education
   platforms deliver structured learner journeys, automation, engagement, and
   scalable growth.
-seoTitle: "Strategic Digital Product Architecture for Wealth Systems: A Simple Guide"
+seoTitle: "Digital Product Architecture for Wealth Systems"
 seoDescription: Learn how Strategic Digital Product Architects use GoHighLevel
   (GHL), learner journeys, automation, and digital architecture to improve
   wealth education platforms and member engagement.

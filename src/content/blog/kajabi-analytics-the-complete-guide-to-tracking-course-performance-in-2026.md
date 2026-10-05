@@ -84,7 +84,7 @@ tags:
 heroImageAlt: Kajabi analytics dashboard for tracking online course performance
 heroImageCaption: Kajabi analytics helps course creators monitor revenue,
   engagement, email performance, and other business metrics.
-seoTitle: "Kajabi Analytics: The Complete Guide to Tracking Course Performance"
+seoTitle: "Kajabi Analytics: Track Course Performance Guide"
 seoDescription: Learn which Kajabi analytics metrics to track for revenue,
   student engagement, email performance, funnels, and course growth.
 focusKeyword: Kajabi analytics
