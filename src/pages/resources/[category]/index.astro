@@ -26,16 +26,16 @@ const categoryResources = allResources
   .sort((a, b) => new Date(b.data.publishedAt || b.data.updatedAt || new Date()).valueOf() - new Date(a.data.publishedAt || a.data.updatedAt || new Date()).valueOf());
 
 const categoryMeta: Record<string, { title: string; description: string; breadcrumb: string }> = {
-  "localization": { title: "Localization Resources", description: "Guides and best practices for localizing your learning content for a global audience.", breadcrumb: "Localization" },
-  "customer-education": { title: "Customer Education Resources", description: "Strategies and templates for building effective customer education and training programs.", breadcrumb: "Customer Education" },
-  "knowledge-bases": { title: "Knowledge Base Resources", description: "Best practices for creating, managing, and optimizing your customer knowledge base.", breadcrumb: "Knowledge Bases" },
-  "saas-training": { title: "SaaS Training Resources", description: "Resources and insights for training SaaS customers and increasing user adoption.", breadcrumb: "SaaS Training" },
-  "technical-documentation": { title: "Technical Documentation Resources", description: "Guides on writing clear, effective, and user-friendly technical documentation.", breadcrumb: "Technical Documentation" },
-  "learning-technology": { title: "Learning Technology Resources", description: "Insights and tutorials on learning management systems (LMS) and learning tools.", breadcrumb: "Learning Technology" },
-  "instructional-design": { title: "Instructional Design Resources", description: "Frameworks, models, and tips for designing engaging learning experiences.", breadcrumb: "Instructional Design" },
-  "accessibility": { title: "Accessibility Resources", description: "Guides to ensure your learning content is accessible and inclusive to all learners.", breadcrumb: "Accessibility" },
-  "global-elearning": { title: "Global eLearning Resources", description: "Strategies for delivering effective eLearning and training to an international audience.", breadcrumb: "Global eLearning" },
-  "glossary": { title: "eLearning Glossary", description: "Definitions and explanations of key terms in eLearning and customer education.", breadcrumb: "Glossary" },
+  "localization": { title: "Localization Resources", description: "Explore actionable guides, checklists, and best practices for localizing and translating digital e-learning courses for worldwide multilingual audiences.", breadcrumb: "Localization" },
+  "customer-education": { title: "Customer Education Resources", description: "Discover proven strategies, frameworks, and templates for building scalable customer education academies to accelerate user onboarding and product adoption.", breadcrumb: "Customer Education" },
+  "knowledge-bases": { title: "Knowledge Base Resources", description: "Best practices, information architecture frameworks, and content guidelines for creating, managing, and scaling customer self-service knowledge bases.", breadcrumb: "Knowledge Bases" },
+  "saas-training": { title: "SaaS Training Resources", description: "Comprehensive resources, playbooks, and video tutorials for designing SaaS customer training programs that increase product retention and user activation.", breadcrumb: "SaaS Training" },
+  "technical-documentation": { title: "Technical Documentation Resources", description: "In-depth guides and templates for writing clear, concise, and user-friendly technical documentation, API references, and system administration manuals.", breadcrumb: "Technical Documentation" },
+  "learning-technology": { title: "Learning Technology Resources", description: "Insights, platform evaluations, and implementation tutorials on learning management systems, authoring tools, and modern corporate e-learning technology.", breadcrumb: "Learning Technology" },
+  "instructional-design": { title: "Instructional Design Resources", description: "Actionable instructional design models, storyboarding templates, and pedagogical frameworks to craft engaging, goal-oriented digital learning experiences.", breadcrumb: "Instructional Design" },
+  "accessibility": { title: "Accessibility Resources", description: "Essential guides and practical checklists to ensure your digital e-learning courses comply with WCAG 2.2 Level AA and Section 508 accessibility guidelines.", breadcrumb: "Accessibility" },
+  "global-elearning": { title: "Global eLearning Resources", description: "Strategic playbooks for deploying digital training across international markets, addressing regional compliance, data privacy, and cultural localization.", breadcrumb: "Global eLearning" },
+  "glossary": { title: "eLearning Glossary", description: "Comprehensive definitions, acronyms, and practical explanations of essential terminology used across e-learning design, LMS architecture, and EdTech.", breadcrumb: "Glossary" },
 };
 
 // Fallback logic

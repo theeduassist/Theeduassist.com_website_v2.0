@@ -105,6 +105,10 @@ jobs:
       - name: Validate IndexNow
         run: npm run validate:indexnow
 
+      - name: Auto-Submit Changed URLs to IndexNow
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: npm run indexnow:auto || true
+
       - name: Validate Webmaster Platforms
         run: npm run validate:webmaster-platforms
 

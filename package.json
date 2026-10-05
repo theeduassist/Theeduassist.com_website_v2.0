@@ -43,6 +43,7 @@
     "validate:http": "node scripts/validate-http-statuses.mjs",
     "validate:crawl": "node scripts/validate-crawl-readiness.mjs",
     "indexnow:submit": "node scripts/submit-indexnow.mjs",
+    "indexnow:auto": "node scripts/submit-indexnow.mjs --auto --production",
     "validate:indexnow": "node scripts/validate-indexnow.mjs",
     "validate:webmaster-platforms": "node scripts/validate-webmaster-platforms.mjs",
     "validate:entities": "node scripts/validate-entity-consistency.mjs",
