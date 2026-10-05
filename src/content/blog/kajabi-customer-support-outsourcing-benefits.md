@@ -110,6 +110,7 @@ editorialManagement:
   scheduledPublicationDate: 2026-10-05
   lastReviewedDate: 2026-10-05
   nextReviewDate: 2026-10-05
+heroImage: /images/blog/kajabi-customer-support-outsourcing-benefits.webp
 ---
 Running a Kajabi-based business involves much more than creating and selling online courses. Once a business has courses, memberships, landing pages, checkout pages, email campaigns, automations, and customers, providing consistent support can become a major part of daily operations.
 
