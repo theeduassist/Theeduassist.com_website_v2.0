@@ -18968,52 +18968,6 @@ export const cities = [
     ]
   },
   {
-    "cityName": "Lanzhou",
-    "country": "Global",
-    "region": "global",
-    "slug": "lanzhou-elearning-development",
-    "priorityTier": 2,
-    "indexStatus": "index",
-    "metaTitle": "E-Learning Development Services in Lanzhou | LMS, Kajabi & Course Design",
-    "metaDescription": "TheEduAssist helps Lanzhou-based businesses build online courses, Kajabi systems, and LMS training.",
-    "h1": "E-Learning Development Services in Lanzhou",
-    "shortHero": "TheEduAssist helps Lanzhou-based coaches, consultants, companies, and training teams turn raw content into structured online courses, Kajabi programs, and LMS modules..",
-    "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Lanzhou..",
-    "primaryIndustries": [
-      "Various"
-    ],
-    "buyerTypes": [
-      "Businesses"
-    ],
-    "bestServices": [
-      "Course Creation"
-    ],
-    "commonTrainingNeeds": "Lanzhou-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 281.",
-    "faqQuestions": [
-      {
-        "q": "Does TheEduAssist work with clients in Lanzhou?",
-        "a": "Yes, TheEduAssist works remotely with clients in Lanzhou. We provide eLearning development, LMS implementation, Kajabi setup, and course design services to businesses, coaches, consultants, and training teams in Lanzhou and surrounding areas."
-      },
-      {
-        "q": "What eLearning services are available in Lanzhou?",
-        "a": "TheEduAssist offers a full range of eLearning services for Lanzhou-based clients including custom course development, instructional design, LMS setup and migration, Kajabi builds, SCORM/xAPI content, AI-powered learning assets, and ongoing support."
-      },
-      {
-        "q": "How does TheEduAssist deliver projects for Lanzhou clients?",
-        "a": "All projects are delivered remotely. Lanzhou clients share their content, goals, and requirements via a structured onboarding process. TheEduAssist then designs, builds, and delivers the final eLearning product digitally, with regular check-ins and reviews throughout."
-      },
-      {
-        "q": "What LMS platforms does TheEduAssist support for Lanzhou businesses?",
-        "a": "TheEduAssist supports all major LMS platforms for Lanzhou clients including Kajabi, Moodle, Canvas, Blackboard, Docebo, Cornerstone, TalentLMS, LearnUpon, Absorb LMS, and more. We help with implementation, migration, and content upload."
-      },
-      {
-        "q": "How long does an eLearning project take for a Lanzhou client?",
-        "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
-      }
-    ]
-  },
-  {
     "cityName": "Nanning",
     "country": "Global",
     "region": "global",

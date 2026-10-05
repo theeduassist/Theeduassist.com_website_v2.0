@@ -118,6 +118,16 @@
       "permanent": true
     },
     {
+      "source": "/locations/lanzhou-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/lanzhou-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
       "source": "/blog/how-theeduassist-transforms-online-learning/",
       "destination": "/blog/how-theeduassist-transforms-learning/",
       "permanent": true

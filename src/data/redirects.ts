@@ -23,7 +23,15 @@ export type RedirectRule = {
 };
 
 export const redirects: RedirectRule[] = [
-
+  {
+    from: "/locations/lanzhou-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently removed bot scraper location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
   {
     from: "/case-studies-1/",
     to: "/case-studies/",
