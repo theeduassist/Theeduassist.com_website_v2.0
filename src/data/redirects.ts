@@ -22,7 +22,241 @@ export type RedirectRule = {
   notes?: string;
 };
 
-export const redirects: RedirectRule[] = [
+export const redirects: RedirectRule[] = [  {
+    from: "/locations/chengdu-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/shenzhen-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/guangzhou-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/wuhan-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/xian-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/nanjing-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/hangzhou-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/tianjin-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/chongqing-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/harbin-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/shenyang-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/qingdao-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/zhengzhou-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/kunming-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/xiamen-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/fuzhou-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/nanchang-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/hefei-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/jinan-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/changsha-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/urumqi-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/nanning-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/guiyang-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/haikou-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/locations/sanya-elearning-development/",
+    to: "/locations/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged mainland China bot location, redirected to locations directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+  {
+    from: "/resources/global-elearning/china/",
+    to: "/resources/global-elearning/",
+    status: "ready",
+    statusCode: 301,
+    reason: "Permanently purged China resource page, redirected to global elearning resources directory",
+    sourceGroup: "other",
+    targetExists: true
+  },
+
   {
     from: "/locations/lanzhou-elearning-development/",
     to: "/locations/",

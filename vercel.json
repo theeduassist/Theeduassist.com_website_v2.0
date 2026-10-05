@@ -113,6 +113,266 @@
       "permanent": true
     },
     {
+      "source": "/locations/chengdu-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/chengdu-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/shenzhen-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/shenzhen-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/guangzhou-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/guangzhou-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/wuhan-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/wuhan-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/xian-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/xian-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nanjing-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nanjing-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/hangzhou-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/hangzhou-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/tianjin-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/tianjin-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/chongqing-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/chongqing-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/harbin-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/harbin-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/shenyang-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/shenyang-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/qingdao-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/qingdao-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/zhengzhou-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/zhengzhou-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/kunming-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/kunming-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/xiamen-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/xiamen-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/fuzhou-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/fuzhou-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nanchang-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nanchang-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/hefei-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/hefei-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/jinan-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/jinan-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/changsha-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/changsha-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/urumqi-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/urumqi-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nanning-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nanning-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/guiyang-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/guiyang-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/haikou-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/haikou-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/sanya-elearning-development",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/sanya-elearning-development/",
+      "destination": "/locations/",
+      "permanent": true
+    },
+    {
+      "source": "/resources/global-elearning/china",
+      "destination": "/resources/global-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/resources/global-elearning/china/",
+      "destination": "/resources/global-elearning/",
+      "permanent": true
+    },
+    {
       "source": "/contact/",
       "destination": "/contact-us/",
       "permanent": true
