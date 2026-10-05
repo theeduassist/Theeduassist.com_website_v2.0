@@ -35,7 +35,7 @@ const {
     <p class="text-lg md:text-xl text-brand-textMuted mb-10 max-w-3xl mx-auto leading-relaxed" set:html={subtitle}></p>
 
     <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
-      <a href={primaryCtaLink} class="w-full sm:w-auto bg-brand-accent text-white px-8 py-3.5 rounded-md font-bold text-lg hover-lift click-press focus-ring transition-all hover:bg-brand-primary shadow-md hover:shadow-lg text-center">
+      <a href={primaryCtaLink} class="w-full sm:w-auto bg-brand-accent text-slate-950 font-extrabold px-8 py-3.5 rounded-md text-lg hover-lift click-press focus-ring transition-all hover:bg-brand-primary hover:text-white shadow-md hover:shadow-lg text-center">
         {primaryCtaLabel}
       </a>
       {secondaryCtaLabel && secondaryCtaLink && (
@@ -96,7 +96,7 @@ const {
                   { label: "Launch Support", icon: "M13 10V3L4 14h7v7l9-11h-7z" }
                 ].map((node) => (
                     <div class="bg-white p-4 rounded-xl shadow-sm border border-brand-border/60 flex flex-col items-center text-center space-y-3 hover:-translate-y-1 transition-transform duration-300 group/card">
-                        <div class="bg-brand-softBg text-brand-navy p-3 rounded-xl group-hover/card:bg-brand-accent group-hover/card:text-white transition-colors duration-300">
+                        <div class="bg-brand-softBg text-brand-navy p-3 rounded-xl group-hover/card:bg-brand-accent group-hover/card:text-slate-950 transition-colors duration-300">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={node.icon}></path></svg>
                         </div>
                         <span class="font-bold text-brand-navy text-sm leading-tight">{node.label}</span>

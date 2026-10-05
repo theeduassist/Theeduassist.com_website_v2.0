@@ -24,7 +24,7 @@ const steps = process?.steps?.map((s: any) => ({ title: s.title, desc: s.descrip
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
                 {steps.map((block: any, index: number) => (
                     <div class="bg-brand-softBg border border-brand-border p-6 rounded-2xl hover:shadow-md transition-all hover:-translate-y-1 relative group">
-                        <div class="absolute -top-4 -left-4 w-8 h-8 rounded-full bg-brand-accent text-white flex items-center justify-center font-bold text-sm shadow-md">{index + 1}</div>
+                        <div class="absolute -top-4 -left-4 w-8 h-8 rounded-full bg-brand-accent text-slate-950 flex items-center justify-center font-extrabold text-sm shadow-md">{index + 1}</div>
                         <h3 class="text-xl font-bold text-brand-navy mb-3">{block.title}</h3>
                         <p class="text-brand-textMain text-sm">{block.desc}</p>
                     </div>

@@ -45,8 +45,6 @@ const scrollItems = [...aiAssistants, ...aiAssistants];
 </div>
 
 <script>
-    import { copyAndOpenAI } from './AIAssistClient';
-
     document.addEventListener('DOMContentLoaded', () => {
         const btns = document.querySelectorAll('.footer-ai-btn');
 
@@ -56,7 +54,7 @@ const scrollItems = [...aiAssistants, ...aiAssistants];
                 const url = target.dataset.aiUrl || '';
                 const name = target.dataset.aiName || '';
 
-                // Footer defaults to summarize
+                const { copyAndOpenAI } = await import('./AIAssistClient');
                 await copyAndOpenAI('summarize_page', url, name);
             });
         });
@@ -65,12 +63,13 @@ const scrollItems = [...aiAssistants, ...aiAssistants];
 
 <style>
     @keyframes scroll {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(-50%); }
+        0% { transform: translate3d(0, 0, 0); }
+        100% { transform: translate3d(-50%, 0, 0); }
     }
 
     .animate-scroll {
         animation: scroll 30s linear infinite;
+        will-change: transform;
     }
 
     .hover\:animation-pause:hover {

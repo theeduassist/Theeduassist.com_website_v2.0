@@ -13,7 +13,7 @@ const isDark = variant === 'dark';
 <div class={`w-full py-6 px-4 ${isDark ? 'bg-slate-900/60 border-y border-slate-800' : 'bg-slate-100/80 border-y border-slate-200'} ${className}`}>
   <div class="max-w-7xl mx-auto">
     <div class="text-center mb-3">
-      <span class={`text-[11px] font-black uppercase tracking-wider ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>
+      <span class={`text-[11px] font-black uppercase tracking-wider ${isDark ? 'text-slate-300' : 'text-slate-700'}`}>
         Enterprise Verification & Cross-Border Delivery Guarantee
       </span>
     </div>
@@ -26,7 +26,7 @@ const isDark = variant === 'dark';
         </div>
         <div class="min-w-0">
           <div class="text-xs font-bold leading-snug truncate">IRS W-8BEN-E Ready</div>
-          <div class="text-[10px] text-slate-400 truncate">0% US Withholding Tax</div>
+          <div class={`text-[10px] ${isDark ? 'text-slate-400' : 'text-slate-600'} font-medium truncate`}>0% US Withholding Tax</div>
         </div>
       </div>
 
@@ -37,7 +37,7 @@ const isDark = variant === 'dark';
         </div>
         <div class="min-w-0">
           <div class="text-xs font-bold leading-snug truncate">100% IP Transfer</div>
-          <div class="text-[10px] text-slate-400 truncate">Work-For-Hire Assignment</div>
+          <div class={`text-[10px] ${isDark ? 'text-slate-400' : 'text-slate-600'} font-medium truncate`}>Work-For-Hire Assignment</div>
         </div>
       </div>
 
@@ -48,7 +48,7 @@ const isDark = variant === 'dark';
         </div>
         <div class="min-w-0">
           <div class="text-xs font-bold leading-snug truncate">Enforceable NDAs</div>
-          <div class="text-[10px] text-slate-400 truncate">US, UK or Client Law</div>
+          <div class={`text-[10px] ${isDark ? 'text-slate-400' : 'text-slate-600'} font-medium truncate`}>US, UK or Client Law</div>
         </div>
       </div>
 
@@ -59,7 +59,7 @@ const isDark = variant === 'dark';
         </div>
         <div class="min-w-0">
           <div class="text-xs font-bold leading-snug truncate">Zero PII Retained</div>
-          <div class="text-[10px] text-slate-400 truncate">GDPR & FERPA Aligned</div>
+          <div class={`text-[10px] ${isDark ? 'text-slate-400' : 'text-slate-600'} font-medium truncate`}>GDPR & FERPA Aligned</div>
         </div>
       </div>
 
@@ -70,7 +70,7 @@ const isDark = variant === 'dark';
         </div>
         <div class="min-w-0">
           <div class="text-xs font-bold leading-snug truncate">WCAG 2.2 Level AA</div>
-          <div class="text-[10px] text-slate-400 truncate">Section 508 / ADA Title III</div>
+          <div class={`text-[10px] ${isDark ? 'text-slate-400' : 'text-slate-600'} font-medium truncate`}>Section 508 / ADA Title III</div>
         </div>
       </div>
 

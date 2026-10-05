@@ -33,7 +33,7 @@ const { regionData, countries } = Astro.props;
     <div class="bg-slate-50 p-8 rounded-xl border border-slate-100">
         <h3 class="text-xl font-bold text-brand-navy mb-4">Start Your Project</h3>
         <p class="text-slate-600 mb-6 text-sm">Get expert advice tailored to your region's needs.</p>
-        <a href={regionData.ctaPrimary?.link || "/book-free-audit/"} class="block w-full text-center bg-brand-accent text-white font-bold py-3 px-4 rounded hover:bg-brand-primary transition-colors">
+        <a href={regionData.ctaPrimary?.link || "/book-free-audit/"} class="block w-full text-center bg-brand-accent text-slate-950 font-extrabold py-3 px-4 rounded hover:bg-brand-primary hover:text-white transition-colors">
           {regionData.ctaPrimary?.text || "Get 24-48 Hour Review"}
         </a>
     </div>

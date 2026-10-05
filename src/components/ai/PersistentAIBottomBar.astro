@@ -106,8 +106,6 @@ const primaryAssistants = aiAssistants.filter(ai => primaryAIs.includes(ai.id));
 </div>
 
 <script>
-  import { copyAndOpenAI, generateFullPrompt } from './AIAssistClient';
-
   document.addEventListener('DOMContentLoaded', () => {
     const bar = document.getElementById('ai-bottom-bar');
     const pill = document.getElementById('ai-minimized-pill');
@@ -161,6 +159,7 @@ const primaryAssistants = aiAssistants.filter(ai => primaryAIs.includes(ai.id));
 
     // Copy prompt
     copyBtn?.addEventListener('click', async () => {
+      const { generateFullPrompt } = await import('./AIAssistClient');
       const actionId = promptSelect?.value || 'help_me_choose';
       const prompt = generateFullPrompt(actionId);
       try {
@@ -186,6 +185,7 @@ const primaryAssistants = aiAssistants.filter(ai => primaryAIs.includes(ai.id));
         const name = target.dataset.aiName || '';
         const actionId = promptSelect?.value || 'help_me_choose';
 
+        const { copyAndOpenAI } = await import('./AIAssistClient');
         await copyAndOpenAI(actionId, url, name);
       });
     });

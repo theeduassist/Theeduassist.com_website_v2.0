@@ -56,16 +56,28 @@ const attemptTawkAction = (actionFn: () => void, fallbackUrl: string = '/book-fr
   if (typeof window === 'undefined') return;
 
   try {
+    if (typeof (window as any).loadTawkNow === 'function') {
+      (window as any).loadTawkNow();
+    }
+
     if (window.Tawk_API && typeof window.Tawk_API.showWidget === 'function') {
       try { window.Tawk_API.showWidget(); } catch(e) {}
-
       if (typeof window.Tawk_API.maximize === 'function') {
         try { window.Tawk_API.maximize(); } catch(e) {}
       }
-
       actionFn();
     } else {
-      window.location.href = fallbackUrl;
+      setTimeout(() => {
+        if (window.Tawk_API && typeof window.Tawk_API.showWidget === 'function') {
+          try { window.Tawk_API.showWidget(); } catch(e) {}
+          if (typeof window.Tawk_API.maximize === 'function') {
+            try { window.Tawk_API.maximize(); } catch(e) {}
+          }
+          actionFn();
+        } else {
+          window.location.href = fallbackUrl;
+        }
+      }, 350);
     }
   } catch (error) {
     console.warn("Tawk action failed", error);
