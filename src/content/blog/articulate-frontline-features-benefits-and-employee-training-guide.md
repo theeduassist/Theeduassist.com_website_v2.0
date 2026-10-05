@@ -92,20 +92,20 @@ keyTakeaways:
   - "AI features: Frontline includes AI avatars, translation into 80+ languages,
     and an AI tutor."
 sources:
-  - title: Articulate — Articulate 360 Pricing
+  - title: Articulate - Articulate 360 Pricing
     url: https://www.articulate.com/360/pricing/
     accessedAt: 2026-09-30
-  - title: Articulate — Official Website
+  - title: Articulate - Official Website
     url: https://www.articulate.com/
     accessedAt: 2026-09-30
-  - title: Clark, Ruth C. & Mayer, Richard E. — e-Learning and the Science of
+  - title: Clark, Ruth C. & Mayer, Richard E. - e-Learning and the Science of
       Instruction, 5th Edition
     url: https://uat.store.wiley.com/en-us/e-learning-and-the-science-of-instruction-proven-guidelines-for-consumers-and-designers-of-multimedia-learning-5th-edition-p-9781394177370
     accessedAt: 2026-09-30
-  - title: Dirksen, Julie — Design for How People Learn
+  - title: Dirksen, Julie - Design for How People Learn
     url: https://www.oreilly.com/library/view/design-for-how/9780132693752/
     accessedAt: 2026-09-30
-  - title: Wiley Online Library — e-Learning and the Science of Instruction
+  - title: Wiley Online Library - e-Learning and the Science of Instruction
     url: https://onlinelibrary.wiley.com/doi/book/10.1002/9781119239086
     accessedAt: 2026-09-30
 ---

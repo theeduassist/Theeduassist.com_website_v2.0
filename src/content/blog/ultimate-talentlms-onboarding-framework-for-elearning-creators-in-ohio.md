@@ -208,7 +208,7 @@ For eLearning creators in **Ohio**, building a structured onboarding experience 
 
 Platforms like **TalentLMS** provide the technical infrastructure for scalable training programs, but the real impact comes from thoughtful **instructional design** and **curriculum planning**.
 
-By implementing a structured onboarding framework — including orientation modules, learning pathways, community engagement, and skill assessments — course creators can transform the first stage of their programs into a powerful learning experience.
+By implementing a structured onboarding framework - including orientation modules, learning pathways, community engagement, and skill assessments - course creators can transform the first stage of their programs into a powerful learning experience.
 
 For educators seeking to build professional digital learning programs, collaborating with experts in **custom eLearning development services** can help ensure onboarding experiences are both technically effective and pedagogically sound.
 

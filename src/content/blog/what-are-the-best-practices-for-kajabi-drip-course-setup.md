@@ -41,13 +41,13 @@ faqs:
       Drip course content refers to lessons released gradually over time instead of all at once. This improves pacing, accountability, and learner engagement.
   - question: "How long should a drip take?"
     answer: >+
-      Most Kajabi drip courses perform well between 4–12 weeks with weekly release schedules. The ideal length depends on course complexity.
+      Most Kajabi drip courses perform well between 4 - 12 weeks with weekly release schedules. The ideal length depends on course complexity.
   - question: "How to set up a drip campaign?"
     answer: >+
       A strong drip campaign includes structured lesson releases, automated emails, community prompts, progress reminders, and live accountability touchpoints.
   - question: "How long should a drip campaign last?"
     answer: >+
-      Most educational drip campaigns work best between 30–90 days, depending on transformation depth.
+      Most educational drip campaigns work best between 30 - 90 days, depending on transformation depth.
   - question: "Ready to Build High-Engagement Kajabi Drip Courses?"
     answer: >+
       Whether you’re building: a coaching program, certification academy, membership community, corporate L&D training, or custom elearning experience, …the right Kajabi** drip course setup** can dramatically improve course completion rates, learner engagement, and long-term customer retention. At [TheEduAssist](https://theeduassist.com/contact-us/) , we help course creators design scalable Kajabi learning ecosystems with: strategic drip content structures, Kajabi automation, community systems, funnel optimization, curriculum development, and conversion-focused course experiences. If you’re ready to create a Kajabi course students actually complete, our consulting services can help you build a smarter, more profitable online learning business.
@@ -100,7 +100,7 @@ Research shows that learner engagement is one of the strongest predictors of suc
 ## **Best Practices for Kajabi Drip Courses**
 
 
-### **1. Drip Content Based on Learning Milestones — Not Just Time**
+### **1. Drip Content Based on Learning Milestones - Not Just Time**
 
 Align releases with learning progression, cognitive load, and implementation time.
 
@@ -120,7 +120,7 @@ Cohort learning creates shared accountability, better discussions, and synchroni
 
 Focus on:
 
-* Short modules (5–15 minute videos)
+* Short modules (5 - 15 minute videos)
 * One actionable outcome per lesson
 * Implementation assignments
 * Discussion prompts
@@ -144,7 +144,7 @@ Use engaging notifications such as:
 
 ### **6. Align Drip Timing with Student Behavior**
 
-Consider time zones, work schedules, and peak engagement times (e.g., Tuesday–Thursday mornings for corporate learners).
+Consider time zones, work schedules, and peak engagement times (e.g., Tuesday - Thursday mornings for corporate learners).
 
 
 ### **7. Use Locked Progression for Better Completion**
@@ -162,19 +162,19 @@ Require students to complete previous lessons before unlocking the next. This is
 
 ### **How Long Should a Drip Course Take?**
 
-* **Mini-course:** 5–14 days
-* **Skill-based program:** 4–8 weeks
-* **Certification/Coaching:** 8–12 weeks
+* **Mini-course:** 5 - 14 days
+* **Skill-based program:** 4 - 8 weeks
+* **Certification/Coaching:** 8 - 12 weeks
 * **Membership:** Ongoing drip
 Weekly module releases (4, 8, or 12-week structures) tend to perform best.
 
 
 ## **Kajabi Drip Courses for Different Business Models**
 
-* **Coaches** — Use drip for accountability and implementation
-* **Membership Creators** — Release monthly premium content
-* **Corporate Trainers** — Structure phased L&D systems
-* **Educators & EdTech** — Improve curriculum pacing and retention
+* **Coaches** - Use drip for accountability and implementation
+* **Membership Creators** - Release monthly premium content
+* **Corporate Trainers** - Structure phased L&D systems
+* **Educators & EdTech** - Improve curriculum pacing and retention
 
 ## **Final Thoughts**
 
@@ -204,7 +204,7 @@ Drip course content refers to lessons released gradually over time instead of al
 
 **How long should a drip take?**
 
-Most Kajabi drip courses perform well between 4–12 weeks with weekly release schedules. The ideal length depends on course complexity.
+Most Kajabi drip courses perform well between 4 - 12 weeks with weekly release schedules. The ideal length depends on course complexity.
 
 **How to set up a drip campaign?**
 
@@ -212,7 +212,7 @@ A strong drip campaign includes structured lesson releases, automated emails, co
 
 **How long should a drip campaign last?**
 
-Most educational drip campaigns work best between 30–90 days, depending on transformation depth.
+Most educational drip campaigns work best between 30 - 90 days, depending on transformation depth.
 
 
 ## **Ready to Build High-Engagement Kajabi Drip Courses?**

@@ -54,7 +54,7 @@ For sim racers investing in high-end hardware, the experience needs to be smooth
 
 This isn't about how immersive VR can be. It's about whether your AR/VR system is reliable enough to support competitive sim racing without friction.
 
-"The search for a good AR/VR solution." — u/vinsjent, r/simracing
+"The search for a good AR/VR solution." - u/vinsjent, r/simracing
 
 
 ## **Understanding the Real Problem**
@@ -70,7 +70,7 @@ That means your system is juggling four demanding jobs at once:
 * Encoding the video
 * Transmitting the signal (via USB or Wi-Fi)
 * Decoding it inside the headset
-Every layer adds a potential point of instability. A small hiccup in USB bandwidth, software compatibility, or network conditions can break immersion — and in competitive racing, even minor latency can throw off head tracking precision and frame pacing.
+Every layer adds a potential point of instability. A small hiccup in USB bandwidth, software compatibility, or network conditions can break immersion - and in competitive racing, even minor latency can throw off head tracking precision and frame pacing.
 
 
 ### **Why Sim Racing Exposes These Weak Points**

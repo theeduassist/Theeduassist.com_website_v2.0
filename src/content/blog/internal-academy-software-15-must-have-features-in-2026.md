@@ -39,7 +39,7 @@ advancedSeo:
 endOfArticleCta:
   ctaHeading: Ready to Build a Future-Proof Internal Academy?
   ctaDescription: Don't let scattered PDFs and low engagement hold your workforce
-    back. Get a free 24–48 hour expert review of your current LMS, course
+    back. Get a free 24 - 48 hour expert review of your current LMS, course
     structure, or training strategy from TheEduAssist team.
   ctaLabel: Get Your Free Training Review
   ctaUrl: https://www.theeduassist.com/blog/lms-implementation-guide/#review
@@ -138,7 +138,7 @@ And, if it still relies on SCORM-based content, it helps to understand the forma
 
 For regulated industries, compliance is non-negotiable. Missing a required training deadline can lead to severe penalties or audit failures. A solid academy platform automatically tracks deadlines, sends automated reminders, and generates audit reports.
 
-For team leads who handle administrative workflows, pairing compliance tools with targeted management training—such as this [powerful executive assistant training review](https://www.google.com/search?q=https://www.theeduassist.com/blog/powerful-executive-assistant-training-review-that-actually-improves-results/)—ensures your operational leaders stay ahead of requirements.
+For team leads who handle administrative workflows, pairing compliance tools with targeted management training - such as this [powerful executive assistant training review](https://www.google.com/search?q=https://www.theeduassist.com/blog/powerful-executive-assistant-training-review-that-actually-improves-results/) - ensures your operational leaders stay ahead of requirements.
 
 ### **12. Personalised Dashboards for Employees**
 
@@ -154,7 +154,7 @@ If you plan to scale your internal academy across global divisions, follow best 
 
 ### **14. Video-Based Microlearning**
 
-Attention spans are shorter than ever. Long training videos often get skipped or watched at double speed without real focus. Microlearning breaks lessons into short video clips—usually under five minutes—that fit naturally into a busy workday.
+Attention spans are shorter than ever. Long training videos often get skipped or watched at double speed without real focus. Microlearning breaks lessons into short video clips - usually under five minutes - that fit naturally into a busy workday.
 
 To produce video modules that employees will actually watch, read our guide on creating [e-learning videos for students and teachers who actually love the content](https://www.google.com/search?q=https://www.theeduassist.com/blog/e-learning-videos-for-students-and-teachers-who-actually-love/) or explore [how to create engaging video seminars on Spotlightr step-by-step](https://www.google.com/search?q=https://www.theeduassist.com/blog/how-to-create-engaging-video-seminars-on-spotlightr-step-by-step-guide/).
 

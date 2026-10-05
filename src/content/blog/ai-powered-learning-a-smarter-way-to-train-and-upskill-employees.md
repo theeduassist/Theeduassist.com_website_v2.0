@@ -107,22 +107,22 @@ faqs:
       trainers to focus on what they do best: coaching, mentoring, and
       developing people in ways that no algorithm can match."
 sources:
-  - title: McKinsey & Company — Closing the Skills Gap
+  - title: McKinsey & Company - Closing the Skills Gap
     url: https://www.mckinsey.com/industries/education/our-insights/closing-the-skills-gap-creating-workforce-development-programs-that-work-for-everyone
     accessedAt: 2026-09-21
-  - title: LinkedIn Learning — Workplace Learning Report 2024
+  - title: LinkedIn Learning - Workplace Learning Report 2024
     url: https://learning.linkedin.com/content/dam/me/business/en-us/amp/learning-solutions/images/wlr-2024/LinkedIn-Workplace-Learning-Report-2024.pdf
     accessedAt: 2026-09-21
-  - title: LinkedIn Learning — Workplace Learning Report 2025
+  - title: LinkedIn Learning - Workplace Learning Report 2025
     url: https://learning.linkedin.com/resources/workplace-learning-report/share-insight-3
     accessedAt: 2026-09-21
-  - title: McKinsey — The Skills Revolution and the Future of Learning and Earning
+  - title: McKinsey - The Skills Revolution and the Future of Learning and Earning
     url: https://www.mckinsey.com/industries/education/our-insights/the-skills-revolution-and-the-future-of-learning-and-earning
     accessedAt: 2026-09-21
-  - title: Deloitte — Global Human Capital Trends
+  - title: Deloitte - Global Human Capital Trends
     url: https://www2.deloitte.com/us/en/insights/focus/human-capital-trends.html
     accessedAt: 2026-09-21
-  - title: Accenture — Future of Learning and Workforce Development
+  - title: Accenture - Future of Learning and Workforce Development
     url: https://www.accenture.com/us-en/insights/talent-and-organization/future-of-learning
     accessedAt: 2026-09-21
 ---
@@ -178,7 +178,7 @@ When companies combine AI-based feedback with microlearning, employees retain in
 
 AI doesn’t just change what you learn, it changes *how* you learn it.
 
-Some people absorb information better through video.Some others love to read. Others learn by doing – simulations, scenario-based challenges or gamified tasks.
+Some people absorb information better through video.Some others love to read. Others learn by doing - simulations, scenario-based challenges or gamified tasks.
 
 AI-enabled platforms can track behavioural data (e.g., time spent on different types of content, completion rates, quiz performance) and automatically tailor content delivery to the format that is most engaging to each learner. This is where ++[scenario-based learning](https://www.theeduassist.com/scenario-based-learning/)++ and ++[gamified eLearning](https://www.theeduassist.com/gamified-learning/)++ become powerful tools; they give AI systems rich behavioral signals to personalize from.
 

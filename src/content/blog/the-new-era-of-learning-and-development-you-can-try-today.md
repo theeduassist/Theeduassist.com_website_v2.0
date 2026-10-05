@@ -49,7 +49,7 @@ keyTakeaways:
   - "Microlearning, communities, and immersive experiences can increase
     engagement and support stronger learning outcomes. "
   - Modern L&D must prove business impact through behavior, performance, ROI,
-    and measurable outcomes—not just completion rates.
+    and measurable outcomes - not just completion rates.
 faqs:
   - question: What is the new era of L&D?
     answer: The new era of Learning & Development blends AI‑powered content,
@@ -64,7 +64,7 @@ faqs:
       bundle LMS, funnels, and communities in one place, slashing support
       tickets and boosting completion without extra tools.
   - question: How do I prove ROI on L&D programs?
-    answer: Focus on Kirkpatrick Levels 3 and 4—track behavior change and business
+    answer: Focus on Kirkpatrick Levels 3 and 4 - track behavior change and business
       outcomes (e.g., sales lift, productivity gains) using tools like Thirst,
       Litmos, or Google Sheets to turn “smile sheets” into hard‑hitting ROI
       numbers.
@@ -77,18 +77,18 @@ faqs:
       with tools like Genially and H5P so you can prototype, test, and iterate
       in hours instead of days.
 sources:
-  - title: ISO/TS 30437:2023 – Learning and Development metricsInternational
-      Organization for Standardization. (2023). ISO/TS 30437:2023 – Human
-      resource management — Learning and development metrics.
+  - title: ISO/TS 30437:2023 - Learning and Development metricsInternational
+      Organization for Standardization. (2023). ISO/TS 30437:2023 - Human
+      resource management - Learning and development metrics.
     url: https://www.iso.org/standard/68714.html
     accessedAt: 2026-08-19
-  - title: ISO 30422:2022 – Systematic L&D process model (PDCA‑style)International
-      Organization for Standardization. (2022). ISO 30422:2022 – Human resource
-      management — Learning and development.
+  - title: ISO 30422:2022 - Systematic L&D process model (PDCA‑style)International
+      Organization for Standardization. (2022). ISO 30422:2022 - Human resource
+      management - Learning and development.
     url: https://standards.iteh.ai/catalog/standards/iso/b164b849-896a-4858-9928-4a03b4418224/iso-30422-2022
     accessedAt: 2026-08-19
   - title: ISO/TS 30437:2023 technical‑specification summary (iTheth)International
-      Organization for Standardization. (2023). ISO/TS 30437:2023 – Learning and
+      Organization for Standardization. (2023). ISO/TS 30437:2023 - Learning and
       Development Metrics for HR (sample PDF).
     url: https://cdn.standards.iteh.ai/samples/68714/ff3b5743f26c4e3a8643276816d4a0f8/ISO-TS-30437-2023.pdf
     accessedAt: 2026-08-19
@@ -107,14 +107,14 @@ sources:
       Mastering learning measurement with ISO/TS 30437:2023. LinkedIn."
     url: https://www.linkedin.com/pulse/mastering-learning-measurement-isots-304372023-guide-ortiz-cptm-dlldc
     accessedAt: 2026-08-19
-  - title: "Profile: “ISO 30422:2022 – Managing Learning & Development in
+  - title: "Profile: “ISO 30422:2022 - Managing Learning & Development in
       Organizations”LinkedIn Pulse article by Ghaffar (illustrative practitioner
-      piece).Ghaffar, A. (2024). ISO 30422:2022 – Managing learning &
+      piece).Ghaffar, A. (2024). ISO 30422:2022 - Managing learning &
       development in organizations. LinkedIn."
     url: https://www.linkedin.com/pulse/iso-304222022-managing-learning-development-abdul-ghaffar-pllkf
     accessedAt: 2026-08-19
-  - title: "AI–Led L&D: “4 Ways AI Will Reshape L&D”LinkedIn Talent Blog. (2025). 4
-      ways AI will reshape L&D — And what it means for your organization."
+  - title: "AI - Led L&D: “4 Ways AI Will Reshape L&D”LinkedIn Talent Blog. (2025). 4
+      ways AI will reshape L&D - And what it means for your organization."
     url: https://www.linkedin.com/business/talent/blog/learning-and-development/ways-ai-will-reshape-learning-and-development
     accessedAt: 2026-08-19
   - title: "AI in L&D: “AI in Learning and Development”Cornerstone OnDemand. (2026).
@@ -213,7 +213,7 @@ One solo dev I know doubled rates with this $0 extra tools. Mobile‑test everyt
 
 ## **5. For Decision Makers: Strategic Frameworks for Learning & Development:**
 
-CLO/Director, future‑proofing amid compliance and scale is your battle pipeline gaps, buy‑in woes. Blueprint: CLO 2025 report—scale leadership dev to all via AI‑LMS hybrids like Litmos, hitting ISO 30437 standards (business results over completions).
+CLO/Director, future‑proofing amid compliance and scale is your battle pipeline gaps, buy‑in woes. Blueprint: CLO 2025 report - scale leadership dev to all via AI‑LMS hybrids like Litmos, hitting ISO 30437 standards (business results over completions).
 
 Vendor pick: WCAG‑compliant platforms (test via WAVE tool). Pilot ROI story: “Bank scaled to 10K learners, 300% return via Kirkpatrick 4.” Frameworks: ADDIE for compliance‑heavy, SAM for agile.
 

@@ -51,7 +51,7 @@ A well-designed curriculum is the critical foundation for any successful eLearni
 
 Many educators, coaches, and EdTech startups begin with a great idea for an online course, but quickly realize that creating a structured learning experience requires more than simply recording videos. A professional eLearning curriculum involves **clear learning outcomes**, **engaging multimedia content**, and **well-designed assessments**.
 
-This challenge is increasingly common among course creators across **Victoria, Australia** — particularly in cities like **Melbourne**, **Geelong**, and **Ballarat** — where educators are expanding their training programs into digital learning platforms.
+This challenge is increasingly common among course creators across **Victoria, Australia** - particularly in cities like **Melbourne**, **Geelong**, and **Ballarat** - where educators are expanding their training programs into digital learning platforms.
 
 
 ## **Building a Successful Digital Learning Program**
@@ -169,9 +169,9 @@ After developing the curriculum, the next step is selecting a **Learning Managem
 
 Popular LMS platforms include:
 
-* **Kajabi** – Ideal for coaches and digital entrepreneurs
-* **Thinkific** – Known for flexible course creation tools
-* **LearnDash** – A WordPress-based LMS for customized learning environments
+* **Kajabi** - Ideal for coaches and digital entrepreneurs
+* **Thinkific** - Known for flexible course creation tools
+* **LearnDash** - A WordPress-based LMS for customized learning environments
 These platforms support features such as:
 
 * Course modules and lesson sequencing
@@ -188,10 +188,10 @@ Creating a professional digital curriculum requires several components.
 
 Typical investment ranges include:
 
-* **Instructional design consulting: $1,500 – $6,000**
-* **Video production and editing: $1,000 – $4,000**
-* **LMS subscription: $39 – $199 per month**
-* **Interactive content design: $500 – $3,000**
+* **Instructional design consulting: $1,500 - $6,000**
+* **Video production and editing: $1,000 - $4,000**
+* **LMS subscription: $39 - $199 per month**
+* **Interactive content design: $500 - $3,000**
 For many course creators, investing in curriculum design significantly improves course quality and learner outcomes.
 
 
@@ -214,7 +214,7 @@ These services help transform educational ideas into structured, engaging online
 
 ## **Final Thoughts:**
 
-Developing an effective eLearning curriculum in Victoria requires more than subject expertise — it requires thoughtful **instructional design**, **multimedia learning strategies**, and a well-structured digital learning environment.
+Developing an effective eLearning curriculum in Victoria requires more than subject expertise - it requires thoughtful **instructional design**, **multimedia learning strategies**, and a well-structured digital learning environment.
 
 By focusing on:
 
@@ -255,7 +255,7 @@ Tools such as **Articulate Storyline**, **Articulate Rise 360**, **Canva**, and 
 
 ### **How long does it take to develop an eLearning curriculum?**
 
-Depending on course complexity, developing a professional curriculum can take **4–12 weeks**, including scripting, video production, and assessment design.
+Depending on course complexity, developing a professional curriculum can take **4 - 12 weeks**, including scripting, video production, and assessment design.
 
 
 ### **How can TheEduAssist help develop an eLearning curriculum?**

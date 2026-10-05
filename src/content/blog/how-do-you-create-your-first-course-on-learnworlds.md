@@ -395,7 +395,7 @@ Your course may seem obvious because you created it. Test it from a beginner's p
 
 ### **Focusing Too Much on Features**
 
-LearnWorlds offers many tools. You don't need all of them. Build around the learner—not the features.
+LearnWorlds offers many tools. You don't need all of them. Build around the learner - not the features.
 
 ## **A Simple Formula for Your First LearnWorlds Course**
 
@@ -404,7 +404,7 @@ Use this simple, outcome-focused framework to build your first course:
 1. Define your target audience.
 2. Identify one clear problem.
 3. Set one measurable learning outcome.
-4. Create 3–5 focused sections.
+4. Create 3 - 5 focused sections.
 5. Develop short, purposeful lessons.
 6. Add relevant learning activities.
 7. Include a practical assessment.

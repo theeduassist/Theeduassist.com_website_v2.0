@@ -142,7 +142,7 @@ Additionally, When evaluating case studies, look for:
 
 Remember your 5 personas. Match the expert to your primary audience:
 
-PersonaExpert Traits to Prioritize**Instructional Designers**Templates, ADDIE/SAM shortcuts, microlearning hacks in email**L&D Managers**ROI-focused automation, Kirkpatrick Level 3–4 tracking in emails**Educators/Coaches**Interactive email ideas (branching, drag-and-drop hints), personality-driven content**Course Creators**Chunking formulas in sequences, mobile-friendly email tips, upsell automation**Training Institutes**Scalable frameworks, WCAG compliance in emails, pilot-testing automations
+PersonaExpert Traits to Prioritize**Instructional Designers**Templates, ADDIE/SAM shortcuts, microlearning hacks in email**L&D Managers**ROI-focused automation, Kirkpatrick Level 3 - 4 tracking in emails**Educators/Coaches**Interactive email ideas (branching, drag-and-drop hints), personality-driven content**Course Creators**Chunking formulas in sequences, mobile-friendly email tips, upsell automation**Training Institutes**Scalable frameworks, WCAG compliance in emails, pilot-testing automations
 
 For TheEduAssist, if you serve **independent course creators**, prioritize pros who’ve doubled completion rates for solopreneurs using one simple automation trick.
 
@@ -284,7 +284,7 @@ Tag buyers by product:
 ## **Strategy 5: Mobile-First Email Design**
 
 * Use Kajabi’s templates optimized for mobile[ [kajabi](https://www.kajabi.com/features/email-marketing) ]
-* Keep paragraphs short (1–2 sentences)
+* Keep paragraphs short (1 - 2 sentences)
 * Add videos and countdown timers for engagement[ [kajabi](https://www.kajabi.com/features/email-marketing) ]
 **Critical for**: L&D managers with remote teams.
 
@@ -331,14 +331,14 @@ FeaturePurposePro Tip**Pipelines**Funnel builder for opt-in → offerConnect ema
 * Completion rates increased from 40% → 82%
 * Refunds dropped by 35%
 * Email open rate: 47% (vs. industry 21%)
-**Key takeaway**: One simple automation doubled completion rates for a solo creator—exactly what **course creators** need.
+**Key takeaway**: One simple automation doubled completion rates for a solo creator - exactly what **course creators** need.
 
 
 ## **Kajabi Marketing vs. Teachable: Which Is Better for Demand Gen?**
 
 Many creators ask: **Kajabi or Teachable for demand gen and marketing**?
 
-FactorKajabiTeachable**Email marketing**Built-in broadcasts + sequences [ [kajabi](https://kajabi.com/blog/you-ve-got-mail) ]Limited; requires external tool**Automation**Native behavior-triggered emails [ [kajabi](https://www.kajabi.com/blog/kajabi-email-marketing) ]Requires Stripe + Mailchimp integration**Pipelines**Built-in funnel builder [ [kajabi](https://www.kajabi.com/blog/kajabi-email-marketing) ]No native funnel builder**Segmentation**Tag-based targeting [ [kajabi](https://www.kajabi.com/blog/kajabi-email-marketing) ]Basic tagging only**All-in-one**Courses + email + funnels + site [ [kajabi](https://kajabi.com/blog/you-ve-got-mail) ]Courses only; needs 3–4 integrations
+FactorKajabiTeachable**Email marketing**Built-in broadcasts + sequences [ [kajabi](https://kajabi.com/blog/you-ve-got-mail) ]Limited; requires external tool**Automation**Native behavior-triggered emails [ [kajabi](https://www.kajabi.com/blog/kajabi-email-marketing) ]Requires Stripe + Mailchimp integration**Pipelines**Built-in funnel builder [ [kajabi](https://www.kajabi.com/blog/kajabi-email-marketing) ]No native funnel builder**Segmentation**Tag-based targeting [ [kajabi](https://www.kajabi.com/blog/kajabi-email-marketing) ]Basic tagging only**All-in-one**Courses + email + funnels + site [ [kajabi](https://kajabi.com/blog/you-ve-got-mail) ]Courses only; needs 3 - 4 integrations
 
 **Winner for Kajabi marketing**: Kajabi dominates for creators who want email + automation + funnels without integrations.
 

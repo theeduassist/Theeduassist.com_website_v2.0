@@ -181,7 +181,7 @@ Some note that advanced features require bundles, and design may need theme twea
 ### **Best Practices and Tips for Success**
 
 * Start small with the free plugin to validate your idea
-* Focus on learner experience — use multimedia, gamification, and community features
+* Focus on learner experience - use multimedia, gamification, and community features
 * Leverage integrations for marketing automation
 * Track completion rates and gather feedback to improve
 * Combine with strong content strategy for high ROI
@@ -203,7 +203,7 @@ Whether you create one course or run a full training institute, it supports your
 * Cloudways. (2025, September 21). LifterLMS vs LearnDash: LMS comparison in 2025. [https://www.cloudways.com/blog/lifterlms-vs-learndash/](https://www.cloudways.com/blog/lifterlms-vs-learndash/)
 * Capterra. (2026). LifterLMS reviews 2026. [https://www.capterra.com/p/194458/LifterLMS/reviews/](https://www.capterra.com/p/194458/LifterLMS/reviews/)
 * G2. (2026). LifterLMS reviews 2026. [https://www.g2.com/products/lifterlms/reviews](https://www.g2.com/products/lifterlms/reviews)
-* WPCrafter. (2026, April). LifterLMS review (April 2026) – Worth it? [https://www.wpcrafter.com/review/lifterlms/](https://www.wpcrafter.com/review/lifterlms/)
+* WPCrafter. (2026, April). LifterLMS review (April 2026) - Worth it? [https://www.wpcrafter.com/review/lifterlms/](https://www.wpcrafter.com/review/lifterlms/)
 
 ## **FAQs:**
 

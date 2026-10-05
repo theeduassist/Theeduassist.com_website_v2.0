@@ -417,15 +417,15 @@ When creating or modifying a Kajabi checkout page template, prioritize:
 - Strong CTA button
 - Refund policy visibility
 - Testimonials
-**Avoid clutter.** The purpose of a checkout page is conversion—not education.
+**Avoid clutter.** The purpose of a checkout page is conversion - not education.
 
 ## **Common Kajabi Checkout Mistakes**
 
-- **Overcomplicated Forms** – Every additional field creates friction.
-- **Hidden Costs** – Unexpected charges remain one of the leading causes of abandonment.
-- **Forced Account Creation** – Users prefer frictionless purchasing experiences.
-- **Weak Mobile Experience** – Mobile checkout problems continue to be a major source of lost conversions.
-- **Lack of Social Proof** – Trust gaps often appear right before purchase decisions.
+- **Overcomplicated Forms** - Every additional field creates friction.
+- **Hidden Costs** - Unexpected charges remain one of the leading causes of abandonment.
+- **Forced Account Creation** - Users prefer frictionless purchasing experiences.
+- **Weak Mobile Experience** - Mobile checkout problems continue to be a major source of lost conversions.
+- **Lack of Social Proof** - Trust gaps often appear right before purchase decisions.
 
 ## **How This Fits Into a Larger Kajabi Funnel Strategy**
 

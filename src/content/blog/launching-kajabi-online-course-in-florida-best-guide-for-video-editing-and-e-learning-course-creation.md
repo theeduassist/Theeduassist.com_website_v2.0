@@ -45,7 +45,7 @@ faqs:
   - question: "Do creators need professional help to build Kajabi courses?"
     answer: "Many course creators work with specialists in custom elearning development services to ensure strong instructional design and professional course production."
 ---
-The demand for digital learning continues to grow as professionals, entrepreneurs, and educators increasingly turn their expertise into scalable online courses. In states like Florida—where coaching businesses, EdTech startups, and independent educators are expanding rapidly—many creators are choosing Kajabi as their platform for building and delivering training programs.
+The demand for digital learning continues to grow as professionals, entrepreneurs, and educators increasingly turn their expertise into scalable online courses. In states like Florida - where coaching businesses, EdTech startups, and independent educators are expanding rapidly - many creators are choosing Kajabi as their platform for building and delivering training programs.
 
 
 ## **Why Kajabi Is Becoming a Popular Platform for Course Creators:**
@@ -165,7 +165,7 @@ For creators planning large training programs, working with experts in custom el
 
 ## **Cost Reality Check: Launching a Kajabi Online Course**
 
-Building a professional course involves several potential investments.  Since Kajabi is a premium, all-in-one platform, it can cost around $69–$399+/month based on the features one purchases.
+Building a professional course involves several potential investments.  Since Kajabi is a premium, all-in-one platform, it can cost around $69 - $399+/month based on the features one purchases.
 
 Typical costs include:
 
@@ -230,7 +230,7 @@ Kajabi provides course hosting, membership tools, and digital product delivery i
 
 **How long should videos be in an online course?**
 
-Most effective eLearning videos are between 5–10 minutes long, helping maintain learner attention and improving completion rates.
+Most effective eLearning videos are between 5 - 10 minutes long, helping maintain learner attention and improving completion rates.
 
 **What role does video editing play in online course success**
 

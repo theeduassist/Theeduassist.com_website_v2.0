@@ -62,7 +62,7 @@ Many training providers are eager to incorporate AI, immersive simulations, and 
 
 Yet simply adding technology does **not** automatically produce better training outcomes. Without a well-structured curriculum, these tools can become disconnected from the core learning objectives.
 
-For example, a training institution might develop an online course with interactive modules, but if the content is not aligned with clinical competencies—such as specimen labeling protocols or infection-control procedures—graduates may still lack the practical skills needed in real healthcare environments.
+For example, a training institution might develop an online course with interactive modules, but if the content is not aligned with clinical competencies - such as specimen labeling protocols or infection-control procedures - graduates may still lack the practical skills needed in real healthcare environments.
 
 This disconnect between technology adoption and competency-based curriculum design is one of the most common problems facing modern healthcare training programs.
 
@@ -76,7 +76,7 @@ Several factors contribute to poorly designed training programs.
 
 The rapid growth of Edtech solutions has made advanced learning tools widely accessible. However, many institutions implement AI learning systems, gamified modules, or simulation tools **without a clear instructional design framework** guiding their use.
 
-Technology should support learning outcomes—not replace structured curriculum planning.
+Technology should support learning outcomes - not replace structured curriculum planning.
 
 
 ### **Lack of Industry-Aligned Competencies**

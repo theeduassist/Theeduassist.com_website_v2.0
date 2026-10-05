@@ -75,7 +75,7 @@ Finally, internal designers have direct access to your Subject Matter Experts (S
 
 ## The Risks of Internal Teams
 
-However, there are serious downsides to consider. First, the upfront cost is very high. In 2026, a basic team of three — a designer, a developer, and a manager — will cost between $250,000 and $350,000 annually.
+However, there are serious downsides to consider. First, the upfront cost is very high. In 2026, a basic team of three - a designer, a developer, and a manager - will cost between $250,000 and $350,000 annually.
 
 Second, hiring is difficult because skilled eLearning talent is currently in short supply. Therefore, it might take you six months just to find the right people. Finally, internal teams are hard to scale. If you suddenly need ten courses in one month, your small team will likely burn out.
 
@@ -160,7 +160,7 @@ The bottom line is simple. The best model in 2026 is the one that helps you give
 
 ## References
 
-- Global Market Insights eLearning Market Forecast 2024–2032
+- Global Market Insights eLearning Market Forecast 2024 - 2032
 - Enterprise Guide to eLearning Outsourcing 2026
 - In-house vs Outsourcing Software Development 2026 Comparison
 - E-Learning Market Size, Share and Growth Analysis 2026

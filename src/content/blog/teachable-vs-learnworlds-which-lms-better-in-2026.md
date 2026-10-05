@@ -39,7 +39,7 @@ heroImageAlt: LearnWorlds vs Teachable comparison infographic showing both LMS
   platforms, their key features, course dashboards, branding, analytics,
   interactive learning, community tools, and creator-focused benefits.
 heroImageCaption: >-
-  LearnWorlds vs Teachable — Which LMS Is Right for You?
+  LearnWorlds vs Teachable - Which LMS Is Right for You?
 
   Compare interactive learning, course creation, analytics, branding, marketing
   tools, communities, and creator features to find the right online course

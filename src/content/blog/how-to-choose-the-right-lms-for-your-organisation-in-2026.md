@@ -52,13 +52,13 @@ keyTakeaways:
     source, revenue share), so ask about hidden costs.
   - Adaptive learning paths and at-risk learner alerts add real value, while
     chatbots with no integration are often hype.
-  - Use a weighted scorecard (1–5 per criterion) to compare platforms
+  - Use a weighted scorecard (1 - 5 per criterion) to compare platforms
     objectively.
   - Ask vendors about product, implementation, pricing, and support before you
     sign.
   - Warning signs include no similar-client references, unclear pricing, and
     hard exit terms.
-  - A pilot with 15–25 learners, a dedicated admin owner, and content built
+  - A pilot with 15 - 25 learners, a dedicated admin owner, and content built
     before launch improve adoption.
 faqs:
   - question: What is the best LMS for corporate training programs?
@@ -172,7 +172,7 @@ Not all features are the same. This is what actually drives the needle on learne
 - Does it recommend content based on gaps in skills, role or career goals?
 - Platforms like Docebo and 360Learning are at the vanguard of this development.
 
-For a deeper look at how AI is reshaping learning delivery, see our article on AI vs. Traditional Instructional Design: What’s Actually Better for Learners? — It’s directly relevant to your LMS strategy.
+For a deeper look at how AI is reshaping learning delivery, see our article on AI vs. Traditional Instructional Design: What’s Actually Better for Learners? - It’s directly relevant to your LMS strategy.
 
 ### 2. Mobile Learning and Accessing Offline
 
@@ -269,10 +269,10 @@ Every LMS vendor in 2026 claims to have AI. Most are telling the truth. Not all 
 
 | Metric | Traditional Learning | AI-Powered Learning |
 | ----------------------------- | -------------------- | ---------------------------------- |
-| Knowledge Retention | 8–10% | 25–60% |
-| Training Time | Baseline | Reduced by 40–60% |
+| Knowledge Retention | 8 - 10% | 25 - 60% |
+| Training Time | Baseline | Reduced by 40 - 60% |
 | Completion Rate | Standard | 2x higher with AI personalization |
-| Employee Retention Impact | — | 57% higher at strong learning orgs |
+| Employee Retention Impact | - | 57% higher at strong learning orgs |
 | Effectiveness vs. Traditional | Baseline | 93.7% more effective |
 
 
@@ -329,7 +329,7 @@ How well the platform can grow with your organization and its future product dir
 **Total 100%**  
 These weighted criteria combine to give a complete picture of how well an LMS fits your organization's needs.
 
-How to use it: Score each platform 1–5 on each criterion, multiply by the weight percentage, and add up the totals. The platform with the highest weighted score is objectively your strongest fit, assuming you’ve weighted the criteria accurately for your organization.
+How to use it: Score each platform 1 - 5 on each criterion, multiply by the weight percentage, and add up the totals. The platform with the highest weighted score is objectively your strongest fit, assuming you’ve weighted the criteria accurately for your organization.
 
 ## Step 7: Questions to Ask Every LMS Vendor Before You Sign
 
@@ -413,12 +413,12 @@ The platform decision is only half the battle. [Implementation](https://www.thee
 
 ### Critical Steps for a Successful LMS Rollout:
 
-- Involve end users early. Run a pilot with 15–25 learners before full deployment. Their feedback will reveal issues the vendor didn’t surface.
+- Involve end users early. Run a pilot with 15 - 25 learners before full deployment. Their feedback will reveal issues the vendor didn’t surface.
 - Assign a clear LMS admin owner. This person needs dedicated time, not just added responsibility on top of an existing full role.
 - Build content before launch, not after. Learners who arrive to an empty platform will not return.
 - Create a communication plan. Explain what the platform is, why it exists, and what’s in it for the learner. Not just an announcement email.
 - Set learner expectations. How much time per week? Required vs. optional content? Certification outcomes? Make it clear from day one.
-- Measure from launch. Define your success metrics before go-live — completion rate targets, engagement benchmarks, and compliance coverage goals.
+- Measure from launch. Define your success metrics before go-live - completion rate targets, engagement benchmarks, and compliance coverage goals.
 
 ## The Right LMS Is Not the Most Popular One, It’s the Right One for You
 

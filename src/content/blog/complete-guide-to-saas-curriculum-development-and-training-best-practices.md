@@ -85,14 +85,14 @@ faqs:
     answer: Yes. Well-trained users generally require less support, which can reduce
       support ticket volume and improve customer satisfaction
 sources:
-  - title: Foundations of SaaS — Microsoft Learn
+  - title: Foundations of SaaS - Microsoft Learn
     url: https://learn.microsoft.com/en-us/
     accessedAt: 2026-08-24
-  - title: A Complete Guide to Customer Education Services and Software — eLearning
+  - title: A Complete Guide to Customer Education Services and Software - eLearning
       Industry
     url: https://elearningindustry.com/
     accessedAt: 2026-08-24
-  - title: The Benefits of a Customer Education Program — eLearning Industry
+  - title: The Benefits of a Customer Education Program - eLearning Industry
     url: https://elearningindustry.com/the-benefits-of-a-customer-education-program?
     accessedAt: 2026-08-24
 editorialManagement:

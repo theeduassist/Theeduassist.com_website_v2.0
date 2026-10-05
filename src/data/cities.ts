@@ -109,7 +109,7 @@ export const cities = [
       },
       {
         "q": "How can New York organizations get started with TheEduAssist?",
-        "a": "You can book a free 24–48 hour project and LMS audit where our senior instructional designers review your content, platform, and training goals to provide a concrete roadmap."
+        "a": "You can book a free 24-48 hour project and LMS audit where our senior instructional designers review your content, platform, and training goals to provide a concrete roadmap."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, helping East Coast startups and enterprises in New York. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -221,7 +221,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -382,7 +382,7 @@ export const cities = [
       },
       {
         "q": "How can London businesses get started with a free training review?",
-        "a": "Request a free 24–48 hour course and LMS audit on our website to receive an actionable diagnostic report from our senior learning architects."
+        "a": "Request a free 24-48 hour course and LMS audit on our website to receive an actionable diagnostic report from our senior learning architects."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, supporting UK-based professionals in London. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -494,7 +494,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -655,7 +655,7 @@ export const cities = [
       },
       {
         "q": "How can Dubai organizations request an initial consultation with TheEduAssist?",
-        "a": "Book a complimentary 24–48 hour training audit on our website, and our senior Gulf region instructional designers will provide a customized project proposal."
+        "a": "Book a complimentary 24-48 hour training audit on our website, and our senior Gulf region instructional designers will provide a customized project proposal."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, partnering with businesses in the UAE in Dubai. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -767,7 +767,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -794,7 +794,7 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "Arabic (العربية) and English (International Business)",
-      "nativeGreeting": "مرحباً بكم في إديو أسیست — شريككم المعتمد لتطوير التعليم الإلكتروني في دبي",
+      "nativeGreeting": "مرحباً بكم في إديو أسیست - شريككم المعتمد لتطوير التعليم الإلكتروني في دبي",
       "culturalEthos": "Visionary AI-first digital transformation, world-class luxury standards, and bilingual Middle Eastern knowledge excellence",
       "businessEtiquette": "Warm hospitality, relationship-first partnerships, and rapid adoption of cutting-edge technological innovations."
     },
@@ -928,7 +928,7 @@ export const cities = [
       },
       {
         "q": "How can Sydney businesses get started with a free training review?",
-        "a": "Request a free 24–48 hour course and LMS audit on our website to receive an actionable diagnostic report from our senior learning architects."
+        "a": "Request a free 24-48 hour course and LMS audit on our website to receive an actionable diagnostic report from our senior learning architects."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, working with Australian educators in Sydney. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -1040,7 +1040,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -1201,7 +1201,7 @@ export const cities = [
       },
       {
         "q": "How can Toronto organizations request a training audit?",
-        "a": "Contact us online to book a free 24–48 hour training and platform audit from our senior Canadian e-learning architects."
+        "a": "Contact us online to book a free 24-48 hour training and platform audit from our senior Canadian e-learning architects."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, serving Canadian creators and companies in Toronto. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -1313,7 +1313,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -1478,7 +1478,7 @@ export const cities = [
       },
       {
         "q": "How do Singapore organizations request a training consultation with TheEduAssist?",
-        "a": "Book a complimentary 24–48 hour training and LMS audit on our website to receive an expert diagnostic proposal tailored to your Singapore team."
+        "a": "Book a complimentary 24-48 hour training and LMS audit on our website to receive an expert diagnostic proposal tailored to your Singapore team."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, empowering APAC's tech and finance hubs in Singapore. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -1590,7 +1590,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -1751,7 +1751,7 @@ export const cities = [
       },
       {
         "q": "How can Saudi organizations request an initial consultation with TheEduAssist?",
-        "a": "Schedule a complimentary 24–48 hour training and platform audit on our website to receive an architectural proposal from our senior Middle East instructional designers."
+        "a": "Schedule a complimentary 24-48 hour training and platform audit on our website to receive an architectural proposal from our senior Middle East instructional designers."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, building for Saudi Arabia's growing academies in Riyadh. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -1863,7 +1863,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -2020,11 +2020,11 @@ export const cities = [
       },
       {
         "q": "How long does a complete Kajabi course build take for an LA creator?",
-        "a": "Full Kajabi setups—including course structure, video integration, sales funnel, and email automation—typically launch in 3 to 5 weeks."
+        "a": "Full Kajabi setups - including course structure, video integration, sales funnel, and email automation - typically launch in 3 to 5 weeks."
       },
       {
         "q": "How can Los Angeles organizations get started with TheEduAssist?",
-        "a": "Book a free 24–48 hour project and LMS audit on our website to receive an expert evaluation of your digital training strategy."
+        "a": "Book a free 24-48 hour project and LMS audit on our website to receive an expert evaluation of your digital training strategy."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, working with SoCal entertainment and coaching in Los Angeles. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -2131,7 +2131,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -2292,7 +2292,7 @@ export const cities = [
       },
       {
         "q": "How can Chicago organizations get started with TheEduAssist?",
-        "a": "Submit your project details online to schedule a free 24–48 hour training audit and receive a customized roadmap from our senior instructional designers."
+        "a": "Submit your project details online to schedule a free 24-48 hour training audit and receive a customized roadmap from our senior instructional designers."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, helping Midwest enterprises modernize in Chicago. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -2404,7 +2404,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -2564,7 +2564,7 @@ export const cities = [
       },
       {
         "q": "How can Melbourne organizations request a consultation with TheEduAssist?",
-        "a": "Book a complimentary 24–48 hour training and platform audit on our website to receive personalized recommendations from our instructional designers."
+        "a": "Book a complimentary 24-48 hour training and platform audit on our website to receive personalized recommendations from our instructional designers."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, assisting Victoria's training businesses in Melbourne. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -2671,7 +2671,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -2753,11 +2753,11 @@ export const cities = [
       "AI E-learning"
     ],
     "commonTrainingNeeds": "Businesses in San Francisco often need structured online learning systems that are clear, scalable, and easy to update. TheEduAssist can support <a href='/services/custom-elearning-development/' class='text-brand-accent font-medium hover:underline'>course design</a>, <a href='/kajabi-services/' class='text-brand-accent font-medium hover:underline'>Kajabi setup</a>, LMS migration, compliance-friendly content structure, learner experience improvements, and <a href='/services/content-conversion/' class='text-brand-accent font-medium hover:underline'>content conversion</a>.",
-    "localCourseOpportunities": "Great opportunities for creator and coaching courses in San Francisco.",
-    "corporateTrainingOpportunities": "High demand for corporate onboarding and compliance in San Francisco.",
+    "localCourseOpportunities": "High-ticket founder coaching, AI product management masterclasses, and venture-backed SaaS customer onboarding academies.",
+    "corporateTrainingOpportunities": "California SB 553 workplace safety protocols, SOC 2 Type II data security awareness, executive coaching academies, and AI workflow training for Silicon Valley enterprises.",
     "languageLocalizationNeeds": "English primary, with support for localized languages as needed in San Francisco.",
     "timezoneCollaborationNote": "We collaborate remotely with San Francisco clients across suitable time zones.",
-    "commonlyUsedLMSPlatforms": "Mention Kajabi, Thinkific, LearnWorlds, Moodle, TalentLMS, LearnDash, Articulate, and iSpring for coaches, wellness educators, professional trainers, corporate teams, and education businesses.",
+    "commonlyUsedLMSPlatforms": "Enterprise LMS platforms including Docebo, Workday Learning, TalentLMS, Canvas, Kajabi, and Articulate 360 for high-growth tech firms, creators, and corporate teams.",
     "creatorCoursePlatforms": [
       "Kajabi",
       "Thinkific",
@@ -2831,7 +2831,7 @@ export const cities = [
       },
       {
         "q": "How can Bay Area companies schedule a consultation with TheEduAssist?",
-        "a": "Request a complimentary 24–48 hour training and platform audit on our website to receive an architectural proposal from our senior team."
+        "a": "Request a complimentary 24-48 hour training and platform audit on our website to receive an architectural proposal from our senior team."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, empowering Silicon Valley tech teams in San Francisco. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -2943,7 +2943,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -2992,7 +2992,8 @@ export const cities = [
     "cityHistoryAndLearning": {
       "historicalContext": "From the 1849 Gold Rush to the global birthplace of modern venture capital, software engineering, and artificial intelligence.",
       "trainingEvolution": "Evolution from developer hackathons to automated SaaS customer education academies and AI-assisted employee skill pathways."
-    }
+    },
+    "regionalCompliance": "Compliance with California SB 553 (mandatory Workplace Violence Prevention Plans effective July 2024), California AB 1825 and SB 1343 sexual harassment prevention training (2 hours for supervisors, 1 hour for employees every two years), CCPA/CPRA data privacy mandates, and ADA Title III (WCAG 2.1 AA) digital accessibility."
   },
   {
     "cityName": "Vancouver",
@@ -3103,7 +3104,7 @@ export const cities = [
       },
       {
         "q": "How can Vancouver organizations get started with a free training audit?",
-        "a": "Book a complimentary 24–48 hour training and platform audit on our website to receive actionable architectural recommendations."
+        "a": "Book a complimentary 24-48 hour training and platform audit on our website to receive actionable architectural recommendations."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, serving West Coast creators and tech in Vancouver. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -3210,7 +3211,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -3237,8 +3238,8 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "Canadian English and International Mandarin/Cantonese",
-      "nativeGreeting": "Welcome to TheEduAssist — Vancouver's Creative Tech & Enterprise E-Learning Partner",
-      "culturalEthos": "Pacific Rim gateway — Environmental mindfulness, film and visual effects creativity, and high-growth clean-tech and gaming innovation.",
+      "nativeGreeting": "Welcome to TheEduAssist - Vancouver's Creative Tech & Enterprise E-Learning Partner",
+      "culturalEthos": "Pacific Rim gateway - Environmental mindfulness, film and visual effects creativity, and high-growth clean-tech and gaming innovation.",
       "businessEtiquette": "Collaborative, egalitarian, respectful of work-life balance, and focused on sustainable long-term value."
     },
     "topPlacesAndHubs": {
@@ -3369,7 +3370,7 @@ export const cities = [
       },
       {
         "q": "How can Doha organizations book a complimentary training audit?",
-        "a": "Submit your project requirements on our website to receive a free 24–48 hour training evaluation from our senior instructional team."
+        "a": "Submit your project requirements on our website to receive a free 24-48 hour training evaluation from our senior instructional team."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, supporting Qatar's academic and corporate sectors in Doha. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -3481,7 +3482,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -3508,8 +3509,8 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "Modern Standard Arabic (العربية) and International Business English",
-      "nativeGreeting": "مرحباً بكم في إديو أسیست — شريككم لتطوير التعليم الإلكتروني والتدريب المؤسسي في الدوحة",
-      "culturalEthos": "Qatar National Vision 2030 — Transforming Qatar into an advanced, knowledge-based society through education and human development.",
+      "nativeGreeting": "مرحباً بكم في إديو أسیست - شريككم لتطوير التعليم الإلكتروني والتدريب المؤسسي في الدوحة",
+      "culturalEthos": "Qatar National Vision 2030 - Transforming Qatar into an advanced, knowledge-based society through education and human development.",
       "businessEtiquette": "Dignified, relationship-centered, respectful of Qatari protocols, and focused on world-class institutional standards."
     },
     "topPlacesAndHubs": {
@@ -3641,7 +3642,7 @@ export const cities = [
       },
       {
         "q": "How can Abu Dhabi organizations request an initial consultation with TheEduAssist?",
-        "a": "Book a complimentary 24–48 hour training and platform audit on our website to receive actionable recommendations from our senior architects."
+        "a": "Book a complimentary 24-48 hour training and platform audit on our website to receive actionable recommendations from our senior architects."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, equipping UAE enterprise teams in Abu Dhabi. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -3753,7 +3754,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -3780,8 +3781,8 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "Modern Standard Arabic (العربية) and Corporate English",
-      "nativeGreeting": "شريككم الاستراتيجي لتطوير أنظمة التعليم والتدريب المؤسسي في أبوظبي — TheEduAssist",
-      "culturalEthos": "UAE capital vision — Sovereign governance excellence, energy transition, and long-term human capital capacity building.",
+      "nativeGreeting": "شريككم الاستراتيجي لتطوير أنظمة التعليم والتدريب المؤسسي في أبوظبي - TheEduAssist",
+      "culturalEthos": "UAE capital vision - Sovereign governance excellence, energy transition, and long-term human capital capacity building.",
       "businessEtiquette": "Formal, respectful of government hierarchy, culturally sophisticated, and committed to institutional excellence."
     },
     "topPlacesAndHubs": {
@@ -3913,7 +3914,7 @@ export const cities = [
       },
       {
         "q": "How can Jeddah organizations request a free training consultation?",
-        "a": "Book a complimentary 24–48 hour training and platform audit on our website to receive actionable architectural recommendations."
+        "a": "Book a complimentary 24-48 hour training and platform audit on our website to receive actionable architectural recommendations."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, helping Red Sea businesses scale training in Jeddah. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -4020,7 +4021,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -4047,8 +4048,8 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "Hijazi Arabic (العربية الحجازية) and Corporate English",
-      "nativeGreeting": "شريككم الرائد في تصميم وتطوير التعليم الإلكتروني وأنظمة التدريب في جدة — TheEduAssist",
-      "culturalEthos": "Gateway to the Two Holy Mosques — Historic commercial openness, Red Sea tourism expansion, and Saudi Vision 2030 economic vitality.",
+      "nativeGreeting": "شريككم الرائد في تصميم وتطوير التعليم الإلكتروني وأنظمة التدريب في جدة - TheEduAssist",
+      "culturalEthos": "Gateway to the Two Holy Mosques - Historic commercial openness, Red Sea tourism expansion, and Saudi Vision 2030 economic vitality.",
       "businessEtiquette": "Hospitable, warm, culturally respectful, and aligned with Saudi Vision 2030 transformation milestones."
     },
     "topPlacesAndHubs": {
@@ -4180,7 +4181,7 @@ export const cities = [
       },
       {
         "q": "How can Karachi organizations request a free training audit with TheEduAssist?",
-        "a": "Submit your project requirements through our website to book a free 24–48 hour training evaluation from our instructional design team."
+        "a": "Submit your project requirements through our website to book a free 24-48 hour training evaluation from our instructional design team."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, working with Pakistan's commercial hub in Karachi. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -4287,7 +4288,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -4314,7 +4315,7 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "Urdu (اردو) and Business English",
-      "nativeGreeting": "کراچی میں پیشہ ورانہ ای لرننگ ڈیزائن اور ایل ایم ایس سلوشنز — TheEduAssist",
+      "nativeGreeting": "کراچی میں پیشہ ورانہ ای لرننگ ڈیزائن اور ایل ایم ایس سلوشنز - TheEduAssist",
       "culturalEthos": "Entrepreneurial grit, commercial dynamism, and high-velocity digital upskilling for global markets.",
       "businessEtiquette": "Warm, welcoming, resilient, and focused on cost-effective, high-impact scalability."
     },
@@ -4447,7 +4448,7 @@ export const cities = [
       },
       {
         "q": "How can Lahore organizations get started with a free training review?",
-        "a": "Book a complimentary 24–48 hour training and platform audit on our website to receive personalized recommendations from our instructional designers."
+        "a": "Book a complimentary 24-48 hour training and platform audit on our website to receive personalized recommendations from our instructional designers."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, equipping Punjab's educational institutes in Lahore. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -4554,7 +4555,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -4581,7 +4582,7 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "Urdu (اردو), Punjabi, and Business English",
-      "nativeGreeting": "لاہور کا مستند ای لرننگ اور کورس ڈویلپمنٹ پارٹنر — TheEduAssist",
+      "nativeGreeting": "لاہور کا مستند ای لرننگ اور کورس ڈویلپمنٹ پارٹنر - TheEduAssist",
       "culturalEthos": "Centuries of scholarly and literary heritage, vibrant IT startup culture, and creative academic excellence.",
       "businessEtiquette": "Deeply respectful, culturally rich, relationship-driven, and forward-looking in software and design."
     },
@@ -4714,7 +4715,7 @@ export const cities = [
       },
       {
         "q": "How can Islamabad institutions request an initial consultation with TheEduAssist?",
-        "a": "Submit your project requirements on our website to receive a free 24–48 hour training evaluation from our senior learning architects."
+        "a": "Submit your project requirements on our website to receive a free 24-48 hour training evaluation from our senior learning architects."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, serving Pakistan's tech and NGO sectors in Islamabad. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -4821,7 +4822,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -4848,7 +4849,7 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "Urdu (اردو) and English (Official Federal Language)",
-      "nativeGreeting": "اسلام آباد کا معتبر ادارہ جاتی ای لرننگ پارٹنر — TheEduAssist",
+      "nativeGreeting": "اسلام آباد کا معتبر ادارہ جاتی ای لرننگ پارٹنر - TheEduAssist",
       "culturalEthos": "Federal governance excellence, international diplomatic and NGO standards, and high-tech software research.",
       "businessEtiquette": "Formal, structured, policy-compliant, and aligned with national and international development goals."
     },
@@ -4981,7 +4982,7 @@ export const cities = [
       },
       {
         "q": "How can Mumbai organizations get started with a free training review?",
-        "a": "Book a complimentary 24–48 hour training and platform audit on our website to receive actionable recommendations from our senior instructional designers."
+        "a": "Book a complimentary 24-48 hour training and platform audit on our website to receive actionable recommendations from our senior instructional designers."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, helping India's financial and entertainment capital in Mumbai. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -5088,7 +5089,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -5115,7 +5116,7 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "Hindi (हिन्दी), Marathi, and Business English",
-      "nativeGreeting": "मुंबई का प्रमुख ई-लर्निंग और एलएमएस डेवलपमेंट पार्टनर — TheEduAssist",
+      "nativeGreeting": "मुंबई का प्रमुख ई-लर्निंग और एलएमएस डेवलपमेंट पार्टनर - TheEduAssist",
       "culturalEthos": "Maximum City determination, Bollywood creative flair, and financial capital operational precision.",
       "businessEtiquette": "Fast-paced, energetic, outcome-focused, and highly respectful of commercial timelines."
     },
@@ -5248,7 +5249,7 @@ export const cities = [
       },
       {
         "q": "How can Bengaluru organizations get started with a free training audit?",
-        "a": "Submit your project requirements on our website to receive a free 24–48 hour training evaluation from our senior learning architects."
+        "a": "Submit your project requirements on our website to receive a free 24-48 hour training evaluation from our senior learning architects."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, partnering with local businesses in Bengaluru. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -5355,7 +5356,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -5382,8 +5383,8 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "Kannada, Hindi, and Indian Tech English",
-      "nativeGreeting": "ಬೆಂಗಳೂರಿನ ಪ್ರಮುಖ ಇ-ಲರ್ನಿಂಗ್ ಮತ್ತು ಎಲ್‌ಎಂಎಸ್ ಅಭಿವೃದ್ಧಿ ಪಾಲುದಾರ — TheEduAssist",
-      "culturalEthos": "Silicon Valley of India — Engineering brilliance, hyper-scale SaaS innovation, and continuous upskilling agility.",
+      "nativeGreeting": "ಬೆಂಗಳೂರಿನ ಪ್ರಮುಖ ಇ-ಲರ್ನಿಂಗ್ ಮತ್ತು ಎಲ್‌ಎಂಎಸ್ ಅಭಿವೃದ್ಧಿ ಪಾಲುದಾರ - TheEduAssist",
+      "culturalEthos": "Silicon Valley of India - Engineering brilliance, hyper-scale SaaS innovation, and continuous upskilling agility.",
       "businessEtiquette": "Agile, technically sophisticated, rapid execution, and highly focused on scalable architecture."
     },
     "topPlacesAndHubs": {
@@ -5515,13 +5516,13 @@ export const cities = [
       },
       {
         "q": "How can New Delhi organizations get started with a free training audit?",
-        "a": "Book a complimentary 24–48 hour training and platform audit on our website to receive actionable architectural recommendations."
+        "a": "Book a complimentary 24-48 hour training and platform audit on our website to receive actionable architectural recommendations."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "Hindi (हिन्दी) and Indian Business English",
-      "nativeGreeting": "नई दिल्ली का अग्रणी ई-लर्निंग और एलएमएस डेवलपमेंट पार्टनर — TheEduAssist",
-      "culturalEthos": "National capital power — Sovereign policy governance, massive corporate conglomerates, and ambitious national skilling initiatives.",
+      "nativeGreeting": "नई दिल्ली का अग्रणी ई-लर्निंग और एलएमएस डेवलपमेंट पार्टनर - TheEduAssist",
+      "culturalEthos": "National capital power - Sovereign policy governance, massive corporate conglomerates, and ambitious national skilling initiatives.",
       "businessEtiquette": "Formal, respectful of institutional hierarchy, articulate, and focused on nationwide scalability."
     },
     "topPlacesAndHubs": {
@@ -5653,7 +5654,7 @@ export const cities = [
       },
       {
         "q": "How can Berlin organizations request an initial training consultation?",
-        "a": "Book a complimentary 24–48 hour training and platform audit on our website to receive an architectural review tailored to your Berlin team."
+        "a": "Book a complimentary 24-48 hour training and platform audit on our website to receive an architectural review tailored to your Berlin team."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, equipping Germany's startup ecosystem in Berlin. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -5765,7 +5766,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -5793,7 +5794,7 @@ export const cities = [
     "localLanguage": {
       "primaryLanguage": "German (Deutsch) and Business English",
       "nativeGreeting": "Ihr Partner für moderne digitale Lernsysteme und LMS in Berlin",
-      "culturalEthos": "Duales Ausbildungssystem (Dual Vocational Training) ethos — Rigorous precision, hands-on apprenticeship, and GDPR data privacy.",
+      "culturalEthos": "Duales Ausbildungssystem (Dual Vocational Training) ethos - Rigorous precision, hands-on apprenticeship, and GDPR data privacy.",
       "businessEtiquette": "Punctual, thorough documentation, direct communication, and strict adherence to European standards."
     },
     "topPlacesAndHubs": {
@@ -5925,7 +5926,7 @@ export const cities = [
       },
       {
         "q": "How can Paris businesses start a collaboration with TheEduAssist?",
-        "a": "Schedule a free 24–48 hour project and LMS audit through our website to receive an expert diagnostic report from our instructional design team."
+        "a": "Schedule a free 24-48 hour project and LMS audit through our website to receive an expert diagnostic report from our instructional design team."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, serving French luxury and tech sectors in Paris. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -6037,7 +6038,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -6197,7 +6198,7 @@ export const cities = [
       },
       {
         "q": "How do Amsterdam organizations get started with TheEduAssist?",
-        "a": "Book a complimentary 24–48 hour training and platform review on our website to receive actionable recommendations for your Amsterdam team."
+        "a": "Book a complimentary 24-48 hour training and platform review on our website to receive actionable recommendations for your Amsterdam team."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, working with Dutch digital businesses in Amsterdam. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -6309,7 +6310,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -6468,7 +6469,7 @@ export const cities = [
       },
       {
         "q": "How can Dublin organizations book a complimentary training audit?",
-        "a": "Book a free 24–48 hour training and platform review on our website to receive actionable architectural recommendations from our senior designers."
+        "a": "Book a free 24-48 hour training and platform review on our website to receive actionable architectural recommendations from our senior designers."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, supporting Ireland's multinational hubs in Dublin. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -6575,7 +6576,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -6602,8 +6603,8 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "Irish English and European Business English",
-      "nativeGreeting": "Welcome to TheEduAssist — Dublin's Silicon Docks E-Learning & Enterprise LMS Partner",
-      "culturalEthos": "Silicon Docks European tech capital — High-growth multinational SaaS, Irish warmth and storytelling, and strict European data sovereignty.",
+      "nativeGreeting": "Welcome to TheEduAssist - Dublin's Silicon Docks E-Learning & Enterprise LMS Partner",
+      "culturalEthos": "Silicon Docks European tech capital - High-growth multinational SaaS, Irish warmth and storytelling, and strict European data sovereignty.",
       "businessEtiquette": "Approachable, conversational, pragmatic, and strictly compliant with European regulatory frameworks."
     },
     "topPlacesAndHubs": {
@@ -6735,7 +6736,7 @@ export const cities = [
       },
       {
         "q": "How can Johannesburg organizations book a complimentary training audit?",
-        "a": "Book a free 24–48 hour training and platform review on our website to receive actionable architectural recommendations from our senior designers."
+        "a": "Book a free 24-48 hour training and platform review on our website to receive actionable architectural recommendations from our senior designers."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, helping African enterprises scale in Johannesburg. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -6842,7 +6843,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -6869,8 +6870,8 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "South African English, Zulu (isiZulu), and Afrikaans",
-      "nativeGreeting": "Welcome to TheEduAssist — Johannesburg's Premier Enterprise E-Learning & LMS Partner",
-      "culturalEthos": "City of Gold (Egoli) — Financial and commercial capital of Sub-Saharan Africa, vibrant resilience, and B-BBEE skills transformation.",
+      "nativeGreeting": "Welcome to TheEduAssist - Johannesburg's Premier Enterprise E-Learning & LMS Partner",
+      "culturalEthos": "City of Gold (Egoli) - Financial and commercial capital of Sub-Saharan Africa, vibrant resilience, and B-BBEE skills transformation.",
       "businessEtiquette": "Direct, collaborative, pragmatic, and committed to inclusive skills development."
     },
     "topPlacesAndHubs": {
@@ -7001,7 +7002,7 @@ export const cities = [
       },
       {
         "q": "How can Cape Town organizations get started with a free training audit?",
-        "a": "Submit your project requirements on our website to receive a free 24–48 hour training evaluation from our senior learning architects."
+        "a": "Submit your project requirements on our website to receive a free 24-48 hour training evaluation from our senior learning architects."
       }
     ],
     "heroIntro": "TheEduAssist provides remote eLearning development, Kajabi setup, and LMS migration, supporting South Africa's digital creators in Cape Town. We help turn scattered materials into structured, platform-ready learning systems.",
@@ -7108,7 +7109,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -7135,8 +7136,8 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "South African English, Afrikaans, and Xhosa (isiXhosa)",
-      "nativeGreeting": "Welcome to TheEduAssist — Cape Town's Silicon Cape E-Learning & LMS Architecture Partner",
-      "culturalEthos": "Silicon Cape innovation — Creative design excellence, tech startup culture, and progressive coastal energy.",
+      "nativeGreeting": "Welcome to TheEduAssist - Cape Town's Silicon Cape E-Learning & LMS Architecture Partner",
+      "culturalEthos": "Silicon Cape innovation - Creative design excellence, tech startup culture, and progressive coastal energy.",
       "businessEtiquette": "Creative, relaxed yet professional, entrepreneurial, and value-driven."
     },
     "topPlacesAndHubs": {
@@ -7271,7 +7272,7 @@ export const cities = [
       },
       {
         "q": "How much does an eLearning project cost for a Kuala Lumpur client?",
-        "a": "Project costs vary depending on the scope—whether it's a Kajabi setup, full course creation, or a large-scale LMS migration. We provide clear, customized pricing after understanding your specific training goals."
+        "a": "Project costs vary depending on the scope - whether it's a Kajabi setup, full course creation, or a large-scale LMS migration. We provide clear, customized pricing after understanding your specific training goals."
       },
       {
         "q": "How do I start a project with TheEduAssist from Kuala Lumpur?",
@@ -7390,7 +7391,7 @@ export const cities = [
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -7513,7 +7514,7 @@ export const cities = [
       },
       {
         "q": "Can TheEduAssist help choose between TalentLMS, Docebo, Absorb LMS, LearnUpon, Litmos, Moodle, Canvas, LearnDash, Kajabi, and LearnWorlds?",
-        "a": "Absolutely. We offer a 24–48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
+        "a": "Absolutely. We offer a 24-48 Hour Review where we assess your requirements and recommend the most suitable platform from this extensive list."
       },
       {
         "q": "Can TheEduAssist build SCORM-ready content using Articulate Rise, Storyline, or iSpring?",
@@ -7529,7 +7530,7 @@ export const cities = [
       },
       {
         "q": "How do I start an eLearning project with TheEduAssist?",
-        "a": "The best way to start is by submitting your project details for our 24–48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
+        "a": "The best way to start is by submitting your project details for our 24-48 Hour Review. We will analyze your needs and provide a clear roadmap and recommendation."
       }
     ]
   },
@@ -7612,13 +7613,13 @@ export const cities = [
       },
       {
         "q": "How can Miami organizations book a free training audit?",
-        "a": "Submit your project details on our website to receive a free 24–48 hour training evaluation from our senior instructional team."
+        "a": "Submit your project details on our website to receive a free 24-48 hour training evaluation from our senior instructional team."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "Bilingual English and Spanish (Español)",
-      "nativeGreeting": "Bienvenido a TheEduAssist — Su Socio de E-Learning y LMS en Miami y América Latina",
-      "culturalEthos": "Gateway to the Americas — Vibrant entrepreneurial drive, cross-border commercial agility, and multicultural hospitality excellence.",
+      "nativeGreeting": "Bienvenido a TheEduAssist - Su Socio de E-Learning y LMS en Miami y América Latina",
+      "culturalEthos": "Gateway to the Americas - Vibrant entrepreneurial drive, cross-border commercial agility, and multicultural hospitality excellence.",
       "businessEtiquette": "Relationship-focused, warm, energetic, and highly adaptable across North and Latin American business norms."
     },
     "topPlacesAndHubs": {
@@ -7719,13 +7720,13 @@ export const cities = [
       },
       {
         "q": "How can Atlanta organizations get started with a free training audit?",
-        "a": "Book a complimentary 24–48 hour training and platform audit on our website to receive an architectural review tailored to your Atlanta team."
+        "a": "Book a complimentary 24-48 hour training and platform audit on our website to receive an architectural review tailored to your Atlanta team."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "Southeastern American English",
-      "nativeGreeting": "Welcome to TheEduAssist — Atlanta's Enterprise E-Learning & Corporate Training Partner",
-      "culturalEthos": "Southern hospitality meets Fortune 500 corporate power — Deep logistics roots, civil rights legacy, and high-growth FinTech hub.",
+      "nativeGreeting": "Welcome to TheEduAssist - Atlanta's Enterprise E-Learning & Corporate Training Partner",
+      "culturalEthos": "Southern hospitality meets Fortune 500 corporate power - Deep logistics roots, civil rights legacy, and high-growth FinTech hub.",
       "businessEtiquette": "Courteous, relationship-oriented, structured, and committed to inclusive workforce development."
     },
     "topPlacesAndHubs": {
@@ -7788,7 +7789,7 @@ export const cities = [
     ],
     "lmsGuidance": "Dallas energy and financial services companies most often need Cornerstone, SAP Litmos, or Docebo for compliance tracking and audit reporting. Enterprise tech and telecom teams tend to prefer Kajabi or TalentLMS for internal enablement and coaching content.",
     "languageLocalizationNeeds": "English is the primary language for Dallas training content; most projects require standard US English only, with localization available for multinational teams on request.",
-    "commonlyUsedLMSPlatforms": "Dallas energy and financial services companies commonly use Cornerstone, SAP Litmos, and Docebo for compliance tracking, alongside Kajabi for internal coaching and enablement programs.",
+    "commonlyUsedLMSPlatforms": "TalentLMS, Docebo, Absorb LMS, Canvas, Moodle Workplace, and Articulate 360 for enterprise operations, healthcare systems, and professional services.",
     "faqQuestions": [
       {
         "q": "Do you design corporate training for Fortune 500 HQs in Dallas-Fort Worth?",
@@ -7828,13 +7829,13 @@ export const cities = [
       },
       {
         "q": "How can Dallas organizations book a free training architecture review?",
-        "a": "Visit our website to book a free 24–48 hour training audit and receive a detailed diagnostic evaluation from our senior learning architects."
+        "a": "Visit our website to book a free 24-48 hour training audit and receive a detailed diagnostic evaluation from our senior learning architects."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "American English and Corporate Spanish",
-      "nativeGreeting": "Welcome to TheEduAssist — Dallas-Fort Worth's Enterprise E-Learning & LMS Partner",
-      "culturalEthos": "Silicon Prairie powerhouse — Big Texas ambition, telecom corridor engineering, and Fortune 500 corporate scale.",
+      "nativeGreeting": "Welcome to TheEduAssist - Dallas-Fort Worth's Enterprise E-Learning & LMS Partner",
+      "culturalEthos": "Silicon Prairie powerhouse - Big Texas ambition, telecom corridor engineering, and Fortune 500 corporate scale.",
       "businessEtiquette": "Decisive, relationship-driven, commercially pragmatic, and focused on clear return on investment."
     },
     "topPlacesAndHubs": {
@@ -7854,7 +7855,10 @@ export const cities = [
     "cityHistoryAndLearning": {
       "historicalContext": "From cattle and oil trading to the Telecom Corridor, Silicon Prairie tech migration, and the corporate headquarters capital of the United States.",
       "trainingEvolution": "Shift from multi-day corporate off-sites and industrial field manuals to enterprise-wide digital academies, mobile field microlearning, and automated LMS migrations."
-    }
+    },
+    "regionalCompliance": "Compliance with Texas HB 3834 certified cybersecurity training, Texas HB 300 patient privacy rules (stricter than federal HIPAA standards), Texas Workforce Commission employment regulations, and OSHA industrial safety requirements.",
+    "corporateTrainingOpportunities": "Texas HB 3834 certified cybersecurity training, healthcare HIPAA and HB 300 compliance modules, and enterprise supply chain onboarding.",
+    "localCourseOpportunities": "Corporate leadership development, real estate investor training academies, and financial advisory certification prep."
   },
   {
     "cityName": "Houston",
@@ -7895,7 +7899,7 @@ export const cities = [
     ],
     "lmsGuidance": "Houston's energy and oil & gas employers typically need Cornerstone, SAP Litmos, or Docebo for safety-compliance tracking. Healthcare and medical training teams often use Absorb LMS or TalentLMS for continuing-education tracking, and aerospace/engineering teams tend to need Moodle or Docebo for structured technical certification.",
     "languageLocalizationNeeds": "Houston has one of the most multicultural workforces in the US, including a large Spanish-speaking population. We can build bilingual English/Spanish training content on request, in addition to standard English-language courses.",
-    "commonlyUsedLMSPlatforms": "Houston's energy sector commonly uses Cornerstone, SAP Litmos, and Docebo for safety-compliance training, healthcare teams favor Absorb LMS and TalentLMS, and aerospace/engineering teams often choose Moodle or Docebo for certification tracking.",
+    "commonlyUsedLMSPlatforms": "Absorb LMS, Docebo, TalentLMS, Moodle Workplace, and Articulate Storyline for industrial simulation, healthcare credentials, and corporate training.",
     "faqQuestions": [
       {
         "q": "Do you build safety and compliance training for oil & gas companies in Houston?",
@@ -7917,7 +7921,10 @@ export const cities = [
         "q": "How long does a safety/compliance training project take?",
         "a": "A single compliance training module typically takes 3-5 weeks. Full LMS implementations with tracking and reporting usually take 5-9 weeks."
       }
-    ]
+    ],
+    "regionalCompliance": "Strict adherence to Texas HB 3834 cybersecurity mandates, OSHA 1910 and 1926 industrial safety regulations, API safety recommendations, maritime safety training guidelines, and Texas HB 300 and HIPAA healthcare privacy.",
+    "corporateTrainingOpportunities": "Industrial safety simulations, high-stakes engineering onboarding, Texas Medical Center clinical compliance, and maritime workforce training.",
+    "localCourseOpportunities": "Energy transition courses, clinical leadership certifications, and technical engineering bootcamps."
   },
   {
     "cityName": "Boston",
@@ -7998,13 +8005,13 @@ export const cities = [
       },
       {
         "q": "How can Boston organizations request an initial training consultation?",
-        "a": "Book a complimentary 24–48 hour training and platform review on our website to receive actionable architectural recommendations."
+        "a": "Book a complimentary 24-48 hour training and platform review on our website to receive actionable architectural recommendations."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "New England English",
-      "nativeGreeting": "Welcome to TheEduAssist — Boston's Biotech, Higher Ed & Enterprise E-Learning Partner",
-      "culturalEthos": "Academic excellence, intellectual rigor, and biotech innovation — combining deep research methodologies with practical operational training.",
+      "nativeGreeting": "Welcome to TheEduAssist - Boston's Biotech, Higher Ed & Enterprise E-Learning Partner",
+      "culturalEthos": "Academic excellence, intellectual rigor, and biotech innovation - combining deep research methodologies with practical operational training.",
       "businessEtiquette": "Direct, intellectual, evidence-based, and highly detail-oriented with strict adherence to academic and clinical standards."
     },
     "topPlacesAndHubs": {
@@ -8067,7 +8074,7 @@ export const cities = [
     ],
     "lmsGuidance": "Seattle's SaaS and tech companies often prefer Kajabi, LearnUpon, or Docebo for customer education and self-serve onboarding. Aerospace and manufacturing teams typically need Cornerstone or Absorb LMS with strong compliance and certification tracking.",
     "languageLocalizationNeeds": "English is the primary language for Seattle training content; most projects require standard US English only, with localization available for global teams and international customers on request.",
-    "commonlyUsedLMSPlatforms": "Seattle's SaaS and tech companies commonly use Kajabi, LearnUpon, and Docebo for customer education, while aerospace and manufacturing teams favor Cornerstone or Absorb LMS for certification tracking.",
+    "commonlyUsedLMSPlatforms": "Docebo, Canvas, TalentLMS, LearnUpon, Absorb LMS, and Kajabi for cloud engineering teams, enterprise software academies, and professional learning.",
     "faqQuestions": [
       {
         "q": "Do you design technical engineering and cloud training programs for Seattle firms?",
@@ -8107,13 +8114,13 @@ export const cities = [
       },
       {
         "q": "How can Seattle organizations book a free training architecture review?",
-        "a": "Visit our website to book a free 24–48 hour training audit and receive a detailed diagnostic evaluation from our senior learning architects."
+        "a": "Visit our website to book a free 24-48 hour training audit and receive a detailed diagnostic evaluation from our senior learning architects."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "Pacific Northwest English",
-      "nativeGreeting": "Welcome to TheEduAssist — Seattle's Enterprise E-Learning & Cloud LMS Architecture Partner",
-      "culturalEthos": "Pacific Northwest tech ethos — Rigorous data-driven engineering, environmental sustainability, and customer-obsessed instructional design.",
+      "nativeGreeting": "Welcome to TheEduAssist - Seattle's Enterprise E-Learning & Cloud LMS Architecture Partner",
+      "culturalEthos": "Pacific Northwest tech ethos - Rigorous data-driven engineering, environmental sustainability, and customer-obsessed instructional design.",
       "businessEtiquette": "Analytical, thorough documentation, collaborative consensus, and metric-focused milestone reviews."
     },
     "topPlacesAndHubs": {
@@ -8133,7 +8140,10 @@ export const cities = [
     "cityHistoryAndLearning": {
       "historicalContext": "From maritime trade and aerospace manufacturing (Boeing) to the global epicenter of cloud computing, e-commerce, and AI engineering.",
       "trainingEvolution": "Shift from technical manual documentation to continuous learning pipelines, AWS/cloud architectural certification courses, and AI-assisted corporate upskilling."
-    }
+    },
+    "regionalCompliance": "Full alignment with Washington State Department of Labor & Industries (DOSH) safety standards, Washington State mandatory employee sexual harassment prevention training (RCW 49.60), enterprise cloud data security protocols, and ADA Title III (WCAG 2.1 AA) digital accessibility.",
+    "corporateTrainingOpportunities": "Cloud architecture onboarding, customer success academies, developer certification pipelines, and aerospace technical documentation e-learning.",
+    "localCourseOpportunities": "Tech product management courses, cloud engineering masterclasses, and executive coaching programs."
   },
   {
     "cityName": "Montreal",
@@ -8214,13 +8224,13 @@ export const cities = [
       },
       {
         "q": "How can Montreal organizations request an initial training consultation?",
-        "a": "Submit your project requirements on our website to receive a free 24–48 hour training evaluation from our senior instructional architects."
+        "a": "Submit your project requirements on our website to receive a free 24-48 hour training evaluation from our senior instructional architects."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "Bilingual French (Français québécois) and Canadian English",
-      "nativeGreeting": "Bienvenue à TheEduAssist — Votre Partenaire E-Learning et LMS d'Entreprise à Montréal",
-      "culturalEthos": "Québec cultural identity meets global AI hub — Deep intellectual heritage, creative bilingualism, and Bill 96 language compliance rigor.",
+      "nativeGreeting": "Bienvenue à TheEduAssist - Votre Partenaire E-Learning et LMS d'Entreprise à Montréal",
+      "culturalEthos": "Québec cultural identity meets global AI hub - Deep intellectual heritage, creative bilingualism, and Bill 96 language compliance rigor.",
       "businessEtiquette": "Diplomatic, bilingual, culturally respectful, and appreciative of high design aesthetics."
     },
     "topPlacesAndHubs": {
@@ -8811,7 +8821,7 @@ export const cities = [
       },
       {
         "q": "How do you align with Japanese Labor Standards Act training requirements?",
-        "a": "We structure mandatory corporate training—including workplace safety, information security, and harassment prevention—in strict compliance with Ministry of Health, Labour and Welfare guidelines."
+        "a": "We structure mandatory corporate training - including workplace safety, information security, and harassment prevention - in strict compliance with Ministry of Health, Labour and Welfare guidelines."
       },
       {
         "q": "Can you help Tokyo universities and EdTech startups launch global courses on Kajabi or Thinkific?",
@@ -8827,13 +8837,13 @@ export const cities = [
       },
       {
         "q": "How do Tokyo organizations initiate an e-learning consultation with TheEduAssist?",
-        "a": "Contact us through our online portal to schedule a complimentary 24–48 hour curriculum audit and receive an architectural roadmap tailored to your Tokyo team."
+        "a": "Contact us through our online portal to schedule a complimentary 24-48 hour curriculum audit and receive an architectural roadmap tailored to your Tokyo team."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "Japanese (日本語) and International Business English",
-      "nativeGreeting": "ようこそ — 東京の企業向けLMS・オンラインコース開発パートナー",
-      "culturalEthos": "Kaizen (改善) — Continuous iterative perfection, meticulous zero-defect QA, and structured consensus (Nemawashi)",
+      "nativeGreeting": "ようこそ - 東京の企業向けLMS・オンラインコース開発パートナー",
+      "culturalEthos": "Kaizen (改善) - Continuous iterative perfection, meticulous zero-defect QA, and structured consensus (Nemawashi)",
       "businessEtiquette": "Respectful honorific language (Keigo), precision scheduling, and structured documentation."
     },
     "topPlacesAndHubs": {
@@ -8935,12 +8945,12 @@ export const cities = [
       },
       {
         "q": "How can Seoul organizations request an audit of their current courseware?",
-        "a": "Submit your project details via our website to receive a comprehensive, complimentary 24–48 hour training evaluation from our instructional design team."
+        "a": "Submit your project details via our website to receive a comprehensive, complimentary 24-48 hour training evaluation from our instructional design team."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "Korean (한국어) and Business English",
-      "nativeGreeting": "서울의 차세대 이러닝 및 LMS 개발 파트نر — TheEduAssist",
+      "nativeGreeting": "서울의 차세대 이러닝 및 LMS 개발 파트نر - TheEduAssist",
       "culturalEthos": "Ppalli-Ppalli (빨리빨리) speed with high academic rigor and K-EdTech mobile microlearning",
       "businessEtiquette": "High regard for prompt communication, structured hierarchical clarity, and seamless Kakao/mobile integration."
     },
@@ -9238,7 +9248,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Buenos Aires-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 72.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Buenos Aires?",
@@ -9284,7 +9294,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bogota-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 73.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bogota?",
@@ -9330,7 +9340,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Lima-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 74.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Lima?",
@@ -9376,7 +9386,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Santiago-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 75.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Santiago?",
@@ -9422,7 +9432,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Nairobi-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 76.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Nairobi?",
@@ -9468,7 +9478,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Lagos-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 77.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Lagos?",
@@ -9514,7 +9524,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Accra-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 78.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Accra?",
@@ -9560,7 +9570,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Casablanca-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 79.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Casablanca?",
@@ -9606,7 +9616,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Cairo-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 80.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Cairo?",
@@ -9652,7 +9662,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Beirut-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 81.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Beirut?",
@@ -9698,7 +9708,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Amman-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 82.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Amman?",
@@ -9744,7 +9754,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kuwait City-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 83.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kuwait City?",
@@ -9790,7 +9800,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Muscat-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 84.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Muscat?",
@@ -9836,7 +9846,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Manama-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 85.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Manama?",
@@ -9882,7 +9892,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Madrid-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 86.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "languageLocalizationNeeds": "English primary with Twi secondary. Key search terms: eLearning development Accra, online course creation Ghana, learning management system Ghana, corporate training Accra.",
     "faqQuestions": [
       {
@@ -9929,7 +9939,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Barcelona-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 87.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "languageLocalizationNeeds": "Spanish and Catalan primary with English secondary. Key search terms: desarrollo eLearning Barcelona (eLearning development Barcelona), creación de cursos en línea (online course creation), sistema de gestión del aprendizaje (LMS), formación corporativa en línea (corporate online training).",
     "faqQuestions": [
       {
@@ -9976,7 +9986,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Rome-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 88.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Rome?",
@@ -10022,7 +10032,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Milan-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 89.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Milan?",
@@ -10068,7 +10078,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Stockholm-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 90.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Stockholm?",
@@ -10114,7 +10124,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Oslo-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 91.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Oslo?",
@@ -10160,7 +10170,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Copenhagen-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 92.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Copenhagen?",
@@ -10206,7 +10216,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Helsinki-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 93.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Helsinki?",
@@ -10252,7 +10262,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Warsaw-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 94.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Warsaw?",
@@ -10298,7 +10308,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Prague-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 95.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Prague?",
@@ -10344,7 +10354,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Vienna-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 96.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Vienna?",
@@ -10390,7 +10400,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Geneva-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 98.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Geneva?",
@@ -10436,7 +10446,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Brussels-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 99.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Brussels?",
@@ -10482,7 +10492,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Lisbon-based coaches, consultants, education teams, and corporate training departments often need structured online learning systems that are clear, scalable, and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 100.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Lisbon?",
@@ -10528,7 +10538,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Phoenix-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 101.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Phoenix?",
@@ -10574,7 +10584,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Philadelphia-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 102.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Philadelphia?",
@@ -10620,7 +10630,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "San Antonio-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 103.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "languageLocalizationNeeds": "Portuguese primary with English secondary. Key Portuguese search terms: desenvolvimento eLearning Lisboa (eLearning development Lisbon), criação de cursos online (online course creation), sistema de gestão de aprendizagem (LMS), formação online (online training).",
     "faqQuestions": [
       {
@@ -10667,7 +10677,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "San Diego-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 104.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in San Diego?",
@@ -10713,7 +10723,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Denver-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 105.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Denver?",
@@ -10750,16 +10760,25 @@ export const cities = [
     "shortHero": "TheEduAssist helps Austin-based coaches, consultants, companies, and training teams turn raw content into structured online courses, Kajabi programs, and LMS modules..",
     "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in Austin..",
     "primaryIndustries": [
-      "Various"
+      "Enterprise SaaS",
+      "Hardware & Semiconductors",
+      "Digital Health",
+      "Creator Economy"
     ],
     "buyerTypes": [
-      "Businesses"
+      "SaaS Onboarding Teams",
+      "Growth-Stage Founders",
+      "Corporate L&D Managers",
+      "Kajabi Course Creators"
     ],
     "bestServices": [
-      "Course Creation"
+      "Customer Education Academies",
+      "Kajabi Course Development",
+      "LMS Implementation",
+      "SCORM Packaging"
     ],
-    "commonTrainingNeeds": "Austin-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 106.",
+    "commonTrainingNeeds": "Austin SaaS companies, venture-backed tech startups, and digital creators require scalable customer education academies, rapid employee onboarding pathways, and Texas compliance training built with interactive simulations.",
+    "commonlyUsedLMSPlatforms": "Kajabi, Docebo, TalentLMS, LearnWorlds, and Absorb LMS for SaaS customer academies, coaching enterprises, and corporate onboarding.",
     "faqQuestions": [
       {
         "q": "Do you design onboarding academies for Austin tech startups and SaaS companies?",
@@ -10799,13 +10818,13 @@ export const cities = [
       },
       {
         "q": "How can Austin organizations get started with a free training audit?",
-        "a": "Submit your project requirements on our website to receive a complimentary 24–48 hour training and LMS audit from our senior instructional architects."
+        "a": "Submit your project requirements on our website to receive a complimentary 24-48 hour training and LMS audit from our senior instructional architects."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "American English and Business Spanish",
-      "nativeGreeting": "Welcome to TheEduAssist — Austin's Premier E-Learning & LMS Development Partner",
-      "culturalEthos": "Silicon Hills innovation ethos — Fast-paced tech entrepreneurship, creative collegiate energy, and open-source collaboration.",
+      "nativeGreeting": "Welcome to TheEduAssist - Austin's Premier E-Learning & LMS Development Partner",
+      "culturalEthos": "Silicon Hills innovation ethos - Fast-paced tech entrepreneurship, creative collegiate energy, and open-source collaboration.",
       "businessEtiquette": "Informal yet results-driven, rapid sprint turnarounds, and direct entrepreneurial communication."
     },
     "topPlacesAndHubs": {
@@ -10825,7 +10844,10 @@ export const cities = [
     "cityHistoryAndLearning": {
       "historicalContext": "From state capital and live music center to the premier Silicon Hills hub of SaaS, semiconductors, and high-growth startups.",
       "trainingEvolution": "Rapid transition from legacy corporate workshops to modern microlearning academies, interactive onboarding funnels, and scalable LMS ecosystems."
-    }
+    },
+    "regionalCompliance": "Full alignment with Texas HB 3834 certified cybersecurity awareness training (mandated by the Texas Department of Information Resources for all state agencies and contractors), Texas HB 300 healthcare privacy rules, Texas Workforce Commission guidelines, and OSHA standards.",
+    "corporateTrainingOpportunities": "Texas HB 3834 cybersecurity certifications, customer education academies, and sales enablement onboarding programs.",
+    "localCourseOpportunities": "Creator economy digital products, tech sales bootcamps, and executive coaching masterminds."
   },
   {
     "cityName": "Portland",
@@ -10849,7 +10871,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Portland-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 107.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Portland?",
@@ -10895,7 +10917,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Las Vegas-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 108.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Las Vegas?",
@@ -10941,7 +10963,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Nashville-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 109.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Nashville?",
@@ -10987,7 +11009,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Minneapolis-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 110.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Minneapolis?",
@@ -11033,7 +11055,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tampa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 111.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tampa?",
@@ -11079,7 +11101,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Orlando-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 112.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Orlando?",
@@ -11125,7 +11147,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Baltimore-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 113.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Baltimore?",
@@ -11171,7 +11193,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Charlotte-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 114.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Charlotte?",
@@ -11217,7 +11239,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Raleigh-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 115.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Raleigh?",
@@ -11263,7 +11285,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Detroit-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 116.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Detroit?",
@@ -11309,7 +11331,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Columbus-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 117.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Columbus?",
@@ -11355,7 +11377,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Indianapolis-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 118.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Indianapolis?",
@@ -11401,7 +11423,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Memphis-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 119.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Memphis?",
@@ -11447,7 +11469,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Louisville-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 120.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Louisville?",
@@ -11493,7 +11515,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ottawa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 121.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ottawa?",
@@ -11539,7 +11561,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Calgary-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 122.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Calgary?",
@@ -11585,7 +11607,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Edmonton-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 123.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Edmonton?",
@@ -11631,7 +11653,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Winnipeg-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 124.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Winnipeg?",
@@ -11677,7 +11699,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Quebec City-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 125.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Quebec City?",
@@ -11723,7 +11745,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Adelaide-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 126.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Adelaide?",
@@ -11769,7 +11791,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Gold Coast-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 127.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Gold Coast?",
@@ -11815,7 +11837,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Canberra-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 128.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Canberra?",
@@ -11861,7 +11883,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Wellington-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 129.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Wellington?",
@@ -11907,7 +11929,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Christchurch-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 130.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Christchurch?",
@@ -11953,7 +11975,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Osaka-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 131.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Osaka?",
@@ -11999,7 +12021,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Nagoya-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 132.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Nagoya?",
@@ -12045,7 +12067,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Fukuoka-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 133.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Fukuoka?",
@@ -12091,7 +12113,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Busan-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 134.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Busan?",
@@ -12137,7 +12159,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Taipei-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 135.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Taipei?",
@@ -12183,7 +12205,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ho Chi Minh City-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 136.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ho Chi Minh City?",
@@ -12229,7 +12251,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Hanoi-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 137.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Hanoi?",
@@ -12275,7 +12297,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Dhaka-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 138.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Dhaka?",
@@ -12321,7 +12343,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Colombo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 139.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Colombo?",
@@ -12367,7 +12389,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kathmandu-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 140.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kathmandu?",
@@ -12413,7 +12435,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Colombo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 141.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Colombo?",
@@ -12459,7 +12481,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Lahore-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 142.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Do you build developer and technical onboarding for Lahore IT companies in Arfa Tower and Gulberg?",
@@ -12499,12 +12521,12 @@ export const cities = [
       },
       {
         "q": "How can Lahore organizations get started with a free training review?",
-        "a": "Book a complimentary 24–48 hour training and platform audit on our website to receive personalized recommendations from our instructional designers."
+        "a": "Book a complimentary 24-48 hour training and platform audit on our website to receive personalized recommendations from our instructional designers."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "Urdu (اردو), Punjabi, and Business English",
-      "nativeGreeting": "لاہور کا مستند ای لرننگ اور کورس ڈویلپمنٹ پارٹنر — TheEduAssist",
+      "nativeGreeting": "لاہور کا مستند ای لرننگ اور کورس ڈویلپمنٹ پارٹنر - TheEduAssist",
       "culturalEthos": "Centuries of scholarly and literary heritage, vibrant IT startup culture, and creative academic excellence.",
       "businessEtiquette": "Deeply respectful, culturally rich, relationship-driven, and forward-looking in software and design."
     },
@@ -12550,7 +12572,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Hyderabad-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 143.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Do you design pharmaceutical cGMP and FDA compliance training for Genome Valley firms in Hyderabad?",
@@ -12590,13 +12612,13 @@ export const cities = [
       },
       {
         "q": "How can Hyderabad organizations book a free training audit?",
-        "a": "Submit your project requirements on our website to receive a free 24–48 hour training evaluation from our senior learning architects."
+        "a": "Submit your project requirements on our website to receive a free 24-48 hour training evaluation from our senior learning architects."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "Telugu, Urdu (Deccani), Hindi, and Tech English",
-      "nativeGreeting": "హైదరాబాద్‌లోని ప్రముఖ ఈ-లెర్నింగ్ మరియు ఎల్‌ఎంఎస్ డెవలప్‌మెంట్ పార్టనర్ — TheEduAssist",
-      "culturalEthos": "Cyberabad innovation meets Nizam cultural heritage — Global pharmaceutical hub, IT giant engineering, and entrepreneurial drive.",
+      "nativeGreeting": "హైదరాబాద్‌లోని ప్రముఖ ఈ-లెర్నింగ్ మరియు ఎల్‌ఎంఎస్ డెవలప్‌మెంట్ పార్టనర్ - TheEduAssist",
+      "culturalEthos": "Cyberabad innovation meets Nizam cultural heritage - Global pharmaceutical hub, IT giant engineering, and entrepreneurial drive.",
       "businessEtiquette": "Courteous, relationship-oriented, technically precise, and outcome-focused."
     },
     "topPlacesAndHubs": {
@@ -12615,7 +12637,7 @@ export const cities = [
       ]
     },
     "cityHistoryAndLearning": {
-      "historicalContext": "The City of Pearls and historic Nizam capital, now transformed into Cyberabad—a global powerhouse for software development, IT services, and pharmaceutical manufacturing.",
+      "historicalContext": "The City of Pearls and historic Nizam capital, now transformed into Cyberabad - a global powerhouse for software development, IT services, and pharmaceutical manufacturing.",
       "trainingEvolution": "Shift from classroom training centres to enterprise software developer bootcamps, FDA-compliant cGMP pharma training, and cloud LMS platforms."
     }
   },
@@ -12641,7 +12663,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Chennai-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 144.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Chennai?",
@@ -12687,7 +12709,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Pune-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 145.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Pune?",
@@ -12733,7 +12755,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ahmedabad-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 146.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ahmedabad?",
@@ -12779,7 +12801,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kolkata-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 147.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kolkata?",
@@ -12825,7 +12847,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Jaipur-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 148.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Jaipur?",
@@ -12871,7 +12893,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Surat-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 149.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Surat?",
@@ -12917,7 +12939,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Lucknow-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 150.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Lucknow?",
@@ -12963,7 +12985,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Surabaya-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 151.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Surabaya?",
@@ -13009,7 +13031,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bandung-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 152.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bandung?",
@@ -13055,7 +13077,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Medan-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 153.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Medan?",
@@ -13101,7 +13123,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Cebu City-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 154.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Cebu City?",
@@ -13147,7 +13169,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Davao-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 155.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Davao?",
@@ -13193,7 +13215,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Penang-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 156.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Penang?",
@@ -13239,7 +13261,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Johor Bahru-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 157.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Johor Bahru?",
@@ -13285,7 +13307,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kota Kinabalu-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 158.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kota Kinabalu?",
@@ -13331,7 +13353,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Phnom Penh-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 159.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Phnom Penh?",
@@ -13377,7 +13399,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Vientiane-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 160.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Vientiane?",
@@ -13423,7 +13445,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Yangon-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 161.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Yangon?",
@@ -13469,7 +13491,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Karachi-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 162.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Do you develop State Bank of Pakistan (SBP) compliant training for banks in Karachi?",
@@ -13509,12 +13531,12 @@ export const cities = [
       },
       {
         "q": "How can Karachi organizations request a free training audit with TheEduAssist?",
-        "a": "Submit your project requirements through our website to book a free 24–48 hour training evaluation from our instructional design team."
+        "a": "Submit your project requirements through our website to book a free 24-48 hour training evaluation from our instructional design team."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "Urdu (اردو) and Business English",
-      "nativeGreeting": "کراچی میں پیشہ ورانہ ای لرننگ ڈیزائن اور ایل ایم ایس سلوشنز — TheEduAssist",
+      "nativeGreeting": "کراچی میں پیشہ ورانہ ای لرننگ ڈیزائن اور ایل ایم ایس سلوشنز - TheEduAssist",
       "culturalEthos": "Entrepreneurial grit, commercial dynamism, and high-velocity digital upskilling for global markets.",
       "businessEtiquette": "Warm, welcoming, resilient, and focused on cost-effective, high-impact scalability."
     },
@@ -13560,7 +13582,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Faisalabad-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 163.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Faisalabad?",
@@ -13606,7 +13628,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Peshawar-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 164.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Peshawar?",
@@ -13652,7 +13674,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Quetta-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 165.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Quetta?",
@@ -13698,7 +13720,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Multan-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 166.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Multan?",
@@ -13744,7 +13766,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Guadalajara-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 167.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Guadalajara?",
@@ -13790,7 +13812,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Monterrey-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 168.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Monterrey?",
@@ -13836,7 +13858,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tijuana-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 169.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tijuana?",
@@ -13882,7 +13904,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Medellin-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 170.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Medellin?",
@@ -13928,7 +13950,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Cali-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 171.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Cali?",
@@ -13974,7 +13996,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Barranquilla-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 172.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Barranquilla?",
@@ -14020,7 +14042,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Quito-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 173.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Quito?",
@@ -14066,7 +14088,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Guayaquil-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 174.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Guayaquil?",
@@ -14112,7 +14134,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "La Paz-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 175.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in La Paz?",
@@ -14158,7 +14180,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Asuncion-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 176.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Asuncion?",
@@ -14204,7 +14226,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Montevideo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 177.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Montevideo?",
@@ -14250,7 +14272,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Caracas-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 178.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Caracas?",
@@ -14296,7 +14318,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Panama City-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 179.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Panama City?",
@@ -14325,7 +14347,7 @@ export const cities = [
     "country": "Global",
     "region": "global",
     "slug": "san-jose-elearning-development",
-    "priorityTier": 2,
+    "priorityTier": 1,
     "indexStatus": "index",
     "metaTitle": "E-Learning Development Services in San Jose | LMS, Kajabi & Course Design",
     "metaDescription": "TheEduAssist helps San Jose-based businesses build online courses, Kajabi systems, and LMS training.",
@@ -14333,16 +14355,25 @@ export const cities = [
     "shortHero": "TheEduAssist helps San Jose-based coaches, consultants, companies, and training teams turn raw content into structured online courses, Kajabi programs, and LMS modules..",
     "quickAnswer": "Quick answer: TheEduAssist offers remote eLearning development and LMS implementation for clients in San Jose..",
     "primaryIndustries": [
-      "Various"
+      "Semiconductors",
+      "Enterprise Software",
+      "Hardware Engineering",
+      "AI & Robotics"
     ],
     "buyerTypes": [
-      "Businesses"
+      "Engineering L&D Directors",
+      "SaaS Customer Success Teams",
+      "Corporate Compliance Officers",
+      "Technical Training Academies"
     ],
     "bestServices": [
-      "Course Creation"
+      "Technical Course Creation",
+      "Enterprise LMS Migration",
+      "SCORM Simulation",
+      "Compliance Architectures"
     ],
-    "commonTrainingNeeds": "San Jose-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 180.",
+    "commonTrainingNeeds": "San Jose tech corporations, semiconductor giants, and SaaS innovators require technical course design, developer onboarding curriculums, and audit-ready California compliance courses engineered for high engineering engagement.",
+    "commonlyUsedLMSPlatforms": "Docebo, TalentLMS, Absorb LMS, LearnUpon, Kajabi, and Articulate Storyline for engineering teams, executive coaching, and corporate compliance.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in San Jose?",
@@ -14364,7 +14395,10 @@ export const cities = [
         "q": "How long does an eLearning project take for a San Jose client?",
         "a": "Project timelines vary based on scope. A single course module typically takes 2-4 weeks. A full LMS implementation or Kajabi build may take 4-8 weeks. TheEduAssist offers a free 24-48 hour review to assess your project and provide a clear timeline estimate."
       }
-    ]
+    ],
+    "regionalCompliance": "Strict alignment with California SB 553 workplace violence prevention rules, California AB 1825 sexual harassment training mandates, Cal/OSHA workplace safety standards, and SOC 2 Type II data security requirements for technology workforces.",
+    "corporateTrainingOpportunities": "Mandatory California compliance e-learning, engineering certification paths, and automated customer education systems.",
+    "localCourseOpportunities": "Silicon Valley technical certifications, hardware-to-software transition training, and executive leadership pipelines."
   },
   {
     "cityName": "Guatemala City",
@@ -14388,7 +14422,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Guatemala City-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 181.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Guatemala City?",
@@ -14434,7 +14468,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Havana-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 182.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Havana?",
@@ -14480,7 +14514,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Port of Spain-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 183.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Port of Spain?",
@@ -14526,7 +14560,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kingston-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 184.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kingston?",
@@ -14572,7 +14606,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tunis-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 185.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tunis?",
@@ -14618,7 +14652,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Algiers-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 186.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Algiers?",
@@ -14664,7 +14698,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Dakar-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 187.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Dakar?",
@@ -14710,7 +14744,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Abidjan-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 188.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Abidjan?",
@@ -14756,7 +14790,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Addis Ababa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 189.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Addis Ababa?",
@@ -14802,7 +14836,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Dar es Salaam-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 190.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Dar es Salaam?",
@@ -14848,7 +14882,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kigali-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 191.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kigali?",
@@ -14894,7 +14928,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kampala-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 192.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kampala?",
@@ -14940,7 +14974,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Lusaka-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 193.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Lusaka?",
@@ -14986,7 +15020,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Harare-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 194.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Harare?",
@@ -15032,7 +15066,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Maputo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 195.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Maputo?",
@@ -15078,7 +15112,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Luanda-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 196.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Luanda?",
@@ -15124,7 +15158,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Douala-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 197.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Douala?",
@@ -15170,7 +15204,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kano-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 198.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kano?",
@@ -15216,7 +15250,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ibadan-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 199.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ibadan?",
@@ -15262,7 +15296,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Abuja-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 200.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Abuja?",
@@ -15308,7 +15342,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ankara-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 201.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ankara?",
@@ -15354,7 +15388,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Istanbul-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 202.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "languageLocalizationNeeds": "Turkish primary with English secondary. Key Turkish search terms: İstanbul eLearning geliştirme (eLearning development Istanbul), çevrimiçi kurs oluşturma (online course creation), öğrenme yönetim sistemi (LMS), çevrimiçi eğitim (online training).",
     "faqQuestions": [
       {
@@ -15401,7 +15435,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Izmir-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 203.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Izmir?",
@@ -15447,7 +15481,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tehran-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 204.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tehran?",
@@ -15493,7 +15527,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Baghdad-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 205.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Baghdad?",
@@ -15539,7 +15573,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Damascus-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 206.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Damascus?",
@@ -15585,7 +15619,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tripoli-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 207.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tripoli?",
@@ -15631,7 +15665,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Khartoum-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 208.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Khartoum?",
@@ -15677,7 +15711,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Birmingham-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 209.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Birmingham?",
@@ -15723,7 +15757,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Leeds-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 210.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Leeds?",
@@ -15769,7 +15803,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Glasgow-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 211.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Glasgow?",
@@ -15815,7 +15849,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Edinburgh-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 212.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Edinburgh?",
@@ -15861,7 +15895,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bristol-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 213.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bristol?",
@@ -15907,7 +15941,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Liverpool-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 214.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Liverpool?",
@@ -15953,7 +15987,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Newcastle-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 215.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Newcastle?",
@@ -15999,7 +16033,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Marseille-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 216.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Marseille?",
@@ -16045,7 +16079,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bordeaux-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 217.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bordeaux?",
@@ -16091,7 +16125,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Toulouse-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 218.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Toulouse?",
@@ -16137,7 +16171,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Nice-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 219.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Nice?",
@@ -16183,7 +16217,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Nantes-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 220.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Nantes?",
@@ -16229,7 +16263,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Hamburg-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 221.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Hamburg?",
@@ -16275,7 +16309,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Cologne-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 222.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Cologne?",
@@ -16321,7 +16355,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Stuttgart-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 223.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Stuttgart?",
@@ -16367,7 +16401,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Dusseldorf-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 224.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Dusseldorf?",
@@ -16413,7 +16447,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Naples-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 225.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Naples?",
@@ -16459,7 +16493,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Turin-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 226.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Turin?",
@@ -16505,7 +16539,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Palermo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 227.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Palermo?",
@@ -16551,7 +16585,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Valencia-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 228.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Valencia?",
@@ -16597,7 +16631,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Seville-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 229.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Seville?",
@@ -16643,7 +16677,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bilbao-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 230.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bilbao?",
@@ -16689,7 +16723,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Athens-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 231.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Athens?",
@@ -16735,7 +16769,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Thessaloniki-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 232.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Thessaloniki?",
@@ -16781,7 +16815,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bucharest-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 233.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bucharest?",
@@ -16827,7 +16861,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sofia-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 234.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sofia?",
@@ -16873,7 +16907,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Budapest-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 235.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Budapest?",
@@ -16919,7 +16953,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bratislava-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 236.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bratislava?",
@@ -16965,7 +16999,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ljubljana-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 237.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ljubljana?",
@@ -17011,7 +17045,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Zagreb-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 238.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Zagreb?",
@@ -17057,7 +17091,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Belgrade-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 239.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Belgrade?",
@@ -17103,7 +17137,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sarajevo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 240.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sarajevo?",
@@ -17149,7 +17183,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Skopje-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 241.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Skopje?",
@@ -17195,7 +17229,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tirana-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 242.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tirana?",
@@ -17241,7 +17275,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Riga-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 243.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Riga?",
@@ -17287,7 +17321,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tallinn-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 244.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tallinn?",
@@ -17333,7 +17367,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Vilnius-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 245.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Vilnius?",
@@ -17379,7 +17413,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Minsk-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 246.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Minsk?",
@@ -17425,7 +17459,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kyiv-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 247.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kyiv?",
@@ -17471,7 +17505,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Lviv-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 248.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Lviv?",
@@ -17517,7 +17551,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tbilisi-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 249.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tbilisi?",
@@ -17563,7 +17597,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Yerevan-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 250.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Yerevan?",
@@ -17609,7 +17643,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Baku-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 251.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Baku?",
@@ -17655,7 +17689,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tashkent-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 252.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tashkent?",
@@ -17701,7 +17735,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Almaty-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 253.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Almaty?",
@@ -17747,7 +17781,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Astana-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 254.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Astana?",
@@ -17793,7 +17827,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bishkek-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 255.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bishkek?",
@@ -17839,7 +17873,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Dushanbe-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 256.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Dushanbe?",
@@ -17885,7 +17919,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ashgabat-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 257.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ashgabat?",
@@ -17931,7 +17965,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kabul-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 258.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kabul?",
@@ -17977,7 +18011,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ulaanbaatar-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 259.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ulaanbaatar?",
@@ -18023,7 +18057,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Macau-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 286.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Macau?",
@@ -18069,7 +18103,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kochi-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 287.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kochi?",
@@ -18115,7 +18149,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Coimbatore-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 288.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Coimbatore?",
@@ -18161,7 +18195,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bhopal-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 289.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bhopal?",
@@ -18207,7 +18241,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Nagpur-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 290.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Nagpur?",
@@ -18253,7 +18287,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Indore-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 291.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Indore?",
@@ -18299,7 +18333,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Visakhapatnam-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 292.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Visakhapatnam?",
@@ -18345,7 +18379,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Agra-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 293.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Agra?",
@@ -18391,7 +18425,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Vadodara-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 294.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Vadodara?",
@@ -18437,7 +18471,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Patna-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 295.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Patna?",
@@ -18483,7 +18517,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Chandigarh-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 296.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Chandigarh?",
@@ -18529,7 +18563,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Gurgaon-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 297.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Gurgaon?",
@@ -18575,7 +18609,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Noida-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 298.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Noida?",
@@ -18621,7 +18655,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Trivandrum-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 299.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Trivandrum?",
@@ -18667,7 +18701,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Mangalore-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 300.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Mangalore?",
@@ -18713,7 +18747,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Mysore-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 301.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Mysore?",
@@ -18759,7 +18793,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bhubaneswar-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 302.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bhubaneswar?",
@@ -18805,7 +18839,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Guwahati-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 303.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Guwahati?",
@@ -18851,7 +18885,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ranchi-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 304.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ranchi?",
@@ -18897,7 +18931,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sialkot-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 305.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sialkot?",
@@ -18943,7 +18977,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Rawalpindi-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 306.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Rawalpindi?",
@@ -18989,7 +19023,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Gujranwala-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 307.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Gujranwala?",
@@ -19035,7 +19069,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Hyderabad-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 308.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Do you design pharmaceutical cGMP and FDA compliance training for Genome Valley firms in Hyderabad?",
@@ -19075,13 +19109,13 @@ export const cities = [
       },
       {
         "q": "How can Hyderabad organizations book a free training audit?",
-        "a": "Submit your project requirements on our website to receive a free 24–48 hour training evaluation from our senior learning architects."
+        "a": "Submit your project requirements on our website to receive a free 24-48 hour training evaluation from our senior learning architects."
       }
     ],
     "localLanguage": {
       "primaryLanguage": "Telugu, Urdu (Deccani), Hindi, and Tech English",
-      "nativeGreeting": "హైదరాబాద్‌లోని ప్రముఖ ఈ-లెర్నింగ్ మరియు ఎల్‌ఎంఎస్ డెవలప్‌మెంట్ పార్టనర్ — TheEduAssist",
-      "culturalEthos": "Cyberabad innovation meets Nizam cultural heritage — Global pharmaceutical hub, IT giant engineering, and entrepreneurial drive.",
+      "nativeGreeting": "హైదరాబాద్‌లోని ప్రముఖ ఈ-లెర్నింగ్ మరియు ఎల్‌ఎంఎస్ డెవలప్‌మెంట్ పార్టనర్ - TheEduAssist",
+      "culturalEthos": "Cyberabad innovation meets Nizam cultural heritage - Global pharmaceutical hub, IT giant engineering, and entrepreneurial drive.",
       "businessEtiquette": "Courteous, relationship-oriented, technically precise, and outcome-focused."
     },
     "topPlacesAndHubs": {
@@ -19100,7 +19134,7 @@ export const cities = [
       ]
     },
     "cityHistoryAndLearning": {
-      "historicalContext": "The City of Pearls and historic Nizam capital, now transformed into Cyberabad—a global powerhouse for software development, IT services, and pharmaceutical manufacturing.",
+      "historicalContext": "The City of Pearls and historic Nizam capital, now transformed into Cyberabad - a global powerhouse for software development, IT services, and pharmaceutical manufacturing.",
       "trainingEvolution": "Shift from classroom training centres to enterprise software developer bootcamps, FDA-compliant cGMP pharma training, and cloud LMS platforms."
     }
   },
@@ -19126,7 +19160,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sukkur-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 309.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sukkur?",
@@ -19172,7 +19206,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Larkana-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 310.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Larkana?",
@@ -19218,7 +19252,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bahawalpur-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 311.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bahawalpur?",
@@ -19264,7 +19298,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sargodha-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 312.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sargodha?",
@@ -19310,7 +19344,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Erbil-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 313.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Erbil?",
@@ -19356,7 +19390,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Basra-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 314.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Basra?",
@@ -19402,7 +19436,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Mosul-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 315.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Mosul?",
@@ -19448,7 +19482,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tabriz-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 316.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tabriz?",
@@ -19494,7 +19528,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Isfahan-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 317.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Isfahan?",
@@ -19540,7 +19574,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Mashhad-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 318.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Mashhad?",
@@ -19586,7 +19620,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Shiraz-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 319.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Shiraz?",
@@ -19632,7 +19666,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Porto-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 320.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Porto?",
@@ -19678,7 +19712,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Braga-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 321.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Braga?",
@@ -19724,7 +19758,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Antwerp-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 322.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Antwerp?",
@@ -19770,7 +19804,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ghent-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 323.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ghent?",
@@ -19816,7 +19850,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Basel-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 324.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Basel?",
@@ -19862,7 +19896,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bern-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 325.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bern?",
@@ -19908,7 +19942,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Lausanne-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 326.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Lausanne?",
@@ -19954,7 +19988,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "The Hague-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 327.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in The Hague?",
@@ -20000,7 +20034,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Utrecht-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 328.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Utrecht?",
@@ -20046,7 +20080,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Eindhoven-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 329.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Eindhoven?",
@@ -20092,7 +20126,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Gothenburg-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 330.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Gothenburg?",
@@ -20138,7 +20172,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Malmo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 331.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Malmo?",
@@ -20184,7 +20218,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Aarhus-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 332.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Aarhus?",
@@ -20230,7 +20264,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tampere-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 333.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tampere?",
@@ -20276,7 +20310,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Turku-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 334.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Turku?",
@@ -20322,7 +20356,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bergen-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 335.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bergen?",
@@ -20368,7 +20402,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Trondheim-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 336.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Trondheim?",
@@ -20414,7 +20448,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Krakow-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 337.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Krakow?",
@@ -20460,7 +20494,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Lodz-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 338.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Lodz?",
@@ -20506,7 +20540,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Wroclaw-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 339.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Wroclaw?",
@@ -20552,7 +20586,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Poznan-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 340.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Poznan?",
@@ -20598,7 +20632,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Gdansk-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 341.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Gdansk?",
@@ -20644,7 +20678,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Brno-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 342.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Brno?",
@@ -20690,7 +20724,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ostrava-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 343.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ostrava?",
@@ -20736,7 +20770,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kosice-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 344.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kosice?",
@@ -20782,7 +20816,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Debrecen-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 345.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Debrecen?",
@@ -20828,7 +20862,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Graz-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 346.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Graz?",
@@ -20874,7 +20908,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Linz-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 347.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Linz?",
@@ -20920,7 +20954,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Salzburg-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 348.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Salzburg?",
@@ -20966,7 +21000,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Innsbruck-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 349.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Innsbruck?",
@@ -21012,7 +21046,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Split-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 350.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Split?",
@@ -21058,7 +21092,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Rijeka-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 351.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Rijeka?",
@@ -21104,7 +21138,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Novi Sad-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 352.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Novi Sad?",
@@ -21150,7 +21184,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Nis-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 353.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Nis?",
@@ -21196,7 +21230,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Cluj-Napoca-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 354.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Cluj-Napoca?",
@@ -21242,7 +21276,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Timisoara-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 355.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Timisoara?",
@@ -21288,7 +21322,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Iasi-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 356.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Iasi?",
@@ -21334,7 +21368,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Plovdiv-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 357.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Plovdiv?",
@@ -21380,7 +21414,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Varna-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 358.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Varna?",
@@ -21426,7 +21460,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Patras-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 359.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Patras?",
@@ -21472,7 +21506,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Heraklion-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 360.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Heraklion?",
@@ -21518,7 +21552,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Nicosia-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 361.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Nicosia?",
@@ -21564,7 +21598,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Valletta-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 362.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Valletta?",
@@ -21610,7 +21644,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Reykjavik-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 363.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Reykjavik?",
@@ -21656,7 +21690,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Luxembourg City-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 364.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Luxembourg City?",
@@ -21702,7 +21736,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Cork-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 365.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Cork?",
@@ -21748,7 +21782,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Galway-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 366.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Galway?",
@@ -21794,7 +21828,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sheffield-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 367.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sheffield?",
@@ -21840,7 +21874,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Nottingham-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 368.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Nottingham?",
@@ -21886,7 +21920,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Leicester-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 369.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Leicester?",
@@ -21932,7 +21966,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Southampton-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 370.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Southampton?",
@@ -21978,7 +22012,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Cardiff-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 371.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Cardiff?",
@@ -22024,7 +22058,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Belfast-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 372.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Belfast?",
@@ -22070,7 +22104,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Aberdeen-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 373.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Aberdeen?",
@@ -22116,7 +22150,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tucson-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 374.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tucson?",
@@ -22162,7 +22196,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Fresno-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 375.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Fresno?",
@@ -22208,7 +22242,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sacramento-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 376.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sacramento?",
@@ -22254,7 +22288,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kansas City-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 377.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kansas City?",
@@ -22300,7 +22334,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Mesa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 378.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Mesa?",
@@ -22346,7 +22380,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Virginia Beach-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 379.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Virginia Beach?",
@@ -22392,7 +22426,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Omaha-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 380.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Omaha?",
@@ -22438,7 +22472,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Colorado Springs-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 381.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Colorado Springs?",
@@ -22484,7 +22518,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Reno-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 382.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Reno?",
@@ -22530,7 +22564,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Salt Lake City-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 383.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Salt Lake City?",
@@ -22576,7 +22610,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Albuquerque-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 384.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Albuquerque?",
@@ -22622,7 +22656,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Baton Rouge-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 385.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Baton Rouge?",
@@ -22668,7 +22702,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "New Orleans-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 386.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in New Orleans?",
@@ -22714,7 +22748,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Pittsburgh-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 387.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Pittsburgh?",
@@ -22760,7 +22794,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Cincinnati-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 388.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Cincinnati?",
@@ -22806,7 +22840,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "St. Louis-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 389.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in St. Louis?",
@@ -22852,7 +22886,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Richmond-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 390.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Richmond?",
@@ -22898,7 +22932,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Hartford-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 391.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Hartford?",
@@ -22944,7 +22978,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Providence-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 392.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Providence?",
@@ -22990,7 +23024,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Buffalo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 393.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Buffalo?",
@@ -23036,7 +23070,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Rochester-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 394.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Rochester?",
@@ -23082,7 +23116,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Honolulu-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 395.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Honolulu?",
@@ -23128,7 +23162,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Anchorage-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 396.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Anchorage?",
@@ -23174,7 +23208,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Halifax-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 397.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Halifax?",
@@ -23220,7 +23254,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Saskatoon-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 398.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Saskatoon?",
@@ -23266,7 +23300,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Regina-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 399.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Regina?",
@@ -23312,7 +23346,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Victoria-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 400.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Victoria?",
@@ -23358,7 +23392,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "St. John's-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 401.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in St. John's?",
@@ -23404,7 +23438,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Mombasa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 402.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Mombasa?",
@@ -23450,7 +23484,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kisumu-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 403.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kisumu?",
@@ -23496,7 +23530,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kumasi-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 404.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kumasi?",
@@ -23542,7 +23576,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tamale-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 405.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tamale?",
@@ -23588,7 +23622,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Abuja-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 406.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Abuja?",
@@ -23634,7 +23668,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Port Harcourt-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 407.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Port Harcourt?",
@@ -23680,7 +23714,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Durban-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 408.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Durban?",
@@ -23726,7 +23760,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Pretoria-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 409.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Pretoria?",
@@ -23772,7 +23806,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Port Elizabeth-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 410.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Port Elizabeth?",
@@ -23818,7 +23852,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bloemfontein-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 411.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bloemfontein?",
@@ -23864,7 +23898,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Dar es Salaam-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 412.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Dar es Salaam?",
@@ -23910,7 +23944,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Arusha-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 413.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Arusha?",
@@ -23956,7 +23990,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Addis Ababa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 414.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Addis Ababa?",
@@ -24002,7 +24036,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Dire Dawa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 415.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Dire Dawa?",
@@ -24048,7 +24082,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Antananarivo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 416.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Antananarivo?",
@@ -24094,7 +24128,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Maputo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 417.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Maputo?",
@@ -24140,7 +24174,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Beira-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 418.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Beira?",
@@ -24186,7 +24220,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Lilongwe-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 419.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Lilongwe?",
@@ -24232,7 +24266,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Lusaka-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 420.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Lusaka?",
@@ -24278,7 +24312,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ndola-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 421.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ndola?",
@@ -24324,7 +24358,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Harare-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 422.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Harare?",
@@ -24370,7 +24404,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bulawayo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 423.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bulawayo?",
@@ -24416,7 +24450,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Windhoek-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 424.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Windhoek?",
@@ -24462,7 +24496,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Gaborone-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 425.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Gaborone?",
@@ -24508,7 +24542,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Maseru-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 426.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Maseru?",
@@ -24554,7 +24588,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Mbabane-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 427.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Mbabane?",
@@ -24600,7 +24634,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Luanda-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 428.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Luanda?",
@@ -24646,7 +24680,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Brazzaville-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 429.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Brazzaville?",
@@ -24692,7 +24726,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kinshasa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 430.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kinshasa?",
@@ -24738,7 +24772,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Dakar-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 431.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Dakar?",
@@ -24784,7 +24818,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Conakry-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 432.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Conakry?",
@@ -24830,7 +24864,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Freetown-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 433.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Freetown?",
@@ -24876,7 +24910,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Monrovia-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 434.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Monrovia?",
@@ -24922,7 +24956,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Abidjan-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 435.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Abidjan?",
@@ -24968,7 +25002,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ouagadougou-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 436.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ouagadougou?",
@@ -25014,7 +25048,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bamako-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 437.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bamako?",
@@ -25060,7 +25094,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Niamey-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 438.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Niamey?",
@@ -25106,7 +25140,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "N'Djamena-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 439.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in N'Djamena?",
@@ -25152,7 +25186,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bangui-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 440.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bangui?",
@@ -25198,7 +25232,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Yaounde-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 441.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Yaounde?",
@@ -25244,7 +25278,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Libreville-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 442.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Libreville?",
@@ -25290,7 +25324,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Malabo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 443.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Malabo?",
@@ -25336,7 +25370,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Djibouti City-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 444.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Djibouti City?",
@@ -25382,7 +25416,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Mogadishu-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 445.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Mogadishu?",
@@ -25428,7 +25462,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Asmara-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 446.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Asmara?",
@@ -25474,7 +25508,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Juba-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 447.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Juba?",
@@ -25520,7 +25554,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Khartoum-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 448.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Khartoum?",
@@ -25566,7 +25600,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Port Sudan-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 449.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Port Sudan?",
@@ -25612,7 +25646,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tripoli-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 450.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tripoli?",
@@ -25658,7 +25692,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Benghazi-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 451.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Benghazi?",
@@ -25704,7 +25738,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tunis-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 452.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tunis?",
@@ -25750,7 +25784,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sfax-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 453.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sfax?",
@@ -25796,7 +25830,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Algiers-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 454.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Algiers?",
@@ -25842,7 +25876,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Oran-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 455.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Oran?",
@@ -25888,7 +25922,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Rabat-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 456.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Rabat?",
@@ -25934,7 +25968,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Fes-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 457.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Fes?",
@@ -25980,7 +26014,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Marrakech-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 458.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Marrakech?",
@@ -26026,7 +26060,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tangier-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 459.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tangier?",
@@ -26072,7 +26106,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Alexandria-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 460.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Alexandria?",
@@ -26118,7 +26152,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Giza-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 461.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Giza?",
@@ -26164,7 +26198,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sharm el-Sheikh-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 462.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sharm el-Sheikh?",
@@ -26210,7 +26244,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Hurghada-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 463.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Hurghada?",
@@ -26256,7 +26290,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sanaa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 464.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sanaa?",
@@ -26302,7 +26336,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Aden-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 465.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Aden?",
@@ -26348,7 +26382,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sulaymaniyah-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 466.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sulaymaniyah?",
@@ -26394,7 +26428,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Najaf-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 467.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Najaf?",
@@ -26440,7 +26474,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Karbala-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 468.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Karbala?",
@@ -26486,7 +26520,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ahvaz-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 469.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ahvaz?",
@@ -26532,7 +26566,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Qom-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 470.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Qom?",
@@ -26578,7 +26612,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Rasht-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 471.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Rasht?",
@@ -26624,7 +26658,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Haifa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 472.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Haifa?",
@@ -26670,7 +26704,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tel Aviv-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 473.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tel Aviv?",
@@ -26716,7 +26750,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Jerusalem-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 474.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Jerusalem?",
@@ -26762,7 +26796,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Gaza-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 475.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Gaza?",
@@ -26808,7 +26842,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Ramallah-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 476.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Ramallah?",
@@ -26854,7 +26888,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Irbid-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 477.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Irbid?",
@@ -26900,7 +26934,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Zarqa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 478.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Zarqa?",
@@ -26946,7 +26980,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Tripoli-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 479.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Tripoli?",
@@ -26992,7 +27026,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sidon-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 480.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sidon?",
@@ -27038,7 +27072,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Aleppo-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 481.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Aleppo?",
@@ -27084,7 +27118,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Homs-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 482.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Homs?",
@@ -27130,7 +27164,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Izmir-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 483.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Izmir?",
@@ -27176,7 +27210,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Bursa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 484.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Bursa?",
@@ -27222,7 +27256,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Antalya-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 485.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Antalya?",
@@ -27268,7 +27302,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Adana-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 486.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Adana?",
@@ -27314,7 +27348,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Gaziantep-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 487.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Gaziantep?",
@@ -27360,7 +27394,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Konya-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 488.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Konya?",
@@ -27406,7 +27440,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kayseri-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 489.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kayseri?",
@@ -27452,7 +27486,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Mersin-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 490.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Mersin?",
@@ -27498,7 +27532,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Diyarbakir-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 491.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Diyarbakir?",
@@ -27544,7 +27578,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Trabzon-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 492.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Trabzon?",
@@ -27590,7 +27624,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Eskisehir-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 493.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Eskisehir?",
@@ -27636,7 +27670,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Samsun-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 494.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Samsun?",
@@ -27682,7 +27716,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Denizli-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 495.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Denizli?",
@@ -27728,7 +27762,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Kocaeli-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 496.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Kocaeli?",
@@ -27774,7 +27808,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Malatya-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 497.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Malatya?",
@@ -27820,7 +27854,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Erzurum-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 498.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Erzurum?",
@@ -27866,7 +27900,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Van-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 499.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Van?",
@@ -27912,7 +27946,7 @@ export const cities = [
       "Course Creation"
     ],
     "commonTrainingNeeds": "Sanliurfa-based businesses and training teams need structured online learning systems that are scalable and easy to update..",
-    "commonlyUsedLMSPlatforms": "Various platforms used in City 500.",
+    "commonlyUsedLMSPlatforms": "Leading enterprise LMS platforms (Docebo, TalentLMS, Canvas, Moodle, Absorb LMS, Kajabi, and Articulate 360) tailored for regional corporate and education requirements.",
     "faqQuestions": [
       {
         "q": "Does TheEduAssist work with clients in Sanliurfa?",
@@ -28089,11 +28123,11 @@ export const cities = [
       },
       {
         "q": "How can Manchester organizations get started with a free training audit?",
-        "a": "Book a complimentary 24–48 hour training and platform audit on our website to receive actionable architectural recommendations."
+        "a": "Book a complimentary 24-48 hour training and platform audit on our website to receive actionable architectural recommendations."
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [
@@ -28120,7 +28154,7 @@ export const cities = [
     ],
     "localLanguage": {
       "primaryLanguage": "British English",
-      "nativeGreeting": "Welcome to TheEduAssist — Manchester's Creative Tech & Northern Powerhouse E-Learning Partner",
+      "nativeGreeting": "Welcome to TheEduAssist - Manchester's Creative Tech & Northern Powerhouse E-Learning Partner",
       "culturalEthos": "Northern Powerhouse grit, industrial revolution innovation, and cutting-edge creative media and digital technology.",
       "businessEtiquette": "Down-to-earth, direct, collaborative, energetic, and value-conscious."
     },
@@ -28295,11 +28329,11 @@ export const cities = [
       },
       {
         "q": "How can Zurich organizations book a free training architecture review?",
-        "a": "Submit your project requirements on our website to receive a complimentary 24–48 hour diagnostic audit from our senior learning architects."
+        "a": "Submit your project requirements on our website to receive a complimentary 24-48 hour diagnostic audit from our senior learning architects."
       }
     ],
     "ctaPrimary": {
-      "text": "Get a 24–48 Hour Review",
+      "text": "Get a 24-48 Hour Review",
       "link": "/book-free-audit/"
     },
     "ctaSecondary": [

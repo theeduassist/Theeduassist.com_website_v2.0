@@ -75,19 +75,19 @@ faqs:
       transfer. Review each platform's migration support and limitations before
       switching
 sources:
-  - title: Podia — Official Pricing
+  - title: Podia - Official Pricing
     url: https://www.podia.com/pricing
     accessedAt: 2026-09-18
-  - title: Podia — Online Course Features
+  - title: Podia - Online Course Features
     url: https://www.podia.com/online-courses
     accessedAt: 2026-09-18
-  - title: Podia — Podia vs. Kajabi Comparison
+  - title: Podia - Podia vs. Kajabi Comparison
     url: https://www.podia.com/podia-vs-kajabi
     accessedAt: 2026-09-18
-  - title: Kajabi — Official Pricing
+  - title: Kajabi - Official Pricing
     url: https://www.kajabi.com/pricing
     accessedAt: 2026-09-18
-  - title: Kajabi — Product and Platform Features
+  - title: Kajabi - Product and Platform Features
     url: https://www.kajabi.com/product
     accessedAt: 2026-09-18
 editorialManagement:

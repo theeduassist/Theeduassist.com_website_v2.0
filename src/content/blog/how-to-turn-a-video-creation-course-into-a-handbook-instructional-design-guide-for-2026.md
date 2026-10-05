@@ -170,10 +170,10 @@ Presentation plays an important role in learning materials.
 
 A professional handbook typically includes:
 
-* **Section Dividers** — Clearly labeled sections help learners navigate the material.
-* **Highlight Boxes** — Important insights, tips, and key takeaways can be placed in highlighted boxes.
-* **Step-by-Step Lists** — Procedural instructions should be broken into numbered steps.
-* **Summary Pages** — Each chapter should end with a short summary of the key ideas.
+* **Section Dividers** - Clearly labeled sections help learners navigate the material.
+* **Highlight Boxes** - Important insights, tips, and key takeaways can be placed in highlighted boxes.
+* **Step-by-Step Lists** - Procedural instructions should be broken into numbered steps.
+* **Summary Pages** - Each chapter should end with a short summary of the key ideas.
 **Tools commonly used for handbook design include:**
 
 * Canva
@@ -220,7 +220,7 @@ Video lessons remain a powerful teaching tool, but they are even more effective 
 
 By transforming a video course into a clear, visually structured handbook, educators can provide learners with a practical guide that reinforces key concepts and supports real-world implementation.
 
-Using instructional design principles—such as structured modules, visual learning elements, and interactive exercises—course creators can turn simple documentation into a powerful learning companion that enhances the entire course experience.
+Using instructional design principles - such as structured modules, visual learning elements, and interactive exercises - course creators can turn simple documentation into a powerful learning companion that enhances the entire course experience.
 
 
 ## **References:**

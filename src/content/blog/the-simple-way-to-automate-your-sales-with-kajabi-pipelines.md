@@ -82,7 +82,7 @@ In this guide, you’ll learn how Kajabi Pipelines work, explore real-world Kaja
 
 ## **What Is a Kajabi Pipeline?**
 
-A **Kajabi pipeline** is an automated marketing funnel that guides prospects through a predefined journey—from discovering your brand to becoming a paying customer.
+A **Kajabi pipeline** is an automated marketing funnel that guides prospects through a predefined journey - from discovering your brand to becoming a paying customer.
 
 Kajabi describes funnels as a way to automate and organize the connection between landing pages, offers, and email campaigns within a single platform.
 

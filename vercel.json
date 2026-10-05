@@ -1146,6 +1146,466 @@
       "source": "/download/",
       "destination": "/downloads/",
       "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-membership-sites-development/",
+      "destination": "/blog/kajabi-membership-sites-what-are-the-best-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-membership-sites-development",
+      "destination": "/blog/kajabi-membership-sites-what-are-the-best-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-learning-management-system-lms-for-2026/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-learning-management-system-lms-for-2026",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-email-marketing-funnels/",
+      "destination": "/blog/kajabi-email-marketing-funnels-for-better-course-sales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-email-marketing-funnels",
+      "destination": "/blog/kajabi-email-marketing-funnels-for-better-course-sales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-guide/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-guide",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/udemy-vs-teachable-guide-for-course-creators/",
+      "destination": "/blog/udemy-vs-teachable-the-ultimate-guide-for-course-creators-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/udemy-vs-teachable-guide-for-course-creators",
+      "destination": "/blog/udemy-vs-teachable-the-ultimate-guide-for-course-creators-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-landing-page-design/",
+      "destination": "/blog/how-to-optimize-your-kajabi-landing-page-for-conversions/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-landing-page-design",
+      "destination": "/blog/how-to-optimize-your-kajabi-landing-page-for-conversions/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/thrilling-thinkific-courses-that-learners-of-us-actually-complete/",
+      "destination": "/blog/thinkific-courses-that-learners-of-us-actually-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/thrilling-thinkific-courses-that-learners-of-us-actually-complete",
+      "destination": "/blog/thinkific-courses-that-learners-of-us-actually-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/systeme-io-funnel-7-proven-steps-to-launch-a-stunning-funnel/",
+      "destination": "/blog/systemeio-funnel-7-proven-steps-to-launch-a-stunning-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/systeme-io-funnel-7-proven-steps-to-launch-a-stunning-funnel",
+      "destination": "/blog/systemeio-funnel-7-proven-steps-to-launch-a-stunning-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-course-upload-services/",
+      "destination": "/blog/7-common-mistakes-in-kajabi-course-uploading-to-avoid/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-course-upload-services",
+      "destination": "/blog/7-common-mistakes-in-kajabi-course-uploading-to-avoid/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-teachable-guide-how-to-build-sell-online-courses-as-a-california-creator/",
+      "destination": "/blog/teachable-guide-how-to-build-sell-online-courses-as-a-california-creator/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-teachable-guide-how-to-build-sell-online-courses-as-a-california-creator",
+      "destination": "/blog/teachable-guide-how-to-build-sell-online-courses-as-a-california-creator/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-build-and-manage-a-high-engagement-skool-community-complete-2026-blueprint/",
+      "destination": "/blog/skool-community-growth-2026-blueprint-for-high-engagement/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-build-and-manage-a-high-engagement-skool-community-complete-2026-blueprint",
+      "destination": "/blog/skool-community-growth-2026-blueprint-for-high-engagement/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/can-synthesia-replace-your-video-production-team-in-2026/",
+      "destination": "/blog/can-synthesia-replace-your-video-production-team-in-2026-ultimate-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/can-synthesia-replace-your-video-production-team-in-2026",
+      "destination": "/blog/can-synthesia-replace-your-video-production-team-in-2026-ultimate-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-checkout-page-optimization/",
+      "destination": "/blog/kajabi-checkout-optimization-increase-course-sales-without-more-traffic/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-checkout-page-optimization",
+      "destination": "/blog/kajabi-checkout-optimization-increase-course-sales-without-more-traffic/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/thrilled-elearning-videos-for-students-teachers-who-actually-love/",
+      "destination": "/blog/e-learning-videos-for-students-and-teachers-who-actually-love/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/thrilled-elearning-videos-for-students-teachers-who-actually-love",
+      "destination": "/blog/e-learning-videos-for-students-and-teachers-who-actually-love/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-absorb-lms-right-for-small-businessthe-strong-eduassist-guide/",
+      "destination": "/blog/is-absorb-lms-right-for-small-business-the-strong-eduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-absorb-lms-right-for-small-businessthe-strong-eduassist-guide",
+      "destination": "/blog/is-absorb-lms-right-for-small-business-the-strong-eduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-designpart-1/",
+      "destination": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-design-part-1/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-designpart-1",
+      "destination": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-design-part-1/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-designpart-2/",
+      "destination": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-design-part-2/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-designpart-2",
+      "destination": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-design-part-2/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-launch-a-kajabi-online-course-in-florida-best-practices-for-video-editing-and-e-learning-course-creation/",
+      "destination": "/blog/launching-kajabi-online-course-in-florida-best-guide-for-video-editing-and-e-learning-course-creation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-launch-a-kajabi-online-course-in-florida-best-practices-for-video-editing-and-e-learning-course-creation",
+      "destination": "/blog/launching-kajabi-online-course-in-florida-best-guide-for-video-editing-and-e-learning-course-creation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/migrate-teachable-to-learndash/",
+      "destination": "/blog/how-to-migrate-teachable-to-learndash-a-step-by-step-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/migrate-teachable-to-learndash",
+      "destination": "/blog/how-to-migrate-teachable-to-learndash-a-step-by-step-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guide-for-creating-an-n8n-automation-online-course-2026-in-florida/",
+      "destination": "/blog/n8n-automation-course-creation-opportunity-for-creators-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guide-for-creating-an-n8n-automation-online-course-2026-in-florida",
+      "destination": "/blog/n8n-automation-course-creation-opportunity-for-creators-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ultimate-thrilling-canva-development-and-design-support-that-sell/",
+      "destination": "/blog/ultimate-canva-development-and-design-support-that-sell/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ultimate-thrilling-canva-development-and-design-support-that-sell",
+      "destination": "/blog/ultimate-canva-development-and-design-support-that-sell/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-create-an-ai-elearning-course-that-sells-2026-ultimate-guide-for-new-creators-in-new-york/",
+      "destination": "/blog/create-ai-elearning-courses-that-sell-2026-ultimate-guide-for-new-creators-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-create-an-ai-elearning-course-that-sells-2026-ultimate-guide-for-new-creators-in-new-york",
+      "destination": "/blog/create-ai-elearning-courses-that-sell-2026-ultimate-guide-for-new-creators-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/instructional-design-strategies-for-course-creation-for-real-estate-investors-in-new-york/",
+      "destination": "/blog/make-profit-with-real-estate-courses-ultimate-design-guide-for-realtors-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/instructional-design-strategies-for-course-creation-for-real-estate-investors-in-new-york",
+      "destination": "/blog/make-profit-with-real-estate-courses-ultimate-design-guide-for-realtors-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/creating-interactive-elearning-videos-with-pre-recorded-voiceovers-a-guide-for-edtech-startups-in-new-york/",
+      "destination": "/blog/guide-to-turn-pre-recorded-voiceovers-into-interactive-elearning-content-and-video-roadmap-for-edtech-startups-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/creating-interactive-elearning-videos-with-pre-recorded-voiceovers-a-guide-for-edtech-startups-in-new-york",
+      "destination": "/blog/guide-to-turn-pre-recorded-voiceovers-into-interactive-elearning-content-and-video-roadmap-for-edtech-startups-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/create-leadership-training-program-in-florida-kajabi-2026/",
+      "destination": "/blog/the-ultimate-6-step-kajabi-blueprint-for-building-a-leadership-training-program-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/create-leadership-training-program-in-florida-kajabi-2026",
+      "destination": "/blog/the-ultimate-6-step-kajabi-blueprint-for-building-a-leadership-training-program-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guide-for-interactive-elearning-course-2026-florida-creators/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/guide-for-interactive-elearning-course-2026-florida-creators",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/learndash-scorm-for-enterprise-tracking",
+      "destination": "/blog/how-to-use-learndash-scorm-for-enterprise-tracking/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/learndash-vs-kajabi",
+      "destination": "/blog/learndash-vs-kajabi-which-platform-should-you-choose/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-launch-a-6-week-online-course-on-a-new-lms-step-by-step-setup-guide-for-texas-creators/",
+      "destination": "/blog/clear-roadmap-to-launch-6-week-online-course-on-new-lms-in-texas/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-launch-a-6-week-online-course-on-a-new-lms-step-by-step-setup-guide-for-texas-creators",
+      "destination": "/blog/clear-roadmap-to-launch-6-week-online-course-on-new-lms-in-texas/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-become-a-training-coordinator-in-2026-content-and-lms-management-guide-for-course-creators-in-texas/",
+      "destination": "/blog/learn-to-become-a-training-coordinator-in-texas-quick-guide-for-course-creators/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-become-a-training-coordinator-in-2026-content-and-lms-management-guide-for-course-creators-in-texas",
+      "destination": "/blog/learn-to-become-a-training-coordinator-in-texas-quick-guide-for-course-creators/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/create-an-online-course-website-in-victoria-2026/",
+      "destination": "/blog/2026-guide-to-creating-professional-online-course-websites-in-victoria/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/create-an-online-course-website-in-victoria-2026",
+      "destination": "/blog/2026-guide-to-creating-professional-online-course-websites-in-victoria/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-create-a-self-help-elearning-course-that-sells-in-2026-ultimate-guide-for-victoria-coaching-businesses/",
+      "destination": "/blog/generate-self-help-elearning-course-that-sells-in-2026-ultimate-guide-for-victoria-coaches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-create-a-self-help-elearning-course-that-sells-in-2026-ultimate-guide-for-victoria-coaching-businesses",
+      "destination": "/blog/generate-self-help-elearning-course-that-sells-in-2026-ultimate-guide-for-victoria-coaches/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/leadership-course-creation-on-kajabi-for-coaching-businesses-in-miami/",
+      "destination": "/blog/create-profitable-leadership-courses-on-kajabi-2026-guide-for-miami/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/leadership-course-creation-on-kajabi-for-coaching-businesses-in-miami",
+      "destination": "/blog/create-profitable-leadership-courses-on-kajabi-2026-guide-for-miami/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-course-creation-guide-for-edtech-startups-in-miami-why-hiring-a-kajabi-expert-matters/",
+      "destination": "/blog/kajabi-course-creation-guide-for-edtech-startups-in-miami-why-hiring-kajabi-expert-matters/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-course-creation-guide-for-edtech-startups-in-miami-why-hiring-a-kajabi-expert-matters",
+      "destination": "/blog/kajabi-course-creation-guide-for-edtech-startups-in-miami-why-hiring-kajabi-expert-matters/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/create-google-classroom-training-in-2026-in-miami/",
+      "destination": "/blog/the-ultimate-2026-guide-for-building-google-classroom-training-programs-in-miami/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/create-google-classroom-training-in-2026-in-miami",
+      "destination": "/blog/the-ultimate-2026-guide-for-building-google-classroom-training-programs-in-miami/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/360-to-skool-migration-easy-guide-for-course-transfer-in-2026/",
+      "destination": "/blog/to-skool-migration-easy-guide-for-course-transfer-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/360-to-skool-migration-easy-guide-for-course-transfer-in-2026",
+      "destination": "/blog/to-skool-migration-easy-guide-for-course-transfer-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/training-modules-design-for-elearning-in-ohio-2026/",
+      "destination": "/blog/craft-training-modules-for-ohio-s-elearning-academies-2026-focused-complete-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/training-modules-design-for-elearning-in-ohio-2026",
+      "destination": "/blog/craft-training-modules-for-ohio-s-elearning-academies-2026-focused-complete-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/create-updated-it-classes-for-teenagers-2026-guide-for-ohio-creators/",
+      "destination": "/blog/the-complete-guide-to-creating-engaging-it-classes-for-ohio-teenagers/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/create-updated-it-classes-for-teenagers-2026-guide-for-ohio-creators",
+      "destination": "/blog/the-complete-guide-to-creating-engaging-it-classes-for-ohio-teenagers/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/design-debate-training-program-in-ohio-2026/",
+      "destination": "/blog/the-ultimate-ohio-focused-blueprint-for-building-a-debate-training-program/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/design-debate-training-program-in-ohio-2026",
+      "destination": "/blog/the-ultimate-ohio-focused-blueprint-for-building-a-debate-training-program/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-create-a-youtube-channel-for-promoting-elearning-business-in-ohio-complete-2026-guide/",
+      "destination": "/blog/ultimate-guide-to-promoting-ohio-elearning-business-via-youtube/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-create-a-youtube-channel-for-promoting-elearning-business-in-ohio-complete-2026-guide",
+      "destination": "/blog/ultimate-guide-to-promoting-ohio-elearning-business-via-youtube/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/building-womens-health-elearning-funnel-in-2026-stepwise-using-ghl/",
+      "destination": "/blog/the-complete-2026-roadmap-for-womens-health-elearning-funnels-using-ghl/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/building-womens-health-elearning-funnel-in-2026-stepwise-using-ghl",
+      "destination": "/blog/the-complete-2026-roadmap-for-womens-health-elearning-funnels-using-ghl/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ghl-development-and-setup-a-complete-guide-for-edtech-and-coaching-businesses-in-new-jersey/",
+      "destination": "/blog/ghl-made-easy-ultimate-guide-or-edtech-coaching-businesses-in-new-jersey/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ghl-development-and-setup-a-complete-guide-for-edtech-and-coaching-businesses-in-new-jersey",
+      "destination": "/blog/ghl-made-easy-ultimate-guide-or-edtech-coaching-businesses-in-new-jersey/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/instructional-design-how-to-launch-scalable-thrilling-video-training-program/",
+      "destination": "/blog/how-to-launch-scalable-thrilling-video-training-program/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/instructional-design-how-to-launch-scalable-thrilling-video-training-program",
+      "destination": "/blog/how-to-launch-scalable-thrilling-video-training-program/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-coaching-reality-check-scaling-online-without-the-hype-latest-trends-strategies-in-north-dakota/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/2026-coaching-reality-check-scaling-online-without-the-hype-latest-trends-strategies-in-north-dakota",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-create-coaching-content-systems-for-influencer-brands-of-dallasus/",
+      "destination": "/blog/how-to-create-coaching-content-systems-for-influencer-brands-of-dallas-us/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-create-coaching-content-systems-for-influencer-brands-of-dallasus",
+      "destination": "/blog/how-to-create-coaching-content-systems-for-influencer-brands-of-dallas-us/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/launch-6-week-online-course-on-new-lms-in-tasmania/",
+      "destination": "/blog/the-ultimate-guide-to-launching-a-6-week-online-course-on-new-lms-in-tasmania/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/launch-6-week-online-course-on-new-lms-in-tasmania",
+      "destination": "/blog/the-ultimate-guide-to-launching-a-6-week-online-course-on-new-lms-in-tasmania/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-design-elearning-workbooks-for-masterclasses-ultimate-2026-curriculum-guide-for-california-course-creators/",
+      "destination": "/blog/create-workbooks-for-your-masterclass-ultimate-guide-for-california-creators/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-design-elearning-workbooks-for-masterclasses-ultimate-2026-curriculum-guide-for-california-course-creators",
+      "destination": "/blog/create-workbooks-for-your-masterclass-ultimate-guide-for-california-creators/",
+      "permanent": true
     }
   ],
   "routes": [

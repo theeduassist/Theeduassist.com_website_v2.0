@@ -47,7 +47,7 @@ faqs:
   - question: "How long does it take to create a professional Kajabi course?"
     answer: "Development timelines vary depending on course complexity, but many professional online courses take several weeks to design, produce, and optimize."
 ---
-The rapid growth of digital learning has created significant opportunities for EdTech startups across the United States. In cities like Miami—where entrepreneurship and technology innovation continue to expand—many startups are turning their expertise into scalable online courses through Kajabi.
+The rapid growth of digital learning has created significant opportunities for EdTech startups across the United States. In cities like Miami - where entrepreneurship and technology innovation continue to expand - many startups are turning their expertise into scalable online courses through Kajabi.
 
 
 ## **Why EdTech Startups Are Choosing Kajabi for Course Creation:**

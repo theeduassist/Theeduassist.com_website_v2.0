@@ -64,7 +64,7 @@ This problem is particularly common for professionals building:
 * Certification preparation programs
 While the instructor may have deep expertise in the topic, they may not have training in visual communication or instructional design. The result is often slides that communicate information but fail to fully engage learners.
 
-Consequently, course creators must evaluate whether continuing the DIY approach is sustainable—or whether outsourcing slide design may produce better results.
+Consequently, course creators must evaluate whether continuing the DIY approach is sustainable - or whether outsourcing slide design may produce better results.
 
 
 ## **Why DIY Slide Design Often Becomes a Bottleneck:**
@@ -187,7 +187,7 @@ Professional slide designers bring expertise in instructional design, visual sto
 
 Ultimately, the decision between DIY and outsourcing depends on your goals, timeline, and the scale of your online course program. But for many creators, investing in professional slide design can significantly improve both the learning experience and the long-term success of their courses.
 
-If you are developing an e-learning program or planning to launch an online course, evaluate how much time you currently spend on slide design. Outsourcing key elements of course production may allow you to focus on what matters most—delivering valuable knowledge to your learners.
+If you are developing an e-learning program or planning to launch an online course, evaluate how much time you currently spend on slide design. Outsourcing key elements of course production may allow you to focus on what matters most - delivering valuable knowledge to your learners.
 
 
 ## **Citations:**

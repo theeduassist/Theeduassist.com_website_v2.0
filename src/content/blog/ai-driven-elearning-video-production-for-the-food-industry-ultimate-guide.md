@@ -66,7 +66,7 @@ faqs:
   - question: What is E‑Learning in the food industry?
     answer: >+
       E‑Learning in the food industry refers to any digital training delivered
-      online—especially via short videos, interactive modules, and quizzes that
+      online - especially via short videos, interactive modules, and quizzes that
       helps staff learn food safety, hygiene, customer service, and compliance
       standards. It replaces purely classroom‑based training with scalable,
       trackable, and often mobile‑friendly learning experiences.
@@ -96,7 +96,7 @@ faqs:
     answer: E‑Learning reduces downtime, lowers training costs, and standardizes
       content across locations. It also enables anytime‑anywhere access
       (especially on mobile), instant progress tracking, and quicker updates
-      when regulations change—critical for food‑safety and compliance training.
+      when regulations change - critical for food‑safety and compliance training.
   - question: How does AI improve E‑Learning video for food training?
     answer: AI automates script generation, scene creation, voice‑overs, and
       editing, allowing faster production of consistent, high‑quality
@@ -125,19 +125,18 @@ faqs:
       tracked through the E‑Learning platform."
   - question: How long should E‑Learning videos be for food staff?
     answer: For maximum engagement and retention, E‑Learning videos for food staff
-      should typically be 2–5 minutes long, focusing on one specific skill or
+      should typically be 2 - 5 minutes long, focusing on one specific skill or
       concept (e.g., thermometer calibration, allergy handling, or customer
       complaint response). This aligns with best practices in e‑learning
       methodologies and micro‑learning research.
 sources:
-  - title: "AI in food industry automation: applications and challenges – Frontiers
+  - title: "AI in food industry automation: applications and challenges - Frontiers
       in Sustainable Food Systems→ Discusses AI, automation, and data‑driven
       systems in food‑industry workflows, useful for framing AI‑assisted
       E‑Learning platforms."
     url: https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1575430/full
     accessedAt: 2026-09-10
-  - title: AI, e‑learning and automation converge to benefit food manufacturing –
-      Provisioner→ Examines how AI‑driven e‑Learning platforms upskill
+  - title: AI, e‑learning and automation converge to benefit food manufacturing - Provisioner→ Examines how AI‑driven e‑Learning platforms upskill
       food‑manufacturing workforces and integrate with automation.
     url: https://www.provisioneronline.com/articles/117280-ai-e-learning-and-automation-converge-to-benefit-food-manufacturing
     accessedAt: 2026-09-10
@@ -146,22 +145,20 @@ sources:
       curricula, including micro‑videos and scenario‑based learning.
     url: https://www.fao.org/4/i2516e/i2516e.pdf
     accessedAt: 2026-09-10
-  - title: "Micro‑learning: bite‑sized training for better retention in food safety
-      – EnsureIQ→ Shows how short, modular E‑Learning videos improve food‑safety
+  - title: "Micro‑learning: bite‑sized training for better retention in food safety - EnsureIQ→ Shows how short, modular E‑Learning videos improve food‑safety
       knowledge retention."
     url: https://www.ensureiq.com/blog/microlearning-bite-sized-training-for-better-retention-in-food-safety
     accessedAt: 2026-09-10
-  - title: "Micro‑learning: an effective way to enrich food safety training – Global
+  - title: "Micro‑learning: an effective way to enrich food safety training - Global
       Food Safety Resource→ Explains how micro‑learning reduces training time
       and improves behavior change in food‑safety programs."
     url: https://globalfoodsafetyresource.com/micro-learning-food-safety-training/
     accessedAt: 2026-09-10
-  - title: Why your food safety compliance training needs microlearning technology –
-      Qstream→ Describes how small, AI‑ or LMS‑driven micro‑learning modules can
+  - title: Why your food safety compliance training needs microlearning technology - Qstream→ Describes how small, AI‑ or LMS‑driven micro‑learning modules can
       be used in food‑safety E‑Learning.
     url: https://qstream.com/blog/why-your-food-safety-compliance-training-needs-microlearning-technology/
     accessedAt: 2026-09-10
-  - title: How AI helps in the food industry – Throughput World→ Useful for
+  - title: How AI helps in the food industry - Throughput World→ Useful for
       positioning AI‑driven E‑Learning in the broader context of food‑industry
       digital transformation
     url: https://throughput.world/blog/ai-in-the-food-industry/
@@ -283,7 +280,7 @@ Academic and industry research on AI in digital learning and food‑industry app
 
 ### **1. Personalized Learning Paths**
 
-AI‑driven systems analyze how learners interact with E‑Learning videos—completion rates, quiz scores, replay patterns and then recommend tailored follow‑up modules. For the food industry, this might mean:
+AI‑driven systems analyze how learners interact with E‑Learning videos - completion rates, quiz scores, replay patterns and then recommend tailored follow‑up modules. For the food industry, this might mean:
 
 - Assigning extra hygiene‑refresher videos to employees who repeatedly fail temperature‑control assessments.
 - Flagging high‑performers for advanced leadership modules.
@@ -350,7 +347,7 @@ Drawing from research on online learning and [corporate training](https://www.th
 
 ### **1. Micro‑Video Structure**
 
-- Keep videos between **2–5 minutes**, each focused on a single skill or concept.
+- Keep videos between **2 - 5 minutes**, each focused on a single skill or concept.
 - Examples:
 
   “How to calibrate a fridge thermometer.”
@@ -455,7 +452,7 @@ Richard Mayer’s **Cognitive Theory of Multimedia Learning (CTML)** provides th
 - **Personalization**: Conversational style increases engagement.
 - **Modality & Redundancy**: Pair narration with visuals rather than on-screen text.
 
-These principles converge on recommendations: keep videos concise (ideally under 6–10 minutes), embed questions for active learning, and align with engagement elements like on-screen instructor presence where beneficial.  
+These principles converge on recommendations: keep videos concise (ideally under 6 - 10 minutes), embed questions for active learning, and align with engagement elements like on-screen instructor presence where beneficial.  
 In food industry contexts, CTML-guided videos excel at teaching psychomotor skills (knife handling, PPE use) and procedural knowledge (critical control points) while minimizing overload during shift-based training.
 
 ### **3. AI-Driven Production: Speed, Scale, and Comparable Outcomes:**
@@ -468,7 +465,7 @@ Recent experimental studies provide strong evidence:
 - Another large-scale experiment (447 participants) found equivalent exam performance between human-made and AI-generated teaching videos, though learners slightly preferred the human version for experience and perceived credibility.
 
 These findings hold across management, language, and general instructional content directly transferable to food safety modules. AI tools (LLMs for scripting, generative avatars, auto-editing) enable rapid updates for new regulations or facility-specific risks while maintaining learning efficacy.  
-In food manufacturing, AI further supports behavior monitoring, predictive risk analysis, and personalized training feedback—creating closed-loop systems for sustained safety culture.
+In food manufacturing, AI further supports behavior monitoring, predictive risk analysis, and personalized training feedback - creating closed-loop systems for sustained safety culture.
 
 ### **4. AI E‑Learning Video Applications Tailored to the Food Industry:**
 

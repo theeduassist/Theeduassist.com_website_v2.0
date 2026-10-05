@@ -212,7 +212,7 @@ Core modules must address current threats:
 - Data privacy, reporting protocols, and ethical AI use
 - Role-based scenarios (e.g., finance wire fraud, HR social engineering)
 
-Make content snackable (5–10 minutes) and updated quarterly.
+Make content snackable (5 - 10 minutes) and updated quarterly.
 
 ### **Step 4: Choose Engaging Delivery Methods**
 
@@ -235,7 +235,7 @@ Shift metrics from completion to behavior: phishing report rates, simulated atta
 
 ## **Emerging Trends Shaping 2026 Cybersecurity Training**
 
-- **AI as Co-Pilot**: Generative tools for content creation, adaptive pathways, and real-time feedback—already transforming L&D per LinkedIn and Brandon Hall.
+- **AI as Co-Pilot**: Generative tools for content creation, adaptive pathways, and real-time feedback - already transforming L&D per LinkedIn and Brandon Hall.
 - **Behavioral Nudges & Simulations**: Real-world, in-the-moment training outperforms lectures.
 - **Skills-Based Ecosystems**: Align **cybersecurity** with broader career development (LinkedIn “career champions”).
 - **Immersive & Experiential**: VR/AR for experiential education.
@@ -254,7 +254,7 @@ Leading organizations already blend these elements: adaptive simulations, AI per
 
 By 2026 and beyond, **cybersecurity** awareness training will not be an annual event but a living, intelligent capability embedded in daily work. Organizations that invest in evidence-based, technology-enhanced programs rooted in edtech research and aligned with L&D megatrends will build human firewalls that turn employees from vulnerabilities into the strongest line of defense.
 
-The time to design for 2026 is now. Start with rigorous needs analysis, embrace adaptive and experiential methods, and measure what matters: behavior change that protects the enterprise. Your people—and your bottom line will thank you.
+The time to design for 2026 is now. Start with rigorous needs analysis, embrace adaptive and experiential methods, and measure what matters: behavior change that protects the enterprise. Your people - and your bottom line will thank you.
 
 ## **Conclusion:**
 

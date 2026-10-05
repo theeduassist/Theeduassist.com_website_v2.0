@@ -92,7 +92,7 @@ A strong observation from the wider discourse is that engagement isn't one-size-
 
 Some learners are competitive. Others get anxious with countdowns or leaderboards. Some prefer collaboration; others need reflection time. Some are navigating language differences or neurodivergent processing styles.
 
-Interactivity that assumes everyone learns the same way can become exclusionary. Accessibility in eLearning isn't just about screen readers, WCAG compliance, and keyboard navigation — though these are critical. Emotional safety and psychological comfort matter too. Interactive learning should adapt to learners, not the other way around. For a deeper look at building inclusive experiences, see [our accessibility framework for digital learning](https://www.theeduassist.com/accessibility-in-elearning) .
+Interactivity that assumes everyone learns the same way can become exclusionary. Accessibility in eLearning isn't just about screen readers, WCAG compliance, and keyboard navigation - though these are critical. Emotional safety and psychological comfort matter too. Interactive learning should adapt to learners, not the other way around. For a deeper look at building inclusive experiences, see [our accessibility framework for digital learning](https://www.theeduassist.com/accessibility-in-elearning) .
 
 
 ## **LMS Constraints: When Technology Limits Strategy**
@@ -121,7 +121,7 @@ So what's the real fix? It starts with a mindset shift. Instead of asking "how d
 * Should they weigh conflicting priorities?
 * Are there ethical risks to identify?
 * Do they need to defend a strategic decision?
-Interactivity becomes meaningful when it's rooted in cognitive action, not cosmetic polish. This shifts the focus from tools to outcomes — from ornament to substance.
+Interactivity becomes meaningful when it's rooted in cognitive action, not cosmetic polish. This shifts the focus from tools to outcomes - from ornament to substance.
 
 
 ## **The Interactive Learning Balance Model**

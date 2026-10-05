@@ -110,16 +110,16 @@ faqs:
       expertise rather than treating AI as a replacement for instructional
       professionals.
 sources:
-  - title: World Economic Forum — The Future of Jobs Report 2025
+  - title: World Economic Forum - The Future of Jobs Report 2025
     url: https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/?
     accessedAt: 2026-08-21
-  - title: LinkedIn Learning — 2025 Workplace Learning Report
+  - title: LinkedIn Learning - 2025 Workplace Learning Report
     url: https://learning.linkedin.com/resources/workplace-learning-report-2020/insight-04?
     accessedAt: 2026-08-21
-  - title: UNESCO — Guidance for Generative AI in Education and Research
+  - title: UNESCO - Guidance for Generative AI in Education and Research
     url: https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research?hub=387&utm_source=chatgpt.com
     accessedAt: 2026-08-21
-  - title: NIST — Artificial Intelligence Risk Management Framework
+  - title: NIST - Artificial Intelligence Risk Management Framework
     url: https://www.nist.gov/itl/ai-risk-management-framework?
     accessedAt: 2026-08-21
 editorialManagement:

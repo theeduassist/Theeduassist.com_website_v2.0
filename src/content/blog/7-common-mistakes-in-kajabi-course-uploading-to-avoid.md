@@ -35,7 +35,7 @@ advancedSeo:
 faqs:
   - question: "H2: Best practices for learner engagement and completion"
     answer: >+
-      Chunk lessons into 6–12 minute segments for microlearning. Use a mix of video, PDFs, and short quizzes to reinforce learning. Add interactive elements: assignments, community posts, and live office hours. Provide a clear roadmap and learning objectives at the start of each module. Send automated email nudges using Kajabi automations for students who stall.
+      Chunk lessons into 6 - 12 minute segments for microlearning. Use a mix of video, PDFs, and short quizzes to reinforce learning. Add interactive elements: assignments, community posts, and live office hours. Provide a clear roadmap and learning objectives at the start of each module. Send automated email nudges using Kajabi automations for students who stall.
   - question: "H2: Accessibility, compliance, and quality assurance"
     answer: >+
       Always upload captions (SRT) and provide transcripts. Check color contrast and font sizes for readability. Offer downloadable assets in accessible formats (tagged PDFs). Run a QA checklist: playback, captions, links, downloads, mobile layout.
@@ -50,7 +50,7 @@ faqs:
       Video compression: HandBrake, ffmpeg. Captioning: Rev, Descript, Otter.ai (then edit for accuracy). Images: Canva for thumbnails, Adobe Express. Project management: Trello, Asana, Notion for upload dashboards. Research and reading: eLearning Industry, Journal of Research on Technology in Education, British Journal of Educational Technology (links available for deeper study).
   - question: "H2: Case study  improving completion rates"
     answer: >+
-      Situation: 300-enrollment course with 22% completion. Intervention:Rechunked lessons into 8–10 minute microlearning pieces.Added transcripts, quizzes, and progress emails.Fixed poor-performing videos (recompressed and uploaded). Result:Completion increased to 46% in 8 weeks. What we tracked: lesson view time, quiz pass rates, dropout points.
+      Situation: 300-enrollment course with 22% completion. Intervention:Rechunked lessons into 8 - 10 minute microlearning pieces.Added transcripts, quizzes, and progress emails.Fixed poor-performing videos (recompressed and uploaded). Result:Completion increased to 46% in 8 weeks. What we tracked: lesson view time, quiz pass rates, dropout points.
 ---
 Uploading a course to kajabi often feels harder than creating the content. Creators and instructional designers struggle because video files are large and unoptimized, lesson names and metadata are inconsistent, and access/drip rules are set incorrectly. These problems cause slow uploads, broken playback, confused learners, and wasted launch momentum.
 
@@ -92,7 +92,7 @@ Step-by-step process (high level)
 
 * Problem: Large MP4s or high-bitrate exports cause slow upload, playback buffering, and failed imports.
 * Why it happens: Creators export at camera or editing-resolved settings without compressing for web.
-* Fix:Target 720p–1080p H.264 MP4; bitrate 2,500–5,000 kbps for 1080p.Use HandBrake or cloud transcoders to batch compress.Add captions and an SRT file to improve accessibility and SEO.
+* Fix:Target 720p - 1080p H.264 MP4; bitrate 2,500 - 5,000 kbps for 1080p.Use HandBrake or cloud transcoders to batch compress.Add captions and an SRT file to improve accessibility and SEO.
 
 ## **H3: 2. Messy naming conventions and disorganized course structure**
 
@@ -107,7 +107,7 @@ Step-by-step process (high level)
 ## **H3: 4. Missing metadata and weak lesson descriptions**
 
 * Problem: Lessons without descriptions, learning objectives, or tags reduce discoverability and learner clarity.
-* Fix:Write a 1–2 sentence objective per lesson.Add tags (skill level, topic) for search and filtering in the Kajabi dashboard.Use the product description for outcomes and benefits.
+* Fix:Write a 1 - 2 sentence objective per lesson.Add tags (skill level, topic) for search and filtering in the Kajabi dashboard.Use the product description for outcomes and benefits.
 
 ## **H3: 5. Not optimizing thumbnails and cover images**
 
@@ -175,17 +175,17 @@ H3: Step 7  Monitor and iterate
 Example 1  A 6-module course for SMEs (TheEduAssist client)
 
 * Goal: Teach small business owners digital marketing basics.
-* Setup:6 modules, 24 lessons, average lesson length 8–12 minutes.Resources: 24 worksheets, 6 quizzes, 6 templates.
+* Setup:6 modules, 24 lessons, average lesson length 8 - 12 minutes.Resources: 24 worksheets, 6 quizzes, 6 templates.
 * Outcome:Launch time cut from 5 days to 1 day using a structured upload process and TheEduAssist upload service.
 * Key fixes applied:Standardized filenames and metadata, batch compressed videos, uploaded SRTs, set drip schedule (one module per week), and added a completion certificate.
-[Screenshot placeholder: Module setup in Kajabi dashboard — /images/kajabi-module-setup.png]Caption: Example module with lessons and attachments.
+[Screenshot placeholder: Module setup in Kajabi dashboard - /images/kajabi-module-setup.png]Caption: Example module with lessons and attachments.
 
 Example 2  Solo creator using a free upload workflow
 
 * Context: Creator on a budget seeking “kajabi course upload services Free”.
 * Approach:Use free tools: HandBrake for compression, Google Docs for transcripts, Canva for thumbnails.Follow the spreadsheet mapping method to avoid misordering.
 * Result:Professional launch with zero budget spent on upload services; saved ~12 hours.
-[Annotated screenshot placeholder: HandBrake export settings — /images/handbrake-settings.png]
+[Annotated screenshot placeholder: HandBrake export settings - /images/handbrake-settings.png]
 
 
 ## **H2: Pricing and services  how TheEduAssist helps**
@@ -198,8 +198,8 @@ H3: Service tiers (example)
 * Enterprise / L&D (custom pricing)Bulk uploads, SCORM/migration support, LMS integration, and WCAG accessibility auditing.
 H3: Cost examples (kajabi course upload services cost)
 
-* Starter: $99–$249 (small course, up to 10 lessons).
-* Complete: $499–$1,499 (up to 50 lessons, captions, attachments).
+* Starter: $99 - $249 (small course, up to 10 lessons).
+* Complete: $499 - $1,499 (up to 50 lessons, captions, attachments).
 * Enterprise: custom quotes based on volume and integrations.Note: Prices are illustrative; request a quote from TheEduAssist for exact figures.
 H3: Documentation and dashboard links
 
@@ -208,14 +208,14 @@ H3: Documentation and dashboard links
 
 ## **H2: Common technical FAQs**
 
-* What video formats does Kajabi accept?Recommended: MP4 (H.264), AAC audio. Use 720p–1080p.
+* What video formats does Kajabi accept?Recommended: MP4 (H.264), AAC audio. Use 720p - 1080p.
 * How do I add captions?Upload SRT files to the lesson video; test playback with captions enabled.
 * Can I bulk upload?Kajabi supports multiple uploads but use a consistent naming convention; consider using a migration service for large catalogs.
 * How long does upload take?Depends on file sizes and connection speed; compress files to reduce time.
 
 ## **H2: Best practices for learner engagement and completion**
 
-* Chunk lessons into 6–12 minute segments for microlearning.
+* Chunk lessons into 6 - 12 minute segments for microlearning.
 * Use a mix of video, PDFs, and short quizzes to reinforce learning.
 * Add interactive elements: assignments, community posts, and live office hours.
 * Provide a clear roadmap and learning objectives at the start of each module.
@@ -254,7 +254,7 @@ H3: Documentation and dashboard links
 ## **H2: Case study  improving completion rates**
 
 * Situation: 300-enrollment course with 22% completion.
-* Intervention:Rechunked lessons into 8–10 minute microlearning pieces.Added transcripts, quizzes, and progress emails.Fixed poor-performing videos (recompressed and uploaded).
+* Intervention:Rechunked lessons into 8 - 10 minute microlearning pieces.Added transcripts, quizzes, and progress emails.Fixed poor-performing videos (recompressed and uploaded).
 * Result:Completion increased to 46% in 8 weeks.
 * What we tracked: lesson view time, quiz pass rates, dropout points.
 
@@ -298,7 +298,7 @@ Videos (MP4), audio, PDFs, slides, quizzes, downloadable resources, and text con
 
 ## **How long does a typical Kajabi upload project take?**
 
-It depends on course length, but most projects range from 3–10 business days. Exact timeline is confirmed in a project brief.
+It depends on course length, but most projects range from 3 - 10 business days. Exact timeline is confirmed in a project brief.
 
 
 ## **Can you set up quizzes, assignments, and certificates?**

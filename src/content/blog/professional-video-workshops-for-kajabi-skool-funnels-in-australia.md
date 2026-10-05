@@ -99,7 +99,7 @@ Video workshops are now the backbone of digital education because they:
 ## **Kajabi vs Skool: Choosing the Right Platform**
 
 
-## **Kajabi – Best for Full Business Systems**
+## **Kajabi - Best for Full Business Systems**
 
 Kajabi is an **all-in-one platform** designed to build, market, and sell digital products.
 
@@ -116,7 +116,7 @@ Kajabi is an **all-in-one platform** designed to build, market, and sell digital
 * Coaches & consultants
 * Funnel-driven businesses
 
-## **Skool – Best for Engagement & Community**
+## **Skool - Best for Engagement & Community**
 
 Skool is a **community-first platform** where learning happens through interaction.
 
@@ -139,7 +139,7 @@ Skool is a **community-first platform** where learning happens through interacti
 ## **1. Curriculum Design for Impact**
 
 * Define clear **learning outcomes**
-* Break content into **micro-lessons (5–15 minutes)**
+* Break content into **micro-lessons (5 - 15 minutes)**
 * Use frameworks: Problem → Solution → Action
 Kajabi works best with structured modules Skool works best with discussion-based learning
 
@@ -242,22 +242,22 @@ Top creators combine both platforms:
 
 ### **Key Benefits for Australian Creators (Kajabi, Skool):**
 
-* **Elevated Engagement & Retention** — Studio-quality audio, clear visuals, concise editing, captions, and microlearning segments keep busy Australian learners returning.
-* **Platform Optimisation** — Videos formatted perfectly for Kajabi uploads, Skool native hosting, and funnel landing pages.
-* **Local Relevance** — Australian accents, real-world examples from local industries, and compliance with Australian standards help content connect better.
-* **Higher Conversions** — Polished workshops strengthen sales funnels and reduce churn in memberships or courses.
-* **Scalable Income** — Combine video workshops with Kajabi’s marketing tools or Skool’s community features for recurring revenue through memberships and high-ticket offers.
+* **Elevated Engagement & Retention** - Studio-quality audio, clear visuals, concise editing, captions, and microlearning segments keep busy Australian learners returning.
+* **Platform Optimisation** - Videos formatted perfectly for Kajabi uploads, Skool native hosting, and funnel landing pages.
+* **Local Relevance** - Australian accents, real-world examples from local industries, and compliance with Australian standards help content connect better.
+* **Higher Conversions** - Polished workshops strengthen sales funnels and reduce churn in memberships or courses.
+* **Scalable Income** - Combine video workshops with Kajabi’s marketing tools or Skool’s community features for recurring revenue through memberships and high-ticket offers.
 
 ### **TheEduAssist’s Professional Process for Kajabi, Skool & Funnels Video Workshops**
 
 We deliver end-to-end professional video workshops tailored specifically for Kajabi, Skool & funnels:
 
-* **Instructional Design** — Structured curriculum with clear outcomes, optimised for Kajabi modules or Skool classrooms.
-* **Scripting & Storyboarding** — Engaging, conversational scripts with Australian-relevant case studies.
-* **High-Quality Production** — Professional lighting, audio, B-roll, animations, and screen recordings.
-* **Advanced Editing** — Clean cuts, subtitles, interactive elements, and platform-specific optimisation.
-* **Integration & Testing** — Seamless upload to Kajabi or Skool, plus testing within your funnels.
-* **Launch Support** — Guidance on drip scheduling, community integration, and funnel automation.
+* **Instructional Design** - Structured curriculum with clear outcomes, optimised for Kajabi modules or Skool classrooms.
+* **Scripting & Storyboarding** - Engaging, conversational scripts with Australian-relevant case studies.
+* **High-Quality Production** - Professional lighting, audio, B-roll, animations, and screen recordings.
+* **Advanced Editing** - Clean cuts, subtitles, interactive elements, and platform-specific optimisation.
+* **Integration & Testing** - Seamless upload to Kajabi or Skool, plus testing within your funnels.
+* **Launch Support** - Guidance on drip scheduling, community integration, and funnel automation.
 Our services also include rapid eLearning development, microlearning modules, and gamified content to complement your chosen platform.
 
 
@@ -295,13 +295,13 @@ Ready to elevate your online education business?Contact TheEduAssist today for a
 
 **2. Which platform is better for Australian course creators  Kajabi or Skool?**It depends on your goals. **Kajabi** excels at sales **funnels**, marketing automation, memberships, and complex courses. **Skool** is ideal for community-driven workshops with strong engagement and gamification. Many creators use both together for the best results.
 
-**3. How long should my video workshops be?**For optimal engagement, keep individual lessons between 5–15 minutes. Full workshops can range from 30 minutes to several hours when broken into microlearning modules — perfect for busy Australian professionals.
+**3. How long should my video workshops be?**For optimal engagement, keep individual lessons between 5 - 15 minutes. Full workshops can range from 30 minutes to several hours when broken into microlearning modules - perfect for busy Australian professionals.
 
 **4. Do you optimise videos specifically for Kajabi, Skool & funnels?**Yes. We format and compress videos to meet Kajabi’s upload requirements and Skool’s native hosting standards. This ensures fast loading, mobile compatibility, and smooth playback across all devices.
 
 **5. Can you help integrate video workshops into my sales funnels?**Absolutely. We create funnel-ready content such as webinar recordings, lead magnet videos, course previews, and upsell sequences that work seamlessly with Kajabi’s built-in funnel tools or external integrations used with Skool.
 
-**6. How quickly can I get my professional video workshops produced?**Timelines vary based on project scope. Simple workshops can be completed in 2–4 weeks, while comprehensive programs with multiple modules and custom animations typically take 4–8 weeks.
+**6. How quickly can I get my professional video workshops produced?**Timelines vary based on project scope. Simple workshops can be completed in 2 - 4 weeks, while comprehensive programs with multiple modules and custom animations typically take 4 - 8 weeks.
 
 **7. Do your services include Australian-specific content?**Yes. We incorporate local examples, Australian accents, relevant case studies, and compliance with local standards to ensure your workshops resonate with audiences across Australia.
 

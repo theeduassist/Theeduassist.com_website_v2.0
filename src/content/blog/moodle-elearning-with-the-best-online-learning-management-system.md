@@ -73,7 +73,7 @@ Unlike expensive proprietary platforms, Moodle gives you full control. You can d
 - Lower total cost of ownership
 Professionals choose Moodle because it is flexible, reliable, and built by educators for educators.
 
-### **How to Login to Moodle – Step-by-Step Guide**
+### **How to Login to Moodle - Step-by-Step Guide**
 
 - Open the Moodle site URL provided by your organization (example: learn.yourinstitute.com).
 - Enter your username and password.
@@ -190,7 +190,7 @@ Moodle’s built-in tools plus custom reports make evaluation straightforward. O
 
 ## **Conclusion**
 
-**Moodle** is a powerful, flexible, and cost-effective LMS that solves real learning challenges. It helps instructional designers create engaging courses, enables L&D managers to prove ROI, supports trainers in boosting interaction, and gives independent creators professional tools — all without expensive licenses.
+**Moodle** is a powerful, flexible, and cost-effective LMS that solves real learning challenges. It helps instructional designers create engaging courses, enables L&D managers to prove ROI, supports trainers in boosting interaction, and gives independent creators professional tools - all without expensive licenses.
 
 With strong mobile support, excellent customization, and reliable analytics, Moodle delivers better completion rates and measurable results for organizations of any size.
 
@@ -206,9 +206,9 @@ At **TheEduAssist**, we make Moodle easy to implement and highly effective throu
 
 **What are the main benefits of using Moodle?**Moodle offers full data ownership, excellent customization, advanced analytics, mobile learning, accessibility compliance, and scalability. Organizations using Moodle typically report higher completion rates, lower costs, and better learner engagement compared to rigid paid platforms.
 
-**How can instructional designers create engaging courses in Moodle?**Instructional designers can use Moodle’s drag-and-drop builder, H5P interactive content, conditional activities, quizzes with randomization, and peer workshops. These tools help create microlearning, branching scenarios, and personalized paths quickly — even on tight budgets.
+**How can instructional designers create engaging courses in Moodle?**Instructional designers can use Moodle’s drag-and-drop builder, H5P interactive content, conditional activities, quizzes with randomization, and peer workshops. These tools help create microlearning, branching scenarios, and personalized paths quickly - even on tight budgets.
 
-**Is Moodle suitable for corporate training and L&D teams?**Yes. Moodle (especially Moodle Workplace) is excellent for corporate training. It supports automated enrollment, competencies, detailed reporting, compliance tracking, certificates, and integration with HR systems — helping L&D managers prove ROI and reduce administrative work.
+**Is Moodle suitable for corporate training and L&D teams?**Yes. Moodle (especially Moodle Workplace) is excellent for corporate training. It supports automated enrollment, competencies, detailed reporting, compliance tracking, certificates, and integration with HR systems - helping L&D managers prove ROI and reduce administrative work.
 
 **How do I create my first course in Moodle?**
 

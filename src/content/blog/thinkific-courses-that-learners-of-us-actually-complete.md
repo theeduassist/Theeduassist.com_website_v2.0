@@ -46,7 +46,7 @@ advancedSeo:
   noindex: false
   ogImage: /images/blog/geminigeneratedimagevhclftvhclftvhcl-1.webp
 keyTakeaways:
-  - "Use short, focused lessons: The article recommends 5–15 minute lessons,
+  - "Use short, focused lessons: The article recommends 5 - 15 minute lessons,
     practical projects, and structured content to support course completion. "
   - "Build engagement into the course Quizzes, drip content, community Q&As, and
     progress tracking help create a more interactive learning experience. "
@@ -94,25 +94,25 @@ sources:
   - title: "British Journal of Educational
       Technologyhttps://bera-journals.onlinelibrary.wiley.com/journal/14678535K\
       ey Finding: Structured online courses with interactivity yield 75%
-      completion in US higher ed—directly supports Thinkific Courses quizzes and
+      completion in US higher ed - directly supports Thinkific Courses quizzes and
       communities.[page:British Journal]"
     url: https://bera-journals.onlinelibrary.wiley.com/journal/14678535
     accessedAt: 2026-08-25
   - title: "Journal of Research on Technology in
       Educationhttps://www.tandfonline.com/toc/ujrt20/currentKey Finding:
-      Gamification lifts adult learner persistence by 28%—explains Thinkific
+      Gamification lifts adult learner persistence by 28% - explains Thinkific
       Courses badges boosting US finishes.[page:Journal of Research]"
     url: https://www.tandfonline.com/toc/ujrt20/current
     accessedAt: 2026-08-25
   - title: "Distance Educationhttps://www.tandfonline.com/journals/cdie20Key
-      Finding: Drip-feeding mirrors spaced repetition for retention—core to
+      Finding: Drip-feeding mirrors spaced repetition for retention - core to
       TheEduAssist Thinkific Courses scheduling.[page:Distance Education]"
     url: https://www.tandfonline.com/journals/cdie20
     accessedAt: 2026-08-25
   - title: "Internet and Higher
       Educationhttps://www.sciencedirect.com/journal/the-internet-and-higher-ed\
       ucationKey Finding: Community forums cut isolation for remote US
-      workers—65.5% completion with discussions.[page:Internet and Higher
+      workers - 65.5% completion with discussions.[page:Internet and Higher
       Education]"
     url: https://www.sciencedirect.com/journal/the-internet-and-higher-education
     accessedAt: 2026-08-25

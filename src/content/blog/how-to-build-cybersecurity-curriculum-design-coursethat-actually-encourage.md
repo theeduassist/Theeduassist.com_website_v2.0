@@ -200,7 +200,7 @@ faqs:
   - question: How long is the course, and is it self‑paced?
     answer: >+
       The **Cybersecurity Curriculum Design** course is designed as a
-      **self‑paced, project‑based program** that typically takes 4–6 weeks to
+      **self‑paced, project‑based program** that typically takes 4 - 6 weeks to
       complete, depending on your prior experience. You’ll:
 
 
@@ -231,41 +231,40 @@ faqs:
       cybersecurity training leads who want to stand out in the growing field of
       **Cybersecurity education and training**.
 sources:
-  - title: "Cybersecurity Curriculum Design: A Survey – UAEA comparative overview of
+  - title: "Cybersecurity Curriculum Design: A Survey - UAEA comparative overview of
       existing Cybersecurity curriculum approaches that helps educators design
       more effective Cybersecurity programs."
     url: https://nchr.elsevierpure.com/en/publications/cybersecurity-curriculum-design-a-survey/
     accessedAt: 2026-08-21
-  - title: "Cybersecurity Activities for Education and Curriculum Design: A Survey –
-      UAE UniversityA recent survey of global Cybersecurity curriculum
+  - title: "Cybersecurity Activities for Education and Curriculum Design: A Survey - UAE UniversityA recent survey of global Cybersecurity curriculum
       activities and case studies, useful for instructional designers building
       role‑based or scenario‑based courses."
     url: https://research.uaeu.ac.ae/en/publications/cybersecurity-activities-for-education-and-curriculum-design-a-su/
     accessedAt: 2026-08-21
-  - title: Cyber-Security Instructional Technology Design – Georgia Southern
+  - title: Cyber-Security Instructional Technology Design - Georgia Southern
       UniversityA paper applying Universal Design for Learning (UDL), Dual
       Coding, and contiguity principles to Cybersecurity awareness modules in
       e‑learning environments.
     url: https://digitalcommons.georgiasouthern.edu/information-tech-facpubs/98/
     accessedAt: 2026-08-21
-  - title: “Cyber-security Instructional Technology Design” – IIS 2019 PDFAn early
+  - title: “Cyber-security Instructional Technology Design” - IIS 2019 PDFAn early
       but still relevant framework for designing learner‑centered Cybersecurity
       courses using instructional design models and multimedia principles.
     url: https://iacis.org/iis/2019/3_iis_2019_28-36.pdf
     accessedAt: 2026-08-21
-  - title: Design and Development of a Modular K‑12 Cybersecurity Curriculum – ASEEA
+  - title: Design and Development of a Modular K‑12 Cybersecurity Curriculum - ASEEA
       practical example of how to structure modular, role‑adjacent Cybersecurity
       content that can be adapted for adult e‑learning.
     url: https://peer.asee.org/design-and-development-of-a-modular-k-12-cybersecurity-curriculum.pdf
     accessedAt: 2026-08-21
   - title: A Reference Point for Designing a Cybersecurity Curriculum for
-      Universities – HAL‑InriaA scoping‑review‑based reference point for
+      Universities - HAL‑InriaA scoping‑review‑based reference point for
       clustering Cybersecurity topics and skills into coherent curriculum
       modules.
     url: https://inria.hal.science/hal-04041064/document
     accessedAt: 2026-08-21
   - title: Enhancing Cyber Safety in e‑Learning Environments through Cybersecurity
-      Training – Computers in Human Behavior ReportsA 2025 study linking
+      Training - Computers in Human Behavior ReportsA 2025 study linking
       e‑learning engagement, Cybersecurity awareness, and policy compliance to
       practical cyber‑safety outcomes in education.
     url: https://www.sciencedirect.com/science/article/abs/pii/S0167404824005820
@@ -505,7 +504,7 @@ Make the course actionable with ready‑to‑use artifacts:
 
 These tools position your course as a **practical Cybersecurity Curriculum Design toolkit** for e‑Learning instructional designers.
 
-MetricBefore Generic TrainingAfter Curriculum‑Driven Cybersecurity TrainingAverage phishing click‑rate45–60%15–25% ttms+1Policy‑awareness score (MCQ)~55%~80% ttms+1Incident‑reporting within 1 hour~30%~60–70% ttms+1Learner‑rated “confidence in Cybersecurity skills”Low–mediumMedium–high sciencedirect+1
+MetricBefore Generic TrainingAfter Curriculum‑Driven Cybersecurity TrainingAverage phishing click‑rate45 - 60%15 - 25% ttms+1Policy‑awareness score (MCQ)~55%~80% ttms+1Incident‑reporting within 1 hour~30%~60 - 70% ttms+1Learner‑rated “confidence in Cybersecurity skills”Low - mediumMedium - high sciencedirect+1
 
 ## **How to Position the Course for theEduAssist**
 
@@ -523,6 +522,6 @@ Step in Cybersecurity Curriculum DesignDirect Impact on Learner BehaviorDefine r
 
 The gap between cybersecurity threats and cybersecurity education will not close by accident. It will close when **instructional designers take the lead** in designing intelligent, empathetic, and research‑grounded Cybersecurity curricula.
 
-By grounding your *Cybersecurity Curriculum Design* course in validated models, frameworks, and tools, you empower e‑Learning designers to turn abstract threats into **concrete, learnable behaviors**—and position your organization as a leader in **Cybersecurity education and practice**.
+By grounding your *Cybersecurity Curriculum Design* course in validated models, frameworks, and tools, you empower e‑Learning designers to turn abstract threats into **concrete, learnable behaviors** - and position your organization as a leader in **Cybersecurity education and practice**.
 
 **Authored By**: Atiqa Sajid [http://www.linkedin.com/in/atiqa-sajid-747b57137](http://www.linkedin.com/in/atiqa-sajid-747b57137)

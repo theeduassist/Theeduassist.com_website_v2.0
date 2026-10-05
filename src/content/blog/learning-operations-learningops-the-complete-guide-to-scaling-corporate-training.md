@@ -112,17 +112,17 @@ faqs:
       and asynchronous content delivery. This ensures remote hires receive
       consistent onboarding regardless of time zone or location.
 sources:
-  - title: "TheEduAssist — LMS Integration: The Most Important Systems to Connect to
+  - title: "TheEduAssist - LMS Integration: The Most Important Systems to Connect to
       Your LMS"
     url: https://www.theeduassist.com/blog/lms-integration-the-most-important-systems-to-connect-to-your-lms/
     accessedAt: 2026-09-11
-  - title: TheEduAssist — LMS Integration and Migration Services
+  - title: TheEduAssist - LMS Integration and Migration Services
     url: https://www.theeduassist.com/lms-integration-migration-services/
     accessedAt: 2026-09-11
-  - title: TheEduAssist — Kajabi Automation Workflows
+  - title: TheEduAssist - Kajabi Automation Workflows
     url: https://www.theeduassist.com/blog/kajabi-automation-workflows/
     accessedAt: 2026-09-11
-  - title: "TheEduAssist — Kajabi CRM: How to Manage Leads and Students in One Place"
+  - title: "TheEduAssist - Kajabi CRM: How to Manage Leads and Students in One Place"
     url: https://www.theeduassist.com/uncategorized/kajabi-crm-how-to-manage-leads-and-students-in-one-place/
     accessedAt: 2026-09-13
 editorialManagement:

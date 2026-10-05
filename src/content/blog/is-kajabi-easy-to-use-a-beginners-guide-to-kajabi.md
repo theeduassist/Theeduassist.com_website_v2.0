@@ -95,22 +95,22 @@ faqs:
       around advanced features, and the possibility that some businesses may not
       need all of its functionality.
 sources:
-  - title: Kajabi Pricing — Current plans, pricing, product limits, and trial
+  - title: Kajabi Pricing - Current plans, pricing, product limits, and trial
       information.
     url: https://www.kajabi.com/pricing
     accessedAt: 2026-09-14
-  - title: Kajabi Website Builder — Official information about visual website
+  - title: Kajabi Website Builder - Official information about visual website
       creation.
     url: https://www.kajabi.com/features/web-builder
     accessedAt: 2026-09-14
-  - title: Kajabi Online Courses — Course creation, marketing, selling, and delivery
+  - title: Kajabi Online Courses - Course creation, marketing, selling, and delivery
       features.
     url: https://www.kajabi.com/features/online-courses
     accessedAt: 2026-09-14
-  - title: Capterra Kajabi Reviews — Third-party user ratings and feedback.
+  - title: Capterra Kajabi Reviews - Third-party user ratings and feedback.
     url: https://www.capterra.com/p/154682/Kajabi/reviews/
     accessedAt: 2026-09-14
-  - title: "Kajabi: What Is Kajabi? — Background on Kajabi's all-in-one approach."
+  - title: "Kajabi: What Is Kajabi? - Background on Kajabi's all-in-one approach."
     url: https://www.kajabi.com/blog/what-is-kajabi
     accessedAt: 2026-09-14
 editorialManagement:
@@ -290,9 +290,9 @@ Complex funnels, automation logic, integrations, analytics, and highly customize
 A practical learning path could look like this:
 
 - **Day 1:** Explore the dashboard and templates
-- **Days 2–3:** Build basic pages
-- **Days 4–5:** Create your course or product
-- **Days 6–7:** Set up offers and basic emails
+- **Days 2 - 3:** Build basic pages
+- **Days 4 - 5:** Create your course or product
+- **Days 6 - 7:** Set up offers and basic emails
 - **Week 2:** Learn funnels and automation
 - **After that:** Improve integrations, analytics, and advanced workflows
 

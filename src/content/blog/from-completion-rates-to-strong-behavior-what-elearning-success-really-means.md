@@ -68,7 +68,7 @@ A 2022 meta-analysis in the Journal of Research on Technology in Education (anal
 
 * Break content into 5-7 minute **eLearning** chunks.
 * Integrate 1-2 interactives per module (e.g., H5P drag-and-drop, free in Articulate Rise).
-* Leverage AI like Grok for scripting: “Generate a branching **eLearning** scenario for sales objections”—saves 40% dev time.
+* Leverage AI like Grok for scripting: “Generate a branching **eLearning** scenario for sales objections” - saves 40% dev time.
 * Test with SAM model: Prototype, iterate, launch in 48 hours.
 L&D Managers, use this to prove ROI to execs. One Chicago client slashed drop-offs 25% by applying these in Kajabi **eLearning** courses. Educators and coaches, personalize: “Sarah from Perth here apply this coaching tip to your next session.” Course creators, embed as downloadable PDFs on Skool for instant value.
 
@@ -85,7 +85,7 @@ LinkedIn’s 2025 report aligns: Top **eLearning** programs prioritize “skills
 
 **TheEduAssist eLearning ROI Template (Copy to Google Sheets):**
 
-Kirkpatrick LevelMetricFormulaSales eLearning ExampleLevel 1: ReactionSatisfaction ScoreAverage survey rating4.6/5 from 200 learnersLevel 2: LearningKnowledge Gain(Post – Pre test %)35% average upliftLevel 3: BehaviorApplication Rate(Users applying / Total) x 10075% reps using new scriptsLevel 4: ResultsROI(Benefit $ – Cost $) / Cost $($500K sales – $50K) / $50K = 900%
+Kirkpatrick LevelMetricFormulaSales eLearning ExampleLevel 1: ReactionSatisfaction ScoreAverage survey rating4.6/5 from 200 learnersLevel 2: LearningKnowledge Gain(Post - Pre test %)35% average upliftLevel 3: BehaviorApplication Rate(Users applying / Total) x 10075% reps using new scriptsLevel 4: ResultsROI(Benefit $ - Cost $) / Cost $($500K sales - $50K) / $50K = 900%
 
 Corporate trainers, deploy pre/post 360-feedback: “Rate your objection-handling confidence 1-10.” We’ve seen Sydney coaches hit 82% behavior adoption. Course creators, gate this template behind a Kajabi quizreduces refunds 30%. L&D pros, benchmark against ATD: Our clients exceed Level 4 norms.
 
@@ -101,7 +101,7 @@ Corporate trainers, deploy pre/post 360-feedback: “Rate your objection-handlin
 * **Action Mapping:** Tasks → Gaps → Activities. E.g., “Close deals” → “Objection types” → Simulator (free Canva prototype).
 * **AI Boost:** Prompt: “Script 2-min **eLearning** scenario for remote motivation.” Refine in 10 mins.
 * **Budget Interactivity:** Google Forms polls or Mentimeter for real-time **eLearning** feedback.
-Educators/trainers/coaches, humanize: “Reflect: How does this fit your workshop?” Our Perth clients reported 40% higher application. Course creators, use 80/20 chunking: 80% practice, 20% theory—doubles Skool completions.
+Educators/trainers/coaches, humanize: “Reflect: How does this fit your workshop?” Our Perth clients reported 40% higher application. Course creators, use 80/20 chunking: 80% practice, 20% theory - doubles Skool completions.
 
 For scaling institutes, WCAG 2.1 AA compliance is non-negotiable. Gartner’s 2025 Corporate Learning report: It’s a top procurement factor. TheEduAssist audits ensure accessible **eLearning**.
 
@@ -141,7 +141,7 @@ Brandon Hall Group data: 60% CLOs struggle with proof our framework fixes that.
 * **ROI Proof:** Fix: 50-learner pilots.
 **Persona-Tailored eLearning Fixes:**
 
-* **IDs:** SAM over ADDIE—48-hour **eLearning** launches.
+* **IDs:** SAM over ADDIE - 48-hour **eLearning** launches.
 * **L&D Managers:** Free WAVE accessibility audits.
 * **Educators/Coaches:** “My fail-turned-win” video intros.
 * **Course Creators:** Chunking formulas, mobile tips.
@@ -180,7 +180,7 @@ Free Toolkit: TheEduAssist.com/elearning-toolkit.
 
 ## **AI, Trends, and Future-Proof eLearning Success**
 
-Gartner 2026: AI personalizes **eLearning** (40% success lift). VR for skills (Educational Technology & Society, 2025). WEF: 85M jobs shift—behavioral **eLearning** wins.
+Gartner 2026: AI personalizes **eLearning** (40% success lift). VR for skills (Educational Technology & Society, 2025). WEF: 85M jobs shift - behavioral **eLearning** wins.
 
 **Trends to Adopt:**
 
@@ -282,7 +282,7 @@ Yes,40% lift per Gartner 2026. Use Grok for branching Brisbane pros cut dev time
 
 ### **How to prove ROI for US decision-makers?**
 
-Pilot 50 learners, extrapolate Level 4: (Benefit – Cost)/Cost. Chicago/Austin cases show 900% returns download our template.
+Pilot 50 learners, extrapolate Level 4: (Benefit - Cost)/Cost. Chicago/Austin cases show 900% returns download our template.
 
 
 ### **Best platforms for eLearning success in Australian markets?**

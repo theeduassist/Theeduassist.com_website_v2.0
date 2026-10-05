@@ -235,7 +235,7 @@ By using the right tools and benchmarking frameworks, you can uncover what works
 
 The key is consistency. Competitor analysis should not be a one-time activity but an ongoing process that evolves with your market. As trends shift and learner expectations change, continuous benchmarking ensures you stay relevant and competitive.
 
-If you want to build courses that stand out, drive engagement, and deliver real ROI, start with data—not assumptions.
+If you want to build courses that stand out, drive engagement, and deliver real ROI, start with data - not assumptions.
 
 ## References:
 

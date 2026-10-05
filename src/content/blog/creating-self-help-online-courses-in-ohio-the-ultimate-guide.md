@@ -52,7 +52,7 @@ Self-help education has quietly become one of the fastest-growing segments in di
 
 ## **Self-Help Education: A Growing Opportunity**
 
-For educators, coaches, and entrepreneurs in **Ohio**—especially in cities like **Columbus, Cleveland, and Cincinnati**—this presents a significant opportunity. With the right instructional design strategy, curriculum framework, and LMS platform, a self-help course can become both a meaningful educational resource and a scalable digital product.
+For educators, coaches, and entrepreneurs in **Ohio** - especially in cities like **Columbus, Cleveland, and Cincinnati** - this presents a significant opportunity. With the right instructional design strategy, curriculum framework, and LMS platform, a self-help course can become both a meaningful educational resource and a scalable digital product.
 
 The global eLearning market has already surpassed **$325 billion** and is projected to approach **$400 billion** within the next few years, reflecting the rapid growth of online education and digital training programs.
 
@@ -112,9 +112,9 @@ Your Learning Management System (LMS) determines how learners experience the cou
 
 **Popular platforms for course creators include:**
 
-* **Kajabi** – Ideal for coaches and creators building full online course businesses
-* **Thinkific** – Strong course hosting and customization options
-* **LearnDash** – WordPress-based LMS for advanced customization
+* **Kajabi** - Ideal for coaches and creators building full online course businesses
+* **Thinkific** - Strong course hosting and customization options
+* **LearnDash** - WordPress-based LMS for advanced customization
 These platforms support features like:
 
 * Video lessons
@@ -168,7 +168,7 @@ Self-help education works best when learners feel supported.
 * Kajabi community features
 * Slack or Discord groups
 * Weekly coaching sessions
-Community learning dramatically improves course completion and accountability. (Average online course completion rate is around **50–60%**.)
+Community learning dramatically improves course completion and accountability. (Average online course completion rate is around **50 - 60%**.)
 
 
 ## **Cost Reality Check: Building a Professional Self-Help Course**
@@ -187,7 +187,7 @@ Many creators start with a lean version and improve the course as enrollment gro
 
 ## **Final Thoughts:**
 
-Creating a self-help online course in Ohio is not just about sharing advice — it’s about designing a structured learning experience that genuinely helps people transform their lives.
+Creating a self-help online course in Ohio is not just about sharing advice - it’s about designing a structured learning experience that genuinely helps people transform their lives.
 
 By combining **professional instructional design**, **strategic curriculum development**, **interactive eLearning content**, **scalable LMS platforms**, and **strong community engagement**, coaches and educators can build digital courses that are both educationally impactful and financially sustainable.
 
@@ -209,7 +209,7 @@ Popular platforms include Kajabi, Thinkific, and LearnDash, each offering course
 
 **How long should a self-help online course be?**
 
-Most successful courses range between **2–6 hours** of content, divided into short microlearning lessons.
+Most successful courses range between **2 - 6 hours** of content, divided into short microlearning lessons.
 
 **Do I need instructional design experience to create a course?**
 

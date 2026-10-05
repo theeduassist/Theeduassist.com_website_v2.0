@@ -71,7 +71,7 @@ faqs:
     answer: Yes, Kajabi allows creators to build, manage, and deliver leadership
       courses effectively.
   - question: How long does it take to create a leadership course?
-    answer: Most programs take 4–8 weeks depending on complexity and content readiness.
+    answer: Most programs take 4 - 8 weeks depending on complexity and content readiness.
   - question: How can TheEduAssist help create leadership training programs?
     answer: Through TheEduAssist consulting services,
       [TheEduAssist.com](https://www.theeduassist.com) helps creators design custom
@@ -261,7 +261,7 @@ For platforms like [theeduassist.com](https://www.theeduassist.com), this shift 
 
 ## **Final Thoughts**
 
-Creating a leadership training program is not just about sharing knowledge — it’s about designing transformation.
+Creating a leadership training program is not just about sharing knowledge - it’s about designing transformation.
 
 For Florida creators, success depends on:
 

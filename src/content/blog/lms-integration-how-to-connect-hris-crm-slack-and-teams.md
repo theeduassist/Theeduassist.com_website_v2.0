@@ -98,10 +98,10 @@ keyTakeaways:
     tool for delivering learning, but technology alone does not guarantee an
     effective learning experience. Instructional design provides the structure,
     strategy, and learner focus needed to make learning meaningful and
-    effective.  10. References and Sources  TheEduAssist — Instructional Design
+    effective.  10. References and Sources  TheEduAssist - Instructional Design
     in Action: Practical Solutions for Learner Problems
     https://www.theeduassist.com/blog/instructional-design-in-action-practical-\
-    solutions-for-learner-problems/  TheEduAssist — Learning Operations
+    solutions-for-learner-problems/  TheEduAssist - Learning Operations
     (LearningOps): The Complete Guide to Scaling Corporate Training
     https://www.theeduassist.com/blog/learning-operations-learningops-scaling-c\
     orporate-training  11. SEO Title  Instructional Design in Action: Practical
@@ -148,11 +148,11 @@ faqs:
       provides the structure, strategy, and learner focus needed to make
       learning meaningful and effective.
 sources:
-  - title: "TheEduAssist — Instructional Design in Action: Practical Solutions for
+  - title: "TheEduAssist - Instructional Design in Action: Practical Solutions for
       Learner Problems"
     url: https://www.theeduassist.com/blog/instructional-design-in-action-practical-solutions-for-learner-problems/
     accessedAt: 2026-09-15
-  - title: "TheEduAssist — Learning Operations (LearningOps): The Complete Guide to
+  - title: "TheEduAssist - Learning Operations (LearningOps): The Complete Guide to
       Scaling Corporate Training"
     url: https://www.theeduassist.com/blog/instructional-design-in-action-practical-solutions-for-learner-problems/
     accessedAt: 2026-09-15

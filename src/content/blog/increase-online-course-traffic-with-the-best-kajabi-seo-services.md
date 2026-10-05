@@ -47,16 +47,16 @@ searchIntent: Commercial Investigation
 advancedSeo:
   noindex: false
 keyTakeaways:
-  - Keyword research is the foundation of Kajabi SEO — Target relevant,
+  - Keyword research is the foundation of Kajabi SEO - Target relevant,
     long-tail, and high-intent keywords your potential students are searching
     for.
-  - Optimize every Kajabi page — Improve meta titles, descriptions, URLs,
+  - Optimize every Kajabi page - Improve meta titles, descriptions, URLs,
     headings, and image alt text to strengthen on-page SEO.
-  - Use blogging to build organic traffic — Publish useful, keyword-focused
+  - Use blogging to build organic traffic - Publish useful, keyword-focused
     content consistently and connect blog posts to your course pages.
-  - Technical SEO and backlinks matter — Improve site speed, indexing, mobile
+  - Technical SEO and backlinks matter - Improve site speed, indexing, mobile
     experience, and build relevant, high-quality backlinks.
-  - SEO should support conversions — Getting visitors is only part of the goal;
+  - SEO should support conversions - Getting visitors is only part of the goal;
     optimize course pages with clear CTAs, relevant content, and social proof to
     encourage enrollments.
 faqs:
@@ -177,7 +177,7 @@ Kajabi lets you edit the meta title, meta description, URL slug, and image alt t
 - Best Practice: /online-photography-course
 - Common Error: /product-abc123xyz
 
-#### **Headings (H1–H3)**
+#### **Headings (H1 - H3)**
 
 - Best Practice: Used naturally on landing pages and blog pages
 - Common Error: Multiple H1s or no headings at all

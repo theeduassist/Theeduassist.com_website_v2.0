@@ -46,13 +46,13 @@ faqs:
     answer: "The update introduces a connected lifecycle that decouples course access from compliance timing, automating deadlines, completion verification, periodic retraining, and automated recertification nudges."
 ---
 
-On October 2, 2026, LearnWorlds hosted an exclusive partner preview led by CEO and Co-Founder **Panos Siozos** alongside Chief Product Officer (CPO) and Co-Founder **George Palaigeorgiou**. Designed as an early, under-the-hood briefing for partners, digital academies, and enterprise training leaders before the wider public product launch, the session provided a deep dive into upcoming LearnWorlds features—spanning AI course creation, interactive learner experiences, autonomous learner and management agents, compliance retraining workflows, and flexible multi-tier pricing. 
+On October 2, 2026, LearnWorlds hosted an exclusive partner preview led by CEO and Co-Founder **Panos Siozos** alongside Chief Product Officer (CPO) and Co-Founder **George Palaigeorgiou**. Designed as an early, under-the-hood briefing for partners, digital academies, and enterprise training leaders before the wider public product launch, the session provided a deep dive into upcoming LearnWorlds features - spanning AI course creation, interactive learner experiences, autonomous learner and management agents, compliance retraining workflows, and flexible multi-tier pricing. 
 
 The core message shared by Siozos and Palaigeorgiou was clear and provocative: **“Your academy is about to get to work.”**
 
 For over a decade, learning management systems have essentially operated as digital filing cabinets. You upload video files, configure quizzes, paste copy, and leave the platform to passively deliver content to self-directed students. LearnWorlds is breaking that mold. 
 
-In this comprehensive briefing, we dissect everything announced in the October 2026 release—from conversational course builders and autonomous learner agents to native **Model Context Protocol (MCP)** integration—and examine what this shift means for course businesses, corporate academies, and instructional designers.
+In this comprehensive briefing, we dissect everything announced in the October 2026 release - from conversational course builders and autonomous learner agents to native **Model Context Protocol (MCP)** integration - and examine what this shift means for course businesses, corporate academies, and instructional designers.
 
 ---
 
@@ -66,7 +66,7 @@ Rather than bolting on a superficial ChatGPT wrapper, LearnWorlds has re-enginee
 
 ### **Platform Comparison: Traditional LMS vs. October 2026 Agentic LearnWorlds**
 
-| Architectural Dimension | Traditional LearnWorlds (2024–2025) | Agentic LearnWorlds (October 2026 Release) |
+| Architectural Dimension | Traditional LearnWorlds (2024 - 2025) | Agentic LearnWorlds (October 2026 Release) |
 | :--- | :--- | :--- |
 | **Course Authoring** | Manual block-by-block builder | **Conversational AI Creation Suite** from raw source documents |
 | **Academy Web Design** | Template picker with manual widget styling | **Context-aware Website Builder** generating layout, design & copy |
@@ -83,14 +83,14 @@ Rather than bolting on a superficial ChatGPT wrapper, LearnWorlds has re-enginee
 The cornerstone of the authoring overhaul is the **AI Creation Suite**. Instead of requiring course creators to spend 40 to 60 hours assembling modules, outlining objectives, and writing multiple-choice questions, the suite allows you to upload existing material as a primary source of truth:
 
 * **End-to-End Course Generation:** LearnWorlds analyzes your slide decks, PDFs, video transcripts, or technical documentation and automatically generates the complete course structure, interactive lesson content, diagnostic assessments, and the promotional sales website around it.
-* **Conversational Multi-Course Editing:** Updating content across large academies has traditionally been a logistical nightmare. With conversational editing, administrators can update a policy, rephrase terminology, or refresh learning outcomes across an entire course—or across twenty courses simultaneously—using a single conversational prompt.
+* **Conversational Multi-Course Editing:** Updating content across large academies has traditionally been a logistical nightmare. With conversational editing, administrators can update a policy, rephrase terminology, or refresh learning outcomes across an entire course - or across twenty courses simultaneously - using a single conversational prompt.
 * **Intelligent Website Builder:** Give the system your project brief, brand style guide, and source files, and it generates a cohesive academy website with structured layouts, tailored typography, and compelling marketing copy that you can fine-tune in real time.
 
 ### **"AI Under Human-Directed Guidance": The Creator Stays in the Driver's Seat**
 
-During the partner preview, CEO Panos Siozos and CPO George Palaigeorgiou emphasized a defining pedagogical principle behind the platform's AI suite: **creating courses with AI under human-directed guidance—where the human is the one directing it.**
+During the partner preview, CEO Panos Siozos and CPO George Palaigeorgiou emphasized a defining pedagogical principle behind the platform's AI suite: **creating courses with AI under human-directed guidance - where the human is the one directing it.**
 
-> *"The future of online learning isn't hands-off, auto-generated noise. It is creator courses built with AI under human-directed guidance—the human is the one directing it, curating the vision, and setting the standard."*
+> *"The future of online learning isn't hands-off, auto-generated noise. It is creator courses built with AI under human-directed guidance - the human is the one directing it, curating the vision, and setting the standard."*
 
 In LearnWorlds' agentic framework, AI is not replacing the instructional designer, educator, or subject matter expert. Instead, the creator functions as the director of an intelligent production studio:
 * **The Human Directs the Vision:** You define the pedagogical goals, determine the depth of instruction, maintain brand authenticity, and provide the authoritative source material.
@@ -157,7 +157,7 @@ MCP is an open standard that allows frontier language models (such as Anthropic�
 
 ### **Why MCP Matters for LearnWorlds:**
 * **Chat with Academy Data in Claude or ChatGPT:** Team members can query student progress, enrollment trends, or curriculum effectiveness directly from the AI chat interfaces they already use all day.
-* **Trigger Approved Academy Workflows:** Authorize external AI systems to perform approved administrative operations—such as provisioning new client seats, updating member tags, or generating weekly executive learning reports—without logging into the LearnWorlds backend.
+* **Trigger Approved Academy Workflows:** Authorize external AI systems to perform approved administrative operations - such as provisioning new client seats, updating member tags, or generating weekly executive learning reports - without logging into the LearnWorlds backend.
 * **Connected Enterprise Ecosystems:** Integrate LearnWorlds seamlessly into internal Slack bots, custom HRIS dashboards, and agentic workflows.
 
 ---

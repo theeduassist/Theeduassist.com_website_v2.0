@@ -107,16 +107,16 @@ faqs:
       information, supporting engagement, and strengthening learner retention
       and completion.
 sources:
-  - title: Thinkific — Online Course Platform
+  - title: Thinkific - Online Course Platform
     url: https://www.thinkific.com/?utm
     accessedAt: 2026-08-22
   - title: Thinkific Help Center
     url: https://support.thinkific.com/hc/en-us
     accessedAt: 2026-08-22
-  - title: Thinkific — Learning Management System
+  - title: Thinkific - Learning Management System
     url: https://www.thinkific.com/blog/learning-management-system-analytics/?utm
     accessedAt: 2026-08-22
-  - title: Thinkific — Online Course Builder
+  - title: Thinkific - Online Course Builder
     url: https://www.thinkific.com/features/online-course-builder/?utm
     accessedAt: 2026-08-22
 editorialManagement:

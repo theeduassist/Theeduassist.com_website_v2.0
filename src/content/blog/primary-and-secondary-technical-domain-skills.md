@@ -76,7 +76,7 @@ faqs:
   - question: How does TheEduAssist support enterprise technical skill development?
     answer: TheEduAssist designs custom corporate e-learning programs, LMS migration
       pathways, and interactive training modules that help organizations
-      systematically upskill their workforces. **[Request a free 24–48 hour
+      systematically upskill their workforces. **[Request a free 24 - 48 hour
       training consultation](https://www.theeduassist.com/book-free-audit/)**
       with our instructional design experts today.
 sources:
@@ -104,7 +104,7 @@ editorialManagement:
   lastReviewedDate: 2026-09-21
   nextReviewDate: 2026-09-21
 ---
-When applying for technical, managerial, or specialized roles at top enterprise organizations—most notably in application questionnaires for technology giants like Amazon, Microsoft, and global consulting firms—candidates routinely encounter a mandatory question:
+When applying for technical, managerial, or specialized roles at top enterprise organizations - most notably in application questionnaires for technology giants like Amazon, Microsoft, and global consulting firms - candidates routinely encounter a mandatory question:
 
 > *“Please list your primary and secondary technical domain skills.”*
 
@@ -250,5 +250,5 @@ Identify the technical domain where you completed your capstone projects, intern
 
 ### How does TheEduAssist support enterprise technical skill development?
 
-TheEduAssist designs custom corporate e-learning programs, LMS migration pathways, and interactive training modules that help organizations systematically upskill their workforces. **[Request a free 24–48 hour training consultation](https://www.theeduassist.com/book-free-audit/)** with our instructional design experts today.
+TheEduAssist designs custom corporate e-learning programs, LMS migration pathways, and interactive training modules that help organizations systematically upskill their workforces. **[Request a free 24 - 48 hour training consultation](https://www.theeduassist.com/book-free-audit/)** with our instructional design experts today.
 

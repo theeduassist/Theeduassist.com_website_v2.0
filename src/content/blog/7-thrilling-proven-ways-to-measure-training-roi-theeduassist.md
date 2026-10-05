@@ -160,9 +160,9 @@ faqs:
       For **evaluation**, many organizations use:
 
 
-      - **30 days** for short‑term reaction and learning (Level 1–2).
+      - **30 days** for short‑term reaction and learning (Level 1 - 2).
 
-      - **60–90 days** for behavior change and performance (Level 3–4).
+      - **60 - 90 days** for behavior change and performance (Level 3 - 4).
 
       - **12 months** for full financial ROI (Level 5).
 
@@ -269,7 +269,7 @@ sources:
     url: https://www.bkconnection.com/books/evaluating-training-programs-078799729
     accessedAt: 2026-08-18
   - title: Parry, S. B. (1996). Measuring training’s ROI. Training and Development,
-      50(5), 72–77.
+      50(5), 72 - 77.
     url: https://eric.ed.gov/?id=EJ524057
     accessedAt: 2026-08-18
   - title: Phillips, J. J. (1997). Return on investment in training and performance
@@ -298,10 +298,10 @@ sources:
     accessedAt: 2026-08-18
   - title: Zhang, L., & Baker, S. P. (2022). A methodology for projecting the return
       on investment of training programs. Journal of Applied Psychology, 107(8),
-      1520–1537.
+      1520 - 1537.
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10790803/
     accessedAt: 2026-08-18
-  - title: "Disrupt Learning. (n.d.). Kirkpatrick–Phillips training ROI: How to
+  - title: "Disrupt Learning. (n.d.). Kirkpatrick - Phillips training ROI: How to
       measure learning impact. Disrupt Learning blog"
     url: https://www.disruptlearning.org.uk/kirkpatrick-phillips-training-roi-how-to-measure-learning-impact/
     accessedAt: 2026-08-18
@@ -345,11 +345,11 @@ The most widely cited structure for training evaluation is the **Kirkpatrick Mod
 
 ### Kirkpatrick × Phillips in Practice
 
-- **1 – Reaction:** How did learners feel about the experience?
-- **2 – Learning:** Did they actually gain knowledge or skills?
-- **3 – Behavior:** Are they applying what they learned on the job?
-- **4 – Results:** What business impact did this create?
-- **5 – ROI:** How much revenue, cost saving, or productivity gain did this training produce versus the cost?
+- **1 - Reaction:** How did learners feel about the experience?
+- **2 - Learning:** Did they actually gain knowledge or skills?
+- **3 - Behavior:** Are they applying what they learned on the job?
+- **4 - Results:** What business impact did this create?
+- **5 - ROI:** How much revenue, cost saving, or productivity gain did this training produce versus the cost?
 
 For **TheEduAssist**, you don’t just design courses; you **embed measurement into every layer**:
 
@@ -377,7 +377,7 @@ Time is money. If your learners reach **“competent”** faster after training,
 - Before a course launch, establish a **baseline**:  
 How many hours does it take a new hire or student to be “ready” without your training?  
 How many errors or support tickets occur in the first 30 days?  
-After TheEduAssist‑delivered training, measure again after **60–90 days**.
+After TheEduAssist‑delivered training, measure again after **60 - 90 days**.
 - Convert time saved into dollars using **average hourly wage or trainer cost**.
 
 ### Example ROI narrative for a client
@@ -520,7 +520,7 @@ Coaching‑session effectiveness.
 When you show leadership:  
 “Three months after TheEduAssist coaching‑skills program, **82% of managers use the feedback framework in their 1:1s**, and **direct‑report satisfaction scores rose by 23%**.”
 
-That’s **behavior change tied to business outcomes**—not just “the course was fun.”
+That’s **behavior change tied to business outcomes** - not just “the course was fun.”
 
 ## Way 6: Compare Trained vs. Untrained Cohorts (Control‑Group Design)
 
@@ -603,7 +603,7 @@ For **IDs**, ROI is about **designing intentionally toward outcomes**, not just 
 - Choose **interactive formats** (simulations, branching scenarios, drag‑and‑drops) that make behavior change measurable.
 - Use **pre‑ and post‑quizzes with real‑world tasks** to capture Level 2 and Level 3 evidence.
 
-When IDs design for TheEduAssist, they aren’t just building slides—they’re **building ROI‑ready learning experiences**.
+When IDs design for TheEduAssist, they aren’t just building slides - they’re **building ROI‑ready learning experiences**.
 
 ### 2. L&D Managers & Learning Professionals with ROI
 

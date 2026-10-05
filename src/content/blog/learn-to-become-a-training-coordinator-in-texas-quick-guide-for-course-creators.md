@@ -61,7 +61,7 @@ Many course businesses struggle with:
 * Inefficient LMS uploads
 * Lack of student tracking and analytics
 * Inconsistent learning experiences
-This is where a **training coordinator** plays a vital role — ensuring the entire learning ecosystem runs smoothly.
+This is where a **training coordinator** plays a vital role - ensuring the entire learning ecosystem runs smoothly.
 
 This guide explains **how to become a training coordinator in 2026**, with a strong focus on **content management**, **LMS operations**, and **eLearning best practices**.
 

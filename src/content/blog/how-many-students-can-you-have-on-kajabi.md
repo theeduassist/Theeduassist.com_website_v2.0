@@ -43,7 +43,7 @@ keyTakeaways:
     students per course.
   - Basic supports 2,500 contacts, Growth supports 25,000, and Pro supports
     100,000 contacts.
-  - Your total contact database—not just your enrolled students—should determine
+  - Your total contact database - not just your enrolled students - should determine
     which Kajabi plan you choose.
 faqs:
   - question: How many students can Kajabi handle?

@@ -72,16 +72,16 @@ faqs:
       For more on instructional design, explore [Instructional Design in Action](https://www.theeduassist.com/blog/instructional-design-in-action-practical-solutions-for-learner-problems/).
   - question: What is the opposite of teachability?
     answer: The opposite of teachability is intellectual rigidity, dogmatism,
-      defensiveness, and complacency—believing one already knows everything
+      defensiveness, and complacency - believing one already knows everything
       necessary to succeed.
   - question: How can TheEduAssist help elevate training outcomes in my organization?
     answer: TheEduAssist partners with organizations, academies, and course creators
       to build high-impact digital learning environments, LMS platforms, and
       structured curricula that inspire learners and drive measurable results.
-      [Schedule a free 24–48 hour training consultation](/book-free-audit/) with
+      [Schedule a free 24 - 48 hour training consultation](/book-free-audit/) with
       our team today.
 sources:
-  - title: World Economic Forum – Future of Jobs Report 2025
+  - title: World Economic Forum - Future of Jobs Report 2025
     url: https://www.weforum.org/publications/the-future-of-jobs-report-2025/?utm_source=chatgpt.com
     accessedAt: 2026-09-21
   - title: Individual Differences in Learning Agility at Work
@@ -97,7 +97,7 @@ sources:
     url: https://www.annualreviews.org/content/journals/10.1146/annurev-orgpsych-012420-060109?utm_source=chatgpt.com
     accessedAt: 2026-09-21
 ---
-In an era where technology cycles, software tools, and business paradigms evolve at unprecedented speeds, what an individual knows today is far less important than how quickly they can unlearn outdated habits and master new competencies tomorrow. This vital cognitive and behavioral quality is known as **teachability**—and it has rapidly emerged as one of the most sought-after attributes by executive recruiters, human resource leaders, and instructional designers worldwide.
+In an era where technology cycles, software tools, and business paradigms evolve at unprecedented speeds, what an individual knows today is far less important than how quickly they can unlearn outdated habits and master new competencies tomorrow. This vital cognitive and behavioral quality is known as **teachability** - and it has rapidly emerged as one of the most sought-after attributes by executive recruiters, human resource leaders, and instructional designers worldwide.
 
 ## What is Teachability? (Direct Definition)
 
@@ -148,7 +148,7 @@ For decades, talent acquisition focused almost exclusively on prior years of exp
 Forward-thinking organizations now prioritize teachability for three decisive reasons:
 
 1. **Shortened Half-Life of Technical Skills:** According to the [World Economic Forum Future of Jobs Report](https://www.weforum.org/publications/the-future-of-jobs-report-2025/), core workplace skill requirements shift by nearly 50% every three to five years. Teachable employees adapt without extensive re-hiring cycles.
-2. **Accelerated Cross-Functional Mobility:** High teachability allows team members to pivot smoothly across roles—such as transitioning from classroom teaching to instructional design, or from customer support to LMS administration.
+2. **Accelerated Cross-Functional Mobility:** High teachability allows team members to pivot smoothly across roles - such as transitioning from classroom teaching to instructional design, or from customer support to LMS administration.
 3. **Enhanced Training ROI:** Instructional programs designed for teachable cohorts achieve significantly higher completion rates and lower post-training error frequencies. At [TheEduAssist learning strategy consultancy](https://chatgpt.com/services/learning-strategy/), we design curriculum frameworks specifically tailored to adult learners across diverse corporate cultures.
 
 You can also explore [Learning Operations (Learning Ops)](https://www.theeduassist.com/blog/learning-operations-learning-ops-the-complete-guide-to-scaling-corporate-training/) to understand how organizations can structure and scale workplace learning.
@@ -197,8 +197,8 @@ For more on instructional design, explore [Instructional Design in Action](https
 
 ### What is the opposite of teachability?
 
-The opposite of teachability is intellectual rigidity, dogmatism, defensiveness, and complacency—believing one already knows everything necessary to succeed.
+The opposite of teachability is intellectual rigidity, dogmatism, defensiveness, and complacency - believing one already knows everything necessary to succeed.
 
 ### How can TheEduAssist help elevate training outcomes in my organization?
 
-TheEduAssist partners with organizations, academies, and course creators to build high-impact digital learning environments, LMS platforms, and structured curricula that inspire learners and drive measurable results. [Schedule a free 24–48 hour training consultation](https://chatgpt.com/book-free-audit/) with our team today.
+TheEduAssist partners with organizations, academies, and course creators to build high-impact digital learning environments, LMS platforms, and structured curricula that inspire learners and drive measurable results. [Schedule a free 24 - 48 hour training consultation](https://chatgpt.com/book-free-audit/) with our team today.

@@ -28,7 +28,7 @@ faqs:
       setup, email sequences, automation, lead magnets, SEO basics, and ongoing
       optimization.
   - question: How long does a typical funnel project take?
-    answer: Most projects take 2–6 weeks, depending on scope and the number of
+    answer: Most projects take 2 - 6 weeks, depending on scope and the number of
       funnels/pages required.
   - question: Do I need to hire a Kajabi Expert?
     answer: |+
@@ -145,19 +145,19 @@ Funnel StagePurposeRegistration PageCollect leadsConfirmation PageConfirm attend
 
 **Common Webinar Funnel Goals:**
 
-- **Lead Generation** — Building email lists and audience growth
-- **Course Sales** — Selling online courses and mini-courses
-- **High-Ticket Consulting** — Strategy calls and coaching programs
-- **Membership Promotion** — Recurring memberships and communities
+- **Lead Generation** - Building email lists and audience growth
+- **Course Sales** - Selling online courses and mini-courses
+- **High-Ticket Consulting** - Strategy calls and coaching programs
+- **Membership Promotion** - Recurring memberships and communities
 
 ### **Step 2: Choose the Right Kajabi Funnel Template**
 
 **Recommended Templates:**
 
-- **Webinar OVO Pipeline** (Opt-In → Value → Offer) — Most popular
-- **Product Launch Funnel** — Best for multi-day webinars
-- **Freebie Funnel** — When paired with lead magnets
-- **Coaching Funnel** — For consultants and service providers
+- **Webinar OVO Pipeline** (Opt-In → Value → Offer) - Most popular
+- **Product Launch Funnel** - Best for multi-day webinars
+- **Freebie Funnel** - When paired with lead magnets
+- **Coaching Funnel** - For consultants and service providers
 
 ### **Step 3: Build High-Converting Funnel Pages**
 

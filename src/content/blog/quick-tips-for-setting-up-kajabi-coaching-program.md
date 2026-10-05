@@ -41,7 +41,7 @@ faqs:
       The 5 C’s commonly refer to: Clarity, Confidence, Communication, Commitment, and Consistency.
   - question: "How Long Does It Take to Set Up Kajabi Coaching?"
     answer: >+
-      Simple programs may take 1–2 weeks, while advanced coaching ecosystems can take several months.
+      Simple programs may take 1 - 2 weeks, while advanced coaching ecosystems can take several months.
   - question: "What Are the 3 C’s of Coaching?"
     answer: >+
       The 3 C’s often refer to: Connection, Communication, and Consistency.
@@ -126,10 +126,10 @@ Break your coaching experience into clear phases, milestones, weekly goals, and 
 
 **A Simple Coaching Structure:**
 
-* **Phase 1 — Foundation** — Mindset, onboarding, goals
-* **Phase 2 — Strategy** — Frameworks and implementation
-* **Phase 3 — Accountability** — Feedback and optimization
-* **Phase 4 — Scaling** — Advanced systems and sustainability
+* **Phase 1 - Foundation** - Mindset, onboarding, goals
+* **Phase 2 - Strategy** - Frameworks and implementation
+* **Phase 3 - Accountability** - Feedback and optimization
+* **Phase 4 - Scaling** - Advanced systems and sustainability
 Microlearning structures reduce overwhelm and improve engagement.
 
 
@@ -199,9 +199,9 @@ Kajabi pipelines help automate lead capture, nurture emails, booking systems, an
 * Focusing on Features Instead of Results
 **How Long Does It Take to Set Up Kajabi Coaching?**
 
-* **Simple Coaching Program:** 1–2 weeks
-* **Mid-Level Coaching Business:** 3–6 weeks
-* **Advanced Coaching Ecosystem:** 2–3 months
+* **Simple Coaching Program:** 1 - 2 weeks
+* **Mid-Level Coaching Business:** 3 - 6 weeks
+* **Advanced Coaching Ecosystem:** 2 - 3 months
 **Can You Customize Your Kajabi Coaching Program?**
 
 Yes. Kajabi coaching systems are highly customizable (branding, themes, landing pages, memberships, automations, and community systems).
@@ -239,7 +239,7 @@ The 5 C’s commonly refer to: Clarity, Confidence, Communication, Commitment, a
 
 **How Long Does It Take to Set Up Kajabi Coaching?**
 
-Simple programs may take 1–2 weeks, while advanced coaching ecosystems can take several months.
+Simple programs may take 1 - 2 weeks, while advanced coaching ecosystems can take several months.
 
 **What Are the 3 C’s of Coaching?**
 

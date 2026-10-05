@@ -46,7 +46,7 @@ faqs:
 ---
 Artificial intelligence and automation tools are transforming how small businesses operate. Platforms like **Zapier**, **n8n**, and **Sintra.AI** now allow entrepreneurs to automate workflows without writing code.
 
-Because of this shift, many EdTech startups and course creators in New York—particularly in cities like **New York City**, **Buffalo**, and **Rochester**—are developing online courses that teach **AI automation skills** to non-technical audiences.
+Because of this shift, many EdTech startups and course creators in New York - particularly in cities like **New York City**, **Buffalo**, and **Rochester** - are developing online courses that teach **AI automation skills** to non-technical audiences.
 
 However, building an effective course in this space is more complex than simply recording tutorials.
 
@@ -70,7 +70,7 @@ In this guide, we’ll explore how EdTech startups can design and launch a high-
 
 ## **Why AI Automation Courses Need Strong Instructional Design:**
 
-Automation tools can be powerful—but also overwhelming for beginners.If courses jump directly into complex workflows, learners may struggle to follow along.
+Automation tools can be powerful - but also overwhelming for beginners.If courses jump directly into complex workflows, learners may struggle to follow along.
 
 That’s why the best AI + eLearning programs follow structured learning frameworks based on **adult learning (andragogy)**.
 
@@ -81,7 +81,7 @@ Effective courses typically include:
 * Guided exercises
 * Visual walkthroughs
 * Practice automation templates
-The goal is not just teaching tools—but helping learners **apply automation in real business situations**.
+The goal is not just teaching tools - but helping learners **apply automation in real business situations**.
 
 [Courses for ai and ai automations](https://www.reddit.com/r/AiAutomations/comments/1rcxuju/courses_for_ai_and_ai_automations/)  by [u/reemar1234](https://www.reddit.com/user/reemar1234/)  in [AiAutomations](https://www.reddit.com/r/AiAutomations/)
 
@@ -170,9 +170,9 @@ After developing the curriculum and learning assets, the next step is selecting 
 
 Popular LMS platforms for EdTech startups include:
 
-* **Kajabi** – ideal for course businesses with built-in marketing tools
-* **Thinkific** – strong course creation features
-* **LearnDash** – customizable LMS built on WordPress
+* **Kajabi** - ideal for course businesses with built-in marketing tools
+* **Thinkific** - strong course creation features
+* **LearnDash** - customizable LMS built on WordPress
 These platforms allow creators to:
 
 * Organize course modules
@@ -189,10 +189,10 @@ Creating a professional automation course involves several components.
 
 Typical investment ranges include:
 
-* **Instructional design consulting: $2,000 – $6,000**
-* **Video production and editing: $1,000 – $4,000**
-* **Slide design and course assets: $500 – $2,000**
-* **LMS platform subscription: $39 – $199 per month**
+* **Instructional design consulting: $2,000 - $6,000**
+* **Video production and editing: $1,000 - $4,000**
+* **Slide design and course assets: $500 - $2,000**
+* **LMS platform subscription: $39 - $199 per month**
 For EdTech startups, investing in **structured course development** significantly improves course quality and learner outcomes.
 
 
@@ -246,7 +246,7 @@ Scenario-based learning shows learners real business use cases, helping them und
 
 **How long does it take to build an AI automation course?**
 
-Most courses take 4–10 weeks to develop, depending on the number of lessons, videos, and interactive materials.
+Most courses take 4 - 10 weeks to develop, depending on the number of lessons, videos, and interactive materials.
 
 **How can TheEduAssist help build an AI automation course?**
 

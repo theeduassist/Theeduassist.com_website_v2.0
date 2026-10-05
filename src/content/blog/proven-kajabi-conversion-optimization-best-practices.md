@@ -52,7 +52,7 @@ keyTakeaways:
   - A simplified checkout with fewer fields and visible trust signals reduces
     drop-off
   - Email funnels perform best with one clear idea and one CTA per message
-  - A/B testing should focus on one variable at a time — headlines, CTAs, or
+  - A/B testing should focus on one variable at a time - headlines, CTAs, or
     pricing
   - The 4-step framework (Audit, Optimize, Test, Scale) keeps conversion efforts
     systematic rather than random

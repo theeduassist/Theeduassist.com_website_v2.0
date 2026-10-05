@@ -137,7 +137,7 @@ Canva launched in 2013 as a user-friendly web-based graphic design platform, dem
 
 This evolution mirrors broader trends documented in EdTech journals. Research in *The Internet and Higher Education* and *Distance Education* highlights the shift toward visual, interactive, and personalized digital learning environments post-pandemic. Canva’s growth aligns perfectly: over 650 million designs created by higher education communities in recent years, with Canva for Education now serving millions of schools and universities globally.
 
-In L&D, reports from LinkedIn’s 2025 Workplace Learning Report and TalentLMS benchmarks emphasize the need for agile content creation amid skills gaps. **Canva Development and Design** fills this gap by enabling rapid prototyping of training materials infographics, videos, interactive presentations—without hiring specialized designers. Gartner and Brandon Hall Group analyses note that tools reducing design friction by 50-70% (like Canva’s templates and AI) are critical for scaling corporate learning programs.
+In L&D, reports from LinkedIn’s 2025 Workplace Learning Report and TalentLMS benchmarks emphasize the need for agile content creation amid skills gaps. **Canva Development and Design** fills this gap by enabling rapid prototyping of training materials infographics, videos, interactive presentations - without hiring specialized designers. Gartner and Brandon Hall Group analyses note that tools reducing design friction by 50-70% (like Canva’s templates and AI) are critical for scaling corporate learning programs.
 
 The result? **Canva Development and Design** isn’t just a tool it’s thrilling support that sells because it turns educators and L&D pros into confident creators, producing assets that drive enrollment, completion rates, and ROI.
 
@@ -146,7 +146,7 @@ The result? **Canva Development and Design** isn’t just a tool it’s thrillin
 At its heart, **Canva Development and Design** excels through intuitive features that support both pedagogical and corporate needs:
 
 - **Templates and Brand Kits**: Thousands of education-specific templates (lesson plans, infographics, worksheets) and L&D-focused ones (training decks, onboarding guides). Custom Brand Kits ensure consistent, professional output across teams.
-- **Collaboration and Real-Time Editing**: Multiple users co-design in real time—ideal for teacher teams or cross-functional L&D squads, as noted in *Journal of Research on Technology in Education* studies on collaborative digital tools.
+- **Collaboration and Real-Time Editing**: Multiple users co-design in real time - ideal for teacher teams or cross-functional L&D squads, as noted in *Journal of Research on Technology in Education* studies on collaborative digital tools.
 - **Multimedia Integration**: Embed videos, audio, interactive elements, and data visualizations. Supports export to LMS platforms like Moodle or Canvas (distinct from Canva).
 - **Accessibility Tools**: Auto-generated alt text, high-contrast modes, and readability checks align with UNESCO Digital Education Resources and inclusive design principles in *British Journal of Educational Technology*.
 

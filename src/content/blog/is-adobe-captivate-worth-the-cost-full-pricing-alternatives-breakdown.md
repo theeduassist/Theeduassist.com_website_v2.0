@@ -38,7 +38,7 @@ faqs:
       Yes. Adobe primarily offers Captivate through subscription licensing.
   - question: "How much does Adobe Captivate cost per month?"
     answer: >+
-      Typically around **$33.99–$39.99/month** depending on region and plan.
+      Typically around **$33.99 - $39.99/month** depending on region and plan.
   - question: "Does Adobe Captivate still offer a perpetual license?"
     answer: >+
       Older perpetual licenses existed, but Adobe now focuses mainly on subscriptions.
@@ -81,7 +81,7 @@ So before paying for an Adobe Captivate subscription, it’s important to unders
 
 ## **How Much Does Adobe Captivate Cost in 2026?**
 
-The current Adobe Captivate subscription cost for individuals is approximately **$33.99–$39.99/month**, depending on region and billing structure.
+The current Adobe Captivate subscription cost for individuals is approximately **$33.99 - $39.99/month**, depending on region and billing structure.
 
 Adobe currently offers:
 
@@ -228,15 +228,15 @@ Captivate becomes valuable for enterprise compliance training, complex software 
 But in 2026, the real question is: **“Does the ROI justify the production complexity and long-term subscription cost?”**
 
 * **Yes** for enterprise training teams, technical instructional designers, and simulation-heavy environments.
-* **No** for solo course creators, coaches, AI-first creators, and fast-moving content businesses — modern alternatives often provide faster production, lower costs, and better scalability.
+* **No** for solo course creators, coaches, AI-first creators, and fast-moving content businesses - modern alternatives often provide faster production, lower costs, and better scalability.
 
 ## **References**
 
 * Adobe Captivate. (2026). Adobe Captivate Pricing 2026: Hidden Costs & Total ROI Revealed. Itqlick.com. https://www.itqlick.com/adobe-captivate/pricing?
 * Adobe Captivate. (2026, April 27). ELearning Industry. https://elearningindustry.com/directory/elearning-software/adobe-captivate/pricing?
-* Adobe Captivate – buying guide. (n.d.). Www.adobe.com. https://www.adobe.com/products/captivate/buying-guide.html
+* Adobe Captivate - buying guide. (n.d.). Www.adobe.com. https://www.adobe.com/products/captivate/buying-guide.html
 * Lewandowski, D. (2026). Google Scholar as a Tool for Discovering Journal Articles in Library and Information Science. ArXiv.org. https://arxiv.org/abs/1511.05809
-* Martin-Martin, A., Orduna-Malea, E., Harzing, A.-W., & Delgado López-Cózar, E. (2017). Can we use Google Scholar to identify highly-cited documents? Journal of Informetrics, 11(1), 152–163. https://doi.org/10.1016/j.joi.2016.11.008
+* Martin-Martin, A., Orduna-Malea, E., Harzing, A.-W., & Delgado López-Cózar, E. (2017). Can we use Google Scholar to identify highly-cited documents? Journal of Informetrics, 11(1), 152 - 163. https://doi.org/10.1016/j.joi.2016.11.008
 * Software Finder. (2026, March 25). How much is adobe captivate cost: Quick pricing overview. Softwarefinder.com. https://softwarefinder.com/resources/how-much-is-adobe-captivate
 
 ## **FAQs**
@@ -247,7 +247,7 @@ Yes. Adobe primarily offers Captivate through subscription licensing.
 
 **How much does Adobe Captivate cost per month?**
 
-Typically around **$33.99–$39.99/month** depending on region and plan.
+Typically around **$33.99 - $39.99/month** depending on region and plan.
 
 **Does Adobe Captivate still offer a perpetual license?**
 

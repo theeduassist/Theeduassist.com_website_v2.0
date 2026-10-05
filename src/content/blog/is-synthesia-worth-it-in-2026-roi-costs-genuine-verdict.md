@@ -41,7 +41,7 @@ faqs:
       For rapid training production, often yes. For cinematic branding, no.
   - question: "Can Synthesia replace traditional video production?"
     answer: >+
-      Partially — not entirely.
+      Partially - not entirely.
   - question: "Is Synthesia good for corporate training?"
     answer: >+
       Yes. This is one of its strongest use cases.
@@ -232,7 +232,7 @@ If your audience expects authenticity, charisma, and human relatability, real pr
 
 ## **Final Verdict: Is Synthesia Actually Worth It?**
 
-**Yes — for the right use cases.**
+**Yes - for the right use cases.**
 
 Synthesia is genuinely worth it in 2026 for:
 
@@ -271,7 +271,7 @@ For rapid training production, often yes. For cinematic branding, no.
 
 **Can Synthesia replace traditional video production?**
 
-Partially — not entirely.
+Partially - not entirely.
 
 **Is Synthesia good for corporate training?**
 

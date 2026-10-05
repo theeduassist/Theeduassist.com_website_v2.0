@@ -96,12 +96,12 @@ faqs:
       learners is:
 
 
-      1. **Awareness lesson** – short video or text explaining the topic.
+      1. **Awareness lesson** - short video or text explaining the topic.
 
-      2. **Application lesson** – step‑by‑step examples set in Australian
+      2. **Application lesson** - step‑by‑step examples set in Australian
       workplaces.
 
-      3. **Assessment** – short quiz or task requiring application of the
+      3. **Assessment** - short quiz or task requiring application of the
       concept.
 
 
@@ -250,7 +250,7 @@ faqs:
       Mental Health).
 
       - **Leadership & people‑management modules** (e.g., “People Leadership &
-      Psychological Safety – AU Edition”).
+      Psychological Safety - AU Edition”).
 
       - **Technical and digital‑skills modules** (e.g., data literacy,
       software‑specific workflows).
@@ -273,15 +273,14 @@ sources:
     url: https://www.sciencedirect.com/science/article/pii/S2451958825001009
     accessedAt: 2026-09-12
   - title: Abuhassna, H. et al. (2023). Instructional Design Made Easy!
-      Instructional Design Models – A Systematic Literature Review.
+      Instructional Design Models - A Systematic Literature Review.
     url: https://pdfs.semanticscholar.org/4a87/eeec553a4c05d5034a8faaeb8a0d0da42533.pdf
     accessedAt: 2026-09-12
-  - title: Peninsula Health & others (2008). Learning Management Systems –
-      Instructional Design Guide.  Devilee, A. (2008). Learning Management
+  - title: Peninsula Health & others (2008). Learning Management Systems - Instructional Design Guide.  Devilee, A. (2008). Learning Management
       Systems (Master’s project, University of Sydney).
     url: https://instructionaldesign.com.au/learning-management-systems/
     accessedAt: 2026-09-12
-  - title: HiBob (2025). “Your LMS Implementation Checklist – HiBob” (PDF
+  - title: HiBob (2025). “Your LMS Implementation Checklist - HiBob” (PDF
       guide).  HiBob corporate resource on LMS setup, configuration, HR‑LMS
       integration, and data migration.
     url: https://www.hibob.com/wp-content/uploads/HiBob_Your-LMS-Implementation-Checklist.pdf
@@ -369,7 +368,7 @@ This aligns with **evidence‑based design principles** repeatedly emphasised in
 
 ### **2. Chunk content into micro‑lessons:**
 
-Break each module into **micro‑lessons of 5–10 minutes**, using:
+Break each module into **micro‑lessons of 5 - 10 minutes**, using:
 
 - Short videos (recorded or embedded from YouTube/AI‑generated clips)
 - Downloadable job‑aids (PDFs, checklists)
@@ -413,7 +412,7 @@ This aligns with best‑practice L&D frameworks in **ATD** and **Harvard Busines
 In HiBob:
 
 1. Go to **Learning → Courses** and create a **Course Category** (e.g., “AU Compliance”, “Leadership”, “Digital Skills”).
-2. Within each category, create 3–6 modules that collectively build a **learning path** (e.g., “New Manager Journey”).
+2. Within each category, create 3 - 6 modules that collectively build a **learning path** (e.g., “New Manager Journey”).
 
 ERIC‑ and DOAJ‑aligned studies on **learning journeys** show that modular, progressive paths improve motivation and completion compared with isolated, one‑off courses.
 
@@ -475,7 +474,7 @@ LinkedIn Learning’s **deep integration** with Bob Learning allows you to:
 
   LinkedIn Learning courses (e.g., “Managing Remote Teams”)
 
-  Internal HiBob modules (e.g., “Remote Work Policy – AU Edition”)
+  Internal HiBob modules (e.g., “Remote Work Policy - AU Edition”)
 
 This blended‑content strategy aligns with research in corporate‑learning technology reports (e.g., Gartner, ATD) that advocate for “buy + build” models: purchase high‑quality external content and supplement with local, context‑specific modules.
 
@@ -573,9 +572,9 @@ This module structure resonates with:
 Use this checklist to operationalise your design:
 
 - Define **clear learning outcomes** aligned with Australian compliance, policy, or competency frameworks.
-- Create **course categories and learning paths** (e.g., “AU Compliance”, “Leadership – AU Managers”).
+- Create **course categories and learning paths** (e.g., “AU Compliance”, “Leadership - AU Managers”).
 - Use the **HiBob course builder** to combine videos, PDFs, SCORM, and LinkedIn Learning‑integrated courses.
-- Chunk content into **micro‑lessons (5–10 minutes)** with short assessments.
+- Chunk content into **micro‑lessons (5 - 10 minutes)** with short assessments.
 - Assign modules by **role, milestone, or lifecycle event** (onboarding, promotion, refreshers).
 - Localise language, examples, and icons to **Australian workplaces and culture**.
 - Ensure **accessibility and mobile‑first design** for frontline and hybrid workers.
@@ -588,7 +587,7 @@ By following this research‑informed, practice‑grounded approach, Australian 
 
 ## **Conclusion:**
 
-Building effective learning modules in **HiBob LMS** in Australia is not just about uploading content—it is about aligning **local compliance, instructional‑design research, and in‑flow‑of‑work learning** into a coherent strategy. By leveraging HiBob’s integrated **Bob Learning** module, AI‑assisted course generation, role‑based assignments, and analytics, Australian HR and L&D teams can create short, engaging, and measurable learning experiences that support Fair Work obligations, WHS requirements, DEI goals, and national digital‑education priorities.  
+Building effective learning modules in **HiBob LMS** in Australia is not just about uploading content - it is about aligning **local compliance, instructional‑design research, and in‑flow‑of‑work learning** into a coherent strategy. By leveraging HiBob’s integrated **Bob Learning** module, AI‑assisted course generation, role‑based assignments, and analytics, Australian HR and L&D teams can create short, engaging, and measurable learning experiences that support Fair Work obligations, WHS requirements, DEI goals, and national digital‑education priorities.  
 When modules are designed with clear outcomes, micro‑lessons, multiple media formats, and data‑driven iteration, HiBob LMS becomes a scalable engine for **continuous employee development, compliance assurance, and organisational performance**. This positions Australian organisations to meet global workforce‑trends expectations around skills‑based hiring, psychological safety, and lifelong learning, all within a single, HR‑linked platform.
 
 **Authored By** : Atiqa Sajid [http://www.linkedin.com/in/atiqa-sajid-747b57137](http://www.linkedin.com/in/atiqa-sajid-747b57137)

@@ -49,16 +49,16 @@ advancedSeo:
     segmentation, nurture sequences, launch emails, automations, deliverability,
     and analytics.
 sources:
-  - title: Kajabi Help Centre — Email Campaigns Overview
+  - title: Kajabi Help Centre - Email Campaigns Overview
     url: https://help.kajabi.com/articles/marketing/email-campaigns/email-campaigns-overview
     accessedAt: 2026-10-01
-  - title: Kajabi Blog — How to Build an Online Course on Kajabi
+  - title: Kajabi Blog - How to Build an Online Course on Kajabi
     url: https://www.kajabi.com/blog/kajabi-tutorial-for-beginners
     accessedAt: 2026-10-01
-  - title: Kajabi Blog — Course Drip by Date and Cohort Programs
+  - title: Kajabi Blog - Course Drip by Date and Cohort Programs
     url: https://www.kajabi.com/blog/course-drip-by-date-cohort-programs
     accessedAt: 2026-10-01
-  - title: Business Wire — Kajabi Product Upgrade
+  - title: Business Wire - Kajabi Product Upgrade
     url: https://www.businesswire.com/news/home/20250916760140/en/Kajabi-Unveils-Companys-Largest-Ever-Product-Upgrade-to-Empower-Next-Generation-of-Creators-Entrepreneurs
     accessedAt: 2026-10-01
 editorialManagement:
@@ -278,7 +278,7 @@ The difference between Kajabi creators who struggle and those who scale is often
 
 ### Disengagement → Re-engage
 
-**Trigger:** Student absent for 14 days without login → Add tag: Inactive – Day 14 → Enrol in re-engagement sequence Condition: Student logs in before the end of the sequence. Remove tag and exit sequence.
+**Trigger:** Student absent for 14 days without login → Add tag: Inactive - Day 14 → Enrol in re-engagement sequence Condition: Student logs in before the end of the sequence. Remove tag and exit sequence.
 
 ### Upsell → Complete Course
 
@@ -310,15 +310,15 @@ Kajabi provides analytics for every broadcast and sequence, here are the numbers
 
 ### Open Rate
 
-Signals subject line strength and overall list health. The target for 2026 is 25–40%.
+Signals subject line strength and overall list health. The target for 2026 is 25 - 40%.
 
 ### Click Rate
 
-Signals how relevant the CTA and content are to your audience. The target for 2026 is 2–5%.
+Signals how relevant the CTA and content are to your audience. The target for 2026 is 2 - 5%.
 
 ### Click-to-Open Rate
 
-Signals how compelling the content is once someone opens the email. The target for 2026 is 10–20%.
+Signals how compelling the content is once someone opens the email. The target for 2026 is 10 - 20%.
 
 ### Unsubscribe Rate
 

@@ -143,7 +143,7 @@ Use Upwork and search: "Florida entrepreneurship curriculum developers."
 
 ### Average Rates
 
-Typically range between $50–$150 per hour
+Typically range between $50 - $150 per hour
 
 ### Additional Sources
 
@@ -215,8 +215,8 @@ Well-designed courses can be monetized and scaled globally.
 
 The cost varies depending on complexity:
 
-- Basic program: $2,000–$5,000
-- Advanced eLearning course: $5,000–$15,000+
+- Basic program: $2,000 - $5,000
+- Advanced eLearning course: $5,000 - $15,000+
 - Full-scale training academy: $20,000+
 
 Investing in expert services ensures long-term ROI and program success.
@@ -256,7 +256,7 @@ Hiring an expert ensures your program is professionally designed, engaging, and 
 
 ### Q2. How long does it take to create a training program?
 
-Typically, 4–12 weeks, depending on complexity and content volume.
+Typically, 4 - 12 weeks, depending on complexity and content volume.
 
 ### Q3. What platforms are best for hosting online courses?
 
@@ -270,4 +270,4 @@ Yes, experts tailor programs for industries such as tech, real estate, healthcar
 
 Yes, with the right strategy, it can become a scalable and high-revenue digital product.
 
-*Authored By: Atiqa Sajid — [linkedin.com/in/atiqa-sajid-747b57137](http://www.linkedin.com/in/atiqa-sajid-747b57137)*
+*Authored By: Atiqa Sajid - [linkedin.com/in/atiqa-sajid-747b57137](http://www.linkedin.com/in/atiqa-sajid-747b57137)*

@@ -25,8 +25,7 @@ heroImage: /images/blog/designing-elearning-bible-course-1-1.webp
 heroImageAlt: Step-by-step instructional design guide to create an interactive
   Bible eLearning course with quizzes, LMS setup, and spiritual growth
   evaluation for 2026.
-heroImageCaption: Create an engaging Bible eLearning course in 4 steps –
-  interactive quizzes, maps, LMS launch, and data-driven optimization. Read the
+heroImageCaption: Create an engaging Bible eLearning course in 4 steps - interactive quizzes, maps, LMS launch, and data-driven optimization. Read the
   easy guide now!
 seoTitle: How to Create an Interactive Bible eLearning Course
 seoDescription: Learn how to create an interactive Bible eLearning course with
@@ -275,10 +274,10 @@ This improves user experience and course completion rates.
 
 ## **Cost Reality Check: Building an Interactive Course**
 
-- **Instructional Design: $2,000 – $6,000**
-- **Content Development: $1,000 – $3,000**
-- **LMS Setup (monthly): $39 – $199/month**
-- **Interactive Tools: $500 – $1,500**
+- **Instructional Design: $2,000 - $6,000**
+- **Content Development: $1,000 - $3,000**
+- **LMS Setup (monthly): $39 - $199/month**
+- **Interactive Tools: $500 - $1,500**
 
 While basic courses can be created independently, investing in custom eLearning and consulting services often leads to higher engagement and better learning outcomes.
 
@@ -304,7 +303,7 @@ Whether you’re developing your course in New York City, Los Angeles, Chicago, 
 
 ## **Final Thoughts**
 
-Creating an interactive Bible eLearning course requires more than content — it requires **intentional design**.
+Creating an interactive Bible eLearning course requires more than content - it requires **intentional design**.
 
 By combining:
 

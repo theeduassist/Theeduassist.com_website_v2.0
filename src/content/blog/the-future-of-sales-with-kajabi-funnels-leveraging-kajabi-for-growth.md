@@ -33,7 +33,7 @@ keyTakeaways:
 advancedSeo:
   noindex: false
 faqs:
-  - question: "How long does a typical Kajabi website or funnel project take?**Most projects take 2–6 weeks, depending on scope and the number of funnels/pages required."
+  - question: "How long does a typical Kajabi website or funnel project take?**Most projects take 2 - 6 weeks, depending on scope and the number of funnels/pages required."
     answer: >+
       How do Kajabi funnels work?**A Funnel brings marketing and sales together through the power of automation. A Funnel can help drive traffic to your opt-in page, capture lead information, send follow-up content, and ultimately convert visitors into paying customers. With Kajabi, Funnels are designed with pre-built landing pages and email copy. What are Kajabi websites?**A Powerful All-in-One Website Builder. Build a website to connect everything in your business. Create a no-code website simply and easily on Kajabi’s all-in-one website builder platform.
 ---
@@ -118,12 +118,12 @@ Modern businesses need more than just funnels. A high-performing Kajabi website 
 
 ## **Best Funnels to Use on Kajabi**
 
-* **Webinar Funnels** — Premium coaching offers
-* **Mini-Course Funnels** — Trust-building and upsells
-* **Membership Funnels** — Recurring revenue
-* **Lead Magnet Funnels** — Email list building
-* **Application Funnels** — High-ticket programs
-* **Product Launch Funnels** — Course and community launches
+* **Webinar Funnels** - Premium coaching offers
+* **Mini-Course Funnels** - Trust-building and upsells
+* **Membership Funnels** - Recurring revenue
+* **Lead Magnet Funnels** - Email list building
+* **Application Funnels** - High-ticket programs
+* **Product Launch Funnels** - Course and community launches
 
 ### **How Kajabi Funnels Are Becoming More Personalized**
 
@@ -162,7 +162,7 @@ Businesses that invest in strategic Kajabi funnel systems today will be better p
 
 **What services are included in Kajabi Website & Funnel Services?**Website and landing page design, funnel planning, product and payment setup, email sequences, automation, lead magnets, SEO basics, and ongoing optimization.
 
-**How long does a typical Kajabi website or funnel project take?**Most projects take 2–6 weeks, depending on scope and the number of funnels/pages required.
+**How long does a typical Kajabi website or funnel project take?**Most projects take 2 - 6 weeks, depending on scope and the number of funnels/pages required.
 
 **How do Kajabi funnels work?**A Funnel brings marketing and sales together through the power of automation. A Funnel can help drive traffic to your opt-in page, capture lead information, send follow-up content, and ultimately convert visitors into paying customers. With Kajabi, Funnels are designed with pre-built landing pages and email copy.
 

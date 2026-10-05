@@ -52,23 +52,23 @@ This guide shows instructional designers, training leaders, universities, and co
 [creating a online course on supply chain and logistics](https://www.reddit.com/r/SupplyChainLogistics/comments/1mans0e/creating_a_online_course_on_supply_chain_and/)  by [u/rohan7777777777](https://www.reddit.com/user/rohan7777777777/)  in [SupplyChainLogistics](https://www.reddit.com/r/SupplyChainLogistics/)
 
 
-### **Step 1: Analyze Needs and Market Context for Curriculum Design (ADDIE – Analysis Phase)**
+### **Step 1: Analyze Needs and Market Context for Curriculum Design (ADDIE - Analysis Phase)**
 
 Start with a thorough needs assessment. Supply chain learners are typically mid-career professionals, operations managers, analysts, or new entrants balancing full-time work with upskilling. Key pain points include complex global networks, real-time decision-making under uncertainty, and integrating emerging tech like AI and IoT.
 
 **Market Insights (2026)**:
 
-* Demand for AI-integrated supply chain skills is exploding—courses from Coursera, MIT, and Wharton highlight predictive analytics, digital twins, and sustainable design.
+* Demand for AI-integrated supply chain skills is exploding - courses from Coursera, MIT, and Wharton highlight predictive analytics, digital twins, and sustainable design.
 * Certifications like CSCP, CPSM, or specialized AI+ Supply Chain credentials differentiate candidates.
 * Corporate buyers (e.g., manufacturers, retailers) seek measurable ROI: improved forecasting accuracy, lower inventory costs, and compliance with ESG standards.
 **AI Acceleration Tip**: Use tools like ChatGPT Enterprise or Claude to analyze job postings on LinkedIn, ASCM exam outlines, and learner feedback from platforms like Coursera. Prompt example: “Summarize top skill gaps in 2026 supply chain job descriptions and align with CSCP Module 8 on technology trends.”
 
 
-### **Step 2: Design the Curriculum Design with Backward Planning (ADDIE – Design Phase)**
+### **Step 2: Design the Curriculum Design with Backward Planning (ADDIE - Design Phase)**
 
 Adopt **backward design**: Begin with desired outcomes (certification readiness + applied skills), then map assessments and content. Align objectives to Bloom’s Taxonomy for progression from “understand” to “apply,” “analyze,” and “create.”
 
-**Sample Learning Objectives (40–60 Hour CSCP-Aligned Course)**:
+**Sample Learning Objectives (40 - 60 Hour CSCP-Aligned Course)**:
 
 * **Understand**: Explain supply chain models, demand patterns, and forecasting techniques.
 * **Apply**: Design a basic supply chain network using optimization principles.
@@ -76,16 +76,16 @@ Adopt **backward design**: Begin with desired outcomes (certification readiness 
 * **Evaluate/Create**: Optimize a sustainable supply chain using AI tools and present a digital twin recommendation.
 **Modular Curriculum Outline (Based on 2026 CSCP Content)**:
 
-ModuleCore Topics (Aligned to CSCP 2026)Approx. HoursAssessment Type1. Supply Chains, Demand Management, and ForecastingIntroduction to supply chains, demand analysis, forecasting methods, supply-demand alignment6–8Interactive forecasting simulation2. Global Supply Chain NetworksDesign & optimization, end-to-end visibility, metrics & reports6Network mapping exercise3. Sourcing Products and ServicesCategory strategy, supplier selection, contracting5Supplier scorecard builder4. Internal Operations and InventoryPlanning, capacity control, inventory management, continuous improvement6Inventory optimization game5. Forward and Reverse LogisticsDistribution, transportation, trade compliance, reverse flows5Logistics decision branching scenario6. Supply Chain RelationshipsCustomer & supplier collaboration4Relationship mapping tool7. Supply Chain RiskRisk identification, analysis, response5Risk simulation (disruption scenario)8. Optimization, Sustainability, and TechnologyStrategy & tactics, ESG, AI/IoT trends, digital transformation6–8AI-powered case study & capstone project
+ModuleCore Topics (Aligned to CSCP 2026)Approx. HoursAssessment Type1. Supply Chains, Demand Management, and ForecastingIntroduction to supply chains, demand analysis, forecasting methods, supply-demand alignment6 - 8Interactive forecasting simulation2. Global Supply Chain NetworksDesign & optimization, end-to-end visibility, metrics & reports6Network mapping exercise3. Sourcing Products and ServicesCategory strategy, supplier selection, contracting5Supplier scorecard builder4. Internal Operations and InventoryPlanning, capacity control, inventory management, continuous improvement6Inventory optimization game5. Forward and Reverse LogisticsDistribution, transportation, trade compliance, reverse flows5Logistics decision branching scenario6. Supply Chain RelationshipsCustomer & supplier collaboration4Relationship mapping tool7. Supply Chain RiskRisk identification, analysis, response5Risk simulation (disruption scenario)8. Optimization, Sustainability, and TechnologyStrategy & tactics, ESG, AI/IoT trends, digital transformation6 - 8AI-powered case study & capstone project
 
 This structure mirrors ASCM’s eight-module CSCP framework while incorporating hot topics like sustainability and technology.
 
 **AI in Design**: Platforms like isEazy Author, Articulate 360 AI, or LearnWorlds can auto-generate objectives, outlines, and quiz banks from CSCP PDFs or prompts.
 
 
-### **Step 3: Develop Engaging Curriculum Design with Interactive Multimedia (ADDIE – Development Phase)**
+### **Step 3: Develop Engaging Curriculum Design with Interactive Multimedia (ADDIE - Development Phase)**
 
-Passive lectures won’t cut it in supply chain training—learners need to experience bullwhip effects, warehouse disruptions, or supplier negotiations.
+Passive lectures won’t cut it in supply chain training - learners need to experience bullwhip effects, warehouse disruptions, or supplier negotiations.
 
 **Best Practices for Interactivity**:
 
@@ -98,7 +98,7 @@ Aim for 50%+ interactive elements research shows this dramatically improves know
 **AI Superpowers**: Feed regulatory or case-study data into authoring tools for rapid prototyping. Use AI video generators for customized demos of tools like C3.ai or Coupa.
 
 
-### **Step 4: Integrate AI Certification Tools for Assessment & Credentialing (ADDIE – Development/Implementation)**
+### **Step 4: Integrate AI Certification Tools for Assessment & Credentialing (ADDIE - Development/Implementation)**
 
 Modern courses must offer seamless, secure certification to compete with platforms like Coursera or AI CERTs.
 
@@ -111,7 +111,7 @@ Modern courses must offer seamless, secure certification to compete with platfor
 **Compliance Note**: Ensure courses align with ASCM standards for CSCP prep or corporate CE requirements. Include disclaimers for state-specific or industry certifications.
 
 
-### **Step 5: Implement, Evaluate, and Iterate Curriculum Design (ADDIE – Implementation & Evaluation)**
+### **Step 5: Implement, Evaluate, and Iterate Curriculum Design (ADDIE - Implementation & Evaluation)**
 
 **Delivery Options**:
 
@@ -124,7 +124,7 @@ Modern courses must offer seamless, secure certification to compete with platfor
 * **Learning**: Pre/post quizzes + simulation scores (target 85%+ pass rates).
 * **Behavior**: Follow-up manager feedback on applied skills (e.g., better risk assessments).
 * **Results**: Track business metrics like reduced lead times or cost savings.
-**AI Analytics Edge**: Heatmaps, dropout predictions, and A/B testing of scenarios help refine content annually—especially as AI and sustainability evolve.
+**AI Analytics Edge**: Heatmaps, dropout predictions, and A/B testing of scenarios help refine content annually - especially as AI and sustainability evolve.
 
 
 ### **Common Pitfalls to Avoid**
@@ -189,10 +189,10 @@ Avoid overloading theory without interactivity, ignoring mobile optimization, un
 
 Follow **Kirkpatrick’s 4-level evaluation**:
 
-* **Reaction** – Learner satisfaction (NPS surveys)
-* **Learning** – Pre/post quizzes and simulation scores
-* **Behavior** – Manager feedback on applied skills
-* **Results** – Business impact (e.g., reduced lead times, cost savings, improved forecasting)
+* **Reaction** - Learner satisfaction (NPS surveys)
+* **Learning** - Pre/post quizzes and simulation scores
+* **Behavior** - Manager feedback on applied skills
+* **Results** - Business impact (e.g., reduced lead times, cost savings, improved forecasting)
 
 ### **8. Can small teams or solo educators create these courses?**
 

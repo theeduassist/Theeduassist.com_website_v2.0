@@ -171,11 +171,11 @@ Enough with the theory, what does the data actually say?
 
 **Knowledge Retention**
 
-Traditional learning achieves 8–10% retention, while AI-powered learning boosts retention to 25–60%.
+Traditional learning achieves 8 - 10% retention, while AI-powered learning boosts retention to 25 - 60%.
 
 **Training Time**
 
-Traditional learning serves as the baseline, while AI-powered learning reduces training time by 40–60%.
+Traditional learning serves as the baseline, while AI-powered learning reduces training time by 40 - 60%.
 
 **Completion Rate**
 
@@ -312,7 +312,7 @@ The organizations getting this right aren’t asking “AI or traditional?” Th
 
 ## Ready to Build Smarter Learning Experiences?
 
-Whether you’re starting from scratch, migrating to an AI-powered [LMS](https://www.theeduassist.com/best-learning-management-systems/), or trying to make your existing training actually stick — the approach matters as much as the technology.
+Whether you’re starting from scratch, migrating to an AI-powered [LMS](https://www.theeduassist.com/best-learning-management-systems/), or trying to make your existing training actually stick - the approach matters as much as the technology.
 
 TheEduAssist specializes in custom eLearning development, [LMS](https://www.theeduassist.com/best-learning-management-systems/) integration, AI-powered adaptive learning, and [corporate training](https://www.theeduassist.com/employee-training-lms-technology/) programs that deliver measurable results. Explore their solutions at: [https://theeduassist.com](https://theeduassist.com)
 

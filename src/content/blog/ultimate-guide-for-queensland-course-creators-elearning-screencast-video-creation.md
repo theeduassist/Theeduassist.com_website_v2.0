@@ -68,7 +68,7 @@ However, producing high-quality screencast lessons requires more than simply rec
 
 ## **The Challenge of Producing Professional Screencast Lessons**
 
-Many organizations looking to develop technical training programs often search for freelancers capable of producing 1–2 hour screencast-based courses.
+Many organizations looking to develop technical training programs often search for freelancers capable of producing 1 - 2 hour screencast-based courses.
 
 Typical project requirements may include:
 
@@ -150,7 +150,7 @@ Many course developers now use tools like ChatGPT to assist with generating init
 
 ### **Break Courses into Microlearning Lessons**
 
-One of the most effective approaches in modern eLearning is microlearning. Instead of recording a single long tutorial, successful courses break content into short lessons (5–10 minutes) focused on a specific skill or concept.
+One of the most effective approaches in modern eLearning is microlearning. Instead of recording a single long tutorial, successful courses break content into short lessons (5 - 10 minutes) focused on a specific skill or concept.
 
 **Example structure for a cloud storage course:**
 
@@ -243,7 +243,7 @@ Add annotations, highlights, and chapter markers.
 
 ## **Summing Up:**
 
-Screencast tutorials remain one of the most powerful formats for teaching technical skills online. For course creators in Queensland—including those operating in Brisbane and Gold Coast—developing high-quality screencast courses can open new opportunities in professional training and digital education.
+Screencast tutorials remain one of the most powerful formats for teaching technical skills online. For course creators in Queensland - including those operating in Brisbane and Gold Coast - developing high-quality screencast courses can open new opportunities in professional training and digital education.
 
 However, successful courses require more than screen recordings alone. By combining instructional design principles, structured lesson planning, and professional video editing techniques, creators can transform technical knowledge into engaging learning experiences.
 

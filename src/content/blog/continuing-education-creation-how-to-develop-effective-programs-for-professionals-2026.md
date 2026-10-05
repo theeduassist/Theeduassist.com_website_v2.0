@@ -107,13 +107,13 @@ faqs:
       modular learning design, practical problem solving, and alignment with
       actual job responsibilities.
 sources:
-  - title: Adult Education — UNESCO Institute for Lifelong Learning
+  - title: Adult Education - UNESCO Institute for Lifelong Learning
     url: https://lifelonglearning-toolkit.uil.unesco.org/en/node/215?
     accessedAt: 2026-08-23
-  - title: What is Continuing Professional Development (CPD)? — CIPD
+  - title: What is Continuing Professional Development (CPD)? - CIPD
     url: https://www.cipd.org/en/learning/cpd/about/?
     accessedAt: 2026-08-23
-  - title: Adult Learning — OECD
+  - title: Adult Learning - OECD
     url: https://www.oecd.org/en/topics/adult-learning.html?
     accessedAt: 2026-08-23
 editorialManagement:

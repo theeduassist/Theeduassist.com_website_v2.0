@@ -59,7 +59,7 @@ The US online education market is exploding:
 * $12.35 billion in 2025
 * $128.54 billion projected by 2034
 * 26.4% CAGR
-North America leads the global eLearning sector, with the United States dominating due to demand for flexible, AI-driven training solutions. Platforms that simplify course creation are in high demand—exactly where Miami eLearning Services shine.
+North America leads the global eLearning sector, with the United States dominating due to demand for flexible, AI-driven training solutions. Platforms that simplify course creation are in high demand - exactly where Miami eLearning Services shine.
 
 
 ## **What Is LearnWorlds? The AI-Powered LMS?**

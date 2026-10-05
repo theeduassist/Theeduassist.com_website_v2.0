@@ -38,7 +38,7 @@ faqs:
       Kajabi Website & Funnel Services include a complete range of professional services such as: Full custom **Kajabi website design** (Homepage, About, Courses, Blog, etc.) and **Kajabi sales funnel setup** with opt-ins, sales pages, upsells, and downsells Kajabi landing page design** and high-conversion optimization also **Kajabi funnel builder** configuration and automation and **Kajabi webinar funnels** (live + evergreen) or **Kajabi email marketing funnels** and automated sequences and **Kajabi checkout page optimization also **Kajabi website migration** from other platform Premium **Kajabi website templates** selection and customization Kajabi lead generation funnels At TheEduAssist, we also provide funnel strategy, branding, mobile optimization, testing, and ongoing support.
   - question: "2. How long does a typical Kajabi website or funnel project take?"
     answer: >+
-      Project timelines depend on complexity: Basic website + one funnel**: 1–2 weeks Professional website + complete sales funnel**: 2–4 weeks Complex project** (multiple funnels, membership site, migration, webinar setup): 4–8 weeks We provide a clear timeline after the initial consultation and keep you updated at every stage.
+      Project timelines depend on complexity: Basic website + one funnel**: 1 - 2 weeks Professional website + complete sales funnel**: 2 - 4 weeks Complex project** (multiple funnels, membership site, migration, webinar setup): 4 - 8 weeks We provide a clear timeline after the initial consultation and keep you updated at every stage.
   - question: "3. Do you offer funnel strategy and mapping?"
     answer: >+
       Yes.** Funnel strategy and mapping is a core part of our service. We help you define your customer journey, choose the right lead magnets, design sales flows, and map out automated sequences before any design work begins. This ensures your funnels are strategic and results-driven, not just visually appealing.
@@ -50,7 +50,7 @@ faqs:
       Kajabi funnels are automated marketing systems that connect landing pages, email sequences, and your products. You start with a template (lead magnet, sales, webinar, etc.), customize the pages, and set up email automations. When a visitor takes action (opts in or buys), Kajabi automatically sends follow-up emails, grants course access, processes payments, and moves them through the entire customer journey.
   - question: "6. What are Kajabi websites?"
     answer: >+
-      Kajabi websites** are all-in-one professional websites built inside the Kajabi platform. They include your homepage, sales pages, blog, and more, fully integrated with your courses, memberships, payments, and email marketing — everything in a single platform.
+      Kajabi websites** are all-in-one professional websites built inside the Kajabi platform. They include your homepage, sales pages, blog, and more, fully integrated with your courses, memberships, payments, and email marketing - everything in a single platform.
 ---
 Are you struggling to create a professional online presence that attracts students, converts visitors into paying customers, and delivers engaging courses? Many instructional designers, L&D managers, educators, course creators, and training leaders deal with scattered tools, low engagement, high dropout rates, and difficulty proving real results. These issues slow growth and waste time in today’s competitive environment.A strong **Kajabi Website** solves these problems.
 
@@ -243,7 +243,7 @@ Technavio. (2026). E-learning market analysis, size, and forecast 2026-2030. htt
 WooClap. (2025). Key eLearning statistics: All you need to know for 2025 & beyond. https://www.wooclap.com/en/blog/elearning-statistic/
 
 
-## **Kajabi Website & Funnel Services – Frequently Asked Questions**
+## **Kajabi Website & Funnel Services - Frequently Asked Questions**
 
 **1. What services are included in Kajabi Website & Funnel Services?**
 
@@ -265,9 +265,9 @@ At TheEduAssist, we also provide funnel strategy, branding, mobile optimization,
 
 Project timelines depend on complexity:
 
-* **Basic website + one funnel**: 1–2 weeks
-* **Professional website + complete sales funnel**: 2–4 weeks
-* **Complex project** (multiple funnels, membership site, migration, webinar setup): 4–8 weeks
+* **Basic website + one funnel**: 1 - 2 weeks
+* **Professional website + complete sales funnel**: 2 - 4 weeks
+* **Complex project** (multiple funnels, membership site, migration, webinar setup): 4 - 8 weeks
 We provide a clear timeline after the initial consultation and keep you updated at every stage.
 
 **3. Do you offer funnel strategy and mapping?**
@@ -290,7 +290,7 @@ Kajabi funnels are automated marketing systems that connect landing pages, email
 
 **6. What are Kajabi websites?**
 
-**Kajabi websites** are all-in-one professional websites built inside the Kajabi platform. They include your homepage, sales pages, blog, and more, fully integrated with your courses, memberships, payments, and email marketing — everything in a single platform.
+**Kajabi websites** are all-in-one professional websites built inside the Kajabi platform. They include your homepage, sales pages, blog, and more, fully integrated with your courses, memberships, payments, and email marketing - everything in a single platform.
 
 **7. Can I build a website with Kajabi?**
 

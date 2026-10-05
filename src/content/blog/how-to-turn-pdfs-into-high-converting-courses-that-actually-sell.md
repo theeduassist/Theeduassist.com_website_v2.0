@@ -96,14 +96,14 @@ sources:
     url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11316167/
     accessedAt: 2026-08-26
   - title: "The Relationship between Knowledge Conversion Abilities and Innovation
-      PerformanceJournal: ScienceDirect (Procedia – Social and Behavioral
+      PerformanceJournal: ScienceDirect (Procedia - Social and Behavioral
       Sciences)Focus: Knowledge conversion models applicable to transforming
       static PDFs into dynamic learning innovations"
     url: https://www.sciencedirect.com/science/article/pii/S1877042815011374
     accessedAt: 2026-08-26
   - title: "e-Learning Conversion Studies Best practices for creating engaging
       online content (Cornell University Guide)Focus: Structuring documents into
-      navigable modules with TOCs, headings, and small chunks—directly
+      navigable modules with TOCs, headings, and small chunks - directly
       applicable to PDF repurposing"
     url: https://teaching.cornell.edu/teaching-resources/online-teaching/best-practices-creating-engaging-online-content
     accessedAt: 2026-08-26
@@ -196,7 +196,7 @@ Break content into:
 
 Best practices:
 
-- 5–15 minute lessons
+- 5 - 15 minute lessons
 - One concept per lesson
 - Clear summaries per module
 
@@ -285,7 +285,7 @@ Combining text, visuals, and audio improves understanding.
 
 Practical learning increases engagement and completion.
 
-Well-designed **High-Converting Courses** improve retention by **20–30%**.
+Well-designed **High-Converting Courses** improve retention by **20 - 30%**.
 
 ## **Best Tools:**
 
@@ -314,7 +314,7 @@ Even the best **High-Converting Courses** need strong positioning.
 ### **Pricing Strategy:**
 
 - $97 → Entry offer
-- $297–$497 → Core course
+- $297 - $497 → Core course
 - $997+ → Premium bundle
 
 ### **Conversion Boosters:**
@@ -384,7 +384,7 @@ Once your first **High-Converting Course** works:
 - Expand to global markets
 - Repurpose content
 
-You can scale to 10–50 **High-Converting Courses** per year.
+You can scale to 10 - 50 **High-Converting Courses** per year.
 
 ## **Future of High-Converting Courses**
 

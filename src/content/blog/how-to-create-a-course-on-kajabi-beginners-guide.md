@@ -74,20 +74,20 @@ faqs:
       learning journey before launch can help identify problems before students
       encounter them.
 sources:
-  - title: How to Create an Online Course on Kajabi — Kajabi
+  - title: How to Create an Online Course on Kajabi - Kajabi
     url: https://www.kajabi.com/blog/how-to-create-an-online-course-on-kajabi
     accessedAt: 2026-09-08
-  - title: How to Create an Online Course — Kajabi
+  - title: How to Create an Online Course - Kajabi
     url: https://www.kajabi.com/blog/how-to-create-an-online-course
     accessedAt: 2026-09-08
-  - title: How to Build an Online Course on Kajabi — Kajabi
+  - title: How to Build an Online Course on Kajabi - Kajabi
     url: https://www.kajabi.com/blog/how-to-build-an-online-course-on-kajabi
     accessedAt: 2026-09-08
-  - title: 2023–2024 Digest of Education Statistics, Table 311.15 — National Center
+  - title: 2023 - 2024 Digest of Education Statistics, Table 311.15 - National Center
       for Education Statistics
     url: https://nces.ed.gov/programs/digest/d25/tables/dt25_311.15.asp
     accessedAt: 2026-09-08
-  - title: Technology in Education — UNESCO Global Education Monitoring Report
+  - title: Technology in Education - UNESCO Global Education Monitoring Report
     url: https://gem-report-2023.unesco.org/technology-in-education/
     accessedAt: 2026-09-08
 editorialManagement:

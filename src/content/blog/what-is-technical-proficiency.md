@@ -94,10 +94,10 @@ faqs:
     answer: TheEduAssist designs custom interactive e-learning modules,
       high-retention microlearning courses, and LMS onboarding architectures
       tailored to corporate teams, course creators, and educational institutions
-      worldwide. [Book a free 24–48 hour training audit](/book-free-audit/) to
+      worldwide. [Book a free 24 - 48 hour training audit](/book-free-audit/) to
       evaluate your digital learning strategy today.
 sources:
-  - title: O*NET OnLine – Technical Skills
+  - title: O*NET OnLine - Technical Skills
     url: https://www.onetonline.org/find/descriptor/browse/Skills/2.B.3/
     accessedAt: 2026-09-20
   - title: SHRM Competency Assessment Framework
@@ -115,7 +115,7 @@ editorialManagement:
   lastReviewedDate: 2026-09-20
   nextReviewDate: 2026-09-20
 ---
-In modern organizations, digital transformation, artificial intelligence, and evolving [learning management systems](https://www.theeduassist.com/blog/best-learning-management-systems/) have fundamentally transformed how workplace capabilities are defined and measured. While foundational academic knowledge provides conceptual awareness, employers, instructional designers, and enterprise leaders prioritize **technical proficiency**—the practical ability to execute real-world tasks efficiently using specialized tools and workflows.
+In modern organizations, digital transformation, artificial intelligence, and evolving [learning management systems](https://www.theeduassist.com/blog/best-learning-management-systems/) have fundamentally transformed how workplace capabilities are defined and measured. While foundational academic knowledge provides conceptual awareness, employers, instructional designers, and enterprise leaders prioritize **technical proficiency** - the practical ability to execute real-world tasks efficiently using specialized tools and workflows.
 
 Whether you are evaluating job candidates, preparing a resume, or building an [enterprise employee training](https://www.theeduassist.com/blog/employee-training-lms-technology/) curriculum, understanding the anatomy of technical proficiency is essential for driving operational excellence and measurable learning outcomes.
 
@@ -184,7 +184,7 @@ Learners are introduced to the tool architecture, underlying principles, and sta
 
 ### Stage 2: Sandboxed Scenario-Based Practice
 
-Rather than memorizing abstract menus, learners are placed in simulated sandbox environments where they must complete authentic workplace tasks—such as resolving a broken API payload, configuring an onboarding cohort in an LMS, or reconciling a ledger balance.
+Rather than memorizing abstract menus, learners are placed in simulated sandbox environments where they must complete authentic workplace tasks - such as resolving a broken API payload, configuring an onboarding cohort in an LMS, or reconciling a ledger balance.
 
 ### Stage 3: Competency-Based Verification
 
@@ -224,4 +224,4 @@ Yes. Modern marketers require proficiency in marketing automation and CRM analyt
 
 ### How does TheEduAssist help organizations scale technical proficiency?
 
-TheEduAssist designs custom interactive e-learning modules, high-retention microlearning courses, and LMS onboarding architectures tailored to corporate teams, course creators, and educational institutions worldwide. [Book a free 24–48 hour training audit](/book-free-audit/) to evaluate your digital learning strategy today.
+TheEduAssist designs custom interactive e-learning modules, high-retention microlearning courses, and LMS onboarding architectures tailored to corporate teams, course creators, and educational institutions worldwide. [Book a free 24 - 48 hour training audit](/book-free-audit/) to evaluate your digital learning strategy today.

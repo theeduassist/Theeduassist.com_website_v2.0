@@ -66,14 +66,14 @@ faqs:
     answer: Instagram Reels, TikTok, YouTube Shorts, and LinkedIn deliver the
       highest reach and engagement for real estate video marketing.
   - question: How often should I post real estate videos?
-    answer: Posting 1–2 short videos daily or batching 3–5 videos per shoot session
+    answer: Posting 1 - 2 short videos daily or batching 3 - 5 videos per shoot session
       helps maintain algorithm consistency and audience growth.
   - question: Can AI tools really improve real estate video marketing?
     answer: Yes. AI tools help with scripting, editing, captions, and repurposing
       content, reducing production time while increasing content output and
       performance.
   - question: How quickly can I see results from a Video Content Engine?
-    answer: Most agents start seeing increased engagement and leads within 2–4 weeks
+    answer: Most agents start seeing increased engagement and leads within 2 - 4 weeks
       of consistent posting and optimization.
   - question: What makes this system better than traditional real estate marketing?
     answer: Unlike traditional methods, a Video Content Engine is scalable,
@@ -105,7 +105,7 @@ sources:
     url: https://www.sciencedirect.com/topics/psychology/cognitive-load-theory
     accessedAt: 2026-08-20
   - title: "ScienceDirect Topics Overview. ScienceDirect. (n.d.). Cognitive load
-      theory – an overview. "
+      theory - an overview. "
     url: https://www.sciencedirect.com/topics/psychology/cognitive-load-theory
     accessedAt: 2026-08-20
   - title: "ShowingTime+ShowingTime+. (2024, May 14). Boost your real estate brand
@@ -131,13 +131,13 @@ heroImageCaption: "Stop posting random property tours. Learn how to build a
   repeatable video system that actually drives leads. "
 ---
 TheEduAssist empowers real estate professionals with a **Video Content Engine** that systematically produces, optimizes, and distributes videos to explode social media growth. This comprehensive 3000-word guide draws on educational technology research principles to deliver a research-backed, scalable framework tailored for agents in Lahore, US, and Australian markets.  
-[Exploring AI to streamline property marketing — built a video automation tool for CRE listings](https://www.reddit.com/r/CommercialRealEstate/comments/1lpupmw/exploring_ai_to_streamline_property_marketing/) by in[CommercialRealEstate](https://www.reddit.com/r/CommercialRealEstate/)
+[Exploring AI to streamline property marketing - built a video automation tool for CRE listings](https://www.reddit.com/r/CommercialRealEstate/comments/1lpupmw/exploring_ai_to_streamline_property_marketing/) by in[CommercialRealEstate](https://www.reddit.com/r/CommercialRealEstate/)
 
 ## **Understanding the Video Content Engine:**
 
 A **Video Content Engine** is not a single tool but an integrated system that automates video creation from lead capture to viral distribution. For TheEduAssist clients, it transforms property listings into dozens of social assets weekly, leveraging short-form video’s 5x higher engagement rates on platforms like Instagram Reels and TikTok.
 
-Core principles stem from multimedia learning theory: videos must be concise, visually dominant, and segmented for attention spans under 8 seconds. TheEduAssist’s engine focuses on real estate specifics—virtual tours, market insights, and client testimonials while incorporating SEO, AI editing, and analytics loops for continuous optimization.
+Core principles stem from multimedia learning theory: videos must be concise, visually dominant, and segmented for attention spans under 8 seconds. TheEduAssist’s engine focuses on real estate specifics - virtual tours, market insights, and client testimonials while incorporating SEO, AI editing, and analytics loops for continuous optimization.
 
 This engine drives 30-50% follower growth monthly, as seen in similar implementations, by ensuring 80% of content repurposes across platforms.
 
@@ -191,9 +191,9 @@ Word count: 15-25. Voiceover speed: 160wpm.
 
 ### **Batch Production Workflow**
 
-1. **Day 1: Shoot** – 5 properties, 10 clips each (50 raw files).
-2. **Day 2: Edit** – CapCut or Descript AI: auto-captions, B-roll, transitions.
-3. **Day 3: Optimize** – Add hashtags, thumbnails.
+1. **Day 1: Shoot** - 5 properties, 10 clips each (50 raw files).
+2. **Day 2: Edit** - CapCut or Descript AI: auto-captions, B-roll, transitions.
+3. **Day 3: Optimize** - Add hashtags, thumbnails.
 
 Produce 20 videos in 8 hours. TheEduAssist Kajabi stores masters for course embeds.
 
@@ -221,7 +221,7 @@ Closed captions (85% muted views), alt text for thumbnails, diverse representati
 ### **Tools Integration**
 
 - **Scheduling**: Buffer/Hootsuite for cross-posting.
-- **Automation**: Zapier – New listing (CRM) → Generate script (AI) → Draft post.
+- **Automation**: Zapier - New listing (CRM) → Generate script (AI) → Draft post.
 - **Communities**: Skool for exclusive “behind-scenes” drops.
 
 Post cadence: 1/day Reels, 3/week Stories, 1/week Long-form. Peak times: 8 AM/7 PM PKT/AEST.
@@ -300,11 +300,11 @@ Budget: $99/mo tools + $500 gear/team.
 
 ## **Common Pitfalls and Research-Backed Fixes**
 
-1. **Inconsistency**: Fix – Sunday batching (*Distance Education* on routine efficacy).
-2. **Low Engagement**: Fix – Question hooks (85% reply boost).
-3. **Tech Overload**: Fix – 3-element rule (*British Journal* cognitive load).
-4. **No CTA**: Fix – Verbal + visual “DM NOW.”
-5. **Burnout**: Fix – 80/20 rule: 80% evergreen, 20% trends.
+1. **Inconsistency**: Fix - Sunday batching (*Distance Education* on routine efficacy).
+2. **Low Engagement**: Fix - Question hooks (85% reply boost).
+3. **Tech Overload**: Fix - 3-element rule (*British Journal* cognitive load).
+4. **No CTA**: Fix - Verbal + visual “DM NOW.”
+5. **Burnout**: Fix - 80/20 rule: 80% evergreen, 20% trends.
 
 ## **TheEduAssist Case Studies**
 
@@ -318,7 +318,7 @@ Metrics validate the engine’s ROI: $5 lead cost vs. $50k avg sale.
 
 ## **Advanced Tactics from EdTech Science**
 
-- **Gamification**: “Guess the price—closest wins a consult!” (*Internet and Higher Ed*).
+- **Gamification**: “Guess the price - closest wins a consult!” (*Internet and Higher Ed*).
 - **Personalization AI**: Descript clones agent voice for scaling.
 - **VR Previews**: 360 tours via Kuula, boosting immersion 50%.
 - **Collaborations**: Duets with influencers (2x reach).

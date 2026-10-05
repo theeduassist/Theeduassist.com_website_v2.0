@@ -413,7 +413,7 @@ Yes. Kajabi includes memberships, communities, and branded app functionality.
 
 **Can Kajabi replace Clickfunnels?**
 
-For many course creators, yes — especially those wanting an integrated ecosystem.
+For many course creators, yes - especially those wanting an integrated ecosystem.
 
 
 ---

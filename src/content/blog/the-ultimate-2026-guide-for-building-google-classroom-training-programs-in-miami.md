@@ -64,7 +64,7 @@ faqs:
       SOPs into custom eLearning systems with structured curriculum and
       LMS-ready content.
   - question: How long does it take to build a Google Classroom training program?
-    answer: Typically 2–6 weeks, depending on content volume and structure complexity.
+    answer: Typically 2 - 6 weeks, depending on content volume and structure complexity.
   - question: What makes training interactive?
     answer: Interactive training includes assignments, quizzes, and real-world
       scenarios instead of passive content.
@@ -133,7 +133,7 @@ If your training looks like:
 - Unorganized videos
 - Disconnected instructions
 
-Then you don’t have a course — you have **content chaos**.
+Then you don’t have a course - you have **content chaos**.
 
 The goal is to convert this into: **A step-by-step training journey**
 
@@ -206,7 +206,7 @@ This transforms static content into interactive learning experiences.
 
 ### **Step 4: Add Quizzes for Reinforcement**
 
-Each module should include short quizzes (5–10 questions).
+Each module should include short quizzes (5 - 10 questions).
 
 Quizzes help:
 
@@ -265,9 +265,9 @@ For growing businesses, this is essential for scaling operations.
 
 ## **Cost Reality Check: Building Google Classroom Training**
 
-- Instructional design: $1,500 – $4,000
-- Content organization: $500 – $2,000
-- Quiz and activity setup: $300 – $1,000
+- Instructional design: $1,500 - $4,000
+- Content organization: $500 - $2,000
+- Quiz and activity setup: $300 - $1,000
 - Tools (Google Classroom): Free
 
 While the platform itself is free, investing in professional content development and consulting services significantly improves outcomes.

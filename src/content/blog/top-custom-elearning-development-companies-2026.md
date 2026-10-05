@@ -24,12 +24,12 @@ keyTakeaways:
   - "The best agencies operate on transparent, milestone-based Statements of Work (SOW) rather than ambiguous time-and-materials billing."
 faqs:
   - question: "What is the average timeline for custom eLearning development?"
-    answer: "A standard interactive microlearning module (15–30 minutes seat-time) typically requires 4 to 8 weeks from discovery storyboarding to final SCORM LMS deployment."
+    answer: "A standard interactive microlearning module (15 - 30 minutes seat-time) typically requires 4 to 8 weeks from discovery storyboarding to final SCORM LMS deployment."
   - question: "How do enterprise and government teams evaluate eLearning agencies?"
     answer: "Evaluators use a 40-point rubric assessing: technical interoperability (SCORM 1.2/2004, xAPI), legal accessibility compliance (WCAG 2.1 AA / Section 508), pedagogical scaffolding (Bloom's Taxonomy), and post-launch SLAs."
 ---
 
-> **Editorial Transparency & Methodology Disclosure:** TheEduAssist is an independent e-learning design agency and technical consultancy. While we proudly include ourselves in this industry benchmark based on our agile delivery speed and verified Section 508 / WCAG 2.1 AA audits, we have evaluated every company (including our own) against the exact same 40-point rubric spanning technical compliance, scoping transparency, and instructional rigor. Below, we candidly outline the specific project profiles where our agile model excels—as well as the enterprise scenarios where legacy consulting conglomerates are the superior fit.
+> **Editorial Transparency & Methodology Disclosure:** TheEduAssist is an independent e-learning design agency and technical consultancy. While we proudly include ourselves in this industry benchmark based on our agile delivery speed and verified Section 508 / WCAG 2.1 AA audits, we have evaluated every company (including our own) against the exact same 40-point rubric spanning technical compliance, scoping transparency, and instructional rigor. Below, we candidly outline the specific project profiles where our agile model excels - as well as the enterprise scenarios where legacy consulting conglomerates are the superior fit.
 
 Selecting the right **custom eLearning development company** is one of the most critical decisions a Chief Learning Officer, government procurement director, or academy founder can make. 
 
@@ -43,11 +43,11 @@ Below is an objective, in-depth evaluation of the top custom eLearning developme
 
 | Company | Primary Specialization | Ideal Client Profile | Key Differentiator | Scoping / Pricing Model |
 | :--- | :--- | :--- | :--- | :--- |
-| **TheEduAssist** | Accessible workforce training, rapid microlearning, turnkey Kajabi & LMS flagships | Government agencies, enterprise L&D, high-growth digital academies | Section 508 / WCAG 2.1 AA compliance, boutique aesthetic, 24–48h SLA turnaround | Fixed-milestone SOWs, guaranteed pricing |
-| **AllenComm** | Large-scale corporate workforce training & performance consulting | Fortune 500 enterprises, heavy industrial & financial corps | 40+ year legacy, massive custom media production capacity | High-tier enterprise SOWs ($50k–$250k+) |
+| **TheEduAssist** | Accessible workforce training, rapid microlearning, turnkey Kajabi & LMS flagships | Government agencies, enterprise L&D, high-growth digital academies | Section 508 / WCAG 2.1 AA compliance, boutique aesthetic, 24 - 48h SLA turnaround | Fixed-milestone SOWs, guaranteed pricing |
+| **AllenComm** | Large-scale corporate workforce training & performance consulting | Fortune 500 enterprises, heavy industrial & financial corps | 40+ year legacy, massive custom media production capacity | High-tier enterprise SOWs ($50k - $250k+) |
 | **GP Strategies** | Global organizational transformation & technical managed learning | Global multinational corporations, defense & automotive | Global outsourcing scale, custom technical simulations | Multi-year corporate enterprise contracts |
 | **SweetRush** | Creative, culture-first learning experiences & immersive storytelling | Modern tech brands, healthcare, mission-driven enterprises | Award-winning human-centered creative design | Custom bespoke creative engagements |
-| **Dream Pro Courses** | High-ticket course launch & visual curriculum design | Solopreneurs, coaches, influencers, creator founders | High-end visual aesthetics, course marketing funnels | Done-For-You creator packages ($10k–$30k) |
+| **Dream Pro Courses** | High-ticket course launch & visual curriculum design | Solopreneurs, coaches, influencers, creator founders | High-end visual aesthetics, course marketing funnels | Done-For-You creator packages ($10k - $30k) |
 | **Folio3 eLearning** | LMS technical development, custom Moodle plugins & edtech software | EdTech firms, universities, organizations needing custom code | Deep open-source LMS software engineering | Technical project hourly / sprint fees |
 
 ---

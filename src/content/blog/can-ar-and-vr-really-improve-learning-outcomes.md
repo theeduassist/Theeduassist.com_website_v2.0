@@ -62,7 +62,7 @@ The answer is more nuanced than many headlines suggest.
 
 Research increasingly shows that virtual reality (VR) and augmented reality (AR) can improve learning outcomes under the right conditions. However, simply adding immersive technology to a learning program does not automatically produce better results.
 
-In this article, we examine the evidence, explore the difference between AR and VR, review real-world use cases, and discuss where immersive learning delivers measurable value—and where it falls short.
+In this article, we examine the evidence, explore the difference between AR and VR, review real-world use cases, and discuss where immersive learning delivers measurable value - and where it falls short.
 
 
 ## **What Is AR and VR?**
@@ -164,7 +164,7 @@ Teachers use immersive technologies for virtual field trips, scientific visualiz
 
 ### **Do Learners Actually Retain More Information?**
 
-Research suggests immersive learning can improve retention, procedural memory, confidence, and skill performance when properly designed — largely due to the sense of “presence.”
+Research suggests immersive learning can improve retention, procedural memory, confidence, and skill performance when properly designed - largely due to the sense of “presence.”
 
 
 ## **Conclusion**

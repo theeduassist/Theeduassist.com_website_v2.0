@@ -42,7 +42,7 @@ searchIntent: Informational
 advancedSeo:
   noindex: false
 keyTakeaways:
-  - Complete your basic account settings first — business information, branding,
+  - Complete your basic account settings first - business information, branding,
     domain, payments, and email.
   - Create a clear website and digital product that gives learners a simple and
     organized experience.
@@ -50,7 +50,7 @@ keyTakeaways:
     product.
   - Use forms, email marketing, and automation to build a smooth customer
     journey.
-  - Test everything before launch — especially your website, emails, payments,
+  - Test everything before launch - especially your website, emails, payments,
     checkout, and course access.
 faqs:
   - question: Is Kajabi suitable for beginners?
@@ -607,9 +607,9 @@ TheEduAssist can also be a useful resource as you move beyond basic setup into c
 
 ## References and Sources
 
-1. **Kajabi — How to Set Up Your Kajabi Account** [Official Kajabi account setup guide](https://www.kajabi.com/blog/how-to-set-up-kajabi-account?utm_source=chatgpt.com)
-2. **Kajabi — Tutorial for Beginners** [Official Kajabi beginner tutorial](https://www.kajabi.com/blog/kajabi-tutorial-for-beginners?utm_source=chatgpt.com)
-3. **Kajabi — How to Launch Your First Product** [Official Kajabi product launch guide](https://www.kajabi.com/blog/launch-first-product-on-kajabi?utm_source=chatgpt.com)
-4. **Kajabi Help Center — Blog Overview** [Kajabi Blog documentation](https://help.kajabi.com/en/collections/16339423-blog?utm_source=chatgpt.com)
-5. **Kajabi — How to Create a Blog on Your Website** [Official Kajabi blogging guide](https://www.kajabi.com/blog/create-blog-on-website-guide?utm_source=chatgpt.com)
+1. **Kajabi - How to Set Up Your Kajabi Account** [Official Kajabi account setup guide](https://www.kajabi.com/blog/how-to-set-up-kajabi-account?utm_source=chatgpt.com)
+2. **Kajabi - Tutorial for Beginners** [Official Kajabi beginner tutorial](https://www.kajabi.com/blog/kajabi-tutorial-for-beginners?utm_source=chatgpt.com)
+3. **Kajabi - How to Launch Your First Product** [Official Kajabi product launch guide](https://www.kajabi.com/blog/launch-first-product-on-kajabi?utm_source=chatgpt.com)
+4. **Kajabi Help Center - Blog Overview** [Kajabi Blog documentation](https://help.kajabi.com/en/collections/16339423-blog?utm_source=chatgpt.com)
+5. **Kajabi - How to Create a Blog on Your Website** [Official Kajabi blogging guide](https://www.kajabi.com/blog/create-blog-on-website-guide?utm_source=chatgpt.com)
 

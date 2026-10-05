@@ -88,16 +88,16 @@ faqs:
       design, development, content production, QA, and maintenance rather than
       waiting until the end of a project.
 sources:
-  - title: W3C — WCAG 2.2
+  - title: W3C - WCAG 2.2
     url: https://www.w3.org/TR/WCAG22/
     accessedAt: 2026-09-21
-  - title: W3C — Understanding WCAG 2.2
+  - title: W3C - Understanding WCAG 2.2
     url: https://www.w3.org/WAI/WCAG22/Understanding/
     accessedAt: 2026-09-21
-  - title: W3C — Understanding Conformance
+  - title: W3C - Understanding Conformance
     url: https://www.w3.org/WAI/WCAG22/Understanding/conformance/
     accessedAt: 2026-09-21
-  - title: W3C — Web Accessibility Initiative
+  - title: W3C - Web Accessibility Initiative
     url: https://www.w3.org/WAI/
     accessedAt: 2026-09-21
 editorialManagement:
@@ -497,15 +497,15 @@ WCAG 2.2 introduced nine additional success criteria, while the existing WCAG 2.
 
 The nine new success criteria are:
 
-1. Focus Not Obscured (Minimum) — Level AA
-2. Focus Not Obscured (Enhanced) — Level AAA
-3. Focus Appearance — Level AAA
-4. Dragging Movements — Level AA
-5. Target Size (Minimum) — Level AA
-6. Consistent Help — Level A
-7. Redundant Entry — Level A
-8. Accessible Authentication (Minimum) — Level AA
-9. Accessible Authentication (Enhanced) — Level AAA
+1. Focus Not Obscured (Minimum) - Level AA
+2. Focus Not Obscured (Enhanced) - Level AAA
+3. Focus Appearance - Level AAA
+4. Dragging Movements - Level AA
+5. Target Size (Minimum) - Level AA
+6. Consistent Help - Level A
+7. Redundant Entry - Level A
+8. Accessible Authentication (Minimum) - Level AA
+9. Accessible Authentication (Enhanced) - Level AAA
 
 Organizations updating an existing accessibility program should therefore review the additional WCAG 2.2 requirements instead of assuming that an older WCAG 2.1 review automatically covers every WCAG 2.2 criterion.
 
@@ -550,11 +550,11 @@ Accessibility is generally easier to manage when it is considered throughout des
 
 The primary technical source for this article is the official **W3C Web Content Accessibility Guidelines (WCAG) 2.2** specification.
 
-1. [W3C — Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/?utm_source=chatgpt.com)
-2. [W3C WAI — What's New in WCAG 2.2](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/?utm_source=chatgpt.com)
-3. [W3C — WCAG 2.2 Recommendation Announcement](https://www.w3.org/WAI/news/2023-10-05/wcag22rec/?utm_source=chatgpt.com)
-4. [W3C — Understanding Conformance](https://www.w3.org/WAI/WCAG22/Understanding/conformance/?utm_source=chatgpt.com)
-5. [W3C — WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/?utm_source=chatgpt.com)
+1. [W3C - Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/?utm_source=chatgpt.com)
+2. [W3C WAI - What's New in WCAG 2.2](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-22/?utm_source=chatgpt.com)
+3. [W3C - WCAG 2.2 Recommendation Announcement](https://www.w3.org/WAI/news/2023-10-05/wcag22rec/?utm_source=chatgpt.com)
+4. [W3C - Understanding Conformance](https://www.w3.org/WAI/WCAG22/Understanding/conformance/?utm_source=chatgpt.com)
+5. [W3C - WCAG 2.2 Quick Reference](https://www.w3.org/WAI/WCAG22/quickref/?utm_source=chatgpt.com)
 
 **Source note:** The technical requirements and WCAG 2.2 changes discussed in this article are based primarily on the official W3C/WAI WCAG 2.2 documentation. The eLearning examples and practical explanations have been written specifically for TheEduAssist's audience.
 

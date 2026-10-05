@@ -44,7 +44,7 @@ faqs:
       High‑retention memberships are habit‑forming. Members should know: When new content drops (e.g., the first Monday of every month). When live sessions happen (e.g., Thursday at 7 PM). Where to go first (e.g., “Start here” portal page). Kajabi membership site development best practices include: Consistent publishing cadence:** Use a monthly calendar so members can predict what’s coming. Monthly themes:** Each month can have a theme (e.g., “June: Microlearning Design Sprint”). Recurring rituals: “First of the month” kickoff post. “End‑of‑month win shares.” “Month‑end feedback survey.” These rituals reduce decision fatigue and make your Kajabi membership feel structured and predictable.
   - question: "9. Optimize for SEO and Discoverability"
     answer: >+
-      Even if your Kajabi membership is paid, **SEO matters** for your public pages (sales page, blog, help center, case studies). Kajabi includes an **SEO & Sharing** section for each page and blog post where you can customize: Page Title Meta Description Social image (for Facebook/LinkedIn previews). SEO best practices for Kajabi membership sites: Use **1–2 clear keywords** per page (e.g., “Kajabi membership site for course creators”). Keep URLs short and descriptive (e.g., /kajabi-membership-site-guide). Use **H1, H2, H3 structure** for headings so search engines can understand your content. Link related pages and blog posts to create small **content clusters** (e.g., “How to create a membership in Kajabi” → “Kajabi membership site examples”). Add a **sitemap** to Google Search Console and resubmit it periodically. Well‑optimized landing pages and blog posts help people discover your Kajabi membership site when they search for “how to create a membership in Kajabi” or “Kajabi membership site examples.”
+      Even if your Kajabi membership is paid, **SEO matters** for your public pages (sales page, blog, help center, case studies). Kajabi includes an **SEO & Sharing** section for each page and blog post where you can customize: Page Title Meta Description Social image (for Facebook/LinkedIn previews). SEO best practices for Kajabi membership sites: Use **1 - 2 clear keywords** per page (e.g., “Kajabi membership site for course creators”). Keep URLs short and descriptive (e.g., /kajabi-membership-site-guide). Use **H1, H2, H3 structure** for headings so search engines can understand your content. Link related pages and blog posts to create small **content clusters** (e.g., “How to create a membership in Kajabi” → “Kajabi membership site examples”). Add a **sitemap** to Google Search Console and resubmit it periodically. Well‑optimized landing pages and blog posts help people discover your Kajabi membership site when they search for “how to create a membership in Kajabi” or “Kajabi membership site examples.”
   - question: "10. Use Examples and Templates as Inspiration"
     answer: >+
       Seeing **Kajabi membership site examples** can spark ideas for your own structure and design. Public examples (from coaches, educators, and course creators) show how others: Organize content modules Mix video, PDF, and interactive elements Integrate community and live events For TheEduAssist, useful templates to consider include: Membership home page templates** that organize “Start Here,” “Monthly Content,” “Live Events,” and “Resource Library” clearly. Sales page templates** that highlight recurring benefits, cohort‑style timelines, and community features. You don’t need to copy these exactly, but using them as inspiration helps you avoid starting from a blank slate when designing your Kajabi membership site.
@@ -112,12 +112,12 @@ Kajabi treats a membership as a product with modules and lessons, just like a co
 **Typical structures for Kajabi membership sites:**
 
 * **Growing library:** New resources (templates, scripts, checklists) added monthly under recurring access.
-* **Drip curriculum:** A 6–12 month roadmap where new modules unlock at a fixed pace.
+* **Drip curriculum:** A 6 - 12 month roadmap where new modules unlock at a fixed pace.
 * **Evergreen + live:** Self‑paced core curriculum plus monthly live sessions, recordings, and community challenges.
 **Step‑by‑step: building your membership structure in Kajabi**
 
 * Go to **Products** → **New Product** → choose **Course** as the product type.
-* Name it something like **“TheEduAssist Membership – [Year/Month]”**.
+* Name it something like **“TheEduAssist Membership - [Year/Month]”**.
 * Create modules such as:
 * Onboarding / Getting Started
 * Core Curriculum
@@ -171,7 +171,7 @@ Even the best Kajabi membership content won’t sell if your offer page is confu
 
 * **Headline that states the outcome**
 * Example: “Join TheEduAssist Membership: Monthly Microlearning for Instructional Designers.”
-* **3–5 bullet points that answer:**
+* **3 - 5 bullet points that answer:**
 * What will members receive?
 * How often?
 * What’s the support or community like?
@@ -252,7 +252,7 @@ Even if your Kajabi membership is paid, **SEO matters** for your public pages (s
 * Social image (for Facebook/LinkedIn previews).
 **SEO best practices for Kajabi membership sites:**
 
-* Use **1–2 clear keywords** per page (e.g., “Kajabi membership site for course creators”).
+* Use **1 - 2 clear keywords** per page (e.g., “Kajabi membership site for course creators”).
 * Keep URLs short and descriptive (e.g., /kajabi-membership-site-guide).
 * Use **H1, H2, H3 structure** for headings so search engines can understand your content.
 * Link related pages and blog posts to create small **content clusters** (e.g., “How to create a membership in Kajabi” → “Kajabi membership site examples”).
@@ -310,7 +310,7 @@ Here’s a condensed, repeatable checklist you can follow with TheEduAssist styl
 ### **2. Plan your content and community cadence**
 
 * Decide frequency: monthly modules, live events, challenges.
-* Sketch a 3–6 month roadmap.
+* Sketch a 3 - 6 month roadmap.
 
 ### **3. Create your membership product in Kajabi**
 
@@ -330,7 +330,7 @@ Here’s a condensed, repeatable checklist you can follow with TheEduAssist styl
 ### **6. Design onboarding emails**
 
 * Add **Email** steps to the funnel.
-* Create 3–5 welcome/onboarding emails.
+* Create 3 - 5 welcome/onboarding emails.
 
 ### **7. Launch your Kajabi Community**
 
@@ -358,15 +358,15 @@ This process keeps your Kajabi membership site development focused, scalable, an
 
 Imagine TheEduAssist wants to launch a Kajabi membership site for instructional designers:
 
-* **Name:** “TheEduAssist Membership – Instructional Design Studio”
+* **Name:** “TheEduAssist Membership - Instructional Design Studio”
 * **Cadence:** New module every month + monthly live office hours.
 * **Platform:** Kajabi as the central hub for courses, community, and billing.
 
 ### **Month‑by‑month structure:**
 
-* **Month 1 – Onboarding:**Kajabi portal walkthrough, welcome video, first microlearning challenge.
-* **Month 2 – Course Design Basics:**Templates, script outlines, and a peer‑review thread in Community.
-* **Month 3 – Engagement & Interactivity:**Drag‑and‑drop practice, community Q&A, and a “Submit Your Module” showcase.
+* **Month 1 - Onboarding:**Kajabi portal walkthrough, welcome video, first microlearning challenge.
+* **Month 2 - Course Design Basics:**Templates, script outlines, and a peer‑review thread in Community.
+* **Month 3 - Engagement & Interactivity:**Drag‑and‑drop practice, community Q&A, and a “Submit Your Module” showcase.
 
 ### **Behind the scenes, TheEduAssist uses:**
 
@@ -396,7 +396,7 @@ These habits turn your Kajabi membership site into a repeatable, high‑quality 
 
 ## **Conclusion:**
 
-Kajabi membership sites give TheEduAssist‑style creators the tools to build recurring‑revenue learning experiences without juggling multiple platforms. By following best practices—clear value proposition, structured content, recurring offers, strong onboarding, and a well‑run Kajabi Community—you can turn fragmented courses into a sticky, month‑after‑month membership experience.
+Kajabi membership sites give TheEduAssist‑style creators the tools to build recurring‑revenue learning experiences without juggling multiple platforms. By following best practices - clear value proposition, structured content, recurring offers, strong onboarding, and a well‑run Kajabi Community - you can turn fragmented courses into a sticky, month‑after‑month membership experience.
 
 If you’re ready to move from theory to action, TheEduAssist can help you design and launch your Kajabi membership site with a custom roadmap, content‑structure blueprint, and onboarding workflow tailored to your audience.
 

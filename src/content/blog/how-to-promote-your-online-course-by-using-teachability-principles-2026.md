@@ -286,7 +286,7 @@ Knowing **how to sell an online course using teachability** makes every strategy
 * You market your course honestly
 * You generate leads ready to learn
 * You build long-term trust
-In a crowded digital market, **teachability** is what makes your course stand out—and succeed.
+In a crowded digital market, **teachability** is what makes your course stand out - and succeed.
 
 
 ## **Frequently Asked Questions**

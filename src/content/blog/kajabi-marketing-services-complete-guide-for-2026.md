@@ -100,19 +100,19 @@ faqs:
     answer: "Start with the area creating the biggest bottleneck. Depending on the
       business, this could "
 sources:
-  - title: Kajabi Help Center — Kajabi Products Overview
+  - title: Kajabi Help Center - Kajabi Products Overview
     url: https://help.kajabi.com/en/articles/17174383-kajabi-products-overview
     accessedAt: 2026-10-03
-  - title: Kajabi Help Center — Funnels Overview
+  - title: Kajabi Help Center - Funnels Overview
     url: https://help.kajabi.com/en/articles/17175208-funnels-overview
     accessedAt: 2026-10-03
-  - title: Kajabi Help Center — Email Campaigns Overview
+  - title: Kajabi Help Center - Email Campaigns Overview
     url: https://help.kajabi.com/en/articles/17175085-email-campaigns-overview
     accessedAt: 2026-10-03
-  - title: Kajabi Help Center — Automations Overview
+  - title: Kajabi Help Center - Automations Overview
     url: https://help.kajabi.com/en/articles/17175200-automations-overview
     accessedAt: 2026-10-03
-  - title: Mailchimp — Marketing Automation Strategy
+  - title: Mailchimp - Marketing Automation Strategy
     url: https://mailchimp.com/resources/how-to-create-a-marketing-automation-strategy/
     accessedAt: 2026-10-03
 ---

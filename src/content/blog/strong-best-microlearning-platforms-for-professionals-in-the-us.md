@@ -83,16 +83,16 @@ faqs:
     answer: Contact TheEduAssist for a free platform audit. Transform busy schedules
       into skill machines.
 sources:
-  - title: PubMed — Research Article
+  - title: PubMed - Research Article
     url: https://pubmed.ncbi.nlm.nih.gov/39882484/
     accessedAt: 2026-09-15
-  - title: Taylor & Francis — Research Article
+  - title: Taylor & Francis - Research Article
     url: https://www.tandfonline.com/doi/full/10.1080/10494820.2021.1977964
     accessedAt: 2026-09-15
-  - title: SAGE Journals — Research Article
+  - title: SAGE Journals - Research Article
     url: https://www.tandfonline.com/doi/full/10.1080/10494820.2021.1977964
     accessedAt: 2026-09-15
-  - title: Asian Journal of Education and Social Studies — Research Article
+  - title: Asian Journal of Education and Social Studies - Research Article
     url: https://www.journalajess.com/index.php/AJESS/article/view/3294
     accessedAt: 2026-09-15
 editorialManagement:
@@ -107,7 +107,7 @@ This guide ranks the strongest **[microlearning](https://www.theeduassist.com/em
 
 ## **Why Microlearning Thrives for US Professionals**
 
-**Microlearning** isn’t a trend—it’s proven. Studies in the *Internet and Higher Education* confirm it lifts completion rates by 50% over long courses (Hew et al., 2019, via ScienceDirect). US pros, juggling remote work and side hustles, need this edge.
+**Microlearning** isn’t a trend - it’s proven. Studies in the *Internet and Higher Education* confirm it lifts completion rates by 50% over long courses (Hew et al., 2019, via ScienceDirect). US pros, juggling remote work and side hustles, need this edge.
 
 - Retention jumps 17-20% with short bursts (Australasian Journal of Educational Technology).
 - ROI shines: World Economic Forum’s Future of Jobs Report (2025) notes micro skills training future-proofs careers.
@@ -134,7 +134,7 @@ EdApp leads for US pros seeking fun, flow-state learning. Its AI-powered “micr
 **Key Features**:
 
 - Drag-and-drop builder with 50+ templates (quizzes, sliders, videos).
-- Offline mobile app—perfect for field sales teams.
+- Offline mobile app - perfect for field sales teams.
 - Zapier integrations for LMS like Moodle.
 
 **Why It Wins for Personas**:
@@ -202,7 +202,7 @@ OttoLearn uses AI to tailor **microlearning** journeys, adapting to user pace gr
 
 **Persona Fit**:
 
-- IDs: Interactivity on zero budget—drag-drop scenarios.
+- IDs: Interactivity on zero budget - drag-drop scenarios.
 - L&D Managers: 35% completion boost; WEF-aligned for upskilling.
 - Trainers: Personality quizzes (“Your style: Visual? Here’s video”).
 - Creators: Kajabi embeds; creators report 2x retention.
@@ -223,7 +223,7 @@ Gnowbe turns **microlearning** social US pros collaborate in “cards” like Sl
 **Persona Fit**:
 
 - IDs: Templates for branching (“If budget zero, try this hack”).
-- L&D Managers: ROI via network effects—team knowledge sharing.
+- L&D Managers: ROI via network effects - team knowledge sharing.
 - Trainers: Workshops in app (“Coaches, drop your tip here”).
 - Creators: Sell decks on WordPress.
 - Decision-Makers: Enterprise-grade; pilot-tested at scale.
@@ -244,7 +244,7 @@ Peer-reviewed sources confirm **microlearning**‘s edge:
 - ERIC/Google Scholar: US corporate adoption up 45% post-pandemic.
 - HBR/ATD: ROI frameworks for Level 4 impact.
 
-From DOAJ open access to JSTOR archives, data shows micro fits “thrilling” pros—quick dopamine hits drive habits.
+From DOAJ open access to JSTOR archives, data shows micro fits “thrilling” pros - quick dopamine hits drive habits.
 
 ## **How TheEduAssist Supercharges Your Microlearning**
 

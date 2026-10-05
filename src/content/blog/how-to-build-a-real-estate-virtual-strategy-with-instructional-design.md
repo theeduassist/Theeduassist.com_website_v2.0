@@ -84,7 +84,7 @@ faqs:
 
   - question: How long does it take to develop a Real Estate Virtual Strategy?
     answer: >+
-      Using the ADDIE framework, a typical project takes 3–6 months depending on
+      Using the ADDIE framework, a typical project takes 3 - 6 months depending on
       scope. TheEduAssist can accelerate timelines through rapid development
       methods while maintaining high quality.
 
@@ -140,7 +140,7 @@ sources:
       tours reduce time-on-market significantly).
     url: https://news.utdallas.edu/business-management/virtual-reality-tours-real-estate-2025/
     accessedAt: 2026-09-04
-  - title: "The Kirkpatrick Model – Four Levels of Training Evaluation. (Standard
+  - title: "The Kirkpatrick Model - Four Levels of Training Evaluation. (Standard
       framework for evaluating VR training effectiveness: Reaction, Learning,
       Behavior, Results). "
     url: https://www.kirkpatrickpartners.com/the-kirkpatrick-model/
@@ -237,7 +237,7 @@ Define clear, measurable objectives using Bloom’s Taxonomy (e.g., “By the en
 - Incorporate presence and feedback: Design for high immersion while including reflective prompts and immediate corrective feedback.
 - Ensure accessibility: Provide mobile/low-immersion alternatives alongside full VR.
 
-Storyboarding should include leveled progression: basic navigation → guided tours → complex scenarios (e.g., multi-client virtual open houses). Design for emotional engagement—studies show VR induces stronger emotional responses that influence purchase intent.
+Storyboarding should include leveled progression: basic navigation → guided tours → complex scenarios (e.g., multi-client virtual open houses). Design for emotional engagement - studies show VR induces stronger emotional responses that influence purchase intent.
 
 #### **3. Development (Building the Solution)**
 
@@ -265,7 +265,7 @@ Use Kirkpatrick’s levels or similar:
 - **Level 1 (Reaction)**: Surveys on immersion, ease of use, and satisfaction.
 - **Level 2 (Learning)**: Pre/post assessments of knowledge and skills.
 - **Level 3 (Behavior)**: Observe on-the-job application (e.g., reduced physical showings, improved close rates).
-- **Level 4 (Results)**: Track business metrics—time-on-market, conversion rates, training ROI.
+- **Level 4 (Results)**: Track business metrics - time-on-market, conversion rates, training ROI.
 
 Telemetry data from VR platforms (time spent, interactions, drop-off points) provides rich insights. Studies confirm VR’s value when rigorously evaluated, showing faster sales cycles and better alignment with buyer preferences.
 
@@ -318,8 +318,8 @@ Many real‑estate firms equate “virtual” with virtual tours, live‑streame
 Key research‑informed ingredients include:
 
 - **VR‑aided site visits** and 360° simulations to build “sense of place” and valuation skills.
-- **Asynchronous online discussion platforms** that simulate client–agent conversations, deal‑analysis dialogues, and negotiation practice.
-- **Micro‑learning modules** that break one‑hour property‑analysis lectures into 5–10 minute tasks with embedded checks.
+- **Asynchronous online discussion platforms** that simulate client - agent conversations, deal‑analysis dialogues, and negotiation practice.
+- **Micro‑learning modules** that break one‑hour property‑analysis lectures into 5 - 10 minute tasks with embedded checks.
 
 For TheEduAssist, a **Real Estate Virtual Strategy** should therefore be defined as:  
 *A structured, learner‑centered digital‑learning ecosystem that uses VR‑style visualization, scenario‑based tasks, and micro‑learning sequences to help real estate investors, brokers, and students experience, analyze, and act on property‑market decisions as they would in the physical world.*
@@ -344,7 +344,7 @@ Studies of technology‑supported real estate education show that **interactive 
 
 ### **2.3 Scaffold Cognitive Load with Micro‑Learning**
 
-Higher‑education research on virtual learning recommends chunking content into **5–10 minute segments** with immediate self‑checks, rather than long lectures. Virtual real estate learners perform better when they:
+Higher‑education research on virtual learning recommends chunking content into **5 - 10 minute segments** with immediate self‑checks, rather than long lectures. Virtual real estate learners perform better when they:
 
 - First watch a 7‑minute explainer on cash‑on‑cash yield.
 - Then apply it to a virtual property tour with embedded calculators.
@@ -366,7 +366,7 @@ These pillars mirror best‑practice instructional‑design frameworks used in o
 
 For TheEduAssist, possible segments include:
 
-- **New York–based real estate investors** needing practical, city‑specific deal‑analysis skills.
+- **New York - based real estate investors** needing practical, city‑specific deal‑analysis skills.
 - **Pakistani‑based learners** interested in cross‑border US or UK real‑estate opportunities, often using asynchronous learning.
 - **Licensed agents** seeking virtual open‑house training or online coaching certification.
 
@@ -379,7 +379,7 @@ Instructional‑design research suggests using **performance‑based learning ou
 - “Given a virtual property listing and market data, the learner can calculate gross rent multiplier and cash‑on‑cash yield within 10 minutes.”
 - “After a VR‑aided site visit, the learner can identify three renovation risks and justify them in a written report.”
 
-From these outcomes, TheEduAssist can build short **micro‑pathways** (3–5 lessons) that stack into longer certificates or masterclasses.
+From these outcomes, TheEduAssist can build short **micro‑pathways** (3 - 5 lessons) that stack into longer certificates or masterclasses.
 
 ### **4.3 Use “Must‑Learn, Nice‑to‑Know, Per‑Request” Sorting**
 
@@ -460,7 +460,7 @@ Higher‑education research on virtual learning emphasizes that **persistent onl
 Instructional‑design research recommends **frequent, low‑stakes assessments** instead of one‑time final exams. For TheEduAssist’s Real Estate Virtual Strategy:
 
 - Every module should include:
-- 1–3 quick checks (multiple‑choice or short‑answer) after micro‑lessons.
+- 1 - 3 quick checks (multiple‑choice or short‑answer) after micro‑lessons.
 - 1 applied task (e.g., “Upload your deal‑sheet for this virtual property”).
 - Use quiz‑tool and LMS analytics to identify:
 - Which concepts are repeatedly missed.
@@ -476,7 +476,7 @@ Research on virtual learning dashboards suggests that **visual progress‑tracki
 - Stage 3: Advanced Flows (portfolio‑building, virtual‑open‑house coaching).
 - Each completed module unlocks a visual badge or milestone in the community.
 
-### **7.3 Close the PDCA Loop (Plan–Do–Check–Act)**
+### **7.3 Close the PDCA Loop (Plan - Do - Check - Act)**
 
 Higher‑education and e‑learning research encourages **continuous improvement cycles**:
 
@@ -541,13 +541,13 @@ Drawing from real estate education, virtual‑learning, and instructional‑desi
 
 1. **Limit live‑only sessions**
 
-- Asynchronous research recommends 70–80% self‑paced content, 20–30% live or cohort‑based interaction.
+- Asynchronous research recommends 70 - 80% self‑paced content, 20 - 30% live or cohort‑based interaction.
 
 1. **Measure time‑on‑VR tasks, not just quiz scores**
 
 - Engagement metrics help identify which virtual experiences are most effective.
 
-1. **Update your virtual strategy every 6–12 months**
+1. **Update your virtual strategy every 6 - 12 months**
 
 - Technology‑and‑learning research shows that virtual education ecosystems must evolve with tools and learner expectations.
 
@@ -555,25 +555,25 @@ Drawing from real estate education, virtual‑learning, and instructional‑desi
 
 Using instructional‑design and real estate education research, here is a 12‑month roadmap to build your **Real Estate Virtual Strategy**:
 
-### **Month 0–3: Foundation & Research for Real Estate Virtual Strategy**
+### **Month 0 - 3: Foundation & Research for Real Estate Virtual Strategy**
 
 - Audit existing TheEduAssist courses and learner data.
 - Identify one niche (e.g., New York rental‑investor pathway) as the pilot.
 - Map learner segments, outcomes, and core assessments.
 
-### **Month 4–6: Prototype Design**
+### **Month 4 - 6: Prototype Design**
 
-- Build a 3–5‑lesson micro‑pathway with VR‑style walkthroughs and micro‑learning.
+- Build a 3 - 5‑lesson micro‑pathway with VR‑style walkthroughs and micro‑learning.
 - Design role‑based discussion prompts and rubrics.
 - Test with a small beta cohort and collect analytics.
 
-### **Month 7–9: Launch & Iterate Real Estate Virtual Strategy**
+### **Month 7 - 9: Launch & Iterate Real Estate Virtual Strategy**
 
 - Soft‑launch the **Real Estate Virtual Strategy** as a flagship pathway.
 - Run one cohort fully, then refine modules, assessments, and VR‑experiences.
 - Integrate feedback loops and pathway‑tracking visuals
 
-### **Month 10–12: Scale & ProductizeReal Estate Virtual Strategy**
+### **Month 10 - 12: Scale & ProductizeReal Estate Virtual Strategy**
 
 - Package the virtual pathway into a core product line (e.g., “TheEduAssist Virtual Real Estate Academy”).
 - Add city‑specific VR‑libraries and add‑on coaching tiers.

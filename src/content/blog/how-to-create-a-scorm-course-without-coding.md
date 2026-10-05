@@ -103,7 +103,7 @@ editorialManagement:
   nextReviewDate: 2026-09-25
 heroImage: /images/blog/scorm-nocode-tools-enhanced.webp
 heroImageAlt: '"Infographic comparing the best no-code tools for SCORM-compliant
-  eLearning courses in 2026 — iSpring Suite, Articulate Rise, Adobe Captivate,
+  eLearning courses in 2026 - iSpring Suite, Articulate Rise, Adobe Captivate,
   Easygenerator, and H5P, with choice factors of budget, team size, and design
   needs.'
 heroImageCaption: Five no-code tools for building SCORM-compliant courses in

@@ -188,7 +188,7 @@ For many learning projects, the answer is yes.
 
 A curriculum developer ensures the program has a strong foundation and clear direction. An instructional designer ensures learners can engage with the content and apply what they learn.
 
-At **TheEduAssist**, we combine both areas to create learning solutions that are strategically planned and practically effective—from curriculum mapping to interactive course development and [LMS implementation](https://www.theeduassist.com/blog/lms-implementation-guide/).
+At **TheEduAssist**, we combine both areas to create learning solutions that are strategically planned and practically effective - from curriculum mapping to interactive course development and [LMS implementation](https://www.theeduassist.com/blog/lms-implementation-guide/).
 
 **In simple terms:** curriculum development creates the learning framework, while instructional design turns that framework into a meaningful learning experience.
 

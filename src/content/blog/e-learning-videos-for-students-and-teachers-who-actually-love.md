@@ -48,7 +48,7 @@ advancedSeo:
   ogImage: /images/blog/geminigeneratedimagea3juvna3juvna3ju-1.webp
 keyTakeaways:
   - "Keep eLearning videos short and focused with one clear learning objective
-    per video. The article recommends roughly 3–7 minute segments. "
+    per video. The article recommends roughly 3 - 7 minute segments. "
   - "Make videos interactive, using questions, reflection pauses, hotspots, and
     follow-up activities to move learners beyond passive watching. "
   - Design for accessibility and mobile learning by using captions, clear audio,
@@ -67,7 +67,7 @@ faqs:
       experiences at scale.
   - question: How long should an eLearning video be for students and teachers?
     answer: >+
-      Aim for **3–7 minutes per video** to respect shrinking attention spans and
+      Aim for **3 - 7 minutes per video** to respect shrinking attention spans and
       support microlearning. For longer topics (like “How to conduct a
       systematic review”), break content into short parts.
 
@@ -83,7 +83,7 @@ faqs:
       explain key points from journal articles.
 
 
-      You can record a 3–5 minute explainer, then link directly to the original
+      You can record a 3 - 5 minute explainer, then link directly to the original
       ScienceDirect or ERIC entry on your **TheEduassist**‑hosted course page so
       students watch the video first, then read the full article and discuss it
       in class.
@@ -156,7 +156,7 @@ sources:
     url: https://rsisinternational.org/journals/ijriss/articles/effectiveness-of-video-lessons-in-enhancing-student-engagement-and-comprehension-during-the-covid-19-pandemic/
     accessedAt: 2026-08-25
   - title: "Brame, C. J. (2016).Effective educational videos: Principles and
-      guidelines for maximizing student learning from video content.CBE—Life
+      guidelines for maximizing student learning from video content.CBE - Life
       Sciences Education, 15(4), es6."
     url: https://ctl.columbia.edu/resources-and-technology/teaching-with-technology/diy-video/effective-videos/
     accessedAt: 2026-08-25
@@ -219,7 +219,7 @@ Over the past decade, educational research has consistently shown that **well‑
 - **Maximizing engagement** (using clear narration, relevant visuals, and real‑world examples).
 - **Promoting active learning** (embedding questions, pauses for reflection, or follow‑up tasks).
 
-eLearning videos also support **microlearning**: short, focused segments that learners can watch in 3–7 minutes, which aligns with shrinking attention spans and mobile‑first behaviors. When combined with interactive elements such as in‑video quizzes, hotspots, or scenario‑based prompts, videos shift from passive watching to **“active video‑based learning.”**
+eLearning videos also support **microlearning**: short, focused segments that learners can watch in 3 - 7 minutes, which aligns with shrinking attention spans and mobile‑first behaviors. When combined with interactive elements such as in‑video quizzes, hotspots, or scenario‑based prompts, videos shift from passive watching to **“active video‑based learning.”**
 
 For students and teachers familiar with **ScienceDirect, Springer, JSTOR, CORE, ERIC, and Open Access repositories**, video can translate dense research into digestible, reusable assets. For example:
 
@@ -232,7 +232,7 @@ Not all videos are the same. Teachers and students who already use academic plat
 
 ### **1. Mini‑lecture / explainer videos**
 
-Typical length: **3–7 minutes**.Use: Recap a core concept, guide learners through a journal abstract, or explain a methodology (e.g., “How to read a randomized controlled trial.”).Best practice: Stick to **one learning objective per video**, with clear headings, narration, and minimal text on screen.
+Typical length: **3 - 7 minutes**.Use: Recap a core concept, guide learners through a journal abstract, or explain a methodology (e.g., “How to read a randomized controlled trial.”).Best practice: Stick to **one learning objective per video**, with clear headings, narration, and minimal text on screen.
 
 ### **2. Student‑created reflection or project videos**
 
@@ -248,7 +248,7 @@ Use: Short, informal clips where teachers unpack a challenging article, highligh
 
 ### **5. Micro‑learning playlists for specific skills**
 
-Use: Curate a **video playlist** (e.g., 5–10 short videos) around a theme:
+Use: Curate a **video playlist** (e.g., 5 - 10 short videos) around a theme:
 
 - “How to critically appraise a journal article.”
 - “Basics of quantitative vs. qualitative research.”
@@ -258,7 +258,7 @@ This approach mirrors the **microlearning playlists** promoted by platforms like
 
 ## **Designing effective eLearning videos: evidence‑based principles**
 
-Drawing on **CBE—Life Sciences Education**, Evidence‑Based Medicine video design studies, and EdTech best‑practice guides, here are practical, research‑aligned design principles.
+Drawing on **CBE - Life Sciences Education**, Evidence‑Based Medicine video design studies, and EdTech best‑practice guides, here are practical, research‑aligned design principles.
 
 ### **1. Align each video to a clear learning objective**
 
@@ -272,7 +272,7 @@ Example:
 
 ### **2. Keep videos short and segmented**
 
-Adult attention spans online are short, so **aim for 3–7 minutes per video** whenever possible.If a topic is long (e.g., “How to conduct a systematic review”), break it into parts:
+Adult attention spans online are short, so **aim for 3 - 7 minutes per video** whenever possible.If a topic is long (e.g., “How to conduct a systematic review”), break it into parts:
 
 - 1: Search strategies (using ERIC, JSTOR, PubMed).
 - 2: Screening studies.
@@ -317,9 +317,9 @@ You already know **ScienceDirect, Springer, AJET, Taylor & Francis, Wiley, J‑E
 
 For a **ScienceDirect or Springer article**, teachers and students can create a “video abstract”:
 
-- **0:00–0:30**: Hook – why this paper matters.
-- **0:30–2:00**: Methods and key findings.
-- **2:00–3:00**: Implications and discussion questions.
+- **0:00 - 0:30**: Hook - why this paper matters.
+- **0:30 - 2:00**: Methods and key findings.
+- **2:00 - 3:00**: Implications and discussion questions.
 
 This mirrors the “video abstracts” increasingly encouraged by journals such as *The International Journal of Educational Technology in Higher Education* and similar outlets.
 
@@ -345,7 +345,7 @@ Research on **AI‑generated vs. human‑made teaching videos** (e.g., recent Sc
 
 ## **Where to find and publish eLearning videos**
 
-Once you start creating videos, the next question is: **Where do we put them—and where can we find the best ones?**
+Once you start creating videos, the next question is: **Where do we put them - and where can we find the best ones?**
 
 ### **1. Academic & open‑access repositories**
 
@@ -390,7 +390,7 @@ Videos are not just “nice extras”; they can be **core components** of assess
 Examples for students:
 
 - **literature review**: Create a 5‑minute video explaining three key articles from **ScienceDirect, Springer, or ERIC**.
-- **critique**: Record a 3–5 minute reaction to a **journal article**, highlighting strengths, limitations, and implications**.**
+- **critique**: Record a 3 - 5 minute reaction to a **journal article**, highlighting strengths, limitations, and implications**.**
 - **Presentation**: Replace a traditional PowerPoint with a narrated video, using **MERLOT or OER Commons** resources as visuals.
 
 These tasks mirror **research‑driven eLearning video assignments** used in higher‑education pedagogy literature.
@@ -399,7 +399,7 @@ These tasks mirror **research‑driven eLearning video assignments** used in hig
 
 Teachers can use eLearning videos to:
 
-- Record **personalized feedback** on student work (e.g., a 3–minute screencast‑style video walking through a paper draft).
+- Record **personalized feedback** on student work (e.g., a 3 - minute screencast‑style video walking through a paper draft).
 - Create **common‑feedback videos** addressing recurring issues (e.g., “How to structure your Methods section”).
 
 This approach is supported by **EdTech research** on multimedia feedback and is increasingly used in **online and blended programs**.
@@ -428,14 +428,14 @@ Platforms like **TrainingIndustry, LinkedIn Learning, AIHR, and Gartner’s corp
 If you are a teacher or student who already loves **ScienceDirect, Springer, AJET, Taylor & Francis, ERIC, JSTOR, DOAJ, CORE, UNESCO Digital Education, OER Commons, MERLOT, and related platforms**, here is a simple, actionable roadmap for using eLearning videos:
 
 1. **Identify a journal article or topic** that is conceptually rich or challenging (e.g., a *ScienceDirect* paper on AI‑supported learning).
-2. **Write a 3–5 sentence learning objective** for a short video (3–7 minutes).
+2. **Write a 3 - 5 sentence learning objective** for a short video (3 - 7 minutes).
 3. **Script and storyboard** using visuals and narration, not dense text.
 4. **Record and edit** a clear, mobile‑friendly video (or use AI tools if available).
 5. **Add interactivity** (questions, tasks, or links to the original article).
 6. **Upload and share** on your LMS, YouTube, or an open repository (e.g., MERLOT, OER Commons).
 7. **Reflect and iterate**: Ask students for feedback and adjust design based on what works.
 
-By connecting **eLearning videos** tightly to **peer‑reviewed research and open‑access resources**, you can create **thrilling, evidence‑based learning experiences** that students and teachers genuinely enjoy—without leaving the spirit of academic rigor behind.
+By connecting **eLearning videos** tightly to **peer‑reviewed research and open‑access resources**, you can create **thrilling, evidence‑based learning experiences** that students and teachers genuinely enjoy - without leaving the spirit of academic rigor behind.
 
 ![](/images/blog/geminigeneratedimageuflvnguflvnguflv-1024x571.webp)
 

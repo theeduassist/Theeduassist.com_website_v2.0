@@ -212,7 +212,7 @@ Someone visits your checkout page but does not complete the purchase. In most ca
 
 - Trigger: Access of Checkout page but no purchase of product (using Kajabi page trigger + tag logic)
 - Delay: 1 hour
-- Action: Send Email 1—a soft “Did something come up?” email with a direct link back to checkout
+- Action: Send Email 1 - a soft “Did something come up?” email with a direct link back to checkout
 - Delay: 24 hours
 - Action: Send Email 2 to overcome the most common objection (usually price or time)
 - Delay: 48 hours

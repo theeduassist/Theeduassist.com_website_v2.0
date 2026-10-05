@@ -42,8 +42,8 @@ searchIntent: Informational
 advancedSeo:
   noindex: false
   socialTitle: "Kajabi Mobile App: Is It Worth It for Online Learning?"
-  socialDescription: See what the Kajabi mobile app can really do—from courses and
-    communities to background audio and casting—and explore its limitations and
+  socialDescription: See what the Kajabi mobile app can really do - from courses and
+    communities to background audio and casting - and explore its limitations and
     branded app options.
   ogImage: /images/blog/chatgpt-image-sep-15-2026-015313-pm-1.webp
 keyTakeaways:

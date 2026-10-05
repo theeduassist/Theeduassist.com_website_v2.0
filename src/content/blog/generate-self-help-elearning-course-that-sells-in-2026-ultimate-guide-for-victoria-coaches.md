@@ -59,7 +59,7 @@ keyTakeaways:
     experience, platform, and marketing promise should work together."
 faqs:
   - question: How long should a self-help eLearning course be?
-    answer: Ideally 4–8 weeks with structured modules and clear outcomes.
+    answer: Ideally 4 - 8 weeks with structured modules and clear outcomes.
   - question: How do I ensure my course sells?
     answer: Align your course structure with your marketing promise and learner
       outcomes.
@@ -157,7 +157,7 @@ Break your program into a clear **Module Flow**:
 5. Optimization (Feedback and iteration)
 6. Transformation (Sustained habits)
 
-This aligns with **adult learning (andragogy)** — people learn best when content is:
+This aligns with **adult learning (andragogy)** - people learn best when content is:
 
 - Relevant
 - Practical
@@ -167,12 +167,12 @@ This aligns with **adult learning (andragogy)** — people learn best when conte
 
 From your raw ideas, create:
 
-- [Video lessons](https://www.theeduassist.com/blog/e-learning-videos-for-students-and-teachers-who-actually-love/?utm_source=chatgpt.com) (clear, focused, 5–15 min segments)
+- [Video lessons](https://www.theeduassist.com/blog/e-learning-videos-for-students-and-teachers-who-actually-love/?utm_source=chatgpt.com) (clear, focused, 5 - 15 min segments)
 - Worksheets (reflection + action)
 - Checklists (implementation clarity)
 - Quizzes (reinforce learning)
 
-This is where most creators fail — they skip the **[content development](https://www.theeduassist.com/blog/how-to-create-engaging-educational-content-for-online-platform-2026/?utm_source=chatgpt.com)** layer.
+This is where most creators fail - they skip the **[content development](https://www.theeduassist.com/blog/how-to-create-engaging-educational-content-for-online-platform-2026/?utm_source=chatgpt.com)** layer.
 
 ### **Step 4: Design for Real Transformation (Not Just Consumption)**
 

@@ -64,7 +64,7 @@ keyTakeaways:
     and overall course quality.
   - Udemy can support professional upskilling, career development, and corporate
     training.
-  - Success on Udemy requires more than expertise—it also requires good course
+  - Success on Udemy requires more than expertise - it also requires good course
     structure and an understanding of learner needs.
 faqs:
   - question: What is Udemy mainly used for?

@@ -92,7 +92,7 @@ When instructional design is overlooked, leadership training programs may encoun
 
 * **Low course completion rates**Learners may start the program but fail to finish because lessons feel overwhelming or repetitive.
 * **Reduced coaching credibility**If course content appears unstructured, potential clients may question the quality of the coaching program.
-* **Missed business growth opportunities**Scalable online courses can generate significant revenue for coaching businesses—but only when learners perceive real value.
+* **Missed business growth opportunities**Scalable online courses can generate significant revenue for coaching businesses - but only when learners perceive real value.
 For coaching entrepreneurs seeking to build long-term programs, investing in structured eLearning development strategies becomes essential.
 
 

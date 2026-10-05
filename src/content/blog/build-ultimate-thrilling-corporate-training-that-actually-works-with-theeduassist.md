@@ -97,7 +97,7 @@ faqs:
       Well‑designed corporate training minimizes disruption by using:
 
 
-      - Microlearning modules (5–15 minutes, on‑demand).
+      - Microlearning modules (5 - 15 minutes, on‑demand).
 
       - Just‑in‑time learning that employees grab when they need it.
 
@@ -124,7 +124,7 @@ faqs:
     answer: |+
       Yes. TheEduAssist is ideal for independent creators who want to:
 
-      - Turn one workshop into 10–15 micro‑modules for Kajabi, Skool, or an LMS.
+      - Turn one workshop into 10 - 15 micro‑modules for Kajabi, Skool, or an LMS.
       - Add AI‑assisted scripting and interaction templates without a big team.
 
   - question: How do we measure if our corporate training actually works?
@@ -150,7 +150,7 @@ faqs:
     answer: |+
       Quick‑win moves from TheEduAssist’s playbook:
 
-      - Replace 30‑minute videos with 5–10‑minute micro‑scenarios.
+      - Replace 30‑minute videos with 5 - 10‑minute micro‑scenarios.
       - Add simple quizzes with instant feedback after each module.
       - Use one branching‑choice challenge per key concept.
 
@@ -168,7 +168,7 @@ sources:
   - title: "Fegade, T., & Sharma, P. (2022). Exploring the impact of employee
       training and development on organizational efficiency and effectiveness: A
       systematic literature review. IOSR Journal of Business and Management,
-      25(4), 56–63."
+      25(4), 56 - 63."
     url: https://iosrjournals.org/iosr-jbm/papers/Vol25-issue4/Ser-1/G2504015663.pdf
     accessedAt: 2026-08-18
   - title: "Al‑Alwan, A. M., Al‑Imran, A., & Al‑Zoubi, M. (2023). Overcoming
@@ -182,7 +182,7 @@ sources:
     accessedAt: 2026-08-18
   - title: Castellano, J. (2023). Exploring the impact of training and development
       on organizational performance. International Journal of Research and
-      Innovation in Social Science (IJRISS), 7(5), 112–120.
+      Innovation in Social Science (IJRISS), 7(5), 112 - 120.
     url: https://rsisinternational.org/journals/ijriss/articles/the-impact-of-training-and-development-on-organizational-performance/
     accessedAt: 2026-08-18
   - title: "Raccoon Gang. (2025). Gamified microlearning in corporate learning: How
@@ -308,7 +308,7 @@ For instructional designers and course creators, this is where TheEduAssist can 
 
 Modern work rhythms favor **short, flexible, and accessible** learning.
 
-- Break programs into **microlearning modules** of 5–15 minutes, each focused on one skill or decision.
+- Break programs into **microlearning modules** of 5 - 15 minutes, each focused on one skill or decision.
 - Optimize for **mobile‑first** delivery and **WCAG accessibility** so remote workers, field staff, and global teams can learn on any device.
 - Structure content as **modular building blocks** that can be reordered for different roles or regions.
 
@@ -462,7 +462,7 @@ This positions TheEduAssist as a **strategic partner**, not just a vendor, and a
 - Be **practical and inspiring**:
 - “I’ve seen solo creators double completion rates by doing this one simple thing…”
 - Offer **templates they can reuse**, such as:
-- A microlearning storyboard for 5–10‑minute modules.
+- A microlearning storyboard for 5 - 10‑minute modules.
 - A gamification checklist for adding points, badges, and progress tracking.
 
 This positions TheEduAssist as a **“studio‑in‑a‑box”** for solo creators: you give them the **design systems, copywriting formulas, and small‑budget interactivity tricks** that let them build **thrilling corporate training that actually works** without a big team.
@@ -483,7 +483,7 @@ This structure makes the article feel like a **complete playbook** rather than a
 
 ## Conclusion: Making “Corporate Training” Work for Your Brand
 
-Thrilling corporate training is not about flashy graphics or endless modules—it is about **designing with purpose, psychology, and measurable outcomes**. By anchoring everything in **needs analysis, “learn by doing,” microlearning, and robust evaluation**, you move training from a compliance checkbox to a true growth engine for your organization.
+Thrilling corporate training is not about flashy graphics or endless modules - it is about **designing with purpose, psychology, and measurable outcomes**. By anchoring everything in **needs analysis, “learn by doing,” microlearning, and robust evaluation**, you move training from a compliance checkbox to a true growth engine for your organization.
 
 For **TheEduAssist**, this is the perfect opportunity to **own the “Corporate Training” keyword space** with a clear positioning:
 

@@ -78,17 +78,17 @@ faqs:
     answer: This depends on your plan. Lower tiers support a few thousand contacts,
       while Pro supports up to 100,000.
 sources:
-  - title: SupplyGem — Can You Use Kajabi as a CRM?
+  - title: SupplyGem - Can You Use Kajabi as a CRM?
     url: https://supplygem.com/kajabi-crm/
     accessedAt: 2026-09-21
-  - title: Capterra — Kajabi Software Pricing, Alternatives & More
-    url: "[Capterra — **Kajabi Software Pricing, Alternatives &
+  - title: Capterra - Kajabi Software Pricing, Alternatives & More
+    url: "[Capterra - **Kajabi Software Pricing, Alternatives &
       More**](https://www.capterra.com/p/154682/Kajabi/)"
     accessedAt: 2026-09-21
-  - title: Williams Advice — Is Kajabi Worth It? An Honest and Detailed Kajabi Review
+  - title: Williams Advice - Is Kajabi Worth It? An Honest and Detailed Kajabi Review
     url: https://williamsadvice.com/is-kajabi-worth-it-an-honest-kijabi-review-2026/
     accessedAt: 2026-09-21
-  - title: "Mihael Cacic — Ontraport vs Kajabi: A Personal Review"
+  - title: "Mihael Cacic - Ontraport vs Kajabi: A Personal Review"
     url: https://www.mihaelcacic.com/comparison/ontraport-vs-kajabi/
     accessedAt: 2026-09-21
 editorialManagement:
@@ -279,7 +279,7 @@ Contact limits depend on the Kajabi plan. The available plan structure should be
 
 ## References
 
-[SupplyGem — **Can You Use Kajabi as a CRM?**](https://supplygem.com/kajabi-crm/)  
-[Capterra — **Kajabi Software Pricing, Alternatives & More**](https://www.capterra.com/p/154682/Kajabi/)  
-[Mihael Cacic — **Ontraport vs Kajabi: A Personal Review**](https://www.mihaelcacic.com/comparison/ontraport-vs-kajabi/)  
-[Williams Advice — **Is Kajabi Worth It? An Honest and Detailed Kajabi Review**](https://williamsadvice.com/is-kajabi-worth-it-an-honest-kijabi-review-2026/)
+[SupplyGem - **Can You Use Kajabi as a CRM?**](https://supplygem.com/kajabi-crm/)  
+[Capterra - **Kajabi Software Pricing, Alternatives & More**](https://www.capterra.com/p/154682/Kajabi/)  
+[Mihael Cacic - **Ontraport vs Kajabi: A Personal Review**](https://www.mihaelcacic.com/comparison/ontraport-vs-kajabi/)  
+[Williams Advice - **Is Kajabi Worth It? An Honest and Detailed Kajabi Review**](https://williamsadvice.com/is-kajabi-worth-it-an-honest-kijabi-review-2026/)

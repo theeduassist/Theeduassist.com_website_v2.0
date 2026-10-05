@@ -331,7 +331,7 @@ A strong CTA on your **kajabi landing page** is clear, benefit-focused, and acti
 * Uses strong action words: “Enroll Now”, “Get Instant Access”, “Claim Your Spot”, “Start Learning Today”
 * Highlights the value: “Download Free Checklist” instead of just “Download”
 * Stands out visually with contrasting colors and large buttons
-* Creates mild urgency: “Limited Seats – Reserve Now”
+* Creates mild urgency: “Limited Seats - Reserve Now”
 * Placed strategically (above the fold + repeated throughout the page)
 **Best Practice:** Keep only one primary CTA per **kajabi landing page** to avoid decision paralysis. Test variations using Kajabi’s A/B testing tools.
 
@@ -342,7 +342,7 @@ A strong CTA on your **kajabi landing page** is clear, benefit-focused, and acti
 
 **Where to Use Video:**
 
-* **Above the fold (Hero Section):** A short welcome video (30–90 seconds) explaining the transformation.
+* **Above the fold (Hero Section):** A short welcome video (30 - 90 seconds) explaining the transformation.
 * **Problem & Solution Section:** Video showing real learner results or your teaching style.
 * **Testimonials:** Video testimonials build massive trust.
 * **Before Final CTA:** A personal message from you as the instructor.
@@ -351,7 +351,7 @@ A strong CTA on your **kajabi landing page** is clear, benefit-focused, and acti
 * Keep videos under 2 minutes for best engagement.
 * Add a custom thumbnail.
 * Use Kajabi’s native video uploader for faster loading.
-* Test with and without video — some audiences prefer fast-loading image heroes.
+* Test with and without video - some audiences prefer fast-loading image heroes.
 **For Coaches & Educators:** A personal video makes your **custom kajabi landing page** feel more human and increases connection.
 
 
@@ -391,7 +391,7 @@ To boost conversions on your **kajabi landing pages**, follow these proven tacti
 * **A/B Testing:** Test headlines, images, and CTAs in Kajabi.
 * **Mobile Optimization:** Ensure perfect experience on phones.
 * **Fast Loading:** Compress images and limit heavy elements.
-**Realistic Expectation:** Small changes like a better headline or added video testimonial can increase conversions by 20–40%.
+**Realistic Expectation:** Small changes like a better headline or added video testimonial can increase conversions by 20 - 40%.
 
 
 ### **How do I set a landing page as my homepage?**

@@ -92,13 +92,13 @@ faqs:
     answer: With consistent practice, improvements in confidence, communication, and
       problem solving may become noticeable within weeks.
 sources:
-  - title: Life Skills Education — UNICEF
+  - title: Life Skills Education - UNICEF
     url: https://www.unicef.org/
     accessedAt: 2026-08-24
-  - title: Life Skills — World Health Organization (WHO)
+  - title: Life Skills - World Health Organization (WHO)
     url: https://www.who.int/mental_health/media/en/30.pdf?
     accessedAt: 2026-08-24
-  - title: Social and Emotional Learning — CASEL
+  - title: Social and Emotional Learning - CASEL
     url: https://casel.org/fundamentals-of-sel/?
     accessedAt: 2026-08-24
 editorialManagement:

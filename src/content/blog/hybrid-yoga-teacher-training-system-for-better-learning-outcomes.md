@@ -149,8 +149,8 @@ A robust tech stack ensures **smooth delivery, engagement, and tracking**.
 * [Facebook Groups](https://www.facebook.com/groups/) : for sharing, announcements, and peer interaction
 **Marketing & Automation:**
 
-* [Mailchimp](https://mailchimp.com/) —Email campaigns and sequences
-* [ActiveCampaign](https://www.activecampaign.com/) —CRM, automation, engagement tracking
+* [Mailchimp](https://mailchimp.com/) - Email campaigns and sequences
+* [ActiveCampaign](https://www.activecampaign.com/) - CRM, automation, engagement tracking
 
 ## **Step 7: Building a Supportive Community**
 
@@ -189,7 +189,7 @@ To make your hybrid program successful, market it strategically:
 
 * **Yoga Project 200-Hour Hybrid Training: **Blends live virtual lectures, self-paced online modules, and optional in-person weeks. Students earn a respected certification. [Yoga Project](https://www.yogaproject.com/200hr-teacher-trainings)
 * **The Peaceful Warrior Yoga Customizable Hybrid Format: **Combines online learning with immersive retreats (e.g., Bali). Students have lifetime access to course content. [The Peaceful Warrior Yoga](https://www.thepeacefulwarriorsyoga.com/hybrid-yoga-teacher-training)
-* **Sri Sri School of Yoga – 200H Hybrid (India): **Six weeks online + 8-day in-person immersion in Bangalore. Focus on practical alignment, meditation, and community sessions. [Sri Sri School of Yoga](https://srisrischoolofyoga.org/in/hybrid-200h-yoga-teacher-training/)
+* **Sri Sri School of Yoga - 200H Hybrid (India): **Six weeks online + 8-day in-person immersion in Bangalore. Focus on practical alignment, meditation, and community sessions. [Sri Sri School of Yoga](https://srisrischoolofyoga.org/in/hybrid-200h-yoga-teacher-training/)
 * **Holistic Yoga School 200/300/500 Hour Hybrid Options: **Self-paced online modules, live-streamed classes, and in-person retreats. Personalized mentorship included. [Holistic Yoga School](https://www.holisticyogaschool.com/online-hybrid-yoga-teacher-training-200hr-program/)
 * **Breath Body Earth 300 Hour Hybrid (Guatemala): **Online learning with live Zoom sessions, followed by a 10-day in-person retreat at Lake Atitlan. [Breath Body Earth](https://breathbodyearth.org/300hr-hybrid)
 
@@ -220,7 +220,7 @@ Popular platforms include Kajabi, Skool, Thinkific, and Teachable for managing c
 
 **4. How long does a hybrid yoga teacher training program take?**
 
-Most 200-hour hybrid programs take **8–12 weeks**, but some are flexible and self-paced, allowing students to complete them over a longer period**.**
+Most 200-hour hybrid programs take **8 - 12 weeks**, but some are flexible and self-paced, allowing students to complete them over a longer period**.**
 
 **5. What should be included in a hybrid yoga curriculum?**
 

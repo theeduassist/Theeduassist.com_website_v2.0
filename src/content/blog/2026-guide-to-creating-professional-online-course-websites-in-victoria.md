@@ -60,7 +60,7 @@ faqs:
   - question: Do I need coding skills to build a course website?
     answer: No, most LMS platforms allow you to create websites without coding.
   - question: How long does it take to build a course website?
-    answer: It typically takes 2–6 weeks, depending on complexity and content
+    answer: It typically takes 2 - 6 weeks, depending on complexity and content
       readiness.
   - question: What makes a course website successful?
     answer: A successful site combines instructional design, UX, interactivity, and
@@ -175,7 +175,7 @@ Ask:
 
 **Module 5: Final projec**t
 
-This ensures your website is built around **learning outcomes** — not just content uploads.
+This ensures your website is built around **learning outcomes** - not just content uploads.
 
 ## **Step 2: Choose the Right Platform (LMS vs CMS)**
 
@@ -255,7 +255,7 @@ This is a core part of custom eLearning and modern content development strategie
 
 Break your course into:
 
-- Short lessons (5–10 minutes)
+- Short lessons (5 - 10 minutes)
 - Focused topics
 - Clear progression
 
@@ -306,10 +306,10 @@ This is where project management and structured systems become critical.
 
 Estimated cost for different categories are as follows:
 
-- Instructional design: $2,000 – $6,000
-- Website development: $1,500 – $5,000
-- Content development: $500 – $2,000
-- LMS subscription: $39 – $199/month
+- Instructional design: $2,000 - $6,000
+- Website development: $1,500 - $5,000
+- Content development: $500 - $2,000
+- LMS subscription: $39 - $199/month
 
 While DIY setups are possible, investing in professional consulting services often ensures better outcomes and faster execution.
 

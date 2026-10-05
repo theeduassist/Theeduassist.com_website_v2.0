@@ -76,21 +76,21 @@ Start with purpose:
 
 Poor timing causes frustration. Best practices include:
 
-* Delay triggers (30–45 seconds of engagement or after completing a section)
+* Delay triggers (30 - 45 seconds of engagement or after completing a section)
 * Event-based triggers (quiz finish, module end, or detected low engagement)
 * Progressive disclosure: Show help only after the learner has earned it
-Research shows context-aware, delayed pop-ups perform 2–3× better than immediate ones. Avoid showing pop-ups before core content loads.
+Research shows context-aware, delayed pop-ups perform 2 - 3× better than immediate ones. Avoid showing pop-ups before core content loads.
 
 
 ### **3. Apply Core Design Best Practices**
 
 Follow these rules for **Course Pop-Ups** in online courses:
 
-* **Simplicity**: One clear message, one primary CTA. Limit text to 3–4 lines.
+* **Simplicity**: One clear message, one primary CTA. Limit text to 3 - 4 lines.
 * **Branding Consistency**: Match your course fonts, colors, and style exactly.
 * **Mobile-First**: Ensure perfect scaling on phones with easy dismiss options (X icon + click-outside).
 * **Accessibility**: Include ARIA labels, high-contrast text (WCAG AA), and keyboard navigation.
-* **Non-Intrusive**: Never block core content longer than 5–7 seconds unless critical.
+* **Non-Intrusive**: Never block core content longer than 5 - 7 seconds unless critical.
 Platforms like LearnWorlds offer built-in popup builders with drag-and-drop functionality, making implementation straightforward.
 
 
@@ -99,7 +99,7 @@ Platforms like LearnWorlds offer built-in popup builders with drag-and-drop func
 * **Headline**: Benefit-focused and action-oriented (“Great progress! Ready for the next challenge?”)
 * **Body**: Short, conversational, and scannable
 * **CTA**: Single, specific button (“Continue”, “Take Quick Quiz”, “Claim Badge”)
-* **Visuals**: Use subtle icons or illustrations—avoid salesy stock photos
+* **Visuals**: Use subtle icons or illustrations - avoid salesy stock photos
 TheEduAssist often combines pop-ups with gamification elements (badges, points) for instant motivation, especially effective in microlearning formats popular in both Chicago and Perth.
 
 
@@ -108,7 +108,7 @@ TheEduAssist often combines pop-ups with gamification elements (badges, points) 
 * A/B test variations of timing, copy, and design for your  **Course Pop-Ups**
 * Track LMS analytics: open rate, dismissal rate, and completion lift
 * Use session recordings or heatmaps to identify friction points
-Clients working with TheEduAssist typically see 15–25% engagement improvements after data-driven optimization.
+Clients working with TheEduAssist typically see 15 - 25% engagement improvements after data-driven optimization.
 
 
 ## **The Art of the Micro-Intervention:**
@@ -174,7 +174,7 @@ Over-saturation will kill your brand authority. **TheEduAssist** recommends the 
 
 ## **Common Mistakes to Avoid**
 
-* Overusing pop-ups (limit to 1–2 per module)
+* Overusing pop-ups (limit to 1 - 2 per module)
 * Using generic or overly salesy language in a learning context
 * Ignoring mobile optimization or accessibility
 * Blocking content without an easy close option
@@ -210,7 +210,7 @@ For creators in **Chicago** and **Perth**, the key is balance:  to provide timel
 
 Partnering with experts like **TheEduAssist** (TheEduAssit) removes the guesswork. Their custom eLearning development services help you implement professional, accessible, and high-performing **Course Pop-Ups** that align perfectly with your instructional objectives and platform.
 
-The result? Higher engagement, better outcomes, and courses that truly stand out in crowded markets. Don’t let your learners struggle in silence — give them the right nudge at the right moment with well-crafted **Course Pop-Ups**.
+The result? Higher engagement, better outcomes, and courses that truly stand out in crowded markets. Don’t let your learners struggle in silence - give them the right nudge at the right moment with well-crafted **Course Pop-Ups**.
 
 Ready to elevate your online courses with powerful **Course Pop-Ups**? TheEduAssist provides free 30-minute strategy calls to audit your current setup and identify tailored **Course Pop-Ups** opportunities. Contact them today and turn good courses into exceptional learning experiences.
 
@@ -232,17 +232,17 @@ Ready to elevate your online courses with powerful **Course Pop-Ups**? TheEduAss
 
 ## **Frequently Asked Questions (FAQs):**
 
-**Q1: What are the best triggers for Course Pop-Ups in online courses?**A: The most effective triggers for **Course Pop-Ups** are event-based (after quiz completion or module end) or time-delayed (after 30–45 seconds of engagement). Avoid immediate pop-ups on page load. Progressive disclosure  showing help only when earned significantly reduces annoyance while boosting relevance.
+**Q1: What are the best triggers for Course Pop-Ups in online courses?**A: The most effective triggers for **Course Pop-Ups** are event-based (after quiz completion or module end) or time-delayed (after 30 - 45 seconds of engagement). Avoid immediate pop-ups on page load. Progressive disclosure  showing help only when earned significantly reduces annoyance while boosting relevance.
 
-**Q2: How many Course Pop-Ups should I include per module?**A: Limit to 1–2 **Course Pop-Ups** per module maximum. Overuse leads to popup fatigue and lower engagement. Focus on quality and timing rather than quantity.
+**Q2: How many Course Pop-Ups should I include per module?**A: Limit to 1 - 2 **Course Pop-Ups** per module maximum. Overuse leads to popup fatigue and lower engagement. Focus on quality and timing rather than quantity.
 
-**Q3: Can Course Pop-Ups improve learner completion rates?**A: Yes. Well-designed instructional **Course Pop-Ups** (feedback, nudges, micro-assessments) have been shown to improve retention and engagement by 15–30% when used strategically.
+**Q3: Can Course Pop-Ups improve learner completion rates?**A: Yes. Well-designed instructional **Course Pop-Ups** (feedback, nudges, micro-assessments) have been shown to improve retention and engagement by 15 - 30% when used strategically.
 
 **Q4: Are Course Pop-Ups mobile-friendly?**A: They must be. Always design  with a mobile-first approach, ensuring easy dismissal, responsive scaling, and touch-friendly buttons. Over 60% of learners access courses on mobile devices.
 
 **Q5: How do I make Course Pop-Ups accessible?**A: Follow WCAG guidelines: use high-contrast text, ARIA labels for screen readers, keyboard navigation support, and a clear close button for your **Courses**. Test with accessibility tools.
 
-**Q6: Should I use AI in Course Pop-Ups?**A: Absolutely — AI-powered adaptive **Course Pop-Ups** can deliver personalized hints, recommendations, or feedback based on learner performance, making them highly effective for modern courses.
+**Q6: Should I use AI in Course Pop-Ups?**A: Absolutely - AI-powered adaptive **Course Pop-Ups** can deliver personalized hints, recommendations, or feedback based on learner performance, making them highly effective for modern courses.
 
 **Q7: What platforms support easy Course Pop-Ups creation?**A: LearnWorlds has a strong built-in popup builder. Thinkific, Kajabi, and Moodle also support custom **Course Pop-Ups** via extensions or code. TheEduAssist can help with seamless custom integrations.
 

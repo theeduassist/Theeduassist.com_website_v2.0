@@ -79,7 +79,7 @@ Instructional design research highlights that effective digital modules prioriti
 * Structural clarity
 * Contextual relevance
 * Interactive learning experiences
-In other words, a training module is not just information — it is a **guided learning experience**.
+In other words, a training module is not just information - it is a **guided learning experience**.
 
 
 ## **Step 1: Begin With a Learner Needs Analysis**
@@ -136,7 +136,7 @@ Modern learners prefer short, focused lessons.
 
 Instead of hour-long lectures, training modules should include:
 
-* 5–10 minute video lessons
+* 5 - 10 minute video lessons
 * Short concept explanations
 * Practical exercises
 * Quick assessments
@@ -216,10 +216,10 @@ This ecosystem approach creates **cohesive learning pathways** rather than disco
 
 Developing high-quality modules requires time and resources.
 
-* **Instructional design consulting: $2,000 – $6,000**
-* **Video production: $1,000 – $4,000**
-* **Interactive module development: $800 – $3,000**
-* **LMS subscription: $39 – $199 per month**
+* **Instructional design consulting: $2,000 - $6,000**
+* **Video production: $1,000 - $4,000**
+* **Interactive module development: $800 - $3,000**
+* **LMS subscription: $39 - $199 per month**
 While costs vary, investing in professional instructional design often leads to higher course quality and better learner outcomes.
 
 
@@ -249,7 +249,7 @@ A training module is a structured learning unit that includes lessons, activitie
 
 **How long should an eLearning training module be?**
 
-Most effective modules are **15–45 minutes** long and include multiple microlearning lessons.
+Most effective modules are **15 - 45 minutes** long and include multiple microlearning lessons.
 
 **Why is instructional design important in eLearning academies?**
 

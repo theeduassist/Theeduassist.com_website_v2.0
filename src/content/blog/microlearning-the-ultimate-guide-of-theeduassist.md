@@ -34,13 +34,13 @@ keyTakeaways:
 advancedSeo:
   noindex: false
 faqs:
-  - question: "Q1. What is microlearning?**Microlearning is training delivered in short, focused lessons (usually 3–10 minutes) that each target one specific skill or outcome."
+  - question: "Q1. What is microlearning?**Microlearning is training delivered in short, focused lessons (usually 3 - 10 minutes) that each target one specific skill or outcome."
     answer: >+
       Q2. Why should my company use microlearning?**It fits busy schedules, is easier to update, and often leads to higher completion, better retention, and faster on‑the‑job application. Q3. How much does microlearning training cost?**Costs vary, but this approach is typically cheaper and faster to develop than long traditional courses, and it reduces time employees spend away from their work.
-  - question: "Q4. Can employees really learn in 5‑minute lessons?**Yes—when each lesson has one clear goal, uses concrete examples, and includes quick practice or reflection."
+  - question: "Q4. Can employees really learn in 5‑minute lessons?**Yes - when each lesson has one clear goal, uses concrete examples, and includes quick practice or reflection."
     answer: >+
       Q5. What types of topics work best for microlearning?**Process steps, quick how‑tos, product updates, compliance reminders, soft‑skill “micro‑skills,” and just‑in‑time support for common tasks. Q6. Do we need a new platform to use microlearning?**Not always. Many companies start by delivering short lessons through their existing LMS, intranet, or communication tools and scale from there. Q7. How do we measure if microlearning is working?**Track completion, quiz results, time‑to‑competence, and on‑the‑job KPIs such as reduced errors, improved quality, or better customer scores.
-  - question: "Q4. Can employees really learn in 5‑minute lessons?**Yes—when each lesson has one clear goal, uses concrete examples, and includes quick practice or reflection."
+  - question: "Q4. Can employees really learn in 5‑minute lessons?**Yes - when each lesson has one clear goal, uses concrete examples, and includes quick practice or reflection."
     answer: >+
       Q5. What types of topics work best for microlearning?**Process steps, quick how‑tos, product updates, compliance reminders, soft‑skill “micro‑skills,” and just‑in‑time support for common tasks. Q6. Do we need a new platform to use microlearning?**Not always. Many companies start by delivering short lessons through their existing LMS, intranet, or communication tools and scale from there. Q7. How do we measure if microlearning is working?**Track completion, quiz results, time‑to‑competence, and on‑the‑job KPIs such as reduced errors, improved quality, or better customer scores.
 ---
@@ -62,7 +62,7 @@ Microlearning is a way of designing learning as small, focused units that teach 
 Typical traits:
 
 * One micro-goal per unit
-* Short duration (often 3–10 minutes)
+* Short duration (often 3 - 10 minutes)
 * Clear titles and descriptions so learners can find what they need
 * Often media-rich but lightweight (video, scenario, checklist, quiz)
 For TheEduAssist, this is not about shrinking slides. It is about designing experiences that respect attention, time, and real performance needs.
@@ -106,7 +106,7 @@ The result is learning that feels like support, not a burden.
 
 ## **Microlearning vs Traditional eLearning**
 
-AspectTraditional eLearningMicrolearningLength30–120 minutes per module[ [kerryr](https://www.kerryr.net/webwriting/structure_scan-read.htm) ]3–10 minutes per unit[ [parentcenterhub](https://www.parentcenterhub.org/web-chunking/) ]FocusSeveral objectives at onceOne clear objective per unitUsageScheduled, block timeOn-demand, in the flow of workDevicesOften desktop-firstMobile-friendly and multi-device[ [kerryr](https://www.kerryr.net/webwriting/structure_scan-read.htm) ]MaintenanceHeavy to updateEasy to update at unit levelData granularityCourse-levelUnit-level
+AspectTraditional eLearningMicrolearningLength30 - 120 minutes per module[ [kerryr](https://www.kerryr.net/webwriting/structure_scan-read.htm) ]3 - 10 minutes per unit[ [parentcenterhub](https://www.parentcenterhub.org/web-chunking/) ]FocusSeveral objectives at onceOne clear objective per unitUsageScheduled, block timeOn-demand, in the flow of workDevicesOften desktop-firstMobile-friendly and multi-device[ [kerryr](https://www.kerryr.net/webwriting/structure_scan-read.htm) ]MaintenanceHeavy to updateEasy to update at unit levelData granularityCourse-levelUnit-level
 
 
 ## **TheEduAssist’s Three Pillars of Microlearning**
@@ -201,7 +201,7 @@ This structure keeps even short units engaging and outcome-focused.
 
 ## **Step 6: Add micro-practice and feedback**
 
-Microlearning should still include practice, even in 3–7 minutes.
+Microlearning should still include practice, even in 3 - 7 minutes.
 
 Options:
 
@@ -408,9 +408,9 @@ What is one current course, module, or workshop you run that you suspect would b
 
 ## **References:**
 
-Judijanto, L. (2025). Exploring the role of microlearning in lifelong learning: A bibliometric review. The Eastasouth Journal of Learning and Educations, 3(1), 42–55. https://doi.org/10.58812/esle.v3i01.497
+Judijanto, L. (2025). Exploring the role of microlearning in lifelong learning: A bibliometric review. The Eastasouth Journal of Learning and Educations, 3(1), 42 - 55. https://doi.org/10.58812/esle.v3i01.497
 
-Shail, M. S. (2019). Using micro-learning on mobile applications to increase knowledge retention and work performance: A review of literature. Nursing and Midwifery Studies, 8(3), 124–127. (Example drawn from microlearning reference lists.)
+Shail, M. S. (2019). Using micro-learning on mobile applications to increase knowledge retention and work performance: A review of literature. Nursing and Midwifery Studies, 8(3), 124 - 127. (Example drawn from microlearning reference lists.)
 
 Xie, W., & Huang, Y. (2024). Microlearning beyond boundaries: A systematic review and a novel framework for improving learning outcomes. Heliyon, 10(12), Article eXXXXX. [https://doi.org/10.1016/j.heliyon.2024.xxxxxx (Based on the “Microlearning beyond boundaries” article; fill in exact volume/issue/page once you access the full record.)](https://doi.org/10.1016/j.heliyon.2024.xxxxxx%20(Based%20on%20the%20%E2%80%9CMicrolearning%20beyond%20boundaries%E2%80%9D%20article;%20fill%20in%20exact%20volume/issue/page%20once%20you%20access%20the%20full%20record.))
 
@@ -433,13 +433,13 @@ Panopto. (2025, July 6). Microlearning in eLearning: A complete guide for organi
 
 ## **FAQs**
 
-**Q1. What is microlearning?**Microlearning is training delivered in short, focused lessons (usually 3–10 minutes) that each target one specific skill or outcome.
+**Q1. What is microlearning?**Microlearning is training delivered in short, focused lessons (usually 3 - 10 minutes) that each target one specific skill or outcome.
 
 **Q2. Why should my company use microlearning?**It fits busy schedules, is easier to update, and often leads to higher completion, better retention, and faster on‑the‑job application.
 
 **Q3. How much does microlearning training cost?**Costs vary, but this approach is typically cheaper and faster to develop than long traditional courses, and it reduces time employees spend away from their work.
 
-**Q4. Can employees really learn in 5‑minute lessons?**Yes—when each lesson has one clear goal, uses concrete examples, and includes quick practice or reflection.
+**Q4. Can employees really learn in 5‑minute lessons?**Yes - when each lesson has one clear goal, uses concrete examples, and includes quick practice or reflection.
 
 **Q5. What types of topics work best for microlearning?**Process steps, quick how‑tos, product updates, compliance reminders, soft‑skill “micro‑skills,” and just‑in‑time support for common tasks.
 

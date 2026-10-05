@@ -189,7 +189,7 @@ Many creators feel Kajabi is more powerful for scaling, while Teachable is easie
 
 **Pro tip for educators:** Use drip content to release videos weekly, boosting retention by 35% in one coach’s experience.
 
-**Example:** Upload a PDF workbook on microlearning hacks alongside a 10-min video—students download instantly.
+**Example:** Upload a PDF workbook on microlearning hacks alongside a 10-min video - students download instantly.
 
 ## **How to Set Teachable Pricing for Your Course?**
 

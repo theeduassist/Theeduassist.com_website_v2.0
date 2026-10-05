@@ -156,7 +156,7 @@ In line with **eLearning trends 2026**, users now expect:
 
 ## The Real Goal: Design for Behavior Change
 
-The strongest wellbeing content does not simply inform — it helps people **change routines**.
+The strongest wellbeing content does not simply inform - it helps people **change routines**.
 
 **Examples:**
 
@@ -298,11 +298,11 @@ This increases reach and trust.
 
 Following is the cost range for different categories:
 
-- Instructional design: $2,000 – $7,000
-- Video & design assets: $1,000 – $5,000
-- AI tools / automation: $50 – $300 monthly
+- Instructional design: $2,000 - $7,000
+- Video & design assets: $1,000 - $5,000
+- AI tools / automation: $50 - $300 monthly
 - LMS / app tools: Variable
-- Analytics setup: $500 – $3,000
+- Analytics setup: $500 - $3,000
 
 Brands that invest in structured learning experiences often outperform those relying on random content campaigns.
 
