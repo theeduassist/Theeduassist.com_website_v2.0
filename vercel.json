@@ -92,6 +92,381 @@
       "permanent": true
     },
     {
+      "source": "/tag/(.*)",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/category/(.*)",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/(.*)",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/author/(.*)",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/job-(.*)",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/jobs/(.*)",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/product/(.*)",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/product-category/(.*)",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/shop",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/shop/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/checkout",
+      "destination": "/contact-us/",
+      "permanent": true
+    },
+    {
+      "source": "/checkout/",
+      "destination": "/contact-us/",
+      "permanent": true
+    },
+    {
+      "source": "/career",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/career/",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/job-openings",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/job-openings/",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/training-solutions",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/terms-conditions",
+      "destination": "/terms-and-conditions/",
+      "permanent": true
+    },
+    {
+      "source": "/about",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/dashboard-and-analytics",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/dashboard-and-analytics/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/induction-onboarding-training",
+      "destination": "/services/course-development/",
+      "permanent": true
+    },
+    {
+      "source": "/induction-onboarding-training/",
+      "destination": "/services/course-development/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/s-o-paulo-elearning-development",
+      "destination": "/locations/sao-paulo-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/s-o-paulo-elearning-development/",
+      "destination": "/locations/sao-paulo-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/feed",
+      "destination": "/rss.xml",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/feed/",
+      "destination": "/rss.xml",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/embed",
+      "destination": "/$1/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/embed/",
+      "destination": "/$1/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-synthesia-worth-it-in-2026",
+      "destination": "/blog/is-synthesia-worth-it-in-2026-roi-costs-genuine-verdict/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-synthesia-worth-it-in-2026/",
+      "destination": "/blog/is-synthesia-worth-it-in-2026-roi-costs-genuine-verdict/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-use-kajabi-gamification-in-2026",
+      "destination": "/blog/how-to-use-kajabi-gamification-in-2026-boost-learner-motivation-and-community-engagement-fast/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-use-kajabi-gamification-in-2026/",
+      "destination": "/blog/how-to-use-kajabi-gamification-in-2026-boost-learner-motivation-and-community-engagement-fast/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-ferpa",
+      "destination": "/blog/education-data-privacy-laws-ferpa-s-role-in-a-data-driven-world/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-ferpa/",
+      "destination": "/blog/education-data-privacy-laws-ferpa-s-role-in-a-data-driven-world/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-templates",
+      "destination": "/blog/kajabi-templates-explained-types-benefits-uses-and-how-to-choose-the-right-one/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-templates/",
+      "destination": "/blog/kajabi-templates-explained-types-benefits-uses-and-how-to-choose-the-right-one/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-course-templates",
+      "destination": "/blog/kajabi-templates-explained-types-benefits-uses-and-how-to-choose-the-right-one/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-course-templates/",
+      "destination": "/blog/kajabi-templates-explained-types-benefits-uses-and-how-to-choose-the-right-one/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-ai-features-in-2026",
+      "destination": "/blog/kajabi-ai-features-in-2026-what-s-new-and-how-they-improve-course-creation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-ai-features-in-2026/",
+      "destination": "/blog/kajabi-ai-features-in-2026-what-s-new-and-how-they-improve-course-creation/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lms-vr-integration",
+      "destination": "/blog/how-to-master-lms-vr-integration-a-proven-roadmap/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lms-vr-integration/",
+      "destination": "/blog/how-to-master-lms-vr-integration-a-proven-roadmap/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-podia-good-for-beginners",
+      "destination": "/blog/is-podia-good-for-beginners-starting-an-online-business-assessing-ease-of-use-for-new-users/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-podia-good-for-beginners/",
+      "destination": "/blog/is-podia-good-for-beginners-starting-an-online-business-assessing-ease-of-use-for-new-users/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/podia-vs-teachable",
+      "destination": "/blog/podia-vs-teachable-which-platform-should-you-choose-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/podia-vs-teachable/",
+      "destination": "/blog/podia-vs-teachable-which-platform-should-you-choose-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ai-upskilling-strategy",
+      "destination": "/blog/how-to-build-a-future-proof-ai-upskilling-strategy-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ai-upskilling-strategy/",
+      "destination": "/blog/how-to-build-a-future-proof-ai-upskilling-strategy-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-drip-course-setup",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-drip-course-setup/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-website-funnel-services",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-website-funnel-services/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/7-powerful-kajabi-course-creation-services",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/7-powerful-kajabi-course-creation-services/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/7-powerful-kajabi-course-creation-services-to-skyrocket-sales",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/7-powerful-kajabi-course-creation-services-to-skyrocket-sales/",
+      "destination": "/kajabi-services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-email-campaigns",
+      "destination": "/blog/kajabi-email-marketing-funnels-for-better-course-sales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-email-campaigns/",
+      "destination": "/blog/kajabi-email-marketing-funnels-for-better-course-sales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-emails-campaigns",
+      "destination": "/blog/kajabi-email-marketing-funnels-for-better-course-sales/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-keyword-research",
+      "destination": "/blog/kajabi-keyword-research-for-higher-rankings/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-keyword-research/",
+      "destination": "/blog/kajabi-keyword-research-for-higher-rankings/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/teachable-alternatives",
+      "destination": "/blog/udemy-vs-teachable-the-ultimate-guide-for-course-creators-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/teachable-alternatives/",
+      "destination": "/blog/udemy-vs-teachable-the-ultimate-guide-for-course-creators-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-adobe-captivate-worth-the-cost",
+      "destination": "/blog/is-adobe-captivate-worth-the-cost-full-pricing-alternatives-breakdown/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/is-adobe-captivate-worth-the-cost/",
+      "destination": "/blog/is-adobe-captivate-worth-the-cost-full-pricing-alternatives-breakdown/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-vs-clickfunnels",
+      "destination": "/blog/kajabi-vs-clickfunnels-the-best-platform-for-creators-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-vs-clickfunnels/",
+      "destination": "/blog/kajabi-vs-clickfunnels-the-best-platform-for-creators-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/undefined",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/undefined/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/__trashed",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/__trashed/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/test-post",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/test-post/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
       "source": "/home",
       "destination": "https://www.theeduassist.com/",
       "permanent": true

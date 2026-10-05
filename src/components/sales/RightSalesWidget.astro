@@ -25,17 +25,24 @@
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const btn = document.getElementById('tawk-right-sales-btn');
-    if (btn) {
-      btn.addEventListener('click', async (e) => {
-        e.preventDefault();
-        const { openGeneralSalesChat } = await import('../../utils/tawkSales');
-        openGeneralSalesChat({
-          intent: 'sales_payment_guidance',
-          sourceCta: 'right-floating-talk-to-sales'
+  if (typeof window !== 'undefined' && window.innerWidth >= 640) {
+    const initRightSales = () => {
+      const btn = document.getElementById('tawk-right-sales-btn');
+      if (btn) {
+        btn.addEventListener('click', async (e) => {
+          e.preventDefault();
+          const { openGeneralSalesChat } = await import('../../utils/tawkSales');
+          openGeneralSalesChat({
+            intent: 'sales_payment_guidance',
+            sourceCta: 'right-floating-talk-to-sales'
+          });
         });
-      });
+      }
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initRightSales, { once: true });
+    } else {
+      initRightSales();
     }
-  });
+  }
 </script>

@@ -45,20 +45,25 @@ const scrollItems = [...aiAssistants, ...aiAssistants];
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const btns = document.querySelectorAll('.footer-ai-btn');
+    function setupFooterAIBtns() {
+        document.addEventListener('click', async (e) => {
+            const target = (e.target as HTMLElement)?.closest('.footer-ai-btn') as HTMLButtonElement | null;
+            if (!target) return;
+            const url = target.dataset.aiUrl || '';
+            const name = target.dataset.aiName || '';
 
-        btns.forEach(btn => {
-            btn.addEventListener('click', async (e) => {
-                const target = e.currentTarget as HTMLButtonElement;
-                const url = target.dataset.aiUrl || '';
-                const name = target.dataset.aiName || '';
-
-                const { copyAndOpenAI } = await import('./AIAssistClient');
-                await copyAndOpenAI('summarize_page', url, name);
-            });
+            const { copyAndOpenAI } = await import('./AIAssistClient');
+            await copyAndOpenAI('summarize_page', url, name);
         });
-    });
+    }
+
+    if (typeof window !== 'undefined') {
+        if ('requestIdleCallback' in window) {
+            window.requestIdleCallback(setupFooterAIBtns, { timeout: 4000 });
+        } else {
+            setTimeout(setupFooterAIBtns, 2000);
+        }
+    }
 </script>
 
 <style>

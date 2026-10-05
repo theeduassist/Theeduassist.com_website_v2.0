@@ -35,7 +35,7 @@ const altText = decorative ? "TheEduAssist logo mark" : "TheEduAssist official l
                 alt={altText}
                 aria-hidden={ariaHidden}
                 loading={priority}
-                decoding={priority === "eager" ? "sync" : "async"}
+                decoding="async"
                 class={`object-contain ${size} ${className}`}
                 width="48"
                 height="48"
@@ -51,7 +51,7 @@ const altText = decorative ? "TheEduAssist logo mark" : "TheEduAssist official l
             alt={altText}
             aria-hidden={ariaHidden}
             loading={priority}
-            decoding={priority === "eager" ? "sync" : "async"}
+            decoding="async"
             class={`object-contain ${size} ${className}`}
             width="48"
             height="48"
