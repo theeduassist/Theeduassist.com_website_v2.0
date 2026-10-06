@@ -111,6 +111,51 @@
   ],
   "redirects": [
     {
+      "source": "/blog/corporate-training-software/",
+      "destination": "/blog/corporate-training-software-9-keys-to-better-learning/",
+      "permanent": true
+    },
+    {
+      "source": "/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/your-new-favorite-ai-tutoring-tool-here/",
+      "destination": "/blog/your-new-favorite-ai-tutoring-tool-here/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/your-new-favorite-ai-tutoring-tool-here/",
+      "destination": "/blog/your-new-favorite-ai-tutoring-tool-here/",
+      "permanent": true
+    },
+    {
+      "source": "/artificial-intelligence-content-detection-2025/",
+      "destination": "/blog/artificial-intelligence-content-detection-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/artificial-intelligence-content-detection-2025/",
+      "destination": "/blog/artificial-intelligence-content-detection-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/top-ai-skills-tools-2025/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/top-ai-skills-tools-2025/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
       "source": "/ai-certification-for-teachers/",
       "destination": "/blog/ai-certification-for-teachers/",
       "permanent": true
@@ -668,7 +713,7 @@
     },
     {
       "source": "/blog/kajabi-digital-product-creation/",
-      "destination": "/kajabi-services/",
+      "destination": "/blog/how-to-create-digital-products-with-kajabi/",
       "permanent": true
     },
     {
