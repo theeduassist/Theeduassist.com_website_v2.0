@@ -77,9 +77,49 @@
           "value": "service:ai-ethics-corporate-training"
         }
       ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=86400"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=86400"
+        }
+      ]
     }
   ],
   "redirects": [
+    {
+      "source": "/robots.txt/",
+      "destination": "/robots.txt",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap.xml/",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
     {
       "source": "/",
       "has": [

@@ -1,17 +1,74 @@
-# Search Discovery Crawlers
+# Search Discovery & AI Retrieval Crawlers
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /studio/
+Disallow: /preview/
+Disallow: /_internal/
+Disallow: /*?*query=
+Disallow: /*?*s=
+Disallow: /*?*search=
+Disallow: /*?*wpr_templates=
+Disallow: /*?*elementor*
+
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /og/
+Allow: /brand/
+Allow: /brand-assets/
+Allow: /_astro/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_internal/
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /studio/
+Disallow: /preview/
+Disallow: /_internal/
+Disallow: /*?*query=
+Disallow: /*?*s=
+Disallow: /*?*search=
+
+User-agent: Applebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_internal/
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_internal/
+
+User-agent: YandexBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_internal/
+
+User-agent: Baiduspider
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_internal/
+
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-# AI Crawlers
 User-agent: GPTBot
 Allow: /
 
@@ -30,10 +87,19 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
 User-agent: CCBot
 Allow: /
 
-# General Policy
+# General Crawl Policy
 User-agent: *
 Allow: /
 Disallow: /api/
@@ -41,5 +107,12 @@ Disallow: /admin/
 Disallow: /studio/
 Disallow: /preview/
 Disallow: /_internal/
+Disallow: /*?*query=
+Disallow: /*?*s=
+Disallow: /*?*search=
+Disallow: /*?*wpr_templates=
+Disallow: /*?*elementor*
+Disallow: /*?*preview=
 
+# Authoritative Sitemap
 Sitemap: https://www.theeduassist.com/sitemap.xml
