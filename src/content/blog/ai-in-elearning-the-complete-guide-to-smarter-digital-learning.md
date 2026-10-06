@@ -1,5 +1,5 @@
 ---
-title: "AI in eLearning: Complete Guide to Smarter Digital Learning"
+title: "AI in eLearning: Practical Applications for Modern Training"
 slug: ai-in-elearning-the-complete-guide-to-smarter-digital-learning
 featured: false
 excerpt: "The way people learn has undergone a significant change in the last decade. The way people learn has evolved from here to the present.. People who are interested in learning find that traditional classroom training and lengthy online courses are not enough. Em"
@@ -18,8 +18,8 @@ updatedAt: 2026-09-20
 heroImage: /images/blog/ai-for-everyone-course-creation.webp
 heroImageAlt: "AI in eLearning: The Complete Guide to Smarter Digital Learning illustration and implementation overview"
 heroImageCaption: "Key insights and actionable framework for AI in eLearning: The Complete Guide to Smarter Digital Learning."
-seoTitle: "AI in eLearning: Complete Guide to Smarter Digital Learning"
-seoDescription: "The definitive guide to AI in eLearning: automated curriculum generation, personalized learning paths, AI tutors, and corporate L&D strategy."
+seoTitle: "AI in eLearning: Practical Applications for Modern Training"
+seoDescription: "A practical guide to artificial intelligence in eLearning: automated course workflows, adaptive learner journeys, smart tutoring, and corporate L&D strategy."
 focusKeyword: "ai in elearning"
 secondaryKeywords:
   - "AI in Education"

@@ -1,6 +1,5 @@
 ---
-title: "Primary and Secondary Technical Domain Skills: Complete Guide & Examples
-  [2026]"
+title: "Technical Domain Skills: Definition, Types & Resume Tips"
 slug: primary-and-secondary-technical-domain-skills
 excerpt: Confused about how to answer 'list your primary and secondary technical
   domain skills'? Discover exact definitions, role-specific examples, and
@@ -30,9 +29,8 @@ heroImage: /images/blog/primary-secondary-technical-domain-skills-guide.webp
 heroImageAlt: Primary and secondary technical domain skills guide for job applicants
 heroImageCaption: Primary and secondary technical domain skills explained with
   practical examples for professionals.
-seoTitle: "Technical Domain Skills: Primary and Secondary Guide"
-seoDescription: Learn how to identify and list primary and secondary technical
-  domain skills with examples, frameworks, and job application tips.
+seoTitle: "Technical Domain Skills: Definition, Types & Resume Tips"
+seoDescription: "Understand primary and secondary technical domain skills: workplace definitions, industry examples, and how to list them effectively on a professional resume."
 focusKeyword: Primary and Secondary Technical Domain Skills
 secondaryKeywords:
   - technical domain skills
@@ -231,6 +229,10 @@ For organizations using **[microlearning for employee training](https://www.thee
 ---
 
 ## Frequently Asked Questions
+
+### What does 'Please list your primary and secondary technical domain skills' mean on a job application?
+Primary technical domain skills are the core competencies required to perform your daily job at an expert level (e.g., Instructional Design, Full-Stack Development). Secondary technical domain skills are adjacent capabilities that enhance your primary role (e.g., SCORM testing, data analytics, wireframing).
+
 
 ### What is the difference between technical skills and domain skills?
 

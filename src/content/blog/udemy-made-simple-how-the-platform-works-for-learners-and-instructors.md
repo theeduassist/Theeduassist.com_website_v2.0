@@ -1,6 +1,6 @@
 ---
-title: "Udemy for Instructors: How Selling Courses Works (2026)"
-seoTitle: "Udemy for Instructors: How Selling Courses Works (2026)"
+title: "Udemy for Instructors: How Selling Courses Actually Works"
+seoTitle: "Udemy for Instructors: How Selling Courses Actually Works"
 slug: udemy-made-simple-how-the-platform-works-for-learners-and-instructors
 featured: false
 excerpt: Learn how Udemy works for learners and instructors, explore its
@@ -33,7 +33,7 @@ heroImageAlt: Online learning marketplace connecting instructors and learners
   through course creation, skill development, and flexible online education
 heroImageCaption: Online learning platforms connect instructors and learners
   through structured courses, flexible learning, and skill development.
-seoDescription: "How Udemy works for instructors in 2026: revenue sharing percentages, pricing strategies, organic marketplace reach, and instructor realities."
+seoDescription: "How Udemy works for course creators: instructor revenue splits, marketplace discounts, student expectations, and strategies for course profitability."
 focusKeyword: "how udemy works for instructors"
 secondaryKeywords:
   - "Udemy courses "

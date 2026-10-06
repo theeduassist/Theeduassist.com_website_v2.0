@@ -1,5 +1,5 @@
 ---
-title: "Corporate Training Simulations & Branching Scenarios (2026)"
+title: "Branching Scenarios: Designing Workplace Simulations"
 slug: "corporate-training-simulations"
 featured: false
 excerpt: "A comprehensive guide to designing corporate training simulations, branching scenarios, and interactive decision trees that drive real behavioral change."
@@ -18,8 +18,8 @@ updatedAt: 2026-10-05
 heroImage: /images/blog/branching-scenarios-training-simulations.jpg
 heroImageAlt: "Interactive branching scenario simulation dashboard on a corporate learning platform"
 heroImageCaption: "Building high-consequence decision trees and roleplay simulations for corporate training."
-seoTitle: "Corporate Training Simulations & Branching Scenarios (2026)"
-seoDescription: "Design high-retention corporate training simulations: branching scenarios, roleplay decision trees, risk-free learning, and measurable ROI."
+seoTitle: "Branching Scenarios: Designing Workplace Simulations"
+seoDescription: "Step-by-step guide to corporate training simulations: creating branching scenarios, decision trees, risk-free sandboxes, and behavioral training ROI."
 focusKeyword: "corporate training simulations"
 secondaryKeywords:
   - "branching scenarios in elearning"
