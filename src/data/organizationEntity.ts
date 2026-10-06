@@ -14,6 +14,8 @@ export const organizationEntity = {
   socialProfiles: [
     "https://www.linkedin.com/company/theeduassist",
     "https://www.instagram.com/theeduassist",
-    "https://www.facebook.com/people/Theeduassist/61576126813447/"
+    "https://www.facebook.com/people/Theeduassist/61576126813447/",
+    "https://github.com/theeduassist",
+    "https://x.com/theeduassist"
   ]
 };

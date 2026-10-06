@@ -5,11 +5,18 @@ export function organizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${organizationEntity.url}/#organization`,
     "name": organizationEntity.name,
+    "legalName": organizationEntity.legalName,
     "alternateName": organizationEntity.alternateName,
     "description": organizationEntity.description,
     "url": organizationEntity.url,
-    "logo": organizationEntity.logo,
+    "logo": {
+      "@type": "ImageObject",
+      "@id": `${organizationEntity.url}/#logo`,
+      "url": organizationEntity.logo,
+      "caption": organizationEntity.name
+    },
     "image": `${organizationEntity.url}/og/theeduassist-og-image.png`,
     "email": organizationEntity.contactPoint.email,
     "sameAs": organizationEntity.socialProfiles,
@@ -57,10 +64,14 @@ export function websiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${organizationEntity.url}/#website`,
     "name": organizationEntity.name,
     "alternateName": organizationEntity.alternateName,
     "url": organizationEntity.url,
     "description": organizationEntity.description,
+    "publisher": {
+      "@id": `${organizationEntity.url}/#organization`
+    },
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
@@ -76,8 +87,12 @@ export function professionalServiceSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
+    "@id": `${organizationEntity.url}/#service`,
     "name": organizationEntity.name,
     "url": organizationEntity.url,
+    "parentOrganization": {
+      "@id": `${organizationEntity.url}/#organization`
+    },
     "description": organizationEntity.description,
     "image": `${organizationEntity.url}/favicon-512x512.png`,
     "email": organizationEntity.contactPoint.email,
@@ -147,7 +162,9 @@ export function serviceSchema(name: string, description: string, urlPath: string
     "description": description,
     "provider": {
       "@type": "Organization",
-      "name": organizationEntity.name
+      "@id": `${organizationEntity.url}/#organization`,
+      "name": organizationEntity.name,
+      "url": organizationEntity.url
     },
     "url": buildCanonicalUrl(urlPath)
   };
@@ -215,6 +232,7 @@ export function governmentServiceSchema() {
     "serviceType": "Public Sector Custom eLearning & Accessibility Compliance",
     "provider": {
       "@type": "Organization",
+      "@id": `${organizationEntity.url}/#organization`,
       "name": organizationEntity.name,
       "url": organizationEntity.url
     },
@@ -268,6 +286,7 @@ export function higherEducationServiceSchema() {
     "serviceType": "University Course Development & LMS Engineering",
     "provider": {
       "@type": "Organization",
+      "@id": `${organizationEntity.url}/#organization`,
       "name": organizationEntity.name,
       "url": organizationEntity.url
     },
@@ -323,6 +342,7 @@ export function gccEnterpriseTrainingSchema() {
     "serviceType": "Enterprise Industrial Training & Bilingual Arabic/English L&D",
     "provider": {
       "@type": "Organization",
+      "@id": `${organizationEntity.url}/#organization`,
       "name": organizationEntity.name,
       "url": organizationEntity.url
     },
