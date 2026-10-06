@@ -111,6 +111,71 @@
   ],
   "redirects": [
     {
+      "source": "/cloud-computing-courses-guide/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/cloud-computing-courses-guide/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-affiliate-marketing-setup/",
+      "destination": "/blog/how-to-set-up-an-affiliate-program-on-kajabi-step-by-step/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ms-request-for-proposal-rfp-free-template-guide/",
+      "destination": "/blog/lms-request-for-proposal-rfp-free-template-complete-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/top-ai-skills-2025/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/top-ai-skills-2025/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/online-courses-kajabi-vs-thinkific-comparison-2025/",
+      "destination": "/blog/kajabi-vs-thinkific-vs-teachable/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/online-courses-kajabi-vs-thinkific-comparison-2025/",
+      "destination": "/blog/kajabi-vs-thinkific-vs-teachable/",
+      "permanent": true
+    },
+    {
+      "source": "/platforms/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/lms-implementation-guide/",
+      "destination": "/blog/lms-implementation-guide-steps-for-a-successful-launch/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/employee-training-lms-technology/",
+      "destination": "/blog/how-to-boost-employee-training-with-the-right-lms-technology/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/how-to-write-technical-skills-resume-2025/",
+      "destination": "/blog/primary-and-secondary-technical-domain-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-write-technical-skills-resume-2025/",
+      "destination": "/blog/primary-and-secondary-technical-domain-skills/",
+      "permanent": true
+    },
+    {
       "source": "/blog/corporate-training-software/",
       "destination": "/blog/corporate-training-software-9-keys-to-better-learning/",
       "permanent": true
