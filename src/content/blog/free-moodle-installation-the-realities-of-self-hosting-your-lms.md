@@ -15,7 +15,7 @@ tags:
 draft: false
 publishedAt: 2026-10-05
 updatedAt: 2026-10-05
-heroImage: /images/blog/moodle-elearning-lms.png
+heroImage: /images/blog/moodle-self-hosted-realities-guide.jpg
 heroImageAlt: "Server infrastructure and dashboard for free self-hosted Moodle LMS installation"
 heroImageCaption: "Evaluating the hidden infrastructure and maintenance realities behind free self-hosted Moodle deployments."
 seoTitle: "Free Moodle Installation: Realities of Self-Hosting an LMS"

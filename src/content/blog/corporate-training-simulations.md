@@ -15,7 +15,7 @@ tags:
 draft: false
 publishedAt: 2026-10-05
 updatedAt: 2026-10-05
-heroImage: /images/blog/interactive-video-lessons.png
+heroImage: /images/blog/branching-scenarios-training-simulations.jpg
 heroImageAlt: "Interactive branching scenario simulation dashboard on a corporate learning platform"
 heroImageCaption: "Building high-consequence decision trees and roleplay simulations for corporate training."
 seoTitle: "Corporate Training Simulations: Branching Scenarios Guide"

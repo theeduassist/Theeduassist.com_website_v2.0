@@ -15,7 +15,7 @@ tags:
 draft: false
 publishedAt: 2026-10-05
 updatedAt: 2026-10-05
-heroImage: /images/blog/skool-community-guide-hero.png
+heroImage: /images/blog/skool-vs-facebook-groups-course-creators.jpg
 heroImageAlt: "Comparison interface between Skool community dashboard and Facebook group for digital courses"
 heroImageCaption: "Comparing Skool and Facebook Groups on notification reach, learner engagement, and course completion."
 seoTitle: "Skool vs Facebook Groups: Best Choice for Course Creators"

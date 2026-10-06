@@ -15,7 +15,7 @@ tags:
 draft: false
 publishedAt: 2026-10-05
 updatedAt: 2026-10-05
-heroImage: /images/blog/corporate-elearning-trends.png
+heroImage: /images/blog/ai-powered-learning-employee-training.webp
 heroImageAlt: "Comparison between pre-built catalog courses and tailored custom e-learning modules"
 heroImageCaption: "Weighing speed, licensing costs, and organizational relevance in corporate training decisions."
 seoTitle: "Off-the-Shelf E-Learning: Is It Right for Your Company?"

@@ -15,7 +15,7 @@ tags:
 draft: false
 publishedAt: 2026-10-05
 updatedAt: 2026-10-05
-heroImage: /images/blog/learning-management-system-lms-tools-comparison-1.png
+heroImage: /images/blog/10-lms-compared-1.png
 heroImageAlt: "Architectural comparison diagram between Learning Management System LMS and Learning Experience Platform LXP"
 heroImageCaption: "Comparing top-down LMS compliance management with personalized, learner-driven LXP content discovery."
 seoTitle: "LXP vs LMS: Which Does Your Business Need in 2026?"
