@@ -111,6 +111,131 @@
   ],
   "redirects": [
     {
+      "source": "/ai-certification-for-teachers/",
+      "destination": "/blog/ai-certification-for-teachers/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-certification-for-teachers/",
+      "destination": "/blog/ai-certification-for-teachers/",
+      "permanent": true
+    },
+    {
+      "source": "/why-is-learning-important/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/why-is-learning-important/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/engineering-manager-ai-integration-future-skills/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/engineering-manager-ai-integration-future-skills/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-adoption-higher-education-leaders/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-adoption-higher-education-leaders/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-writing-tools-changing-teaching-new-york/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-writing-tools-changing-teaching-new-york/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/select-educational-career-with-technology/",
+      "destination": "/blog/select-educational-career-with-technology/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/select-educational-career-with-technology/",
+      "destination": "/blog/select-educational-career-with-technology/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-book-clubs-reading-skills/",
+      "destination": "/blog/virtual-book-clubs-reading-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/virtual-book-clubs-reading-skills/",
+      "destination": "/blog/virtual-book-clubs-reading-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/ideal-online-course-length-guide/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/ideal-online-course-length-guide/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-course-design/",
+      "destination": "/blog/kajabi-course-design-explained-how-to-create-online-course-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-blogging-strategy/",
+      "destination": "/blog/how-to-grow-organic-traffic-on-kajabi/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-conversion-optimization/",
+      "destination": "/blog/kajabi-conversion-optimization-best-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/moocs-in-2025-the-future-of-online-learning-it-education/",
+      "destination": "/blog/moocs-and-it-education-a-practical-guide-for-learners-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/moocs-in-2025-the-future-of-online-learning-it-education/",
+      "destination": "/blog/moocs-and-it-education-a-practical-guide-for-learners-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/best-learning-online-platform/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/best-learning-online-platform/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-is-learnworlds/",
+      "destination": "/blog/what-is-learnworlds-and-is-it-right-for-your-business/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-learning-management-systems/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
       "source": "/free-ai-tools-to-improve-communication-skills-2025/",
       "destination": "/blog/free-ai-tools-to-improve-communication-skills-2025/",
       "permanent": true
@@ -313,7 +438,7 @@
     },
     {
       "source": "/blog/7-powerful-kajabi-course-creation-services/",
-      "destination": "/kajabi-services/",
+      "destination": "/blog/7-powerful-kajabi-course-creation-services-that-skyrocket-sales/",
       "permanent": true
     },
     {
