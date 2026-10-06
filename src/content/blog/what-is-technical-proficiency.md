@@ -123,6 +123,9 @@ Whether you are evaluating job candidates, preparing a resume, or building an [e
 
 > **Technical proficiency** is the demonstrated, practical ability to effectively apply specialized knowledge, software applications, digital tools, and operational methodologies to complete workplace tasks, solve complex technical challenges, and drive measurable performance outcomes within a specific professional domain.
 
+> [!TIP]
+> **Developing Workplace Technical Capabilities?** If your organization is upgrading employee proficiencies or modernizing legacy training materials into interactive digital modules, explore TheEduAssist's [Custom eLearning Development Services](/services/custom-elearning-development/) or schedule a [24–48 Hour Course Review](/book-free-audit/).
+
 Unlike general theoretical knowledge, technical proficiency requires hands-on execution. A learner may understand the concept of digital instruction theoretically, but demonstrating technical proficiency means actively configuring SCORM-compliant modules, scripting automated email sequences in Kajabi, or architecting a multi-tenant cloud LMS without friction.
 
 ### The 4 Pillars of True Technical Proficiency

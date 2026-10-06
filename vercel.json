@@ -903,13 +903,28 @@
       "permanent": true
     },
     {
+      "source": "/custom-elearning-content-development",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
       "source": "/custom-elearning-content-development/",
-      "destination": "/services/course-development/",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-learning-solutions",
+      "destination": "/services/custom-elearning-development/",
       "permanent": true
     },
     {
       "source": "/mobile-learning-solutions/",
-      "destination": "/services/course-development/",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/elearninglocalization-services",
+      "destination": "/services/course-localization-translation/",
       "permanent": true
     },
     {
@@ -918,13 +933,23 @@
       "permanent": true
     },
     {
+      "source": "/lms-integration-migration-services",
+      "destination": "/services/lms-implementation-migration/",
+      "permanent": true
+    },
+    {
       "source": "/lms-integration-migration-services/",
       "destination": "/services/lms-implementation-migration/",
       "permanent": true
     },
     {
+      "source": "/rapid-elearning-development-services",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
       "source": "/rapid-elearning-development-services/",
-      "destination": "/services/course-development/",
+      "destination": "/services/custom-elearning-development/",
       "permanent": true
     },
     {

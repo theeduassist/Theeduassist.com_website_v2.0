@@ -107,6 +107,9 @@ editorialManagement:
 
 SaaS curriculum development is the structured process of building training that helps users, employees, and partners understand and effectively use Software as a Service (SaaS) products. Unlike traditional training, SaaS curriculum development is built around continuous learning, rapid updates, and hands on practice, an approach [TheEduAssist](https://www.theeduassist.com) specializes in for growing SaaS teams.
 
+> [!IMPORTANT]
+> **Need an Expert SaaS Curriculum Partner?** TheEduAssist designs custom software onboarding, customer academy curricula, and interactive microlearning modules. Explore our [Instructional Design Services](/services/instructional-design/) and [Custom eLearning Development](/services/custom-elearning-development/) to scale user adoption.
+
 ## **What a Seasoned SaaS Curriculum Designer Does**
 
 A SaaS curriculum designer does far more than create training materials. Their learning systems are built to solve real business problems.
