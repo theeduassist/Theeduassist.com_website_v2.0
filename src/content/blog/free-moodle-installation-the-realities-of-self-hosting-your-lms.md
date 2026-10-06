@@ -154,3 +154,7 @@ If your primary objective is to launch high-converting courses, deliver employee
 Before committing time and capital to an unmanaged Moodle installation, calculate the true cost of administrative hours, cloud server bills, and emergency technical support. A platform is only as valuable as the learning experience it delivers to your participants.
 
 If your team is evaluating whether to deploy Moodle, migrate off an unmanaged server, or select a modern cloud LMS, TheEduAssist provides architecture reviews and implementation guidance to ensure your training infrastructure scales cleanly.
+
+
+> [!IMPORTANT]
+> **Tired of managing server maintenance and plugin breakages?** Explore our [LMS implementation and migration services](/services/lms-implementation-migration/) to transition your self-hosted Moodle instance to a modern cloud LMS without losing student records.

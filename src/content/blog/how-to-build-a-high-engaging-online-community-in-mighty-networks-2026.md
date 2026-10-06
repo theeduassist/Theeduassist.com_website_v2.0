@@ -1,5 +1,5 @@
 ---
-title: How to Build a High-Engaging Online Community in Mighty Networks (2026)?
+title: "Mighty Networks: How to Build an Active Community (2026)"
 slug: how-to-build-a-high-engaging-online-community-in-mighty-networks-2026
 featured: false
 excerpt: Learn how to build a high-engaging online community in Mighty Networks
@@ -28,11 +28,9 @@ heroImageAlt: Mighty Networks community building guide showing an online
 heroImageCaption: Ready to build a more engaging online community? Explore
   practical Mighty Networks strategies for connecting members, boosting
   engagement, and growing your community in 2026.
-seoTitle: How to Build a High-Engaging Mighty Networks Community in 2026
-seoDescription: Learn how to build an engaging Mighty Networks community in 2026
-  with practical strategies for onboarding, engagement, events, retention,
-  analytics, and growth.
-focusKeyword: build-high-engaging-online-community-mighty-networks
+seoTitle: "Mighty Networks: How to Build an Active Community (2026)"
+seoDescription: "Step-by-step guide to building a high-engagement online community in Mighty Networks in 2026: spaces, native course hosting, and retention."
+focusKeyword: "mighty networks community"
 secondaryKeywords:
   - how to build a Mighty Networks community
   - Mighty Networks community engagement
