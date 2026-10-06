@@ -18,8 +18,8 @@ updatedAt: 2026-10-05
 heroImage: /images/blog/moodle-self-hosted-realities-guide.jpg
 heroImageAlt: "Server infrastructure and dashboard for free self-hosted Moodle LMS installation"
 heroImageCaption: "Evaluating the hidden infrastructure and maintenance realities behind free self-hosted Moodle deployments."
-seoTitle: "Free Moodle Installation: Realities of Self-Hosting an LMS"
-seoDescription: "Explore the true costs, server requirements, security updates, and maintenance realities of a free self-hosted Moodle LMS."
+seoTitle: "Free Moodle Installation: The Hidden Costs of Self-Hosting (2026)"
+seoDescription: "Is a free Moodle LMS really free? Explore the true hosting costs, server requirements, maintenance overhead, and security risks of self-hosting in 2026."
 focusKeyword: "free moodle installation"
 secondaryKeywords:
   - "self hosted moodle"

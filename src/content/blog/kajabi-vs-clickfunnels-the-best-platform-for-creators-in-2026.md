@@ -35,10 +35,8 @@ heroImageAlt: Kajabi vs ClickFunnels comparison showing course creation, sales
   funnels, email marketing, automation, pricing, and integrations.
 heroImageCaption: Kajabi vs ClickFunnels comparison covering course creation,
   sales funnels, email marketing, automation, pricing, and integrations.
-seoTitle: "Kajabi vs ClickFunnels for Creators in 2026"
-seoDescription: Compare Kajabi vs ClickFunnels in 2026, including features,
-  pricing, funnels, email marketing, automation, integrations, and course
-  hosting.
+seoTitle: "Kajabi vs ClickFunnels [2026 Review]: Which Platform Wins?"
+seoDescription: "Compare Kajabi vs ClickFunnels for course delivery, checkout conversions, sales funnels, and pricing. See which platform is right for your online business in 2026."
 focusKeyword: Kajabi vs ClickFunnels
 secondaryKeywords:
   - Kajabi vs ClickFunnels 2026

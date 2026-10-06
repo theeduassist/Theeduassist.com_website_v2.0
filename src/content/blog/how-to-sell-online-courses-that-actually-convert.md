@@ -30,9 +30,8 @@ heroImageAlt: Infographic illustrating the 2026 master guide for selling online
 heroImageCaption: Infographic outlining the essential steps and marketing
   funnels needed to successfully sell online courses and scale your digital
   business.
-seoTitle: How to Sell Online Courses That Actually Convert
-seoDescription: Learn how to sell online courses with a 5-step strategy covering
-  market research, course transformation, sales funnels, hooks, and conversions.
+seoTitle: "How to Sell Online Courses [2026 High-Converting Blueprint]"
+seoDescription: "Learn how to sell online courses with a proven 5-step framework. Build high-converting curriculum, persuasive hooks, and automated funnels that turn leads into buyers."
 focusKeyword: how to sell online courses
 secondaryKeywords:
   - sell online courses
