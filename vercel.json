@@ -111,6 +111,76 @@
   ],
   "redirects": [
     {
+      "source": "/free-ai-tools-to-improve-communication-skills-2025/",
+      "destination": "/blog/free-ai-tools-to-improve-communication-skills-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/free-ai-tools-to-improve-communication-skills-2025/",
+      "destination": "/blog/free-ai-tools-to-improve-communication-skills-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/non-technical-skills-career-success/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/non-technical-skills-career-success/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/ultimate-moocs-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/ultimate-moocs-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/education-or-experience-first-on-resume/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/education-or-experience-first-on-resume/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/digital-flashcards-for-vocabulary-building/",
+      "destination": "/blog/digital-flashcards-for-vocabulary-building/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/digital-flashcards-for-vocabulary-building/",
+      "destination": "/blog/digital-flashcards-for-vocabulary-building/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/gamify-skool-courses-theeduassist/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/gamify-skool-courses-theeduassist/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/gamified-skool-courses-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/gamified-skool-courses-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
       "source": "/robots.txt/",
       "destination": "/robots.txt",
       "permanent": true
@@ -122,68 +192,18 @@
     },
     {
       "source": "/",
+      "destination": "https://www.theeduassist.com/",
+      "permanent": true,
       "has": [
         {
           "type": "host",
           "value": "theeduassist.com"
         }
-      ],
-      "destination": "https://www.theeduassist.com/",
-      "permanent": true
-    },
-    {
-      "source": "/tag/(.*)",
-      "destination": "/blog/",
-      "permanent": true
-    },
-    {
-      "source": "/category/(.*)",
-      "destination": "/blog/",
-      "permanent": true
-    },
-    {
-      "source": "/uncategorized/(.*)",
-      "destination": "/blog/",
-      "permanent": true
-    },
-    {
-      "source": "/author/(.*)",
-      "destination": "/about-us/",
-      "permanent": true
-    },
-    {
-      "source": "/job-(.*)",
-      "destination": "/careers/",
-      "permanent": true
-    },
-    {
-      "source": "/jobs/(.*)",
-      "destination": "/careers/",
-      "permanent": true
-    },
-    {
-      "source": "/product/(.*)",
-      "destination": "/services/",
-      "permanent": true
-    },
-    {
-      "source": "/product-category/(.*)",
-      "destination": "/services/",
-      "permanent": true
-    },
-    {
-      "source": "/shop",
-      "destination": "/services/",
-      "permanent": true
+      ]
     },
     {
       "source": "/shop/",
       "destination": "/services/",
-      "permanent": true
-    },
-    {
-      "source": "/checkout",
-      "destination": "/contact-us/",
       "permanent": true
     },
     {
@@ -192,17 +212,7 @@
       "permanent": true
     },
     {
-      "source": "/career",
-      "destination": "/careers/",
-      "permanent": true
-    },
-    {
       "source": "/career/",
-      "destination": "/careers/",
-      "permanent": true
-    },
-    {
-      "source": "/job-openings",
       "destination": "/careers/",
       "permanent": true
     },
@@ -212,12 +222,12 @@
       "permanent": true
     },
     {
-      "source": "/training-solutions",
+      "source": "/training-solutions/",
       "destination": "/services/",
       "permanent": true
     },
     {
-      "source": "/terms-conditions",
+      "source": "/terms-conditions/",
       "destination": "/terms-and-conditions/",
       "permanent": true
     },
@@ -227,18 +237,8 @@
       "permanent": true
     },
     {
-      "source": "/dashboard-and-analytics",
-      "destination": "/services/",
-      "permanent": true
-    },
-    {
       "source": "/dashboard-and-analytics/",
       "destination": "/services/",
-      "permanent": true
-    },
-    {
-      "source": "/induction-onboarding-training",
-      "destination": "/services/course-development/",
       "permanent": true
     },
     {
@@ -247,43 +247,8 @@
       "permanent": true
     },
     {
-      "source": "/locations/s-o-paulo-elearning-development",
-      "destination": "/locations/sao-paulo-elearning-development/",
-      "permanent": true
-    },
-    {
       "source": "/locations/s-o-paulo-elearning-development/",
       "destination": "/locations/sao-paulo-elearning-development/",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)/feed",
-      "destination": "/rss.xml",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)/feed/",
-      "destination": "/rss.xml",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)/embed",
-      "destination": "/$1/",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)/embed/",
-      "destination": "/$1/",
-      "permanent": true
-    },
-    {
-      "source": "/(.*)-sitemap.xml",
-      "destination": "/sitemap.xml",
-      "permanent": true
-    },
-    {
-      "source": "/blog/is-synthesia-worth-it-in-2026",
-      "destination": "/blog/is-synthesia-worth-it-in-2026-roi-costs-genuine-verdict/",
       "permanent": true
     },
     {
@@ -292,18 +257,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/how-to-use-kajabi-gamification-in-2026",
-      "destination": "/blog/how-to-use-kajabi-gamification-in-2026-boost-learner-motivation-and-community-engagement-fast/",
-      "permanent": true
-    },
-    {
       "source": "/blog/how-to-use-kajabi-gamification-in-2026/",
       "destination": "/blog/how-to-use-kajabi-gamification-in-2026-boost-learner-motivation-and-community-engagement-fast/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/what-is-ferpa",
-      "destination": "/blog/education-data-privacy-laws-ferpa-s-role-in-a-data-driven-world/",
       "permanent": true
     },
     {
@@ -312,17 +267,7 @@
       "permanent": true
     },
     {
-      "source": "/blog/kajabi-templates",
-      "destination": "/blog/kajabi-templates-explained-types-benefits-uses-and-how-to-choose-the-right-one/",
-      "permanent": true
-    },
-    {
       "source": "/blog/kajabi-templates/",
-      "destination": "/blog/kajabi-templates-explained-types-benefits-uses-and-how-to-choose-the-right-one/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/kajabi-course-templates",
       "destination": "/blog/kajabi-templates-explained-types-benefits-uses-and-how-to-choose-the-right-one/",
       "permanent": true
     },
@@ -332,18 +277,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/kajabi-ai-features-in-2026",
-      "destination": "/blog/kajabi-ai-features-in-2026-what-s-new-and-how-they-improve-course-creation/",
-      "permanent": true
-    },
-    {
       "source": "/blog/kajabi-ai-features-in-2026/",
       "destination": "/blog/kajabi-ai-features-in-2026-what-s-new-and-how-they-improve-course-creation/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/lms-vr-integration",
-      "destination": "/blog/how-to-master-lms-vr-integration-a-proven-roadmap/",
       "permanent": true
     },
     {
@@ -352,18 +287,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/is-podia-good-for-beginners",
-      "destination": "/blog/is-podia-good-for-beginners-starting-an-online-business-assessing-ease-of-use-for-new-users/",
-      "permanent": true
-    },
-    {
       "source": "/blog/is-podia-good-for-beginners/",
       "destination": "/blog/is-podia-good-for-beginners-starting-an-online-business-assessing-ease-of-use-for-new-users/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/podia-vs-teachable",
-      "destination": "/blog/podia-vs-teachable-which-platform-should-you-choose-in-2026/",
       "permanent": true
     },
     {
@@ -372,18 +297,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/ai-upskilling-strategy",
-      "destination": "/blog/how-to-build-a-future-proof-ai-upskilling-strategy-in-2026/",
-      "permanent": true
-    },
-    {
       "source": "/blog/ai-upskilling-strategy/",
       "destination": "/blog/how-to-build-a-future-proof-ai-upskilling-strategy-in-2026/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/kajabi-drip-course-setup",
-      "destination": "/kajabi-services/",
       "permanent": true
     },
     {
@@ -392,27 +307,12 @@
       "permanent": true
     },
     {
-      "source": "/blog/kajabi-website-funnel-services",
-      "destination": "/kajabi-services/",
-      "permanent": true
-    },
-    {
       "source": "/blog/kajabi-website-funnel-services/",
-      "destination": "/kajabi-services/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/7-powerful-kajabi-course-creation-services",
-      "destination": "/kajabi-services/",
+      "destination": "/blog/best-kajabi-website-and-funnel-setup-services-for-2026-growth/",
       "permanent": true
     },
     {
       "source": "/blog/7-powerful-kajabi-course-creation-services/",
-      "destination": "/kajabi-services/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/7-powerful-kajabi-course-creation-services-to-skyrocket-sales",
       "destination": "/kajabi-services/",
       "permanent": true
     },
@@ -422,23 +322,13 @@
       "permanent": true
     },
     {
-      "source": "/blog/kajabi-email-campaigns",
-      "destination": "/blog/kajabi-email-marketing-funnels-for-better-course-sales/",
-      "permanent": true
-    },
-    {
       "source": "/blog/kajabi-email-campaigns/",
       "destination": "/blog/kajabi-email-marketing-funnels-for-better-course-sales/",
       "permanent": true
     },
     {
-      "source": "/blog/kajabi-emails-campaigns",
-      "destination": "/blog/kajabi-email-marketing-funnels-for-better-course-sales/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/kajabi-keyword-research",
-      "destination": "/blog/kajabi-keyword-research-for-higher-rankings/",
+      "source": "/blog/kajabi-emails-campaigns/",
+      "destination": "/blog/how-to-run-kajabi-email-campaigns-successfully/",
       "permanent": true
     },
     {
@@ -447,18 +337,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/teachable-alternatives",
-      "destination": "/blog/udemy-vs-teachable-the-ultimate-guide-for-course-creators-in-2026/",
-      "permanent": true
-    },
-    {
       "source": "/blog/teachable-alternatives/",
       "destination": "/blog/udemy-vs-teachable-the-ultimate-guide-for-course-creators-in-2026/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/is-adobe-captivate-worth-the-cost",
-      "destination": "/blog/is-adobe-captivate-worth-the-cost-full-pricing-alternatives-breakdown/",
       "permanent": true
     },
     {
@@ -467,27 +347,12 @@
       "permanent": true
     },
     {
-      "source": "/blog/kajabi-vs-clickfunnels",
-      "destination": "/blog/kajabi-vs-clickfunnels-the-best-platform-for-creators-in-2026/",
-      "permanent": true
-    },
-    {
       "source": "/blog/kajabi-vs-clickfunnels/",
       "destination": "/blog/kajabi-vs-clickfunnels-the-best-platform-for-creators-in-2026/",
       "permanent": true
     },
     {
-      "source": "/blog/undefined",
-      "destination": "/blog/",
-      "permanent": true
-    },
-    {
       "source": "/blog/undefined/",
-      "destination": "/blog/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/__trashed",
       "destination": "/blog/",
       "permanent": true
     },
@@ -497,18 +362,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/test-post",
-      "destination": "/blog/",
-      "permanent": true
-    },
-    {
       "source": "/blog/test-post/",
       "destination": "/blog/",
-      "permanent": true
-    },
-    {
-      "source": "/home",
-      "destination": "https://www.theeduassist.com/",
       "permanent": true
     },
     {
@@ -517,28 +372,7 @@
       "permanent": true
     },
     {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "theeduassist.com"
-        }
-      ],
-      "destination": "https://www.theeduassist.com/$1",
-      "permanent": true
-    },
-    {
-      "source": "/locations/chengdu-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/chengdu-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/shenzhen-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -548,17 +382,7 @@
       "permanent": true
     },
     {
-      "source": "/locations/guangzhou-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/guangzhou-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/wuhan-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -568,17 +392,7 @@
       "permanent": true
     },
     {
-      "source": "/locations/xian-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/xian-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/nanjing-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -588,17 +402,7 @@
       "permanent": true
     },
     {
-      "source": "/locations/hangzhou-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/hangzhou-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/tianjin-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -608,17 +412,7 @@
       "permanent": true
     },
     {
-      "source": "/locations/chongqing-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/chongqing-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/harbin-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -628,17 +422,7 @@
       "permanent": true
     },
     {
-      "source": "/locations/shenyang-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/shenyang-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/qingdao-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -648,17 +432,7 @@
       "permanent": true
     },
     {
-      "source": "/locations/zhengzhou-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/zhengzhou-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/kunming-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -668,17 +442,7 @@
       "permanent": true
     },
     {
-      "source": "/locations/xiamen-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/xiamen-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/fuzhou-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -688,17 +452,7 @@
       "permanent": true
     },
     {
-      "source": "/locations/nanchang-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/nanchang-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/hefei-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -708,17 +462,7 @@
       "permanent": true
     },
     {
-      "source": "/locations/jinan-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/jinan-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/changsha-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -728,17 +472,7 @@
       "permanent": true
     },
     {
-      "source": "/locations/urumqi-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/urumqi-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/nanning-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -748,17 +482,7 @@
       "permanent": true
     },
     {
-      "source": "/locations/guiyang-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/guiyang-elearning-development/",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/haikou-elearning-development",
       "destination": "/locations/",
       "permanent": true
     },
@@ -768,18 +492,8 @@
       "permanent": true
     },
     {
-      "source": "/locations/sanya-elearning-development",
-      "destination": "/locations/",
-      "permanent": true
-    },
-    {
       "source": "/locations/sanya-elearning-development/",
       "destination": "/locations/",
-      "permanent": true
-    },
-    {
-      "source": "/resources/global-elearning/china",
-      "destination": "/resources/global-elearning/",
       "permanent": true
     },
     {
@@ -790,11 +504,6 @@
     {
       "source": "/contact/",
       "destination": "/contact-us/",
-      "permanent": true
-    },
-    {
-      "source": "/locations/lanzhou-elearning-development",
-      "destination": "/locations/",
       "permanent": true
     },
     {
@@ -823,27 +532,7 @@
       "permanent": true
     },
     {
-      "source": "/newsletter/(.*)",
-      "destination": "/blog/",
-      "permanent": true
-    },
-    {
       "source": "/social",
-      "destination": "/contact-us/",
-      "permanent": true
-    },
-    {
-      "source": "/accounts(.*)",
-      "destination": "/contact-us/",
-      "permanent": true
-    },
-    {
-      "source": "/users(.*)",
-      "destination": "/contact-us/",
-      "permanent": true
-    },
-    {
-      "source": "/email/(.*)",
       "destination": "/contact-us/",
       "permanent": true
     },
@@ -851,41 +540,6 @@
       "source": "/preview/about-us-train-me-rto-organization",
       "destination": "/case-studies/",
       "permanent": true
-    },
-    {
-      "source": "/wp-admin(.*)",
-      "destination": "/404",
-      "permanent": false
-    },
-    {
-      "source": "/wp-login.php(.*)",
-      "destination": "/404",
-      "permanent": false
-    },
-    {
-      "source": "/xmlrpc.php(.*)",
-      "destination": "/404",
-      "permanent": false
-    },
-    {
-      "source": "/.env(.*)",
-      "destination": "/404",
-      "permanent": false
-    },
-    {
-      "source": "/.git(.*)",
-      "destination": "/404",
-      "permanent": false
-    },
-    {
-      "source": "/phpmyadmin(.*)",
-      "destination": "/404",
-      "permanent": false
-    },
-    {
-      "source": "/adminer(.*)",
-      "destination": "/404",
-      "permanent": false
     },
     {
       "source": "/blog/kajabi-digital-product-creation/",
@@ -923,8 +577,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/learndash-scorm-for-enterprise-tracking/",
-      "destination": "/services/lms-implementation-migration/",
+      "source": "/blog/learndash-scorm-for-enterprise-tracking",
+      "destination": "/blog/how-to-use-learndash-scorm-for-enterprise-tracking/",
       "permanent": true
     },
     {
@@ -933,8 +587,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/learndash-vs-kajabi/",
-      "destination": "/blog/learnworlds-vs-kajabi-lms-which-platform-is-best-for-course-creators-and-learners/",
+      "source": "/blog/learndash-vs-kajabi",
+      "destination": "/blog/learndash-vs-kajabi-which-platform-should-you-choose/",
       "permanent": true
     },
     {
@@ -943,17 +597,7 @@
       "permanent": true
     },
     {
-      "source": "/custom-elearning-content-development",
-      "destination": "/services/custom-elearning-development/",
-      "permanent": true
-    },
-    {
       "source": "/custom-elearning-content-development/",
-      "destination": "/services/custom-elearning-development/",
-      "permanent": true
-    },
-    {
-      "source": "/mobile-learning-solutions",
       "destination": "/services/custom-elearning-development/",
       "permanent": true
     },
@@ -963,28 +607,13 @@
       "permanent": true
     },
     {
-      "source": "/elearninglocalization-services",
-      "destination": "/services/course-localization-translation/",
-      "permanent": true
-    },
-    {
       "source": "/elearninglocalization-services/",
       "destination": "/services/course-localization-translation/",
       "permanent": true
     },
     {
-      "source": "/lms-integration-migration-services",
-      "destination": "/services/lms-implementation-migration/",
-      "permanent": true
-    },
-    {
       "source": "/lms-integration-migration-services/",
       "destination": "/services/lms-implementation-migration/",
-      "permanent": true
-    },
-    {
-      "source": "/rapid-elearning-development-services",
-      "destination": "/services/custom-elearning-development/",
       "permanent": true
     },
     {
@@ -1029,12 +658,12 @@
     },
     {
       "source": "/mobile-apps-for-math-problem-solving-practice-in-2025/",
-      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
       "permanent": true
     },
     {
       "source": "/2025/07/mobile-apps-for-math-problem-solving-practice/",
-      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
       "permanent": true
     },
     {
@@ -1050,11 +679,6 @@
     {
       "source": "/uncategorized/ai-powered-learning-a-smarter-way-to-train-and-upskill-employees/",
       "destination": "/services/ai-powered-elearning/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/kajabi-emails-campaigns/",
-      "destination": "/services/funnels-automation/",
       "permanent": true
     },
     {
@@ -1094,7 +718,7 @@
     },
     {
       "source": "/uncategorized/kajabi-crm-integration/",
-      "destination": "/kajabi-services/",
+      "destination": "/blog/best-ways-to-link-your-crm-to-kajabi-right-now/",
       "permanent": true
     },
     {
@@ -1109,22 +733,17 @@
     },
     {
       "source": "/sales-training/",
-      "destination": "/enterprise-solutions/workforce-upskilling/",
+      "destination": "/services/custom-elearning-development/",
       "permanent": true
     },
     {
       "source": "/customer-service-training/",
-      "destination": "/enterprise-solutions/customer-education/",
-      "permanent": true
-    },
-    {
-      "source": "/training-solutions/",
       "destination": "/services/custom-elearning-development/",
       "permanent": true
     },
     {
       "source": "/field-frontline-staff-training/",
-      "destination": "/enterprise-solutions/employee-onboarding/",
+      "destination": "/services/managed-learning/",
       "permanent": true
     },
     {
@@ -1153,18 +772,13 @@
       "permanent": true
     },
     {
-      "source": "/terms-conditions/",
-      "destination": "/terms-and-conditions/",
-      "permanent": true
-    },
-    {
       "source": "/kajabi-funnel-setup-services/",
       "destination": "/services/funnels-automation/",
       "permanent": true
     },
     {
       "source": "/kajabi-course-setup-services/",
-      "destination": "/services/course-development/",
+      "destination": "/services/funnels-automation/",
       "permanent": true
     },
     {
@@ -1213,18 +827,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/kajabi-membership-sites-development/",
-      "destination": "/blog/kajabi-membership-sites-what-are-the-best-practices/",
-      "permanent": true
-    },
-    {
       "source": "/blog/kajabi-membership-sites-development",
       "destination": "/blog/kajabi-membership-sites-what-are-the-best-practices/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/best-learning-management-system-lms-for-2026/",
-      "destination": "/blog/10-best-learning-management-systems-compared/",
       "permanent": true
     },
     {
@@ -1233,18 +837,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/kajabi-email-marketing-funnels/",
-      "destination": "/blog/kajabi-email-marketing-funnels-for-better-course-sales/",
-      "permanent": true
-    },
-    {
       "source": "/blog/kajabi-email-marketing-funnels",
       "destination": "/blog/kajabi-email-marketing-funnels-for-better-course-sales/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-guide/",
-      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
       "permanent": true
     },
     {
@@ -1253,18 +847,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/udemy-vs-teachable-guide-for-course-creators/",
-      "destination": "/blog/udemy-vs-teachable-the-ultimate-guide-for-course-creators-in-2026/",
-      "permanent": true
-    },
-    {
       "source": "/blog/udemy-vs-teachable-guide-for-course-creators",
       "destination": "/blog/udemy-vs-teachable-the-ultimate-guide-for-course-creators-in-2026/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/kajabi-landing-page-design/",
-      "destination": "/blog/how-to-optimize-your-kajabi-landing-page-for-conversions/",
       "permanent": true
     },
     {
@@ -1273,18 +857,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/thrilling-thinkific-courses-that-learners-of-us-actually-complete/",
-      "destination": "/blog/thinkific-courses-that-learners-of-us-actually-complete/",
-      "permanent": true
-    },
-    {
       "source": "/blog/thrilling-thinkific-courses-that-learners-of-us-actually-complete",
       "destination": "/blog/thinkific-courses-that-learners-of-us-actually-complete/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/systeme-io-funnel-7-proven-steps-to-launch-a-stunning-funnel/",
-      "destination": "/blog/systemeio-funnel-7-proven-steps-to-launch-a-stunning-funnel/",
       "permanent": true
     },
     {
@@ -1293,18 +867,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/kajabi-course-upload-services/",
-      "destination": "/blog/7-common-mistakes-in-kajabi-course-uploading-to-avoid/",
-      "permanent": true
-    },
-    {
       "source": "/blog/kajabi-course-upload-services",
       "destination": "/blog/7-common-mistakes-in-kajabi-course-uploading-to-avoid/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026-teachable-guide-how-to-build-sell-online-courses-as-a-california-creator/",
-      "destination": "/blog/teachable-guide-how-to-build-sell-online-courses-as-a-california-creator/",
       "permanent": true
     },
     {
@@ -1313,18 +877,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/how-to-build-and-manage-a-high-engagement-skool-community-complete-2026-blueprint/",
-      "destination": "/blog/skool-community-growth-2026-blueprint-for-high-engagement/",
-      "permanent": true
-    },
-    {
       "source": "/blog/how-to-build-and-manage-a-high-engagement-skool-community-complete-2026-blueprint",
       "destination": "/blog/skool-community-growth-2026-blueprint-for-high-engagement/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/can-synthesia-replace-your-video-production-team-in-2026/",
-      "destination": "/blog/can-synthesia-replace-your-video-production-team-in-2026-ultimate-guide/",
       "permanent": true
     },
     {
@@ -1333,18 +887,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/kajabi-checkout-page-optimization/",
-      "destination": "/blog/kajabi-checkout-optimization-increase-course-sales-without-more-traffic/",
-      "permanent": true
-    },
-    {
       "source": "/blog/kajabi-checkout-page-optimization",
       "destination": "/blog/kajabi-checkout-optimization-increase-course-sales-without-more-traffic/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/thrilled-elearning-videos-for-students-teachers-who-actually-love/",
-      "destination": "/blog/e-learning-videos-for-students-and-teachers-who-actually-love/",
       "permanent": true
     },
     {
@@ -1353,18 +897,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/is-absorb-lms-right-for-small-businessthe-strong-eduassist-guide/",
-      "destination": "/blog/is-absorb-lms-right-for-small-business-the-strong-eduassist-guide/",
-      "permanent": true
-    },
-    {
       "source": "/blog/is-absorb-lms-right-for-small-businessthe-strong-eduassist-guide",
       "destination": "/blog/is-absorb-lms-right-for-small-business-the-strong-eduassist-guide/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-designpart-1/",
-      "destination": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-design-part-1/",
       "permanent": true
     },
     {
@@ -1373,18 +907,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-designpart-2/",
-      "destination": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-design-part-2/",
-      "permanent": true
-    },
-    {
       "source": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-designpart-2",
       "destination": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-design-part-2/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/how-to-launch-a-kajabi-online-course-in-florida-best-practices-for-video-editing-and-e-learning-course-creation/",
-      "destination": "/blog/launching-kajabi-online-course-in-florida-best-guide-for-video-editing-and-e-learning-course-creation/",
       "permanent": true
     },
     {
@@ -1393,18 +917,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/migrate-teachable-to-learndash/",
-      "destination": "/blog/how-to-migrate-teachable-to-learndash-a-step-by-step-guide/",
-      "permanent": true
-    },
-    {
       "source": "/blog/migrate-teachable-to-learndash",
       "destination": "/blog/how-to-migrate-teachable-to-learndash-a-step-by-step-guide/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/guide-for-creating-an-n8n-automation-online-course-2026-in-florida/",
-      "destination": "/blog/n8n-automation-course-creation-opportunity-for-creators-in-florida/",
       "permanent": true
     },
     {
@@ -1413,18 +927,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/ultimate-thrilling-canva-development-and-design-support-that-sell/",
-      "destination": "/blog/ultimate-canva-development-and-design-support-that-sell/",
-      "permanent": true
-    },
-    {
       "source": "/blog/ultimate-thrilling-canva-development-and-design-support-that-sell",
       "destination": "/blog/ultimate-canva-development-and-design-support-that-sell/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/how-to-create-an-ai-elearning-course-that-sells-2026-ultimate-guide-for-new-creators-in-new-york/",
-      "destination": "/blog/create-ai-elearning-courses-that-sell-2026-ultimate-guide-for-new-creators-in-new-york/",
       "permanent": true
     },
     {
@@ -1433,18 +937,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/instructional-design-strategies-for-course-creation-for-real-estate-investors-in-new-york/",
-      "destination": "/blog/make-profit-with-real-estate-courses-ultimate-design-guide-for-realtors-in-new-york/",
-      "permanent": true
-    },
-    {
       "source": "/blog/instructional-design-strategies-for-course-creation-for-real-estate-investors-in-new-york",
       "destination": "/blog/make-profit-with-real-estate-courses-ultimate-design-guide-for-realtors-in-new-york/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/creating-interactive-elearning-videos-with-pre-recorded-voiceovers-a-guide-for-edtech-startups-in-new-york/",
-      "destination": "/blog/guide-to-turn-pre-recorded-voiceovers-into-interactive-elearning-content-and-video-roadmap-for-edtech-startups-in-new-york/",
       "permanent": true
     },
     {
@@ -1453,18 +947,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/create-leadership-training-program-in-florida-kajabi-2026/",
-      "destination": "/blog/the-ultimate-6-step-kajabi-blueprint-for-building-a-leadership-training-program-in-florida/",
-      "permanent": true
-    },
-    {
       "source": "/blog/create-leadership-training-program-in-florida-kajabi-2026",
       "destination": "/blog/the-ultimate-6-step-kajabi-blueprint-for-building-a-leadership-training-program-in-florida/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/guide-for-interactive-elearning-course-2026-florida-creators/",
-      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
       "permanent": true
     },
     {
@@ -1473,28 +957,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/learndash-scorm-for-enterprise-tracking",
-      "destination": "/blog/how-to-use-learndash-scorm-for-enterprise-tracking/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/learndash-vs-kajabi",
-      "destination": "/blog/learndash-vs-kajabi-which-platform-should-you-choose/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/how-to-launch-a-6-week-online-course-on-a-new-lms-step-by-step-setup-guide-for-texas-creators/",
-      "destination": "/blog/clear-roadmap-to-launch-6-week-online-course-on-new-lms-in-texas/",
-      "permanent": true
-    },
-    {
       "source": "/blog/how-to-launch-a-6-week-online-course-on-a-new-lms-step-by-step-setup-guide-for-texas-creators",
       "destination": "/blog/clear-roadmap-to-launch-6-week-online-course-on-new-lms-in-texas/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/how-to-become-a-training-coordinator-in-2026-content-and-lms-management-guide-for-course-creators-in-texas/",
-      "destination": "/blog/learn-to-become-a-training-coordinator-in-texas-quick-guide-for-course-creators/",
       "permanent": true
     },
     {
@@ -1503,18 +967,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/create-an-online-course-website-in-victoria-2026/",
-      "destination": "/blog/2026-guide-to-creating-professional-online-course-websites-in-victoria/",
-      "permanent": true
-    },
-    {
       "source": "/blog/create-an-online-course-website-in-victoria-2026",
       "destination": "/blog/2026-guide-to-creating-professional-online-course-websites-in-victoria/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/how-to-create-a-self-help-elearning-course-that-sells-in-2026-ultimate-guide-for-victoria-coaching-businesses/",
-      "destination": "/blog/generate-self-help-elearning-course-that-sells-in-2026-ultimate-guide-for-victoria-coaches/",
       "permanent": true
     },
     {
@@ -1523,18 +977,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/leadership-course-creation-on-kajabi-for-coaching-businesses-in-miami/",
-      "destination": "/blog/create-profitable-leadership-courses-on-kajabi-2026-guide-for-miami/",
-      "permanent": true
-    },
-    {
       "source": "/blog/leadership-course-creation-on-kajabi-for-coaching-businesses-in-miami",
       "destination": "/blog/create-profitable-leadership-courses-on-kajabi-2026-guide-for-miami/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/kajabi-course-creation-guide-for-edtech-startups-in-miami-why-hiring-a-kajabi-expert-matters/",
-      "destination": "/blog/kajabi-course-creation-guide-for-edtech-startups-in-miami-why-hiring-kajabi-expert-matters/",
       "permanent": true
     },
     {
@@ -1543,18 +987,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/create-google-classroom-training-in-2026-in-miami/",
-      "destination": "/blog/the-ultimate-2026-guide-for-building-google-classroom-training-programs-in-miami/",
-      "permanent": true
-    },
-    {
       "source": "/blog/create-google-classroom-training-in-2026-in-miami",
       "destination": "/blog/the-ultimate-2026-guide-for-building-google-classroom-training-programs-in-miami/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/360-to-skool-migration-easy-guide-for-course-transfer-in-2026/",
-      "destination": "/blog/to-skool-migration-easy-guide-for-course-transfer-in-2026/",
       "permanent": true
     },
     {
@@ -1563,18 +997,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/training-modules-design-for-elearning-in-ohio-2026/",
-      "destination": "/blog/craft-training-modules-for-ohio-s-elearning-academies-2026-focused-complete-guide/",
-      "permanent": true
-    },
-    {
       "source": "/blog/training-modules-design-for-elearning-in-ohio-2026",
       "destination": "/blog/craft-training-modules-for-ohio-s-elearning-academies-2026-focused-complete-guide/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/create-updated-it-classes-for-teenagers-2026-guide-for-ohio-creators/",
-      "destination": "/blog/the-complete-guide-to-creating-engaging-it-classes-for-ohio-teenagers/",
       "permanent": true
     },
     {
@@ -1583,18 +1007,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/design-debate-training-program-in-ohio-2026/",
-      "destination": "/blog/the-ultimate-ohio-focused-blueprint-for-building-a-debate-training-program/",
-      "permanent": true
-    },
-    {
       "source": "/blog/design-debate-training-program-in-ohio-2026",
       "destination": "/blog/the-ultimate-ohio-focused-blueprint-for-building-a-debate-training-program/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/how-to-create-a-youtube-channel-for-promoting-elearning-business-in-ohio-complete-2026-guide/",
-      "destination": "/blog/ultimate-guide-to-promoting-ohio-elearning-business-via-youtube/",
       "permanent": true
     },
     {
@@ -1603,18 +1017,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/building-womens-health-elearning-funnel-in-2026-stepwise-using-ghl/",
-      "destination": "/blog/the-complete-2026-roadmap-for-womens-health-elearning-funnels-using-ghl/",
-      "permanent": true
-    },
-    {
       "source": "/blog/building-womens-health-elearning-funnel-in-2026-stepwise-using-ghl",
       "destination": "/blog/the-complete-2026-roadmap-for-womens-health-elearning-funnels-using-ghl/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/ghl-development-and-setup-a-complete-guide-for-edtech-and-coaching-businesses-in-new-jersey/",
-      "destination": "/blog/ghl-made-easy-ultimate-guide-or-edtech-coaching-businesses-in-new-jersey/",
       "permanent": true
     },
     {
@@ -1623,18 +1027,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/instructional-design-how-to-launch-scalable-thrilling-video-training-program/",
-      "destination": "/blog/how-to-launch-scalable-thrilling-video-training-program/",
-      "permanent": true
-    },
-    {
       "source": "/blog/instructional-design-how-to-launch-scalable-thrilling-video-training-program",
       "destination": "/blog/how-to-launch-scalable-thrilling-video-training-program/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026-coaching-reality-check-scaling-online-without-the-hype-latest-trends-strategies-in-north-dakota/",
-      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
       "permanent": true
     },
     {
@@ -1643,18 +1037,8 @@
       "permanent": true
     },
     {
-      "source": "/blog/how-to-create-coaching-content-systems-for-influencer-brands-of-dallasus/",
-      "destination": "/blog/how-to-create-coaching-content-systems-for-influencer-brands-of-dallas-us/",
-      "permanent": true
-    },
-    {
       "source": "/blog/how-to-create-coaching-content-systems-for-influencer-brands-of-dallasus",
       "destination": "/blog/how-to-create-coaching-content-systems-for-influencer-brands-of-dallas-us/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/launch-6-week-online-course-on-new-lms-in-tasmania/",
-      "destination": "/blog/the-ultimate-guide-to-launching-a-6-week-online-course-on-new-lms-in-tasmania/",
       "permanent": true
     },
     {
@@ -1663,14 +1047,2055 @@
       "permanent": true
     },
     {
-      "source": "/blog/how-to-design-elearning-workbooks-for-masterclasses-ultimate-2026-curriculum-guide-for-california-course-creators/",
+      "source": "/blog/how-to-design-elearning-workbooks-for-masterclasses-ultimate-2026-curriculum-guide-for-california-course-creators",
       "destination": "/blog/create-workbooks-for-your-masterclass-ultimate-guide-for-california-creators/",
       "permanent": true
     },
     {
-      "source": "/blog/how-to-design-elearning-workbooks-for-masterclasses-ultimate-2026-curriculum-guide-for-california-course-creators",
+      "source": "/uncategorized/what-is-ferpa/",
+      "destination": "/blog/education-data-privacy-laws-ferpa-s-role-in-a-data-driven-world/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/xapi-vs-scorm-best-lms-in-2026/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lms-vs-lxp-a-complete-comparison-for-ld-professionals/",
+      "destination": "/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/strong-best-microlearning-platforms-for-thrilling-professionals-in-the-us/",
+      "destination": "/blog/strong-best-microlearning-platforms-for-professionals-in-the-us/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/mcp-for-lms-the-future-of-ai-powered-learning-management-systems/",
+      "destination": "/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/what-is-an-xapi-learning-record-store-lrs-and-why-does-it-matter/",
+      "destination": "/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-organic-traffic-growth/",
+      "destination": "/blog/how-to-grow-organic-traffic-on-kajabi/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lms-migration-checklist-avoid-these-15-costly-mistakes/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-membership-site-7-steps-to-launch-a-successful-membership/",
+      "destination": "/blog/kajabi-membership-sites-what-are-the-best-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/mastering-sales-objection-handling-proven-techniques-with-ai-video-training/",
+      "destination": "/blog/ai-driven-elearning-video-production-for-the-food-industry-ultimate-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/thinkific-mastery-create-strong-and-massive-courses/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/corporate-training-roi-calculator-measuring-learning-effectiveness/",
+      "destination": "/blog/7-thrilling-proven-ways-to-measure-training-roi-theeduassist/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-organic-traffic-growth/",
+      "destination": "/blog/how-to-grow-organic-traffic-on-kajabi/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-design-a-hybrid-yoga-teacher-training-guide/",
+      "destination": "/blog/hybrid-yoga-teacher-training-system-for-better-learning-outcomes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-design-a-hybrid-yoga-training-guide/",
+      "destination": "/blog/hybrid-yoga-teacher-training-system-for-better-learning-outcomes/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/design-an-ai-for-everyone-course/",
+      "destination": "/blog/2026-ultimate-guide-to-designing-an-ai-for-everyone-course/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-use-teachablestep-by-step-guide-for-beginners/",
+      "destination": "/blog/how-to-use-teachable-step-by-step-guide-for-beginners/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/learning-experience-designer-for-elearning/",
+      "destination": "/services/instructional-design/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-sales-funnel-strategy/",
+      "destination": "/blog/how-to-build-a-massive-high-ticket-funnel-in-20-days/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/build-a-cybersecurity-course-in-2026-scorm-and-instructional-design-guide/",
+      "destination": "/blog/how-to-build-cybersecurity-curriculum-design-coursethat-actually-encourage/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/kajabi-email-broadcast-vs-sequence-guide/",
+      "destination": "/blog/your-guide-to-kajabi-emails-that-people-love-to-read/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/convert-legacy-training-content-modern-elearning/",
+      "destination": "/blog/how-to-convert-legacy-training-content-to-modern-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/professional-skills-training/",
+      "destination": "/services/managed-learning/",
+      "permanent": true
+    },
+    {
+      "source": "/legacy-content-conversion/",
+      "destination": "/services/content-conversion/",
+      "permanent": true
+    },
+    {
+      "source": "/gamified-learning/",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/ar-vr-solutions/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/kajabi-course-upload-services-2/",
+      "destination": "/blog/kajabi-course-upload-services/",
+      "permanent": true
+    },
+    {
+      "source": "/kajabi-for-coaches/",
+      "destination": "/services/funnels-automation/",
+      "permanent": true
+    },
+    {
+      "source": "/soft-skills-training/",
+      "destination": "/services/managed-learning/",
+      "permanent": true
+    },
+    {
+      "source": "/leadership-training/",
+      "destination": "/services/managed-learning/",
+      "permanent": true
+    },
+    {
+      "source": "/ebook-services/",
+      "destination": "/services/content-conversion/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-powered-elearning/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/audio-video-production-for-elearning/",
+      "destination": "/services/course-development/",
+      "permanent": true
+    },
+    {
+      "source": "/product-training/",
+      "destination": "/services/custom-elearning-development/",
+      "permanent": true
+    },
+    {
+      "source": "/truck-driver-training-canada-usa/",
+      "destination": "/blog/why-human-error-is-the-leading-cause-of-truck-accidents-and-how-to-prevent-it/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-answers/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/case-studies-1/",
+      "destination": "/case-studies/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy-2/",
+      "destination": "/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/increase-organic-traffic-online-course-website/",
+      "destination": "/blog/how-to-grow-organic-traffic-on-kajabi/",
+      "permanent": true
+    },
+    {
+      "source": "/immersive-learning-technologies-higher-education/",
+      "destination": "/blog/the-ultimate-guide-to-ar-and-vr-in-online-learning-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-engaging-educational-content-for-online-platforms/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/continuing-education-creation-how-to-develop-effective-programs-for-professionals-2026/",
+      "destination": "/blog/continuing-education-creation-how-to-develop-effective-programs-for-professionals-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/why-human-error-is-the-leading-cause-of-truck-accidents-and-how-to-prevent-it/",
+      "destination": "/blog/why-human-error-is-the-leading-cause-of-truck-accidents-and-how-to-prevent-it/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/internal-academy-software-15-must-have-features-in-2026-1/",
+      "destination": "/blog/internal-academy-software-15-must-have-features-in-2026-1/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/education-data-privacy-laws-ferpa-s-role-in-a-data-driven-world/",
+      "destination": "/blog/education-data-privacy-laws-ferpa-s-role-in-a-data-driven-world/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-professional-training-guides-with-microsoft-365/",
+      "destination": "/blog/how-to-create-professional-training-guides-with-microsoft-365/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-membership-sites-what-are-the-best-practices/",
+      "destination": "/blog/kajabi-membership-sites-what-are-the-best-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-a-future-proof-ai-upskilling-strategy-in-2026/",
+      "destination": "/blog/how-to-build-a-future-proof-ai-upskilling-strategy-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ultimate-talentlms-onboarding-framework-for-elearning-creators-in-ohio/",
+      "destination": "/blog/ultimate-talentlms-onboarding-framework-for-elearning-creators-in-ohio/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/what-is-learnworlds-and-is-it-right-for-your-business/",
+      "destination": "/blog/what-is-learnworlds-and-is-it-right-for-your-business/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/scorm-cloud-explained-what-it-is-and-when-you-need-it/",
+      "destination": "/blog/scorm-cloud-explained-what-it-is-and-when-you-need-it/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/learn-to-become-a-training-coordinator-in-texas-quick-guide-for-course-creators/",
+      "destination": "/blog/learn-to-become-a-training-coordinator-in-texas-quick-guide-for-course-creators/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/benefits-of-xapi-for-modern-elearning/",
+      "destination": "/blog/benefits-of-xapi-for-modern-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/udemy-vs-teachable-the-ultimate-guide-for-course-creators-in-2026/",
+      "destination": "/blog/udemy-vs-teachable-the-ultimate-guide-for-course-creators-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ultimate-guide-to-developing-an-elearning-curriculum-in-victoria/",
+      "destination": "/blog/ultimate-guide-to-developing-an-elearning-curriculum-in-victoria/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-a-thinkific-course-7-proven-steps/",
+      "destination": "/blog/how-to-create-a-thinkific-course-7-proven-steps/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/moodle-elearning-with-the-best-online-learning-management-system/",
+      "destination": "/blog/moodle-elearning-with-the-best-online-learning-management-system/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/complete-elearning-pricing-and-course-creation-guide-for-moodle/",
+      "destination": "/blog/complete-elearning-pricing-and-course-creation-guide-for-moodle/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-vs-wordpress-which-is-better-for-online-courses/",
+      "destination": "/blog/kajabi-vs-wordpress-which-is-better-for-online-courses/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/webinar-to-online-course-a-complete-guide-for-florida-sales-accelerator-programs-in-the-us/",
+      "destination": "/blog/webinar-to-online-course-a-complete-guide-for-florida-sales-accelerator-programs-in-the-us/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/7-powerful-kajabi-course-creation-services-that-skyrocket-sales/",
+      "destination": "/blog/7-powerful-kajabi-course-creation-services-that-skyrocket-sales/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-a-corporate-elearning-program-on-a-budget-a-complete-2026-guide/",
+      "destination": "/blog/how-to-build-a-corporate-elearning-program-on-a-budget-a-complete-2026-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-design-microlearning-courses-via-learnworlds-ultimate-guide-for-elearning-businesses-in-chicago/",
+      "destination": "/blog/how-to-design-microlearning-courses-via-learnworlds-ultimate-guide-for-elearning-businesses-in-chicago/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/is-a-skool-community-actually-worth-creating-in-2026/",
+      "destination": "/blog/is-a-skool-community-actually-worth-creating-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-use-teachable-step-by-step-guide-for-beginners/",
+      "destination": "/blog/how-to-use-teachable-step-by-step-guide-for-beginners/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-engaging-elearning-courses-in-sydney/",
+      "destination": "/blog/how-to-build-engaging-elearning-courses-in-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-a-portal-in-kajabi-training-platform/",
+      "destination": "/blog/how-to-create-a-portal-in-kajabi-training-platform/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/what-payment-methods-does-kajabi-accept/",
+      "destination": "/blog/what-payment-methods-does-kajabi-accept/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-complete-2026-roadmap-for-womens-health-elearning-funnels-using-ghl/",
+      "destination": "/blog/the-complete-2026-roadmap-for-womens-health-elearning-funnels-using-ghl/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/learndash-vs-kajabi-which-platform-should-you-choose/",
+      "destination": "/blog/learndash-vs-kajabi-which-platform-should-you-choose/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-crm-how-to-manage-leads-and-students-in-one-place/",
+      "destination": "/blog/kajabi-crm-how-to-manage-leads-and-students-in-one-place/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ultimate-guide-to-udemy-video-editing-with-canva-doodly/",
+      "destination": "/blog/ultimate-guide-to-udemy-video-editing-with-canva-doodly/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ultimate-opigno-lms-course-development-tips-for-businesses-in-adelaide/",
+      "destination": "/blog/ultimate-opigno-lms-course-development-tips-for-businesses-in-adelaide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-maximize-your-sales-with-the-kajabi-funnel-builder/",
+      "destination": "/blog/how-to-maximize-your-sales-with-the-kajabi-funnel-builder/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-mobile-experience-features-limitations-and-user-experience/",
+      "destination": "/blog/kajabi-mobile-experience-features-limitations-and-user-experience/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-migrate-teachable-to-learndash-a-step-by-step-guide/",
+      "destination": "/blog/how-to-migrate-teachable-to-learndash-a-step-by-step-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/internal-academy-software-15-must-have-features-in-2026/",
+      "destination": "/blog/internal-academy-software-15-must-have-features-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-integrate-ai-tools-with-your-existing-lms/",
+      "destination": "/blog/how-to-integrate-ai-tools-with-your-existing-lms/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/learnupon-in-2026-and-2027-the-rise-of-create-plus-and-the-agentic-learning-platform/",
+      "destination": "/blog/learnupon-in-2026-and-2027-the-rise-of-create-plus-and-the-agentic-learning-platform/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/hybrid-yoga-teacher-training-system-for-better-learning-outcomes/",
+      "destination": "/blog/hybrid-yoga-teacher-training-system-for-better-learning-outcomes/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-a-high-performance-real-estate-video-content-engine-for-social-media-growth/",
+      "destination": "/blog/how-to-build-a-high-performance-real-estate-video-content-engine-for-social-media-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-future-of-sales-with-kajabi-funnels-leveraging-kajabi-for-growth/",
+      "destination": "/blog/the-future-of-sales-with-kajabi-funnels-leveraging-kajabi-for-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-cybersecurity-curriculum-design-coursethat-actually-encourage/",
+      "destination": "/blog/how-to-build-cybersecurity-curriculum-design-coursethat-actually-encourage/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/complete-guide-to-saas-curriculum-development-and-training-best-practices/",
+      "destination": "/blog/complete-guide-to-saas-curriculum-development-and-training-best-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-overcome-lms-course-editing-restrictions-without-rebuilding-everything/",
+      "destination": "/blog/how-to-overcome-lms-course-editing-restrictions-without-rebuilding-everything/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/n8n-automation-course-creation-opportunity-for-creators-in-florida/",
+      "destination": "/blog/n8n-automation-course-creation-opportunity-for-creators-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-a-course-on-kajabi-beginners-guide/",
+      "destination": "/blog/how-to-create-a-course-on-kajabi-beginners-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/education-is-the-key-of-success-its-future-2026/",
+      "destination": "/blog/education-is-the-key-of-success-its-future-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-launch-scalable-thrilling-video-training-program/",
+      "destination": "/blog/how-to-launch-scalable-thrilling-video-training-program/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/your-guide-to-kajabi-emails-that-people-love-to-read/",
+      "destination": "/blog/your-guide-to-kajabi-emails-that-people-love-to-read/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/learnworlds-for-corporate-training-does-it-scale/",
+      "destination": "/blog/learnworlds-for-corporate-training-does-it-scale/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/high-impact-sales-training-slides-in-visual-storytelling-for-better-engagement/",
+      "destination": "/blog/high-impact-sales-training-slides-in-visual-storytelling-for-better-engagement/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-ai-features-in-2026-what-s-new-and-how-they-improve-course-creation/",
+      "destination": "/blog/kajabi-ai-features-in-2026-what-s-new-and-how-they-improve-course-creation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/skool-community-growth-2026-blueprint-for-high-engagement/",
+      "destination": "/blog/skool-community-growth-2026-blueprint-for-high-engagement/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-ultimate-2026-guide-for-audio-video-and-workbook-based-lifestyle-elearning-courses/",
+      "destination": "/blog/the-ultimate-2026-guide-for-audio-video-and-workbook-based-lifestyle-elearning-courses/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/choosing-the-right-authoring-tool-affordable-alternatives-to-articulate-storyline/",
+      "destination": "/blog/choosing-the-right-authoring-tool-affordable-alternatives-to-articulate-storyline/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/best-kajabi-website-and-funnel-setup-services-for-2026-growth/",
+      "destination": "/blog/best-kajabi-website-and-funnel-setup-services-for-2026-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-engaging-video-seminars-on-spotlightr-step-by-step-guide/",
+      "destination": "/blog/how-to-create-engaging-video-seminars-on-spotlightr-step-by-step-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/off-the-shelf-elearning-is-it-right-for-your-company/",
+      "destination": "/blog/off-the-shelf-elearning-is-it-right-for-your-company/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-complete-2026-guide-to-designing-an-interactive-bible-elearning-course/",
+      "destination": "/blog/the-complete-2026-guide-to-designing-an-interactive-bible-elearning-course/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-major-updates-2026-ai-cofounder-expert-agents-amplify-more/",
+      "destination": "/blog/kajabi-major-updates-2026-ai-cofounder-expert-agents-amplify-more/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-course-pop-ups-in-chicago-perth-best-practices/",
+      "destination": "/blog/how-to-create-course-pop-ups-in-chicago-perth-best-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/what-is-teachability/",
+      "destination": "/blog/what-is-teachability/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/easy-lms-migration-best-practices-for-moving-data-safely/",
+      "destination": "/blog/easy-lms-migration-best-practices-for-moving-data-safely/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/",
+      "destination": "/blog/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/can-ar-and-vr-really-improve-learning-outcomes/",
+      "destination": "/blog/can-ar-and-vr-really-improve-learning-outcomes/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-virtual-assistant-services-for-creators/",
+      "destination": "/blog/kajabi-virtual-assistant-services-for-creators/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/make-more-money-while-you-sleep-with-kajabi-email-automation/",
+      "destination": "/blog/make-more-money-while-you-sleep-with-kajabi-email-automation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/make-profit-with-real-estate-courses-ultimate-design-guide-for-realtors-in-new-york/",
+      "destination": "/blog/make-profit-with-real-estate-courses-ultimate-design-guide-for-realtors-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/canvas-lms-in-2026-and-2027-notebook-upgrades-speedgrader-admin-mfa-and-ai-roadmap/",
+      "destination": "/blog/canvas-lms-in-2026-and-2027-notebook-upgrades-speedgrader-admin-mfa-and-ai-roadmap/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/why-kajabi-works-better-than-multiple-tools-for-coaching-businesses/",
+      "destination": "/blog/why-kajabi-works-better-than-multiple-tools-for-coaching-businesses/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ai-hr-training-programs-with-360learning-a-practical-guide/",
+      "destination": "/blog/ai-hr-training-programs-with-360learning-a-practical-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/strong-best-microlearning-platforms-for-professionals-in-the-us/",
+      "destination": "/blog/strong-best-microlearning-platforms-for-professionals-in-the-us/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/talentlms-in-2026-and-2027-inside-learning-playground-workday-beta-and-ai-video/",
+      "destination": "/blog/talentlms-in-2026-and-2027-inside-learning-playground-workday-beta-and-ai-video/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/is-absorb-lms-right-for-small-business-the-strong-eduassist-guide/",
+      "destination": "/blog/is-absorb-lms-right-for-small-business-the-strong-eduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-tool-trap-when-technology-overshadows-learning-strategy/",
+      "destination": "/blog/the-tool-trap-when-technology-overshadows-learning-strategy/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-can-corporate-training-actually-improve-employee-engagement/",
+      "destination": "/blog/how-can-corporate-training-actually-improve-employee-engagement/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/top-custom-elearning-development-companies-2026/",
+      "destination": "/blog/top-custom-elearning-development-companies-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-ultimate-lms-migration-timeline-for-a-smooth-platform-transition/",
+      "destination": "/blog/the-ultimate-lms-migration-timeline-for-a-smooth-platform-transition/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/learndash-optimization-for-schools-teachers/",
+      "destination": "/blog/learndash-optimization-for-schools-teachers/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-how-to-set-up-a-strong-online-course/",
+      "destination": "/blog/kajabi-how-to-set-up-a-strong-online-course/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/",
+      "destination": "/blog/ai-insights-powering-skills-based-learning-and-professional-growth-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-promote-your-online-course-by-using-teachability-principles-2026/",
+      "destination": "/blog/how-to-promote-your-online-course-by-using-teachability-principles-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ictle-conference-2026-everything-you-need-to-know/",
+      "destination": "/blog/ictle-conference-2026-everything-you-need-to-know/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-course-creation-guide-for-edtech-startups-in-miami-why-hiring-kajabi-expert-matters/",
+      "destination": "/blog/kajabi-course-creation-guide-for-edtech-startups-in-miami-why-hiring-kajabi-expert-matters/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/scorm-construction-courses-for-lms-compliance-made-simple-2026/",
+      "destination": "/blog/scorm-construction-courses-for-lms-compliance-made-simple-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-grow-organic-traffic-on-kajabi/",
+      "destination": "/blog/how-to-grow-organic-traffic-on-kajabi/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-crm-how-to-manage-leads-and-students-in-one-place-1/",
+      "destination": "/blog/kajabi-crm-how-to-manage-leads-and-students-in-one-place-1/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-google-analytics-integration-guide-ga4-setup-tracking/",
+      "destination": "/blog/kajabi-google-analytics-integration-guide-ga4-setup-tracking/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/digital-marketing-curriculum-on-skool-how-to-build-high-value/",
+      "destination": "/blog/digital-marketing-curriculum-on-skool-how-to-build-high-value/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-vs-teachable-which-one-is-better-for-your-business/",
+      "destination": "/blog/kajabi-vs-teachable-which-one-is-better-for-your-business/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lxp-vs-lms-which-one-does-your-business-need-in-2026/",
+      "destination": "/blog/lxp-vs-lms-which-one-does-your-business-need-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-keyword-research-for-higher-rankings/",
+      "destination": "/blog/kajabi-keyword-research-for-higher-rankings/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ultimate-guide-to-ai-content-automation-for-melbourne-course-creators/",
+      "destination": "/blog/ultimate-guide-to-ai-content-automation-for-melbourne-course-creators/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/instructional-design-for-leadership-training-programs-in-new-york/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-use-learndash-scorm-for-enterprise-tracking/",
+      "destination": "/blog/how-to-use-learndash-scorm-for-enterprise-tracking/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-executive-assistant-elearning/",
+      "destination": "/blog/how-to-create-executive-assistant-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-ultimate-guide-to-building-a-spiritual-awakening-online-course/",
+      "destination": "/blog/the-ultimate-guide-to-building-a-spiritual-awakening-online-course/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-video-hosting-quality-storage-and-performance-explained/",
+      "destination": "/blog/kajabi-video-hosting-quality-storage-and-performance-explained/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-ultimate-ohio-focused-blueprint-for-building-a-debate-training-program/",
+      "destination": "/blog/the-ultimate-ohio-focused-blueprint-for-building-a-debate-training-program/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-ultimate-2026-guide-for-building-google-classroom-training-programs-in-miami/",
+      "destination": "/blog/the-ultimate-2026-guide-for-building-google-classroom-training-programs-in-miami/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/learnworlds-vs-thinkific-which-lms-is-right-for-you/",
+      "destination": "/blog/learnworlds-vs-thinkific-which-lms-is-right-for-you/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/preparing-global-teams-for-new-technology-lessons-from-leap-2026/",
+      "destination": "/blog/preparing-global-teams-for-new-technology-lessons-from-leap-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/teachable-vs-learnworlds-which-lms-better-in-2026/",
+      "destination": "/blog/teachable-vs-learnworlds-which-lms-better-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/model-context-protocol-mcp-for-lms-everything-you-need-to-know/",
+      "destination": "/blog/model-context-protocol-mcp-for-lms-everything-you-need-to-know/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-technical-support-for-online-businesses/",
+      "destination": "/blog/kajabi-technical-support-for-online-businesses/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/designing-phlebotomy-course-in-2026-quick-guide-for-an-ai-ready-era/",
+      "destination": "/blog/designing-phlebotomy-course-in-2026-quick-guide-for-an-ai-ready-era/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-a-lifterlms-employee-training-portal/",
+      "destination": "/blog/how-to-build-a-lifterlms-employee-training-portal/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-launch-your-kajabi-course-without-the-stress/",
+      "destination": "/blog/how-to-launch-your-kajabi-course-without-the-stress/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-coaching-content-systems-for-influencer-brands-of-dallas-us/",
+      "destination": "/blog/how-to-create-coaching-content-systems-for-influencer-brands-of-dallas-us/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/choosing-between-an-lxp-and-lms-everything-you-need-to-know/",
+      "destination": "/blog/choosing-between-an-lxp-and-lms-everything-you-need-to-know/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/microlearning-the-ultimate-guide-of-theeduassist/",
+      "destination": "/blog/microlearning-the-ultimate-guide-of-theeduassist/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-a-real-estate-virtual-strategy-with-instructional-design/",
+      "destination": "/blog/how-to-build-a-real-estate-virtual-strategy-with-instructional-design/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/want-strong-case-management-traininguse-this-design-for-usaustralia/",
+      "destination": "/blog/want-strong-case-management-traininguse-this-design-for-usaustralia/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-analytics-the-complete-guide-to-tracking-course-performance-in-2026/",
+      "destination": "/blog/kajabi-analytics-the-complete-guide-to-tracking-course-performance-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lms-migration-cost-guide-for-enterprises-budget-planning-made-simple/",
+      "destination": "/blog/lms-migration-cost-guide-for-enterprises-budget-planning-made-simple/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/build-a-health-and-wealth-online-course-with-us-focused-content-expert/",
+      "destination": "/blog/build-a-health-and-wealth-online-course-with-us-focused-content-expert/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/blackboard-learn-in-2026-and-2027-ai-teaching-tools-and-the-lti-1-1-retirement-deadline/",
+      "destination": "/blog/blackboard-learn-in-2026-and-2027-ai-teaching-tools-and-the-lti-1-1-retirement-deadline/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-checkout-optimization-increase-course-sales-without-more-traffic/",
+      "destination": "/blog/kajabi-checkout-optimization-increase-course-sales-without-more-traffic/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/thinkific-student-engagement-20-proven-ways-to-increase-course-completion/",
+      "destination": "/blog/thinkific-student-engagement-20-proven-ways-to-increase-course-completion/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-ultimate-canva-tutorial-video-formula-for-product-customization-theeduassist/",
+      "destination": "/blog/the-ultimate-canva-tutorial-video-formula-for-product-customization-theeduassist/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/7-common-mistakes-in-kajabi-course-uploading-to-avoid/",
+      "destination": "/blog/7-common-mistakes-in-kajabi-course-uploading-to-avoid/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/guide-to-turn-pre-recorded-voiceovers-into-interactive-elearning-content-and-video-roadmap-for-edtech-startups-in-new-york/",
+      "destination": "/blog/guide-to-turn-pre-recorded-voiceovers-into-interactive-elearning-content-and-video-roadmap-for-edtech-startups-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/learnworlds-scorm-support-can-you-import-courses/",
+      "destination": "/blog/learnworlds-scorm-support-can-you-import-courses/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-vs-thinkific-vs-teachable-for-executive-coaches-and-consultants/",
+      "destination": "/blog/kajabi-vs-thinkific-vs-teachable-for-executive-coaches-and-consultants/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/miami-elearning-services-learnworlds-course-design-made-easy/",
+      "destination": "/blog/miami-elearning-services-learnworlds-course-design-made-easy/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/why-singapore-healthcare-educators-are-choosing-teachable-lms-in-2027-the-clinical-training-blueprint/",
+      "destination": "/blog/why-singapore-healthcare-educators-are-choosing-teachable-lms-in-2027-the-clinical-training-blueprint/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/professional-video-workshops-for-kajabi-skool-funnels-in-australia/",
+      "destination": "/blog/professional-video-workshops-for-kajabi-skool-funnels-in-australia/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ultimate-canva-development-and-design-support-that-sell/",
+      "destination": "/blog/ultimate-canva-development-and-design-support-that-sell/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/d2l-brightspace-in-2026-and-2027-the-new-content-experience-and-learning-operations-hub/",
+      "destination": "/blog/d2l-brightspace-in-2026-and-2027-the-new-content-experience-and-learning-operations-hub/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-design-cybersecurity-awareness-training-for-employees-2026/",
+      "destination": "/blog/how-to-design-cybersecurity-awareness-training-for-employees-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/a-step-by-step-guide-to-finding-the-best-kajabi-design-services/",
+      "destination": "/blog/a-step-by-step-guide-to-finding-the-best-kajabi-design-services/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/sales-training-workbook-vs-presentation-deck-which-drives-better-results/",
+      "destination": "/blog/sales-training-workbook-vs-presentation-deck-which-drives-better-results/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/from-ppt-to-profitable-leadership-course-that-actually-put-impact/",
+      "destination": "/blog/from-ppt-to-profitable-leadership-course-that-actually-put-impact/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-customer-support-outsourcing-benefits/",
+      "destination": "/blog/kajabi-customer-support-outsourcing-benefits/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lms-implementation-guide-steps-for-a-successful-launch/",
+      "destination": "/blog/lms-implementation-guide-steps-for-a-successful-launch/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/teachable-in-2026-and-2027-b2b-licensing-payments-overhaul-community-changes-and-ai-roadmap/",
+      "destination": "/blog/teachable-in-2026-and-2027-b2b-licensing-payments-overhaul-community-changes-and-ai-roadmap/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-a-transformational-curriculum-that-actually-works-step-by-step/",
+      "destination": "/blog/how-to-build-a-transformational-curriculum-that-actually-works-step-by-step/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-ultimate-guide-to-ar-and-vr-in-online-learning-in-2026/",
+      "destination": "/blog/the-ultimate-guide-to-ar-and-vr-in-online-learning-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/leadership-training-program-design-in-2026-new-generation/",
+      "destination": "/blog/leadership-training-program-design-in-2026-new-generation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/professional-kajabi-designers-in-perth-for-scalable-elearning/",
+      "destination": "/blog/professional-kajabi-designers-in-perth-for-scalable-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/wcag-22-level-aa-a-practical-guide-to-web-accessibility-in-2026/",
+      "destination": "/blog/wcag-22-level-aa-a-practical-guide-to-web-accessibility-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/what-is-technical-proficiency/",
+      "destination": "/blog/what-is-technical-proficiency/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-lead-generation-funnels-that-convert-better/",
+      "destination": "/blog/kajabi-lead-generation-funnels-that-convert-better/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-master-kajabi-keyword-research-for-higher-rankings/",
+      "destination": "/blog/how-to-master-kajabi-keyword-research-for-higher-rankings/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/skool-vs-learnworlds-which-platform-offers-the-best-value/",
+      "destination": "/blog/skool-vs-learnworlds-which-platform-offers-the-best-value/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/teachability-how-to-improve-learning-and-retention-in-education/",
+      "destination": "/blog/teachability-how-to-improve-learning-and-retention-in-education/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/personal-learning-environment-how-to-learn-in-a-changing-world-2026/",
+      "destination": "/blog/personal-learning-environment-how-to-learn-in-a-changing-world-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-your-first-kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/powerful-executive-assistant-training-review-that-actually-improves-results/",
+      "destination": "/blog/powerful-executive-assistant-training-review-that-actually-improves-results/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-turn-a-video-creation-course-into-a-handbook-instructional-design-guide-for-2026/",
+      "destination": "/blog/how-to-turn-a-video-creation-course-into-a-handbook-instructional-design-guide-for-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/can-synthesia-replace-your-video-production-team-in-2026-ultimate-guide/",
+      "destination": "/blog/can-synthesia-replace-your-video-production-team-in-2026-ultimate-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/in-house-vs-outsourcing-elearning-development-which-is-really-better/",
+      "destination": "/blog/in-house-vs-outsourcing-elearning-development-which-is-really-better/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-a-15-hour-financial-literacy-program/",
+      "destination": "/blog/how-to-build-a-15-hour-financial-literacy-program/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/discover-kajabi-the-most-popular-platform-of-elearning-world/",
+      "destination": "/blog/discover-kajabi-the-most-popular-platform-of-elearning-world/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-use-kajabi-gamification-in-2026-boost-learner-motivation-and-community-engagement-fast/",
+      "destination": "/blog/how-to-use-kajabi-gamification-in-2026-boost-learner-motivation-and-community-engagement-fast/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/thinkific-courses-that-learners-of-us-actually-complete/",
+      "destination": "/blog/thinkific-courses-that-learners-of-us-actually-complete/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-simple-way-to-automate-your-sales-with-kajabi-pipelines/",
+      "destination": "/blog/the-simple-way-to-automate-your-sales-with-kajabi-pipelines/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/10-best-learning-management-systems-compared/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/which-is-better-for-effective-learning-slides-or-screen-recordings/",
+      "destination": "/blog/which-is-better-for-effective-learning-slides-or-screen-recordings/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/from-classroom-to-elearning-how-to-design-effective-online-courses/",
+      "destination": "/blog/from-classroom-to-elearning-how-to-design-effective-online-courses/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist-1/",
+      "destination": "/blog/ada-and-wcag-compliance-for-elearning-a-simple-self-audit-checklist-1/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-complete-guide-to-creating-engaging-it-classes-for-ohio-teenagers/",
+      "destination": "/blog/the-complete-guide-to-creating-engaging-it-classes-for-ohio-teenagers/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/learnworlds-vs-kajabi-lms-which-platform-is-best-for-course-creators-and-learners/",
+      "destination": "/blog/learnworlds-vs-kajabi-lms-which-platform-is-best-for-course-creators-and-learners/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/corporate-training-simulations/",
+      "destination": "/blog/corporate-training-simulations/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/profitable-and-thrilling-staad-course-with-instructional-design/",
+      "destination": "/blog/profitable-and-thrilling-staad-course-with-instructional-design/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-a-scorm-course-without-coding/",
+      "destination": "/blog/how-to-create-a-scorm-course-without-coding/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-maintenance-for-smooth-operations/",
+      "destination": "/blog/kajabi-maintenance-for-smooth-operations/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-api-complete-guide-to-api-access-and-integration/",
+      "destination": "/blog/kajabi-api-complete-guide-to-api-access-and-integration/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-master-lms-vr-integration-a-proven-roadmap/",
+      "destination": "/blog/how-to-master-lms-vr-integration-a-proven-roadmap/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-account-setup-guide-for-beginners-in-2026/",
+      "destination": "/blog/kajabi-account-setup-guide-for-beginners-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/articulate-frontline-features-benefits-and-employee-training-guide/",
+      "destination": "/blog/articulate-frontline-features-benefits-and-employee-training-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/is-kajabi-easy-to-use-a-beginners-guide-to-kajabi/",
+      "destination": "/blog/is-kajabi-easy-to-use-a-beginners-guide-to-kajabi/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lms-request-for-proposal-rfp-free-template-complete-guide/",
+      "destination": "/blog/lms-request-for-proposal-rfp-free-template-complete-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/moodle-5-2-and-5-3-in-2026-and-2027-open-source-governance-ai-controls-and-lts-roadmap/",
+      "destination": "/blog/moodle-5-2-and-5-3-in-2026-and-2027-open-source-governance-ai-controls-and-lts-roadmap/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/instructional-design-services-for-custom-elearning-development-better-learning-outcomes/",
+      "destination": "/blog/instructional-design-services-for-custom-elearning-development-better-learning-outcomes/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/skills-based-learning-or-traditional-training-which-works-better/",
+      "destination": "/blog/skills-based-learning-or-traditional-training-which-works-better/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-high-converting-digital-marketing-workshops-on-skool-2026-guide/",
+      "destination": "/blog/how-to-create-high-converting-digital-marketing-workshops-on-skool-2026-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-self-guided-learning-experiences-in-google-classroom/",
+      "destination": "/blog/how-to-create-self-guided-learning-experiences-in-google-classroom/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-course-design-explained-how-to-create-online-course-in-2026/",
+      "destination": "/blog/kajabi-course-design-explained-how-to-create-online-course-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ultimate-guide-for-queensland-course-creators-elearning-screencast-video-creation/",
+      "destination": "/blog/ultimate-guide-for-queensland-course-creators-elearning-screencast-video-creation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/affiliate-marketing-strategy-for-agencies-in-orlando-full-guide/",
+      "destination": "/blog/affiliate-marketing-strategy-for-agencies-in-orlando-full-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-learning-modules-in-hibob-lms-in-australia/",
+      "destination": "/blog/how-to-build-learning-modules-in-hibob-lms-in-australia/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/podia-vs-teachable-which-platform-should-you-choose-in-2026/",
+      "destination": "/blog/podia-vs-teachable-which-platform-should-you-choose-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-easy-guide-to-finding-your-first-kajabi-affiliates/",
+      "destination": "/blog/the-easy-guide-to-finding-your-first-kajabi-affiliates/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ultimate-guide-to-curriculum-design-for-supply-chain-courses/",
+      "destination": "/blog/ultimate-guide-to-curriculum-design-for-supply-chain-courses/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/best-ways-to-link-your-crm-to-kajabi-right-now/",
+      "destination": "/blog/best-ways-to-link-your-crm-to-kajabi-right-now/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/what-are-the-best-practices-for-kajabi-drip-course-setup/",
+      "destination": "/blog/what-are-the-best-practices-for-kajabi-drip-course-setup/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ai-vs-traditional-instructional-design-which-delivers-better-learning-outcomes/",
+      "destination": "/blog/ai-vs-traditional-instructional-design-which-delivers-better-learning-outcomes/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-crm-how-to-manage-leads-and-students-in-one-place-2/",
+      "destination": "/blog/kajabi-crm-how-to-manage-leads-and-students-in-one-place-2/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/instructional-design-in-action-practical-solutions-for-learner-problems/",
+      "destination": "/blog/instructional-design-in-action-practical-solutions-for-learner-problems/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/phlebotomy-curriculum-design-guide-to-building-an-ai-future-ready-training-program-for-2026/",
+      "destination": "/blog/phlebotomy-curriculum-design-guide-to-building-an-ai-future-ready-training-program-for-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/absorb-lms-in-2026-and-2027-skills-onboarding-real-time-data-transfers-and-admin-hub/",
+      "destination": "/blog/absorb-lms-in-2026-and-2027-skills-onboarding-real-time-data-transfers-and-admin-hub/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/generate-self-help-elearning-course-that-sells-in-2026-ultimate-guide-for-victoria-coaches/",
+      "destination": "/blog/generate-self-help-elearning-course-that-sells-in-2026-ultimate-guide-for-victoria-coaches/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-optimize-your-kajabi-landing-page-for-conversions/",
+      "destination": "/blog/how-to-optimize-your-kajabi-landing-page-for-conversions/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/is-teachable-the-best-platform-for-offering-online-courses/",
+      "destination": "/blog/is-teachable-the-best-platform-for-offering-online-courses/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/e-learning-videos-for-students-and-teachers-who-actually-love/",
+      "destination": "/blog/e-learning-videos-for-students-and-teachers-who-actually-love/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/employee-development-programs-for-better-roi-growth/",
+      "destination": "/blog/employee-development-programs-for-better-roi-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/when-e-learning-feels-unrealistic-a-practical-fix-for-modern-workplaces-2026/",
+      "destination": "/blog/when-e-learning-feels-unrealistic-a-practical-fix-for-modern-workplaces-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ai-driven-online-learning-from-content-creation-to-skill-mastery/",
+      "destination": "/blog/ai-driven-online-learning-from-content-creation-to-skill-mastery/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/learning-operations-learningops-the-complete-guide-to-scaling-corporate-training/",
+      "destination": "/blog/learning-operations-learningops-the-complete-guide-to-scaling-corporate-training/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/gamification-2026-how-to-boost-engagement-learning-and-productivity/",
+      "destination": "/blog/gamification-2026-how-to-boost-engagement-learning-and-productivity/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/systemeio-funnel-7-proven-steps-to-launch-a-stunning-funnel/",
+      "destination": "/blog/systemeio-funnel-7-proven-steps-to-launch-a-stunning-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/what-are-terminal-learning-objectives-a-practical-guide-for-training-2026/",
+      "destination": "/blog/what-are-terminal-learning-objectives-a-practical-guide-for-training-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lms-integration-the-most-important-systems-to-connect-to-your-lms/",
+      "destination": "/blog/lms-integration-the-most-important-systems-to-connect-to-your-lms/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-online-courses-with-lifterlms/",
+      "destination": "/blog/how-to-create-online-courses-with-lifterlms/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/podia-vs-kajabi-which-online-course-platform-is-right-for-you-in-2026/",
+      "destination": "/blog/podia-vs-kajabi-which-online-course-platform-is-right-for-you-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/to-skool-migration-easy-guide-for-course-transfer-in-2026/",
+      "destination": "/blog/to-skool-migration-easy-guide-for-course-transfer-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/what-is-a-curriculum-development-centre-a-complete-explanation/",
+      "destination": "/blog/what-is-a-curriculum-development-centre-a-complete-explanation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-a-practical-google-ai-training-course-for-beginner-and-intermediate-learners/",
+      "destination": "/blog/how-to-build-a-practical-google-ai-training-course-for-beginner-and-intermediate-learners/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/educational-html-css-video-tutorials-a-complete-guide-for-coaches/",
+      "destination": "/blog/educational-html-css-video-tutorials-a-complete-guide-for-coaches/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ultimate-guide-to-creating-an-ai-powered-roulette-and-blackjack-course/",
+      "destination": "/blog/ultimate-guide-to-creating-an-ai-powered-roulette-and-blackjack-course/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/build-profitable-kajabi-courses-in-canberra-with-instructional-design-part-2/",
+      "destination": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-design-part-2/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-convert-legacy-training-content-to-modern-elearning/",
+      "destination": "/blog/how-to-convert-legacy-training-content-to-modern-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/something-big-is-coming-to-learnworlds-october-2026-ai-update/",
+      "destination": "/blog/something-big-is-coming-to-learnworlds-october-2026-ai-update/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/webinar-to-online-course-a-complete-guide/",
+      "destination": "/blog/webinar-to-online-course-a-complete-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-apply-seta-standards-in-digital-and-blended-learning-environments/",
+      "destination": "/blog/how-to-apply-seta-standards-in-digital-and-blended-learning-environments/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-vs-clickfunnels-the-best-platform-for-creators-in-2026/",
+      "destination": "/blog/kajabi-vs-clickfunnels-the-best-platform-for-creators-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/teachable-vs-kajabi-which-one-wins-for-each-feature-price-point-and-type-of-user/",
+      "destination": "/blog/teachable-vs-kajabi-which-one-wins-for-each-feature-price-point-and-type-of-user/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/create-profitable-leadership-courses-on-kajabi-2026-guide-for-miami/",
+      "destination": "/blog/create-profitable-leadership-courses-on-kajabi-2026-guide-for-miami/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-blogging-strategy-for-course-creators/",
+      "destination": "/blog/kajabi-blogging-strategy-for-course-creators/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ultimate-excel-course-video-guide-in-sydney-la-with-theeduassist/",
+      "destination": "/blog/ultimate-excel-course-video-guide-in-sydney-la-with-theeduassist/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/a-practical-guide-to-planning-and-development-training-for-modern-workforces/",
+      "destination": "/blog/a-practical-guide-to-planning-and-development-training-for-modern-workforces/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/practical-ai-learning-in-2026-how-to-build-real-world-skills-that-matter/",
+      "destination": "/blog/practical-ai-learning-in-2026-how-to-build-real-world-skills-that-matter/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/e-learning-slide-design-for-busy-course-creators-when-to-diy-vs-hire-a-professional/",
+      "destination": "/blog/e-learning-slide-design-for-busy-course-creators-when-to-diy-vs-hire-a-professional/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/udemy-made-simple-how-the-platform-works-for-learners-and-instructors/",
+      "destination": "/blog/udemy-made-simple-how-the-platform-works-for-learners-and-instructors/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-an-ai-tutor-inside-your-lms/",
+      "destination": "/blog/how-to-create-an-ai-tutor-inside-your-lms/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/is-it-worth-hiring-an-in-house-instructional-designer-for-your-company/",
+      "destination": "/blog/is-it-worth-hiring-an-in-house-instructional-designer-for-your-company/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ai-in-elearning-the-complete-guide-to-smarter-digital-learning/",
+      "destination": "/blog/ai-in-elearning-the-complete-guide-to-smarter-digital-learning/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-sales-automation-why-your-sales-funnel-is-broken-and-how-to-fix-it/",
+      "destination": "/blog/kajabi-sales-automation-why-your-sales-funnel-is-broken-and-how-to-fix-it/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-boost-employee-training-with-the-right-lms-technology/",
+      "destination": "/blog/how-to-boost-employee-training-with-the-right-lms-technology/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/proven-instructional-design-secrets-to-create-courses-that-actually-convert/",
+      "destination": "/blog/proven-instructional-design-secrets-to-create-courses-that-actually-convert/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/teachable-guide-how-to-build-sell-online-courses-as-a-california-creator/",
+      "destination": "/blog/teachable-guide-how-to-build-sell-online-courses-as-a-california-creator/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/small-team-free-lms-smart-cost-saving-or-risky-shortcut/",
+      "destination": "/blog/small-team-free-lms-smart-cost-saving-or-risky-shortcut/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/7-powerful-reasons-why-microlearning-is-the-future-of-employee-training/",
+      "destination": "/blog/7-powerful-reasons-why-microlearning-is-the-future-of-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/strategic-digital-product-architecture-for-wealth-systems-a-simple-guide/",
+      "destination": "/blog/strategic-digital-product-architecture-for-wealth-systems-a-simple-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ai-driven-elearning-video-production-for-the-food-industry-ultimate-guide/",
+      "destination": "/blog/ai-driven-elearning-video-production-for-the-food-industry-ultimate-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-turn-raw-videos-into-an-online-course-content-stepwise-guide-for-california-creators/",
+      "destination": "/blog/how-to-turn-raw-videos-into-an-online-course-content-stepwise-guide-for-california-creators/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-do-you-create-your-first-course-on-learnworlds/",
+      "destination": "/blog/how-do-you-create-your-first-course-on-learnworlds/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/2026-guide-to-creating-professional-online-course-websites-in-victoria/",
+      "destination": "/blog/2026-guide-to-creating-professional-online-course-websites-in-victoria/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/why-you-should-switch-to-kajabi-the-ultimate-website-migration-guide/",
+      "destination": "/blog/why-you-should-switch-to-kajabi-the-ultimate-website-migration-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/corporate-training-software-9-keys-to-better-learning/",
+      "destination": "/blog/corporate-training-software-9-keys-to-better-learning/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-design-interactive-learning-content-for-corporate-training-programs/",
+      "destination": "/blog/how-to-design-interactive-learning-content-for-corporate-training-programs/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-turn-pdfs-into-high-converting-courses-that-actually-sell/",
+      "destination": "/blog/how-to-turn-pdfs-into-high-converting-courses-that-actually-sell/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/docebo-in-2026-and-2027-inside-harmony-tutor-ai-search-and-mcp-workflow-integration/",
+      "destination": "/blog/docebo-in-2026-and-2027-inside-harmony-tutor-ai-search-and-mcp-workflow-integration/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/build-your-online-course-yourself-or-hire-course-creation-experts/",
+      "destination": "/blog/build-your-online-course-yourself-or-hire-course-creation-experts/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-break-into-corporate-ld-in-2026-a-complete-guide-for-teachers/",
+      "destination": "/blog/how-to-break-into-corporate-ld-in-2026-a-complete-guide-for-teachers/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/is-adobe-captivate-worth-the-cost-full-pricing-alternatives-breakdown/",
+      "destination": "/blog/is-adobe-captivate-worth-the-cost-full-pricing-alternatives-breakdown/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-create-digital-products-with-kajabi/",
+      "destination": "/blog/how-to-create-digital-products-with-kajabi/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/time-management-and-life-skills-students-can-master-2026/",
+      "destination": "/blog/time-management-and-life-skills-students-can-master-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-website-speed-optimization-strong-tips-by-the-eduassist/",
+      "destination": "/blog/kajabi-website-speed-optimization-strong-tips-by-the-eduassist/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/",
+      "destination": "/blog/how-to-migrate-to-a-new-lms-a-complete-checklist-for-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/craft-training-modules-for-ohio-s-elearning-academies-2026-focused-complete-guide/",
+      "destination": "/blog/craft-training-modules-for-ohio-s-elearning-academies-2026-focused-complete-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/learning-strategies-tricks-to-better-learning-and-smarter-problem-solving/",
+      "destination": "/blog/learning-strategies-tricks-to-better-learning-and-smarter-problem-solving/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/create-workbooks-for-your-masterclass-ultimate-guide-for-california-creators/",
       "destination": "/blog/create-workbooks-for-your-masterclass-ultimate-guide-for-california-creators/",
       "permanent": true
+    },
+    {
+      "source": "/uncategorized/instructional-design-checklist-make-your-online-courses-more-engaging/",
+      "destination": "/blog/instructional-design-checklist-make-your-online-courses-more-engaging/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/10-strong-competitor-analysis-tools-to-benchmark-your-elearning/",
+      "destination": "/blog/10-strong-competitor-analysis-tools-to-benchmark-your-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/why-learners-skip-pop-ups-and-how-better-design-changes-that/",
+      "destination": "/blog/why-learners-skip-pop-ups-and-how-better-design-changes-that/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/moocs-and-it-education-a-practical-guide-for-learners-in-2026/",
+      "destination": "/blog/moocs-and-it-education-a-practical-guide-for-learners-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/build-profitable-kajabi-courses-in-canberra-with-instructional-design-part-1/",
+      "destination": "/blog/build-profitable-kajabi-courses-in-canberra-with-instructional-design-part-1/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-email-marketing-funnels-for-better-course-sales/",
+      "destination": "/blog/kajabi-email-marketing-funnels-for-better-course-sales/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/study-e-learning-design-mistakes-that-prevents-retention-rate-of-the-learner/",
+      "destination": "/blog/study-e-learning-design-mistakes-that-prevents-retention-rate-of-the-learner/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/scorm-dispatch-how-it-works-and-how-to-dispatch-courses/",
+      "destination": "/blog/scorm-dispatch-how-it-works-and-how-to-dispatch-courses/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/stop-ineffective-training-how-to-build-uplifting-elearning-modules/",
+      "destination": "/blog/stop-ineffective-training-how-to-build-uplifting-elearning-modules/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ai-product-training-video-blueprint-for-businesses-in-new-york/",
+      "destination": "/blog/ai-product-training-video-blueprint-for-businesses-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/10-strong-reasons-its-time-to-rethink-how-we-use-the-learning-management-system/",
+      "destination": "/blog/10-strong-reasons-its-time-to-rethink-how-we-use-the-learning-management-system/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-design-an-agentic-ai-curriculum-design-in-7-simple-steps/",
+      "destination": "/blog/how-to-design-an-agentic-ai-curriculum-design-in-7-simple-steps/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/go-high-level-for-education-businesses-what-actually-works/",
+      "destination": "/blog/go-high-level-for-education-businesses-what-actually-works/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-design-a-life-health-insurance-course/",
+      "destination": "/blog/how-to-design-a-life-health-insurance-course/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/6-critical-reasons-leadership-training-fails-how-to-fix-them-fast/",
+      "destination": "/blog/6-critical-reasons-leadership-training-fails-how-to-fix-them-fast/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-sell-online-courses-that-actually-convert/",
+      "destination": "/blog/how-to-sell-online-courses-that-actually-convert/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/is-synthesia-worth-it-in-2026-roi-costs-genuine-verdict/",
+      "destination": "/blog/is-synthesia-worth-it-in-2026-roi-costs-genuine-verdict/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/free-moodle-installation-the-realities-of-self-hosting-your-lms/",
+      "destination": "/blog/free-moodle-installation-the-realities-of-self-hosting-your-lms/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-a-massive-high-ticket-funnel-in-20-days/",
+      "destination": "/blog/how-to-build-a-massive-high-ticket-funnel-in-20-days/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/primary-and-secondary-technical-domain-skills/",
+      "destination": "/blog/primary-and-secondary-technical-domain-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-many-students-can-you-have-on-kajabi/",
+      "destination": "/blog/how-many-students-can-you-have-on-kajabi/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/4-stages-to-implement-xapi-in-e-learning-for-course-revolution/",
+      "destination": "/blog/4-stages-to-implement-xapi-in-e-learning-for-course-revolution/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ai-skills-gap-analysis-how-to-identify-employee-training-needs/",
+      "destination": "/blog/ai-skills-gap-analysis-how-to-identify-employee-training-needs/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/launching-kajabi-online-course-in-florida-best-guide-for-video-editing-and-e-learning-course-creation/",
+      "destination": "/blog/launching-kajabi-online-course-in-florida-best-guide-for-video-editing-and-e-learning-course-creation/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/training-coordination-made-easy-proven-strategies-for-hybrid-teams/",
+      "destination": "/blog/training-coordination-made-easy-proven-strategies-for-hybrid-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/build-ultimate-thrilling-corporate-training-that-actually-works-with-theeduassist/",
+      "destination": "/blog/build-ultimate-thrilling-corporate-training-that-actually-works-with-theeduassist/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-build-a-high-engaging-online-community-in-mighty-networks-2026/",
+      "destination": "/blog/how-to-build-a-high-engaging-online-community-in-mighty-networks-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/learning-analytics-dashboard-20-kpis-every-landd-leader-should-track/",
+      "destination": "/blog/learning-analytics-dashboard-20-kpis-every-landd-leader-should-track/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/want-to-airbnb-skills-start-with-this-course-framework/",
+      "destination": "/blog/want-to-airbnb-skills-start-with-this-course-framework/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/2026-ultimate-guide-to-designing-an-ai-for-everyone-course/",
+      "destination": "/blog/2026-ultimate-guide-to-designing-an-ai-for-everyone-course/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ai-microlearning-the-ultimate-formula-for-corporate-training-2026/",
+      "destination": "/blog/ai-microlearning-the-ultimate-formula-for-corporate-training-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/clear-roadmap-to-launch-6-week-online-course-on-new-lms-in-texas/",
+      "destination": "/blog/clear-roadmap-to-launch-6-week-online-course-on-new-lms-in-texas/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/zero-downtime-lms-migration-the-ultimate-guide-to-no-disruption-transition/",
+      "destination": "/blog/zero-downtime-lms-migration-the-ultimate-guide-to-no-disruption-transition/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/hire-an-expert-to-create-an-entrepreneurship-training-program-from-scratch/",
+      "destination": "/blog/hire-an-expert-to-create-an-entrepreneurship-training-program-from-scratch/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/from-completion-rates-to-strong-behavior-what-elearning-success-really-means/",
+      "destination": "/blog/from-completion-rates-to-strong-behavior-what-elearning-success-really-means/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-find-the-best-kajabi-marketing-pros/",
+      "destination": "/blog/how-to-find-the-best-kajabi-marketing-pros/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/quick-tips-for-setting-up-kajabi-coaching-program/",
+      "destination": "/blog/quick-tips-for-setting-up-kajabi-coaching-program/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/a-practical-2026-guide-in-using-skool-for-real-estate-lending-sales-training/",
+      "destination": "/blog/a-practical-2026-guide-in-using-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-advanced-automations-a-complete-guide-for-2026/",
+      "destination": "/blog/kajabi-advanced-automations-a-complete-guide-for-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ghl-made-easy-ultimate-guide-or-edtech-coaching-businesses-in-new-jersey/",
+      "destination": "/blog/ghl-made-easy-ultimate-guide-or-edtech-coaching-businesses-in-new-jersey/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-reduce-lti-rates-using-ai-customized-safety-training/",
+      "destination": "/blog/how-to-reduce-lti-rates-using-ai-customized-safety-training/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-transform-passive-lessons-into-interactive-learndash-courses/",
+      "destination": "/blog/how-to-transform-passive-lessons-into-interactive-learndash-courses/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lms-user-adoption-15-proven-ways-to-increase-employee-engagement/",
+      "destination": "/blog/lms-user-adoption-15-proven-ways-to-increase-employee-engagement/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/create-ai-elearning-courses-that-sell-2026-ultimate-guide-for-new-creators-in-new-york/",
+      "destination": "/blog/create-ai-elearning-courses-that-sell-2026-ultimate-guide-for-new-creators-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-new-era-of-learning-and-development-you-can-try-today/",
+      "destination": "/blog/the-new-era-of-learning-and-development-you-can-try-today/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-marketing-services-complete-guide-for-2026/",
+      "destination": "/blog/kajabi-marketing-services-complete-guide-for-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-essential-guide-to-ai-generated-course-quality-2026/",
+      "destination": "/blog/the-essential-guide-to-ai-generated-course-quality-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/best-teachable-alternatives-compare-the-top-lms-platforms-2026/",
+      "destination": "/blog/best-teachable-alternatives-compare-the-top-lms-platforms-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/elearning-2026-how-technology-is-reshaping-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/proven-kajabi-conversion-optimization-best-practices/",
+      "destination": "/blog/proven-kajabi-conversion-optimization-best-practices/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/philosophy-to-practice-interactive-leadership-mastery-with-ai-technology/",
+      "destination": "/blog/philosophy-to-practice-interactive-leadership-mastery-with-ai-technology/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/busy-e-learning-teams-in-new-york-how-ai-video-creation-can-speed-up-their-training-module-production/",
+      "destination": "/blog/busy-e-learning-teams-in-new-york-how-ai-video-creation-can-speed-up-their-training-module-production/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/quest-3-for-sim-racing-can-it-be-made-reliable/",
+      "destination": "/blog/quest-3-for-sim-racing-can-it-be-made-reliable/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/ultimate-guide-to-promoting-ohio-elearning-business-via-youtube/",
+      "destination": "/blog/ultimate-guide-to-promoting-ohio-elearning-business-via-youtube/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-ultimate-6-step-kajabi-blueprint-for-building-a-leadership-training-program-in-florida/",
+      "destination": "/blog/the-ultimate-6-step-kajabi-blueprint-for-building-a-leadership-training-program-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/the-ultimate-guide-to-launching-a-6-week-online-course-on-new-lms-in-tasmania/",
+      "destination": "/blog/the-ultimate-guide-to-launching-a-6-week-online-course-on-new-lms-in-tasmania/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/canva-video-tutorials-for-digital-products-a-complete-guide/",
+      "destination": "/blog/canva-video-tutorials-for-digital-products-a-complete-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-produce-20-40-minute-coaching-videos-from-long-scripts/",
+      "destination": "/blog/how-to-produce-20-40-minute-coaching-videos-from-long-scripts/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/why-learning-is-the-strongest-skill-you-can-build/",
+      "destination": "/blog/why-learning-is-the-strongest-skill-you-can-build/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/is-podia-good-for-beginners-starting-an-online-business-assessing-ease-of-use-for-new-users/",
+      "destination": "/blog/is-podia-good-for-beginners-starting-an-online-business-assessing-ease-of-use-for-new-users/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/creating-self-help-online-courses-in-ohio-the-ultimate-guide/",
+      "destination": "/blog/creating-self-help-online-courses-in-ohio-the-ultimate-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/development-research-and-strong-curriculum-creation-for-a-thrilling-coaching-program/",
+      "destination": "/blog/development-research-and-strong-curriculum-creation-for-a-thrilling-coaching-program/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-win-at-digital-product-creation-in-2026/",
+      "destination": "/blog/how-to-win-at-digital-product-creation-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/build-a-thrilling-leadership-training-system-that-actually-delighted/",
+      "destination": "/blog/build-a-thrilling-leadership-training-system-that-actually-delighted/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/",
+      "destination": "/blog/xapi-learning-record-store-lrs-everything-you-need-to-know-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/how-to-choose-the-right-lms-for-your-organisation-in-2026/",
+      "destination": "/blog/how-to-choose-the-right-lms-for-your-organisation-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/lifterlms-is-it-still-the-best-wordpress-lms/",
+      "destination": "/blog/lifterlms-is-it-still-the-best-wordpress-lms/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/best-free-and-paid-kajabi-course-templates-themes-for-2026/",
+      "destination": "/blog/best-free-and-paid-kajabi-course-templates-themes-for-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/internal-academy-software-15-must-have-features-in-2026-2/",
+      "destination": "/blog/internal-academy-software-15-must-have-features-in-2026-2/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/skool-community-vs-facebook-for-course-creators-the-best-choice/",
+      "destination": "/blog/skool-community-vs-facebook-for-course-creators-the-best-choice/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/kajabi-templates-explained-types-benefits-uses-and-how-to-choose-the-right-one/",
+      "destination": "/blog/kajabi-templates-explained-types-benefits-uses-and-how-to-choose-the-right-one/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/is-podia-worth-the-money-discover-its-strong-features/",
+      "destination": "/blog/is-podia-worth-the-money-discover-its-strong-features/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/7-thrilling-proven-ways-to-measure-training-roi-theeduassist/",
+      "destination": "/blog/7-thrilling-proven-ways-to-measure-training-roi-theeduassist/",
+      "permanent": true
+    },
+    {
+      "source": "/tag/(.*)",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/category/(.*)",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/uncategorized/(.*)",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/author/(.*)",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/job-(.*)",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/jobs/(.*)",
+      "destination": "/careers/",
+      "permanent": true
+    },
+    {
+      "source": "/product/(.*)",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/product-category/(.*)",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/feed/",
+      "destination": "/rss.xml",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)/embed/",
+      "destination": "/$1/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)-sitemap.xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://www.theeduassist.com/$1",
+      "permanent": true,
+      "has": [
+        {
+          "type": "host",
+          "value": "theeduassist.com"
+        }
+      ]
+    },
+    {
+      "source": "/newsletter/(.*)",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/accounts(.*)",
+      "destination": "/contact-us/",
+      "permanent": true
+    },
+    {
+      "source": "/users(.*)",
+      "destination": "/contact-us/",
+      "permanent": true
+    },
+    {
+      "source": "/email/(.*)",
+      "destination": "/contact-us/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-admin(.*)",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/wp-login.php(.*)",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/xmlrpc.php(.*)",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/.env(.*)",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/.git(.*)",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/phpmyadmin(.*)",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/adminer(.*)",
+      "destination": "/404",
+      "permanent": false
     }
   ],
   "routes": [
