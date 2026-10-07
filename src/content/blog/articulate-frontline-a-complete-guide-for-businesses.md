@@ -108,7 +108,7 @@ As we know, Articulate Frontline creates these training kits built around a sing
 
 So how do you generate a kit? First, you open your frontline dashboard; this is where you will upload your source material by either choosing a file, attaching a doc, recording a video, or attaching a link. You then enter a prompt on the content you wish to make, for example Turn this lunch deck into training that prepares my reps to talk to customers about our new security product. Finally, add or select a brand theme if you have it and then click Let's go. 
 
-## **** Key Features of Articulate Frontline
+## Key Features of Articulate Frontline
 
 ### Multi-format training kits:
 
