@@ -59,7 +59,8 @@ export function hasValidSlug(post: any): boolean {
   if (!slug || typeof slug !== 'string') return false;
   const cleanSlug = slug.toLowerCase();
 
-  return !cleanSlug.includes('test') &&
+  const isTestSlug = cleanSlug === 'test' || cleanSlug.startsWith('test-') || cleanSlug.endsWith('-test');
+  return !isTestSlug &&
          !cleanSlug.includes('do-not-publish') &&
          !cleanSlug.includes('review-pending') &&
          !cleanSlug.includes('content-coming-soon');
@@ -72,14 +73,13 @@ export function getBlogPostPublicFilterReason(post: any): string | null {
   if (post.title && post.title.toLowerCase().includes('content coming soon')) return 'placeholder content';
   if (!hasValidSlug(post)) return 'test slug or title';
 
-  const title = (post.title || '').toLowerCase();
-  if (!title ||
-      title.includes('test') ||
-      title.includes('testing') ||
+  const title = (post.title || '').toLowerCase().trim();
+  const isTestTitle = title === 'test' || /^test\s/i.test(title) ||
       title.includes('do not publish') ||
       title.includes('review pending') ||
       title.includes('content coming soon') ||
-      title.includes('course buliding in the future and the current now')) {
+      title.includes('course buliding in the future and the current now');
+  if (!title || isTestTitle) {
       return 'test title';
   }
 
@@ -124,15 +124,14 @@ export function isPublicBlogSummary(post: any): boolean {
     return false;
   }
 
-  const title = (post.title || '').toLowerCase();
-  if (!title ||
-      title.includes('test') ||
-      title.includes('testing') ||
+  const title = (post.title || '').toLowerCase().trim();
+  const isTestTitle = title === 'test' || /^test\s/i.test(title) ||
       title.includes('do not publish') ||
       title.includes('review pending') ||
       title.includes('content coming soon') ||
-      title.includes('untitled')) {
-      return false;
+      title.includes('untitled');
+  if (!title || isTestTitle) {
+    return false;
   }
 
   const status = post.status;

@@ -151,11 +151,6 @@
       "permanent": true
     },
     {
-      "source": "/platforms/",
-      "destination": "/services/",
-      "permanent": true
-    },
-    {
       "source": "/blog/lms-implementation-guide/",
       "destination": "/blog/lms-implementation-guide-steps-for-a-successful-launch/",
       "permanent": true
@@ -414,27 +409,6 @@
       "source": "/2025/08/gamified-skool-courses-theeduassist-guide/",
       "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
       "permanent": true
-    },
-    {
-      "source": "/robots.txt/",
-      "destination": "/robots.txt",
-      "permanent": true
-    },
-    {
-      "source": "/sitemap.xml/",
-      "destination": "/sitemap.xml",
-      "permanent": true
-    },
-    {
-      "source": "/",
-      "destination": "https://www.theeduassist.com/",
-      "permanent": true,
-      "has": [
-        {
-          "type": "host",
-          "value": "theeduassist.com"
-        }
-      ]
     },
     {
       "source": "/shop/",
@@ -1418,7 +1392,7 @@
     },
     {
       "source": "/kajabi-course-upload-services-2/",
-      "destination": "/blog/kajabi-course-upload-services/",
+      "destination": "/blog/7-common-mistakes-in-kajabi-course-uploading-to-avoid/",
       "permanent": true
     },
     {
@@ -1673,7 +1647,7 @@
     },
     {
       "source": "/uncategorized/internal-academy-software-15-must-have-features-in-2026/",
-      "destination": "/blog/internal-academy-software-15-must-have-features-in-2026/",
+      "destination": "/blog/internal-academy-software-features-2026/",
       "permanent": true
     },
     {
@@ -1808,7 +1782,7 @@
     },
     {
       "source": "/uncategorized/easy-lms-migration-best-practices-for-moving-data-safely/",
-      "destination": "/blog/easy-lms-migration-best-practices-for-moving-data-safely/",
+      "destination": "/services/lms-implementation-migration/",
       "permanent": true
     },
     {
@@ -2313,7 +2287,7 @@
     },
     {
       "source": "/uncategorized/discover-kajabi-the-most-popular-platform-of-elearning-world/",
-      "destination": "/blog/discover-kajabi-the-most-popular-platform-of-elearning-world/",
+      "destination": "/kajabi-services/",
       "permanent": true
     },
     {
@@ -3331,6 +3305,3766 @@
       "source": "/adminer(.*)",
       "destination": "/404",
       "permanent": false
+    },
+    {
+      "source": "/add-ai-skills-coursework-to-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/add-ai-skills-coursework-to-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/best-it-courses-2025-comprehensive-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/best-it-courses-2025-comprehensive-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/top-it-courses-in-2025-that-employers-are-actively-hiring-for/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/gamification-in-e-learning-for-kids/",
+      "destination": "/blog/gamification-in-e-learning-for-kids/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/gamification-in-e-learning-for-kids/",
+      "destination": "/blog/gamification-in-e-learning-for-kids/",
+      "permanent": true
+    },
+    {
+      "source": "/learnworlds-course-creation-in-7-days/",
+      "destination": "/blog/learnworlds-course-creation-in-7-days/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/learnworlds-course-creation-interactive-7-days/",
+      "destination": "/blog/learnworlds-course-creation-in-7-days/",
+      "permanent": true
+    },
+    {
+      "source": "/saas-training-programs-guide/",
+      "destination": "/blog/saas-training-programs-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/saas-training-programs-guide/",
+      "destination": "/blog/saas-training-programs-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/which-lms-plugin-is-better-learndash-or-lifterlms/",
+      "destination": "/blog/which-lms-plugin-is-better-learndash-or-lifterlms/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-tools-for-course-creation/",
+      "destination": "/blog/ai-tools-for-course-creation/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/sales-courses-2025-skool-vs-kajabi/",
+      "destination": "/blog/sales-courses-skool-vs-kajabi/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/sales-courses-2025-skool-vs-kajabi/",
+      "destination": "/blog/sales-courses-skool-vs-kajabi/",
+      "permanent": true
+    },
+    {
+      "source": "/7-social-media-strategies-online-course-enrollments/",
+      "destination": "/blog/7-social-media-strategies-online-course-enrollments/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/7-social-media-strategies-online-course-enrollments/",
+      "destination": "/blog/7-social-media-strategies-online-course-enrollments/",
+      "permanent": true
+    },
+    {
+      "source": "/top-benefits-of-learning-online-2025/",
+      "destination": "/blog/top-benefits-of-learning-online-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/top-benefits-of-learning-online-2025/",
+      "destination": "/blog/top-benefits-of-learning-online-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-vs-generative-ai-guide-2025/",
+      "destination": "/blog/ai-vs-generative-ai-guide-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-vs-generative-ai-guide-2025/",
+      "destination": "/blog/ai-vs-generative-ai-guide-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-vs-generative-ai-guide-2025-2/",
+      "destination": "/blog/ai-vs-generative-ai-guide-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-apps-for-math-problem-solving-practice/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/the-ultimate-guide-to-ai-powered-course-visuals-for-educators/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/faqs/",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/service-section/",
+      "destination": "/services/",
+      "permanent": true
+    },
+    {
+      "source": "/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/e-learning-future-of-education/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/two-trends-are-coming-together-in-the-fast-changing-landscape-of-elearning-and-online-training/",
+      "destination": "/blog/elearning-2026-how-technology-is-reshaping-education/",
+      "permanent": true
+    },
+    {
+      "source": "/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/best-kajabi-website-templates/",
+      "destination": "/blog/best-kajabi-website-templates-for-online-businesses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/skool-sales-monetization-theeduassist-guide/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/gamification-online-courses-2025/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/best-online-course-platforms-2025/",
+      "destination": "/blog/9-best-online-learning-platforms-tried-and-tested-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/are-tech-certifications-worth-it-2025-guide/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/verified-certificates-us-diplomas-free-online-courses/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/future-proof-moocs-usa-it-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/kajabi-webinar-funnel/",
+      "destination": "/blog/how-to-build-your-first-kajabi-webinar-funnel/",
+      "permanent": true
+    },
+    {
+      "source": "/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/skills-vs-degrees-battle-2025-career-guide/",
+      "destination": "/blog/education-or-experience-first-on-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/instructional-designer-vs-developer/",
+      "destination": "/blog/instructional-designer-vs-developer-the-best-choice-for-your-course/",
+      "permanent": true
+    },
+    {
+      "source": "/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/lms-integration-guide-hris-crm-collaboration-tools/",
+      "destination": "/blog/lms-integration-how-to-connect-hris-crm-slack-and-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/highlight-ai-skills-in-resume/",
+      "destination": "/blog/add-ai-skills-coursework-to-resume/",
+      "permanent": true
+    },
+    {
+      "source": "/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/kajabi-automation-workflows/",
+      "destination": "/blog/kajabi-automation-workflows-how-to-scale-smarter-and-sell-more-courses-in-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/factors-that-influence-learning-social-interactions/",
+      "destination": "/blog/why-is-learning-important/",
+      "permanent": true
+    },
+    {
+      "source": "/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/build-skool-sales-training-theeduassist/",
+      "destination": "/blog/a-practical-2026-guide-in-skool-for-real-estate-lending-sales-training/",
+      "permanent": true
+    },
+    {
+      "source": "/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/what-makes-health-training-online-effective/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/best-coaching-models-group-training/",
+      "destination": "/blog/how-to-scale-a-coaching-business-online-in-2026-latest-elearning-trends-and-strategies-in-north-dakota/",
+      "permanent": true
+    },
+    {
+      "source": "/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/leadership-imperative-10-principles/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/ultimate-guide-educational-2025/",
+      "destination": "/blog/how-to-create-engaging-educational-content-for-online-platforms/",
+      "permanent": true
+    },
+    {
+      "source": "/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/vr-training-costs/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/scaling-vocational-courses-theeduassist-lms-scalability/",
+      "destination": "/blog/10-powerful-benefits-of-learnworlds-lms-for-online-training/",
+      "permanent": true
+    },
+    {
+      "source": "/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/lms-integration-consulting-guide-2025-how-to-select-the-correct-lms-scorm-migration-features-and-best-practices/",
+      "destination": "/blog/lms-migration-checklist-simple-steps-for-a-smooth-switch/",
+      "permanent": true
+    },
+    {
+      "source": "/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/ais-power-requirements/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/6-steps-to-land-a-job-in-a-fintech-company/",
+      "destination": "/blog/best-it-courses-2025-comprehensive-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/generative-ai-education-guide/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/how-to-choose-a-scorm-course-builder-that-works-with-any-lms-2026/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/backbone-of-modern-ai-technology/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/microlearning-leadership-training-2025/",
+      "destination": "/blog/instructional-design-for-leadership-training-programs-in-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/maximize-thinkific-course-sales-ghl/",
+      "destination": "/blog/thinkific-course-creation-and-lms-management-how-to-create-online-courses-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/accessible-elearning-eduassist/",
+      "destination": "/resources/accessibility/elearning-accessibility-wcag/",
+      "permanent": true
+    },
+    {
+      "source": "/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/advantages-of-cloud-based-ai-tech-industry/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/ai-course-creation-theeduassist-elearning-faq/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/ai-course-creation/",
+      "destination": "/blog/ai-automation-course-creation-guide-for-new-york-edtech-startups/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/ai-in-training-future-learning-development/",
+      "destination": "/blog/engineering-manager-ai-integration-future-skills/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/ai-reasoning-explained/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/ai-skills-challenge-2025-training/",
+      "destination": "/blog/top-ai-skills-tools-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/ai-tools-for-course-creation-engaging-content/",
+      "destination": "/services/ai-powered-elearning/",
+      "permanent": true
+    },
+    {
+      "source": "/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/ai-tools-that-make-teaching-easier-than-ever/",
+      "destination": "/blog/ai-writing-tools-changing-teaching-new-york/",
+      "permanent": true
+    },
+    {
+      "source": "/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/ais-role-in-floridas-new-education-era/",
+      "destination": "/blog/the-ultimate-blueprint-for-creating-interactive-elearning-course-in-florida/",
+      "permanent": true
+    },
+    {
+      "source": "/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/course-creation-tools/",
+      "destination": "/blog/2026-best-non-technical-scorm-course-creation-tools-easy-no-code-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/digital-skills-in-demand-2025/",
+      "destination": "/blog/future-proof-skills-top-5-in-demand-courses-in-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/future-of-corporate-training-2025/",
+      "destination": "/blog/ai-adoption-higher-education-leaders/",
+      "permanent": true
+    },
+    {
+      "source": "/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/how-to-monetize-your-course/",
+      "destination": "/blog/gamified-skool-courses-theeduassist-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/interactive-elearning-elements/",
+      "destination": "/blog/beyond-gamification-how-to-make-interactive-learning-truly-effective/",
+      "permanent": true
+    },
+    {
+      "source": "/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/learning-experience-platforms-vs-lms/",
+      "destination": "/blog/lms-vs-lxp-a-complete-comparison-for-l-d-professionals/",
+      "permanent": true
+    },
+    {
+      "source": "/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/microlearning-benefits/",
+      "destination": "/blog/5-strong-massive-benefits-of-microlearning-for-employee-training/",
+      "permanent": true
+    },
+    {
+      "source": "/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/mobile-learning-trends-2025/",
+      "destination": "/blog/mobile-apps-for-math-problem-solving-practice/",
+      "permanent": true
+    },
+    {
+      "source": "/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/online-course-pricing-strategy/",
+      "destination": "/blog/ideal-online-course-length-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/scorm-vs-xapi-comparison/",
+      "destination": "/blog/scorm-vs-xapi-the-complete-decision-framework-for-enterprise-landd/",
+      "permanent": true
+    },
+    {
+      "source": "/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/soft-skills-training-workplace/",
+      "destination": "/blog/non-technical-skills-career-success/",
+      "permanent": true
+    },
+    {
+      "source": "/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/talentlms-vs-learnworlds/",
+      "destination": "/blog/10-best-learning-management-systems-compared/",
+      "permanent": true
+    },
+    {
+      "source": "/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/04/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/05/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/06/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/07/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/08/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2025/09/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/04/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/05/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/06/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/08/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/09/virtual-reality-in-corporate-training/",
+      "destination": "/blog/vr-training-costs-the-complete-guide-for-l-d-teams/",
+      "permanent": true
     }
   ],
   "routes": [
