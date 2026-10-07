@@ -342,7 +342,27 @@
     },
     {
       "source": "/ultimate-moocs-guide-2025/",
-      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2026-2027/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ultimate-moocs-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2026-2027/",
+      "permanent": true
+    },
+    {
+      "source": "/ultimate-moocs-guide-2026-2027/",
+      "destination": "/blog/ultimate-moocs-guide-2026-2027/",
+      "permanent": true
+    },
+    {
+      "source": "/ultimate-moocs-guide-2026/",
+      "destination": "/blog/ultimate-moocs-guide-2026-2027/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ultimate-moocs-guide-2026/",
+      "destination": "/blog/ultimate-moocs-guide-2026-2027/",
       "permanent": true
     },
     {
@@ -3273,12 +3293,12 @@
     },
     {
       "source": "/verified-certificates-us-diplomas-free-online-courses/",
-      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2026-2027/",
       "permanent": true
     },
     {
       "source": "/future-proof-moocs-usa-it-guide-2025/",
-      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2026-2027/",
       "permanent": true
     },
     {
@@ -3963,7 +3983,7 @@
     },
     {
       "source": "/online-courses-usa-2025-guide/",
-      "destination": "/blog/ultimate-moocs-guide-2025/",
+      "destination": "/blog/ultimate-moocs-guide-2026-2027/",
       "permanent": true
     },
     {
