@@ -52,8 +52,6 @@ keyTakeaways:
     interactive videos, scenarios, and quick-reference materials.
   - Frontline can help keep connected training materials updated when the
     original source information changes.
-  - Frontline can help keep connected training materials updated when the
-    original source information changes.
 faqs:
   - question: Can Articulate Frontline create different training formats from one source?
     answer: Yes. Frontline can turn a single source into a multi-format training
