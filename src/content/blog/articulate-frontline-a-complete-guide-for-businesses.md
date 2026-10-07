@@ -11,7 +11,7 @@ aiSummary: This guide explains Articulate Frontline and how it helps
   content, automatic updates, interactive scenarios, and how Frontline supports
   teams outside L&D while maintaining organizational training standards.
 author: editorial-team
-category: instructional-design
+category: enterprise-learning
 tags:
   - "Articulate Frontline "
   - "Articulate "
