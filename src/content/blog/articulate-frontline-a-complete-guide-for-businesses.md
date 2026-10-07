@@ -20,7 +20,7 @@ tags:
   - "Corporate eLearning "
 draft: false
 publishedAt: 2026-09-29
-updatedAt: 2026-09-29
+updatedAt: 2026-10-07
 heroImage: /images/blog/screenshot-2026-09-29-120454.webp
 heroImageAlt: "Diagram showing how Articulate Frontline works: upload a
   document, Nova AI builds a training kit with a guide, quick reference, video,
