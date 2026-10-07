@@ -56,6 +56,10 @@ const vercelContent = fs.readFileSync(path.join(process.cwd(), 'vercel.json'), '
 try {
   const vercelObj = JSON.parse(vercelContent);
   if (vercelObj.redirects) {
+    if (vercelObj.redirects.length > 2048) {
+      console.error(`Error: Vercel schema limit exceeded! Found ${vercelObj.redirects.length} redirects (maximum allowed by Vercel is 2048).`);
+      process.exit(1);
+    }
     const vFroms = new Set();
     for (const r of vercelObj.redirects) {
       if (!r.source || !r.destination) {
