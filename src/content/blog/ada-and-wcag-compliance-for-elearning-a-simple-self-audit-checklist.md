@@ -48,9 +48,7 @@ heroImageAlt: ADA and WCAG compliance checklist for eLearning accessibility,
 heroImageCaption: ADA and WCAG eLearning accessibility checklist covering
   keyboard navigation, captions, alt text, color contrast, and LMS settings.
 seoTitle: "ADA & WCAG Compliance for eLearning: Audit Checklist"
-seoDescription: Learn how to audit ADA and WCAG compliance in eLearning,
-  identify accessibility issues, estimate remediation costs, and improve course
-  accessibility.
+seoDescription: "Learn how to audit ADA and WCAG accessibility standards in eLearning, identify issues, estimate remediation costs, and improve course accessibility."
 focusKeyword: ADA and WCAG Compliance for eLearning
 secondaryKeywords:
   - ADA compliance eLearning

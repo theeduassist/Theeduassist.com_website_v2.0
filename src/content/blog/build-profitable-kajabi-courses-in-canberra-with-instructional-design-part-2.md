@@ -19,7 +19,7 @@ updatedAt: "2026-09-22"
 heroImage: "/images/blog/kajabi-advanced-automations-guide-2026-1.webp"
 heroImageAlt: "Build Profitable Kajabi Courses in Canberra with Instructional Design(Part 2) overview and actionable framework"
 heroImageCaption: "Implementation guide and core takeaways for Build Profitable Kajabi Courses in Canberra with Instructional Design(Part 2)."
-seoTitle: "Build Profitable Kajabi Courses in Canberra with Instru..."
+seoTitle: "Build Kajabi Courses in Canberra: Scaling (Part 2)"
 seoDescription: "Explore how Canberra professional services and Australian eLearning markets create profitable Kajabi course opportunities through sound instructional design."
 focusKeyword: "Build Profitable Kajabi Courses in Canberra with Instructional Design(Part 2)"
 secondaryKeywords:

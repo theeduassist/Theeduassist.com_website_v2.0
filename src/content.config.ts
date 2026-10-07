@@ -27,9 +27,15 @@ const blog = defineCollection({
       hreflang: z.string().optional(),
       socialTitle: z.string().optional(),
       socialDescription: z.string().optional(),
+      seoTitle: z.string().optional(),
+      seoDescription: z.string().optional(),
       ogImage: z.string().optional(),
       twitterCardType: z.string().optional()
     }).optional(),
+    seoTitle: z.string().optional(),
+    seoDescription: z.string().optional(),
+    focusKeyword: z.string().optional(),
+    secondaryKeywords: z.array(z.string()).optional(),
     keyTakeaways: z.preprocess((val) => {
       if (!Array.isArray(val)) return val;
       return val.filter((item: any) => typeof item === 'string' && item.trim().length > 0);
