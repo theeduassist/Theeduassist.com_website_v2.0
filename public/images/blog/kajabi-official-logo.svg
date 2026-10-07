@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B" />
+      <stop offset="50%" stop-color="#1C2541" />
+      <stop offset="100%" stop-color="#0B132B" />
+    </linearGradient>
+    <linearGradient id="kajabiBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066FF" />
+      <stop offset="50%" stop-color="#0052CC" />
+      <stop offset="100%" stop-color="#003D99" />
+    </linearGradient>
+    <linearGradient id="kajabiLightBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3399FF" />
+      <stop offset="100%" stop-color="#0066FF" />
+    </linearGradient>
+    <linearGradient id="kajabiAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C4FF" />
+      <stop offset="100%" stop-color="#0070F3" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+  
+  <!-- Subtle decorative grid -->
+  <g opacity="0.05" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="525" x2="1200" y2="525" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="400" y1="0" x2="400" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="1000" y1="0" x2="1000" y2="630" />
+  </g>
+
+  <!-- Glow behind emblem -->
+  <circle cx="600" cy="240" r="160" fill="#0066FF" opacity="0.25" filter="url(#glow)" />
+
+  <!-- Kajabi Geometric Emblem Mark -->
+  <g transform="translate(600, 230)">
+    <!-- Left vertical bar / fold -->
+    <path d="M -70 -90 L -30 -115 L -30 115 L -70 90 Z" fill="url(#kajabiBlueGrad)" />
+    <!-- Top diagonal fold pointing right -->
+    <path d="M -25 -50 L 55 -100 L 85 -80 L 5 -30 Z" fill="url(#kajabiAccent)" />
+    <!-- Bottom diagonal fold pointing right -->
+    <path d="M 5 30 L 85 80 L 55 100 L -25 50 Z" fill="url(#kajabiLightBlue)" />
+    <!-- Center connecting diamond faceted fold -->
+    <path d="M -25 -40 L 15 0 L -25 40 L -30 0 Z" fill="#0052CC" />
+  </g>
+
+  <!-- Official Kajabi Wordmark -->
+  <text x="600" y="420" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="900" fill="#FFFFFF" letter-spacing="8">KAJABI</text>
+  
+  <!-- Subtitle Tagline -->
+  <text x="600" y="475" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#00C4FF" letter-spacing="3">OFFICIAL PLATFORM ARCHITECTURE &amp; ROADMAP</text>
+
+  <!-- 2026 - 2027 Badge -->
+  <g transform="translate(600, 525)">
+    <rect x="-160" y="-18" width="320" height="36" rx="18" fill="#1C2541" stroke="#00C4FF" stroke-width="1.5" />
+    <text x="0" y="6" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" letter-spacing="2">2026 &amp; UPCOMING 2027 EDITIONS</text>
+  </g>
+</svg>
