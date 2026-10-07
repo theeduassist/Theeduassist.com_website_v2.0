@@ -90,7 +90,7 @@ editorialManagement:
   lastReviewedDate: 2026-10-07
   nextReviewDate: 2026-10-07
 ---
-#  What is Articulate Frontline: 
+# What is Articulate Frontline:
 
 Frontline employees are often the first point of contact between a business and its customers, yet providing them with consistent, accessible training can be challenging. Traditional training methods may require employees to step away from their daily responsibilities, making it difficult to keep everyone informed and prepared.
 
@@ -102,9 +102,7 @@ Training is already being created across organizations, even when L&D teams aren
 
 This is where Articulate Frontline comes in. It allows teams outside L&D to create training while still following the standards and practices set by L&D. Teams also don't have to start from scratch. Frontline comes in. Teams also don't have to start from scratch. Frontline can use existing content and organize scattered information into a structured outline before turning it into training. 
 
-##  How Does Articulate Frontline Work?  
-  
-
+## How Does Articulate Frontline Work?
 
 As we know, Articulate Frontline creates these training kits built around a single task and composed of different artifacts in different formats. These artifacts are basically individual pieces of training content created as part of a multi-format learning kit. Every artifact in a kit comes from the same source, meaning that they are consistent with each other and with the training goals we set.
 
@@ -114,15 +112,13 @@ So how do you generate a kit? First, you open your frontline dashboard; this is 
 
 ### Multi-format training kits:
 
-  
 Frontline can create a complete training kit from one source. A kit can include guides, training decks, interactive videos, scenarios, and quick reference materials. 
 
 ### AI-powered training creation:
 
-  
 Frontline uses Articulayes AI agent, Nova, to turn existing content and prompts into training. It guides users through the creation process instead of requiring them to build everything manually.
 
-### Use existing content: 
+### Use existing content:
 
 You can start with content you already have, such as documents, decks, videos, or links, rather than creating training from scratch.
 
@@ -132,26 +128,21 @@ If the information in the source changes, Frontline can update the connected tra
 
 So they stay consistent.  
 
-### **Benefits of Using Articulate Frontline for Employee Training**  
-  
-
+### **Benefits of Using Articulate Frontline for Employee Training**
 
 ### Rapid Training Creation:
 
-  
 Business requirements can change faster than centralized teams can keep up with. Frontline allows teams to create different types of training and support materials without having to wait a long time for L&D to build everything 
 
 Keeps Training Up to Date 
 
-  
 Business information can change quickly, whether it is a new product, procedure, customer need, or system update. Frontline helps teams create and update training quickly, so employees don't have to rely on outdated information.
 
-### More hands-on experience 
+### More hands-on experience
 
 Frontline can make training more practical instead of simply giving employees information to read. With features such as interactive videos and AI-powered scenarios, employees can practice situations they may actually face at work. 
 
-##  Articulate Frontline vs. Other E-Learning Solutions:  
-
+## Articulate Frontline vs. Other E-Learning Solutions:
 
 Unlike traditional e-learning solutions that often require L& D teams to build training from scratch, Frontline helps teams turn existing content into training using AI. 
 
