@@ -38,7 +38,7 @@ secondaryKeywords:
   - "AI employee training "
   - "AI powered training creation "
   - "corporate eLearning "
-searchIntent: "Informational / Commercial Investigation "
+searchIntent: "Informational "
 advancedSeo:
   noindex: false
   socialTitle: "Articulate Frontline: How AI-Powered Training Works for Businesses"
