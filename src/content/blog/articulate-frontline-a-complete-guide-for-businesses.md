@@ -85,8 +85,8 @@ sources:
     url: https://www.articulate.com/blog/articulate-announces-major-platform-evolution-at-articuland-2026/
     accessedAt: 2026-10-07
 editorialManagement:
-  dueDate: 2026-10-07
-  scheduledPublicationDate: 2026-10-07
+  dueDate: 2026-09-29
+  scheduledPublicationDate: 2026-09-29
   lastReviewedDate: 2026-10-07
   nextReviewDate: 2026-10-07
 ---
