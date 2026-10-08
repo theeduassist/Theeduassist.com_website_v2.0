@@ -11,6 +11,7 @@ const canonicalPath = "https://www.theeduassist.com/pricing/";
 const engagementModels = [
   {
     title: "Course Clarity & Architecture Sprint",
+    category: "creator",
     model: "Project-Based SOW",
     bestFor: "Creators, Subject-Matter Experts, and organizations planning a high-impact course before committing to full production.",
     desc: "A strategy-first engagement to translate raw expertise, documents, or workshop slides into an actionable curriculum architecture based on Bloom's Taxonomy.",
@@ -29,6 +30,7 @@ const engagementModels = [
   },
   {
     title: "Flagship Academy & Turnkey Multi-LMS Build",
+    category: "creator",
     model: "Turnkey Milestone SOW",
     bestFor: "Academies, founders, high-growth institutions, and training providers deploying a bespoke, turnkey learning ecosystem across Kajabi, LearnWorlds, Thinkific, Skool, or Canvas LMS.",
     desc: "Complete end-to-end design and build: from Bloom's Taxonomy curriculum scripting and motion slide decks to fillable student workbooks, custom multi-platform LMS engineering, automated student funnels, and checkout architecture.",
@@ -48,7 +50,28 @@ const engagementModels = [
     ctaLink: "/book-free-audit/"
   },
   {
+    title: "Audit-Ready Corporate Compliance Architecture",
+    category: "compliance",
+    model: "Turnkey SCORM License / Managed Academy",
+    bestFor: "Employers and multi-state organizations needing mandatory annual anti-harassment, OSHA safety, and cybersecurity compliance to avoid statutory fines up to $50,000+.",
+    desc: "Certified, anti-skipping SCORM 1.2, SCORM 2004, and cmi5 courseware built to strict California SB 1343/553, NYS 201-g, OSHA, and UK Worker Protection standards, complete with automated seat-time tracking and audit-ready verification logs.",
+    features: [
+      "Turnkey SCORM 1.2, 2004 & cmi5 packages compatible with any LMS",
+      "Anti-scrubbing timeline locks enforcing statutory seat times (60m/120m)",
+      "Scenario-based decision branches satisfying legal interactivity mandates",
+      "Randomized 80% passing quiz gates with automated remediation loops",
+      "Timestamped digital completion certificates with unique verification IDs",
+      "Annual Regulatory Protection Retainer options for automatic legislative updates",
+      "Turnkey Managed Compliance Academy option for companies without an internal LMS"
+    ],
+    timeline: "3–5 Business Days",
+    badge: "Statutory Compliance",
+    ctaText: "Explore Compliance Scoping",
+    ctaLink: "/contact-us/"
+  },
+  {
     title: "Enterprise & Public Sector Workforce SOW",
+    category: "enterprise",
     model: "Custom SOW / Formal RFP Tender",
     bestFor: "Government agencies, corporate L&D leaders, and public sector departments needing accessible, auditable workforce training.",
     desc: "Custom-engineered digital learning modules built to strict statutory compliance, universal accessibility mandates, and multi-agency LMS standards.",
@@ -68,6 +91,7 @@ const engagementModels = [
   },
   {
     title: "Managed Learning & Advisory Retainer",
+    category: "retainer",
     model: "Dedicated Monthly Retainer",
     bestFor: "Organizations and high-growth academies requiring continuous curriculum updates, LMS administration, and ongoing quality assurance.",
     desc: "A dedicated operational extension of your team to maintain, optimize, and expand your digital learning ecosystem after initial launch.",
@@ -82,25 +106,6 @@ const engagementModels = [
     timeline: "Monthly / Annual Retainer",
     badge: "Operational Partnership",
     ctaText: "Discuss Managed Support",
-    ctaLink: "/contact-us/"
-  },
-  {
-    title: "Audit-Ready Corporate Compliance Architecture",
-    model: "Turnkey SCORM License / Managed Academy",
-    bestFor: "Employers and multi-state organizations needing mandatory annual anti-harassment, OSHA safety, and cybersecurity compliance to avoid statutory fines up to $50,000+.",
-    desc: "Certified, anti-skipping SCORM 1.2, SCORM 2004, and cmi5 courseware built to strict California SB 1343/553, NYS 201-g, OSHA, and UK Worker Protection standards, complete with automated seat-time tracking and audit-ready verification logs.",
-    features: [
-      "Turnkey SCORM 1.2, 2004 & cmi5 packages compatible with any LMS",
-      "Anti-scrubbing timeline locks enforcing statutory seat times (60m/120m)",
-      "Scenario-based decision branches satisfying legal interactivity mandates",
-      "Randomized 80% passing quiz gates with automated remediation loops",
-      "Timestamped digital completion certificates with unique verification IDs",
-      "Annual Regulatory Protection Retainer options for automatic legislative updates",
-      "Turnkey Managed Compliance Academy option for companies without an internal LMS"
-    ],
-    timeline: "3–5 Business Days",
-    badge: "Statutory Compliance",
-    ctaText: "Explore Compliance Scoping",
     ctaLink: "/contact-us/"
   }
 ];
@@ -179,16 +184,50 @@ const jsonLd = [
   <!-- Engagement Tiers Grid -->
   <section class="py-20 bg-slate-50 border-b border-slate-200">
     <div class="container mx-auto px-4 max-w-7xl">
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-10">
         <h2 class="text-3xl md:text-4xl font-extrabold text-brand-navy mb-4">Five Structured Engagement Models</h2>
         <p class="text-slate-600 text-base md:text-lg">
           Select the model that fits your organization's scale—from rapid strategy sprints and statutory compliance to turnkey digital academies and enterprise workforce deployments.
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Audience Filter Tabs -->
+      <div class="flex items-center justify-center gap-2 flex-wrap mb-10" id="pricing-audience-tabs">
+        <button type="button" data-filter="all" class="audience-tab-btn active px-4 py-2 rounded-full text-xs font-bold border-2 border-[#77BA55] bg-[#77BA55]/15 text-brand-navy shadow-xs transition-all">
+          All Solutions (5)
+        </button>
+        <button type="button" data-filter="creator" class="audience-tab-btn px-4 py-2 rounded-full text-xs font-bold border border-slate-200 bg-white text-slate-700 hover:border-slate-400 transition-all">
+          🎓 Course Creators & Academies
+        </button>
+        <button type="button" data-filter="compliance" class="audience-tab-btn px-4 py-2 rounded-full text-xs font-bold border border-slate-200 bg-white text-slate-700 hover:border-slate-400 transition-all">
+          ⚖️ Corporate Compliance & SCORM
+        </button>
+        <button type="button" data-filter="enterprise" class="audience-tab-btn px-4 py-2 rounded-full text-xs font-bold border border-slate-200 bg-white text-slate-700 hover:border-slate-400 transition-all">
+          🏛️ Enterprise & Public Sector
+        </button>
+      </div>
+
+      <!-- South Asia Regional Client Desk Banner (Shown for PK and IN) -->
+      <div id="south-asia-pricing-notice" class="hidden mb-10 p-5 rounded-2xl bg-emerald-50 border border-emerald-200 text-slate-900 max-w-4xl mx-auto shadow-xs">
+        <div class="flex items-start gap-3">
+          <span class="px-2.5 py-1 rounded-full bg-emerald-600 text-white text-[11px] font-bold uppercase tracking-wider shrink-0 mt-0.5">Regional Desk</span>
+          <div class="space-y-1">
+            <h4 class="text-sm font-bold text-slate-900">Custom Milestone Scoping for South Asia & Regional Clients</h4>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              For organizations and academies across Pakistan, India, and South Asia, TheEduAssist provides customized project milestones and local currency payment arrangements.
+            </p>
+            <div class="pt-2 flex items-center gap-4">
+              <a href="/contact-us/?ref=south-asia-desk" class="text-xs font-bold text-emerald-800 hover:underline">
+                Speak With Regional Accounts Desk &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="pricing-cards-grid">
         {engagementModels.map(pkg => (
-          <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 flex flex-col justify-between hover:border-brand-green/50 hover:shadow-md transition-all relative">
+          <div class="pricing-model-card bg-white rounded-2xl shadow-sm border border-slate-200 p-8 flex flex-col justify-between hover:border-brand-green/50 hover:shadow-md transition-all relative" data-category={pkg.category}>
             <div>
               <div class="flex justify-between items-center mb-4">
                 <span class="inline-block bg-slate-100 text-brand-navy text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full border border-slate-200">
@@ -453,4 +492,79 @@ const jsonLd = [
       </div>
     </div>
   </section>
+
+  <script>
+    function initPricingTabsAndGeo() {
+      // 1. Audience Filter Tabs
+      const tabBtns = document.querySelectorAll('#pricing-audience-tabs .audience-tab-btn');
+      const cards = document.querySelectorAll<HTMLElement>('.pricing-model-card');
+
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          tabBtns.forEach(b => {
+            b.classList.remove('active', 'border-2', 'border-[#77BA55]', 'bg-[#77BA55]/15', 'text-brand-navy', 'shadow-xs');
+            b.classList.add('border', 'border-slate-200', 'bg-white', 'text-slate-700');
+          });
+
+          btn.classList.add('active', 'border-2', 'border-[#77BA55]', 'bg-[#77BA55]/15', 'text-brand-navy', 'shadow-xs');
+          btn.classList.remove('border', 'border-slate-200', 'bg-white', 'text-slate-700');
+
+          const filter = btn.getAttribute('data-filter') || 'all';
+
+          cards.forEach(card => {
+            const cat = card.getAttribute('data-category');
+            if (filter === 'all') {
+              card.classList.remove('hidden');
+            } else if (filter === 'creator') {
+              if (cat === 'creator' || cat === 'retainer') {
+                card.classList.remove('hidden');
+              } else {
+                card.classList.add('hidden');
+              }
+            } else if (filter === 'compliance') {
+              if (cat === 'compliance' || cat === 'retainer') {
+                card.classList.remove('hidden');
+              } else {
+                card.classList.add('hidden');
+              }
+            } else if (filter === 'enterprise') {
+              if (cat === 'enterprise' || cat === 'retainer') {
+                card.classList.remove('hidden');
+              } else {
+                card.classList.add('hidden');
+              }
+            }
+          });
+        });
+      });
+
+      // 2. South Asia Regional Client Desk Display
+      const saNotice = document.getElementById('south-asia-pricing-notice');
+      if (!saNotice) return;
+
+      const storedCountry = sessionStorage.getItem('theeduassist_user_country');
+      const tz = (Intl && Intl.DateTimeFormat) ? Intl.DateTimeFormat().resolvedOptions().timeZone : '';
+
+      if (storedCountry === 'PK' || storedCountry === 'IN' || tz.includes('Karachi') || tz.includes('Calcutta') || tz.includes('Kolkata')) {
+        saNotice.classList.remove('hidden');
+      } else if (!storedCountry) {
+        // Asynchronous lookup if not yet cached
+        fetch('https://api.country.is/')
+          .then(res => res.json())
+          .then(data => {
+            if (data && (data.country === 'PK' || data.country === 'IN')) {
+              sessionStorage.setItem('theeduassist_user_country', data.country);
+              saNotice.classList.remove('hidden');
+            }
+          })
+          .catch(() => {});
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initPricingTabsAndGeo);
+    } else {
+      initPricingTabsAndGeo();
+    }
+  </script>
 </Layout>

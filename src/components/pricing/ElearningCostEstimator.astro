@@ -1,5 +1,5 @@
 ---
-import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, CheckCircle2, Layers } from "lucide-react";
+import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, CheckCircle2, Layers, Globe } from "lucide-react";
 ---
 
 <div class="bg-white rounded-3xl border border-slate-200 shadow-xl overflow-hidden" id="estimator">
@@ -12,12 +12,26 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
         </div>
         <h3 class="text-2xl sm:text-3xl font-extrabold text-white">eLearning Project Cost & Timeline Estimator</h3>
         <p class="text-slate-300 text-sm mt-1 max-w-xl">
-          Configure your course scope, authoring tool, and interactivity requirements to calculate an immediate budget range and sprint timeline.
+          Configure your course scope, authoring tool, localization, and interactivity to calculate an immediate budget range and sprint timeline.
         </p>
       </div>
-      <div class="hidden sm:block text-right">
-        <span class="text-xs text-slate-400 block">Pricing Model</span>
-        <span class="text-sm font-bold text-teal-300">Milestone SOW • Zero Hidden Fees</span>
+      <div class="flex flex-col sm:items-end gap-2">
+        <div class="hidden sm:block text-right">
+          <span class="text-xs text-slate-400 block">Pricing Model</span>
+          <span class="text-sm font-bold text-teal-300">Milestone SOW • Zero Hidden Fees</span>
+        </div>
+        <!-- Currency Switcher Bar -->
+        <div id="currency-selector-bar" class="flex items-center gap-1.5 bg-black/40 p-1.5 rounded-xl border border-white/10 flex-wrap">
+          <span class="text-[11px] font-bold text-slate-400 px-1 uppercase tracking-wider flex items-center gap-1">
+            <Globe className="w-3 h-3 text-teal-400" />
+            Currency:
+          </span>
+          <button type="button" data-curr="USD" class="curr-btn active px-2.5 py-1 rounded-lg text-xs font-bold bg-teal-500 text-slate-950 transition-all">🇺🇸 USD ($)</button>
+          <button type="button" data-curr="GBP" class="curr-btn px-2.5 py-1 rounded-lg text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 transition-all">🇬🇧 GBP (£)</button>
+          <button type="button" data-curr="EUR" class="curr-btn px-2.5 py-1 rounded-lg text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 transition-all">🇪🇺 EUR (€)</button>
+          <button type="button" data-curr="AUD" class="curr-btn px-2.5 py-1 rounded-lg text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 transition-all">🇦🇺 AUD (A$)</button>
+          <button type="button" data-curr="CAD" class="curr-btn px-2.5 py-1 rounded-lg text-xs font-bold text-slate-300 hover:text-white hover:bg-white/10 transition-all">🇨🇦 CAD (C$)</button>
+        </div>
       </div>
     </div>
   </div>
@@ -97,7 +111,7 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
         </div>
       </div>
 
-      <!-- Step 4: Optional Enterprise Add-ons -->
+      <!-- Step 4: Specialized Enterprise Add-ons & Localization -->
       <div>
         <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2.5">
           Step 4: Specialized Enterprise Add-Ons
@@ -118,14 +132,53 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
               <div class="text-[11px] text-slate-500">GCC HSE safety & cultural localization</div>
             </div>
           </label>
+
+          <!-- Multilingual Course & Video Localization Add-on -->
+          <div class="sm:col-span-2 p-3.5 rounded-xl border border-slate-200 bg-slate-50/70 space-y-3">
+            <div class="flex items-center justify-between">
+              <label class="flex items-center gap-2.5 cursor-pointer">
+                <input type="checkbox" id="addon-localization" class="w-4 h-4 text-teal-600 rounded focus:ring-teal-500 border-slate-300" />
+                <span class="text-xs font-bold text-slate-900">Multilingual Course & Video Translation</span>
+              </label>
+              <span class="text-xs font-bold text-teal-700" id="localization-cost-preview">From +$850 / language</span>
+            </div>
+            
+            <div id="localization-suboptions" class="hidden pt-3 border-t border-slate-200 space-y-3">
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-2" id="loc-tier-options">
+                <button type="button" data-loctier="subtitles" class="loc-tier-btn active text-left p-2.5 rounded-lg border-2 border-teal-600 bg-teal-50 transition-all">
+                  <div class="text-xs font-bold text-slate-900">Subtitles & UI Text</div>
+                  <div class="text-[10px] text-slate-500 mt-0.5">XLIFF + .vtt/.srt captions</div>
+                </button>
+                <button type="button" data-loctier="dubbing" class="loc-tier-btn text-left p-2.5 rounded-lg border border-slate-200 bg-white hover:border-slate-300 transition-all">
+                  <div class="text-xs font-bold text-slate-900">AI Voice Dubbing + RTL</div>
+                  <div class="text-[10px] text-slate-500 mt-0.5">Neural voice sync & Arabic RTL</div>
+                </button>
+                <button type="button" data-loctier="studio" class="loc-tier-btn text-left p-2.5 rounded-lg border border-slate-200 bg-white hover:border-slate-300 transition-all">
+                  <div class="text-xs font-bold text-slate-900">Studio Human Voiceover</div>
+                  <div class="text-[10px] text-slate-500 mt-0.5">Native actors & cultural review</div>
+                </button>
+              </div>
+
+              <div class="flex items-center justify-between text-xs text-slate-600 pt-1">
+                <span class="font-semibold text-slate-700">Target Languages:</span>
+                <div class="flex items-center gap-1.5" id="loc-lang-count">
+                  <button type="button" data-langs="1" class="lang-count-btn active px-2.5 py-1 rounded-md text-xs font-bold border-2 border-teal-600 bg-teal-50 text-slate-900">1 Language</button>
+                  <button type="button" data-langs="2" class="lang-count-btn px-2.5 py-1 rounded-md text-xs font-bold border border-slate-200 bg-white text-slate-700">2 Languages</button>
+                  <button type="button" data-langs="3" class="lang-count-btn px-2.5 py-1 rounded-md text-xs font-bold border border-slate-200 bg-white text-slate-700">3+ Languages</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
     </div>
 
     <!-- Live Calculation Output (Right 5 Cols) -->
-    <div class="lg:col-span-5 flex flex-col justify-between bg-slate-900 text-white rounded-2xl p-6 sm:p-8 border border-slate-800 shadow-lg">
-      <div class="space-y-6">
+    <div class="lg:col-span-5 flex flex-col justify-between bg-slate-900 text-white rounded-2xl p-6 sm:p-8 border border-slate-800 shadow-lg relative">
+      
+      <!-- Standard International Pricing Block (Active for US, UK, EU, AU, CA, GCC) -->
+      <div id="western-pricing-block" class="space-y-6">
         <div class="flex items-center justify-between pb-4 border-b border-slate-800">
           <div>
             <span class="text-xs text-teal-400 font-bold uppercase tracking-wider">Estimated Project Scope</span>
@@ -143,7 +196,7 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
             $2,800 – $4,200 USD
           </div>
           <div class="flex items-center gap-2 text-xs text-slate-400 pt-1">
-            <span class="line-through text-slate-500" id="western-agency-price">US/UK Agency: $7,500 – $12,000</span>
+            <span class="line-through text-slate-500" id="western-agency-price">US Agency: $7,500 – $12,000</span>
             <span class="text-emerald-400 font-bold" id="savings-badge">Save ~60%</span>
           </div>
         </div>
@@ -184,22 +237,70 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
             </li>
           </ul>
         </div>
+
+        <!-- Action Button -->
+        <div class="pt-6 border-t border-slate-800 space-y-3">
+          <a 
+            href="/book-free-audit/" 
+            id="estimator-cta"
+            class="btn-shimmer w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-black text-sm bg-teal-500 hover:bg-teal-400 text-slate-950 shadow-lg shadow-teal-500/25 transition-all text-center"
+          >
+            Book Free Review With This Scope
+            <ArrowRight className="w-4 h-4 ml-2" />
+          </a>
+          <p class="text-[11px] text-slate-400 text-center">
+            Transparent SOW agreement • Non-disclosure agreement (NDA) signed upon request.
+          </p>
+        </div>
       </div>
 
-      <!-- Action Button -->
-      <div class="mt-8 pt-6 border-t border-slate-800 space-y-3">
-        <a 
-          href="/book-free-audit/" 
-          id="estimator-cta"
-          class="btn-shimmer w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-black text-sm bg-teal-500 hover:bg-teal-400 text-slate-950 shadow-lg shadow-teal-500/25 transition-all text-center"
-        >
-          Book Free Review With This Scope
-          <ArrowRight className="w-4 h-4 ml-2" />
-        </a>
-        <p class="text-[11px] text-slate-400 text-center">
-          Transparent SOW agreement • Non-disclosure agreement (NDA) signed upon request.
-        </p>
+      <!-- South Asia Regional Client Desk (Shown automatically for Pakistan & India) -->
+      <div id="south-asia-scoping-box" class="hidden space-y-6">
+        <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+          <div>
+            <span class="text-xs text-emerald-400 font-bold uppercase tracking-wider">South Asia Solutions Desk</span>
+            <h4 class="text-lg font-bold text-white mt-0.5">Custom Regional Project Scoping</h4>
+          </div>
+          <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold border border-emerald-500/30">
+            Regional SOW
+          </span>
+        </div>
+
+        <div class="space-y-3 p-4 rounded-xl bg-white/5 border border-white/10">
+          <h5 class="text-sm font-bold text-white">Partnering with Organizations Across South Asia</h5>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            Whether deploying institutional digital academies, healthcare onboarding, or bespoke corporate compliance training, TheEduAssist provides customized project scoping, tailored milestones, and localized payment terms.
+          </p>
+          <ul class="space-y-1.5 text-xs text-slate-300 pt-2">
+            <li class="flex items-center gap-2">
+              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+              <span>Dedicated senior instructional design team</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+              <span>Turnkey LMS deployment (Kajabi, Moodle, Canvas, TalentLMS)</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+              <span>Milestone-based delivery with bilateral NDA execution</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="pt-6 border-t border-slate-800 space-y-3">
+          <a 
+            href="/contact-us/?ref=south-asia-desk" 
+            class="btn-shimmer w-full inline-flex items-center justify-center px-6 py-3.5 rounded-xl font-black text-sm bg-emerald-400 hover:bg-emerald-300 text-slate-950 shadow-lg shadow-emerald-500/25 transition-all text-center"
+          >
+            Request Regional Scoping & SOW
+            <ArrowRight className="w-4 h-4 ml-2" />
+          </a>
+          <p class="text-[11px] text-slate-400 text-center">
+            Connect directly with our regional solutions directors for custom scoping proposals.
+          </p>
+        </div>
       </div>
+
     </div>
   </div>
 </div>
@@ -209,8 +310,16 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
     const formatBtns = document.querySelectorAll('#format-options .format-btn');
     const volumeBtns = document.querySelectorAll('#volume-options .volume-btn');
     const levelBtns = document.querySelectorAll('#level-options .level-btn');
+    const currBtns = document.querySelectorAll('#currency-selector-bar .curr-btn');
     const wcagAddon = document.getElementById('addon-wcag') as HTMLInputElement | null;
     const bilingualAddon = document.getElementById('addon-bilingual') as HTMLInputElement | null;
+    
+    // Localization elements
+    const locAddon = document.getElementById('addon-localization') as HTMLInputElement | null;
+    const locSuboptions = document.getElementById('localization-suboptions');
+    const locTierBtns = document.querySelectorAll('#loc-tier-options .loc-tier-btn');
+    const locLangBtns = document.querySelectorAll('#loc-lang-count .lang-count-btn');
+    const locCostPreview = document.getElementById('localization-cost-preview');
 
     const headlineEl = document.getElementById('estimate-headline');
     const priceRangeEl = document.getElementById('price-range');
@@ -218,13 +327,32 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
     const savingsEl = document.getElementById('savings-badge');
     const timelineEl = document.getElementById('timeline-display');
     const ctaEl = document.getElementById('estimator-cta') as HTMLAnchorElement | null;
+    const westernPricingBlock = document.getElementById('western-pricing-block');
+    const southAsiaScopingBox = document.getElementById('south-asia-scoping-box');
+    const currencyBar = document.getElementById('currency-selector-bar');
 
     let selectedFormat = 'storyline';
     let selectedVolume = 3;
     let selectedLevel = 2;
+    let selectedLocTier = 'subtitles';
+    let selectedLocLangs = 1;
+    let activeCurrency = 'USD';
+    let isSouthAsia = false;
+
+    const CURRENCIES: Record<string, { code: string; symbol: string; rate: number; agencyLabel: string }> = {
+      USD: { code: 'USD', symbol: '$', rate: 1.0, agencyLabel: 'US Agency:' },
+      GBP: { code: 'GBP', symbol: '£', rate: 0.80, agencyLabel: 'London Agency:' },
+      EUR: { code: 'EUR', symbol: '€', rate: 0.92, agencyLabel: 'EU Agency:' },
+      AUD: { code: 'AUD', symbol: 'A$', rate: 1.52, agencyLabel: 'Sydney Agency:' },
+      CAD: { code: 'CAD', symbol: 'C$', rate: 1.38, agencyLabel: 'Toronto Agency:' }
+    };
 
     function recalculate() {
-      // Base per module calculation
+      if (isSouthAsia) return;
+
+      const curr = CURRENCIES[activeCurrency] || CURRENCIES.USD;
+
+      // Base per module calculation (in USD base)
       let baseMinPerMod = 600;
       let baseMaxPerMod = 900;
       let weeks = 3;
@@ -254,8 +382,20 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
       if (wcagAddon?.checked) addonCost += 600;
       if (bilingualAddon?.checked) addonCost += 800;
 
-      let totalMin = Math.round((baseMinPerMod * selectedVolume) + addonCost);
-      let totalMax = Math.round((baseMaxPerMod * selectedVolume) + (addonCost * 1.25));
+      // Localization Add-on
+      if (locAddon?.checked) {
+        let perLangCost = 850;
+        if (selectedLocTier === 'dubbing') perLangCost = 1650;
+        else if (selectedLocTier === 'studio') perLangCost = 3200;
+        addonCost += (perLangCost * selectedLocLangs);
+      }
+
+      let totalMinUSD = Math.round((baseMinPerMod * selectedVolume) + addonCost);
+      let totalMaxUSD = Math.round((baseMaxPerMod * selectedVolume) + (addonCost * 1.25));
+
+      // Convert to active currency
+      let totalMin = Math.round(totalMinUSD * curr.rate / 50) * 50;
+      let totalMax = Math.round(totalMaxUSD * curr.rate / 50) * 50;
 
       // Calculate timeline
       if (selectedVolume === 1) {
@@ -268,19 +408,19 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
         weeks = 8;
       }
 
-      if (selectedLevel === 3 || wcagAddon?.checked) {
+      if (selectedLevel === 3 || wcagAddon?.checked || (locAddon?.checked && selectedLocLangs > 1)) {
         weeks += 1;
       }
 
-      // Western agency comparison (~2.5x to 3x)
-      let westernMin = Math.round(totalMin * 2.6);
-      let westernMax = Math.round(totalMax * 2.8);
+      // Agency comparison (~2.5x to 2.8x)
+      let westernMin = Math.round((totalMin * 2.6) / 100) * 100;
+      let westernMax = Math.round((totalMax * 2.8) / 100) * 100;
 
       if (priceRangeEl) {
-        priceRangeEl.textContent = `$${totalMin.toLocaleString()} – $${totalMax.toLocaleString()} USD`;
+        priceRangeEl.textContent = `${curr.symbol}${totalMin.toLocaleString()} – ${curr.symbol}${totalMax.toLocaleString()} ${curr.code}`;
       }
       if (westernPriceEl) {
-        westernPriceEl.textContent = `US/UK Agency: $${westernMin.toLocaleString()} – $${westernMax.toLocaleString()}`;
+        westernPriceEl.textContent = `${curr.agencyLabel} ${curr.symbol}${westernMin.toLocaleString()} – ${curr.symbol}${westernMax.toLocaleString()}`;
       }
       if (savingsEl) {
         savingsEl.textContent = `Save ~60%`;
@@ -295,10 +435,89 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
         else headlineEl.textContent = "Enterprise Academy Program";
       }
 
+      if (locCostPreview) {
+        let basePreview = 850;
+        if (selectedLocTier === 'dubbing') basePreview = 1650;
+        else if (selectedLocTier === 'studio') basePreview = 3200;
+        const convPreview = Math.round(basePreview * curr.rate / 25) * 25;
+        locCostPreview.textContent = `From +${curr.symbol}${convPreview.toLocaleString()} / lang`;
+      }
+
       if (ctaEl) {
-        ctaEl.href = `/book-free-audit/?format=${selectedFormat}&volume=${selectedVolume}&level=${selectedLevel}`;
+        ctaEl.href = `/book-free-audit/?format=${selectedFormat}&volume=${selectedVolume}&level=${selectedLevel}&curr=${curr.code}`;
       }
     }
+
+    function setCurrency(newCurr: string) {
+      if (!CURRENCIES[newCurr]) return;
+      activeCurrency = newCurr;
+      currBtns.forEach(b => {
+        if (b.getAttribute('data-curr') === newCurr) {
+          b.classList.add('active', 'bg-teal-500', 'text-slate-950');
+          b.classList.remove('text-slate-300', 'bg-white/10');
+        } else {
+          b.classList.remove('active', 'bg-teal-500', 'text-slate-950');
+          b.classList.add('text-slate-300');
+        }
+      });
+      recalculate();
+    }
+
+    // Geolocation detection respecting user privacy and Google search essentials
+    async function detectGeo() {
+      try {
+        const storedCountry = sessionStorage.getItem('theeduassist_user_country');
+        if (storedCountry) {
+          applyGeoCountry(storedCountry);
+          return;
+        }
+
+        // Fast browser timezone fallback check
+        const tz = (Intl && Intl.DateTimeFormat) ? Intl.DateTimeFormat().resolvedOptions().timeZone : '';
+        if (tz.includes('Karachi') || tz.includes('Calcutta') || tz.includes('Kolkata')) {
+          applyGeoCountry(tz.includes('Karachi') ? 'PK' : 'IN');
+          return;
+        }
+
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 1200);
+        const res = await fetch('https://api.country.is/', { signal: controller.signal });
+        clearTimeout(timeoutId);
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.country) {
+            sessionStorage.setItem('theeduassist_user_country', data.country);
+            applyGeoCountry(data.country);
+          }
+        }
+      } catch (e) {
+        // Fallback gracefully to USD
+      }
+    }
+
+    function applyGeoCountry(country: string) {
+      if (country === 'PK' || country === 'IN') {
+        isSouthAsia = true;
+        if (southAsiaScopingBox) southAsiaScopingBox.classList.remove('hidden');
+        if (westernPricingBlock) westernPricingBlock.classList.add('hidden');
+        if (currencyBar) currencyBar.classList.add('hidden');
+        return;
+      }
+
+      if (country === 'GB') setCurrency('GBP');
+      else if (country === 'AU') setCurrency('AUD');
+      else if (country === 'CA') setCurrency('CAD');
+      else if (['DE', 'FR', 'NL', 'ES', 'IT', 'IE', 'BE', 'AT', 'SE', 'PT', 'FI'].includes(country)) setCurrency('EUR');
+      else setCurrency('USD');
+    }
+
+    // Event Listeners
+    currBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const c = btn.getAttribute('data-curr') || 'USD';
+        setCurrency(c);
+      });
+    });
 
     formatBtns.forEach(btn => {
       btn.addEventListener('click', () => {
@@ -342,7 +561,43 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
     wcagAddon?.addEventListener('change', recalculate);
     bilingualAddon?.addEventListener('change', recalculate);
 
+    locAddon?.addEventListener('change', () => {
+      if (locAddon.checked) {
+        locSuboptions?.classList.remove('hidden');
+      } else {
+        locSuboptions?.classList.add('hidden');
+      }
+      recalculate();
+    });
+
+    locTierBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        locTierBtns.forEach(b => {
+          b.classList.remove('active', 'border-teal-600', 'bg-teal-50', 'border-2');
+          b.classList.add('border-slate-200', 'bg-white', 'border');
+        });
+        btn.classList.add('active', 'border-teal-600', 'bg-teal-50', 'border-2');
+        btn.classList.remove('border-slate-200', 'bg-white', 'border');
+        selectedLocTier = btn.getAttribute('data-loctier') || 'subtitles';
+        recalculate();
+      });
+    });
+
+    locLangBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        locLangBtns.forEach(b => {
+          b.classList.remove('active', 'border-teal-600', 'bg-teal-50', 'border-2');
+          b.classList.add('border-slate-200', 'bg-white', 'border');
+        });
+        btn.classList.add('active', 'border-teal-600', 'bg-teal-50', 'border-2');
+        btn.classList.remove('border-slate-200', 'bg-white', 'border');
+        selectedLocLangs = parseInt(btn.getAttribute('data-langs') || '1', 10);
+        recalculate();
+      });
+    });
+
     recalculate();
+    detectGeo();
   }
 
   // Initialize on load
