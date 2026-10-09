@@ -298,6 +298,9 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
           <p class="text-[11px] text-slate-400 text-center">
             Connect directly with our regional solutions directors for custom scoping proposals.
           </p>
+          <button type="button" id="toggle-international-view-btn" class="text-[11px] text-slate-400 hover:text-teal-300 underline block mx-auto pt-1 cursor-pointer">
+            Switch to International Currency Calculator &rarr;
+          </button>
         </div>
       </div>
 
@@ -594,6 +597,16 @@ import { Calculator, Clock, DollarSign, ShieldCheck, ArrowRight, Sparkles, Check
         selectedLocLangs = parseInt(btn.getAttribute('data-langs') || '1', 10);
         recalculate();
       });
+    });
+
+    const toggleIntlBtn = document.getElementById('toggle-international-view-btn');
+    toggleIntlBtn?.addEventListener('click', () => {
+      isSouthAsia = false;
+      sessionStorage.setItem('theeduassist_user_country', 'US');
+      if (southAsiaScopingBox) southAsiaScopingBox.classList.add('hidden');
+      if (westernPricingBlock) westernPricingBlock.classList.remove('hidden');
+      if (currencyBar) currencyBar.classList.remove('hidden');
+      setCurrency('USD');
     });
 
     recalculate();
